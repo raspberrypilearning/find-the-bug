@@ -7,5 +7,16 @@ copyedit: false
 last_tested: "2021-02-26"
 steps:
   - title: Introduction
-  - title: Step title
-  - title: What next?
+  - title: Add a first level
+  - title: Add a parrot distraction
+  - title: Add a second level
+  - title: Add an end screen
+  - title: Play the game
+  - title: Reflection
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Upgrade your game
+  - title: What next
