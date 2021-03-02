@@ -3,7 +3,7 @@
 You will create a game where you have to find a hidden bug on each level. The game will have start and end screen backdrops and a timer to show how quickly you found the bugs. 
 
 You will:
-+ Use `next backdrop`{:class="block3events"} and run code blocks `when backdrop switches`{:class="block3events"}
++ Use `next backdrop`{:class="block3looks"} and run code blocks `when backdrop switches`{:class="block3events"}
 + Use a `forever`{:class="block3control"} loop to keep running code blocks
 + `say`{:class="block3looks"} the value of the `timer`{:class="block3sensing"} **variable** and use `reset timer`{:class="block3sensing"}
 
