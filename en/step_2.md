@@ -92,7 +92,7 @@ Drag the bug onto the Chalkboard on the Stage:
 In this project you will be switching backdrops. The bug needs to move to the position you have chosen when the backdrop switches to the Start screen.
 
 --- task ---
-Add code to the bug to position on the Chalkboard every time your project switches to the Start screen:
+Click on the bug in the Sprite list. Add code to the bug to position on the Chalkboard every time your project switches to the Start screen:
 
 ![Bug sprite](images/bug-sprite.png)
 
