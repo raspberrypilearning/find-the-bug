@@ -23,6 +23,9 @@ You can choose a different size and location if you prefer.
 
 When you successfully find the bug the game will switch to the next backdrop. You'll also start the game by clicking on the bug on the Start screen.
 
+
+The `next backdrop` block switches to the next backdrop in the order that the backdrops are listed when you click on the Stage pane. After the last backdrop in the list, `next backdrop` will switch back to the first backdrop.
+
 --- task ---
 
 Add code to your bug to play a pop sound and switch to the next backdrop when you click on it:
