@@ -1,6 +1,6 @@
 ## Create a start screen
 
-Your game will start with a title screen, players will click the bug to start.
+Your game will begin with a start screen, players will click the bug to go to the first level.
 
 --- task ---
 
@@ -85,7 +85,7 @@ Delete the Scratch cat sprite.
 
 --- task ---
 
-Click on 'Choose and sprite' and type 'bug' into the search. Choose a bug for players to find in your game. 
+Click on 'Choose a sprite' and type 'bug' into the search. Choose a bug for players to find in your game. 
 
 ![Bug search results showing multiple bugs](images/bug-search.png)
 
@@ -94,6 +94,6 @@ Click on 'Choose and sprite' and type 'bug' into the search. Choose a bug for pl
 --- save ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A mistakes in a computer program is called a <span style="color: #0faeb0">bug</span>. Finding and removing mistakes in computer programs is called <span style="color: #0faeb0">debugging</span>. Grace Hopper is a famous software engineer. Her team once found a moth in their computer. Their notes say "First actual case of bug being found."
+A mistake in a computer program is called a <span style="color: #0faeb0">bug</span>. Finding and removing mistakes in computer programs is called <span style="color: #0faeb0">debugging</span>. Grace Hopper is a famous software engineer. Her team once found a moth in their computer. Their notes say "First actual case of bug being found."
 </p>
 

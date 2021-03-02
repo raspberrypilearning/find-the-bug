@@ -3,9 +3,9 @@
 You will create a game where you have to find a hidden bug on each level. The game will have start and end screen backdrops and a timer to show how quickly you found the bugs. 
 
 You will:
-+ `switch backdrop to`{:class="block3events"} and run code blocks `when backdrop switches`{:class="block3events"}
++ Use `next backdrop`{:class="block3events"} and run code blocks `when backdrop switches`{:class="block3events"}
 + Use a `forever`{:class="block3control"} loop to keep running code blocks
-+ `say`{:class="block3looks"} the value of the `timer`{:class="block3sensing"} **variable** and reset `timer`{:class="block3sensing"}
++ `say`{:class="block3looks"} the value of the `timer`{:class="block3sensing"} **variable** and use `reset timer`{:class="block3sensing"}
 
 --- no-print ---
 --- task --- 
@@ -20,7 +20,7 @@ How well are the bugs hidden? You'll get to add your own levels and make it as e
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/482983562/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719939/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 --- /task ---

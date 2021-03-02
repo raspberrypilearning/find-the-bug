@@ -1,6 +1,6 @@
 ## Upgrade your game
 
-If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding. 
+If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text. 
 
 Here are the blocks you will need to hide the bug on a new level:
 

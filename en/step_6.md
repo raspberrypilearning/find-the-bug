@@ -12,9 +12,11 @@ Add the 'Chalkboard' backdrop from the Indoors category.
 
 --- /task ---
 
+--- task ---
+
 Click on the 'Backdrops' tab to open the Paint editor. 
 
-![Chalkboard backdrop in the Paint editor](images/chalkboard-paint.png)
+![Chalkboard backdrop in the Paint editor](images/chalkboard2-paint.png)
 
 --- /task ---
 
@@ -24,20 +26,20 @@ Change the name of the backdrop to 'end':
 
 ![Backdrop name changed to Start screen in the paint editor](images/end-screen-name.png)
 
+**Tip:** Renaming the backdrop to end makes it easier to understand your code. 
+
 --- /task ---
 
 --- task ---
-Add code to position the bug on the end screen:
+Click on the bug sprite and add code to position the bug on the end screen:
 
-![Bug sprite](images/bug-sprite)
+![Bug sprite](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
-go to x: [0] y: [30] // on the board
 set size to [100] % // full size
+go to x: [0] y: [30] // on the board
 ```
-
-**Tip:** Renaming the backdrop to end makes it easier to understand your code. 
 
 --- /task ---
 
@@ -47,14 +49,16 @@ How long does it take you to find and click on the bugs? Scratch has a built-in 
 
 The `timer`{:class="block3sensing"} is in the `Sensing`{:class="block3sensing"} Blocks menu.
 
-![Bug sprite](images/bug-sprite)
+![Bug sprite](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
-go to x: [-75] y: [30] // on the board
 set size to [100] % // full size
+go to x: [0] y: [30] // on the board
 +say (timer) // seconds taken
 ```
+
+![Gif showing how to insert blocks into other blocks](images/inserting-blocks.gif)
 
 --- /task ---
 
@@ -69,12 +73,12 @@ You can click on the bug on the end screen to go back to the start screen.
 --- task ---
 Add code to make the bug stop saying the timer when you go to the start screen:
 
-![Bug sprite](images/bug-sprite)
+![Bug sprite](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
-go to x: [0] y: [30] // on the board
 set size to [100] % // full size
+go to x: [0] y: [30] // on the board
 +say [] // say nothing
 ```
 
@@ -90,13 +94,13 @@ If you play the game a second time, the `timer`{:class="block3sensing"} will kee
 
 Reset the timer when you switch to the first level:
 
-![Bug sprite](images/bug-sprite)
+![Bug sprite](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
-+reset timer // start the timer
 set size to [20] % // tiny
 go to x: [13] y: [132] // on the disco ball
++reset timer // start the timer
 ```
 
 --- /task ---

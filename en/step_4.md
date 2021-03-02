@@ -13,7 +13,7 @@ A `forever`{:class="block3control"} loop runs the code blocks inside it over and
 
 Add code to make the parrot flap around in a distracting way:
 
-![Parrot sprite](images/parrot-sprite)
+![Parrot sprite](images/parrot-sprite.png)
 
 
 ```blocks3

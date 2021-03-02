@@ -12,7 +12,7 @@ Add the 'Spotlight' backdrop from the Music category.
 
 Click on the bug in the Sprite list. Add code to change your bug size when the backdrop switches to Spotlight:
 
-![Bug sprite](images/bug-sprite)
+![Bug sprite](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
@@ -27,7 +27,7 @@ Click on the code to change the size then drag your tiny bug to a hiding place.
 
 Add code to position your bug:
 
-![Bug sprite](images/bug-sprite)
+![Bug sprite](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
@@ -47,7 +47,7 @@ The `next backdrop`{:class="block3looks"} block switches to the next backdrop in
 
 Add code to your bug to play a pop sound and switch to the `next backdrop`{:class="block3looks"} when you click on it:
 
-![Bug sprite](images/bug-sprite)
+![Bug sprite](images/bug-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -63,7 +63,7 @@ Your project needs to start on the Start screen.
 
 Click on the Stage pane and add this code to the stage:
 
-![Image of the stage icon](images/stage-image)
+![Image of the stage icon](images/stage-image.png)
 
 ```blocks3
 when flag clicked

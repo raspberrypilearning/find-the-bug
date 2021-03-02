@@ -26,7 +26,7 @@ Drag the blocks away from the `when this sprite clicked`{:class="block3events"} 
 
 Add code to resize the bug when the backdrop switches to the Urban backdrop:
 
-![Bug sprite](images/bug-sprite)
+![Bug sprite](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -47,7 +47,7 @@ Click on your new code to run it then drag your bug on the Stage to a good hidin
 
 Add code to position your bug in the hiding place when the backdrop changes to your chosen backdrop:
 
-![Bug sprite](images/bug-sprite)
+![Bug sprite](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -76,7 +76,7 @@ Your bug may now be in front of the parrot.
 
 Add a script to make sure your bug is always at the back:
 
-![Bug sprite](images/bug-sprite)
+![Bug sprite](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked
