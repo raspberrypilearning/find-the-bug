@@ -14,7 +14,7 @@ You will:
 
 
 --- no-print ---
---- task ---
+--- task --- 
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
@@ -27,6 +27,7 @@ Try and find the bug.
 </div>
 </div>
 --- /task ---
+
 --- /no-print ---
 
 --- print-only ---

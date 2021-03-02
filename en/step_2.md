@@ -42,7 +42,16 @@ Click on the 'Backdrops' tab to open the Paint editor.
 --- /task ---
 
 --- task ---
-Click on 'Convert to Vector'. This will allow you to add text that you can move around. 
+
+Select 'backdrop1' and  click on the trash can to remove it from your project. You won't be using it.
+
+![Deleting backdrop1 using the trash can icon](images/delete-backdrop1.png)
+
+--- /task ---
+
+--- task ---
+
+The 'Chalkboard' backdrop will now be highlighted. Click on 'Convert to Vector'. This will allow you to add text that you can move around. 
 
 ![Convert to Vector button highlighted](images/vector-button.png)
 
@@ -60,7 +69,6 @@ Tip: Switch to the Select (arrow) tool to move your text around. Grab the corner
 
 --- /task ---
 
-
 --- task ---
 
 Change the name of the backdrop to 'start' to make it easier to use:
@@ -70,36 +78,17 @@ Change the name of the backdrop to 'start' to make it easier to use:
 --- /task ---
 
 --- task ---
+
 Delete the Scratch cat sprite.
 
 --- /task ---
 
 --- task ---
+
 Click on 'Choose and sprite' and type 'bug' into the search. Choose a bug for players to find in your game. 
 
 ![Bug search results showing multiple bugs](images/bug-search.png)
 
---- /task ---
-
---- task ---
-
-Drag the bug onto the Chalkboard on the Stage:
-
-![Bug sprite positioned on the Chalkboard](images/bug-chalkboard.png)
-
---- /task ---
-
-In this project you will be switching backdrops. The bug needs to move to the position you have chosen when the backdrop switches to the Start screen.
-
---- task ---
-Click on the bug in the Sprite list. Add code to the bug to position on the Chalkboard every time your project switches to the Start screen:
-
-![Bug sprite](images/bug-sprite.png)
-
-```blocks3
-when backdrop switches to [start v]
-go to x: [0] y: [30] // on the board
-```
 --- /task ---
 
 --- save ---
