@@ -94,6 +94,7 @@ set size to [100] % // full size
 --- /task ---
 
 --- task ---
+
 Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that clicking the bug switches to the next backdrop:
 
 ![Code blocks joined back together](fixed-script.gif)
@@ -106,4 +107,4 @@ Join the blocks back to the `when this sprite clicked`{:class="block3events"} bl
 
 --- /task ---
 
---- /save ---
+--- save ---
