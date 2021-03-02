@@ -7,7 +7,7 @@ Add the parrot sprite.
 
 --- /task ---
 
-A `forever`{:class="block3control"} loop runs the code blocks inside it over and over. It's perfect for an annoying parrot that just won't stop flying around and getting in the way.
+A `forever`{:class="block3control"} loop runs the code blocks inside it again and agai. It's perfect for an annoying parrot that just won't stop flying around and getting in the way.
 
 --- task ---
 
@@ -33,6 +33,8 @@ end
 
 --- task ---
 **Test:** Click the green flag and test your project again. Can you remember where you hid the bug? 
+
+**Tip:** If the parrot gets too annoying while you are coding you can click on the red stop button above the Stage to stop it.
 
 --- /task ---
 
