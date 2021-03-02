@@ -4,25 +4,13 @@ Create an end screen to show the number of seconds it has taken to find the bugs
 
 --- task ---
 
-Add the 'Chalkboard' backdrop from the Indoors category.
+Add the 'Chalkboard' backdrop from the Indoors category. 
 
 ![A chalkboard on a wall](images/chalkboard.png)
 
-Tip: In Scratch you can add the same backdrop 
+**Tip:** In Scratch you can add the same backdrop more than once.
 
 --- /task ---
-
-The Stage has a Backdrops tab instead of a Costumes tab. This is where you can paint images for the Stage.
-
---- task ---
-
-Click on the Stage pane. 
-
-![Stage pane highlighted](images/stage-pane.png)
-
---- /task ---
-
---- task ---
 
 Click on the 'Backdrops' tab to open the Paint editor. 
 
@@ -32,37 +20,24 @@ Click on the 'Backdrops' tab to open the Paint editor.
 
 --- task ---
 
-Select 'backdrop1' and  click on the trash can to remove it from your project. You won't be using it.
+Change the name of the backdrop to 'end':
 
-![Deleting backdrop1 using the trash can icon](images/delete-backdrop1.png)
-
---- /task ---
-
---- task ---
-
-The 'Chalkboard' backdrop will now be highlighted. Click on 'Convert to Vector'. This will allow you to add text that you can move around. 
-
-![Convert to Vector button highlighted](images/vector-button.png)
+![Backdrop name changed to Start screen in the paint editor](images/end-screen-name.png)
 
 --- /task ---
 
 --- task ---
+Add code to position the bug on the end screen:
 
-Use the Text tool to add the text 'Find the bug' to the Chalkboard:
+![Bug sprite](images/bug-sprite)
 
-![Chalkboard backdrop in the Paint editor](images/chalkboard-text.png)
+```blocks3
+when backdrop switches to [end v]
+go to x: [0] y: [30] // on the board
+set size to [100] % // full size
+```
 
-We used the 'Marker' font in white, but you can choose.
-
-Tip: Switch to the Select (arrow) tool to move your text around. Grab the corner of the text and drag it to change the size.
-
---- /task ---
-
---- task ---
-
-Change the name of the backdrop to 'start' to make it easier to use:
-
-![Backdrop name changed to Start screen in the paint editor](images/start-screen-name.png)
+**Tip:** Renaming the backdrop to end makes it easier to understand your code. 
 
 --- /task ---
 
@@ -72,11 +47,13 @@ How long does it take you to find and click on the bugs? Scratch has a built-in 
 
 The `timer`{:class="block3sensing"} is in the `Sensing`{:class="block3sensing"} Blocks menu.
 
+![Bug sprite](images/bug-sprite)
+
 ```blocks3
 when backdrop switches to [end v]
 go to x: [-75] y: [30] // on the board
 set size to [100] % // full size
-say (timer) // seconds taken
++say (timer) // seconds taken
 ```
 
 --- /task ---
@@ -91,6 +68,8 @@ You can click on the bug on the end screen to go back to the start screen.
 
 --- task ---
 Add code to make the bug stop saying the timer when you go to the start screen:
+
+![Bug sprite](images/bug-sprite)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -111,6 +90,8 @@ If you play the game a second time, the `timer`{:class="block3sensing"} will kee
 
 Reset the timer when you switch to the first level:
 
+![Bug sprite](images/bug-sprite)
+
 ```blocks3
 when backdrop switches to [Spotlight v]
 +reset timer // start the timer
@@ -122,7 +103,7 @@ go to x: [13] y: [132] // on the disco ball
 
 --- task ---
 
-**Test:** Click the green flag and make sure the timer resets and the bug doesn't show the time when you return to the start screen.
+**Test:** Click the green flag and play the game. The timer should reset when you click on the bug on the start screen to move to the first level. When you click on the bug on the end screen you should return to the start screen and see that the bug is not saying the timer. 
 
 --- /task ---
 

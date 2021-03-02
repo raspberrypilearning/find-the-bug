@@ -1,26 +1,23 @@
 ## Introduction
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
-
-
-You will create sprites that ‘emote’ to share their thoughts or feelings.
-
-A **sprite** is a character or object in a Scratch project. A sprite can have code, costumes and sounds to change the way it looks and what it does.
+You will create a game where you have to find a hidden bug on each level. The game will have start and end screen backdrops and a timer to show how quickly you found the bugs. 
 
 You will:
 + `switch backdrop to`{:class="block3events"} and run code blocks `when backdrop switches`{:class="block3events"}
 + Use a `forever`{:class="block3control"} loop to keep running code blocks
 + `say`{:class="block3looks"} the value of the `timer`{:class="block3sensing"} **variable** and reset `timer`{:class="block3sensing"}
 
-
 --- no-print ---
 --- task --- 
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
-Click on each sprite to see what they do.
+Click on the bug to start the game.
 
-Try and find the bug.
+Try and find the bug on each level.
+
+How well are the bugs hidden? You'll get to add your own levels and make it as easy or difficult as you like.
+
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/482983562/?autostart=false" frameborder="0"></iframe>
@@ -35,5 +32,5 @@ Try and find the bug.
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: teal; background-color: aliceblue; padding: 10px;">
-**Did you know?** <span style="color: teal">**emotes**</span> Something about the history of videogames? Pong?
+More than 2.5 billion people play video games every year. Just think how many people are involved in creating those games. Would you like a job designing, coding or testing games for other people to play? 
 </p>

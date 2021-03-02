@@ -24,7 +24,20 @@ Drag the blocks away from the `when this sprite clicked`{:class="block3events"} 
 
 --- task ---
 
-Click on the bug on the Stage and move it to a good hiding place for this level. 
+Add code to resize the bug when the backdrop switches to the Urban backdrop:
+
+![Bug sprite](images/bug-sprite)
+
+```blocks3
+when backdrop switches to [Urban v]
+set size to [20] % // try another size 
+```
+
+--- /task ---
+
+--- task ---
+
+Click on your new code to run it then drag your bug on the Stage to a good hiding place for this level. 
 
 ![bug hidden on Urban backdrop](images/hidden-urban-backdrop.png)
 
@@ -34,10 +47,12 @@ Click on the bug on the Stage and move it to a good hiding place for this level.
 
 Add code to position your bug in the hiding place when the backdrop changes to your chosen backdrop:
 
+![Bug sprite](images/bug-sprite)
+
 ```blocks3
 when backdrop switches to [Urban v]
 set size to [20] % // try another size 
-go to x: [24] y: [13] // in the shop window
++ go to x: [24] y: [13] // in the shop window
 ```
 
 --- /task ---
@@ -52,6 +67,24 @@ Join the blocks back to the `when this sprite clicked`{:class="block3events"} bl
 --- task ---
 
 **Test:** Click the green flag to test your project. 
+
+--- /task ---
+
+Your bug may now be in front of the parrot. 
+
+--- task ---
+
+Add a script to make sure your bug is always at the back:
+
+![Bug sprite](images/bug-sprite)
+
+```blocks3
+when flag clicked
+forever
+go to [back v] layer
+```
+
+Now your bug will always stay at the back even if you need to reposition it.
 
 --- /task ---
 

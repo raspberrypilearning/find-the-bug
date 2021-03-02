@@ -1,13 +1,13 @@
-title: find-the-bug
+title: Find the bug
 hero_image: images/banner.png
-description: find-the-bug description
+description: Create a game where you have to find a hidden bug on each level.
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-02-26"
 steps:
   - title: Introduction
-  - title: Add a title screen
+  - title: Add a start screen
   - title: Add a first level
   - title: Add a parrot distraction
   - title: Add a second level

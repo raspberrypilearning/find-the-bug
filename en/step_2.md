@@ -1,4 +1,4 @@
-## Create a title screen
+## Create a start screen
 
 Your game will start with a title screen, players will click the bug to start.
 
@@ -65,7 +65,7 @@ Use the Text tool to add the text 'Find the bug' to the Chalkboard:
 
 We used the 'Marker' font in white, but you can choose.
 
-Tip: Switch to the Select (arrow) tool to move your text around. Grab the corner of the text and drag it to change the size.
+**Tip:** Switch to the Select (arrow) tool to move your text around. Grab the corner of the text and drag it to change the size.
 
 --- /task ---
 
@@ -92,3 +92,8 @@ Click on 'Choose and sprite' and type 'bug' into the search. Choose a bug for pl
 --- /task ---
 
 --- save ---
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+A mistakes in a computer program is called a <span style="color: #0faeb0">bug</span>. Finding and removing mistakes in computer programs is called <span style="color: #0faeb0">debugging</span>. Grace Hopper is a famous software engineer. Her team once found a moth in their computer. Their notes say "First actual case of bug being found."
+</p>
+

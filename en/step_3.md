@@ -10,12 +10,29 @@ Add the 'Spotlight' backdrop from the Music category.
 
 --- task ---
 
-Click on the bug in the Sprite list. Add code to position your bug in the hiding place when the backdrop changes to Spotlight:
+Click on the bug in the Sprite list. Add code to change your bug size when the backdrop switches to Spotlight:
+
+![Bug sprite](images/bug-sprite)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
 set size to [20] % // tiny
-go to x: [13] y: [132] // on the disco ball
+``` 
+
+--- /task ---
+
+--- task ---
+
+Click on the code to change the size then drag your tiny bug to a hiding place. 
+
+Add code to position your bug:
+
+![Bug sprite](images/bug-sprite)
+
+```blocks3
+when backdrop switches to [Spotlight v]
+set size to [20] % // tiny
++ go to x: [13] y: [132] // on the disco ball
 ```
 
 You can choose a different size and location if you prefer. 
@@ -30,6 +47,8 @@ The `next backdrop`{:class="block3looks"} block switches to the next backdrop in
 
 Add code to your bug to play a pop sound and switch to the `next backdrop`{:class="block3looks"} when you click on it:
 
+![Bug sprite](images/bug-sprite)
+
 ```blocks3
 when this sprite clicked
 play sound [Pop v] until done
@@ -42,7 +61,9 @@ Your project needs to start on the Start screen.
 
 --- task ---
 
-<mark>Should this be on the bug or the Stage?</mark>
+Click on the Stage pane and add this code to the stage:
+
+![Image of the stage icon](images/stage-image)
 
 ```blocks3
 when flag clicked
@@ -65,7 +86,7 @@ If you try and position the bug on the start screen it will switch to the next b
 
 --- task ---
 
-Select the bug and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them running when you click on the bug:
+Click on the bug sprite and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them running when you click on the bug:
 
 ![Breaking script to stop changes as you edit](breaking-script.gif)
 
@@ -73,23 +94,30 @@ Select the bug and drag the blocks away from the `when this sprite clicked`{:cla
 
 --- task ---
 
-Drag the bug onto the Chalkboard on the Stage:
-
-![Bug sprite positioned on the Chalkboard](images/bug-chalkboard.png)
-
---- /task ---
-
---- task ---
-
-Add code to the bug to position on the Chalkboard every time your project switches to the Start screen:
+Add code to set the size of the bug when your project switches to the Start screen:
 
 ![Bug sprite](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
-go to x: [0] y: [30] // on the board
 set size to [100] % // full size
 ```
+
+--- /task ---
+
+--- task ---
+
+Add code to position the bug on the Chalkboard every time your project switches to the Start screen:
+
+![Bug sprite](images/bug-sprite.png)
+
+```blocks3
+when backdrop switches to [start v]
+set size to [100] % // full size
++ go to x: [0] y: [30] // on the board
+```
+
+![Bug sprite positioned on the Chalkboard](images/bug-chalkboard.png)
 
 --- /task ---
 
@@ -104,6 +132,16 @@ Join the blocks back to the `when this sprite clicked`{:class="block3events"} bl
 --- task ---
 
 **Test:** Click the green flag to test your project. 
+
+--- collapse ---
+
+---
+title: Nothing happens when I click on the bug.
+---
+
+Did you forget to join the code back to the `when this sprite clicked`{:class="block3events"} block.
+
+--- /collapse ---
 
 --- /task ---
 

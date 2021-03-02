@@ -13,6 +13,9 @@ A `forever`{:class="block3control"} loop runs the code blocks inside it over and
 
 Add code to make the parrot flap around in a distracting way:
 
+![Parrot sprite](images/parrot-sprite)
+
+
 ```blocks3
 when flag clicked
 set rotation style [left-right v] // don't go upside down

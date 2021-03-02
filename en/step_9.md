@@ -1,17 +1,16 @@
 ## Upgrade your game
 
-If you have time, you can add more levels and more distractions to your game.
+If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding. 
+
+Here are the blocks you will need to hide the bug on a new level:
+
+<code class="blocks" style="background-color: white">when backdrop switches to [new level v]</code><code class="blocks" style="background-color:white">set size to [20] %</code><code class="blocks" style="background-color:white">go to x: [0] y: [0] // drag to position the bug first</code><code class="blocks" style="background-color:white">set [color v] effect to [50]</code>
 
 --- task ---
 For each level you will need to:
 - Add a backdrop
 - Click on the Stage pane. Drag the new backdrop into position before the end backdrop. 
 - Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug 
-
-
-Here are the blocks you will need to hide the bug on a new level:
-
-<code class="blocks" style="background-color: white">when backdrop switches to [new level v]</code><code class="blocks" style="background-color:white">set size to [20] %</code><code class="blocks" style="background-color:white">go to x: [0] y: [0] // drag to position the bug first</code><code class="blocks" style="background-color:white">set [color v] effect to [50]</code>
 
 **Tip:** To drag the bug to a new hiding position you will need to 'break' the code so the bug doesn't switch to the backdrop when you are making a new level.
 
