@@ -10,3 +10,6 @@ For each level you will need to:
 
 
 **Tip:** To drag the bug to a new hiding position you will need to 'break' the code so the bug doesn't switch to the 
+
+--- /task ---
+
