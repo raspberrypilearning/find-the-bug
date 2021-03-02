@@ -11,7 +11,7 @@ For each level you will need to:
 
 Here are the blocks you will need to hide the bug on a new level:
 
-<code class="blocks" style="background-color: white">when backdrop switches to</code><code class="blocks" style="background-color:white">set size to [20] %</code><code class="blocks" style="background-color:white">go to x: [0] y: [0] // drag to position the bug first</code><code class="blocks" style="background-color:white">set [color v] effect to [50]</code>
+<code class="blocks" style="background-color: white">when backdrop switches to [new level v]</code><code class="blocks" style="background-color:white">set size to [20] %</code><code class="blocks" style="background-color:white">go to x: [0] y: [0] // drag to position the bug first</code><code class="blocks" style="background-color:white">set [color v] effect to [50]</code>
 
 **Tip:** To drag the bug to a new hiding position you will need to 'break' the code so the bug doesn't switch to the backdrop when you are making a new level.
 
@@ -40,7 +40,7 @@ end
 
 --- /task ---
 
---- /save ---
+--- save ---
 
 <script>
 scratchblocks.renderMatching("code.blocks", {
