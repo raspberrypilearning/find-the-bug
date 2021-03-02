@@ -7,6 +7,7 @@ copyedit: false
 last_tested: "2021-02-26"
 steps:
   - title: Introduction
+  - title: Add a title screen
   - title: Add a first level
   - title: Add a parrot distraction
   - title: Add a second level
