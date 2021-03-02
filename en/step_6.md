@@ -105,6 +105,8 @@ set size to [100] % // full size
 
 If you play the game a second time, the `timer`{:class="block3sensing"} will keep counting. 
 
+--- /task ---
+
 --- task ---
 
 Reset the timer when you switch to the first level:
