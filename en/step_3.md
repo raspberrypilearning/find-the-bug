@@ -3,6 +3,7 @@
 You will add a new backdrop as the first level in your game and hide the bug. 
 
 --- task ---
+
 Add the 'Spotlight' backdrop from the Music category.
 
 --- /task ---
@@ -19,7 +20,7 @@ go to x: [13] y: [132] // on the disco ball
 
 You can choose a different size and location if you prefer. 
 
---- /task --
+--- /task ---
 
 When you successfully find the bug the game will switch to the next backdrop. You'll also start the game by clicking on the bug on the Start screen.
 
@@ -51,6 +52,7 @@ switch backdrop to [start v] // start screen
 --- /task ---
 
 --- task ---
+
 **Test:** Click the green flag to test your project. Click on the bug on the start screen and then click on the hidden bug on the Spotlight backdrop.
 
 When you find the bug the project will go back to the Start screen. You'll add more levels to your game later.
@@ -88,6 +90,7 @@ when backdrop switches to [start v]
 go to x: [0] y: [30] // on the board
 set size to [100] % // full size
 ```
+
 --- /task ---
 
 --- task ---
