@@ -7,7 +7,7 @@ You will add a new backdrop as the first level in your game and hide the bug.
 Add the 'Spotlight' backdrop from the Music category.
 
 --- /task ---
-n
+
 --- task ---
 
 Click on the bug in the Sprite list. Add code to change your bug size when the backdrop switches to Spotlight:
