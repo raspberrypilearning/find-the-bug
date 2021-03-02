@@ -49,7 +49,9 @@ switch backdrop to [start v] // start screen
 --- /task ---
 
 --- task ---
-Click the green flag to test your project. Click on the bug on the start screen and then click on the hidden bug on the Spotlight backdrop.
+**Test:** Click the green flag to test your project. Click on the bug on the start screen and then click on the hidden bug on the Spotlight backdrop.
+
+When you find the bug the project will go back to the Start screen. You'll add more levels to your game later.
 
 --- /task ---
 
