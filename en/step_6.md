@@ -15,6 +15,7 @@ Tip: In Scratch you can add the same backdrop
 The Stage has a Backdrops tab instead of a Costumes tab. This is where you can paint images for the Stage.
 
 --- task ---
+
 Click on the Stage pane. 
 
 ![Stage pane highlighted](images/stage-pane.png)
@@ -78,7 +79,7 @@ set size to [100] % // full size
 say (timer) // seconds taken
 ```
 
---- /task --
+--- /task ---
 
 --- task ---
 
