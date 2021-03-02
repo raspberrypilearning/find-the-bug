@@ -65,11 +65,11 @@ Change the name of the backdrop to 'start' to make it easier to use:
 
 --- /task ---
 
-How long does it take you to find and click on the bugs? Scratch has a built-in `timer` that you can use to find out.
+How long does it take you to find and click on the bugs? Scratch has a built-in `timer`{:class="block3sensing"} that you can use to find out.
 
 --- task ---
 
-The `timer` is in the `Sensing` Blocks menu.
+The `timer`{:class="block3sensing"} is in the `Sensing`{:class="block3sensing"} Blocks menu.
 
 ```blocks3
 when backdrop switches to [end v]
@@ -102,7 +102,7 @@ set size to [100] % // full size
 
 --- task ---
 
-If you play the game a second time, the `timer` will keep counting. 
+If you play the game a second time, the `timer`{:class="block3sensing"} will keep counting. 
 
 --- task ---
 

@@ -16,7 +16,7 @@ You will position your bug and change the size so that it is hidden in this new 
 
 --- task ---
 
-Drag the blocks away from the `when this sprite clicked` block to stop them running when you click on the bug:
+Drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them running when you click on the bug:
 
 ![Breaking script to stop changes as you edit](breaking-script.gif)
 
@@ -43,7 +43,7 @@ go to x: [24] y: [13] // in the shop window
 --- /task ---
 
 --- task ---
-Join the blocks back to the `when this sprite clicked` block so that clicking the bug switches to the next backdrop:
+Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that clicking the bug switches to the next backdrop:
 
 ![Code blocks joined back together](fixed-script.gif)
 

@@ -14,9 +14,7 @@ You could:
 --- /task ---
 
 --- task ---
-Is there someone else you can get to try your game? 
-
-Get them to try the game and see how fast they can find the bugs. They won't know where you've hidden them so it might take them a bit longer!
+Is there someone else you can get to try your game? Get them to try the game and see how fast they can find the bugs. They won't know where you've hidden them so it might take them a bit longer!
 
 If you're in a club then you could try someone else's game. 
 

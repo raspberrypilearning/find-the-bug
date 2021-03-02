@@ -1,7 +1,17 @@
 ## What next?
 
-If you are following the [PathwayName](https://projects.raspberrypi.org/en/raspberrypi/pathway-name) pathway, you can move on to the [ProjectName](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make a (add description here).
+If you are following the [Scratch 1 pathway](https://projects.raspberrypi.org/en/raspberrypi/scratch-1) pathway, you can move on to the [Googly eye character](https://projects.raspberrypi.org/en/projects/googly-eye-character) project. In this project, you design your own googly eye character with eyes that look at the mouse point when you move it!
 
-![ProjectName project](images/projectname-project.png)
+--- print-only ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+![Googly eye character title page](images/googly-eye-character.png)
+
+--- /print-only ---
+
+--- no-print ---
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495141114/?autostart=false" frameborder="0"></iframe>
+</div>
+
+--- /no-print ---

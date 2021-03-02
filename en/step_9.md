@@ -6,7 +6,7 @@ If you have time, you can add more levels and more distractions to your game.
 For each level you will need to:
 - Add a backdrop
 - Click on the Stage pane. Drag the new backdrop into position before the end backdrop. 
-- Add a `when backdrop switches to` block for the new backdrop and add code to position and hide the bug 
+- Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug 
 
 
 Here are the blocks you will need to hide the bug on a new level:
