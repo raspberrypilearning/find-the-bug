@@ -1,4 +1,4 @@
-## Add an end screen
+## End screen
 
 Create an end screen to show the number of seconds it has taken to find the bugs. 
 

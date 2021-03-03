@@ -1,4 +1,4 @@
-## Create a start screen
+## Start screen
 
 Your game will begin with a start screen, players will click the bug to go to the first level.
 
@@ -49,9 +49,11 @@ Select 'backdrop1' and  click on the trash can to remove it from your project. Y
 
 --- /task ---
 
+The 'Chalkboard' backdrop will now be highlighted. 
+
 --- task ---
 
-The 'Chalkboard' backdrop will now be highlighted. Click on 'Convert to Vector'. This will allow you to add text that you can move around. 
+Click on 'Convert to Vector'. This will allow you to add text that you can move around. 
 
 ![Convert to Vector button highlighted](images/vector-button.png)
 
@@ -63,7 +65,7 @@ Use the Text tool to add the text 'Find the bug' to the Chalkboard:
 
 ![Chalkboard backdrop in the Paint editor](images/chalkboard-text.png)
 
-We used the 'Marker' font in white, but you can choose.
+We used the 'Marker' font in white, but you can choose your favourite.
 
 **Tip:** Switch to the Select (arrow) tool to move your text around. Grab the corner of the text and drag it to change the size.
 
@@ -71,9 +73,11 @@ We used the 'Marker' font in white, but you can choose.
 
 --- task ---
 
-Change the name of the backdrop to 'start' to make it easier to use:
+Change the name of the backdrop to 'start' because you will be selecting it later in the project.
 
 ![Backdrop name changed to Start screen in the paint editor](images/start-screen-name.png)
+
+**Tip:** Using names that make sense will help you understand your project, especially when you come back to a project later.
 
 --- /task ---
 
@@ -85,13 +89,13 @@ Delete the Scratch cat sprite.
 
 --- task ---
 
-Click on 'Choose a sprite' and type 'bug' into the search. Choose a bug for players to find in your game. 
+Click on 'Choose a sprite' and type 'bug' into the search. **Choose:** Choose a bug for players to find in your game. 
 
 ![Bug search results showing multiple bugs](images/bug-search.png)
 
 --- /task ---
 
---- save ---
+--- save --
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 A mistake in a computer program is called a <span style="color: #0faeb0">bug</span>. Finding and removing mistakes in computer programs is called <span style="color: #0faeb0">debugging</span>. Grace Hopper is a famous software engineer. Her team once found a moth in their computer. Their notes say "First actual case of bug being found."

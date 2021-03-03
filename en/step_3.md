@@ -1,4 +1,4 @@
-## Add a first level
+## First level
 
 You will add a new backdrop as the first level in your game and hide the bug. 
 
@@ -35,13 +35,13 @@ set size to [20] % // tiny
 + go to x: [13] y: [132] // on the disco ball
 ```
 
-You can choose a different size and location if you prefer. 
+**Choose:** You can choose a different size and location if you prefer. 
 
 --- /task ---
 
-When you successfully find the bug the game will switch to the next backdrop. You'll also start the game by clicking on the bug on the Start screen.
+When you are playing the game and you successfully find the bug, the game will switch to the next backdrop. You'll also start the game by clicking on the bug on the Start screen.
 
-The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order that the backdrops are listed when you click on the Stage pane. After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop.
+The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order that the backdrops are listed when you click on the Stage pane. 
 
 --- task ---
 
@@ -76,7 +76,7 @@ switch backdrop to [start v] // start screen
 
 **Test:** Click the green flag to test your project. Click on the bug on the start screen and then click on the hidden bug on the Spotlight backdrop.
 
-When you find the bug the project will go back to the Start screen. You'll add more levels to your game later.
+After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop. When you find the bug the project will go back to the Start screen. You'll add more levels to your game later.
 
 --- /task ---
 

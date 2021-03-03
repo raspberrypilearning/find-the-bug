@@ -1,4 +1,4 @@
-## Add a second level
+## Second level
 
 You will choose a backdrop and hide your bug to make a second level for your game. 
 

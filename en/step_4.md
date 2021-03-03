@@ -1,4 +1,4 @@
-## Add a parrot distraction
+## Parrot distraction
 
 An annoying parrot distraction will make it harder for players to find and click on the bug. 
 
