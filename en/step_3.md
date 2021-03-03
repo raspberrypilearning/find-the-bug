@@ -41,7 +41,7 @@ set size to [20] % // tiny
 
 When you are playing the game and you successfully find the bug, the game will switch to the next backdrop. You'll also start the game by clicking on the bug on the Start screen.
 
-The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order that the backdrops are listed when you click on the Stage pane. 
+The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order that the backdrops are listed when you click on the Stage pane. After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop.
 
 --- task ---
 
@@ -76,17 +76,24 @@ switch backdrop to [start v] // start screen
 
 **Test:** Click the green flag to test your project. Click on the bug on the start screen and then click on the hidden bug on the Spotlight backdrop.
 
-After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop. When you find the bug the project will go back to the Start screen. You'll add more levels to your game later.
+You will notice that when you find the bug, the project will go back to the start screen but the bug will still have the settings to hide on the disco ball on the
+ first level.  
 
 --- /task ---
 
-When you find the bug the project will go back to the start screen but the bug will still have the settings for the Spotlight backdrop. 
+--- task ---
 
-If you try and position the bug on the start screen it will switch to the next backdrop! That's not helpful when you are trying to position the bug.
+Try to position the bug on the start screen. 
+
+Your code will make it switch to the next backdrop! That's not helpful when you are trying to position the bug.
+
+--- /task ---
+
+To fix the problem you will need to stop the code from running when you click on the bug.
 
 --- task ---
 
-Click on the bug sprite and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them running when you click on the bug:
+Click on the bug sprite and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
 
 ![Breaking script to stop changes as you edit](breaking-script.gif)
 
@@ -107,6 +114,10 @@ set size to [100] % // full size
 
 --- task ---
 
+Drag the bug onto the Chalkboard below the text: 
+
+![Bug sprite positioned on the Chalkboard](images/bug-chalkboard.png)
+
 Add code to position the bug on the Chalkboard every time your project switches to the Start screen:
 
 ![Bug sprite](images/bug-sprite.png)
@@ -117,13 +128,11 @@ set size to [100] % // full size
 + go to x: [0] y: [30] // on the board
 ```
 
-![Bug sprite positioned on the Chalkboard](images/bug-chalkboard.png)
-
 --- /task ---
 
 --- task ---
 
-Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that clicking the bug switches to the next backdrop:
+Join the blocks back together so the code blocks are under the `when this sprite clicked`{:class="block3events"} block.
 
 ![Code blocks joined back together](fixed-script.gif)
 

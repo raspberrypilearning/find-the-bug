@@ -7,7 +7,7 @@ Add the parrot sprite.
 
 --- /task ---
 
-A `forever`{:class="block3control"} loop runs the code blocks inside it again and agai. It's perfect for an annoying parrot that just won't stop flying around and getting in the way.
+A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It's the perfect loop for an annoying parrot that just won't stop flying around and getting in the way.
 
 --- task ---
 

@@ -84,11 +84,7 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
---- task ---
-
 If you play the game a second time, the `timer`{:class="block3sensing"} will keep counting. 
-
---- /task ---
 
 --- task ---
 
