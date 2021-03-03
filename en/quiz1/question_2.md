@@ -4,7 +4,7 @@
 legend: Question 2 of 3
 ---
 
-You used a `forever``{:class="block3control"} loop to make the parrot sprite fly around in an annoying way. 
+You used a `forever`{:class="block3control"} loop to make the parrot sprite fly around in an annoying way. 
 
 We've tried to add another distraction sprite but it just moves once and then stops. How can we fix it?
 

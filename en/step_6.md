@@ -2,6 +2,8 @@
 
 Create an end screen to show the number of seconds it has taken to find the bugs. 
 
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Sometimes, just beating a game isn't enough. Players like to know how they did against other players or themselves. Can you think of a game that shows you how far you got?
 --- task ---
 
 Add the 'Chalkboard' backdrop from the Indoors category. 
@@ -43,7 +45,7 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-How long does it take you to find and click on the bugs? Scratch has a built-in `timer`{:class="block3sensing"} that you can use to find out.
+How long does it take you to find and click on the bugs? Scratch has a `timer`{:class="block3sensing"} that you can use to find out.
 
 --- task ---
 

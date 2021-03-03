@@ -31,6 +31,6 @@ How well are the bugs hidden? You'll get to add your own levels and make it as e
 ![Complete project](images/showcase_static.png)
 --- /print-only ---
 
-<p style="border-left: solid; border-width:10px; border-color: teal; background-color: aliceblue; padding: 10px;">
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 More than 2.5 billion people play video games every year. Just think how many people are involved in creating those games. Would you like a job designing, coding or testing games for other people to play? 
 </p>
