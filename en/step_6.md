@@ -3,7 +3,8 @@
 Create an end screen to show the number of seconds it has taken to find the bugs. 
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Sometimes, just beating a game isn't enough. Players like to know how they did against other players or themselves. Can you think of a game that shows you how far you got?
+Sometimes, just beating a game isn't enough. Players like to know how they did against other players or themselves. Can you think of a game that shows you how well you did?</p>
+
 --- task ---
 
 Add the 'Chalkboard' backdrop from the Indoors category. 
