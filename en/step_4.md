@@ -36,7 +36,7 @@ end
 
 Scratch highlights running code with a yellow outline:
 
-![Script with a yellow highlight to show that it is running](images/running-code)    
+![Script with a yellow highlight to show that it is running](images/running-code.png)    
 
 **Tip:** If the parrot gets too annoying while you are coding you can click on the red stop button above the Stage to stop it.
 
