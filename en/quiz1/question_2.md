@@ -6,7 +6,7 @@ legend: Question 2 of 3
 
 You used a `forever`{:class="block3control"} loop to make the parrot sprite fly around in an annoying way. 
 
-We've tried to add another distraction sprite but it just moves once and then stops. How can we fix it?
+We've tried to add another distraction sprite but it just moves once when we click the green flag and then stops. How can we fix it?
 
 ![Rocket sprite](images/rocket-sprite.png)
 
@@ -24,10 +24,10 @@ end
 
 --- choices ---
 
-- ( ) Change the number in the `wait`{:class="block3control"} block
+- ( ) Change the number in the `move`{:class="block3control"} block
 
   --- feedback ---
-Changing the numbers in the `wait`{:class="block3control"} block will change how far the sprite moves when it is clicked but will not make the Rocketship keep moving.
+Changing the numbers in the `move`{:class="block3control"} block will change how far the sprite moves when it is clicked but will not make the Rocketship keep moving.
   --- /feedback ---
 
 - ( ) Remove the `if on edge, bounce`{:class="block3motion"} block.
