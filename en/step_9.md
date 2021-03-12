@@ -4,7 +4,7 @@ If you have time, you can add more levels and more distractions to your game. Yo
 
 Here are the blocks you will need to hide the bug on a new level:
 
-```blocks2
+```blocks3
 when backdrop switches to [new level v]
 
 set size to [20] %
