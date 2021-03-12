@@ -1,0 +1,23 @@
+title: Find the bug
+hero_image: images/banner.png
+description: Create a game where you have to find a hidden bug on each level.
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-02-26"
+steps:
+  - title: Introduction
+  - title: Start screen
+  - title: First level
+  - title: Parrot distraction
+  - title: Second level
+  - title: End screen
+  - title: Play the game
+  - title: Reflection
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Upgrade your game
+  - title: What next?
