@@ -6,8 +6,11 @@ Here are the blocks you will need to hide the bug on a new level:
 
 ```blocks2
 when backdrop switches to [new level v]
+
 set size to [20] %
+
 go to x: [0] y: [0] // drag to position the bug first
+
 set [color v] effect to [50]
 ```
 
