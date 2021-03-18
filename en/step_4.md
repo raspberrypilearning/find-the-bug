@@ -40,9 +40,7 @@ end
 --- task ---
 **Test:** Click the green flag and test your project again. Can you remember where you hid the bug? 
 
-Scratch highlights running code with a yellow outline:
-
-![](images/running-code.png)    
+Scratch highlights running code with a yellow outline:   
 
 **Tip:** If the parrot gets too annoying while you are coding you can click on the red stop button above the Stage to stop it.
 
