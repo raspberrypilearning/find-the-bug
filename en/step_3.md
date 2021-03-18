@@ -6,6 +6,8 @@ You will add a new backdrop as the first level in your game and hide the bug.
 
 Add the 'Spotlight' backdrop from the Music category.
 
+![](images/backdrop-button.png)
+
 --- /task ---
 
 --- task ---
@@ -41,7 +43,7 @@ set size to [20] % // tiny
 
 When you are playing the game and you successfully find the bug, the game will switch to the next backdrop. You'll also start the game by clicking on the bug on the Start screen.
 
-The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order that the backdrops are listed when you click on the Stage pane. After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop.
+The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order that the backdrops are listed when you click on the Stage pane. 
 
 --- task ---
 
@@ -76,8 +78,9 @@ switch backdrop to [start v] // start screen
 
 **Test:** Click the green flag to test your project. Click on the bug on the start screen and then click on the hidden bug on the Spotlight backdrop.
 
-You will notice that when you find the bug, the project will go back to the start screen but the bug will still have the settings to hide on the disco ball on the
- first level.  
+You will notice that when you find the bug, the project will go back to the start screen but the bug will still have the settings to hide on the disco ball on the first level.  
+
+**Tip:** After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop.
 
 --- /task ---
 

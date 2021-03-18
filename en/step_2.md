@@ -20,11 +20,13 @@ To set up Scratch for offline use visit [our Scratch guide](https://learning-adm
 
 Add the 'Chalkboard' backdrop from the Indoors category.
 
+![](images/backdrop-button.png)
+
 ![A chalkboard on a wall](images/chalkboard.png)
 
 --- /task ---
 
-The Stage has a Backdrops tab instead of a Costumes tab. This is where you can paint images for the Stage.
+The Stage has a **Backdrops** tab instead of a **Costumes** tab. This is where you can paint images for the Stage.
 
 --- task ---
 Click on the Stage pane. 
@@ -35,7 +37,7 @@ Click on the Stage pane.
 
 --- task ---
 
-Click on the 'Backdrops' tab to open the Paint editor. 
+Click on the **Backdrops** tab to open the Paint editor. 
 
 ![Chalkboard backdrop in the Paint editor](images/chalkboard-paint.png)
 
@@ -65,7 +67,7 @@ Use the Text tool to add the text 'Find the bug' to the Chalkboard:
 
 ![Chalkboard backdrop in the Paint editor](images/chalkboard-text.png)
 
-We used the 'Marker' font in white, but you can choose your favourite.
+We used the 'Marker' font in white, but choose your favourite.
 
 **Tip:** Switch to the Select (arrow) tool to move your text around. Grab the corner of the text and drag it to change the size.
 
@@ -89,15 +91,19 @@ Delete the Scratch cat sprite.
 
 --- task ---
 
-Click on 'Choose a sprite' and type 'bug' into the search. **Choose:** Choose a bug for players to find in your game. 
+Click on 'Choose a sprite' and type 'bug' into the search. 
+
+**Choose:** Choose a bug for players to find in your game. 
+
+![](images/sprite-button.png)
 
 ![Bug search results showing multiple bugs](images/bug-search.png)
 
 --- /task ---
 
---- save --
-
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 A mistake in a computer program is called a <span style="color: #0faeb0">bug</span>. Finding and removing mistakes in computer programs is called <span style="color: #0faeb0">debugging</span>. Grace Hopper is a famous software engineer. Her team once found a moth in their computer. Their notes say "First actual case of bug being found."
 </p>
+
+--- save ---
 
