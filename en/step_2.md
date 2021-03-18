@@ -20,7 +20,7 @@ To set up Scratch for offline use visit [our Scratch guide](https://learning-adm
 
 --- task ---
 
-Add the 'Chalkboard' backdrop from the Indoors category.
+Add the **Chalkboard** backdrop from the **Indoors** category.
 
 ![](images/backdrop-button.png)
 
