@@ -20,7 +20,7 @@ To be able to drag your bug into a new position you need to stop the `when this 
 
 Drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them running when you click on the bug:
 
-![](breaking-script.png)
+![](images/breaking-script.png)
 
 --- /task ---
 
@@ -68,7 +68,7 @@ set size to [20] % // try another size
 --- task ---
 Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that clicking the bug switches to the next backdrop:
 
-![](fixed-script.png)
+![](images/fixed-script.png)
 
 --- /task ---
 

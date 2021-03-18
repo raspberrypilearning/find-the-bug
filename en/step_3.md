@@ -114,7 +114,7 @@ Click on the green flag to return to the start screen.
 
 Click on the bug sprite and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
 
-![Breaking script to stop changes as you edit](breaking-script.png)
+![Breaking script to stop changes as you edit](images/breaking-script.png)
 
 --- /task ---
 
@@ -140,7 +140,7 @@ set size to [100] % // full size
 
 Join the blocks back together so the code blocks are under the `when this sprite clicked`{:class="block3events"} block.
 
-![](fixed-script.png)
+![](images/fixed-script.png)
 
 --- /task ---
 
