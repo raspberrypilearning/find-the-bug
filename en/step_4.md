@@ -2,12 +2,18 @@
 
 An annoying parrot distraction will make it harder for players to find and click on the bug. 
 
+![Colourful parrot](images/parrot-distraction.png){:width="300px"}
+
 --- task ---
 Add the parrot sprite. 
 
+![](images/sprite-button.png)
+
 --- /task ---
 
-A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It's the perfect loop for an annoying parrot that just won't stop flying around and getting in the way.
+In [Catch the Bus](https://projects.raspberrypi.org/en/projects/catch-the-bus), you used a `repeat`{:class="block3control"} loop. 
+
+You will use a different loop here. A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It's the perfect loop for an annoying parrot that just won't stop flying around and getting in the way.
 
 --- task ---
 
@@ -36,7 +42,7 @@ end
 
 Scratch highlights running code with a yellow outline:
 
-![Script with a yellow highlight to show that it is running](images/running-code.png)    
+![](images/running-code.png)    
 
 **Tip:** If the parrot gets too annoying while you are coding you can click on the red stop button above the Stage to stop it.
 

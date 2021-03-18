@@ -2,6 +2,8 @@
 
 Your game will begin with a start screen, players will click the bug to go to the first level.
 
+![find the bug text on chalkboard](images/start-screen.png){:width="300px"}
+
 --- task ---
 
 Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
@@ -31,7 +33,7 @@ The Stage has a **Backdrops** tab instead of a **Costumes** tab. This is where y
 --- task ---
 Click on the Stage pane. 
 
-![Stage pane highlighted](images/stage-pane.png)
+![](images/stage-pane.png)
 
 --- /task ---
 
@@ -47,7 +49,7 @@ Click on the **Backdrops** tab to open the Paint editor.
 
 Select 'backdrop1' and  click on the trash can to remove it from your project. You won't be using it.
 
-![Deleting backdrop1 using the trash can icon](images/delete-backdrop1.png)
+![](images/delete-backdrop1.png)
 
 --- /task ---
 
@@ -57,7 +59,7 @@ The 'Chalkboard' backdrop will now be highlighted.
 
 Click on 'Convert to Vector'. This will allow you to add text that you can move around. 
 
-![Convert to Vector button highlighted](images/vector-button.png)
+![](images/vector-button.png)
 
 --- /task ---
 
@@ -65,7 +67,7 @@ Click on 'Convert to Vector'. This will allow you to add text that you can move 
 
 Use the Text tool to add the text 'Find the bug' to the Chalkboard:
 
-![Chalkboard backdrop in the Paint editor](images/chalkboard-text.png)
+![](images/chalkboard-text.png)
 
 We used the 'Marker' font in white, but choose your favourite.
 
@@ -77,7 +79,7 @@ We used the 'Marker' font in white, but choose your favourite.
 
 Change the name of the backdrop to 'start' because you will be selecting it later in the project.
 
-![Backdrop name changed to Start screen in the paint editor](images/start-screen-name.png)
+![](images/start-screen-name.png)
 
 **Tip:** Using names that make sense will help you understand your project, especially when you come back to a project later.
 
@@ -97,7 +99,9 @@ Click on 'Choose a sprite' and type 'bug' into the search.
 
 ![](images/sprite-button.png)
 
-![Bug search results showing multiple bugs](images/bug-search.png)
+![Bug search results showing seven different bugs](images/bug-search.png)
+
+**Tip:** Give your project a name. Maybe it can include the name of the bug you have just chosen?
 
 --- /task ---
 
