@@ -11,7 +11,7 @@ Add the parrot sprite.
 
 --- /task ---
 
-In [Catch the Bus](https://projects.raspberrypi.org/en/projects/catch-the-bus), you used a `repeat`{:class="block3control"} loop. 
+In [Catch the Bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}, you used a `repeat`{:class="block3control"} loop. 
 
 You will use a different loop here. A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It's the perfect loop for an annoying parrot that just won't stop flying around and getting in the way.
 
