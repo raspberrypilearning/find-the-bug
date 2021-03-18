@@ -69,7 +69,7 @@ Use the Text tool to add the text 'Find the bug' to the Chalkboard:
 
 ![](images/chalkboard-text.png)
 
-We used the 'Marker' font in white, but choose your favourite.
+We used the 'Marker' font in white, but **choose** your favourite.
 
 **Tip:** Switch to the Select (arrow) tool to move your text around. Grab the corner of the text and drag it to change the size.
 
