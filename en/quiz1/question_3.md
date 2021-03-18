@@ -4,48 +4,53 @@
 legend: Question 3 of 3
 ---
 
-Oh no! You dragged the bug into a new position and now the bug is on top of the parrot. 
-
-![Stage with bug on top of parrot](images/bug-reorder.png)
-
-What can you do to the bug sprite to fix this and make sure this doesn't happen again? 
+You added this script to the Bug sprite:
 
 ![Bug sprite](images/bug-sprite.png)
 
+```blocks3
+when backdrop switches to [end v]
+set size to [100] % 
+go to x: [0] y: [30] 
++ say (timer) 
+```
+
+How does the `say (timer)`{:class="block3looks"} block make the stage look when the backdrop switches to 'end'?
+
 --- choices ---
 
-- ( ) On the Stage, drag the parrot on top of the bug.
+- ( ) ![](images/quiz_parrot_number.png)
 
   --- feedback ---
-This will fix the problem once. But, dragging the bug on the Stage will send it back to the front again.
+Have a look at the script again. And think about which sprite is the main character of the game (the parrot is just an annoying distraction).
   --- /feedback ---
 
-- ( ) Click on the `go to [] layer`{:class="block3looks"} block in the `Looks`{:class="block3looks"} Blocks menu.
+- ( ) ![](images/quiz_parrot_timer.png)
 
   --- feedback ---
-If you click on `go to [back v] layer`{:class="block3looks"} when you have the bug selected then this will fix the problem once. But, dragging the bug on the Stage will send it back to the front again.
+The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} Blocks menu, it doesn't say the word 'timer'. Also, think about which sprite uses this code.
+
   --- /feedback ---
 
-- (x) Add a `go to [back v]`{:class="block3looks"} layer in a `forever`{:class="block3lcontrol"} loop to the bug. 
+- (x) ![](images/quiz_bug_number.png)
 
   --- feedback ---
-Yes, adding a `go to [back v]`{:class="block3looks"} layer in a `forever`{:class="block3control"} loop will make the bug always appear at the back:
+Yes, the `timer`{:class="block3sensing"} block reports the time since the project started, or since the timer reset. 
 
-```blocks3
-when flag clicked
-forever
-go to [back v] layer
-```
   --- /feedback ---
 
-- ( ) Add a `go to [front v]`{:class="block3looks"} layer in a `forever`{:class="block3control"} loop to the bug. 
+- ( ) ![](images/quiz_bug_timer.png)
 
   --- feedback ---
-
-This will make the bug go to the front, not the back.
+The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} Blocks menu, it doesn't say the word 'timer'.
 
   --- /feedback ---
 
 --- /choices ---
 
 --- /question ---
+
+
+
+
+

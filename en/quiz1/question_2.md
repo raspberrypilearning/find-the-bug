@@ -24,10 +24,10 @@ end
 
 --- choices ---
 
-- ( ) Change the number in the `move`{:class="block3control"} block
+- ( ) Change the number in the `move`{:class="block3motion"} block
 
   --- feedback ---
-Changing the numbers in the `move`{:class="block3control"} block will change how far the sprite moves when it is clicked but will not make the Rocketship keep moving.
+Changing the numbers in the `move`{:class="block3motion"} block will change how far the sprite moves when it is clicked but will not make the Rocketship keep moving.
   --- /feedback ---
 
 - ( ) Remove the `if on edge, bounce`{:class="block3motion"} block.

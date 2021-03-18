@@ -26,11 +26,9 @@ Look at this image showing a Find a bug game being played.
 
 In this game, which backdrop would appear next when you click the bug?
 
-
-
 --- choices ---
 
-- ( ) start.
+- ( ) start
 
   --- feedback ---
   
@@ -38,14 +36,14 @@ In this game, which backdrop would appear next when you click the bug?
   
   --- /feedback ---
 
-- (x) Urban.
+- (x) Urban
 
   --- feedback ---
 Yes, the `next backdrop`{:class="block3control"} block switches to the next backdrop in the order of the list of backdrops in the Backdrops tab for the Stage.
 
 --- /feedback ---
 
-- ( ) Spotlight.
+- ( ) Spotlight
 
   --- feedback ---
 
@@ -53,7 +51,7 @@ Yes, the `next backdrop`{:class="block3control"} block switches to the next back
 
   --- /feedback ---
 
-- ( ) end.
+- ( ) end
 
   --- feedback ---
 

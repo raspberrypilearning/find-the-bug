@@ -43,16 +43,19 @@ end
 
 **Tip:** You can drag the parrot's code to another sprite to make it faster to create another distraction sprite.
 
-![Dragging code to another sprite](images/drag-parrot-code.png)
+![Dragging code to another sprite](images/drag-parrot-code.gif)
 
 --- /task ---
 
+--- collapse ---
+
+---
+title: Completed project
+---
+
+You can view the [completed project](https://scratch.mit.edu/projects/486719939/).
+
+--- /collapse ---
+
 --- save ---
 
-<script>
-scratchblocks.renderMatching("code.blocks", {
-  inline: true,
-  style:     'scratch3',   // Optional, defaults to 'scratch2'.
-  // Repeat `style` and `languages` options here.
-});
-</script>

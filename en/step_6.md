@@ -1,6 +1,9 @@
 ## End screen
 
-Create an end screen to show the number of seconds it has taken to find the bugs. 
+You will create an end screen to show the number of seconds it has taken to find the bugs. 
+
+![Bug with time in a speech bubble](images/end-screen.png){:width="300px"}
+
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Sometimes, just beating a game isn't enough. Players like to know how they did against other players or themselves. Can you think of a game that shows you how well you did?</p>
@@ -27,7 +30,7 @@ Click on the 'Backdrops' tab to open the Paint editor.
 
 Change the name of the backdrop to 'end':
 
-![Backdrop name changed to Start screen in the paint editor](images/end-screen-name.png)
+![Backdrop name changed in the paint editor](images/end-screen-name.png)
 
 **Tip:** Renaming the backdrop to end makes it easier to understand your code. 
 
@@ -61,17 +64,17 @@ go to x: [0] y: [30] // on the board
 +say (timer) // seconds taken
 ```
 
-![Gif showing how to insert blocks into other blocks](images/inserting-blocks.gif)
+![Inserting blocks into other blocks](images/inserting-blocks.gif)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag to test your finding skills. How long does it take you to find a click on the bug?
+**Test:** Click the green flag to test your finding skills. How long does it take you to find the bug?
 
 --- /task ---
 
-You can click on the bug on the end screen to go back to the start screen. 
+To go back to the start screen, click on the bug on the end screen. 
 
 --- task ---
 Add code to make the bug stop saying the timer when you go to the start screen:
