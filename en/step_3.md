@@ -2,6 +2,8 @@
 
 You will add a new backdrop as the first level in your game and hide the bug. 
 
+![Spotlight backdrop with a bug](images/first-level.png){:width="300px"}
+
 --- task ---
 
 Add the 'Spotlight' backdrop from the Music category.
@@ -12,7 +14,7 @@ Add the 'Spotlight' backdrop from the Music category.
 
 --- task ---
 
-Click on the bug in the Sprite list. Add code to change your bug size when the backdrop switches to Spotlight:
+Click on the bug in the Sprite list. Add a script to change your bug size when the backdrop switches to Spotlight:
 
 ![Bug sprite](images/bug-sprite.png)
 
@@ -47,7 +49,7 @@ The `next backdrop`{:class="block3looks"} block switches to the next backdrop in
 
 --- task ---
 
-Add code to your bug to play a pop sound and switch to the `next backdrop`{:class="block3looks"} when you click on it:
+Add a script to your bug to play a pop sound and switch to the `next backdrop`{:class="block3looks"} when you click on it:
 
 ![Bug sprite](images/bug-sprite.png)
 
@@ -86,25 +88,7 @@ You will notice that when you find the bug, the project will go back to the star
 
 --- task ---
 
-Try to position the bug on the start screen. 
-
-Your code will make it switch to the next backdrop! That's not helpful when you are trying to position the bug.
-
---- /task ---
-
-To fix the problem you will need to stop the code from running when you click on the bug.
-
---- task ---
-
-Click on the bug sprite and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
-
-![Breaking script to stop changes as you edit](breaking-script.gif)
-
---- /task ---
-
---- task ---
-
-Add code to set the size of the bug when your project switches to the Start screen:
+Add a script to set the size of the bug when your project switches to the Start screen:
 
 ![Bug sprite](images/bug-sprite.png)
 
@@ -117,11 +101,30 @@ set size to [100] % // full size
 
 --- task ---
 
-Drag the bug onto the Chalkboard below the text: 
+Try to position the bug on the start screen. 
 
-![Bug sprite positioned on the Chalkboard](images/bug-chalkboard.png)
+Your code will make it switch to the next backdrop! That's not helpful when you are trying to position the bug.
 
-Add code to position the bug on the Chalkboard every time your project switches to the Start screen:
+--- /task ---
+
+To fix the problem you will need to stop the code from running when you click on the bug.
+
+--- task ---
+Click on the green flag to return to the start screen.
+
+Click on the bug sprite and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
+
+![Breaking script to stop changes as you edit](breaking-script.png)
+
+--- /task ---
+
+--- task ---
+
+Try to position the bug again. Drag the bug onto the Chalkboard below the text: 
+
+![](images/bug-chalkboard.png)
+
+Add code to make sure the bug is positioned on the Chalkboard every time your project switches backdrop to the Start screen:
 
 ![Bug sprite](images/bug-sprite.png)
 
@@ -137,13 +140,13 @@ set size to [100] % // full size
 
 Join the blocks back together so the code blocks are under the `when this sprite clicked`{:class="block3events"} block.
 
-![Code blocks joined back together](fixed-script.gif)
+![](fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag to test your project. 
+**Test:** Click the green flag to test your project. Click on the bug to move to the next backdrop. The bug should be big on the start screen and small on the Spotlight level.
 
 --- collapse ---
 
