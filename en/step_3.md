@@ -78,9 +78,9 @@ switch backdrop to [start v] // start screen
 
 --- task ---
 
-**Test:** Click the green flag to test your project. Click on the bug on the start screen and then click on the hidden bug on the Spotlight backdrop.
+**Test:** Click the green flag to test your project. 
 
-You will notice that when you find the bug, the project will go back to the start screen but the bug will still have the settings to hide on the disco ball on the first level.  
+You will notice that on the start screen the bug will still have the settings to hide on the disco ball on the first level.  
 
 **Tip:** After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop.
 
@@ -88,7 +88,7 @@ You will notice that when you find the bug, the project will go back to the star
 
 --- task ---
 
-Add a script to set the size of the bug when your project switches to the Start screen:
+Click on the bug sprite. Add a script to set the size of the bug when your project switches to the Start screen:
 
 ![Bug sprite](images/bug-sprite.png)
 
