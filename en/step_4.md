@@ -1,8 +1,13 @@
 ## Parrot distraction
 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 An annoying parrot distraction will make it harder for players to find and click on the bug. 
-
+</div>
+<div>
 ![Colourful parrot.](images/parrot-distraction.png){:width="300px"}
+</div>
+</div>
 
 --- task ---
 Add the **Parrot** sprite. 
