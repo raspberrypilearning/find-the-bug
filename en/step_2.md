@@ -1,8 +1,13 @@
 ## Start screen
 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Your game will begin with a 'start' screen, and players will click on the bug to go to the first level.
-
+</div>
+<div>
 !["Find the bug" text on the chalkboard.](images/start-screen.png){:width="300px"}
+</div>
+</div>
 
 --- task ---
 
