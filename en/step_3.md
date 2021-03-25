@@ -1,8 +1,13 @@
 ## First level
 
-You will add a new backdrop as the first level in your game and hide the bug. 
-
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+You will add a new backdrop as the first level in your game and hide the bug.
+</div>
+<div>
 ![The Spotlight backdrop with a bug.](images/first-level.png){:width="300px"}
+</div>
+</div>
 
 --- task ---
 
