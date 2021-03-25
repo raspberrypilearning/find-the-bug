@@ -1,19 +1,24 @@
 ## Parrot distraction
 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 An annoying parrot distraction will make it harder for players to find and click on the bug. 
-
-![Colourful parrot](images/parrot-distraction.png){:width="300px"}
+</div>
+<div>
+![Colourful parrot.](images/parrot-distraction.png){:width="300px"}
+</div>
+</div>
 
 --- task ---
-Add the parrot sprite. 
+Add the **Parrot** sprite. 
 
 ![](images/sprite-button.png)
 
 --- /task ---
 
-In [Catch the Bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}, you used a `repeat`{:class="block3control"} loop. 
+In the [Catch the bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"} project, you used a `repeat`{:class="block3control"} loop. 
 
-You will use a different loop here. A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It's the perfect loop for an annoying parrot that just won't stop flying around and getting in the way.
+You will use a different loop here. A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It is the perfect loop for an annoying parrot that will not stop flying around and getting in the way.
 
 --- task ---
 
@@ -38,11 +43,11 @@ end
 --- /task ---
 
 --- task ---
-**Test:** Click the green flag and test your project again. Can you remember where you hid the bug? 
+**Test:** Click on the green flag and test your project again. Can you remember where you hid the bug? 
 
 Scratch highlights running code with a yellow outline:   
 
-**Tip:** If the parrot gets too annoying while you are coding you can click on the red stop button above the Stage to stop it.
+**Tip:** If the parrot gets too annoying while you are coding, you can click the red stop button above the Stage to stop it.
 
 --- /task ---
 

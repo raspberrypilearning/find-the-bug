@@ -4,7 +4,7 @@ If you are following the [Introduction to Scratch](https://projects.raspberrypi.
 
 --- print-only ---
 
-![Googly eye character title page](images/googly-eye-character.png)
+!['Googly eye character' title page.](images/googly-eye-character.png)
 
 --- /print-only ---
 
