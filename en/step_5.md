@@ -1,8 +1,13 @@
 ## Second level
 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 You will choose a backdrop to make a second level for your game and make the bug hard to find. 
-
+</div>
+<div>
 ![Street scene with hidden bug.](images/second-level.png){:width="300px"}
+</div>
+</div>
 
 --- task ---
 
