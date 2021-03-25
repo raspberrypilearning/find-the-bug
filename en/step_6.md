@@ -1,9 +1,13 @@
 ## End screen
 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 You will create an 'end' screen to show the number of seconds that it has taken to find the bugs. 
-
+</div>
+<div>
 ![Bug with the time in a speech bubble.](images/end-screen.png){:width="300px"}
-
+</div>
+</div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Sometimes, just beating a game isn't enough. Players like to know how they did against other players or themselves. Can you think of a game that shows you how well you did?</p>
