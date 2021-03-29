@@ -5,7 +5,7 @@
 An annoying parrot distraction will make it harder for players to find and click on the bug. 
 </div>
 <div>
-![Colourful parrot.](images/parrot-distraction.png){:width="300px"}
+![A colourful parrot.](images/parrot-distraction.png){:width="300px"}
 </div>
 </div>
 
@@ -24,15 +24,15 @@ You will use a different loop here. A `forever`{:class="block3control"} loop run
 
 Add code to make the parrot flap around in a distracting way:
 
-![Parrot sprite](images/parrot-sprite.png)
+![The parrot sprite.](images/parrot-sprite.png)
 
 
 ```blocks3
 when flag clicked
-set rotation style [left-right v] // don't go upside down
+set rotation style [left-right v] // do not go upside down
 point in direction [35] // number from -180 to 180
 forever // keep being annoying
-move [10] steps // number controls speed
+move [10] steps // the number controls the speed
 if on edge, bounce // stay on the Stage
 next costume // flap
 change [colour v] effect by [5] // try 11 or 50

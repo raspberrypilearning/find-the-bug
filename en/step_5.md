@@ -5,7 +5,7 @@
 You will choose a backdrop to make a second level for your game and make the bug hard to find. 
 </div>
 <div>
-![Street scene with hidden bug.](images/second-level.png){:width="300px"}
+![A street scene with a hidden bug.](images/second-level.png){:width="300px"}
 </div>
 </div>
 
@@ -35,7 +35,7 @@ Your bug needs to be hard to find when the backdrop changes. You can resize the 
 
 Add code to resize the bug when the backdrop switches.
 
-![Bug sprite.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v] // choose your backdrop
@@ -50,7 +50,7 @@ set size to [20] % // try another size
 
 Drag your bug on the Stage to a good hiding place for this level. 
 
-![Bug hidden in the window in the middle of the backdrop.](images/hidden-urban-backdrop.png)
+![The bug hidden in the window in the middle of the backdrop.](images/hidden-urban-backdrop.png)
 
 --- /task ---
 
@@ -60,7 +60,7 @@ Position your bug in its hiding place.
 
 Add a `go to x: y:`{:class="block3motion"} block to your code.
 
-![Bug sprite.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -87,9 +87,9 @@ Your bug may now be in front of the parrot.
 
 --- task ---
 
-Add a script to make sure that your bug is always at the back:
+Add a script to make sure that your **bug** is always at the `back`{:class="block3looks"}:
 
-![Bug sprite.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked

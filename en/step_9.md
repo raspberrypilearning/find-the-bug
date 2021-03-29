@@ -30,10 +30,10 @@ You could add more parrots or choose another sprite to act as a distraction.
 Here is the code that you used for the parrot:
 ```blocks3
 when flag clicked
-set rotation style [left-right v] // don't go upside down
+set rotation style [left-right v] // do not go upside down
 point in direction [35] // number from -180 to 180
 forever // keep being annoying
-move [10] steps // number controls speed
+move [10] steps // the number controls the speed
 if on edge, bounce // stay on the Stage
 next costume // flap
 change [colour v] effect by [5] // try 11 or 50
@@ -41,7 +41,7 @@ wait [0.25] secs // try 0.1 or 0.5
 end
 ```
 
-**Tip:** You can drag the parrot's code to another sprite to make it faster to create another distraction sprite.
+**Tip:** You can drag the **Parrot** sprite's code to another sprite to make it faster to create another distraction sprite.
 
 ![Dragging code to another sprite.](images/drag-parrot-code.gif)
 

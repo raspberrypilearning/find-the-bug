@@ -8,7 +8,7 @@ You used a `forever`{:class="block3control"} loop to make the **Parrot** sprite 
 
 We have tried to add another distraction sprite, but it just moves once when we click on the green flag and then stops. How can we fix it?
 
-![Rocket sprite.](images/rocket-sprite.png)
+![The Rocket sprite.](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked

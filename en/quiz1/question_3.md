@@ -4,9 +4,9 @@
 legend: Question 3 of 3
 ---
 
-You added this script to the Bug sprite:
+You added this script to the **bug** sprite:
 
-![Bug sprite.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -15,7 +15,7 @@ go to x: [0] y: [30]
 + say (timer) 
 ```
 
-How does the `say`{:class="block3looks"} `timer`{:class="block3sensing"} block make the Stage look when the backdrop switches to 'end'?
+How does the `say`{:class="block3looks"} `timer`{:class="block3sensing"} block make the Stage look when the backdrop switches to **end**?
 
 --- choices ---
 

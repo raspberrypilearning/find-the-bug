@@ -19,9 +19,9 @@ Add the **Spotlight** backdrop from the **Music** category.
 
 --- task ---
 
-Click on the bug sprite in the Sprite list. Add a script to change the size of your bug when the backdrop switches to Spotlight:
+Click on the **bug** sprite in the Sprite list. Add a script to change the `size`{:class="block3looks"} of your bug `when the backdrop switches to Spotlight`{:class="block3events"}:
 
-![Bug sprite.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
@@ -36,7 +36,7 @@ Click on the code to change the size, then drag your tiny bug to a hiding place.
 
 Add code to position your bug:
 
-![Bug sprite.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
@@ -48,15 +48,15 @@ set size to [20] % // tiny
 
 --- /task ---
 
-When you are playing the game and you successfully find the bug, the game will switch to the next backdrop. Also, to start the game, you will click on the bug on the 'start' screen.
+When you play the game and you successfully find the bug, the game will switch to the next backdrop. Also, to start the game, you will click on the bug on the 'start' screen.
 
 The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order in which the backdrops are listed when you click on the Stage pane. 
 
 --- task ---
 
-Add a script to your bug to play a pop sound and switch to the `next backdrop`{:class="block3looks"} when you click on it:
+Add a script to your **bug** sprite to `play a pop sound`{:class="block3sound"} and switch to the `next backdrop`{:class="block3looks"} `when this sprite is clicked`{:class="block3events"}:
 
-![Bug sprite.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -93,9 +93,9 @@ You will notice that on the 'start' screen, the bug will still have the settings
 
 --- task ---
 
-Click on the bug sprite. Add a script to set the size of the bug when your project switches to the 'start' screen:
+Click on the **bug** sprite. Add a script to `set the size`{:class="block3looks"} of the bug when your project `switches to the start`{:class="block3events"} screen:
 
-![Bug sprite.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -117,7 +117,7 @@ To fix the problem, you need to stop the code from running when you click on the
 --- task ---
 Click on the green flag to return to the 'start' screen.
 
-Click on the bug sprite and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
+Click on the **bug** sprite and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
 
 ![Breaking the script to stop changes as you edit.](images/breaking-script.png)
 
@@ -131,11 +131,11 @@ Try to position the bug again. Drag the bug onto the chalkboard, below the text:
 
 Add code to make sure that the bug is positioned on the chalkboard every time your project switches backdrop to the 'start' screen:
 
-![Bug sprite.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
-set size to [100] % // full size
+set size to [100] % // full-sized
 + go to x: [0] y: [30] // on the board
 ```
 
