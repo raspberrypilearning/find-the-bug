@@ -19,27 +19,27 @@ How does the `say`{:class="block3looks"} `timer`{:class="block3sensing"} block m
 
 --- choices ---
 
-- ( ) ![](images/quiz_parrot_number.png)
+- ( ) ![A parrot saying the timer value "4.52".](images/quiz_parrot_number.png)
 
   --- feedback ---
 Have a look at the script again, and think about which sprite is the main character of the game (the parrot is just an annoying distraction).
   --- /feedback ---
 
-- ( ) ![](images/quiz_parrot_timer.png)
+- ( ) ![A parrot saying the word "timer".](images/quiz_parrot_timer.png)
 
   --- feedback ---
 The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu; it does not say the word "timer". Also, think about which sprite uses this code.
 
   --- /feedback ---
 
-- (x) ![](images/quiz_bug_number.png)
+- (x) ![A bug saying the timer value "4.52".](images/quiz_bug_number.png)
 
   --- feedback ---
 Yes, the `timer`{:class="block3sensing"} block reports the time since the project started, or since the timer reset. 
 
   --- /feedback ---
 
-- ( ) ![](images/quiz_bug_timer.png)
+- ( ) ![A bug saying the word "timer".](images/quiz_bug_timer.png)
 
   --- feedback ---
 The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu; it does not say the word "timer".

@@ -2,10 +2,10 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will create an 'end' screen to show the number of seconds that it has taken to find the bugs. 
+You will create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
 </div>
 <div>
-![Bug with the time in a speech bubble.](images/end-screen.png){:width="300px"}
+![The bug with the amount of time in a speech bubble.](images/end-screen.png){:width="300px"}
 </div>
 </div>
 
@@ -16,7 +16,7 @@ Sometimes, just beating a game isn't enough. Players like to know how they did a
 
 Add the **Chalkboard** backdrop from the **Indoors** category. 
 
-![A chalkboard on a wall.](images/chalkboard.png)
+![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
 
 **Tip:** In Scratch, you can add the same backdrop more than once.
 
@@ -57,7 +57,7 @@ How long does it take you to find and click on the bugs? Scratch has a `timer`{:
 
 --- task ---
 
-The `timer`{:class="block3sensing"} is in the `Sensing`{:class="block3sensing"} blocks menu.
+The `timer`{:class="block3sensing"} block is in the `Sensing`{:class="block3sensing"} blocks menu.
 
 ![The bug sprite.](images/bug-sprite.png)
 
@@ -81,7 +81,7 @@ go to x: [0] y: [30] // on the board
 To go back to the 'start' screen, click on the bug on the 'end' screen. 
 
 --- task ---
-Add code to make the bug stop saying the timer when you go to the 'start' screen:
+Add code to make the bug stop saying the `timer`{:class="block3sensing"} when you go to the 'start' screen:
 
 ![The bug sprite.](images/bug-sprite.png)
 
@@ -98,12 +98,12 @@ If you play the game a second time, the `timer`{:class="block3sensing"} will kee
 
 --- task ---
 
-Reset the timer when you switch to the first level:
+`Reset the timer`{:class="block3sensing"} when the `backdrop switches to`{:class="block3events"} the first level:
 
 ![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
-when backdrop switches to [Spotlight v]
+when backdrop switches to [Spotlight v] // first level
 set size to [20] % // tiny
 go to x: [13] y: [132] // on the disco ball
 +reset timer // start the timer
@@ -113,7 +113,7 @@ go to x: [13] y: [132] // on the disco ball
 
 --- task ---
 
-**Test:** Click on the green flag and play the game. The timer should reset when you click on the bug on the 'start' screen to move to the first level. When you click on the bug on the 'end' screen, you should return to the 'start' screen and see that the bug is not saying the timer. 
+**Test:** Click on the green flag and play the game. The timer should reset when you click on the bug on the 'start' screen to move to the first level. When you click on the bug on the 'end' screen, you should return to the 'start' screen and see that the bug is not saying the `timer`{:class="block3sensing"}. 
 
 --- /task ---
 

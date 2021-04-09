@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project, you will create a game in which you have to find a hidden bug on each level. The game will have 'start' and 'end' screen backdrops and a timer to show how quickly you found the bugs. 
+In this project, you will create a game in which you have to find a hidden bug on each level. The game will have 'start' and 'end' screen backdrops, and a timer to show the player how quickly they found the bugs. 
 
 You will:
 + Create levels for your game using `next backdrop`{:class="block3looks"} and `when backdrop switches`{:class="block3events"} blocks

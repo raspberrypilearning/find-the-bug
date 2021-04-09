@@ -5,14 +5,14 @@
 An annoying parrot distraction will make it harder for players to find and click on the bug. 
 </div>
 <div>
-![A colourful parrot.](images/parrot-distraction.png){:width="300px"}
+![A colourful parrot on the Stage.](images/parrot-distraction.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 Add the **Parrot** sprite. 
 
-![](images/sprite-button.png)
+![The 'Choose a Sprite' icon.](images/sprite-button.png)
 
 --- /task ---
 
@@ -24,7 +24,7 @@ You will use a different loop here. A `forever`{:class="block3control"} loop run
 
 Add code to make the parrot flap around in a distracting way:
 
-![The parrot sprite.](images/parrot-sprite.png)
+![The Parrot sprite.](images/parrot-sprite.png)
 
 
 ```blocks3
@@ -35,8 +35,8 @@ forever // keep being annoying
 move [10] steps // the number controls the speed
 if on edge, bounce // stay on the Stage
 next costume // flap
-change [colour v] effect by [5] // try 11 or 50
-wait [0.25] secs // try 0.1 or 0.5
+change [color v] effect by [5] // try 11 or 50
+wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
@@ -45,11 +45,11 @@ end
 --- task ---
 **Test:** Click on the green flag and test your project again. Can you remember where you hid the bug? 
 
-Scratch highlights running code with a yellow outline:
+In Scratch, running code glows with a yellow outline:
 
 ![](images/running-code.png)    
 
-**Tip:** If the parrot gets too annoying while you are coding, you can click the red stop button above the Stage to stop it.
+**Tip:** If the parrot gets too annoying while you are coding, you can click the red stop button above the Stage to stop the code from running.
 
 --- /task ---
 

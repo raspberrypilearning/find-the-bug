@@ -1,4 +1,4 @@
-Well done, you have learned a lot! Now, it's time to reflect — reflecting is an important part of learning because it helps make new connections in your brain.
+Well done, you have learned a lot! Now, it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
 
 Answer the three questions below to reflect on what you have learned.
 
@@ -12,7 +12,7 @@ Have fun!
 legend: Question 1 of 3
 ---
 
-In your game, you added this code to your bug to move through the backdrops each time it was clicked.
+In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
 
 ```blocks3
 when this sprite clicked
@@ -22,7 +22,7 @@ next backdrop
 
 Look at this image showing a 'Find a bug' game being played. 
 
-![Scratch editor with backdrops and Stage showing Spotlight backdrop.](images/quiz1-backdrops.png)
+![The Scratch editor with backdrops in the order 'start, Spotlight, Urban, end'; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
 
 In this game, which backdrop would appear next when you click on the bug?
 
@@ -39,7 +39,7 @@ In this game, which backdrop would appear next when you click on the bug?
 - (x) Urban
 
   --- feedback ---
-Yes, the `next backdrop`{:class="block3control"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
+Yes, the `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
 
 --- /feedback ---
 

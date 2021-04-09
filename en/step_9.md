@@ -17,10 +17,10 @@ set [color v] effect to [50]
 --- task ---
 For each level, you will need to:
 - Add a backdrop
-- Click on the Stage pane. Drag the new backdrop into position before the **end** backdrop. 
+- Click on the Stage pane, then drag the new backdrop into position before the **end** backdrop
 - Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug 
 
-**Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the bug does not switch to the backdrop when you are making a new level.
+**Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the backdrop does not switch when you click on the bug to position it for a new level.
 
 --- /task ---
 
@@ -36,8 +36,8 @@ forever // keep being annoying
 move [10] steps // the number controls the speed
 if on edge, bounce // stay on the Stage
 next costume // flap
-change [colour v] effect by [5] // try 11 or 50
-wait [0.25] secs // try 0.1 or 0.5
+change [color v] effect by [5] // try 11 or 50
+wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
