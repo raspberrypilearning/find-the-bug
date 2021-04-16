@@ -57,7 +57,7 @@ How long does it take you to find and click on the bugs? Scratch has a `timer`{:
 
 --- task ---
 
-The `timer`{:class="block3sensing"} block is in the `Sensing`{:class="block3sensing"} blocks menu.
+The `timer`{:class="block3sensing"} block is in the `Sensing`{:class="block3sensing"} blocks menu. Add code to make the bug `say`{:class="block3looks"} the `timer`{:class="block3sensing"} on the 'end' screen:
 
 ![The bug sprite.](images/bug-sprite.png)
 
@@ -68,7 +68,7 @@ go to x: [0] y: [30] // on the board
 +say (timer) // seconds taken
 ```
 
-![Inserting blocks into other blocks.](images/inserting-blocks.gif)
+![Inserting a 'timer' block into a 'say' block.](images/inserting-blocks.gif)
 
 --- /task ---
 
@@ -98,7 +98,7 @@ If you play the game a second time, the `timer`{:class="block3sensing"} will kee
 
 --- task ---
 
-`Reset the timer`{:class="block3sensing"} when the `backdrop switches to`{:class="block3events"} the first level:
+Add code to `reset the timer`{:class="block3sensing"} when the `backdrop switches to`{:class="block3events"} the first level:
 
 ![The bug sprite.](images/bug-sprite.png)
 

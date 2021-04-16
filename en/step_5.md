@@ -87,7 +87,7 @@ Your bug may now be in front of the parrot.
 
 --- task ---
 
-Add a script to make sure that your **bug** is always at the `back`{:class="block3looks"}:
+Add a script to make sure that your bug is always at the `back`{:class="block3looks"}:
 
 ![The bug sprite.](images/bug-sprite.png)
 

@@ -54,7 +54,7 @@ The `next backdrop`{:class="block3looks"} block switches to the next backdrop in
 
 --- task ---
 
-Add a script to your **bug** sprite to `play a pop sound`{:class="block3sound"} and switch to the `next backdrop`{:class="block3looks"} `when this sprite is clicked`{:class="block3events"}:
+Add a script to your **bug** sprite to `play a Pop sound`{:class="block3sound"} and switch to the `next backdrop`{:class="block3looks"} `when this sprite is clicked`{:class="block3events"}:
 
 ![The bug sprite.](images/bug-sprite.png)
 
@@ -119,7 +119,7 @@ Click on the green flag to return to the 'start' screen.
 
 Click on the **bug** sprite in the Sprite list and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
 
-![Breaking the script to stop the changes from showing on the Stage as you edit.](images/breaking-script.png)
+![Breaking the script.](images/breaking-script.png)
 
 --- /task ---
 

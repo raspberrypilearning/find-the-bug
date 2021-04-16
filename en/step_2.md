@@ -26,7 +26,7 @@ Add the **Chalkboard** backdrop from the **Indoors** category.
 
 --- /task ---
 
-The **Stage** has a **Backdrops** tab instead of a **Costumes** tab. This is where you can paint images for the **Stage**.
+The **Stage** has a **Backdrops** tab instead of a **Costumes** tab. This is where you can create images for the **Stage**.
 
 --- task ---
 Click on the Stage pane. 
