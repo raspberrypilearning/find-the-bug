@@ -17,8 +17,8 @@ move [6] steps
 forever 
 if on edge, bounce 
 next costume 
-change [colour v] effect by [25] 
-wait [0.5] secs 
+change [color v] effect by [25] 
+wait [0.5] seconds 
 end
 ```
 
