@@ -5,13 +5,13 @@
 Your game will begin with a 'start' screen, and players will click on the bug to go to the first level.
 </div>
 <div>
-!["Find the bug" text on the chalkboard.](images/start-screen.png){:width="300px"}
+!["Find the bug" text on a chalkboard on the Stage.](images/start-screen.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
 
 [[[working-offline]]]
 --- /task ---
@@ -20,13 +20,13 @@ Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scrat
 
 Add the **Chalkboard** backdrop from the **Indoors** category.
 
-![](images/backdrop-button.png)
+![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
 
-![A chalkboard on a wall.](images/chalkboard.png)
+![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
 
 --- /task ---
 
-The **Stage** has a **Backdrops** tab instead of a **Costumes** tab. This is where you can paint images for the **Stage**.
+The **Stage** has a **Backdrops** tab instead of a **Costumes** tab. This is where you can create images for the **Stage**.
 
 --- task ---
 Click on the Stage pane. 
@@ -45,7 +45,7 @@ Click on the **Backdrops** tab to open the Paint editor.
 
 --- task ---
 
-Select **backdrop1** and click on the **Rubbish bin** to remove the **backdrop1** backdrop from your project. You will not use it in this project.
+Select **backdrop1** and click on the **Delete** icon to remove the **backdrop1** backdrop from your project. You will not need it in this project.
 
 ![](images/delete-backdrop1.png)
 
@@ -67,17 +67,17 @@ Use the **Text** tool to add the text `Find the bug` to the chalkboard:
 
 ![](images/chalkboard-text.png)
 
-We used the **Marker** font in white, but **choose** your favourite.
+We used the **Marker** font in white, but **choose** your favourite font and colour.
 
-**Tip:** Switch to the **Select** (arrow) tool to move your text around. Grab the corner of the text and drag it to change the size.
+**Tip:** Switch to the **Select (Arrow)** tool to move your text around. To change the size of the text, grab the corner of the text and drag it.
 
 --- /task ---
 
 --- task ---
 
-Change the name of the backdrop to `start`, because you will be selecting it later in the project.
+Change the name of the backdrop to `start`, because you will need to select it later in the project.
 
-![](images/start-screen-name.png)
+![The Costume name box highlighted in the Paint editor.](images/start-screen-name.png)
 
 **Tip:** Using names that make sense will help you understand your project, especially when you come back to a project later.
 
@@ -99,7 +99,7 @@ Click on **Choose a Sprite** and type `bug` in the search box.
 
 !["bug" search results showing seven different bugs.](images/bug-search.png)
 
-**Tip:** Give your project a name. Maybe it can include the name of the bug that you have just chosen.
+**Tip:** Give your project a name. You might like to include the name of the bug that you have just chosen.
 
 --- /task ---
 

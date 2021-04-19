@@ -2,10 +2,10 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will choose a backdrop to make a second level for your game and make the bug hard to find. 
+You will choose a backdrop to make a second level for your game, and make the bug hard to find. 
 </div>
 <div>
-![Street scene with hidden bug.](images/second-level.png){:width="300px"}
+![A street scene with a hidden bug.](images/second-level.png){:width="300px"}
 </div>
 </div>
 
@@ -19,7 +19,7 @@ You will choose a backdrop to make a second level for your game and make the bug
 
 --- /task ---
 
-To be able to drag your bug into a new position, you need to stop the `when this sprite clicked`{:class="block3events"} code from running.
+To be able to drag your bug into a new position, you need to stop the `when this sprite clicked`{:class="block3events"} script from running.
 
 --- task ---
 
@@ -33,9 +33,9 @@ Your bug needs to be hard to find when the backdrop changes. You can resize the 
 
 --- task ---
 
-Add code to resize the bug when the backdrop switches.
+Add code to `set the size`{:class="block3looks"} of the bug for the second level:
 
-![Bug sprite.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v] // choose your backdrop
@@ -50,7 +50,7 @@ set size to [20] % // try another size
 
 Drag your bug on the Stage to a good hiding place for this level. 
 
-![Bug hidden in the window in the middle of the backdrop.](images/hidden-urban-backdrop.png)
+![The bug hidden in the window in the middle of the backdrop.](images/hidden-urban-backdrop.png)
 
 --- /task ---
 
@@ -58,9 +58,9 @@ Position your bug in its hiding place.
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block to your code.
+Add a `go to x: y:`{:class="block3motion"} block to your code:
 
-![Bug sprite.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -71,7 +71,7 @@ set size to [20] % // try another size
 --- /task ---
 
 --- task ---
-Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that clicking on the bug switches to the next backdrop:
+Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that clicking on the bug switches to the `next backdrop`{:class="block3looks"}:
 
 ![](images/fixed-script.png)
 
@@ -87,9 +87,9 @@ Your bug may now be in front of the parrot.
 
 --- task ---
 
-Add a script to make sure that your bug is always at the back:
+Add a script to make sure that your bug is always at the `back`{:class="block3looks"}:
 
-![Bug sprite.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -97,7 +97,7 @@ forever
 go to [back v] layer
 ```
 
-Now, your bug will always stay at the back, even if you need to reposition it.
+Now, your bug will always stay at the back, even if you need to change its position.
 
 --- /task ---
 

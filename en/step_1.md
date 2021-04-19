@@ -1,9 +1,9 @@
 ## Introduction
 
-In this project, you will create a game in which you have to find a hidden bug on each level. The game will have 'start' and 'end' screen backdrops and a timer to show how quickly you found the bugs. 
+In this project, you will create a game in which you have to find a hidden bug on each level. The game will have 'start' and 'end' screen backdrops, and a timer to show the player how quickly they found the bugs. 
 
 You will:
-+ Create levels for your game using `next backdrop`{:class="block3looks"} and `when backdrop switches`{:class="block3events"} blocks
++ Create levels for your game using `next backdrop`{:class="block3looks"} and `when backdrop switches to`{:class="block3events"} blocks
 + Use a `forever`{:class="block3control"} loop to keep running code blocks
 + Use the `timer`{:class="block3sensing"} **variable** to let the player know how they did
 
@@ -28,7 +28,7 @@ How well are the bugs hidden? You will get to add your own levels and make it as
 --- /no-print ---
 
 --- print-only ---
-![Completed project.](images/showcase_static.png)
+![The completed project.](images/showcase_static.png)
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">

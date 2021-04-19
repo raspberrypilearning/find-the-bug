@@ -8,7 +8,7 @@ You used a `forever`{:class="block3control"} loop to make the **Parrot** sprite 
 
 We have tried to add another distraction sprite, but it just moves once when we click on the green flag and then stops. How can we fix it?
 
-![Rocket sprite.](images/rocket-sprite.png)
+![The Rocket sprite.](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -17,8 +17,8 @@ move [6] steps
 forever 
 if on edge, bounce 
 next costume 
-change [colour v] effect by [25] 
-wait [0.5] secs 
+change [color v] effect by [25] 
+wait [0.5] seconds 
 end
 ```
 

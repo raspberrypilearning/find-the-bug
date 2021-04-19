@@ -16,7 +16,7 @@ You could:
 
 --- task ---
 
-Is there someone else you can get to try your game? How fast can they find the bugs? They will not know where you have hidden them, so it might take them a bit longer!
+Is there someone else who can try your game? How fast can they find the bugs? They will not know where you have hidden them, so it might take them a bit longer!
 
 If you are in a club, then you could try someone else's game. 
 
