@@ -35,7 +35,7 @@ The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block
 - (x) ![A bug saying the timer value "4.52".](images/quiz_bug_number.png)
 
   --- feedback ---
-Yes, the `timer`{:class="block3sensing"} block reports the time since the project started, or since the timer reset. 
+Yes. The `timer`{:class="block3sensing"} block reports the time since the project started, or since the timer reset. 
 
   --- /feedback ---
 
