@@ -93,7 +93,7 @@ You will notice that on the 'start' screen, the bug will still have the settings
 
 --- task ---
 
-Click on the **bug** sprite. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+Click on the **bug** sprite in the Sprite list. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
 
 ![The bug sprite.](images/bug-sprite.png)
 
