@@ -2,7 +2,7 @@ Well done, you have learned a lot! Now, it's time to reflect — reflecting is a
 
 Answer the three questions below to reflect on what you have learned.
 
-After each question, press **Submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+When you have answered each question, press **Submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
 
 Have fun!
 
@@ -20,9 +20,9 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Look at this image showing a 'Find a bug' game being played. 
+Look at this image showing a 'Find the bug' game being played. 
 
-![The Scratch editor with backdrops in the order 'start, Spotlight, Urban, end'; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
+![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
 
 In this game, which backdrop would appear next when you click on the bug?
 
@@ -39,7 +39,7 @@ In this game, which backdrop would appear next when you click on the bug?
 - (x) Urban
 
   --- feedback ---
-Yes, the `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
+Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
 
 --- /feedback ---
 
