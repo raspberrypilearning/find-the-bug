@@ -28,7 +28,7 @@ Have a look at the script again, and think about which sprite is the main charac
 - ( ) ![A parrot saying the word "timer".](images/quiz_parrot_timer.png)
 
   --- feedback ---
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu; it does not say the word "timer". Also, think about which sprite uses this code.
+The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer". Also, think about which sprite uses this code.
 
   --- /feedback ---
 
@@ -42,7 +42,7 @@ Yes. The `timer`{:class="block3sensing"} block reports the time since the projec
 - ( ) ![A bug saying the word "timer".](images/quiz_bug_timer.png)
 
   --- feedback ---
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu; it does not say the word "timer".
+The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer".
 
   --- /feedback ---
 
