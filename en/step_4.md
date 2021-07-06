@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-An annoying parrot distraction will make it harder for players to find and click on the bug. 
+To make it harder for players to find and click on the bug, you will add an annoying parrot to distract them. 
 </div>
 <div>
 ![A colourful parrot on the Stage.](images/parrot-distraction.png){:width="300px"}
@@ -45,7 +45,7 @@ end
 --- task ---
 **Test:** Click on the green flag and test your project again. Can you remember where you hid the bug? 
 
-In Scratch, running code glows with a yellow outline:
+In Scratch, code that is running glows with a yellow outline:
 
 ![](images/running-code.png)    
 

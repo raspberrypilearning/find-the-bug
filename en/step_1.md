@@ -5,7 +5,7 @@ In this project, you will create a game in which you have to find a hidden bug o
 You will:
 + Create levels for your game using `next backdrop`{:class="block3looks"} and `when backdrop switches to`{:class="block3events"} blocks
 + Use a `forever`{:class="block3control"} loop to keep running code blocks
-+ Use the `timer`{:class="block3sensing"} **variable** to let the player know how they did
++ Use the `timer`{:class="block3sensing"} **variable** to let the player know how quickly they found the bugs
 
 --- no-print ---
 --- task --- 

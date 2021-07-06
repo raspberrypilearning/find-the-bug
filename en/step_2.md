@@ -45,7 +45,7 @@ Click on the **Backdrops** tab to open the Paint editor.
 
 --- task ---
 
-Select **backdrop1** and click on the **Delete** icon to remove the **backdrop1** backdrop from your project. You will not need it in this project.
+Select **backdrop1** and click on the **Delete** icon to remove the **backdrop1** backdrop from your project. You will not need the **backdrop1** backdrop in this project.
 
 ![](images/delete-backdrop1.png)
 
@@ -55,9 +55,9 @@ The **Chalkboard** backdrop will now be highlighted.
 
 --- task ---
 
-Click on **Convert to Vector**. This will allow you to add text that you can move around. 
+Click on **Convert to Vector**. Now, you will be able to add text that you can move around. 
 
-![](images/vector-button.png)
+![The 'Convert to Vector' button.](images/vector-button.png)
 
 --- /task ---
 
@@ -67,9 +67,9 @@ Use the **Text** tool to add the text `Find the bug` to the chalkboard:
 
 ![](images/chalkboard-text.png)
 
-We used the **Marker** font in white, but **choose** your favourite font and colour.
+We used the **Marker** font in white, but **choose** the font and colour that you want to use.
 
-**Tip:** Switch to the **Select (Arrow)** tool to move your text around. To change the size of the text, grab the corner of the text and drag it.
+**Tip:** Switch to the **Select** (Arrow) tool to move your text around. To change the size of the text, grab the corner of the text and drag it.
 
 --- /task ---
 
@@ -79,7 +79,7 @@ Change the name of the backdrop to `start`, because you will need to select it l
 
 ![The Costume name box highlighted in the Paint editor.](images/start-screen-name.png)
 
-**Tip:** Using names that make sense will help you understand your project, especially when you come back to a project later.
+**Tip:** If you use names that make sense, it will be easier to understand your project, especially when you come back to a project later.
 
 --- /task ---
 
@@ -93,9 +93,9 @@ Delete the **Scratch Cat** sprite.
 
 Click on **Choose a Sprite** and type `bug` in the search box. 
 
-**Choose:** Choose a bug for players to find in your game. 
+**Choose:** Choose a bug, which players will need to find in your game. 
 
-![](images/sprite-button.png)
+![The 'Choose a Sprite' icon.](images/sprite-button.png)
 
 !["bug" search results showing seven different bugs.](images/bug-search.png)
 

@@ -36,7 +36,7 @@ Change the name of the backdrop to `end`:
 
 ![The backdrop name changed in the Paint editor.](images/end-screen-name.png)
 
-**Tip:** Renaming the backdrop to **end** makes it easier to understand your code. 
+**Tip:** You rename the backdrop to **end** to make it easier to understand your code. 
 
 --- /task ---
 

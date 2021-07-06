@@ -50,7 +50,7 @@ set size to [20] % // tiny
 
 When you play the game and you successfully find the bug, the game will switch to the next backdrop. Also, to start the game, you will click on the bug on the 'start' screen.
 
-The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order in which the backdrops are listed when you click on the Stage pane. 
+The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order in which the backdrops are listed when you click on the **Backdrops** tab for the **Stage**. 
 
 --- task ---
 
@@ -93,7 +93,7 @@ You will notice that on the 'start' screen, the bug will still have the settings
 
 --- task ---
 
-Click on the **bug** sprite. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+Click on the **bug** sprite in the Sprite list. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
 
 ![The bug sprite.](images/bug-sprite.png)
 
