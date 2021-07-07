@@ -2,7 +2,7 @@ title: Find the bug
 hero_image: images/banner.png
 description: Create a game in which you have to find a hidden bug on each level
 version: 4
-listed: false
+listed: true
 copyedit: false
 last_tested: "2021-02-26"
 steps:
