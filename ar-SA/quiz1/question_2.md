@@ -1,5 +1,4 @@
 --- question ---
-
 ---
 legend: Question 2 of 3
 ---
@@ -26,19 +25,35 @@ end
 
 - ( ) Change the number in the `move`{:class="block3motion"} block
 
-  --- feedback --- Changing the numbers in the `move`{:class="block3motion"} block will change how far the sprite moves when it is clicked, but will not make the rocket keep moving. --- /feedback ---
+  --- feedback ---
+
+If you change the number in the `move`{:class="block3motion"} block, you will change how far the sprite moves when the green flag is clicked, but this change will not make the rocket keep moving.
+
+  --- /feedback ---
 
 - ( ) Remove the `if on edge, bounce`{:class="block3motion"} block
 
-  --- feedback --- The `if on edge, bounce`{:class="block3motion"} block makes the sprite bounce off the edge of the Stage. If you removed it, then the rocket would get stuck at the edge of the Stage. --- /feedback ---
+  --- feedback ---
+
+The `if on edge, bounce`{:class="block3motion"} block makes the sprite bounce off the edge of the Stage. If you removed it, then the rocket would get stuck at the edge of the Stage.
+
+  --- /feedback ---
 
 - ( ) Add another `forever`{:class="block3control"} block
 
---- feedback --- A script can only have one `forever`{:class="block3control"} block. Did you notice that you cannot add a block underneath a `forever`{:class="block3control"} block? --- /feedback ---
+--- feedback ---
+
+A script can only have one `forever`{:class="block3control"} block. Did you notice that you cannot add a block underneath a `forever`{:class="block3control"} block?
+
+--- /feedback ---
 
 - (x) Drag the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop
 
-  --- feedback --- Yes! The sprite only moves once. Moving the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop will make it keep moving until you stop your project. --- /feedback ---
+  --- feedback ---
+
+  Yes! The sprite only moves once. If you move the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop, the sprite will keep moving until you stop your project.
+
+  --- /feedback ---
 
 --- /choices ---
 
