@@ -5,7 +5,9 @@
 You will choose a backdrop to make a second level for your game, and make the bug hard to find. 
 </div>
 <div>
+
 ![A street scene with a hidden bug.](images/second-level.png){:width="300px"}
+
 </div>
 </div>
 
@@ -23,7 +25,7 @@ To be able to drag your bug into a new position, you need to stop the `when this
 
 --- task ---
 
-Drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them running when you click on the bug:
+Drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them from running when you click on the bug:
 
 ![](images/breaking-script.png)
 
@@ -50,7 +52,7 @@ set size to [20] % // try another size
 
 Drag your bug on the Stage to a good hiding place for this level.
 
-![The bug hidden in the window in the middle of the backdrop.](images/hidden-urban-backdrop.png)
+![The bug hidden in the shop window in the middle of the backdrop.](images/hidden-urban-backdrop.png)
 
 --- /task ---
 
@@ -70,7 +72,9 @@ set size to [20] % // try another size
 
 --- /task ---
 
---- task --- Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that clicking on the bug switches to the `next backdrop`{:class="block3looks"}:
+--- task ---
+
+Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that when the bug is clicked, the backdrop switches to the `next backdrop`{:class="block3looks"}:
 
 ![](images/fixed-script.png)
 
