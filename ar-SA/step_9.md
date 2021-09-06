@@ -14,16 +14,20 @@ go to x: [0] y: [0] // drag to position the bug first
 set [color v] effect to [50]
 ```
 
---- task --- For each level, you will need to:
+--- task ---
+
+For each level, you will need to:
 - Add a backdrop
-- Click on the Stage pane, then drag the new backdrop into position before the **end** backdrop
+- Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
 - Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug
 
 **Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the backdrop does not switch when you click on the bug to position it for a new level.
 
 --- /task ---
 
---- task --- You could add more parrots or choose another sprite to act as a distraction.
+--- task ---
+
+You could add more parrots or choose another sprite to act as a distraction.
 
 Here is the code that you used for the parrot:
 ```blocks3
@@ -41,12 +45,11 @@ end
 
 **Tip:** You can drag the **Parrot** sprite's code to another sprite to make it faster to create another distraction sprite.
 
-![Dragging code to another sprite.](images/drag-parrot-code.gif)
+![Dragging code from the Code area to another sprite in the Sprite list.](images/drag-parrot-code.gif)
 
 --- /task ---
 
 --- collapse ---
-
 ---
 title: Completed project
 ---
