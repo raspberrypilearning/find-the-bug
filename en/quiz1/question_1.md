@@ -9,7 +9,6 @@ When you have answered each question, click on **Submit**. You will be guided to
 Have fun!
 
 --- question ---
-
 ---
 legend: Question 1 of 3
 ---
@@ -41,6 +40,7 @@ In this game, which backdrop would appear next when you click on the bug?
 - (x) Urban
 
   --- feedback ---
+  
 Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
 
 --- /feedback ---

@@ -5,7 +5,9 @@
 Your game will begin with a 'start' screen, and players will click on the bug to go to the first level.
 </div>
 <div>
+
 !["Find the bug" text on a chalkboard on the Stage.](images/start-screen.png){:width="300px"}
+
 </div>
 </div>
 
@@ -14,6 +16,7 @@ Your game will begin with a 'start' screen, and players will click on the bug to
 Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
 
 [[[working-offline]]]
+
 --- /task ---
 
 --- task ---
@@ -29,6 +32,7 @@ Add the **Chalkboard** backdrop from the **Indoors** category.
 The **Stage** has a **Backdrops** tab instead of a **Costumes** tab. This is where you can create images for the **Stage**.
 
 --- task ---
+
 Click on the Stage pane. 
 
 ![](images/stage-pane.png)

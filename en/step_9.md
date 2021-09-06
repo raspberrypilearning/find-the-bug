@@ -15,6 +15,7 @@ set [color v] effect to [50]
 ```
 
 --- task ---
+
 For each level, you will need to:
 - Add a backdrop
 - Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
@@ -25,6 +26,7 @@ For each level, you will need to:
 --- /task ---
 
 --- task ---
+
 You could add more parrots or choose another sprite to act as a distraction. 
 
 Here is the code that you used for the parrot:
@@ -48,7 +50,6 @@ end
 --- /task ---
 
 --- collapse ---
-
 ---
 title: Completed project
 ---
