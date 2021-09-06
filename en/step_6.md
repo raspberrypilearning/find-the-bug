@@ -5,7 +5,9 @@
 You will create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
 </div>
 <div>
+
 ![The bug with the amount of time in a speech bubble.](images/end-screen.png){:width="300px"}
+
 </div>
 </div>
 
@@ -41,6 +43,7 @@ Change the name of the backdrop to `end`:
 --- /task ---
 
 --- task ---
+
 Click on the **bug** sprite and add code to position the bug on the 'end' screen:
 
 ![The bug sprite.](images/bug-sprite.png)

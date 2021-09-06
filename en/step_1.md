@@ -28,7 +28,9 @@ How well are the bugs hidden? You will get to add your own levels and make it as
 --- /no-print ---
 
 --- print-only ---
+
 ![The completed project.](images/showcase_static.png)
+
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">

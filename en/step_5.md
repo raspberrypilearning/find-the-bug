@@ -5,7 +5,9 @@
 You will choose a backdrop to make a second level for your game, and make the bug hard to find. 
 </div>
 <div>
+
 ![A street scene with a hidden bug.](images/second-level.png){:width="300px"}
+
 </div>
 </div>
 
@@ -71,6 +73,7 @@ set size to [20] % // try another size
 --- /task ---
 
 --- task ---
+
 Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that when the bug is clicked, the backdrop switches to the `next backdrop`{:class="block3looks"}:
 
 ![](images/fixed-script.png)

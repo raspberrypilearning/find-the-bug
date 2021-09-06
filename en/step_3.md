@@ -5,7 +5,9 @@
 You will add a new backdrop as the first level in your game, and hide the bug.
 </div>
 <div>
+
 ![The Spotlight backdrop with a bug.](images/first-level.png){:width="300px"}
+
 </div>
 </div>
 
@@ -115,6 +117,7 @@ Your code will make the backdrop switch when you click on the bug! That is not h
 To fix the problem, you need to stop the code from running when you click on the bug.
 
 --- task ---
+
 Click on the green flag to return to the 'start' screen.
 
 Click on the **bug** sprite in the Sprite list and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
@@ -154,7 +157,6 @@ Join the blocks back together so that the code blocks are under the `when this s
 **Test:** Click on the green flag to test your project. Click on the bug to move to the next backdrop. The bug should be big on the 'start' screen and small on the 'Spotlight' level.
 
 --- collapse ---
-
 ---
 title: Nothing happens when I click on the bug
 ---
