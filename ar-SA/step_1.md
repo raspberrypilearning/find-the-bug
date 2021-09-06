@@ -5,7 +5,7 @@ In this project, you will create a game in which you have to find a hidden bug o
 You will:
 + Create levels for your game using `next backdrop`{:class="block3looks"} and `when backdrop switches to`{:class="block3events"} blocks
 + Use a `forever`{:class="block3control"} loop to keep running code blocks
-+ Use the `timer`{:class="block3sensing"} **variable** to let the player know how they did
++ Use the `timer`{:class="block3sensing"} **variable** to let the player know how quickly they found the bugs
 
 --- no-print --- --- task ---
 ### Try it
@@ -26,7 +26,11 @@ How well are the bugs hidden? You will get to add your own levels and make it as
 
 --- /no-print ---
 
---- print-only --- ![The completed project.](images/showcase_static.png) --- /print-only ---
+--- print-only ---
+
+![The completed project.](images/showcase_static.png)
+
+--- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 More than 2.5 billion people play video games every year. Just think how many people are involved in creating those games. Would you like a job designing, coding, or testing games for other people to play? 
