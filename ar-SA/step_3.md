@@ -5,7 +5,9 @@
 You will add a new backdrop as the first level in your game, and hide the bug.
 </div>
 <div>
+
 ![The Spotlight backdrop with a bug.](images/first-level.png){:width="300px"}
+
 </div>
 </div>
 
@@ -50,7 +52,7 @@ set size to [20] % // tiny
 
 When you play the game and you successfully find the bug, the game will switch to the next backdrop. Also, to start the game, you will click on the bug on the 'start' screen.
 
-The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order in which the backdrops are listed when you click on the Stage pane.
+The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order in which the backdrops are listed when you click on the **Backdrops** tab for the **Stage**.
 
 --- task ---
 
@@ -93,7 +95,7 @@ You will notice that on the 'start' screen, the bug will still have the settings
 
 --- task ---
 
-Click on the **bug** sprite. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+Click on the **bug** sprite in the Sprite list. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
 
 ![The bug sprite.](images/bug-sprite.png)
 
@@ -114,7 +116,9 @@ Your code will make the backdrop switch when you click on the bug! That is not h
 
 To fix the problem, you need to stop the code from running when you click on the bug.
 
---- task --- Click on the green flag to return to the 'start' screen.
+--- task ---
+
+Click on the green flag to return to the 'start' screen.
 
 Click on the **bug** sprite in the Sprite list and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
 
@@ -153,7 +157,6 @@ Join the blocks back together so that the code blocks are under the `when this s
 **Test:** Click on the green flag to test your project. Click on the bug to move to the next backdrop. The bug should be big on the 'start' screen and small on the 'Spotlight' level.
 
 --- collapse ---
-
 ---
 title: Nothing happens when I click on the bug
 ---
