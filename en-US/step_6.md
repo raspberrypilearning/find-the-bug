@@ -83,7 +83,9 @@ go to x: [0] y: [30] // on the board
 
 To go back to the 'start' screen, click on the bug on the 'end' screen.
 
---- task --- Add code to make the bug stop saying the `timer`{:class="block3sensing"} when you go to the 'start' screen:
+--- task ---
+
+Add code to make the bug stop saying the `timer`{:class="block3sensing"} when you go to the 'start' screen:
 
 ![The bug sprite.](images/bug-sprite.png)
 
