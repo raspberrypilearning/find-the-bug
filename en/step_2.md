@@ -13,7 +13,7 @@ Your game will begin with a 'start' screen, and players will click on the bug to
 
 --- task ---
 
-Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch will open in another browser tab.
 
 [[[working-offline]]]
 
