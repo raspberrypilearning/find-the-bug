@@ -1,10 +1,10 @@
-## What next?
+## E agora?
 
-If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) pathway, you can move on to the [Silly eyes](https://projects.raspberrypi.org/en/projects/silly-eyes) project. In this project, you will design your own character with eyes that look at the mouse pointer when you move the mouse!
+Se você está seguindo o caminho de [Introdução ao Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro), você pode continuar para o projeto [Olhos tolos](https://projects.raspberrypi.org/en/projects/silly-eyes). Neste projeto, você irá desenhar a sua própria personagem com olhos que apontam para onde você mover o seu rato!
 
 --- print-only ---
 
-![The 'Silly eyes' project.](images/googly-eye-character.png)
+![O projeto 'Olhos tontos'.](images/googly-eye-character.png)
 
 --- /print-only ---
 
