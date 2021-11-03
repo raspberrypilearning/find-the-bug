@@ -1,41 +1,41 @@
-tiny
+malutki
 
-on the disco ball
+na kuli dyskotekowej
 
-'start' screen
+ekran startowy
 
-full-sized
+pełnowymiarowy
 
-on the board
+na tablicy
 
-do not go upside down
+nie idź do góry nogami
 
-number from -180 to 180
+liczba od -180 do 180
 
-keep being annoying
+bądź denerwujący
 
-the number controls the speed
+liczba kontroluje prędkość
 
-stay on the Stage
+pozostań na scenie
 
-flap
+machaj
 
-try 11 or 50
+spróbuj 11 albo 50
 
-try 0.1 or 0.5
+spróbuj 0.1 albo 0.5
 
-choose your backdrop
+wybierz swoje tło
 
-try another size
+spróbuj inny rozmiar
 
-in the shop window
+w witrynie sklepowej
 
-seconds taken
+sekundy, które upłynęły
 
-say nothing
+nie mów nic
 
-first level
+pierwszy poziom
 
-start the timer
+uruchom stoper
 
-drag to position the bug first
+przeciągnij, aby najpierw umieścić robaka
