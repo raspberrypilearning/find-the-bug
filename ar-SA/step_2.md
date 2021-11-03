@@ -1,19 +1,19 @@
-## Start screen
+## شاشة البداية
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your game will begin with a 'start' screen, and players will click on the bug to go to the first level.
+ستبدأ لعبتك بشاشة "بدء" ، وسيقوم اللاعبون بالنقر فوق الحشرة للانتقال إلى المستوى الأول.
 </div>
 <div>
 
-!["Find the bug" text on a chalkboard on the Stage.](images/start-screen.png){:width="300px"}
+!نص["اعثر على الحشرة" على السبورة ضمن المنصة.](images/start-screen.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. سيتم فتح Scratch في علامة تبويب متصفح أخرى.
 
 [[[working-offline]]]
 
@@ -21,19 +21,19 @@ Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scra
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+أضف خلفية **السبورة** من القسم **الداخلي**.
 
-![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
+![أيقونة اختيار الخلفية.](images/backdrop-button.png)
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![خلفية السبورة في مكتبة الخلفية.](images/chalkboard.png)
 
 --- /task ---
 
-The **Stage** has a **Backdrops** tab instead of a **Costumes** tab. This is where you can create images for the **Stage**.
+تحتوي **المنصة** على علامة تبويب **صور خلفيات** بدلاً من علامة تبويب **المظاهر**. هذا هو المكان الذي يمكنك فيه إنشاء صور من أجل **المنصة**.
 
 --- task ---
 
-Click on the Stage pane.
+انقر على لوحة المنصة.
 
 ![](images/stage-pane.png)
 
@@ -41,74 +41,74 @@ Click on the Stage pane.
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+انقر فوق علامة تبويب **الخلفيات** لفتح محرر الرسام.
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard-paint.png)
+![خلفية السبورة في محرر الرسام.](images/chalkboard-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Select **backdrop1** and click on the **Delete** icon to remove the **backdrop1** backdrop from your project. You will not need the **backdrop1** backdrop in this project.
+حدد **خلفية 1 ** وانقر على أيقونة **حذف** لإزالة الخلفية **خلفية 1 ** من مشروعك. لن تحتاج إلى الخلفية **خلفية 1 ** في هذا المشروع.
 
 ![](images/delete-backdrop1.png)
 
 --- /task ---
 
-The **Chalkboard** backdrop will now be highlighted.
+سيتم الآن تمييز خلفية **السبورة**.
 
 --- task ---
 
-Click on **Convert to Vector**. Now, you will be able to add text that you can move around.
+انقر فوق **تحويل إلى رسم متجه**. الآن، ستتمكن من إضافة نص تستطيع تحريكه.
 
-![The 'Convert to Vector' button.](images/vector-button.png)
+![زر "التحويل إلى رسم متجه".](images/vector-button.png)
 
 --- /task ---
 
 --- task ---
 
-Use the **Text** tool to add the text `Find the bug` to the chalkboard:
+استخدم أداة **نص** لإضافة النص `ابحث عن الحشرة` إلى السبورة:
 
 ![](images/chalkboard-text.png)
 
-We used the **Marker** font in white, but **choose** the font and colour that you want to use.
+استخدمنا خط **علامة** باللون الأبيض، لكن **اختر** الخط واللون اللذين تريد استخدامهما.
 
-**Tip:** Switch to the **Select** (Arrow) tool to move your text around. To change the size of the text, grab the corner of the text and drag it.
-
---- /task ---
-
---- task ---
-
-Change the name of the backdrop to `start`, because you will need to select it later in the project.
-
-![The Costume name box highlighted in the Paint editor.](images/start-screen-name.png)
-
-**Tip:** If you use names that make sense, it will be easier to understand your project, especially when you come back to a project later.
+**نصيحة:** قم بالتبديل إلى أداة **انتقِ** (Arrow) Select لتحريك النص الخاص بك. لتغيير حجم النص، اسحب زاوية مربع النص واسحبه.
 
 --- /task ---
 
 --- task ---
 
-Delete the **Scratch Cat** sprite.
+قم بتغيير اسم الخلفية إلى `البداية`، لأنك ستحتاج إلى اختيارها لاحقًا في المشروع.
+
+![تمييز مربع اسم السمة في محرر الرسام.](images/start-screen-name.png)
+
+**نصيحة:** إذا كنت تستخدم أسماء منطقية ذات معنى، فسيكون من السهل فهم مشروعك، خاصةً عند العودة إلى المشروع لاحقًا.
 
 --- /task ---
 
 --- task ---
 
-Click on **Choose a Sprite** and type `bug` in the search box.
+احذف الكائن **قطة **Scratch.
 
-**Choose:** Choose a bug, which players will need to find in your game.
+--- /task ---
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+--- task ---
 
-!["bug" search results showing seven different bugs.](images/bug-search.png)
+انقر فوق **اختيار كائن** واكتب `bug` في مربع البحث.
 
-**Tip:** Give your project a name. You might like to include the name of the bug that you have just chosen.
+**اختر:** اختيار الحشرة التي سيحتاج اللاعبون إلى العثور عليها في لعبتك.
+
+![أيقونة "اختر كائن".](images/sprite-button.png)
+
+!["حشرة" نتائج البحث تظهر سبعة حشرات مختلفة.](images/bug-search.png)
+
+**نصيحة:** امنح مشروعك اسمًا. قد ترغب في تضمين اسم الحشرة الذي اخترته للتو.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A mistake in a computer program is called a <span style="color: #0faeb0">**bug**</span>. Finding and removing mistakes in computer programs is called <span style="color: #0faeb0">**debugging**</span>. Grace Hopper is a famous software engineer. Her team once found a moth in their computer. Their notes say, "First actual case of bug being found."
+يسمى الخطأ في برنامج الكمبيوتر <span style="color: #0faeb0">"bug"</span>. يُطلق على البحث عن الأخطاء وإزالتها في برامج الكمبيوتر <span style="color: #0faeb0">**debugging**</span>. جريس هوبر "Grace Hopper" هي مهندسة برمجيات مشهورة. وجد فريقها ذات مرة فراشة في جهاز الكمبيوتر الخاص بهم. تقول ملاحظاتهم ، "تم العثور على أول حالة فعلية لحشرة"
 </p>
 
 --- save ---
