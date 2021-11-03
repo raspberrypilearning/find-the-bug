@@ -1,19 +1,19 @@
-## Reflection
+## Αναστοχασμός
 
-Well done, you have learned a lot! Now, it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+Μπράβο, έμαθες πολλά! Τώρα, ήρθε η ώρα να εξετάσεις τις νέες γνώσεις - ο αναστοχασμός είναι σημαντικό μέρος της μάθησης, επειδή βοηθά στη δημιουργία νέων συνδέσεων στον εγκέφαλό σου.
 
-Answer the three questions below to reflect on what you have learned.
+Απάντησε στις τρεις ερωτήσεις παρακάτω για να διαπιστώσεις τι έμαθες.
 
-When you have answered each question, click on **Submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Όταν απαντήσεις σε κάθε ερώτηση, κάνε κλικ στην**Υποβολή**. Θα οδηγηθείς στη σωστή απάντηση. Μπορείς να επαναλάβεις αυτήν τη δραστηριότητα όσες φορές θέλεις.
 
-Have fun!
+Καλή διασκέδαση!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Ερώτηση 1 από 3
 ---
 
-In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
+Στο παιχνίδι σου, πρόσθεσες αυτόν τον κώδικα στο **έντομο** για να μετακινηθεί στα υπόβαθρα κάθε φορά που γινόταν κλικ πάνω σ' αυτό.
 
 ```blocks3
 when this sprite clicked
@@ -21,11 +21,11 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Look at this image showing a 'Find the bug' game being played.
+Κοίτα αυτήν την εικόνα που δείχνει το παιχνίδι «Βρες το έντομο» να παίζεται.
 
-![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
+![Το πρόγραμμα επεξεργασίας Scratch με τα υπόβαθρα κατά σειρά start, Spotlight, Urban, end, και η Σκηνή που δείχνει το υπόβαθρο του Spotlight.](images/quiz1-backdrops.png)
 
-In this game, which backdrop would appear next when you click on the bug?
+Σε αυτό το παιχνίδι, ποιο υπόβαθρο θα εμφανιστεί στη συνέχεια όταν κάνεις κλικ στο έντομο;
 
 --- choices ---
 
@@ -33,7 +33,7 @@ In this game, which backdrop would appear next when you click on the bug?
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  Πρέπει να σκεφτείς τη σειρά των υποβάθρων.
 
   --- /feedback ---
 
@@ -41,7 +41,7 @@ In this game, which backdrop would appear next when you click on the bug?
 
   --- feedback ---
 
-Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
+Ναι. Το μπλοκ`επόμενο υπόβαθρο`{:class="block3looks"} αλλάζει στο επόμενο υπόβαθρο με τη σειρά με την οποία εμφανίζονται τα υπόβαθρα όταν κάνεις κλικ στην καρτέλα**Υπόβαθρα** στη **Σκηνή**.
 
 --- /feedback ---
 
@@ -49,7 +49,7 @@ Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdr
 
   --- feedback ---
 
-  The **Spotlight** backdrop is showing on the Stage. You need to think about the order of the backdrops.
+  Το υπόβαθρο **Spotlight** εμφανίζεται στη Σκηνή. Πρέπει να σκεφτείς τη σειρά των υποβάθρων.
 
   --- /feedback ---
 
@@ -57,7 +57,7 @@ Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdr
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  Πρέπει να σκεφτείς τη σειρά των υποβάθρων.
 
   --- /feedback ---
 
