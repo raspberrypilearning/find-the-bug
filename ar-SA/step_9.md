@@ -1,8 +1,8 @@
-## Upgrade your game
+## قم بتطوير لعبتك
 
-If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text on the chalkboard.
+إذا كان لديك الوقت، يمكنك إضافة المزيد من المستويات والمزيد من عوامل التشتيت إلى لعبتك. يمكنك أيضًا تغيير الكائن المخفي وتغيير النص الموجود على السبورة.
 
-Here are the blocks that you will need to hide the bug on a new level:
+إليك الكتل التي ستحتاجها لإخفاء الحشرة على مستوى جديد:
 
 ```blocks3
 when backdrop switches to [new level v]
@@ -16,20 +16,20 @@ set [color v] effect to [50]
 
 --- task ---
 
-For each level, you will need to:
-- Add a backdrop
-- Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
-- Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug
+لكل مستوى، سوف تحتاج إلى:
+- إضافة خلفية
+- انقر على جزء المنصة، ثم على **الخلفيات**، ثم اسحب الخلفية الجديدة إلى موضعها قبل خلفية **النهاية**
+- أضف وحدة `عندما تتغير الخلفية إلى`{: class = "block3events"} للخلفية الجديدة وأضف التعليمات البرمجية للموضع وإخفاء الحشرة
 
-**Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the backdrop does not switch when you click on the bug to position it for a new level.
+**نصيحة:** لسحب الحشرة إلى موضع اختباء جديد، ستحتاج إلى 'break' للبرنامج بحيث لا يتم تبديل الخلفية عند النقر فوق الحشرة لوضعها في مستوى جديد.
 
 --- /task ---
 
 --- task ---
 
-You could add more parrots or choose another sprite to act as a distraction.
+يمكنك إضافة المزيد من الببغاوات أو اختيار كائن آخر ليكون بمثابة مصدر تشتيت.
 
-Here is the code that you used for the parrot:
+هذا هو البرنامج الذي استخدمته للببغاء:
 ```blocks3
 when flag clicked
 set rotation style [left-right v] // do not go upside down
@@ -43,18 +43,18 @@ wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
-**Tip:** You can drag the **Parrot** sprite's code to another sprite to make it faster to create another distraction sprite.
+**نصيحة:** يمكنك سحب رمز **Parrot** إلى كائن آخر لجعله أسرع لإنشاء كائن تشتيت آخر.
 
-![Dragging code from the Code area to another sprite in the Sprite list.](images/drag-parrot-code.gif)
+![يمكنك نسخ التعليمات البرمجية من كائن إلى كائن آخر في قائمة كائن.](images/drag-parrot-code.gif)
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+المشروع المكتمل
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+يمكنك الحصول على [المشروع كاملاً من هنا](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
 
 --- /collapse ---
 
