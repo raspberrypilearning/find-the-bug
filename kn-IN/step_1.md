@@ -1,21 +1,21 @@
-## Introduction
+## ಪರಿಚಯ
 
-In this project, you will create a game in which you have to find a hidden bug on each level. The game will have 'start' and 'end' screen backdrops, and a timer to show the player how quickly they found the bugs.
+ಈ ಯೋಜನೆಯಲ್ಲಿ, ನೀವು ಪ್ರತಿ ಹಂತದಲ್ಲಿ ಗುಪ್ತ ದೋಷವನ್ನು ಕಂಡುಹಿಡಿಯಬೇಕಾದ ಆಟವನ್ನು ನೀವು ರಚಿಸುವಿರಿ. ಆಟವು 'ಸ್ಟಾರ್ಟ್' (Start) ಮತ್ತು 'ಎಂಡ್' (End) ಸ್ಕ್ರೀನ್ ಬ್ಯಾಕ್‌ಡ್ರಾಪ್‌ಗಳನ್ನು ಹೊಂದಿರುತ್ತದೆ ಮತ್ತು ಆಟಗಾರರು ದೋಷಗಳನ್ನು ಎಷ್ಟು ಬೇಗನೆ ಕಂಡುಕೊಂಡರು ಎಂಬುದನ್ನು ತೋರಿಸಲು ಗಡಿಯಾರ ಹೊಂದಿರುತ್ತದೆ.
 
-You will:
-+ Create levels for your game using `next backdrop`{:class="block3looks"} and `when backdrop switches to`{:class="block3events"} blocks
-+ Use a `forever`{:class="block3control"} loop to keep running code blocks
-+ Use the `timer`{:class="block3sensing"} **variable** to let the player know how quickly they found the bugs
+ನೀವು ಮಾಡಬೇಕಾಗಿರುವುದು:
++ `next backdrop`{:class="block3looks"} ಮತ್ತು `when backdrop switches to`{:class="block3events"} ಬ್ಲಾಕ್ ಗಳನ್ನೂ ಬಳಸಿಕೊಂಡು ನಿಮ್ಮ ಆಟಕ್ಕೆ ಹಂತಗಳನ್ನು ರಚಿಸಿ
++ ಚಾಲನೆಯಲ್ಲಿರುವ ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಇರಿಸಿಕೊಳ್ಳಲು `forever`{:class="block3control"} ಲೂಪ್ ಬಳಸಿ
++ `timer`{:class="block3sensing"} **variable** ಬಳಸಿ ಆಟಗಾರರು ದೋಷಗಳನ್ನು ಎಷ್ಟು ಬೇಗನೆ ಕಂಡುಕೊಂಡರು ಎಂದು ತಿಳಿಸಿ
 
 --- no-print --- --- task ---
-### Try it
+### ಪ್ರಯತ್ನಿಸಿ ನೋಡಿ
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
-Click on the bug to start the game.
+ಆಟವನ್ನು ಪ್ರಾರಂಭಿಸಲು ದೋಷದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.
 
-Try to find the bug on each level.
+ಪ್ರತಿ ಹಂತದಲ್ಲಿ ದೋಷವನ್ನು ಕಂಡುಹಿಡಿಯಲು ಪ್ರಯತ್ನಿಸಿ.
 
-How well are the bugs hidden? You will get to add your own levels and make it as easy or difficult as you like.
+ದೋಷಗಳನ್ನು ಎಷ್ಟು ಚೆನ್ನಾಗಿ ಮರೆಮಾಡಲಾಗಿದೆ? ನೀವು ನಿಮ್ಮ ಸ್ವಂತ ಹಂತಗಳನ್ನು ಸೇರಿಸಲು ಅವಕಾಶವಿದ್ದು ಮತ್ತು ಅದನ್ನು ನೀವು ಇಷ್ಟಪಡುವಷ್ಟು ಸುಲಭ ಅಥವಾ ಕಷ್ಟಕರವಾಗಿಸಬಹುದು.
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -28,10 +28,10 @@ How well are the bugs hidden? You will get to add your own levels and make it as
 
 --- print-only ---
 
-![The completed project.](images/showcase_static.png)
+![ಪೂರ್ಣಗೊಂಡ ಯೋಜನೆ.](images/showcase_static.png)
 
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-More than 2.5 billion people play video games every year. Just think how many people are involved in creating those games. Would you like a job designing, coding, or testing games for other people to play? 
+ಪ್ರತಿ ವರ್ಷ 2.5 ಶತಕೋಟಿಗೂ ಹೆಚ್ಚು ಜನರು ವಿಡಿಯೋ ಗೇಮ್‌ಗಳನ್ನು ಆಡುತ್ತಾರೆ. ಆ ಆಟಗಳನ್ನು ರಚಿಸುವಲ್ಲಿ ಎಷ್ಟು ಜನರು ತೊಡಗಿಸಿಕೊಂಡಿದ್ದಾರೆ ಎಂದು ಒಮ್ಮೆ ಯೋಚಿಸಿ. ಇತರ ಜನರು ಆಟವಾಡಲು ಅನಕೂಲ ಮಾಡುವ ಉದ್ಯೋಗಗಳು ಎಂದರೆ, ಆಟಗಳ ವಿನ್ಯಾಸ, ರಚನೆ (ಕೋಡಿಂಗ್), ಮತ್ತು ಆಟಗಳ ಪರೀಕ್ಷೆ ನಿಮಗೆ ಇಷ್ಟವೇ? 
 </p>
