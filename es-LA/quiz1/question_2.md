@@ -1,13 +1,13 @@
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Pregunta 2 de 3
 ---
 
-You used a `forever`{:class="block3control"} loop to make the **Parrot** sprite fly around in an annoying way.
+Usaste un bucle `por siempre`{:class="block3control"} para hacer que el objeto **Parrot** vuele de una manera molesta.
 
-We have tried to add another distraction sprite, but it just moves once when we click on the green flag and then stops. How can we fix it?
+Hemos intentado agregar otro objeto de distracción, pero solo se mueve una vez cuando hacemos clic en la bandera verde y luego se detiene. ¿Cómo podemos solucionarlo?
 
-![The Rocket sprite.](images/rocket-sprite.png)
+![El objeto cohete.](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -23,35 +23,35 @@ end
 
 --- choices ---
 
-- ( ) Change the number in the `move`{:class="block3motion"} block
+- ( ) Cambia el número en el bloque `mover`{:class="block3motion"}
 
   --- feedback ---
 
-If you change the number in the `move`{:class="block3motion"} block, you will change how far the sprite moves when the green flag is clicked, but this change will not make the rocket keep moving.
+Si cambias el número en el bloque `mover`{:class="block3motion"}, cambiarás la distancia que se mueve el objeto al hacer clic en la bandera verde, pero este cambio no hará que el cohete siga moviéndose.
 
   --- /feedback ---
 
-- ( ) Remove the `if on edge, bounce`{:class="block3motion"} block
+- () Elimina el bloque `si toca un borde, rebotar`{:class="block3motion"}
 
   --- feedback ---
 
-The `if on edge, bounce`{:class="block3motion"} block makes the sprite bounce off the edge of the Stage. If you removed it, then the rocket would get stuck at the edge of the Stage.
+El bloque `si toca un borde, rebotar`{:class="block3motion"} hace que el objeto rebote en el borde del Escenario. Si lo quitaras, el cohete se atascaría en el borde del escenario.
 
   --- /feedback ---
 
-- ( ) Add another `forever`{:class="block3control"} block
+- () Agrega otro bloque `por siempre`{:class="block3control"}
 
 --- feedback ---
 
-A script can only have one `forever`{:class="block3control"} block. Did you notice that you cannot add a block underneath a `forever`{:class="block3control"} block?
+Un script solo puede tener un bloque `por siempre`{:class="block3control"}. ¿Notaste que no puedes agregar un bloque debajo de un bloque `por siempre`{:class="block3control"}?
 
 --- /feedback ---
 
-- (x) Drag the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop
+- (x) Arrastra el bloque `mover`{:class="block3motion"} dentro del bucle `por siempre`{:class="block3control"}
 
   --- feedback ---
 
-  Yes! The sprite only moves once. If you move the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop, the sprite will keep moving until you stop your project.
+  ¡Sí! El objeto solo se mueve una vez. Si mueves el bloque `mover`{:class="block3motion"} dentro del bucle `por siempre`{:class="block3control"}, el objeto seguirá moviéndose hasta que detengas tu proyecto.
 
   --- /feedback ---
 
