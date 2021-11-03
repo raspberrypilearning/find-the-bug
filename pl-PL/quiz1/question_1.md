@@ -1,19 +1,19 @@
-## Reflection
+## Powtórka
 
-Well done, you have learned a lot! Now, it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+Dobra robota, wiele się nauczyłeś! Teraz nadszedł czas na sprawdzenie swojej wiedzy — powtarzanie jest ważną częścią uczenia się, ponieważ pomaga tworzyć nowe połączenia w mózgu.
 
-Answer the three questions below to reflect on what you have learned.
+Odpowiedz na trzy poniższe pytania, aby przypomnieć sobie, czego się nauczyłeś.
 
-When you have answered each question, click on **Submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Po udzieleniu odpowiedzi na każde pytanie kliknij **Prześlij**. Zostaniesz poprowadzony w kierunku prawidłowej odpowiedzi. Możesz powtarzać to ćwiczenie tyle razy, ile chcesz.
 
-Have fun!
+Miłej zabawy!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Pytanie 1 z 3
 ---
 
-In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
+W swojej grze dodałeś ten kod do **robaka** aby poruszać się przez tła za każdym razem, gdy robak został kliknięty.
 
 ```blocks3
 when this sprite clicked
@@ -21,11 +21,11 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Look at this image showing a 'Find the bug' game being played.
+Spójrz na ten obrazek przedstawiający rozgrywkę gry "Znajdź robaka".
 
-![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
+![Edytor Scratch z tłami w kolejności start, Spotlight, Urban, koniec; oraz scena przedstawiająca tło Spotlight.](images/quiz1-backdrops.png)
 
-In this game, which backdrop would appear next when you click on the bug?
+Jakie tło pojawi się w tej grze po kliknięciu robaka?
 
 --- choices ---
 
@@ -33,7 +33,7 @@ In this game, which backdrop would appear next when you click on the bug?
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  Musisz pomyśleć o kolejności teł.
 
   --- /feedback ---
 
@@ -41,7 +41,7 @@ In this game, which backdrop would appear next when you click on the bug?
 
   --- feedback ---
 
-Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
+Tak. Blok `kolejne tło`{:class="block3looks"} przełącza się na następne tło w kolejności listy teł w zakładce **Tła** w panelu **Scena**.
 
 --- /feedback ---
 
@@ -49,15 +49,15 @@ Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdr
 
   --- feedback ---
 
-  The **Spotlight** backdrop is showing on the Stage. You need to think about the order of the backdrops.
+  Tło **Spotlight** jest wyświetlane na scenie. Musisz pomyśleć o kolejności teł.
 
   --- /feedback ---
 
-- ( ) end
+- ( ) koniec
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  Musisz pomyśleć o kolejności teł.
 
   --- /feedback ---
 
