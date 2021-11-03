@@ -1,19 +1,19 @@
-## Reflection
+## انعكاس
 
-Well done, you have learned a lot! Now, it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+أحسنت ، لقد تعلمت الكثير! الآن ، حان وقت التفكير - التفكير جزء مهم من التعلم، لأنه يساعد في إنشاء روابط جديدة في عقلك.
 
-Answer the three questions below to reflect on what you have learned.
+أجب عن الأسئلة الثلاثة أدناه لتفكر فيما تعلمته.
 
-When you have answered each question, click on **Submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+عندما تجيب على كل سؤال، انقر فوق **إرسال**. سيتم توجيهك نحو الإجابة الصحيحة. يمكنك القيام بهذا النشاط عدة مرات كما تريد.
 
-Have fun!
+إستمتع!
 
 --- question ---
 ---
-legend: Question 1 of 3
+القائمة: السؤال 1 من 3
 ---
 
-In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
+في لعبتك ، أضفت هذا الرمز إلى **الحشرة** للتنقل عبر الخلفيات في كل مرة يتم النقر عليها.
 
 ```blocks3
 when this sprite clicked
@@ -21,43 +21,43 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Look at this image showing a 'Find the bug' game being played.
+انظر إلى هذه الصورة التي تعرض لعبة "العثور على الحشرة" قيد اللعب.
 
-![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
+![محرر Scratch مع الخلفيات بالترتيب: البداية وأضواء المسرح والمدينة والنهاية والمنصة التي تظهر عليها خلفية أضواء المسرح.](images/quiz1-backdrops.png)
 
-In this game, which backdrop would appear next when you click on the bug?
+في هذه اللعبة، ما الخلفية التي ستظهر بعد ذلك عند النقر فوق الحشرة؟
 
 --- choices ---
 
-- ( ) start
+- ( ) بداية
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  تحتاج إلى التفكير في ترتيب الخلفيات.
 
   --- /feedback ---
 
-- (x) Urban
+- (x) المدينة
 
   --- feedback ---
 
-Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
+نعم. الوحدة `الخلفية التالية`{: class = "block3looks"} تتغير إلى الخلفية التالية بالترتيب الذي يتم به وضع الخلفيات عند النقر فوق علامة التبويب **الخلفيات** من أجل **المنصة**.
 
 --- /feedback ---
 
-- ( ) Spotlight
+- () أضواء المسرح
 
   --- feedback ---
 
-  The **Spotlight** backdrop is showing on the Stage. You need to think about the order of the backdrops.
+  خلفية **أضواء المسرح** تظهر على المنصة. تحتاج إلى التفكير في ترتيب الخلفيات.
 
   --- /feedback ---
 
-- ( ) end
+- ( ) نهاية
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  تحتاج إلى التفكير في ترتيب الخلفيات.
 
   --- /feedback ---
 
