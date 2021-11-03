@@ -1,41 +1,41 @@
-tiny
+ಚಿಕ್ಕದು
 
-on the disco ball
+ಡಿಸ್ಕೋ ಬಾಲ್ ಮೇಲೆ
 
-'start' screen
+ಪ್ರಾರಂಭದ ಪರದೆ
 
-full-sized
+ಪೂರ್ಣ ಗಾತ್ರದ
 
-on the board
+ಮಂಡಳಿಯಲ್ಲಿ
 
-do not go upside down
+ತಲೆಕೆಳಗಾಗಿ ಹೋಗಬೇಡಿ
 
-number from -180 to 180
+-180 ರಿಂದ 180 ರವರೆಗಿನ ಸಂಖ್ಯೆ
 
-keep being annoying
+ಕಿರಿಕಿರಿ ಮಾಡುತ್ತಲೇ ಇರಿ
 
-the number controls the speed
+ಸಂಖ್ಯೆಯು ವೇಗವನ್ನು ನಿಯಂತ್ರಿಸುತ್ತದೆ
 
-stay on the Stage
+ವೇದಿಕೆಯಲ್ಲಿ ಉಳಿಯಿರಿ
 
-flap
+ಫ್ಲಾಪ್
 
-try 11 or 50
+11 ಅಥವಾ 50 ಪ್ರಯತ್ನಿಸಿ
 
-try 0.1 or 0.5
+0.1 ಅಥವಾ 0.5 ಪ್ರಯತ್ನಿಸಿ
 
-choose your backdrop
+ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ ಆಯ್ಕೆಮಾಡಿ
 
-try another size
+ಇನ್ನೊಂದು ಗಾತ್ರವನ್ನು ಪ್ರಯತ್ನಿಸಿ
 
-in the shop window
+ಅಂಗಡಿ ಕಿಟಕಿಯಲ್ಲಿ
 
-seconds taken
+ಸೆಕೆಂಡುಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಲಾಗಿದೆ
 
-say nothing
+ಏನನ್ನೂ ಹೇಳುವುದಿಲ್ಲ
 
-first level
+ಮೊದಲ ಹಂತ
 
-start the timer
+ಟೈಮರ್ ಅನ್ನು ಪ್ರಾರಂಭಿಸಿ
 
-drag to position the bug first
+ದೋಷವನ್ನು ಮತ್ತೆ ಇರಿಸಲು ಪ್ರಯತ್ನಿಸಿ
