@@ -1,33 +1,33 @@
-## Parrot distraction
+## Ένας παπαγάλος αποσπά την προσοχή
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-To make it harder for players to find and click on the bug, you will add an annoying parrot to distract them. 
+Για να είναι πιο δύσκολο για τους παίκτες να βρουν και να κάνουν κλικ στο έντομο, θα προσθέσεις έναν ενοχλητικό παπαγάλο για να τους αποσπά την προσοχή. 
 </div>
 <div>
 
-![A colourful parrot on the Stage.](images/parrot-distraction.png){:width="300px"}
+![Ένας πολύχρωμος παπαγάλος στη Σκηνή.](images/parrot-distraction.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Add the **Parrot** sprite.
+Πρόσθεσε το αντικείμενο **Parrot**.
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+![Το εικονίδιο «Επιλέξτε ένα Αντικείμενο».](images/sprite-button.png)
 
 --- /task ---
 
-In the [Catch the bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"} project, you used a `repeat`{:class="block3control"} loop.
+Στο έργο [Πρόλαβε το λεωφορείο](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}, χρησιμοποίησες ένα βρόχο `επανάλαβε`{:class="block3control"}.
 
-You will use a different loop here. A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It is the perfect loop for an annoying parrot that will not stop flying around and getting in the way.
+Εδώ θα χρησιμοποιήσεις διαφορετικό βρόχο. Ένας βρόχος `για πάντα`{:class="block3control"} εκτελεί τα μπλοκ κώδικα μέσα στον βρόχο ξανά και ξανά. Είναι ο τέλειος βρόχος για έναν ενοχλητικό παπαγάλο που δεν θα σταματήσει να πετάει και να εμποδίζει.
 
 --- task ---
 
-Add code to make the parrot flap around in a distracting way:
+Πρόσθεσε κώδικα για να κάνεις τον παπαγάλο να φτερουγίζει με τρόπο που να αποσπά την προσοχή:
 
-![The Parrot sprite.](images/parrot-sprite.png)
+![Το αντικείμενο Parrot.](images/parrot-sprite.png)
 
 
 ```blocks3
@@ -47,13 +47,13 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag and test your project again. Can you remember where you hid the bug?
+**Δοκιμή:** Κάνε κλικ στην πράσινη σημαία και δοκίμασε το έργο σου πάλι. Μπορείς να θυμηθείς πού έκρυψες το έντομο;
 
-In Scratch, code that is running glows with a yellow outline:
+Στο Scratch, ο κώδικας που εκτελείται έχει ένα κίτρινο περίγραμμα:
 
 ![](images/running-code.png)
 
-**Tip:** If the parrot gets too annoying while you are coding, you can click the red stop button above the Stage to stop the code from running.
+**Συμβουλή:** Εάν ο παπαγάλος γίνει πολύ ενοχλητικός ενώ κάνεις τον κώδικά σου, μπορείς να κάνεις κλικ στο κόκκινο κουμπί διακοπής πάνω από τη Σκηνή για να σταματήσεις την εκτέλεση του κώδικα.
 
 --- /task ---
 
