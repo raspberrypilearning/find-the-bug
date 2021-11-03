@@ -1,52 +1,52 @@
-## End screen
+## Écran de fin
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
+Tu vas créer un écran de « fin » pour afficher le nombre de secondes qu'il a fallu au joueur pour trouver les bugs. 
 </div>
 <div>
 
-![The bug with the amount of time in a speech bubble.](images/end-screen.png){:width="300px"}
+![Le bug avec le temps passé dans une bulle de dialogue.](images/end-screen.png){:width="300px"}
 
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Sometimes, just beating a game isn't enough. Players like to know how they did against other players or themselves. Can you think of a game that shows you how well you did?</p>
+Parfois, seulement battre le jeu n'est pas suffisant. Les joueurs aiment savoir comment ils se sont comportés contre d'autres joueurs ou contre eux-mêmes. Peux-tu penser à un jeu qui te montre à quel point tu as bien fait ?</p>
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+Ajoute le **Chalkboard** de la catégorie **Indoors**.
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![L'arrière-plan du Chalkboard dans la bibliothèque des arrière-plans.](images/chalkboard.png)
 
-**Tip:** In Scratch, you can add the same backdrop more than once.
+**Astuce :** Dans Scratch, tu peux ajouter plusieurs fois le même arrière-plan.
 
 --- /task ---
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+Clique sur l'onglet **arrière-plans** pour ouvrir l'éditeur de peinture.
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard2-paint.png)
-
---- /task ---
-
---- task ---
-
-Change the name of the backdrop to `end`:
-
-![The backdrop name changed in the Paint editor.](images/end-screen-name.png)
-
-**Tip:** You rename the backdrop to **end** to make it easier to understand your code.
+![L'arrière-plan Chalkboard dans l'éditeur de peinture.](images/chalkboard2-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **bug** sprite and add code to position the bug on the 'end' screen:
+Change le nom de l'arrière-plan en `fin`:
 
-![The bug sprite.](images/bug-sprite.png)
+![Le nom de 'arrière-plan a changé dans l'éditeur de peinture.](images/end-screen-name.png)
+
+**Astuce :** Tu renommes l'arrière-plan en **fin** pour faciliter la compréhension de ton code.
+
+--- /task ---
+
+--- task ---
+
+Clique sur le **bug** et ajoute du code pour positionner le bug sur l'écran 'fin' :
+
+![Le sprite bug.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -56,13 +56,13 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-How long does it take you to find and click on the bugs? Scratch has a `timer`{:class="block3sensing"} that you can use to find out.
+Combien de temps te faut-il pour trouver et cliquer sur les bugs ? Scratch a un `chronomètre`{:class="block3sensing"} que tu peux utiliser pour le découvrir.
 
 --- task ---
 
-The `timer`{:class="block3sensing"} block is in the `Sensing`{:class="block3sensing"} blocks menu. Add code to make the bug `say`{:class="block3looks"} the `timer`{:class="block3sensing"} on the 'end' screen:
+Le bloc `chronomètre`{: class = "block3sensing"} est dans le menu blocs `Capteurs`{: class = "block3sensing"} . Ajoute du code pour que le bug `dise`{:class="block3looks"} le `chronomètre`{:class="block3sensing"} sur l'écran 'fin' :
 
-![The bug sprite.](images/bug-sprite.png)
+![Le sprite bug.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -71,23 +71,23 @@ go to x: [0] y: [30] // on the board
 +say (timer) // seconds taken
 ```
 
-![Inserting a 'timer' block into a 'say' block.](images/inserting-blocks.gif)
+![Insertion d'un bloc 'chronomètre' dans un bloc 'dire'.](images/inserting-blocks.gif)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your finding skills. How long does it take you to find the bug?
+**Test :** Clique sur le drapeau vert pour tester tes capacités de recherche. Combien de temps te faut-il pour trouver le bug ?
 
 --- /task ---
 
-To go back to the 'start' screen, click on the bug on the 'end' screen.
+Pour revenir à l'écran 'début', clique sur le bug sur l'écran 'fin'.
 
 --- task ---
 
-Add code to make the bug stop saying the `timer`{:class="block3sensing"} when you go to the 'start' screen:
+Ajoute du code pour que le bug arrête de dire le `chronomètre`{:class="block3sensing"} lorsque tu vas à l'écran « début » :
 
-![The bug sprite.](images/bug-sprite.png)
+![Le sprite bug.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -98,13 +98,13 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-If you play the game a second time, the `timer`{:class="block3sensing"} will keep counting.
+Si tu joues au jeu une deuxième fois, le `chronomètre`{:class="block3sensing"} continuera à compter.
 
 --- task ---
 
-Add code to `reset the timer`{:class="block3sensing"} when the `backdrop switches to`{:class="block3events"} the first level:
+Ajoute le code `réinitialisez le chronomètre`{:class="block3sensing"}`quand l'arrière-plan bascule sur`{:class="block3events"} le premier niveau :
 
-![The bug sprite.](images/bug-sprite.png)
+![Le sprite bug.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v] // first level
@@ -117,7 +117,7 @@ go to x: [13] y: [132] // on the disco ball
 
 --- task ---
 
-**Test:** Click on the green flag and play the game. The timer should reset when you click on the bug on the 'start' screen to move to the first level. When you click on the bug on the 'end' screen, you should return to the 'start' screen and see that the bug is not saying the `timer`{:class="block3sensing"}.
+**Test :** Clique sur le drapeau vert et lance le jeu. Le chronomètre devrait se réinitialiser lorsque tu cliques sur le bug sur l'écran « début » pour passer au premier niveau. Lorsque tu cliques sur le bug sur l'écran 'fin', tu devrais revenir à l'écran 'début' et voir que le bug ne dit pas le `chronomètre`{:class="block3sensing"}.
 
 --- /task ---
 
