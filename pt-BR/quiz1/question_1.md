@@ -1,19 +1,19 @@
-## Reflection
+## Reflexão
 
-Well done, you have learned a lot! Now, it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+Muito bem, você aprendeu bastante! Agora, é hora de refletir - refletir é uma parte importante do aprendizado, porque ajuda a fazer novas conexões no em seu cérebro.
 
-Answer the three questions below to reflect on what you have learned.
+Responda às três perguntas abaixo para pensar sobre o que você aprendeu.
 
-When you have answered each question, click on **Submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Após responder à cada pergunta, clique em **Enviar**. Você vai ser guiado para a resposta correta. Você pode fazer esta atividade quantas vezes quiser.
 
-Have fun!
+Divirta-se!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Pergunta 1 de 3
 ---
 
-In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
+Em seu jogo, você adicionou esse código ao seu **bug** para percorrer os panos de fundo cada vez que ele for clicado.
 
 ```blocks3
 when this sprite clicked
@@ -21,43 +21,43 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Look at this image showing a 'Find the bug' game being played.
+Olhe para esta imagem que mostra o jogo 'Encontre o bug' sendo executado.
 
-![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
+![O editor Scratch com cenários na ordem Começo, Holofote, Urbano, Fim; e o Palco mostrando o cenário Holofote.](images/quiz1-backdrops.png)
 
-In this game, which backdrop would appear next when you click on the bug?
+Neste jogo, qual cenário vai aparecer se você clicar sobre o inseto?
 
 --- choices ---
 
-- ( ) start
+- ( ) começar
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  Você precisa pensar um pouco sobre a ordem dos cenários.
 
   --- /feedback ---
 
-- (x) Urban
+- (x) Urbano
 
   --- feedback ---
 
-Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
+Sim. O próximo `bloco cenário`{: classe = "block3looks"} altera o plano de fundo para o próximo cenário no na ordem da lista de cenários na aba **Cenários** para o **Palco**.
 
 --- /feedback ---
 
-- ( ) Spotlight
+- ( ) Holofote
 
   --- feedback ---
 
-  The **Spotlight** backdrop is showing on the Stage. You need to think about the order of the backdrops.
+  O cenário **Holofote** está sendo mostrado no Palco. Você precisa pensar um pouco sobre a ordem dos cenários.
 
   --- /feedback ---
 
-- ( ) end
+- ( ) fim
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  Você precisa pensar um pouco sobre a ordem dos cenários.
 
   --- /feedback ---
 
