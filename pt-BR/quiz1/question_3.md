@@ -1,11 +1,11 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Pergunta 3 de 3
 ---
 
-You added this script to the **bug** sprite:
+Você adicionou esse script ao ator**inseto**:
 
-![The bug sprite.](images/bug-sprite.png)
+![O ator inseto.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -14,39 +14,39 @@ go to x: [0] y: [30]
 + say (timer) 
 ```
 
-How does the `say`{:class="block3looks"} `timer`{:class="block3sensing"} block make the Stage look when the backdrop switches to **end**?
+Como o bloco `dizer`{:class="block3motion"} `temporizador`{:class="block3motion"} faz com que o Palco pareça quando o cenário é alterado para **Fim**?
 
 --- choices ---
 
-- ( ) ![A parrot saying the timer value "4.52".](images/quiz_parrot_number.png)
+- ( ) ![Um papagaio dizendo o valor do temporizador "4,52".](images/quiz_parrot_number.png)
 
   --- feedback ---
 
-Have a look at the script again, and think about which sprite is the main character of the game (the parrot is just an annoying distraction).
+Dê uma olhada no script novamente e pense em qual ator é o personagem principal do jogo (o papagaio é apenas uma distração irritante).
 
   --- /feedback ---
 
-- ( ) ![A parrot saying the word "timer".](images/quiz_parrot_timer.png)
+- ( ) ![Um papagaio dizendo a palavra "temporizador".](images/quiz_parrot_timer.png)
 
   --- feedback ---
 
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer". Also, think about which sprite uses this code.
+O bloco `temporizador`{:class="block3motion"} está na categoria `Detecção` no menu. O ator não diz a palavra "temporizador". Além disso, pense em qual ator utiliza esse código.
 
   --- /feedback ---
 
-- (x) ![A bug saying the timer value "4.52".](images/quiz_bug_number.png)
+- (x) ![Um inseto dizendo o valor do timer "4,52".](images/quiz_bug_number.png)
 
   --- feedback ---
 
-Yes. The `timer`{:class="block3sensing"} block reports the time since the project started, or since the timer reset.
+Sim. O bloco `temporizador`{:class="block3sensing"} mostra o tempo passado desde o início do projeto ou desde a reinicialização do temporizador.
 
   --- /feedback ---
 
-- ( ) ![A bug saying the word "timer".](images/quiz_bug_timer.png)
+- ( ) ![Um inseto dizendo a palavra "temporizador".](images/quiz_bug_timer.png)
 
   --- feedback ---
 
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer".
+O bloco `temporizador`{:class="block3motion"} está na categoria `Detecção` no menu. O ator não diz a palavra "temporizador".
 
   --- /feedback ---
 
