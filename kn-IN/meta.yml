@@ -1,34 +1,34 @@
 ---
-title: Find the bug
+title: ದೋಷವನ್ನು ಹುಡುಕಿ
 hero_image: images/banner.png
-description: Create a game in which you have to find a hidden bug on each level
+description: ನೀವು ಪ್ರತಿ ಹಂತದಲ್ಲಿ ಗುಪ್ತ ದೋಷವನ್ನು ಕಂಡುಹಿಡಿಯಬೇಕಾದ ಆಟವನ್ನು ರಚಿಸಿ
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: Introduction
+    title: ಪರಿಚಯ
   - 
-    title: Start screen
+    title: ಪರದೆಯನ್ನು ಪ್ರಾರಂಭಿಸಿ
   - 
-    title: First level
+    title: ಮೊದಲ ಹಂತ
   - 
-    title: Parrot distraction
+    title: ಗಿಣಿ ವ್ಯಾಕುಲತೆ
   - 
-    title: Second level
+    title: ಎರಡನೇ ಹಂತ
   - 
-    title: End screen
+    title: ಅಂತ್ಯ ಪರದೆ
   - 
-    title: Play the game
+    title: ಆಟವಾಡು
   - 
-    title: Reflection
+    title: ಪ್ರತಿಫಲನ
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
   - 
-    title: Upgrade your game
+    title: ನಿಮ್ಮ ಆಟವನ್ನು ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ
   - 
-    title: What next?
+    title: ಮುಂದೆ ಏನು?
