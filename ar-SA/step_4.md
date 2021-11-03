@@ -1,8 +1,8 @@
-## Parrot distraction
+## الببغاء المزعج
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-To make it harder for players to find and click on the bug, you will add an annoying parrot to distract them. 
+لتجعل من الصعب على اللاعبين العثور على الحشرة والنقر عليها، ستضيف ببغاءًا مزعجًا لإشغالهم. 
 </div>
 <div>
 
@@ -13,21 +13,21 @@ To make it harder for players to find and click on the bug, you will add an anno
 
 --- task ---
 
-Add the **Parrot** sprite.
+أضف كائن **الببغاء**.
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+![أيقونة "اختر كائن".](images/sprite-button.png)
 
 --- /task ---
 
-In the [Catch the bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"} project, you used a `repeat`{:class="block3control"} loop.
+في مشروع [اللحاق بالحافلة](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}، كنت تستخدم حلقة `تكرار`{:class="block3control"}.
 
-You will use a different loop here. A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It is the perfect loop for an annoying parrot that will not stop flying around and getting in the way.
+ستستخدم حلقة مختلفة هنا. تقوم حلقة `دائماً`{: class = "block3control"} بتشغيل وحدات التعليمات البرمجية بداخلها مرارًا وتكرارًا. إنها الحلقة المثالية لببغاء مزعج لن يتوقف عن الطيران ويعترض الطريق.
 
 --- task ---
 
-Add code to make the parrot flap around in a distracting way:
+أضف التعليمات البرمجية لجعل الببغاء يرفرف بطريقة تشتت الانتباه:
 
-![The Parrot sprite.](images/parrot-sprite.png)
+![كائن الببغاء.](images/parrot-sprite.png)
 
 
 ```blocks3
@@ -47,13 +47,13 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag and test your project again. Can you remember where you hid the bug?
+**اختبار:** انقر فوق العلم الأخضر واختبر مشروعك مرة أخرى. هل يمكنك أن تتذكر أين أخفيت الحشرة؟
 
-In Scratch, code that is running glows with a yellow outline:
+في Scratch، تتوهج التعليمات البرمجية الجاري تشغيلها بمخطط أصفر:
 
 ![](images/running-code.png)
 
-**Tip:** If the parrot gets too annoying while you are coding, you can click the red stop button above the Stage to stop the code from running.
+**نصيحة:** إذا أصبح الببغاء مزعجًا للغاية أثناء قيامك بكتابة التعليمات البرمجية، فيمكنك النقر فوق زر التوقف الأحمر أعلى المنصة لإيقاف تشغيل البرنامج.
 
 --- /task ---
 
