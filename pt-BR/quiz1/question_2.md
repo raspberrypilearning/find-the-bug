@@ -1,13 +1,13 @@
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Pergunta 2 de 3
 ---
 
-You used a `forever`{:class="block3control"} loop to make the **Parrot** sprite fly around in an annoying way.
+Você usou um loop`infinito `{:class="block3control"} para fazer a **Arara** voar de forma irritante sem rumo.
 
-We have tried to add another distraction sprite, but it just moves once when we click on the green flag and then stops. How can we fix it?
+Tentamos adicionar outro ator para distração, mas ele só se move uma vez quando se clica na bandeira verde e depois para. Como podemos conserta-lo?
 
-![The Rocket sprite.](images/rocket-sprite.png)
+![O ator Foguete.](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -23,35 +23,35 @@ end
 
 --- choices ---
 
-- ( ) Change the number in the `move`{:class="block3motion"} block
+- ( ) Altere o número no bloco `mover`{:class="block3control"}
 
   --- feedback ---
 
-If you change the number in the `move`{:class="block3motion"} block, you will change how far the sprite moves when the green flag is clicked, but this change will not make the rocket keep moving.
+Se você mudar o número no bloco `mover`{:class="block3motion"}, você vai alterar o quão longe o ator pode ir quando a bandeira verde for clicada, mas essa alteração não vai fazer com que o foguete continue se movendo.
 
   --- /feedback ---
 
-- ( ) Remove the `if on edge, bounce`{:class="block3motion"} block
+- ( ) Remova o bloco `se estiver na borda, retorne`{:class="block3motion"}
 
   --- feedback ---
 
-The `if on edge, bounce`{:class="block3motion"} block makes the sprite bounce off the edge of the Stage. If you removed it, then the rocket would get stuck at the edge of the Stage.
+O bloco `se estiver na borda, retorne`{:class="block3motion"} faz o ator rebater na borda do Palco. Se você o remover, o foguete ficará parado na borda do Palco.
 
   --- /feedback ---
 
-- ( ) Add another `forever`{:class="block3control"} block
+- ( ) Adicione um outro loop `infinito`{:class="block3motion"}
 
 --- feedback ---
 
-A script can only have one `forever`{:class="block3control"} block. Did you notice that you cannot add a block underneath a `forever`{:class="block3control"} block?
+Um script pode ter somente um loop `infinito`{:class="block3motion"}. Você percebeu que não é possível adicionar um bloco abaixo do loop `infinito`{:class= "block3control"}?
 
 --- /feedback ---
 
-- (x) Drag the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop
+- (x) Arraste o bloco </code>mover`{:class="block3looks"} para dentro do loop <code>infinito`{:class="block3control"}
 
   --- feedback ---
 
-  Yes! The sprite only moves once. If you move the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop, the sprite will keep moving until you stop your project.
+  Sim! O ator só se move uma vez. Se você colocar o bloco`mover`{:class="block3motion"} dentro do loop `infinito`{: class="block3control"}, o ator irá se mover até que você interrompa seu projeto.
 
   --- /feedback ---
 
