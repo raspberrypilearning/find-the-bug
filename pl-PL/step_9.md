@@ -1,8 +1,8 @@
-## Upgrade your game
+## Ulepsz swój projekt
 
-If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text on the chalkboard.
+Jeśli masz czas, możesz dodać więcej poziomów i więcej rozpraszaczy do swojej gry. Możesz także zmienić ukrywającego się duszka i zmienić tekst na tablicy.
 
-Here are the blocks that you will need to hide the bug on a new level:
+Oto bloki, których będziesz potrzebować, aby ukryć robaka na nowym poziomie:
 
 ```blocks3
 when backdrop switches to [new level v]
@@ -16,20 +16,20 @@ set [color v] effect to [50]
 
 --- task ---
 
-For each level, you will need to:
-- Add a backdrop
-- Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
-- Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug
+Dla każdego poziomu musisz:
+- Dodać tło
+- Kliknąć na panel Sceny, potem zakładkę **Tła**, a następnie przeciągnąć nowe tło na miejsce przed tłem **koniec**
+- Dodać blok `kiedy tło zmieni się na`{:class="block3events"} dla nowego tła oraz dodać kod, aby umieścić i ukryć robaka
 
-**Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the backdrop does not switch when you click on the bug to position it for a new level.
+**Wskazówka:** Aby przeciągnąć robaka do nowej kryjówki, będziesz musiał "złamać" kod, aby tło nie zmieniło się po kliknięciu robaka w celu ustawienia go na nowy poziom.
 
 --- /task ---
 
 --- task ---
 
-You could add more parrots or choose another sprite to act as a distraction.
+Możesz dodać więcej papug lub wybrać innego duszka, który będzie odwracał uwagę.
 
-Here is the code that you used for the parrot:
+Oto kod, którego użyłeś dla papugi:
 ```blocks3
 when flag clicked
 set rotation style [left-right v] // do not go upside down
@@ -43,18 +43,18 @@ wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
-**Tip:** You can drag the **Parrot** sprite's code to another sprite to make it faster to create another distraction sprite.
+**Wskazówka:** Możesz przeciągnąć kod duszka **Parrot** na innego duszka, aby przyspieszyć tworzenie kolejnego duszka rozpraszającego.
 
-![Dragging code from the Code area to another sprite in the Sprite list.](images/drag-parrot-code.gif)
+![Przeciągnięcie kodu z obszaru Skrypt do innego duszka na liście duszków.](images/drag-parrot-code.gif)
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+title: Ukończony projekt
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+Tutaj możesz zobaczyć [ukończony projekt](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
 
 --- /collapse ---
 
