@@ -1,32 +1,34 @@
-## Play the game
+## لعب اللعبة
 
-Play your game and see how quickly you can find the bugs.
+العب اللعبة التي قمت بتصميمها وشاهد مدى سرعتك في العثور على الحشرات.
 
 --- task ---
 
-Is there anything that you want to change?
+هل هناك أي شيء تريد تغييره؟
 
-You could:
-- Make the parrot even more annoying
-- Make the bugs smaller
-- Change the `color effect`{:class="block3looks"} to camouflage the bug on each level
-- Change the font or colour of the text
+يمكنك:
+- جعل الببغاء أكثر إزعاجًا
+- تصغير أحجام الحشرات
+- تغيير `تأثير اللون`{: class = "block3looks"} لإخفاء الحشرة في كل مستوى
+- تغيير الخط أو لون النص
 
 --- /task ---
 
 --- task ---
 
-Is there someone else who can try your game? How fast can they find the bugs? They will not know where you have hidden them, so it might take them a bit longer!
+هل هناك شخص آخر يمكنه تجربة لعبتك؟ ما مدى سرعة عثورهم على الحشرات؟ لن يعرفوا أين أخفيتهم، لذلك قد يستغرقون وقتًا أطول قليلاً!
 
-If you are in a club, then you could try someone else's game.
+إذا كنت في نادٍ، فيمكنك تجربة لعبة شخص آخر.
 
-Take a look at some 'Find the bug' projects created by community members, which you can explore in the Raspberry Pi Foundation's 'Find the bug' Scratch studio: [See inside](https://scratch.mit.edu/studios/29005236/){:target="_blank"}
+ألقِ نظرة على بعض مشاريع "العثور على الحشرات" التي أنشأها أعضاء المجتمع، والتي يمكنك استكشافها في استوديو Scratch "Find the bug" التابع لمؤسسة Raspberry Pi: [انظر من الداخل](https://scratch.mit.edu/studios/29005236/){: target = "_ blank"}
 
 --- /task ---
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+ألهم مجتمع Raspberry Pi Foundation بمشروعك!
+
+[[[share-scratch]]]
 
 To submit your project to our 'Find the bug' Scratch studio for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
