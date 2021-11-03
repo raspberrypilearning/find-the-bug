@@ -1,8 +1,8 @@
-## Upgrade your game
+## Melhore o seu jogo
 
-If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text on the chalkboard.
+Se tiver tempo, você pode adicionar mais níveis e mais distrações ao seu jogo. Você também pode alterar o ator que está escondido e mudar o texto no quadro-negro.
 
-Here are the blocks that you will need to hide the bug on a new level:
+Aqui estão os blocos que você precisa para esconder o inseto em um novo nível:
 
 ```blocks3
 when backdrop switches to [new level v]
@@ -16,20 +16,20 @@ set [color v] effect to [50]
 
 --- task ---
 
-For each level, you will need to:
-- Add a backdrop
-- Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
-- Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug
+Para cada nível, você irá precisar de:
+- Adicionar um plano de fundo
+- Clique no painel Palco, depois na aba **Cenários** e arraste o novo cenário para a posição anterior ao cenários **fim**
+- Adicione um bloco `quando o cenário mudar para`{:class="block3events"} para um novo cenário e adicione código para posicionar e ocultar o inseto
 
-**Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the backdrop does not switch when you click on the bug to position it for a new level.
+**Dica:** Para arrastar o inseto para um novo esconderijo, você precisar 'quebrar' o código para que cenário não mude quando você clicar no inseto para posicioná-lo para um novo nível.
 
 --- /task ---
 
 --- task ---
 
-You could add more parrots or choose another sprite to act as a distraction.
+Você pode colocar mais papagaios ou escolher outro ator para servir como uma distração.
 
-Here is the code that you used for the parrot:
+Aqui está o código que você usou para o papagaio:
 ```blocks3
 when flag clicked
 set rotation style [left-right v] // do not go upside down
@@ -43,18 +43,18 @@ wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
-**Tip:** You can drag the **Parrot** sprite's code to another sprite to make it faster to create another distraction sprite.
+**Dica:** Você pode arrastar o código do ator**Papagaio** para outro ator para deixá-lo mais rápido para criar uma outra distração.
 
-![Dragging code from the Code area to another sprite in the Sprite list.](images/drag-parrot-code.gif)
+![Arrastando o código de um ator para outro sprite na lista de Atores.](images/drag-parrot-code.gif)
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+title: Projeto concluído
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+Você pode ver o [projeto concluído aqui](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
 
 --- /collapse ---
 
