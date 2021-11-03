@@ -1,19 +1,19 @@
-## Start screen
+## Ekran startowy
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your game will begin with a 'start' screen, and players will click on the bug to go to the first level.
+Twoja gra rozpocznie się od ekranu "start", a gracze klikną robaka, aby przejść do pierwszego poziomu.
 </div>
 <div>
 
-!["Find the bug" text on a chalkboard on the Stage.](images/start-screen.png){:width="300px"}
+![Napis "Znajdź robaka" na tablicy znajdującej się na scenie.](images/start-screen.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch otworzy się w nowej zakładce przeglądarki.
 
 [[[working-offline]]]
 
@@ -21,19 +21,19 @@ Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scra
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+Dodaj tło **Chalkboard** z kategorii **W pomieszczeniu**.
 
-![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
+![Ikona 'Wybierz tło'.](images/backdrop-button.png)
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![Tło Chalkboard w bibliotece teł.](images/chalkboard.png)
 
 --- /task ---
 
-The **Stage** has a **Backdrops** tab instead of a **Costumes** tab. This is where you can create images for the **Stage**.
+**Scena** posiada zakładkę **tła** zamiast zakładki **Kostiumy**. Tutaj możesz tworzyć obrazki dla **Sceny**.
 
 --- task ---
 
-Click on the Stage pane.
+Kliknij panel Sceny.
 
 ![](images/stage-pane.png)
 
@@ -41,74 +41,74 @@ Click on the Stage pane.
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+Kliknij na zakładkę **tła**, aby otworzyć edytor Paint.
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard-paint.png)
+![Tło Chalkboard w edytorze Paint.](images/chalkboard-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Select **backdrop1** and click on the **Delete** icon to remove the **backdrop1** backdrop from your project. You will not need the **backdrop1** backdrop in this project.
+Wybierz **backdrop1** i kliknij ikonę **Usuń** aby usunąć **backdrop1** z projektu. W tym projekcie nie będziesz potrzebował tła **backdrop1**.
 
 ![](images/delete-backdrop1.png)
 
 --- /task ---
 
-The **Chalkboard** backdrop will now be highlighted.
+Tło **Chalkboard** zostanie teraz podświetlone.
 
 --- task ---
 
-Click on **Convert to Vector**. Now, you will be able to add text that you can move around.
+Kliknij **Konwertuj na wektor**. Teraz będziesz mógł dodać tekst, który możesz przemieszczać.
 
-![The 'Convert to Vector' button.](images/vector-button.png)
+![Przycisk 'Konwertuj na wektor'.](images/vector-button.png)
 
 --- /task ---
 
 --- task ---
 
-Use the **Text** tool to add the text `Find the bug` to the chalkboard:
+Użyj narzędzia **Tekst**, aby dodać tekst `Znajdź robaka` na tablicy:
 
 ![](images/chalkboard-text.png)
 
-We used the **Marker** font in white, but **choose** the font and colour that you want to use.
+Użyliśmy czcionki **Marker** w kolorze białym, ale **wybierz** czcionkę i kolor, którego chcesz użyć.
 
-**Tip:** Switch to the **Select** (Arrow) tool to move your text around. To change the size of the text, grab the corner of the text and drag it.
-
---- /task ---
-
---- task ---
-
-Change the name of the backdrop to `start`, because you will need to select it later in the project.
-
-![The Costume name box highlighted in the Paint editor.](images/start-screen-name.png)
-
-**Tip:** If you use names that make sense, it will be easier to understand your project, especially when you come back to a project later.
+**Wskazówka:** Przełącz się na narzędzie **Wybierz** (Strzałka), aby przemieścić tekst. Aby zmienić wielkość tekstu, chwyć róg tekstu i go przeciągnij.
 
 --- /task ---
 
 --- task ---
 
-Delete the **Scratch Cat** sprite.
+Zmień nazwę tła na `start`, ponieważ będziesz musiał wybrać je później w projekcie.
+
+![Podświetlone pole nazwy kostiumu w edytorze Paint.](images/start-screen-name.png)
+
+**Wskazówka** Jeśli użyjesz nazw, które mają sens, łatwiej będzie zrozumieć Twój projekt, zwłaszcza gdy wrócisz do niego później.
 
 --- /task ---
 
 --- task ---
 
-Click on **Choose a Sprite** and type `bug` in the search box.
+Usuń duszka **Scratch Cat**.
 
-**Choose:** Choose a bug, which players will need to find in your game.
+--- /task ---
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+--- task ---
 
-!["bug" search results showing seven different bugs.](images/bug-search.png)
+Kliknij na **Wybierz kostium** i wpisz `bug` w polu wyszukiwania.
 
-**Tip:** Give your project a name. You might like to include the name of the bug that you have just chosen.
+**Wybierz:** Wybierz robaka, którego gracze będą musieli znaleźć w Twojej grze.
+
+![Ikona 'Wybierz kostium'.](images/sprite-button.png)
+
+![wyniki wyszukiwania dla frazy "bug" pokazujące siedem różnych błędów.](images/bug-search.png)
+
+**Wskazówka** Nadaj swojemu projektowi nazwę. Możesz dołączyć nazwę robaka, którą właśnie wybrałeś.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A mistake in a computer program is called a <span style="color: #0faeb0">**bug**</span>. Finding and removing mistakes in computer programs is called <span style="color: #0faeb0">**debugging**</span>. Grace Hopper is a famous software engineer. Her team once found a moth in their computer. Their notes say, "First actual case of bug being found."
+Błąd w programie komputerowym to <span style="color: #0faeb0">**bug**</span> (z angielskiego: robak). Proces znajdowania i usuwania błędów w programach komputerowych nazywamy <span style="color: #0faeb0">**debugowaniem**</span>. Grace Hopper jest znaną inżynier oprogramowania. Pewnego razu jej zespół znalazł ćmę w ich komputerze. Ich notatki mówią: "Pierwszy rzeczywisty przypadek wykrycia buga."
 </p>
 
 --- save ---
