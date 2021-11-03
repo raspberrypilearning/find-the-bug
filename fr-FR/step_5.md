@@ -1,68 +1,68 @@
-## Second level
+## Deuxième niveau
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will choose a backdrop to make a second level for your game, and make the bug hard to find. 
+Tu choisiras un arrière-plan pour créer un deuxième niveau pour ton jeu et rendre le bug difficile à trouver. 
 </div>
 <div>
 
-![A street scene with a hidden bug.](images/second-level.png){:width="300px"}
+![Une scène de rue avec un bug caché.](images/second-level.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-**Choose:** Choose a backdrop for your second level. We have chosen the **Urban** backdrop, but you can choose the one that you like the most.
+**Choisir :** Choisis un arrière-plan pour ton deuxième niveau. Nous avons choisi l'arrière-plan **Urban** , mais tu peux choisir celui qui te plaît le plus.
 
 ![](images/insert-urban-backdrop.png)
 
-**Tip:** Remember that backdrops with lots of colours and details will make the bug harder to find. How difficult will you make your game?
+**Astuce :** N'oublie pas que les arrière-plans avec beaucoup de couleurs et de détails rendront le bug plus difficile à trouver. À quel point vas-tu rendre ton jeu difficile ?
 
 --- /task ---
 
-To be able to drag your bug into a new position, you need to stop the `when this sprite clicked`{:class="block3events"} script from running.
+Pour pouvoir faire glisser ton bogue dans une nouvelle position, tu dois arrêter le code `quand ce sprite est cliqué`{:class="block3events"} .
 
 --- task ---
 
-Drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them from running when you click on the bug:
+Fais glisser les blocs loin du bloc `quand ce sprite est cliqué`{:class="block3events"} pour les empêcher de s'exécuter lorsque tu cliques sur le bug :
 
 ![](images/breaking-script.png)
 
 --- /task ---
 
-Your bug needs to be hard to find when the backdrop changes. You can resize the bug to make it harder to find.
+Ton bug doit être difficile à trouver lorsque l'arrière-plan change. Tu peux redimensionner le bug pour le rendre plus difficile à trouver.
 
 --- task ---
 
-Add code to `set the size`{:class="block3looks"} of the bug for the second level:
+Ajoute du code à `mettre à la taille`{:class="block3looks"} du bug pour le deuxième niveau :
 
-![The bug sprite.](images/bug-sprite.png)
+![Le sprite bug.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v] // choose your backdrop
 set size to [20] % // try another size 
 ```
 
-**Test:** Click on your new script to run it.
+**Test :** Clique sur ton nouveau script pour l'exécuter.
 
 --- /task ---
 
 --- task ---
 
-Drag your bug on the Stage to a good hiding place for this level.
+Fais glisser ton bug sur la scène vers une bonne cachette pour ce niveau.
 
-![The bug hidden in the shop window in the middle of the backdrop.](images/hidden-urban-backdrop.png)
+![Le bug caché dans la vitrine au milieu de l'arrière-plan.](images/hidden-urban-backdrop.png)
 
 --- /task ---
 
-Position your bug in its hiding place.
+Place ton bug dans sa cachette.
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block to your code:
+Ajoute un bloc `aller à x: y:`{:class="block3motion"} à ton code :
 
-![The bug sprite.](images/bug-sprite.png)
+![Le sprite bug.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -74,7 +74,7 @@ set size to [20] % // try another size
 
 --- task ---
 
-Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that when the bug is clicked, the backdrop switches to the `next backdrop`{:class="block3looks"}:
+Joins les blocs au bloc `quand ce sprite est cliqué`{:class="block3events"} afin que lorsque le bug est cliqué, l'arrière-plan à l'`arrière-plan suivant`{:class="block3looks"} :
 
 ![](images/fixed-script.png)
 
@@ -82,17 +82,17 @@ Join the blocks back to the `when this sprite clicked`{:class="block3events"} bl
 
 --- task ---
 
-**Test:** Click on the green flag to test your project.
+**Test :** Clique sur le drapeau vert pour tester ton projet.
 
 --- /task ---
 
-Your bug may now be in front of the parrot.
+Ton bug peut être maintenant devant le perroquet.
 
 --- task ---
 
-Add a script to make sure that your bug is always at the `back`{:class="block3looks"}:
+Ajoute un script pour t'assurer que ton bug est toujours à l'`arrière`{:class="block3looks"} :
 
-![The bug sprite.](images/bug-sprite.png)
+![Le sprite bug.](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -100,7 +100,7 @@ forever
 go to [back v] layer
 ```
 
-Now, your bug will always stay at the back, even if you need to change its position.
+Désormais, ton insecte restera toujours à l'arrière, même si tu dois changer sa position.
 
 --- /task ---
 
