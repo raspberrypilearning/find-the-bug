@@ -1,11 +1,11 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Pytanie 3 z 3
 ---
 
-You added this script to the **bug** sprite:
+Dodałeś ten skrypt do duszka **robaka**:
 
-![The bug sprite.](images/bug-sprite.png)
+![Duszek robaka.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -14,39 +14,39 @@ go to x: [0] y: [30]
 + say (timer) 
 ```
 
-How does the `say`{:class="block3looks"} `timer`{:class="block3sensing"} block make the Stage look when the backdrop switches to **end**?
+W jaki sposób blok `powiedz`{:class="block3looks"} `stoper`{:class="block3sensing"} zmieni wygląd sceny, kiedy tło zmieni się na **koniec**?
 
 --- choices ---
 
-- ( ) ![A parrot saying the timer value "4.52".](images/quiz_parrot_number.png)
+- ( ) ![Papuga mówiąca wartość stopera "4,52".](images/quiz_parrot_number.png)
 
   --- feedback ---
 
-Have a look at the script again, and think about which sprite is the main character of the game (the parrot is just an annoying distraction).
+Przyjrzyj się jeszcze raz skryptowi i zastanów się, który duszek jest głównym bohaterem gry (papuga to tylko denerwujący rozpraszacz).
 
   --- /feedback ---
 
-- ( ) ![A parrot saying the word "timer".](images/quiz_parrot_timer.png)
+- ( ) ![Papuga mówiąca słowo "stoper".](images/quiz_parrot_timer.png)
 
   --- feedback ---
 
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer". Also, think about which sprite uses this code.
+Blok `stoper`{:class="block3sensing"} znajduje się w menu bloków `Czujniki`{:class="block3sensing"}. Duszek nie wypowiada słowa „stoper”. Zastanów się również, który duszek używa tego kodu.
 
   --- /feedback ---
 
-- (x) ![A bug saying the timer value "4.52".](images/quiz_bug_number.png)
+- (x) ![Robak mówiący wartość stopera "4,52".](images/quiz_bug_number.png)
 
   --- feedback ---
 
-Yes. The `timer`{:class="block3sensing"} block reports the time since the project started, or since the timer reset.
+Tak. Blok `stoper`{:class="block3sensing"} podaje czas od rozpoczęcia projektu lub od zresetowania stopera.
 
   --- /feedback ---
 
-- ( ) ![A bug saying the word "timer".](images/quiz_bug_timer.png)
+- ( ) ![Robak mówiący słowo "stoper".](images/quiz_bug_timer.png)
 
   --- feedback ---
 
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer".
+Blok `stoper`{:class="block3sensing"} znajduje się w menu bloków `Czujniki`{:class="block3sensing"}. Duszek nie wypowiada słowa „stoper”.
 
   --- /feedback ---
 
