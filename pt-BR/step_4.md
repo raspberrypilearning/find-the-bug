@@ -1,33 +1,33 @@
-## Parrot distraction
+## A distração do papagaio
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-To make it harder for players to find and click on the bug, you will add an annoying parrot to distract them. 
+Para dificultar para os jogadores encontrarem e clicarem no inseto, você vai colocar um papagaio irritante para distraí-los. 
 </div>
 <div>
 
-![A colourful parrot on the Stage.](images/parrot-distraction.png){:width="300px"}
+![Um papagaio colorido no Palco.](images/parrot-distraction.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Add the **Parrot** sprite.
+Adicione o ator**Parrot**.
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+![O ícone 'Selecione um ator'.](images/sprite-button.png)
 
 --- /task ---
 
-In the [Catch the bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"} project, you used a `repeat`{:class="block3control"} loop.
+No projeto [Pegue o ônibus](https://projects.raspberrypi.org/en/projects/catch-the-bus){: target = "_ blank"}, você usou um loop`repetir`{:class ="block3control"}.
 
-You will use a different loop here. A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It is the perfect loop for an annoying parrot that will not stop flying around and getting in the way.
+Você usará um loop diferente aqui. Um loop `infinito`{:class="block3control"} executa os blocos de código dentro dele de forma contínua, sem interrupção. É o loop perfeito para um papagaio chato que não para de voar e fica no caminho.
 
 --- task ---
 
-Add code to make the parrot flap around in a distracting way:
+Adicione código para fazer o papagaio bater as asas de uma forma distrativa:
 
-![The Parrot sprite.](images/parrot-sprite.png)
+![O ator Papagaio.](images/parrot-sprite.png)
 
 
 ```blocks3
@@ -47,13 +47,13 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag and test your project again. Can you remember where you hid the bug?
+**Teste:** Clique na bandeira verde e teste o seu projeto novamente. Você consegue se lembrar onde escondeu o inseto?
 
-In Scratch, code that is running glows with a yellow outline:
+No Scratch, o código em execução é destacado com um contorno amarelo:
 
 ![](images/running-code.png)
 
-**Tip:** If the parrot gets too annoying while you are coding, you can click the red stop button above the Stage to stop the code from running.
+**Dica:** Se o papagaio te chatear demais enquanto você está escrevendo seu código, você pode clicar no botão vermelho "parar" acima do Palco para interromper a execução do código.
 
 --- /task ---
 
