@@ -1,11 +1,11 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend : Question 3 sur 3
 ---
 
-You added this script to the **bug** sprite:
+Tu as ajouté ce script au sprite **bug**:
 
-![The bug sprite.](images/bug-sprite.png)
+![Le sprite bug.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -14,39 +14,39 @@ go to x: [0] y: [30]
 + say (timer) 
 ```
 
-How does the `say`{:class="block3looks"} `timer`{:class="block3sensing"} block make the Stage look when the backdrop switches to **end**?
+Comment le bloc `dire`{:class="block3looks"} `chronomètre`{:class="block3sensing"} donne-t-il l'apparence de la scène quand l'arrière-plan passe à **fin** ?
 
 --- choices ---
 
-- ( ) ![A parrot saying the timer value "4.52".](images/quiz_parrot_number.png)
+- ( ) ![Un perroquet disant la valeur du chronomètre "4.52".](images/quiz_parrot_number.png)
 
   --- feedback ---
 
-Have a look at the script again, and think about which sprite is the main character of the game (the parrot is just an annoying distraction).
+Revois le script et réfléchis au sprite qui est le personnage principal du jeu (le perroquet n'est qu'une distraction agaçante).
 
   --- /feedback ---
 
-- ( ) ![A parrot saying the word "timer".](images/quiz_parrot_timer.png)
+- ( ) ![Un perroquet prononçant le mot "chronomètre".](images/quiz_parrot_timer.png)
 
   --- feedback ---
 
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer". Also, think about which sprite uses this code.
+Le bloc `chronomètre`{: class = "block3sensing"} vient du menu blocs `capteurs`{: class = "block3sensing"} . Le sprite ne dit pas le mot "chronomètre". Pense également à quel sprite utilise ce code.
 
   --- /feedback ---
 
-- (x) ![A bug saying the timer value "4.52".](images/quiz_bug_number.png)
+- (x) ![Un bug indiquant la valeur du chronomètre "4.52".](images/quiz_bug_number.png)
 
   --- feedback ---
 
-Yes. The `timer`{:class="block3sensing"} block reports the time since the project started, or since the timer reset.
+Oui. Le bloc `chronomètre`{:class="block3sensing"} indique le temps écoulé depuis le démarrage du projet ou depuis la réinitialisation du chronomètre.
 
   --- /feedback ---
 
-- ( ) ![A bug saying the word "timer".](images/quiz_bug_timer.png)
+- ( ) ![Un bug disant le mot "chronomètre".](images/quiz_bug_timer.png)
 
   --- feedback ---
 
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer".
+Le bloc `chronomètre`{: class = "block3sensing"} vient du menu blocs `capteurs`{: class = "block3sensing"} . Le sprite ne dit pas le mot "chronomètre".
 
   --- /feedback ---
 
