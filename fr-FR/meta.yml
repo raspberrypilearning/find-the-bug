@@ -1,7 +1,7 @@
 ---
-title: Find the bug
+title: Trouver le bug
 hero_image: images/banner.png
-description: Create a game in which you have to find a hidden bug on each level
+description: Créer un jeu dans lequel tu dois trouver un bug caché à chaque niveau
 version: 4
 listed: true
 copyedit: false
@@ -10,25 +10,25 @@ steps:
   - 
     title: Introduction
   - 
-    title: Start screen
+    title: Écran de début
   - 
-    title: First level
+    title: Premier niveau
   - 
-    title: Parrot distraction
+    title: Perroquet distraction
   - 
-    title: Second level
+    title: Deuxième niveau
   - 
-    title: End screen
+    title: Écran de fin
   - 
-    title: Play the game
+    title: Jouer le jeu
   - 
-    title: Reflection
+    title: Réflexion
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
   - 
-    title: Upgrade your game
+    title: Améliorer ton jeu
   - 
-    title: What next?
+    title: Et ensuite ?
