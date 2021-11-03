@@ -1,41 +1,41 @@
-tiny
+μικροσκοπικός
 
-on the disco ball
+πάνω στη μπάλα της disco
 
-'start' screen
+οθόνη 'start'
 
-full-sized
+πλήρους μεγέθους
 
-on the board
+πάνω στον πίνακα
 
-do not go upside down
+μην πηγαίνεις πάνω κάτω
 
-number from -180 to 180
+αριθμός από -180 έως 180
 
-keep being annoying
+συνέχισε να ενοχλείς
 
-the number controls the speed
+ο αριθμός ελέγχει την ταχύτητα
 
-stay on the Stage
+μείνε στη Σκηνή
 
-flap
+φτερούγισε
 
-try 11 or 50
+δοκίμασε 11 ή 50
 
-try 0.1 or 0.5
+δοκίμασε 0.1 ή 0.5
 
-choose your backdrop
+διάλεξε το υπόβαθρό σου
 
-try another size
+δοκίμασε άλλο μέγεθος
 
-in the shop window
+στη βιτρίνα του μαγαζιού
 
-seconds taken
+δευτερόλεπτα που πέρασαν
 
-say nothing
+μην πεις τίποτα
 
-first level
+πρώτο επίπεδο
 
-start the timer
+ξεκίνα το χρονόμετρο
 
-drag to position the bug first
+σύρε για να τοποθετήσεις πρώτα το έντομο
