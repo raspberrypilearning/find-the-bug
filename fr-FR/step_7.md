@@ -30,7 +30,7 @@ Inspire la communauté Raspberry Pi Foundation avec ton projet !
 
 [[[share-scratch]]]
 
-To submit your project to our 'Find the bug' Scratch studio for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+Pour soumettre ton projet à notre studio Scratch « Trouver le bug » pour que d'autres personnes puissent le voir, il te suffit de remplir [ce formulaire](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---
 
