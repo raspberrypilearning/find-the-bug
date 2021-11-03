@@ -1,32 +1,34 @@
-## Play the game
+## Jouer le jeu
 
-Play your game and see how quickly you can find the bugs.
+Jouer à ton jeu et vois à quelle vitesse tu peux trouver les bugs.
 
 --- task ---
 
-Is there anything that you want to change?
+Y a-t-il quelque chose que tu veux changer ?
 
-You could:
-- Make the parrot even more annoying
-- Make the bugs smaller
-- Change the `color effect`{:class="block3looks"} to camouflage the bug on each level
-- Change the font or colour of the text
+Tu pourrais :
+- Rendre le perroquet encore plus ennuyeux
+- Rendre les bugs plus petits
+- Changer l'`effet couleur`{:class="block3looks"} pour camoufler le bug à chaque niveau
+- Changer la police ou la couleur du texte
 
 --- /task ---
 
 --- task ---
 
-Is there someone else who can try your game? How fast can they find the bugs? They will not know where you have hidden them, so it might take them a bit longer!
+Y a-t-il quelqu'un d'autre qui peut essayer ton jeu ? À quelle vitesse peuvent-ils trouver les bugs ? Ils ne sauront pas où tu les as cachés, donc cela peut leur prendre un peu plus de temps !
 
-If you are in a club, then you could try someone else's game.
+Si tu es dans un club, tu peux essayer le jeu de quelqu'un d'autre.
 
-Take a look at some 'Find the bug' projects created by community members, which you can explore in the Raspberry Pi Foundation's 'Find the bug' Scratch studio: [See inside](https://scratch.mit.edu/studios/29005236/){:target="_blank"}
+Jette un œil à quelques projets « Trouver le bug » créés par des membres de la communauté, que tu peux explorer dans le studio Scratch « Trouver le bug » de la Fondation Raspberry Pi : [Voir à l'intérieur](https://scratch.mit.edu/studios/29005236/){:target="_blank"}
 
 --- /task ---
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Inspire la communauté Raspberry Pi Foundation avec ton projet !
+
+[[[share-scratch]]]
 
 To submit your project to our 'Find the bug' Scratch studio for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
