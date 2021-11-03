@@ -1,33 +1,33 @@
-## Parrot distraction
+## Distraction Perroquet
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-To make it harder for players to find and click on the bug, you will add an annoying parrot to distract them. 
+Pour qu'il soit plus difficile pour les joueurs de trouver et de cliquer sur le bug, tu ajouteras un perroquet ennuyeux pour les distraire. 
 </div>
 <div>
 
-![A colourful parrot on the Stage.](images/parrot-distraction.png){:width="300px"}
+![Un perroquet coloré sur la scène.](images/parrot-distraction.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Add the **Parrot** sprite.
+Ajoute le sprite **Parrot**.
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+![L'icône 'Choisir un Sprite'.](images/sprite-button.png)
 
 --- /task ---
 
-In the [Catch the bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"} project, you used a `repeat`{:class="block3control"} loop.
+Dans le projet [Catch the bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}, tu as utilisé une boucle `répéter`{:class="block3control"}.
 
-You will use a different loop here. A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It is the perfect loop for an annoying parrot that will not stop flying around and getting in the way.
+Tu utiliseras une boucle différente ici. Une boucle `répéter indéfiniment`{:class="block3control"} exécute les blocs de code à l'intérieur encore et encore. C'est la boucle parfaite pour un perroquet ennuyeux qui n'arrêtera pas de voler et de gêner.
 
 --- task ---
 
-Add code to make the parrot flap around in a distracting way:
+Ajoute du code pour faire voler le perroquet de manière distrayante :
 
-![The Parrot sprite.](images/parrot-sprite.png)
+![Le sprite de perroquet.](images/parrot-sprite.png)
 
 
 ```blocks3
@@ -47,13 +47,13 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag and test your project again. Can you remember where you hid the bug?
+**Test :** Clique sur le drapeau vert et teste à nouveau ton projet. Tu te souviens où tu as caché le bug ?
 
-In Scratch, code that is running glows with a yellow outline:
+Dans Scratch, le code en cours d'exécution s'illumine d'un contour jaune :
 
 ![](images/running-code.png)
 
-**Tip:** If the parrot gets too annoying while you are coding, you can click the red stop button above the Stage to stop the code from running.
+**Astuce :** Si le perroquet devient trop ennuyeux pendant que tu codes, tu peux cliquer sur le bouton d'arrêt rouge au-dessus de la scène pour arrêter l'exécution du code.
 
 --- /task ---
 
