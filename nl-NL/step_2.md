@@ -1,19 +1,19 @@
-## Start screen
+## Startscherm
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your game will begin with a 'start' screen, and players will click on the bug to go to the first level.
+Je spel begint met een 'start' scherm en spelers klikken op de kever om naar het eerste niveau te gaan.
 </div>
 <div>
 
-!["Find the bug" text on a chalkboard on the Stage.](images/start-screen.png){:width="300px"}
+!["Vind de kever" tekst op een bord op het speelveld.](images/start-screen.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
 
 [[[working-offline]]]
 
@@ -21,19 +21,19 @@ Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scra
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+Voeg de **Chalkboard** (bord) achtergrond uit de categorie **Binnen** toe.
 
-![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
+![Het pictogram 'Kies een achtergrond'.](images/backdrop-button.png)
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![De Chalkboard achtergrond in de Achtergronden bibliotheek.](images/chalkboard.png)
 
 --- /task ---
 
-The **Stage** has a **Backdrops** tab instead of a **Costumes** tab. This is where you can create images for the **Stage**.
+Het **speelveld** heeft een **Achtergronden** tabblad in plaats van een **Uiterlijken** tabblad. Hier kun je afbeeldingen voor het **speelveld** maken.
 
 --- task ---
 
-Click on the Stage pane.
+Klik op het speelveld.
 
 ![](images/stage-pane.png)
 
@@ -41,74 +41,74 @@ Click on the Stage pane.
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+Klik op het **Achtergronden** tabblad om de Teken-editor te openen.
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard-paint.png)
+![De Chalkboard achtergrond in de Teken-editor.](images/chalkboard-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Select **backdrop1** and click on the **Delete** icon to remove the **backdrop1** backdrop from your project. You will not need the **backdrop1** backdrop in this project.
+Selecteer **backdrop1** en klik op het **Verwijder** icoon om de **backdrop1** achtergrond uit je project te verwijderen. Je hebt de **backdrop1** achtergrond niet nodig in dit project.
 
 ![](images/delete-backdrop1.png)
 
 --- /task ---
 
-The **Chalkboard** backdrop will now be highlighted.
+De **Chalkboard** achtergrond wordt nu gemarkeerd.
 
 --- task ---
 
-Click on **Convert to Vector**. Now, you will be able to add text that you can move around.
+Klik op **Zet om naar vector**. Nu kun je tekst toevoegen die je kunt verplaatsen.
 
-![The 'Convert to Vector' button.](images/vector-button.png)
+![De 'Zet om naar vector' knop.](images/vector-button.png)
 
 --- /task ---
 
 --- task ---
 
-Use the **Text** tool to add the text `Find the bug` to the chalkboard:
+Gebruik de **Tekst** knop om de tekst `Zoek de kever` toe te voegen aan het bord:
 
 ![](images/chalkboard-text.png)
 
-We used the **Marker** font in white, but **choose** the font and colour that you want to use.
+We hebben het **Marker** font in het wit gebruikt, maar **kies** het lettertype en de kleur die jij wilt gebruiken.
 
-**Tip:** Switch to the **Select** (Arrow) tool to move your text around. To change the size of the text, grab the corner of the text and drag it.
-
---- /task ---
-
---- task ---
-
-Change the name of the backdrop to `start`, because you will need to select it later in the project.
-
-![The Costume name box highlighted in the Paint editor.](images/start-screen-name.png)
-
-**Tip:** If you use names that make sense, it will be easier to understand your project, especially when you come back to a project later.
+**Tip:** Schakel over naar het **Selecteer** (pijl) gereedschap om je tekst te verplaatsen. Om de grootte van de tekst te wijzigen, pak je de hoek van de tekst en sleep je deze.
 
 --- /task ---
 
 --- task ---
 
-Delete the **Scratch Cat** sprite.
+Verander de naam van de achtergrond in `start`, omdat je deze later in het project moet selecteren.
+
+![Het vak Uiterlijken gemarkeerd in de Teken-editor.](images/start-screen-name.png)
+
+**Tip:** Als je namen gebruikt die logisch zijn, zal het gemakkelijker zijn om je project te begrijpen, vooral wanneer je later bij een project terugkomt.
 
 --- /task ---
 
 --- task ---
 
-Click on **Choose a Sprite** and type `bug` in the search box.
+Verwijder de **Scratch kat** sprite.
 
-**Choose:** Choose a bug, which players will need to find in your game.
+--- /task ---
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+--- task ---
 
-!["bug" search results showing seven different bugs.](images/bug-search.png)
+Klik op **Kies een Sprite** en typ `bug` in het zoekvak.
 
-**Tip:** Give your project a name. You might like to include the name of the bug that you have just chosen.
+**Kies:** Kies een kever die spelers in je spel moeten vinden.
+
+![Het pictogram 'Kies een Sprite'.](images/sprite-button.png)
+
+!["bug" zoekresultaten tonen zeven verschillende insecten.](images/bug-search.png)
+
+**Tip:** Geef je project een naam. Misschien wil je de naam van de kever die je gekozen hebt, toevoegen.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A mistake in a computer program is called a <span style="color: #0faeb0">**bug**</span>. Finding and removing mistakes in computer programs is called <span style="color: #0faeb0">**debugging**</span>. Grace Hopper is a famous software engineer. Her team once found a moth in their computer. Their notes say, "First actual case of bug being found."
+Een fout in een computerprogramma heet een <span style="color: #0faeb0">**bug**</span> (kever). Fouten vinden en verwijderen in computerprogramma's heet <span style="color: #0faeb0">**debugging**</span>. Grace Hopper is een beroemde software-engineer. Haar team heeft ooit een mot in hun computer gevonden. In hun aantekeningen staat: "Eerste echte geval van bug gevonden."
 </p>
 
 --- save ---
