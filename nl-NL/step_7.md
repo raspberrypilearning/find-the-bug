@@ -1,32 +1,34 @@
-## Play the game
+## Speel het spel
 
-Play your game and see how quickly you can find the bugs.
+Speel je spel en kijk hoe snel je de kevers kunt vinden.
 
 --- task ---
 
-Is there anything that you want to change?
+Is er iets dat je wilt veranderen?
 
-You could:
-- Make the parrot even more annoying
-- Make the bugs smaller
-- Change the `color effect`{:class="block3looks"} to camouflage the bug on each level
-- Change the font or colour of the text
+Je zou:
+- De papegaai nog vervelender kunnen maken
+- De kevers kleiner kunnen maken
+- Het `kleur effect`{:class="block3looks"} kunnen veranderen om de kever op elk niveau te camoufleren
+- Het lettertype of kleur van de tekst kunnen veranderen
 
 --- /task ---
 
 --- task ---
 
-Is there someone else who can try your game? How fast can they find the bugs? They will not know where you have hidden them, so it might take them a bit longer!
+Is er iemand anders die jouw spel kan uitproberen? Hoe snel kunnen ze de kevers vinden? Ze zullen niet weten waar je ze hebt verstopt, dus het kan hen wat meer tijd kosten!
 
-If you are in a club, then you could try someone else's game.
+Als je bij een club zit, kun je het spel van iemand anders uitproberen.
 
-Take a look at some 'Find the bug' projects created by community members, which you can explore in the Raspberry Pi Foundation's 'Find the bug' Scratch studio: [See inside](https://scratch.mit.edu/studios/29005236/){:target="_blank"}
+Bekijk enkele 'Find the bug' (Zoek de kever) projecten gemaakt door communityleden, die je kunt verkennen in de 'Find the bug' Scratch-studio van de Raspberry Pi Foundation: [Bekijk van binnen](https://scratch.mit.edu/studios/29005236/){:target="_blank"}
 
 --- /task ---
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Inspireer de Raspberry Pi Foundation-gemeenschap met jouw project!
+
+[[[share-scratch]]]
 
 To submit your project to our 'Find the bug' Scratch studio for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
