@@ -1,8 +1,8 @@
-## Upgrade your game
+## Αναβάθμισε το έργο σου
 
-If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text on the chalkboard.
+Εάν έχεις χρόνο, μπορείς να προσθέσεις περισσότερα επίπεδα και περισσότερους περισπασμούς στο παιχνίδι σου. Θα μπορούσες επίσης να αλλάξεις το αντικείμενο που κρύβεται και να αλλάξεις το κείμενο στον πίνακα κιμωλίας.
 
-Here are the blocks that you will need to hide the bug on a new level:
+Εδώ είναι τα μπλοκ που θα χρειαστείς για να κρύψεις το έντομο σε ένα νέο επίπεδο:
 
 ```blocks3
 when backdrop switches to [new level v]
@@ -16,20 +16,20 @@ set [color v] effect to [50]
 
 --- task ---
 
-For each level, you will need to:
-- Add a backdrop
-- Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
-- Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug
+Για κάθε επίπεδο, θα χρειαστεί να:
+- Προσθέσεις ένα υπόβαθρο
+- Κάνεις κλικ στο παράθυρο Σκηνή, στη συνέχεια στην καρτέλα **Υπόβαθρα** και, στη συνέχεια, να σύρεις το νέο υπόβαθρο σε μια θέση πριν από το υπόβαθρο **end**
+- Προσθέσεις ένα μπλοκ `όταν το υπόβαθρο αλλάξει σε`{:class="block3events"} για το νέο υπόβαθρο και να προσθέσεις κώδικα για να τοποθετήσεις και να κρύψεις το έντομο
 
-**Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the backdrop does not switch when you click on the bug to position it for a new level.
+**Συμβουλή:** Για να σύρεις το έντομο σε μια νέα θέση κρυψώνας, θα χρειαστεί να «σπάσεις» τον κώδικα έτσι ώστε το υπόβαθρο να μην αλλάζει όταν κάνεις κλικ στο έντομο για να το τοποθετήσεις σε νέο επίπεδο.
 
 --- /task ---
 
 --- task ---
 
-You could add more parrots or choose another sprite to act as a distraction.
+Θα μπορούσες να προσθέσεις περισσότερους παπαγάλους ή να επιλέξεις ένα άλλο αντικείμενο που θα αποσπά την προσοχή.
 
-Here is the code that you used for the parrot:
+Εδώ είναι ο κώδικας που χρησιμοποίησες για τον παπαγάλο:
 ```blocks3
 when flag clicked
 set rotation style [left-right v] // do not go upside down
@@ -43,18 +43,18 @@ wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
-**Tip:** You can drag the **Parrot** sprite's code to another sprite to make it faster to create another distraction sprite.
+**Συμβουλή:** Μπορείς να σύρεις τον κώδικα του αντικειμένου **Parrot** σε ένα άλλο αντικείμενο για να δημιουργήσεις πιο γρήγορα ένα άλλο αντικείμενο που θα αποσπά την προσοχή.
 
-![Dragging code from the Code area to another sprite in the Sprite list.](images/drag-parrot-code.gif)
+![Σύροντας κώδικα από την περιοχή Κώδικα σε ένα άλλο αντικείμενο από τη λίστα αντικειμένων.](images/drag-parrot-code.gif)
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+title: Ολοκληρωμένο έργο
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+Μπορείς να δεις [ολοκληρωμένο το έργο εδώ](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
 
 --- /collapse ---
 
