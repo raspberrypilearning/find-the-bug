@@ -1,32 +1,34 @@
-## Play the game
+## Zagraj w grę
 
-Play your game and see how quickly you can find the bugs.
+Zagraj w swoją grę i zobacz, jak szybko możesz znaleźć robaki.
 
 --- task ---
 
-Is there anything that you want to change?
+Czy jest coś, co chcesz zmienić?
 
-You could:
-- Make the parrot even more annoying
-- Make the bugs smaller
-- Change the `color effect`{:class="block3looks"} to camouflage the bug on each level
-- Change the font or colour of the text
+Mógłbyś:
+- Sprawić, aby papuga była jeszcze bardziej irytująca
+- Zmniejszyć robaki
+- Zmienić `efekt koloru`{:class="block3looks"}, aby zakamuflować robaka na każdym poziomie
+- Zmienić czcionkę lub kolor tekstu
 
 --- /task ---
 
 --- task ---
 
-Is there someone else who can try your game? How fast can they find the bugs? They will not know where you have hidden them, so it might take them a bit longer!
+Czy jest ktoś inny, kto może wypróbować twoją grę? Jak szybko mogą znaleźć robaki? Nie będą wiedzieć, gdzie je schowałeś, więc może im to zająć trochę więcej czasu!
 
-If you are in a club, then you could try someone else's game.
+Jeśli jesteś w klubie, możesz spróbować gry kogoś innego.
 
-Take a look at some 'Find the bug' projects created by community members, which you can explore in the Raspberry Pi Foundation's 'Find the bug' Scratch studio: [See inside](https://scratch.mit.edu/studios/29005236/){:target="_blank"}
+Rzuć okiem na inne projekty "Znajdź robaka" stworzone przez członków społeczności, które możesz przejrzeć w studiu Scratch Fundacji Raspberry Pi „Znajdź robaka”: [Zobacz więcej](https://scratch.mit.edu/studios/29005236/){:target="_blank"}
 
 --- /task ---
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Zainspiruj swoim projektem społeczność fundacji Raspberry Pi!
+
+[[[share-scratch]]]
 
 To submit your project to our 'Find the bug' Scratch studio for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
