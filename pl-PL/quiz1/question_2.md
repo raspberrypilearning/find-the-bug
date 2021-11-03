@@ -1,13 +1,13 @@
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Pytanie 2 z 3
 ---
 
-You used a `forever`{:class="block3control"} loop to make the **Parrot** sprite fly around in an annoying way.
+Użyłeś pętli `zawsze`{:class="block3control"}, aby duszek **Parrot** latał w irytujący sposób.
 
-We have tried to add another distraction sprite, but it just moves once when we click on the green flag and then stops. How can we fix it?
+Próbowaliśmy dodać kolejnego rozpraszającego duszka, ale porusza się on tylko raz, gdy klikniemy zieloną flagę, a potem się zatrzymuje. Jak możemy to naprawić?
 
-![The Rocket sprite.](images/rocket-sprite.png)
+![Duszek Rocket.](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -23,35 +23,35 @@ end
 
 --- choices ---
 
-- ( ) Change the number in the `move`{:class="block3motion"} block
+- ( ) Zmienić liczbę w bloku `przesuń o`{:class="block3motion"}
 
   --- feedback ---
 
-If you change the number in the `move`{:class="block3motion"} block, you will change how far the sprite moves when the green flag is clicked, but this change will not make the rocket keep moving.
+Jeśli zmienisz liczbę w bloku `przesuń o`{:class="block3motion"} to zmienisz długość ruchu duszka po kliknięciu zielonej flagi, ale ta zmiana nie sprawi, że rakieta będzie się poruszała.
 
   --- /feedback ---
 
-- ( ) Remove the `if on edge, bounce`{:class="block3motion"} block
+- ( ) Usuń blok `jeśli na brzegu, odbij się`{:class="block3motion"}
 
   --- feedback ---
 
-The `if on edge, bounce`{:class="block3motion"} block makes the sprite bounce off the edge of the Stage. If you removed it, then the rocket would get stuck at the edge of the Stage.
+Blok `jeśli na brzegu, odbij się`{:class="block3motion"} powoduje, że duszek odbija się od krawędzi Sceny. Jeśli go usuniesz, rakieta utknie na brzegu Sceny.
 
   --- /feedback ---
 
-- ( ) Add another `forever`{:class="block3control"} block
+- ( ) Dodaj kolejny blok `zawsze`{:class="block3control"}
 
 --- feedback ---
 
-A script can only have one `forever`{:class="block3control"} block. Did you notice that you cannot add a block underneath a `forever`{:class="block3control"} block?
+Skrypt może mieć tylko jeden blok `zawsze`{:class="block3control"}. Czy zauważyłeś, że nie możesz dodać bloku pod blokiem `zawsze`{:class="block3control"}?
 
 --- /feedback ---
 
-- (x) Drag the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop
+- (x) Przeciągnij blok `przesuń o`{:class="block3motion"} wewnątrz pętli `zawsze`{:class="block3control"}
 
   --- feedback ---
 
-  Yes! The sprite only moves once. If you move the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop, the sprite will keep moving until you stop your project.
+  Tak! Duszek porusza się tylko raz. Jeśli umieścisz blok `przesuń o`{:class="block3motion"} wewnątrz pętli `zawsze`{:class="block3control"}, duszek będzie się poruszał, dopóki nie zatrzymasz projektu.
 
   --- /feedback ---
 
