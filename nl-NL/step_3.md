@@ -1,29 +1,29 @@
-## First level
+## Eerste niveau
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add a new backdrop as the first level in your game, and hide the bug.
+Je voegt een nieuwe achtergrond toe als het eerste niveau in je spel en verbergt de kever.
 </div>
 <div>
 
-![The Spotlight backdrop with a bug.](images/first-level.png){:width="300px"}
+![De Spotlight achtergrond met een kever.](images/first-level.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Add the **Spotlight** backdrop from the **Music** category.
+Voeg de **Spotlight** (schijnwerpers) achtergrond uit de categorie **Binnen** toe.
 
-![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
+![Het pictogram 'Kies een achtergrond'.](images/backdrop-button.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **bug** sprite in the Sprite list. Add a script to change the `size`{:class="block3looks"} of your bug `when the backdrop switches to Spotlight`{:class="block3events"}:
+Klik op de **kever** in het sprite-venster. Voeg een script toe om de `grootte`{:class="block3looks"} van je kever te veranderen `wanneer de achtergrond verandert naar Spotlight`{:class="block3events"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![De kever-sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
@@ -34,11 +34,11 @@ set size to [20] % // tiny
 
 --- task ---
 
-Click on the code to change the size, then drag your tiny bug to a hiding place.
+Klik op de code om de grootte te wijzigen en sleep vervolgens je kleine kever naar een schuilplaats.
 
-Add code to position your bug:
+Voeg code toe om je kever te positioneren:
 
-![The bug sprite.](images/bug-sprite.png)
+![De kever-sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
@@ -46,19 +46,19 @@ set size to [20] % // tiny
 + go to x: [13] y: [132] // on the disco ball
 ```
 
-**Choose:** You can choose a different size and location, if you prefer.
+**Kies:** Je kunt een andere grootte en positie kiezen als je dat wilt.
 
 --- /task ---
 
-When you play the game and you successfully find the bug, the game will switch to the next backdrop. Also, to start the game, you will click on the bug on the 'start' screen.
+Wanneer je het spel speelt en je de kever vindt, schakelt het spel over naar de volgende achtergrond. Ook om het spel te starten, klik je op de kever in het 'start'-scherm.
 
-The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order in which the backdrops are listed when you click on the **Backdrops** tab for the **Stage**.
+Het `volgende achtergrond`{:class="block3looks"} blok schakelt over naar de volgende achtergrond in de volgorde van de lijst met achtergronden als je klikt op het **Achtergronden** tabblad voor het **speelveld**.
 
 --- task ---
 
-Add a script to your **bug** sprite to `play a Pop sound`{:class="block3sound"} and switch to the `next backdrop`{:class="block3looks"} `when this sprite is clicked`{:class="block3events"}:
+Voeg een script toe aan je **kever** sprite om een `start geluid`{:class="block3sound"} af te spelen en schakel over naar de `volgende achtergrond`{:class="block3looks"} `wanneer op deze sprite wordt geklikt`{:class ="blok3events"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![De kever-sprite.](images/bug-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -68,13 +68,13 @@ next backdrop
 
 --- /task ---
 
-Your project needs to start on the 'start' screen.
+Je project moet beginnen op het 'start' scherm.
 
 --- task ---
 
-Click on the Stage pane and add this code to the **Stage**:
+Klik op het speelveld en voeg deze code toe aan het **speelveld**:
 
-![The Spotlight backdrop.](images/stage-image.png)
+![De Spotlight achtergrond.](images/stage-image.png)
 
 ```blocks3
 when flag clicked
@@ -85,19 +85,19 @@ switch backdrop to [start v] // 'start' screen
 
 --- task ---
 
-**Test:** Click on the green flag to test your project.
+**Test:** Klik op de groene vlag om je project te testen.
 
-You will notice that on the 'start' screen, the bug will still have the settings to hide in its hiding place from the first level (in this example, on the disco ball).
+Je zult merken dat op het 'start' scherm de kever nog code heeft om zich te verstoppen op zijn verstopplek van het eerste niveau (in dit voorbeeld op de discobal).
 
-**Tip:** After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop.
+**Tip:** Na de laatste achtergrond uit de lijst zal `volgende achtergrond`{:class="block3looks"} teruggaan naar de eerste achtergrond.
 
 --- /task ---
 
 --- task ---
 
-Click on the **bug** sprite in the Sprite list. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+Klik op de **kever** in het sprite-venster. Voeg een script toe aan `maak grootte`{:class="block3looks"} van de kever wanneer je `achtergrond overschakelt naar`{:class="block3events"} het `start`{:class="block3events"} scherm:
 
-![The bug sprite.](images/bug-sprite.png)
+![De kever-sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -108,33 +108,33 @@ set size to [100] % // full-sized
 
 --- task ---
 
-Try to position the bug on the 'start' screen.
+Probeer de kever op het 'start'-scherm te plaatsen.
 
-Your code will make the backdrop switch when you click on the bug! That is not helpful when you are trying to position the bug.
-
---- /task ---
-
-To fix the problem, you need to stop the code from running when you click on the bug.
-
---- task ---
-
-Click on the green flag to return to the 'start' screen.
-
-Click on the **bug** sprite in the Sprite list and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
-
-![Breaking the script.](images/breaking-script.png)
+Je code zorgt ervoor dat de achtergrond verandert als je op de kever klikt! Dat is niet handig als je de juiste positie van je kever wilt kiezen.
 
 --- /task ---
 
+Om dat op te lossen, moet je voorkomen dat de code wordt uitgevoerd als je op de kever klikt.
+
 --- task ---
 
-Try to position the bug again. Drag the bug onto the chalkboard, below the text:
+Klik op de groene vlag om terug te keren naar het 'start'-scherm.
+
+Klik op de **kever** sprite in de sprite-lijst en sleep de blokken weg van het `wanneer op deze sprite wordt geklikt`{:class="block3events"} blok:
+
+![Het script opbreken.](images/breaking-script.png)
+
+--- /task ---
+
+--- task ---
+
+Probeer de kever opnieuw te positioneren. Sleep de kever naar het bord, onder de tekst:
 
 ![](images/bug-chalkboard.png)
 
-Add code to make sure that the bug is positioned on the chalkboard every time your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+Voeg code toe om ervoor te zorgen dat de kever op het bord wordt gepositioneerd telkens wanneer je `achtergrond overschakelt naar`{:class="block3events"} het `start`{:class="block3events"} scherm:
 
-![The bug sprite.](images/bug-sprite.png)
+![De kever-sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -146,22 +146,22 @@ set size to [100] % // full-sized
 
 --- task ---
 
-Join the blocks back together so that the code blocks are under the `when this sprite clicked`{:class="block3events"} block again:
+Voeg de blokken weer bij elkaar zodat de codeblokken weer onder het `wanneer op deze sprite wordt geklikt`{:class="block3events"} blok staan:
 
-![The 'when this sprite clicked' block joined to the 'play sound' and 'next backdrop' blocks.](images/fixed-script.png)
+![Het 'wanneer op deze sprite wordt geklikt' blok met de 'start geluid' en 'volgende achtergrond' blokken.](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your project. Click on the bug to move to the next backdrop. The bug should be big on the 'start' screen and small on the 'Spotlight' level.
+**Test:** Klik op de groene vlag om je project te testen. Klik op de kever om naar de volgende achtergrond te gaan. De kever moet groot zijn op het 'start'-scherm en klein op het 'Spotlight'-niveau.
 
 --- collapse ---
 ---
-title: Nothing happens when I click on the bug
+title: Er gebeurt niets als ik op de kever klik
 ---
 
-Did you forget to join the code back to the `when this sprite clicked`{:class="block3events"} block?
+Ben je vergeten de code terug te plaatsen onder het `wanneer op deze sprite wordt geklikt`{:class="block3events"} blok?
 
 --- /collapse ---
 
