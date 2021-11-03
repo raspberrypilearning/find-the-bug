@@ -1,10 +1,10 @@
-## What next?
+## Και τώρα;
 
-If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) pathway, you can move on to the [Silly eyes](https://projects.raspberrypi.org/en/projects/silly-eyes) project. In this project, you will design your own character with eyes that look at the mouse pointer when you move the mouse!
+Εάν ακολουθείς την [Εισαγωγή στο Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro), μπορείς να προχωρήσεις στο έργο [Αστεία μάτια](https://projects.raspberrypi.org/en/projects/silly-eyes). Σε αυτό το έργο, θα σχεδιάσεις τον δικό σου χαρακτήρα με μάτια που κοιτάζουν προς τον δείκτη του ποντικιού όταν μετακινείς το ποντίκι!
 
 --- print-only ---
 
-![The 'Silly eyes' project.](images/googly-eye-character.png)
+![Το έργο «Αστεία μάτια».](images/googly-eye-character.png)
 
 --- /print-only ---
 
