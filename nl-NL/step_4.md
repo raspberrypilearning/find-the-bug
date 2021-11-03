@@ -1,33 +1,33 @@
-## Parrot distraction
+## Papegaai afleiding
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-To make it harder for players to find and click on the bug, you will add an annoying parrot to distract them. 
+Om het voor spelers moeilijker te maken om de kever te vinden en erop te klikken, voeg je een vervelende papegaai toe om ze af te leiden. 
 </div>
 <div>
 
-![A colourful parrot on the Stage.](images/parrot-distraction.png){:width="300px"}
+![Een kleurrijke papegaai op het speelveld.](images/parrot-distraction.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Add the **Parrot** sprite.
+Voeg de **Parrot** (papegaai) sprite toe.
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+![Het pictogram 'Kies een Sprite'.](images/sprite-button.png)
 
 --- /task ---
 
-In the [Catch the bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"} project, you used a `repeat`{:class="block3control"} loop.
+In het [Neem de bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}-project heb je een `herhaal`{:class="block3control"} blok gebruikt.
 
-You will use a different loop here. A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It is the perfect loop for an annoying parrot that will not stop flying around and getting in the way.
+Je gebruikt hier een andere lus. Een `herhaal`{:class="block3control"} lus voert de codeblokken daarbinnen keer op keer uit. Het is de perfecte lus voor een vervelende papegaai die niet stopt met rondvliegen en in de weg zitten.
 
 --- task ---
 
-Add code to make the parrot flap around in a distracting way:
+Voeg code toe om de papegaai op een afleidende manier te laten fladderen:
 
-![The Parrot sprite.](images/parrot-sprite.png)
+![De Parrot sprite.](images/parrot-sprite.png)
 
 
 ```blocks3
@@ -47,13 +47,13 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag and test your project again. Can you remember where you hid the bug?
+**Test:** Klik op de groene vlag en test jouw project. Weet je nog waar je de kever verstopt hebt?
 
-In Scratch, code that is running glows with a yellow outline:
+In Scratch heeft de code die uitgevoerd wordt een gele omtrek:
 
 ![](images/running-code.png)
 
-**Tip:** If the parrot gets too annoying while you are coding, you can click the red stop button above the Stage to stop the code from running.
+**Tip:** Als de papegaai tijdens het coderen te vervelend wordt, kun je op de rode stop knop boven het speelveld klikken om te voorkomen dat de code wordt uitgevoerd.
 
 --- /task ---
 
