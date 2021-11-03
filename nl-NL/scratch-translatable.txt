@@ -1,41 +1,41 @@
-tiny
+klein
 
-on the disco ball
+op de discobal
 
-'start' screen
+startscherm
 
-full-sized
+volledige grootte
 
-on the board
+op het bord
 
-do not go upside down
+draai niet ondersteboven
 
-number from -180 to 180
+getal van -180 tot 180
 
-keep being annoying
+blijf vervelend doen
 
-the number controls the speed
+het getal bepaalt de snelheid
 
-stay on the Stage
+blijf op het speelveld
 
-flap
+flapper
 
-try 11 or 50
+probeer 11 of 50
 
-try 0.1 or 0.5
+probeer 0.1 of 0.5
 
-choose your backdrop
+kies je achtergrond
 
-try another size
+probeer een andere grootte
 
-in the shop window
+in de etalage
 
-seconds taken
+tijdsduur
 
-say nothing
+zeg niets
 
-first level
+eerste niveau
 
-start the timer
+start de klok
 
-drag to position the bug first
+versleep de kever eerst naar z'n positie
