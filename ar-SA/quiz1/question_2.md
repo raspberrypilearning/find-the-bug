@@ -1,13 +1,13 @@
 --- question ---
 ---
-legend: Question 2 of 3
+القائمة: السؤال 2 من 3
 ---
 
-You used a `forever`{:class="block3control"} loop to make the **Parrot** sprite fly around in an annoying way.
+لقد استخدمت حلقة `دائماً`{: class = "block3control"} لجعل كائن **الببغاء** يطير حولك بطريقة مزعجة.
 
-We have tried to add another distraction sprite, but it just moves once when we click on the green flag and then stops. How can we fix it?
+حاولنا إضافة كائن إزعاج آخر، لكنه يتحرك مرة واحدة فقط عندما نضغط على العلم الأخضر ثم يتوقف. كيف يمكننا إصلاحه؟
 
-![The Rocket sprite.](images/rocket-sprite.png)
+![كائن الصاروخ.](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -23,35 +23,35 @@ end
 
 --- choices ---
 
-- ( ) Change the number in the `move`{:class="block3motion"} block
+- () قم بتغيير الرقم الموجود في وحدة `تحرك`{:class="block3motion"}
 
   --- feedback ---
 
-If you change the number in the `move`{:class="block3motion"} block, you will change how far the sprite moves when the green flag is clicked, but this change will not make the rocket keep moving.
+إذا قمت بتغيير الرقم في وحدة `تحرك`{:class="block3motion"} فسوف تقوم بتغيير المسافة التي يتحرك بها الكائن عند النقر فوق العلم الأخضر، ولكن هذا التغيير لن يجعل الصاروخ يستمر في الحركة.
 
   --- /feedback ---
 
-- ( ) Remove the `if on edge, bounce`{:class="block3motion"} block
+- () قم بإزالة وحدة `إذا كان على الحافة, اقفز`:class="block3motion"}
 
   --- feedback ---
 
-The `if on edge, bounce`{:class="block3motion"} block makes the sprite bounce off the edge of the Stage. If you removed it, then the rocket would get stuck at the edge of the Stage.
+وحدة `إذا كان على الحافة ، اقفز`{:class="block3motion"} تجعل الكائن يرتد عن حافة المنصة. إذا قمت بإزالته، فسوف يبقى الصاروخ على حافة المنصة.
 
   --- /feedback ---
 
-- ( ) Add another `forever`{:class="block3control"} block
+- ( ) أضف وحدة `دائماً`{:class="block3control"} من جديد
 
 --- feedback ---
 
-A script can only have one `forever`{:class="block3control"} block. Did you notice that you cannot add a block underneath a `forever`{:class="block3control"} block?
+أضف وحدة `دائماً`{:class="block3control"} من جديد. هل لاحظت أنّه لا يمكنك إضافة وحدة أسفل وحدة `دائماً`{:class="block3control"}؟
 
 --- /feedback ---
 
-- (x) Drag the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop
+- (x) اسحب وحدة `تحرك`{:class="block3motion"} إلى داخل حلقة `دائماً`
 
   --- feedback ---
 
-  Yes! The sprite only moves once. If you move the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop, the sprite will keep moving until you stop your project.
+  نعم! يتحرك الكائن مرة واحدة فقط. إذا قمت بتحريك وحدة `تحرك`{:class="block3motion"} إلى داخل حلقة `دائماً`{:class="block3control"}, سيستمر الكائن بالحركة حتى تقوم بإيقاف مشروعك.
 
   --- /feedback ---
 
