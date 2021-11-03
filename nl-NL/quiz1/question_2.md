@@ -1,13 +1,13 @@
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Vraag 2 van 3
 ---
 
-You used a `forever`{:class="block3control"} loop to make the **Parrot** sprite fly around in an annoying way.
+Je hebt een `herhaal`{:class="block3control"} lus gebruikt om de **Parrot** (papegaai) sprite op een vervelende manier rond te laten vliegen.
 
-We have tried to add another distraction sprite, but it just moves once when we click on the green flag and then stops. How can we fix it?
+We hebben geprobeerd nog een afleidingssprite toe te voegen, maar deze beweegt maar één keer wanneer we op de groene vlag klikken en stopt dan. Hoe kunnen we dat oplossen?
 
-![The Rocket sprite.](images/rocket-sprite.png)
+![De Rocket (raket) sprite.](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -23,35 +23,35 @@ end
 
 --- choices ---
 
-- ( ) Change the number in the `move`{:class="block3motion"} block
+- ( ) Wijzig het getal in het `neem stappen`{:class="block3motion"} blok
 
   --- feedback ---
 
-If you change the number in the `move`{:class="block3motion"} block, you will change how far the sprite moves when the green flag is clicked, but this change will not make the rocket keep moving.
+Als je het getal in het `neem stappen`{:class="block3motion"} verandert, verander je hoe ver de sprite beweegt wanneer op de groene vlag wordt geklikt, maar deze wijziging zorgt er niet voor dat de raket blijft bewegen.
 
   --- /feedback ---
 
-- ( ) Remove the `if on edge, bounce`{:class="block3motion"} block
+- ( ) Verwijder het `keer om aan de rand`{:class="block3motion"} blok
 
   --- feedback ---
 
-The `if on edge, bounce`{:class="block3motion"} block makes the sprite bounce off the edge of the Stage. If you removed it, then the rocket would get stuck at the edge of the Stage.
+Het `keer om aan de rand`{:class="block3motion"} blok zorgt ervoor dat de sprite van de rand van het speelveld stuitert. Als je het zou verwijderen, zou de raket vast komen te zitten aan de rand van het speelveld.
 
   --- /feedback ---
 
-- ( ) Add another `forever`{:class="block3control"} block
+- ( ) Voeg nog een `herhaal`{:class="block3control"} blok toe
 
 --- feedback ---
 
-A script can only have one `forever`{:class="block3control"} block. Did you notice that you cannot add a block underneath a `forever`{:class="block3control"} block?
+Een script kan maar één `herhaal`{:class="block3control"} blok hebben. Is het je opgevallen dat je geen blok kunt toevoegen onder een `herhaal`{:class="block3control"} blok?
 
 --- /feedback ---
 
-- (x) Drag the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop
+- (x) Sleep het `neem stappen`{:class="block3motion"} blok binnen de `herhaal`{:class+"block3control"} lus
 
   --- feedback ---
 
-  Yes! The sprite only moves once. If you move the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop, the sprite will keep moving until you stop your project.
+  Ja! De sprite beweegt maar één keer. Als je het `neem stappen`{:class="block3motion"} blok binnen de `herhaal`{:class="block3control"} lus zet, zal de sprite blijven bewegen totdat je je project stopt.
 
   --- /feedback ---
 
