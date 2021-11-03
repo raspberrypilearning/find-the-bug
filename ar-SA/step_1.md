@@ -1,21 +1,21 @@
-## Introduction
+## المقدمة
 
-In this project, you will create a game in which you have to find a hidden bug on each level. The game will have 'start' and 'end' screen backdrops, and a timer to show the player how quickly they found the bugs.
+قم بإنشاء لعبة يتعين عليك فيها العثور على حشرة مختبئة في كل مستوى. سوف تحتوي اللعبة على خلفيات لشاشة "البداية" و "النهاية" ، ومؤقت لإظهار مدى سرعة عثور اللاعب على الحشرات.
 
-You will:
-+ Create levels for your game using `next backdrop`{:class="block3looks"} and `when backdrop switches to`{:class="block3events"} blocks
-+ Use a `forever`{:class="block3control"} loop to keep running code blocks
-+ Use the `timer`{:class="block3sensing"} **variable** to let the player know how quickly they found the bugs
+سوف تقوم بمايلي:
++ قم بإنشاء مستويات للعبتك باستخدام `الخلفية التالية` {:class="block3looks"} و `عند تبديل الخلفية إلى`{:class="block3events"} وحدات صندوقية
++ استخدم حلقة `دائماً`{:class="block3control"}للاستمرار في تشغيل وحدات التعليمات البرمجية
++ استخدم `المؤقت`{:class="block3sensing"}**متغير** لإعلام اللاعب بمدى سرعة عثوره على الحشرات
 
 --- no-print --- --- task ---
-### Try it
+### جربها
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
-Click on the bug to start the game.
+انقر فوق الحشرة لبدء اللعبة.
 
-Try to find the bug on each level.
+حاول العثور على الحشرة في كل مستوى.
 
-How well are the bugs hidden? You will get to add your own levels and make it as easy or difficult as you like.
+ما مدى جودة إخفاء الحشرة؟ ستتمكن من إضافة مستوياتك الخاصة وتجعلها سهلة أو صعبة كما تريد.
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -28,10 +28,10 @@ How well are the bugs hidden? You will get to add your own levels and make it as
 
 --- print-only ---
 
-![The completed project.](images/showcase_static.png)
+![المشروع المكتمل.](images/showcase_static.png)
 
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-More than 2.5 billion people play video games every year. Just think how many people are involved in creating those games. Would you like a job designing, coding, or testing games for other people to play? 
+أكثر من 2.5 مليار شخص يلعبون ألعاب الفيديو كل عام. فكر فقط في عدد الأشخاص المشاركين في إنشاء هذه الألعاب. هل ترغب في عمل تصميم أو برمجة أو اختبار ألعاب لأشخاص آخرين للعبها؟ 
 </p>
