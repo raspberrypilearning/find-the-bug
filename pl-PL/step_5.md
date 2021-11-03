@@ -1,68 +1,68 @@
-## Second level
+## Drugi poziom
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will choose a backdrop to make a second level for your game, and make the bug hard to find. 
+Wybierzesz tło, aby stworzyć drugi poziom dla swojej gry i sprawisz, że robak będzie trudny do znalezienia. 
 </div>
 <div>
 
-![A street scene with a hidden bug.](images/second-level.png){:width="300px"}
+![Scena uliczna z ukrytym robakiem.](images/second-level.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-**Choose:** Choose a backdrop for your second level. We have chosen the **Urban** backdrop, but you can choose the one that you like the most.
+**Wybierz:** Wybierz tło dla drugiego poziomu. Wybraliśmy tło **Urban**, ale możesz wybrać to, które najbardziej Ci się podoba.
 
 ![](images/insert-urban-backdrop.png)
 
-**Tip:** Remember that backdrops with lots of colours and details will make the bug harder to find. How difficult will you make your game?
+**Wskazówka:** Pamiętaj, że tła z dużą ilością kolorów i detali utrudnią znalezienie robaka. Jak trudną zrobisz swoją grę?
 
 --- /task ---
 
-To be able to drag your bug into a new position, you need to stop the `when this sprite clicked`{:class="block3events"} script from running.
+Aby móc przeciągnąć robaka w nowe miejsce, musisz zatrzymać działanie skryptu `kiedy ten duszek kliknięty`{:class="block3events"}.
 
 --- task ---
 
-Drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them from running when you click on the bug:
+Przeciągnij bloki z dala od bloku `kiedy duszek kliknięty`{:class="block3events"}, aby zatrzymać ich działanie po kliknięciu robaka:
 
 ![](images/breaking-script.png)
 
 --- /task ---
 
-Your bug needs to be hard to find when the backdrop changes. You can resize the bug to make it harder to find.
+Twój robak musi być trudny do znalezienia, gdy zmieni się tło. Możesz zmienić rozmiar robaka, aby utrudnić jego znalezienie.
 
 --- task ---
 
-Add code to `set the size`{:class="block3looks"} of the bug for the second level:
+Dodaj kod na `ustaw rozmiar`{:class="block3looks"} robaka dla drugiego poziomu:
 
-![The bug sprite.](images/bug-sprite.png)
+![Duszek robaka.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v] // choose your backdrop
 set size to [20] % // try another size 
 ```
 
-**Test:** Click on your new script to run it.
+**Test:** Kliknij swój nowy skrypt, aby go uruchomić.
 
 --- /task ---
 
 --- task ---
 
-Drag your bug on the Stage to a good hiding place for this level.
+Przeciągnij swojego robaka na scenę do dobrej kryjówki dla tego poziomu.
 
-![The bug hidden in the shop window in the middle of the backdrop.](images/hidden-urban-backdrop.png)
+![Duszek ukryty w witrynie sklepowej na środku tła.](images/hidden-urban-backdrop.png)
 
 --- /task ---
 
-Position your bug in its hiding place.
+Umieść swojego robaka w kryjówce.
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block to your code:
+Dodaj blok `idź do x: y:`{:class="block3motion"} do swojego kodu:
 
-![The bug sprite.](images/bug-sprite.png)
+![Duszek robaka.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -74,7 +74,7 @@ set size to [20] % // try another size
 
 --- task ---
 
-Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that when the bug is clicked, the backdrop switches to the `next backdrop`{:class="block3looks"}:
+Dołącz bloki z powrotem do bloku `kiedy duszek kliknięty`{:class="block3events"} tak, aby po kliknięciu robaka tło zmieniło się na `następne tło`{:class="block3looks"}:
 
 ![](images/fixed-script.png)
 
@@ -82,17 +82,17 @@ Join the blocks back to the `when this sprite clicked`{:class="block3events"} bl
 
 --- task ---
 
-**Test:** Click on the green flag to test your project.
+**Test:** Kliknij zieloną flagę, aby przetestować swój projekt.
 
 --- /task ---
 
-Your bug may now be in front of the parrot.
+Twój robak może teraz znajdować się przed papugą.
 
 --- task ---
 
-Add a script to make sure that your bug is always at the `back`{:class="block3looks"}:
+Dodaj skrypt, aby upewnić się, że robak jest zawsze na `spodzie`{class="block3looks"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![Duszek robaka.](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -100,7 +100,7 @@ forever
 go to [back v] layer
 ```
 
-Now, your bug will always stay at the back, even if you need to change its position.
+Teraz twój robak zawsze będzie z tyłu, nawet jeśli będziesz musiał zmienić jego pozycję.
 
 --- /task ---
 
