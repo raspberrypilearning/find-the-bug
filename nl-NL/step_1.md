@@ -1,21 +1,21 @@
-## Introduction
+## Inleiding
 
-In this project, you will create a game in which you have to find a hidden bug on each level. The game will have 'start' and 'end' screen backdrops, and a timer to show the player how quickly they found the bugs.
+In dit project maak je een spel waarin je op elk niveau een verborgen kever moet vinden. Het spel heeft een 'start' en 'eind' achtergrond, en een klok die de speler laat zien hoe snel ze de kevers gevonden hebben.
 
-You will:
-+ Create levels for your game using `next backdrop`{:class="block3looks"} and `when backdrop switches to`{:class="block3events"} blocks
-+ Use a `forever`{:class="block3control"} loop to keep running code blocks
-+ Use the `timer`{:class="block3sensing"} **variable** to let the player know how quickly they found the bugs
+Je gaat:
++ Niveaus maken voor je spel met behulp van `volgende achtergrond`{:class="block3looks"} en `verander achtergrond naar`{"class="block3looks"} blokken
++ Een `herhaal`{;class="block3control"} lus gebruiken om het script continu uit te voeren
++ Een `klok`{:class="block3sensing"} **variabele** gebruiken om de speler te laten weten hoe snel ze de kevers hebben gevonden
 
 --- no-print --- --- task ---
-### Try it
+### Probeer het uit
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
-Click on the bug to start the game.
+Klik op de kever om het spel te starten.
 
-Try to find the bug on each level.
+Probeer op elk niveau de kever te vinden.
 
-How well are the bugs hidden? You will get to add your own levels and make it as easy or difficult as you like.
+Hoe goed zijn de kevers verborgen? Je gaat je eigen niveaus toevoegen en het zo makkelijk of moeilijk maken als jij wilt.
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -28,10 +28,10 @@ How well are the bugs hidden? You will get to add your own levels and make it as
 
 --- print-only ---
 
-![The completed project.](images/showcase_static.png)
+![Het voltooide project.](images/showcase_static.png)
 
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-More than 2.5 billion people play video games every year. Just think how many people are involved in creating those games. Would you like a job designing, coding, or testing games for other people to play? 
+Jaarlijks spelen meer dan 2,5 miljard mensen videogames. Bedenk eens hoeveel mensen betrokken zijn bij het maken van die spellen. Zou jij een baan willen als het ontwerpen, coderen of testen van games die andere mensen kunnen spelen? 
 </p>
