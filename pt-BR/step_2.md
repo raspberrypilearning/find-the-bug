@@ -1,19 +1,19 @@
-## Start screen
+## Tela inicial
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your game will begin with a 'start' screen, and players will click on the bug to go to the first level.
+O seu jogo vai começar com uma tela de 'início', e os jogadores irão clicar no inseto para ir para o primeiro nível.
 </div>
 <div>
 
-!["Find the bug" text on a chalkboard on the Stage.](images/start-screen.png){:width="300px"}
+![Texto "Encontre o inseto" em um quadro-negro no Palco.](images/start-screen.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. O Scratch será aberto em outra aba do navegador.
 
 [[[working-offline]]]
 
@@ -21,19 +21,19 @@ Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scra
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+Adicione o plano de fundo **Quadro-negro** da categoria de **Interiores**.
 
-![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
+![O ícone 'Selecionar Cenário'.](images/backdrop-button.png)
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![O cenário quadro-negro na biblioteca de cenários.](images/chalkboard.png)
 
 --- /task ---
 
-The **Stage** has a **Backdrops** tab instead of a **Costumes** tab. This is where you can create images for the **Stage**.
+O **Palco** tem um botão de **Plano de fundo** em vez de um botão de **Costumes**. É aqui que você consegue criar imagens para o **Palco**.
 
 --- task ---
 
-Click on the Stage pane.
+Clique no painel do Palco.
 
 ![](images/stage-pane.png)
 
@@ -41,74 +41,74 @@ Click on the Stage pane.
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+Clique na aba **Cenários** para abrir o editor Paint.
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard-paint.png)
+![O cenário quadro-negro no editor Paint.](images/chalkboard-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Select **backdrop1** and click on the **Delete** icon to remove the **backdrop1** backdrop from your project. You will not need the **backdrop1** backdrop in this project.
+Selecione **cenário1** e clique no ícone**Excluir** para remover o **cenário1** de seu projeto. Você não vai precisar do **cenário1** neste projeto.
 
 ![](images/delete-backdrop1.png)
 
 --- /task ---
 
-The **Chalkboard** backdrop will now be highlighted.
+O cenário **Quadro negro** será destacado.
 
 --- task ---
 
-Click on **Convert to Vector**. Now, you will be able to add text that you can move around.
+Clique em **Converter para Vetor**. Agora, você poderá adicionar texto que você poderá mover para onde quiser.
 
-![The 'Convert to Vector' button.](images/vector-button.png)
+![O botão 'Converter para Vetor'.](images/vector-button.png)
 
 --- /task ---
 
 --- task ---
 
-Use the **Text** tool to add the text `Find the bug` to the chalkboard:
+Use a ferramenta **Texto** para adicionar o texto `Encontre o Inseto` no quadro-negro:
 
 ![](images/chalkboard-text.png)
 
-We used the **Marker** font in white, but **choose** the font and colour that you want to use.
+Usamos **Marcador** branco, mas você pode **escolher** a fonte e a cor que quiser.
 
-**Tip:** Switch to the **Select** (Arrow) tool to move your text around. To change the size of the text, grab the corner of the text and drag it.
-
---- /task ---
-
---- task ---
-
-Change the name of the backdrop to `start`, because you will need to select it later in the project.
-
-![The Costume name box highlighted in the Paint editor.](images/start-screen-name.png)
-
-**Tip:** If you use names that make sense, it will be easier to understand your project, especially when you come back to a project later.
+**Dica:** Mude para a ferramenta **Selecione (Seta)** para mover o texto. Para alterar o tamanho do texto, segure o canto da caixa de texto e arraste-a.
 
 --- /task ---
 
 --- task ---
 
-Delete the **Scratch Cat** sprite.
+Altere o nome do cenário para `início`, porque você precisará selecioná-lo mais tarde no projeto.
+
+![A caixa do nome da fantasia destacada no editor Paint.](images/start-screen-name.png)
+
+**Dica:** Se você usar nomes que realmente tenham significado, será mais fácil entender seu projeto, especialmente quando você voltar a um projeto mais tarde.
 
 --- /task ---
 
 --- task ---
 
-Click on **Choose a Sprite** and type `bug` in the search box.
+Exclua o ator**Gato Scratch**.
 
-**Choose:** Choose a bug, which players will need to find in your game.
+--- /task ---
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+--- task ---
 
-!["bug" search results showing seven different bugs.](images/bug-search.png)
+Clique em **Escolher um Ator** e digite `Inseto` na caixa de pesquisa.
 
-**Tip:** Give your project a name. You might like to include the name of the bug that you have just chosen.
+**Escolha:** Escolha um inseto, os jogadores precisarão encontrar esse inseto no jogo.
+
+![O ícone 'Selecione um ator'.](images/sprite-button.png)
+
+!["inseto" resultados da pesquisa mostrando sete insetos diferentes.](images/bug-search.png)
+
+**Dica:** Dê um nome ao seu projeto. Você pode querer incluir o nome do inseto que acabou de escolher.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A mistake in a computer program is called a <span style="color: #0faeb0">**bug**</span>. Finding and removing mistakes in computer programs is called <span style="color: #0faeb0">**debugging**</span>. Grace Hopper is a famous software engineer. Her team once found a moth in their computer. Their notes say, "First actual case of bug being found."
+Um erro em um programa de computador é chamado de <span style="color: #0faeb0">**bug**</span>. Encontrar e remover erros em programas de computador é chamado de <span style="color: #0faeb0">**debugging**</span>. Grace Hopper é uma famosa engenheira de software. Certa vez, sua equipe encontrou uma mariposa em seu computador. Suas anotações dizem: "Primeiro caso real de bug (inseto em inglês) sendo encontrado."
 </p>
 
 --- save ---
