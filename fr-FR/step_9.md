@@ -1,8 +1,8 @@
-## Upgrade your game
+## Améliorer ton jeu
 
-If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text on the chalkboard.
+Si tu as le temps, tu peux ajouter plus de niveaux et plus de distractions à ton jeu. Tu peux également changer le sprite qui se cache et changer le texte au tableau.
 
-Here are the blocks that you will need to hide the bug on a new level:
+Voici les blocs dont tu auras besoin pour masquer le bug à un nouveau niveau :
 
 ```blocks3
 when backdrop switches to [new level v]
@@ -16,20 +16,20 @@ set [color v] effect to [50]
 
 --- task ---
 
-For each level, you will need to:
-- Add a backdrop
-- Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
-- Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug
+Pour chaque niveau, tu devras :
+- Ajouter un arrière-plan
+- Cliquer sur le volet Scène, puis sur l' onglet **Arrière-plans** , puis faire glisser le nouvel arrière-plan en position avant l'arrière-plan **fin**
+- Ajoute un bloc `quand l'arrière-plan bascule sur` {:class="block3events"} pour le nouvel arrière-plan et ajoute du code pour positionner et masquer le bug
 
-**Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the backdrop does not switch when you click on the bug to position it for a new level.
+**Astuce :** Pour faire glisser le bug vers une nouvelle position cachée, tu devras « casser » le code afin que l'arrière-plan ne change pas lorsque tu cliques sur le bug pour le positionner à un nouveau niveau.
 
 --- /task ---
 
 --- task ---
 
-You could add more parrots or choose another sprite to act as a distraction.
+Tu peux ajouter plus de perroquets ou choisir un autre sprite pour faire office de distraction.
 
-Here is the code that you used for the parrot:
+Voici le code que tu as utilisé pour le perroquet :
 ```blocks3
 when flag clicked
 set rotation style [left-right v] // do not go upside down
@@ -43,18 +43,18 @@ wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
-**Tip:** You can drag the **Parrot** sprite's code to another sprite to make it faster to create another distraction sprite.
+**Astuce :** Tu peux faire glisser le **sprite Parrot** vers un autre sprite pour accélérer la création d'un autre sprite de distraction.
 
-![Dragging code from the Code area to another sprite in the Sprite list.](images/drag-parrot-code.gif)
+![Faire glisser le code de la zone Code vers un autre sprite dans la liste Sprite.](images/drag-parrot-code.gif)
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+title: Le projet achevé
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+Tu peux voir le [projet terminé ici](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
 
 --- /collapse ---
 
