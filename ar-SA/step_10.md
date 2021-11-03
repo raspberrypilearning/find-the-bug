@@ -1,10 +1,10 @@
-## What next?
+## ما التالي؟
 
-If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) pathway, you can move on to the [Silly eyes](https://projects.raspberrypi.org/en/projects/silly-eyes) project. In this project, you will design your own character with eyes that look at the mouse pointer when you move the mouse!
+إذا كنت تتبع [مقدمة إلى](https://projects.raspberrypi.org/en/pathways/scratch-intro) ، يمكنك الانتقال إلى مشروع [عيون مضحكة](https://projects.raspberrypi.org/en/projects/silly-eyes). في هذا المشروع، ستقوم بتصميم شخصيتك بالعيون التي تنظر إلى مؤشر الماوس عند تحريك الماوس!
 
 --- print-only ---
 
-![The 'Silly eyes' project.](images/googly-eye-character.png)
+![مشروع "العيون المضحكة".](images/googly-eye-character.png)
 
 --- /print-only ---
 
