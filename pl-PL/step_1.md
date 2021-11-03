@@ -1,21 +1,21 @@
-## Introduction
+## Wprowadzenie
 
-In this project, you will create a game in which you have to find a hidden bug on each level. The game will have 'start' and 'end' screen backdrops, and a timer to show the player how quickly they found the bugs.
+W tym projekcie stworzysz grę, w której będziesz musiał znaleźć robaka, który kryje się na każdym poziomie. Gra będzie miała tła ekranu "start" i "koniec" oraz stoper, który pokaże graczowi, jak szybko znalazł robaki.
 
-You will:
-+ Create levels for your game using `next backdrop`{:class="block3looks"} and `when backdrop switches to`{:class="block3events"} blocks
-+ Use a `forever`{:class="block3control"} loop to keep running code blocks
-+ Use the `timer`{:class="block3sensing"} **variable** to let the player know how quickly they found the bugs
+Będziesz:
++ Tworzył poziomy do swojej gry, używając bloków `następne tło`{:class="block3looks"} oraz ` kiedy tło zmieni się na`{:class="block3events"}
++ Używał pętli `zawsze`{:class="block3control"}, aby kontynuować działanie bloków kodu
++ Używał **zmiennej** `stoper`{:class="block3sensing"} by informować gracza, jak szybko znalazł robaki
 
 --- no-print --- --- task ---
-### Try it
+### Wypróbuj
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
-Click on the bug to start the game.
+Kliknij robaka, aby rozpocząć grę.
 
-Try to find the bug on each level.
+Spróbuj znaleźć robaka na każdym poziomie.
 
-How well are the bugs hidden? You will get to add your own levels and make it as easy or difficult as you like.
+Jak dobrze są ukryte robaki? Będziesz mógł dodawać własne poziomy i czynić to tak łatwym lub trudnym, jak tylko zechcesz.
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -28,10 +28,10 @@ How well are the bugs hidden? You will get to add your own levels and make it as
 
 --- print-only ---
 
-![The completed project.](images/showcase_static.png)
+![Ukończony projekt.](images/showcase_static.png)
 
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-More than 2.5 billion people play video games every year. Just think how many people are involved in creating those games. Would you like a job designing, coding, or testing games for other people to play? 
+Ponad 2,5 miliarda ludzi gra co roku w gry wideo. Pomyśl tylko, ile osób jest zaangażowanych w tworzenie tych gier. Czy chciałbyś zająć się projektowaniem, kodowaniem albo testowaniem gier dla innych osób? 
 </p>
