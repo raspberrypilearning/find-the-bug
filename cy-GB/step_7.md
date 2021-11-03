@@ -28,6 +28,8 @@ Take a look at some 'Find the bug' projects created by community members, which 
 
 Inspire the Raspberry Pi Foundation community with your project!
 
+[[[share-scratch]]]
+
 To submit your project to our 'Find the bug' Scratch studio for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---
