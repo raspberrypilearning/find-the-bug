@@ -1,52 +1,52 @@
-## End screen
+## Τελική οθόνη
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
+Θα δημιουργήσεις μια οθόνη "end" για να εμφανίσεις τον αριθμό των δευτερολέπτων που χρειάστηκε ο παίκτης για να βρει τα έντομα. 
 </div>
 <div>
 
-![The bug with the amount of time in a speech bubble.](images/end-screen.png){:width="300px"}
+! [Το έντομο με το χρονικό διάστημα σε ένα συννεφάκι ομιλίας.] (Images/end-screen.png) {: width = "300px"}
 
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Sometimes, just beating a game isn't enough. Players like to know how they did against other players or themselves. Can you think of a game that shows you how well you did?</p>
+Μερικές φορές, το να νικάς ένα παιχνίδι δεν είναι αρκετό. Στους παίκτες αρέσει να γνωρίζουν πόσο καλά τα πήγαν απέναντι σε άλλους παίκτες ή στον εαυτό τους. Μπορείς να σκεφτείς ένα παιχνίδι που να σου δείχνει πόσο καλά τα κατάφερες;</p>
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+Πρόσθεσε το υπόβαθρο **Chalkboard** από την κατηγορία **Εσωτερικοί Χώροι**.
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![Το υπόβαθρο Chalkboard (πίνακας κιμωλίας) στη βιβλιοθήκη με τα υπόβαθρα.](images/chalkboard.png)
 
-**Tip:** In Scratch, you can add the same backdrop more than once.
+**Συμβουλή:** Στο Scratch, μπορείς να προσθέσεις το ίδιο υπόβαθρο περισσότερες από μία φορές.
 
 --- /task ---
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+Κάνε κλικ στην καρτέλα **Υπόβαθρα** για να ανοίξεις το πρόγραμμα ζωγραφικής.
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard2-paint.png)
-
---- /task ---
-
---- task ---
-
-Change the name of the backdrop to `end`:
-
-![The backdrop name changed in the Paint editor.](images/end-screen-name.png)
-
-**Tip:** You rename the backdrop to **end** to make it easier to understand your code.
+![Το υπόβαθρο Chalkboard στο πρόγραμμα ζωγραφικής.](images/chalkboard2-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **bug** sprite and add code to position the bug on the 'end' screen:
+Άλλαξε το όνομα του υπόβαθρου σε `end`:
 
-![The bug sprite.](images/bug-sprite.png)
+![Το όνομα του υπόβαθρου άλλαξε στο πρόγραμμα ζωγραφικής.](images/end-screen-name.png)
+
+**Συμβουλή:** Μετονομάζεις το υπόβαθρο σε **end** (τέλος) για να γίνει ευκολότερη η κατανόηση του κώδικά σου.
+
+--- /task ---
+
+--- task ---
+
+Κάνε κλικ στο αντικείμενο **bug** και πρόσθεσε κώδικα για να τοποθετήσεις το έντομο στην οθόνη «end»:
+
+![Το αντικείμενο bug.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -56,13 +56,13 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-How long does it take you to find and click on the bugs? Scratch has a `timer`{:class="block3sensing"} that you can use to find out.
+Πόσο χρόνο χρειάστηκες για να βρεις και να κάνεις κλικ στα έντομα; Το Scratch έχει ένα `χρονόμετρο `{:class="block3sensing"} που μπορείς να χρησιμοποιήσεις για να μάθεις.
 
 --- task ---
 
-The `timer`{:class="block3sensing"} block is in the `Sensing`{:class="block3sensing"} blocks menu. Add code to make the bug `say`{:class="block3looks"} the `timer`{:class="block3sensing"} on the 'end' screen:
+Το μπλοκ `χρονόμεντρο`{:class="block3sensing"} βρίσκεται στο μενού `Αισθητήρες`{:class="block3sensing"}. Πρόσθεσε κώδικα για να κάνεις το έντομο να `λέει`{:class="block3looks"} το `χρονόμετρο`{:class="block3sensing"} στην οθόνη "end":
 
-![The bug sprite.](images/bug-sprite.png)
+![Το αντικείμενο bug.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -71,23 +71,23 @@ go to x: [0] y: [30] // on the board
 +say (timer) // seconds taken
 ```
 
-![Inserting a 'timer' block into a 'say' block.](images/inserting-blocks.gif)
+![Εισαγωγή ενός μπλοκ «χρονόμετρο» σε ένα μπλοκ «πες».](images/inserting-blocks.gif)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your finding skills. How long does it take you to find the bug?
+**Δοκιμή:** Κάνε κλικ στην πράσινη σημαία για να δοκιμάσεις τις δεξιότητές σου στην αναζήτηση των εντόμων. Πόσο χρόνο χρειάστηκες για να βρεις το έντομο;
 
 --- /task ---
 
-To go back to the 'start' screen, click on the bug on the 'end' screen.
+Για να επιστρέψεις στην οθόνη "start", κάνε κλικ στο έντομο στην οθόνη "end".
 
 --- task ---
 
-Add code to make the bug stop saying the `timer`{:class="block3sensing"} when you go to the 'start' screen:
+Πρόσθεσε κώδικα για να σταματήσεις το έντομο να λέει το `χρονόμετρο`{:class="block3sensing"} όταν πηγαίνεις στην οθόνη "start":
 
-![The bug sprite.](images/bug-sprite.png)
+![Το αντικείμενο bug.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -98,13 +98,13 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-If you play the game a second time, the `timer`{:class="block3sensing"} will keep counting.
+Εάν παίξεις το παιχνίδι δεύτερη φορά, το `χρονόμετρο`{:class="block3sensing"} θα συνεχίσει να μετράει.
 
 --- task ---
 
-Add code to `reset the timer`{:class="block3sensing"} when the `backdrop switches to`{:class="block3events"} the first level:
+Πρόσθεσε κώδικα για να `μηδενίσεις το χρονόμετρο`{:class="block3sensing"} όταν το `υπόβαθρο αλλάξει σε`{:class="block3events"} πρώτο επίπεδο:
 
-![The bug sprite.](images/bug-sprite.png)
+![Το αντικείμενο bug.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v] // first level
@@ -117,7 +117,7 @@ go to x: [13] y: [132] // on the disco ball
 
 --- task ---
 
-**Test:** Click on the green flag and play the game. The timer should reset when you click on the bug on the 'start' screen to move to the first level. When you click on the bug on the 'end' screen, you should return to the 'start' screen and see that the bug is not saying the `timer`{:class="block3sensing"}.
+**Δοκιμή:** Κάνε κλικ στην πράσινη σημαία και παίξε το παιχνίδι. Το χρονόμετρο πρέπει να μηδενιστεί όταν κάνεις κλικ στο έντομο στην οθόνη "start" για να μετακινηθείς στο πρώτο επίπεδο. Όταν κάνεις κλικ στο έντομο στην οθόνη "end", θα πρέπει να επιστρέψεις στην οθόνη "start" και να δεις ότι το έντομο δεν λέει το `χρονόμετρο`{:class="block3sensing"}.
 
 --- /task ---
 
