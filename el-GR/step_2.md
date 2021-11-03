@@ -1,19 +1,19 @@
-## Start screen
+## Αρχική Οθόνη
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your game will begin with a 'start' screen, and players will click on the bug to go to the first level.
+Το παιχνίδι σου θα ξεκινήσει με μια οθόνη «start» και οι παίκτες θα κάνουν κλικ στο έντομο για να μεταβούν στο πρώτο επίπεδο.
 </div>
 <div>
 
-!["Find the bug" text on a chalkboard on the Stage.](images/start-screen.png){:width="300px"}
+![Κείμενο "Βρες το έντομο" σε έναν πίνακα κιμωλίας πάνω στη Σκηνή.](images/start-screen.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Το Scratch θα ανοίξει σε νέα καρτέλα του φυλλομετρητή.
 
 [[[working-offline]]]
 
@@ -21,19 +21,19 @@ Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scra
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+Πρόσθεσε το υπόβαθρο **Chalkboard** από την κατηγορία **Εσωτερικοί Χώροι**.
 
-![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
+![Το εικονίδιο 'Επιλέξτε Υπόβαθρο'.](images/backdrop-button.png)
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![Το υπόβαθρο Chalkboard (πίνακας κιμωλίας) στη βιβλιοθήκη με τα υπόβαθρα.](images/chalkboard.png)
 
 --- /task ---
 
-The **Stage** has a **Backdrops** tab instead of a **Costumes** tab. This is where you can create images for the **Stage**.
+Η **Σκηνή** έχει μια καρτέλα **Υπόβαθρα** αντί για μια καρτέλα **Ενδυμασίες**. Εδώ μπορείς να δημιουργήσεις εικόνες για τη **Σκηνή**.
 
 --- task ---
 
-Click on the Stage pane.
+Κάνε κλικ στη Σκηνή.
 
 ![](images/stage-pane.png)
 
@@ -41,74 +41,74 @@ Click on the Stage pane.
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+Κάνε κλικ στην καρτέλα **Υπόβαθρα** για να ανοίξεις το πρόγραμμα ζωγραφικής.
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard-paint.png)
+![Το υπόβαθρο Chalkboard στο πρόγραμμα ζωγραφικής.](images/chalkboard-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Select **backdrop1** and click on the **Delete** icon to remove the **backdrop1** backdrop from your project. You will not need the **backdrop1** backdrop in this project.
+Επίλεξε **υπόβαθρο1** και κάνε κλικ στο **Διαγραφή** για να αφαιρέσεις το υπόβαθρο **υπόβαθρο1** από το έργο σου. Δεν θα χρειαστείς το υπόβαθρο **υπόβαθρο1** σε αυτό το έργο.
 
 ![](images/delete-backdrop1.png)
 
 --- /task ---
 
-The **Chalkboard** backdrop will now be highlighted.
+Το υπόβαθρο1 **Chalkboard** θα είναι τώρα επιλεγμένο.
 
 --- task ---
 
-Click on **Convert to Vector**. Now, you will be able to add text that you can move around.
+Κάνε κλικ στο **Μετατροπή σε Ψηφιοαπεικόνιση (bitmap)**. Τώρα, θα μπορέσεις να προσθέσεις κείμενο που μπορείς να το μετακινήσεις.
 
-![The 'Convert to Vector' button.](images/vector-button.png)
+![Το κουμπί «Μετατροπή σε Ψηφιοαπεικόνιση (bitmap)».](images/vector-button.png)
 
 --- /task ---
 
 --- task ---
 
-Use the **Text** tool to add the text `Find the bug` to the chalkboard:
+Χρησιμοποίησε το εργαλείο **Κείμενο** για να προσθέσεις το κείμενο `Βρες το έντομο` στον πίνακα κιμωλίας:
 
 ![](images/chalkboard-text.png)
 
-We used the **Marker** font in white, but **choose** the font and colour that you want to use.
+Χρησιμοποιήσαμε τη γραμματοσειρά**San Serif** σε λευκό, αλλά **επίλεξε** τη γραμματοσειρά και το χρώμα που θέλεις να χρησιμοποιήσεις.
 
-**Tip:** Switch to the **Select** (Arrow) tool to move your text around. To change the size of the text, grab the corner of the text and drag it.
-
---- /task ---
-
---- task ---
-
-Change the name of the backdrop to `start`, because you will need to select it later in the project.
-
-![The Costume name box highlighted in the Paint editor.](images/start-screen-name.png)
-
-**Tip:** If you use names that make sense, it will be easier to understand your project, especially when you come back to a project later.
+**Συμβουλή:** Πήγαινε στο εργαλείο **Επιλογή** (βελάκι) για να μετακινήσεις το κείμενό σου. Για να αλλάξεις το μέγεθος του κειμένου, πιάσε τη γωνία του κειμένου και σύρε το.
 
 --- /task ---
 
 --- task ---
 
-Delete the **Scratch Cat** sprite.
+Άλλαξε το όνομα του υπόβαθρου σε `start`, γιατί θα χρειαστεί να το επιλέξεις αργότερα στο έργο.
+
+![Το πλαίσιο ονομάτων Ενδυμασιών έχει επιλεγεί στον πρόγραμμα ζωγραφικής.](images/start-screen-name.png)
+
+**Συμβουλή:** Εάν χρησιμοποιείς ονόματα που έχουν νόημα, θα είναι ευκολότερο να κατανοήσεις το έργο σου, ειδικά όταν επιστρέψεις σε ένα έργο αργότερα.
 
 --- /task ---
 
 --- task ---
 
-Click on **Choose a Sprite** and type `bug` in the search box.
+Διάγραψε το Αντικείμενο **Scratch Cat**.
 
-**Choose:** Choose a bug, which players will need to find in your game.
+--- /task ---
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+--- task ---
 
-!["bug" search results showing seven different bugs.](images/bug-search.png)
+Κάνε κλικ στο **Επιλέξτε ένα Αντικείμενο** και πληκτρολόγησε `bug` στο πλαίσιο αναζήτησης.
 
-**Tip:** Give your project a name. You might like to include the name of the bug that you have just chosen.
+**Επίλεξε:** Επίλεξε ένα έντομο, το οποίο οι παίκτες θα πρέπει να βρουν στο παιχνίδι σου.
+
+![Το εικονίδιο «Επιλέξτε ένα Αντικείμενο».](images/sprite-button.png)
+
+!["bug" αποτελέσματα αναζήτησης που δείχνουν επτά διαφορετικά έντομα.](images/bug-search.png)
+
+**Συμβουλή:** Δώσε ένα όνομα στο έργο σου. Ίσως θέλεις να συμπεριλάβεις το όνομα του εντόμου που μόλις επέλεξες.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A mistake in a computer program is called a <span style="color: #0faeb0">**bug**</span>. Finding and removing mistakes in computer programs is called <span style="color: #0faeb0">**debugging**</span>. Grace Hopper is a famous software engineer. Her team once found a moth in their computer. Their notes say, "First actual case of bug being found."
+Ένα λάθος σε ένα πρόγραμμα υπολογιστή ονομάζεται <span style="color: #0faeb0">**bug**</span> (σφάλμα). Η εύρεση και η αφαίρεση λαθών σε προγράμματα υπολογιστών ονομάζεται <span style="color: #0faeb0">**εντοπισμός σφαλμάτων**</span> (debugging). Η Grace Hopper είναι μια διάσημη μηχανικός λογισμικού. Η ομάδα της βρήκε κάποτε έναν σκόρο στον υπολογιστή τους. Οι σημειώσεις τους λένε, "Πρώτη πραγματική περίπτωση εντοπισμού bug."
 </p>
 
 --- save ---
