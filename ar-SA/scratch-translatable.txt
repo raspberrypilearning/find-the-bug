@@ -1,41 +1,41 @@
-tiny
+صغير الحجم
 
-on the disco ball
+على كرة الديسكو
 
-'start' screen
+شاشة "البداية"
 
-full-sized
+بالحجم الكامل
 
-on the board
+على اللوحة
 
-do not go upside down
+لا تقلب رأسا على عقب
 
-number from -180 to 180
+مجال العدد من -180 إلى 180
 
-keep being annoying
+استمر في الإزعاج
 
-the number controls the speed
+الرقم يتحكم في السرعة
 
-stay on the Stage
+تغيير اللغة
 
-flap
+رفرف
 
-try 11 or 50
+جرب 11 أو 50
 
-try 0.1 or 0.5
+جرب 0.1 أو 0.5
 
-choose your backdrop
+اختر الخلفية الخاصة بك
 
-try another size
+جرب حجماً آخر
 
-in the shop window
+في نافذة المتجر
 
-seconds taken
+استغرقت ثوانٍ
 
-say nothing
+لا تقل شيء
 
-first level
+المستوى الأول
 
-start the timer
+ابدأ الموقت
 
-drag to position the bug first
+اسحب لوضع الحشرة أولاً
