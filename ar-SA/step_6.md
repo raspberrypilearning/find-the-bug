@@ -1,8 +1,8 @@
-## End screen
+## شاشة النهاية
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
+ستنشئ شاشة "نهاية" لإظهار عدد الثواني التي استغرقها اللاعب للعثور على الحشرات. 
 </div>
 <div>
 
@@ -12,41 +12,41 @@ You will create an 'end' screen to show the number of seconds that it has taken 
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Sometimes, just beating a game isn't enough. Players like to know how they did against other players or themselves. Can you think of a game that shows you how well you did?</p>
+في بعض الأحيان، لا يكفي مجرد الفوز في لعبة. يحب اللاعبون معرفة ما فعلوه ضد لاعبين آخرين أو ضد أنفسهم. هل يمكنك التفكير في لعبة تظهر لك مدى جودة أدائك؟</p>
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+أضف خلفية **السبورة** من القسم **الداخلي**.
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![خلفية السبورة في مكتبة الخلفية.](images/chalkboard.png)
 
-**Tip:** In Scratch, you can add the same backdrop more than once.
+**نصيحة:** في Scratch، يمكنك إضافة نفس الخلفية أكثر من مرة.
 
 --- /task ---
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+انقر فوق علامة تبويب **الخلفيات** لفتح محرر الرسام.
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard2-paint.png)
-
---- /task ---
-
---- task ---
-
-Change the name of the backdrop to `end`:
-
-![The backdrop name changed in the Paint editor.](images/end-screen-name.png)
-
-**Tip:** You rename the backdrop to **end** to make it easier to understand your code.
+![خلفية السبورة في محرر الرسام.](images/chalkboard2-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **bug** sprite and add code to position the bug on the 'end' screen:
+قم بتغيير اسم الخلفية إلى `نهاية`:
 
-![The bug sprite.](images/bug-sprite.png)
+![تم تغيير اسم الخلفية في محرر الرسام.](images/end-screen-name.png)
+
+**نصيحة:** يمكنك إعادة تسمية الخلفية إلى **نهاية** لتسهيل فهم البرنامج الخاص بك.
+
+--- /task ---
+
+--- task ---
+
+انقر على كائن **الحشرة** وأضف تعليمات برمجية لوضع الحشرة على شاشة "النهاية":
+
+![كائن الحشرة.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -56,13 +56,14 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-How long does it take you to find and click on the bugs? Scratch has a `timer`{:class="block3sensing"} that you can use to find out.
+كم من الوقت يستغرق البحث عن الحشرات والنقر عليها؟ يحتوي Scratch على `مؤقت`{:class="block3sensing"} يمكنك استخدامه لحساب الوقت.
 
 --- task ---
 
-The `timer`{:class="block3sensing"} block is in the `Sensing`{:class="block3sensing"} blocks menu. Add code to make the bug `say`{:class="block3looks"} the `timer`{:class="block3sensing"} on the 'end' screen:
+وحدة `المؤقت`{:class="block3sensing"} تكون موجودة في قائمة وحدات`الاستشعار`. أضف برنامجاً لجعل الحشرة`تقول`{:class="block3looks"}` 
+المؤقت`{:class="block3sensing"} على شاشة "النهاية":
 
-![The bug sprite.](images/bug-sprite.png)
+![كائن الحشرة.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -71,23 +72,23 @@ go to x: [0] y: [30] // on the board
 +say (timer) // seconds taken
 ```
 
-![Inserting a 'timer' block into a 'say' block.](images/inserting-blocks.gif)
+![إدراج وحدة "مؤقت" في وحدة "قل".](images/inserting-blocks.gif)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your finding skills. How long does it take you to find the bug?
+**اختبار:** انقر فوق العلم الأخضر لاختبار مشروعك. كم من الوقت يستغرق العثور عن الحشرات؟
 
 --- /task ---
 
-To go back to the 'start' screen, click on the bug on the 'end' screen.
+للرجوع إلى شاشة "البداية" ، انقر فوق الحشرة الموجودة في شاشة "النهاية".
 
 --- task ---
 
-Add code to make the bug stop saying the `timer`{:class="block3sensing"} when you go to the 'start' screen:
+أضف تعليمات برمجية لجعل الحشرة تتوقف عن قول `مؤقت`{:class="block3sensing"} عندما تذهب إلى شاشة "البداية":
 
-![The bug sprite.](images/bug-sprite.png)
+![كائن الحشرة.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -98,13 +99,13 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-If you play the game a second time, the `timer`{:class="block3sensing"} will keep counting.
+إذا لعبت اللعبة مرة ثانية، فإنّ `المؤقت` سيستمر بالعدّ.
 
 --- task ---
 
-Add code to `reset the timer`{:class="block3sensing"} when the `backdrop switches to`{:class="block3events"} the first level:
+أضف تعليمات برمجية إلى `إعادة تعيين المؤقت`{:class="block3sensing"} عندما `تتغير الخلفية إلى`{:class="block3events"} المستوى الأول:
 
-![The bug sprite.](images/bug-sprite.png)
+![كائن الحشرة.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v] // first level
@@ -117,7 +118,7 @@ go to x: [13] y: [132] // on the disco ball
 
 --- task ---
 
-**Test:** Click on the green flag and play the game. The timer should reset when you click on the bug on the 'start' screen to move to the first level. When you click on the bug on the 'end' screen, you should return to the 'start' screen and see that the bug is not saying the `timer`{:class="block3sensing"}.
+**اختبار:** انقر على العلم الأخضر والعب اللعبة. يجب إعادة ضبط المؤقت عند النقر فوق الحشرة في شاشة "البدء" للانتقال إلى المستوى الأول. عند النقر على حشرة على الشاشة "نهاية"، يجب العودة إلى شاشة "ابدأ" ونرى أن الحشرة لا تقول ل `الموقت`{: فئة = "block3sensing"}.
 
 --- /task ---
 
