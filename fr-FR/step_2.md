@@ -13,7 +13,7 @@ Ton jeu commencera par un écran de « début » et les joueurs cliqueront sur
 
 --- task ---
 
-Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch s'ouvrira dans un autre onglet du navigateur.
+Ouvre le [projet de démarrage Trouver le bug](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch s'ouvrira dans un autre onglet du navigateur.
 
 [[[working-offline]]]
 
