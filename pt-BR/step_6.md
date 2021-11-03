@@ -1,52 +1,52 @@
-## End screen
+## Tela final
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
+Você criará uma tela 'final' para mostrar o número de segundos que o jogador levou para encontrar os insetos. 
 </div>
 <div>
 
-![The bug with the amount of time in a speech bubble.](images/end-screen.png){:width="300px"}
+! [O inseto com a quantidade de segundo em balão.] (Images/end-screen.png) {:width="300px"}
 
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Sometimes, just beating a game isn't enough. Players like to know how they did against other players or themselves. Can you think of a game that shows you how well you did?</p>
+Às vezes, apenas vencer um jogo não é suficiente. Os jogadores gostam de saber como se saíram contra outros jogadores ou contra eles próprios. Você consegue pensar em um jogo que mostra quão bem você se saiu?</p>
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+Adicione o cenário **Quadro-negro** da categoria de **Interiores**.
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![O cenário quadro-negro na biblioteca de cenários.](images/chalkboard.png)
 
-**Tip:** In Scratch, you can add the same backdrop more than once.
+**Dica:** No Scratch, você pode adicionar o mesmo cenário mais de uma vez.
 
 --- /task ---
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+Clique na aba **Cenários** para abrir o editor Paint.
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard2-paint.png)
-
---- /task ---
-
---- task ---
-
-Change the name of the backdrop to `end`:
-
-![The backdrop name changed in the Paint editor.](images/end-screen-name.png)
-
-**Tip:** You rename the backdrop to **end** to make it easier to understand your code.
+![O cenário quadro-negro no editor Paint.](images/chalkboard2-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **bug** sprite and add code to position the bug on the 'end' screen:
+Altere o nome do cenário para `fim`:
 
-![The bug sprite.](images/bug-sprite.png)
+![O nome do cenário mudou no editor Paint.](images/end-screen-name.png)
+
+**Dica:** Você nomeia o cenário com o nome de **fim** para facilitar a compreensão do seu código.
+
+--- /task ---
+
+--- task ---
+
+Clique no **inseto** e adicione código para posicionar o inseto na tela 'final':
+
+![O ator inseto.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -56,13 +56,13 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-How long does it take you to find and click on the bugs? Scratch has a `timer`{:class="block3sensing"} that you can use to find out.
+Quanto tempo você leva para localizar e clicar nos insetos? Scratch tem um `temporizador`{:class="block3sensing"} que você pode usar para descobrir.
 
 --- task ---
 
-The `timer`{:class="block3sensing"} block is in the `Sensing`{:class="block3sensing"} blocks menu. Add code to make the bug `say`{:class="block3looks"} the `timer`{:class="block3sensing"} on the 'end' screen:
+O bloco `temporizador`{:class="block3motion"} está na categoria `Detecção` no menu. Adicione código para fazer o inseto`falar`{:class="block3looks"} o `temporizador`{:class="block3sensing"} na tela 'final':
 
-![The bug sprite.](images/bug-sprite.png)
+![O ator inseto.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -71,23 +71,23 @@ go to x: [0] y: [30] // on the board
 +say (timer) // seconds taken
 ```
 
-![Inserting a 'timer' block into a 'say' block.](images/inserting-blocks.gif)
+![Inserindo um bloco 'temporizador' em um bloco 'falar'.](images/inserting-blocks.gif)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your finding skills. How long does it take you to find the bug?
+**Teste:** Clique na bandeira verde e teste suas habilidades de localização. Quanto tempo você leva achar o inseto?
 
 --- /task ---
 
-To go back to the 'start' screen, click on the bug on the 'end' screen.
+Para voltar à tela 'inicial', clique no inseto na tela 'final'.
 
 --- task ---
 
-Add code to make the bug stop saying the `timer`{:class="block3sensing"} when you go to the 'start' screen:
+Adicione código para fazer o inseto parar de falar`temporizador`{:class="block3sensing"} quando você tiver que ir para a tela 'iniciar':
 
-![The bug sprite.](images/bug-sprite.png)
+![O ator inseto.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -98,13 +98,13 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-If you play the game a second time, the `timer`{:class="block3sensing"} will keep counting.
+Se você jogar o jogo uma segunda vez, o `temporizador`{:class="block3sensing"} continuará contando.
 
 --- task ---
 
-Add code to `reset the timer`{:class="block3sensing"} when the `backdrop switches to`{:class="block3events"} the first level:
+Adicione código para `zerar o cronômetro`{:class="block3sensing"} quando o `cenário mudar para`{:class="block3events"} o primeiro nível:
 
-![The bug sprite.](images/bug-sprite.png)
+![O ator inseto.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v] // first level
@@ -117,7 +117,7 @@ go to x: [13] y: [132] // on the disco ball
 
 --- task ---
 
-**Test:** Click on the green flag and play the game. The timer should reset when you click on the bug on the 'start' screen to move to the first level. When you click on the bug on the 'end' screen, you should return to the 'start' screen and see that the bug is not saying the `timer`{:class="block3sensing"}.
+**Teste:** Clique na bandeira verde e comece jogar. O cronômetro deve zerar quando você clicar no inseto na tela 'iniciar' para passar para o primeiro nível. Quando você clicar no inseto na tela 'final', você deve retornar à tela 'inicial' e verificar que o inseto não está dizendo `temporizador`{:class="block3sensing"}.
 
 --- /task ---
 
