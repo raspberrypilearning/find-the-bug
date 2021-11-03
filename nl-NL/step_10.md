@@ -1,10 +1,10 @@
-## What next?
+## Wat kun je verder nog doen?
 
-If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) pathway, you can move on to the [Silly eyes](https://projects.raspberrypi.org/en/projects/silly-eyes) project. In this project, you will design your own character with eyes that look at the mouse pointer when you move the mouse!
+Als je het [Introductie tot Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) pad volgt, kun je doorgaan naar het [Maffe ogen](https://projects.raspberrypi.org/en/projects/silly-eyes) project. In dit project ontwerp je je eigen karakter met ogen die naar de muisaanwijzer kijken wanneer je de muis beweegt!
 
 --- print-only ---
 
-![The 'Silly eyes' project.](images/googly-eye-character.png)
+![Het 'Maffe ogen' project.](images/googly-eye-character.png)
 
 --- /print-only ---
 
