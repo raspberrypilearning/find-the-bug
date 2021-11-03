@@ -1,13 +1,13 @@
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Ερώτηση 2 από 3
 ---
 
-You used a `forever`{:class="block3control"} loop to make the **Parrot** sprite fly around in an annoying way.
+Χρησιμοποίησες ένα βρόχο `για πάντα`{:class="block3control"} για να κάνεις το αντικείμενο**Parrot** να πετάει με ενοχλητικό τρόπο.
 
-We have tried to add another distraction sprite, but it just moves once when we click on the green flag and then stops. How can we fix it?
+Προσπαθήσαμε να προσθέσουμε ένα άλλο αντικείμενο που να αποσπά την προσοχή, αλλά μετακινείται μόνο μία φορά όταν κάνουμε κλικ στην πράσινη σημαία και μετά σταματά. Πώς μπορούμε να το διορθώσουμε;
 
-![The Rocket sprite.](images/rocket-sprite.png)
+![Το αντικείμενο Rocket.](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -23,35 +23,35 @@ end
 
 --- choices ---
 
-- ( ) Change the number in the `move`{:class="block3motion"} block
+- ( ) Άλλαξε τον αριθμό στο μπλοκ`κινήσου`{:class="block3motion"}
 
   --- feedback ---
 
-If you change the number in the `move`{:class="block3motion"} block, you will change how far the sprite moves when the green flag is clicked, but this change will not make the rocket keep moving.
+Εάν αλλάξεις τον αριθμό στο `κινήσου`{:class="block3motion"}, θα αλλάξεις την απόσταση που μετακινείται το αντικείμενο όταν κάνεις κλικ στην πράσινη σημαία, αλλά αυτή η αλλαγή δεν θα κάνει τον πύραυλο να συνεχίσει να κινείται.
 
   --- /feedback ---
 
-- ( ) Remove the `if on edge, bounce`{:class="block3motion"} block
+- ( ) Αφαίρεσε το μπλοκ`εάν σε όριο, αναπήδησε`{:class="block3motion"}
 
   --- feedback ---
 
-The `if on edge, bounce`{:class="block3motion"} block makes the sprite bounce off the edge of the Stage. If you removed it, then the rocket would get stuck at the edge of the Stage.
+Το `εάν σε όριο, αναπήδησε`{:class="block3motion"} κάνει το αντικείμενο να αναπηδά στην άκρη της Σκηνής. Αν το αφαιρούσες, τότε ο πύραυλος θα κολλούσε στην άκρη της Σκηνής.
 
   --- /feedback ---
 
-- ( ) Add another `forever`{:class="block3control"} block
+- ( ) Πρόσθεσε άλλο ένα μπλοκ`για πάντα`{:class="block3control"}
 
 --- feedback ---
 
-A script can only have one `forever`{:class="block3control"} block. Did you notice that you cannot add a block underneath a `forever`{:class="block3control"} block?
+Ένα script μπορεί να έχει μόνο ένα μπλοκ`για πάντα`{:class="block3control"}. Παρατήρησες ότι δεν μπορείς να προσθέσεις ένα μπλοκ κάτω από ένα μπλοκ `για πάντα`{:class="block3control"};
 
 --- /feedback ---
 
-- (x) Drag the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop
+- (x) Σύρε το μπλοκ`κινήσου`{:class="block3motion"} μέσα στον βρόχο `για πάντα`{:class="block3control"}
 
   --- feedback ---
 
-  Yes! The sprite only moves once. If you move the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop, the sprite will keep moving until you stop your project.
+  Ναι! Το αντικείμενο κινείται μόνο μία φορά. Εάν μετακινήσεις το μπλοκ`κινήσου`{:class="block3motion"} μέσα στον βρόχο`για πάντα`{:class="block3control"}, το αντικείμενο θα συνεχίσει να κινείται μέχρι να σταματήσει το έργο σου.
 
   --- /feedback ---
 
