@@ -1,33 +1,33 @@
-## Parrot distraction
+## ಗಿಣಿ ವ್ಯಾಕುಲತೆ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-To make it harder for players to find and click on the bug, you will add an annoying parrot to distract them. 
+ದೋಷವನ್ನು ಹುಡುಕಲು ಮತ್ತು ಕ್ಲಿಕ್ ಮಾಡಲು ಆಟಗಾರರಿಗೆ ಕಷ್ಟವಾಗುವಂತೆ ಮಾಡಲು, ಕಿರಿಕಿರಿಗೊಳಿಸುವ ಗಿಳಿಯನ್ನು ನೀವು ಅವರ ಗಮನವನ್ನು ಸೆಳೆಯಲು ಸೇರಿಸುತ್ತೀರಿ. 
 </div>
 <div>
 
-![A colourful parrot on the Stage.](images/parrot-distraction.png){:width="300px"}
+![ವೇದಿಕೆಯಲ್ಲಿ ವರ್ಣರಂಜಿತ ಗಿಣಿ.](images/parrot-distraction.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Add the **Parrot** sprite.
+**Parrot** ಸ್ಪ್ರೈಟ್ ಅನ್ನು ಅಳಿಸಿ.
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+![ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ ಐಕಾನ್ ಆಯ್ಕೆಮಾಡಿ.](images/sprite-button.png)
 
 --- /task ---
 
-In the [Catch the bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"} project, you used a `repeat`{:class="block3control"} loop.
+[Catch the bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"} ಯೋಜನೆಯಲ್ಲಿ, ನೀವು `repeat`{:class="block3control"} ಲೂಪ್ ಅನ್ನು ಬಳಸಿದ್ದೀರಿ.
 
-You will use a different loop here. A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It is the perfect loop for an annoying parrot that will not stop flying around and getting in the way.
+ನೀವು ಇಲ್ಲಿ ಬೇರೆ ಲೂಪ್ ಅನ್ನು ಬಳಸುತ್ತೀರಿ. `forever`{:class="block3control"} ಲೂಪ್ ಅದರೊಳಗೆ ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಪದೇ ಪದೇ ಚಲಿಸುತ್ತದೆ. ಇದು ಕಿರಿಕಿರಿ ಗಿಣಿಗೆ ಸೂಕ್ತವಾದ ಲೂಪ್ ಆಗಿದ್ದು ಅದು ಸುತ್ತಲೂ ಹಾರುವುದನ್ನು ಮತ್ತು ದಾರಿಯಲ್ಲಿ ಹೋಗುವುದನ್ನು ನಿಲ್ಲಿಸುವುದಿಲ್ಲ.
 
 --- task ---
 
-Add code to make the parrot flap around in a distracting way:
+ಗಮನಹರಿಸುವ ರೀತಿಯಲ್ಲಿ ಗಿಳಿಯನ್ನು ಸುತ್ತುವಂತೆ ಮಾಡಲು ಕೋಡ್ ಸೇರಿಸಿ:
 
-![The Parrot sprite.](images/parrot-sprite.png)
+![ರಾಕೆಟ್ ಸ್ಪ್ರೈಟ್.](images/parrot-sprite.png)
 
 
 ```blocks3
@@ -47,13 +47,13 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag and test your project again. Can you remember where you hid the bug?
+**Test:** ನಿಮ್ಮ ಯೋಜನೆಯನ್ನು ಪರೀಕ್ಷಿಸಲು ಹಸಿರು ಧ್ವಜದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ. ನೀವು ದೋಷವನ್ನು ಎಲ್ಲಿ ಮರೆಮಾಡಿದ್ದೀರಿ ಎಂದು ನಿಮಗೆ ನೆನಪಿದೆಯೇ?
 
-In Scratch, code that is running glows with a yellow outline:
+ಸ್ಕ್ರಾಚ್‌ನಲ್ಲಿ, ಚಾಲನೆಯಲ್ಲಿರುವ ಕೋಡ್ ಹಳದಿ ರೂಪರೇಖೆಯೊಂದಿಗೆ ಹೊಳೆಯುತ್ತದೆ:
 
 ![](images/running-code.png)
 
-**Tip:** If the parrot gets too annoying while you are coding, you can click the red stop button above the Stage to stop the code from running.
+**Tip:** ನೀವು ಕೋಡಿಂಗ್ ಮಾಡುವಾಗ ಗಿಳಿ ತುಂಬಾ ಕಿರಿಕಿರಿ ಉಂಟುಮಾಡಿದರೆ, ಕೋಡ್ ಚಾಲನೆಯಲ್ಲಿರುವುದನ್ನು ನಿಲ್ಲಿಸಲು ನೀವು ಸ್ಟೇಜ್ ಮೇಲಿನ ಕೆಂಪು ಸ್ಟಾಪ್ ಬಟನ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಬಹುದು.
 
 --- /task ---
 
