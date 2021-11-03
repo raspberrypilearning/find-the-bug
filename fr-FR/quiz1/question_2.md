@@ -1,13 +1,13 @@
 --- question ---
 ---
-legend: Question 2 of 3
+legend : Question 2 sur 3
 ---
 
-You used a `forever`{:class="block3control"} loop to make the **Parrot** sprite fly around in an annoying way.
+Tu as utilisé une boucle `répéter indéfiniment`{:class="block3control"} pour faire voler le sprite **perroquet** d'une manière agaçante.
 
-We have tried to add another distraction sprite, but it just moves once when we click on the green flag and then stops. How can we fix it?
+Nous avons essayé d'ajouter un autre sprite de distraction, mais il ne bouge qu'une fois lorsque nous cliquons sur le drapeau vert, puis s'arrête. Comment pouvons-nous le réparer?
 
-![The Rocket sprite.](images/rocket-sprite.png)
+![Le sprite de fusée.](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -23,35 +23,35 @@ end
 
 --- choices ---
 
-- ( ) Change the number in the `move`{:class="block3motion"} block
+- ( ) Modifie le nombre dans le bloc `avancer`{:class="block3motion"}
 
   --- feedback ---
 
-If you change the number in the `move`{:class="block3motion"} block, you will change how far the sprite moves when the green flag is clicked, but this change will not make the rocket keep moving.
+Si tu modifies le nombre dans le bloc `avancer`{:class="block3motion"}, tu modifieras la distance de déplacement du sprite lorsque tu cliques sur le drapeau vert, mais ce changement ne fera pas que la fusée continue de se déplacer.
 
   --- /feedback ---
 
-- ( ) Remove the `if on edge, bounce`{:class="block3motion"} block
+- ( ) Supprimer le bloc `rebondir si le bord est atteint` {:class="block3motion"}
 
   --- feedback ---
 
-The `if on edge, bounce`{:class="block3motion"} block makes the sprite bounce off the edge of the Stage. If you removed it, then the rocket would get stuck at the edge of the Stage.
+Le bloc `rebondir si le bord est atteint`{:class="block3motion"} fait rebondir le sprite sur le bord de la scène. Si tu l’enlevais, la fusée resterait bloquée au bord de la scène.
 
   --- /feedback ---
 
-- ( ) Add another `forever`{:class="block3control"} block
+- ( ) Ajouter un autre bloc `répéter indéfiniment`{:class="block3control"}
 
 --- feedback ---
 
-A script can only have one `forever`{:class="block3control"} block. Did you notice that you cannot add a block underneath a `forever`{:class="block3control"} block?
+Un script ne peut avoir qu'un seul bloc `répéter indéfiniment`{:class="block3control"}. As-tu remarqué que tu ne peux pas ajouter de bloc sous un bloc `répéter indéfiniment`{:class="block3control"} ?
 
 --- /feedback ---
 
-- (x) Drag the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop
+- (x) Fais glisser le bloc `avancer`{:class="block3motion"} dans la boucle `répéter indéfiniment`{:class="block3control"}
 
   --- feedback ---
 
-  Yes! The sprite only moves once. If you move the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop, the sprite will keep moving until you stop your project.
+  Oui! Le sprite ne bouge qu'une seule fois. Si tu déplaces le bloc `avancer`{:class="block3motion"} à l'intérieur de la boucle `répéter indéfiniment`{:class="block3control"}, le sprite continuera de se déplacer jusqu'à ce que tu arrêtes ton projet.
 
   --- /feedback ---
 
