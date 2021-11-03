@@ -1,19 +1,19 @@
-## Start screen
+## Écran de début
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your game will begin with a 'start' screen, and players will click on the bug to go to the first level.
+Ton jeu commencera par un écran de « début » et les joueurs cliqueront sur le bug pour passer au premier niveau.
 </div>
 <div>
 
-!["Find the bug" text on a chalkboard on the Stage.](images/start-screen.png){:width="300px"}
+![Texte « Trouve le bug » sur un tableau sur la scène.](images/start-screen.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch s'ouvrira dans un autre onglet du navigateur.
 
 [[[working-offline]]]
 
@@ -21,19 +21,19 @@ Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scra
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+Ajoute le **Chalkboard** de la catégorie **Indoors**.
 
-![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
+![L'icône « Choisir un arrière-plan ».](images/backdrop-button.png)
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![L'arrière-plan Chalboard dans la bibliothèque des arrière-plans.](images/chalkboard.png)
 
 --- /task ---
 
-The **Stage** has a **Backdrops** tab instead of a **Costumes** tab. This is where you can create images for the **Stage**.
+La **Scène** a un onglet **Arrière-plans** au lieu d'un onglet **Costumes**. C'est ici que tu peux créer des images pour la **Scène**.
 
 --- task ---
 
-Click on the Stage pane.
+Clique sur le volet Scène.
 
 ![](images/stage-pane.png)
 
@@ -41,74 +41,74 @@ Click on the Stage pane.
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+Clique sur l'onglet **Arrière-plans** pour ouvrir l'éditeur de peinture.
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard-paint.png)
+![L'arrière-plan Chalkboard dans l'éditeur de peinture.](images/chalkboard-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Select **backdrop1** and click on the **Delete** icon to remove the **backdrop1** backdrop from your project. You will not need the **backdrop1** backdrop in this project.
+Sélectionne **arrière-plan1** et clique sur l'icone **Supprimer** pour supprimer l'**arrière-plan1** de ton projet. Tu n'auras pas besoin de l'**arrière-plan1** dans ce projet.
 
 ![](images/delete-backdrop1.png)
 
 --- /task ---
 
-The **Chalkboard** backdrop will now be highlighted.
+Le **Chalkboard** sera maintenant mis en surbrillance.
 
 --- task ---
 
-Click on **Convert to Vector**. Now, you will be able to add text that you can move around.
+Clique sur **Convertir en vecteur**. Maintenant, tu pourras ajouter du texte que tu pourras déplacer.
 
-![The 'Convert to Vector' button.](images/vector-button.png)
+![Le bouton 'Convertir en vecteur'.](images/vector-button.png)
 
 --- /task ---
 
 --- task ---
 
-Use the **Text** tool to add the text `Find the bug` to the chalkboard:
+Utilise l' outil **Texte** pour ajouter le texte `Trouver le bug` au tableau :
 
 ![](images/chalkboard-text.png)
 
-We used the **Marker** font in white, but **choose** the font and colour that you want to use.
+Nous avons utilisé la police **Marker** en blanc, mais **choisis** la police et la couleur que tu souhaites utiliser.
 
-**Tip:** Switch to the **Select** (Arrow) tool to move your text around. To change the size of the text, grab the corner of the text and drag it.
-
---- /task ---
-
---- task ---
-
-Change the name of the backdrop to `start`, because you will need to select it later in the project.
-
-![The Costume name box highlighted in the Paint editor.](images/start-screen-name.png)
-
-**Tip:** If you use names that make sense, it will be easier to understand your project, especially when you come back to a project later.
+**Astuce :** Passe à l'outil **Sélectionner** (Flèche) pour déplacer ton texte. Pour modifier la taille du texte, saisis le coin du texte et fais-le glisser.
 
 --- /task ---
 
 --- task ---
 
-Delete the **Scratch Cat** sprite.
+Change le nom de l'arrière-plan en `début`, car tu devras le sélectionner plus tard dans le projet.
+
+![La zone Nom du costume en surbrillance dans l'éditeur de peinture.](images/start-screen-name.png)
+
+**Astuce :** Si tu utilises des noms qui ont du sens, il sera plus facile de comprendre ton projet, surtout lorsque tu reviendras sur un projet plus tard.
 
 --- /task ---
 
 --- task ---
 
-Click on **Choose a Sprite** and type `bug` in the search box.
+Supprime le sprite **Scratch Cat**.
 
-**Choose:** Choose a bug, which players will need to find in your game.
+--- /task ---
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+--- task ---
 
-!["bug" search results showing seven different bugs.](images/bug-search.png)
+Clique sur **Choisir un Sprite** et tape `bug` dans le champ de recherche.
 
-**Tip:** Give your project a name. You might like to include the name of the bug that you have just chosen.
+**Choisir :** Choisis un bug que les joueurs devront trouver dans ton jeu.
+
+![L'icône 'Choisir un Sprite'.](images/sprite-button.png)
+
+!["bug" résultats de recherche montrant sept différents bugs.](images/bug-search.png)
+
+**Astuce :** Donne un nom à ton projet. Tu peux inclure le nom du bug que tu viens de choisir.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A mistake in a computer program is called a <span style="color: #0faeb0">**bug**</span>. Finding and removing mistakes in computer programs is called <span style="color: #0faeb0">**debugging**</span>. Grace Hopper is a famous software engineer. Her team once found a moth in their computer. Their notes say, "First actual case of bug being found."
+Une erreur dans un programme informatique est appelée un <span style="color: #0faeb0">**bug**</span>. La recherche et la suppression des erreurs dans les programmes informatiques s'appellent <span style="color: #0faeb0">**débogage**</span>. Grace Hopper est une célèbre ingénieure en logiciel. Son équipe a une fois trouvé un papillon de nuit dans leur ordinateur. Leurs notes disent : « Premier cas réel de bogue détecté. »
 </p>
 
 --- save ---
