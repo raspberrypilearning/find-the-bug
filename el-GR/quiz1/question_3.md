@@ -1,11 +1,11 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Ερώτηση 3 από 3
 ---
 
-You added this script to the **bug** sprite:
+Πρόσθεσες αυτό το script στο αντικείμενο **bug**:
 
-![The bug sprite.](images/bug-sprite.png)
+![Το αντικείμενο bug.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -14,39 +14,39 @@ go to x: [0] y: [30]
 + say (timer) 
 ```
 
-How does the `say`{:class="block3looks"} `timer`{:class="block3sensing"} block make the Stage look when the backdrop switches to **end**?
+Πώς το μπλοκ `πες`{:class="block3looks"} `χρονόμετρο`{:class="block3sensing"} κάνει την Σκηνή να μοιάζει όταν το υπόβαθρο αλλάζει στο **end**;
 
 --- choices ---
 
-- ( ) ![A parrot saying the timer value "4.52".](images/quiz_parrot_number.png)
+- ( ) ![Ο παπαγάλος λέει την τιμή του χρονομέτρου "4,52".](images/quiz_parrot_number.png)
 
   --- feedback ---
 
-Have a look at the script again, and think about which sprite is the main character of the game (the parrot is just an annoying distraction).
+Ρίξε μια ματιά ξανά στο script και σκέψου ποιο αντικείμενο είναι ο κύριος χαρακτήρας του παιχνιδιού (ο παπαγάλος είναι απλώς ένας ενοχλητικός περισπασμός).
 
   --- /feedback ---
 
-- ( ) ![A parrot saying the word "timer".](images/quiz_parrot_timer.png)
+- ( ) ![Ο παπαγάλος λέει τη λέξη "χρονόμετρο".](images/quiz_parrot_timer.png)
 
   --- feedback ---
 
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer". Also, think about which sprite uses this code.
+Το μπλοκ`χρονόμετρο`{:class="block3sensing"} βρίσκεται στο μενού `Αισθητήρες`{:class="block3sensing"}. Το αντικείμενο δεν λέει τη λέξη «χρονόμετρο». Επίσης, σκέψου ποιο αντικείμενο χρησιμοποιεί αυτόν τον κώδικα.
 
   --- /feedback ---
 
-- (x) ![A bug saying the timer value "4.52".](images/quiz_bug_number.png)
+- (x) ![Ο παπαγάλος λέει την τιμή του χρονομέτρου "4,52".](images/quiz_bug_number.png)
 
   --- feedback ---
 
-Yes. The `timer`{:class="block3sensing"} block reports the time since the project started, or since the timer reset.
+Ναι. Το μπλοκ `χρονόμετρο`{:class="block3sensing"} αναφέρει τον χρόνο από την έναρξη του έργου ή από τον μηδενισμό του χρονομέτρου.
 
   --- /feedback ---
 
-- ( ) ![A bug saying the word "timer".](images/quiz_bug_timer.png)
+- ( ) ![Το έντομο λέει τη λέξη "χρονόμετρο".](images/quiz_bug_timer.png)
 
   --- feedback ---
 
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer".
+Το μπλοκ`χρονόμετρο`{:class="block3sensing"} βρίσκεται στο μενού `Αισθητήρες`{:class="block3sensing"}. Το αντικείμενο δεν λέει τη λέξη «χρονόμετρο».
 
   --- /feedback ---
 
