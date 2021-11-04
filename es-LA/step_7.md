@@ -30,7 +30,7 @@ Echa un vistazo a algunos proyectos 'Encuentra el insecto' creados por miembros 
 
 [[[share-scratch]]]
 
-To submit your project to our 'Find the bug' Scratch studio for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+Para enviar tu proyecto a nuestro estudio Scratch 'Encuentra el insecto' para que otras personas lo vean, por favor completa [este formulario](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---
 
