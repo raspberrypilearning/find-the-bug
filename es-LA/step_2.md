@@ -13,7 +13,7 @@ Tu juego comenzará con una pantalla de 'inicio', y los jugadores harán clic en
 
 --- task ---
 
-Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
+Abre el [proyecto de inicio de Encuentra el insecto](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
 
 [[[working-offline]]]
 
