@@ -13,7 +13,7 @@ Je spel begint met een 'start' scherm en spelers klikken op de kever om naar het
 
 --- task ---
 
-Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
+Open het [Vind de kever startproject](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
 
 [[[working-offline]]]
 
