@@ -49,7 +49,7 @@ Haz clic en la pestaña **Fondos** para abrir el editor de dibujo.
 
 --- task ---
 
-Selecciona **backdrop1** y haz clic en el ícono **Eliminar** para eliminar el fondo **** de tu proyecto. No necesitarás el fondo**backdrop1** en este proyecto.
+Selecciona **backdrop1** y haz clic en el ícono **Eliminar** para eliminar el fondo **backdrop1** de tu proyecto. No necesitarás el fondo **backdrop1** en este proyecto.
 
 ![](images/delete-backdrop1.png)
 
