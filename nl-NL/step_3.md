@@ -56,7 +56,7 @@ Het `volgende achtergrond`{:class="block3looks"} blok schakelt over naar de volg
 
 --- task ---
 
-Voeg een script toe aan je **kever** sprite om een `start geluid`{:class="block3sound"} af te spelen en schakel over naar de `volgende achtergrond`{:class="block3looks"} `wanneer op deze sprite wordt geklikt`{:class="blok3events"}:
+Voeg een script toe aan je **kever** sprite om een `start geluid`{:class="block3sound"} af te spelen en schakel over naar de `volgende achtergrond`{:class="block3looks"} `wanneer op deze sprite wordt geklikt`{:class="block3events"}:
 
 ![De kever-sprite.](images/bug-sprite.png)
 

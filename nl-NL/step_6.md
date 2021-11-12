@@ -117,7 +117,7 @@ go to x: [13] y: [132] // op de discobal
 
 --- task ---
 
-**Test:** Klik op de groene vlag en speel het spel. De klok moet nu weer op 0 beginnen als je op de kever in het 'start' scherm klikt om naar het eerste niveau te gaan. Als je op de kever klikt in het 'eind' scherm, zou je terug moeten keren naar het 'start' scherm en zien dat de kever de `klok`{;class="block3sensing"} niet zegt.
+**Test:** Klik op de groene vlag en speel het spel. De klok moet nu weer op 0 beginnen als je op de kever in het 'start' scherm klikt om naar het eerste niveau te gaan. Als je op de kever klikt in het 'eind' scherm, zou je terug moeten keren naar het 'start' scherm en zien dat de kever de `klok`{:class="block3sensing"} niet zegt.
 
 --- /task ---
 
