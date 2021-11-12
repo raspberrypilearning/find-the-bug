@@ -1,0 +1,24 @@
+---
+title: Vind de kever
+hero_image: images/banner.png
+description: Maak een spel waarin je op elk niveau een verborgen kever moet vinden
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-02-26"
+steps:
+  - title: Inleiding
+  - title: Startscherm
+  - title: Eerste niveau
+  - title: Papegaai afleiding
+  - title: Tweede niveau
+  - title: Eindscherm
+  - title: Speel het spel
+  - title: Reflectie
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Verbeter je project
+  - title: Wat kun je verder nog doen?
