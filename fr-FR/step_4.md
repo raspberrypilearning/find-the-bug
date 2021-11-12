@@ -19,7 +19,7 @@ Ajoute le sprite **Parrot**.
 
 --- /task ---
 
-Dans le projet [Catch the bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}, tu as utilisé une boucle `répéter`{:class="block3control"}.
+Dans le projet [Prendre le bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}, tu as utilisé une boucle `répéter`{:class="block3control"}.
 
 Tu utiliseras une boucle différente ici. Une boucle `répéter indéfiniment`{:class="block3control"} exécute les blocs de code à l'intérieur encore et encore. C'est la boucle parfaite pour un perroquet ennuyeux qui n'arrêtera pas de voler et de gêner.
 
