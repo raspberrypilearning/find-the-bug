@@ -1,10 +1,10 @@
 ## Et ensuite ?
 
-Si tu suis l'[Introduction à Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) , tu peux passer au projet [Silly eyes](https://projects.raspberrypi.org/en/projects/silly-eyes) (des yeux stupides). Dans ce projet, tu vas concevoir ton propre personnage avec des yeux qui regardent le pointeur de la souris lorsque tu déplaces la souris !
+Si tu suis l'[Introduction à Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) , tu peux passer au projet [Des yeux stupides](https://projects.raspberrypi.org/en/projects/silly-eyes). Dans ce projet, tu vas concevoir ton propre personnage avec des yeux qui regardent le pointeur de la souris lorsque tu déplaces la souris !
 
 --- print-only ---
 
-![Le projet 'Silly Eyes'.](images/googly-eye-character.png)
+![Le projet 'Des yeux stupides'.](images/googly-eye-character.png)
 
 --- /print-only ---
 
