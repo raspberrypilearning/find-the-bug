@@ -1,0 +1,24 @@
+---
+title: Encontre o inseto
+hero_image: images/banner.png
+description: Crie um jogo no qual você terá que encontrar um inseto escondido em cada nível
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-02-26"
+steps:
+  - title: Introdução
+  - title: Tela inicial
+  - title: Primeiro nível
+  - title: A distração do papagaio
+  - title: Segundo nível
+  - title: Tela final
+  - title: Jogue o jogo
+  - title: Reflexão
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Melhore o seu jogo
+  - title: E agora?
