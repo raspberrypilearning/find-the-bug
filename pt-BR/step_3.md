@@ -13,7 +13,7 @@ Você vai adicionar um novo cenário como o nível 1 do jogo e vai esconder o in
 
 --- task ---
 
-Adicione o cenário **Spotlight (Holofote)** da categoria de **Música**.
+Adicione o cenário **Spotlight** (Holofote) da categoria de **Música**.
 
 ![O ícone 'Selecionar Cenário'.](images/backdrop-button.png)
 
@@ -52,7 +52,7 @@ set size to [20] % // minúsculo
 
 Quando você executa o jogo e encontra o inseto, o jogo vai para o próximo cenário. Além disso, para começar o jogo, você vai clicar no inseto na tela 'iniciar'.
 
-O próximo `bloco cenário`{:classe="block3looks"} altera o plano de fundo para o próximo cenário na ordem da lista de cenários na aba **Cenários** para o **Palco**.
+O próximo `bloco cenário`{:class="block3looks"} altera o plano de fundo para o próximo cenário na ordem da lista de cenários na aba **Cenários** para o **Palco**.
 
 --- task ---
 
@@ -95,7 +95,7 @@ Você vai notar que na tela 'início', o inseto ainda vai ter as mesmas preferê
 
 --- task ---
 
-Clique no ator **inseto** na lista de Atores. Adicione um script ao `definir tamanho`{:class="block3looks"} do inseto quando o `cenário for alterado para`{:class="block3events"} a tela `início`:
+Clique no ator **inseto** na lista de Atores. Adicione um script ao `definir tamanho`{:class="block3looks"} do inseto quando o `cenário for alterado para`{:class="block3events"} a tela `início`{:class="block3events"}:
 
 ![O ator inseto.](images/bug-sprite.png)
 
@@ -154,7 +154,7 @@ Junte os blocos novamente de forma que os blocos estejam debaixo do bloco `quand
 
 --- task ---
 
-**Teste:** Clique na bandeira verde e teste o seu projeto. Clique no inseto para avançar para o próximo cenário. O inseto deve estar grande na tela 'início' e pequeno no nível 'Spotlight (Holofote)'.
+**Teste:** Clique na bandeira verde e teste o seu projeto. Clique no inseto para avançar para o próximo cenário. O inseto deve estar grande na tela 'início' e pequeno no nível 'Spotlight' (Holofote).
 
 --- collapse ---
 ---

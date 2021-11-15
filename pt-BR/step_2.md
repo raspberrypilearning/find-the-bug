@@ -67,7 +67,7 @@ Clique em **Converter para Vetor**. Agora, você poderá adicionar texto que voc
 
 --- task ---
 
-Use a ferramenta **Texto** para adicionar o texto `Encontre o Inseto` no quadro-negro:
+Use a ferramenta **Texto** para adicionar o texto `Ache o inseto` no quadro-negro:
 
 ![](images/chalkboard-text.png)
 
@@ -95,7 +95,7 @@ Exclua o ator **Gato Scratch**.
 
 --- task ---
 
-Clique em **Escolher um Ator** e digite `bug (inseto)` na caixa de pesquisa.
+Clique em **Escolher um Ator** e digite `bug` (inseto) na caixa de pesquisa.
 
 **Escolha:** Escolha um inseto, os jogadores precisarão encontrar esse inseto no jogo.
 

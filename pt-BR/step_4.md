@@ -13,7 +13,7 @@ Para dificultar para os jogadores encontrarem e clicarem no inseto, você vai co
 
 --- task ---
 
-Adicione o ator**Parrot**.
+Adicione o ator **Parrot** (Papagaio).
 
 ![O ícone 'Selecione um ator'.](images/sprite-button.png)
 

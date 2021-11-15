@@ -16,7 +16,7 @@ Você criará uma tela 'final' para mostrar o número de segundos que o jogador 
 
 --- task ---
 
-Adicione o cenário **Chalkboard (Quadro-negro)** da categoria de **Interior**.
+Adicione o cenário **Chalkboard** (Quadro-negro) da categoria de **Interior**.
 
 ![O cenário quadro-negro na biblioteca de cenários.](images/chalkboard.png)
 
@@ -60,7 +60,7 @@ Quanto tempo você leva para localizar e clicar nos insetos? Scratch tem um `tem
 
 --- task ---
 
-O bloco `temporizador`{:class="block3motion"} está na categoria `Detecção` no menu. Adicione código para fazer o inseto `falar`{:class="block3looks"} o `temporizador`{:class="block3sensing"} na tela 'final':
+O bloco `temporizador`{:class="block3motion"} está na categoria `Detecção`{:class="block3sensing"} no menu. Adicione código para fazer o inseto `falar`{:class="block3looks"} o `temporizador`{:class="block3sensing"} na tela 'fim':
 
 ![O ator inseto.](images/bug-sprite.png)
 
