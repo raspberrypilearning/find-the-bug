@@ -13,7 +13,7 @@ O seu jogo vai começar com uma tela de 'início', e os jogadores irão clicar n
 
 --- task ---
 
-Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. O Scratch será aberto em outra aba do navegador.
+Abra o [projeto inicial Encontre o inseto](https://scratch.mit.edu/projects/582214723/editor){:target="_ blank"}. O Scratch será aberto em outra aba do navegador.
 
 [[[working-offline]]]
 
