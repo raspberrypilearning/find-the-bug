@@ -21,7 +21,7 @@ Voeg de **Spotlight** (schijnwerpers) achtergrond uit de categorie **Binnen** to
 
 --- task ---
 
-Klik op de **kever** in het sprite-venster. Voeg een script toe om de `grootte`{:class="block3looks"} van je kever te veranderen `wanneer de achtergrond verandert naar Spotlight`{:class="block3events"}:
+Klik op de **kever** in het Sprite-venster. Voeg een script toe om de `grootte`{:class="block3looks"} van je kever te veranderen `wanneer de achtergrond verandert naar Spotlight`{:class="block3events"}:
 
 ![De kever-sprite.](images/bug-sprite.png)
 
@@ -52,11 +52,11 @@ set size to [20] % // tiny
 
 Wanneer je het spel speelt en je de kever vindt, schakelt het spel over naar de volgende achtergrond. Ook om het spel te starten, klik je op de kever in het 'start'-scherm.
 
-Het `volgende achtergrond`{:class="block3looks"} blok schakelt over naar de volgende achtergrond in de volgorde van de lijst met achtergronden als je klikt op het **Achtergronden** tabblad voor het **speelveld**.
+Het `volgende achtergrond`{:class="block3looks"} blok schakelt over naar de volgende achtergrond in de volgorde van de lijst met achtergronden als je klikt op het **Achtergronden** tabblad voor het **Speelveld**.
 
 --- task ---
 
-Voeg een script toe aan je **kever** sprite om een `start geluid`{:class="block3sound"} af te spelen en schakel over naar de `volgende achtergrond`{:class="block3looks"} `wanneer op deze sprite wordt geklikt`{:class ="blok3events"}:
+Voeg een script toe aan je **kever** sprite om een `startgeluid`{:class="block3sound"} af te spelen en schakel over naar de `volgende achtergrond`{:class="block3looks"} `wanneer op deze sprite wordt geklikt`{:class ="blok3events"}:
 
 ![De kever-sprite.](images/bug-sprite.png)
 
@@ -95,7 +95,7 @@ Je zult merken dat op het 'start' scherm de kever nog code heeft om zich te vers
 
 --- task ---
 
-Klik op de **kever** in het sprite-venster. Voeg een script toe aan `maak grootte`{:class="block3looks"} van de kever wanneer je `achtergrond overschakelt naar`{:class="block3events"} het `start`{:class="block3events"} scherm:
+Klik op de **kever** in het Sprite-venster. Voeg een script toe en gebruik `maak grootte`{:class="block3looks"} van de kever wanneer je `achtergrond overschakelt naar`{:class="block3events"} het `start`{:class="block3events"} scherm:
 
 ![De kever-sprite.](images/bug-sprite.png)
 
@@ -120,7 +120,7 @@ Om dat op te lossen, moet je voorkomen dat de code wordt uitgevoerd als je op de
 
 Klik op de groene vlag om terug te keren naar het 'start'-scherm.
 
-Klik op de **kever** sprite in de sprite-lijst en sleep de blokken weg van het `wanneer op deze sprite wordt geklikt`{:class="block3events"} blok:
+Klik op de **kever** sprite in de Sprite-lijst en sleep de blokken weg van het `wanneer op deze sprite wordt geklikt`{:class="block3events"} blok:
 
 ![Het script opbreken.](images/breaking-script.png)
 
