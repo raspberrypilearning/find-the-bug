@@ -6,7 +6,7 @@ Je spel begint met een 'start' scherm en spelers klikken op de kever om naar het
 </div>
 <div>
 
-!["Vind de kever" tekst op een bord op het speelveld.](images/start-screen.png){:width="300px"}
+!["Vind de kever" tekst op een bord op het Speelveld.](images/start-screen.png){:width="300px"}
 
 </div>
 </div>
@@ -21,7 +21,7 @@ Open het [Vind de kever startproject](https://scratch.mit.edu/projects/582214723
 
 --- task ---
 
-Voeg de **Chalkboard** (bord) achtergrond uit de categorie **Binnen** toe.
+Voeg de **Chalkboard** (schoolbord) achtergrond uit de categorie **Binnen** toe.
 
 ![Het pictogram 'Kies een achtergrond'.](images/backdrop-button.png)
 
@@ -33,7 +33,7 @@ Het **speelveld** heeft een **Achtergronden** tabblad in plaats van een **Uiterl
 
 --- task ---
 
-Klik op het speelveld.
+Klik op het Speelveld.
 
 ![](images/stage-pane.png)
 
@@ -55,7 +55,7 @@ Selecteer **backdrop1** en klik op het **Verwijder** icoon om de **backdrop1** a
 
 --- /task ---
 
-De **Chalkboard** achtergrond wordt nu gemarkeerd.
+De **Chalkboard** achtergrond wordt nu actief.
 
 --- task ---
 
