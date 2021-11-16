@@ -1,6 +1,6 @@
 ## Inleiding
 
-In dit project maak je een spel waarin je op elk niveau een verborgen kever moet vinden. Het spel heeft een 'start' en 'eind' achtergrond, en een klok die de speler laat zien hoe snel ze de kevers gevonden hebben.
+In dit project maak je een spel waarin je op elk niveau een verborgen kever moet vinden. Het spel heeft een 'start' en 'eind' achtergrond en een klok die de spelers laat zien hoe snel ze de kevers gevonden hebben.
 
 Je gaat:
 + Niveaus maken voor je spel met behulp van `volgende achtergrond`{:class="block3looks"} en `verander achtergrond naar`{"class="block3looks"} blokken
