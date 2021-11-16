@@ -10,15 +10,18 @@ steps:
   - title: Introducción
   - title: Pantalla de inicio
   - title: Primer nivel
+    completion: engaged
   - title: Loro para distraer
   - title: Segundo nivel
   - title: Pantalla final
   - title: Jugar el juego
+    completion: internal
   - title: Reflexión
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion: external
   - title: Mejora tu juego
   - title: '¿Qué sigue?'
