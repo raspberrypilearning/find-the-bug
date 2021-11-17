@@ -13,6 +13,7 @@ steps:
     title: شاشة البداية
   - 
     title: المستوى الأول
+    completion: engaged
   - 
     title: الببغاء المزعج
   - 
@@ -21,6 +22,7 @@ steps:
     title: شاشة النهاية
   - 
     title: لعب اللعبة
+    completion: internal
   - 
     title: انعكاس
     knowledge_quiz:
@@ -28,6 +30,7 @@ steps:
       version: 1
       questions: 3
       passing_score: 3
+    completion: external
   - 
     title: قم بتطوير لعبتك
   - 
