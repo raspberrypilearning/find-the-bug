@@ -13,6 +13,7 @@ steps:
     title: Pantalla de inicio
   - 
     title: Primer nivel
+    completion: engaged
   - 
     title: Loro para distraer
   - 
@@ -21,6 +22,7 @@ steps:
     title: Pantalla final
   - 
     title: Jugar el juego
+    completion: internal
   - 
     title: Reflexión
     knowledge_quiz:
@@ -28,6 +30,7 @@ steps:
       version: 1
       questions: 3
       passing_score: 3
+    completion: external
   - 
     title: Mejora tu juego
   - 
