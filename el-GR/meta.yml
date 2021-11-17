@@ -13,6 +13,7 @@ steps:
     title: Αρχική Οθόνη
   - 
     title: Πρώτο επίπεδο
+    completion: engaged
   - 
     title: Ένας παπαγάλος αποσπά την προσοχή
   - 
@@ -21,6 +22,7 @@ steps:
     title: Τελική οθόνη
   - 
     title: Παίξε το παιχνίδι
+    completion: internal
   - 
     title: Αναστοχασμός
     knowledge_quiz:
@@ -28,6 +30,7 @@ steps:
       version: 1
       questions: 3
       passing_score: 3
+    completion: external
   - 
     title: Αναβάθμισε το έργο σου
   - 
