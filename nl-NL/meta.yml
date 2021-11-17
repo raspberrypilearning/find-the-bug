@@ -13,6 +13,7 @@ steps:
     title: Startscherm
   - 
     title: Eerste niveau
+    completion: engaged
   - 
     title: Papegaai afleiding
   - 
@@ -21,6 +22,7 @@ steps:
     title: Eindscherm
   - 
     title: Speel het spel
+    completion: internal
   - 
     title: Reflectie
     knowledge_quiz:
@@ -28,6 +30,7 @@ steps:
       version: 1
       questions: 3
       passing_score: 3
+    completion: external
   - 
     title: Verbeter je project
   - 
