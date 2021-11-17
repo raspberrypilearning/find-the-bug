@@ -10,15 +10,18 @@ steps:
   - title: Introduction
   - title: Écran de début
   - title: Premier niveau
+    completion: engaged
   - title: Perroquet distraction
   - title: Deuxième niveau
   - title: Écran de fin
   - title: Jouer le jeu
+    completion: internal
   - title: Réflexion
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion: external
   - title: Améliorer ton jeu
   - title: Et ensuite ?
