@@ -30,7 +30,7 @@
 
 [[[share-scratch]]]
 
-To submit your project to our 'Find the bug' Scratch studio for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+لإرسال مشروعك "العثور على الحشرات" إلى استوديو Scratch ليراه الآخرون، يرجى إكمال [هذا النموذج](https://form.raspberrypi.org/f/community-project-submissions){: target = "_ blank"}.
 
 --- /task ---
 
