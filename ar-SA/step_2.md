@@ -13,7 +13,7 @@
 
 --- task ---
 
-Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. سيتم فتح Scratch في علامة تبويب متصفح أخرى.
+افتح [مشروع البداية اعثر على الحشرة](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. سيتم فتح Scratch في علامة تبويب متصفح أخرى.
 
 [[[working-offline]]]
 
