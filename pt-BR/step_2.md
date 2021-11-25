@@ -21,7 +21,7 @@ Abra o [projeto inicial Encontre o inseto](https://scratch.mit.edu/projects/5822
 
 --- task ---
 
-Adicione o plano de fundo **Chalkbord** (Quadro-negro) da categoria de **Interior**.
+Adicione o plano de fundo **Chalkbord** (Quadro-negro) da categoria de **Interiores**.
 
 ![O ícone 'Selecionar Cenário'.](images/backdrop-button.png)
 
