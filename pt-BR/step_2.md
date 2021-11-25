@@ -21,15 +21,15 @@ Abra o [projeto inicial Encontre o inseto](https://scratch.mit.edu/projects/5822
 
 --- task ---
 
-Adicione o plano de fundo **Quadro-negro** da categoria de **Interiores**.
+Adicione o plano de fundo **Chalkbord** (Quadro-negro) da categoria de **Interior**.
 
 ![O ícone 'Selecionar Cenário'.](images/backdrop-button.png)
 
-![O cenário quadro-negro na biblioteca de cenários.](images/chalkboard.png)
+![O cenário Chalkboard (quadro-negro) na biblioteca de cenários.](images/chalkboard.png)
 
 --- /task ---
 
-O **Palco** tem um botão de **Plano de fundo** em vez de um botão de **Fantasias**. É aqui que você consegue criar imagens para o **Palco**.
+O **Palco** tem um botão de **Cenários** em vez de um botão de **Fantasias**. É aqui que você consegue criar imagens para o **Palco**.
 
 --- task ---
 
@@ -43,19 +43,19 @@ Clique no painel do Palco.
 
 Clique na aba **Cenários** para abrir o editor Paint.
 
-![O cenário quadro-negro no editor Paint.](images/chalkboard-paint.png)
+![O cenário Chalkboard (quadro-negro) no editor Paint.](images/chalkboard-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Selecione **cenário1** e clique no ícone **Excluir** para remover o **cenário1** de seu projeto. Você não vai precisar do **cenário1** neste projeto.
+Selecione **backdrop1** e clique no ícone **Excluir** para remover o cenário **backdrop1** de seu projeto. Você não vai precisar do cenário **backdrop1** neste projeto.
 
 ![](images/delete-backdrop1.png)
 
 --- /task ---
 
-O cenário **Quadro negro** será destacado.
+O cenário **Chalkboard** (Quadro negro) será destacado.
 
 --- task ---
 
@@ -67,13 +67,13 @@ Clique em **Converter para Vetor**. Agora, você poderá adicionar texto que voc
 
 --- task ---
 
-Use a ferramenta **Texto** para adicionar o texto `Ache o inseto` no quadro-negro:
+Use a ferramenta **Texto** para adicionar o texto `Encontre o inseto` no quadro-negro:
 
 ![](images/chalkboard-text.png)
 
-Usamos **Marcador** branco, mas você pode **escolher** a fonte e a cor que quiser.
+Usamos **Marker** branco, mas você pode **escolher** a fonte e a cor que quiser.
 
-**Dica:** Mude para a ferramenta **Selecione (Seta)** para mover o texto. Para alterar o tamanho do texto, segure o canto da caixa de texto e arraste-a.
+**Dica:** Mude para a ferramenta **Selecionar** para mover o texto. Para alterar o tamanho do texto, segure o canto da caixa de texto e arraste-a.
 
 --- /task ---
 
@@ -95,13 +95,13 @@ Exclua o ator **Gato Scratch**.
 
 --- task ---
 
-Clique em **Escolher um Ator** e digite `bug` (inseto) na caixa de pesquisa.
+Clique em **Selecione um Ator** e digite `bug` (inseto) na caixa de pesquisa.
 
 **Escolha:** Escolha um inseto, os jogadores precisarão encontrar esse inseto no jogo.
 
-![O ícone 'Selecione um ator'.](images/sprite-button.png)
+![O ícone 'Selecione um Ator'.](images/sprite-button.png)
 
-!["inseto" resultados da pesquisa mostrando sete insetos diferentes.](images/bug-search.png)
+!["bug" (inseto) resultados da pesquisa mostrando sete insetos diferentes.](images/bug-search.png)
 
 **Dica:** Dê um nome ao seu projeto. Você pode querer incluir o nome do inseto que acabou de escolher.
 

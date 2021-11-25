@@ -74,7 +74,7 @@ Seu projeto precisa começar na tela 'inicial'.
 
 Clique no painel Palco e adicione o seguinte código ao **Palco**:
 
-![O cenário Holofote.](images/stage-image.png)
+![O cenário Spotlight (Holofote).](images/stage-image.png)
 
 ```blocks3
 when flag clicked
@@ -120,7 +120,7 @@ Para consertar o problema, você precisa interromper a execução do código por
 
 Clique na bandeira verde para retornar à tela 'inicial'.
 
-Clique sobre o ator **inseto** na lista de Atores e arraste os blocos para longe do bloco `quando o ator for clicado`{:class="block3events"}:
+Clique sobre o ator **inseto** na lista de Atores e arraste os blocos para longe do bloco `quando este ator for clicado`{:class="block3events"}:
 
 ![Separando o script.](images/breaking-script.png)
 

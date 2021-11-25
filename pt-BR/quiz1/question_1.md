@@ -13,7 +13,7 @@ Divirta-se!
 legend: Pergunta 1 de 3
 ---
 
-Em seu jogo, você adicionou esse código ao seu **bug** para percorrer os panos de fundo cada vez que ele for clicado.
+Em seu jogo, você adicionou esse código ao seu **inseto** para percorrer os panos de fundo cada vez que ele for clicado.
 
 ```blocks3
 when this sprite clicked
@@ -21,15 +21,15 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Olhe para esta imagem que mostra o jogo 'Encontre o bug' sendo executado.
+Olhe para esta imagem que mostra o jogo 'Encontre o inseto' sendo executado.
 
-![O editor Scratch com cenários na ordem Começo, Holofote, Urbano, Fim; e o Palco mostrando o cenário Holofote.](images/quiz1-backdrops.png)
+![O editor Scratch com cenários na ordem Inicial, Spotlight (Holofote), Urban (Urbano), Fim; e o Palco mostrando o cenário Spotlight (Holofote).](images/quiz1-backdrops.png)
 
 Neste jogo, qual cenário vai aparecer se você clicar sobre o inseto?
 
 --- choices ---
 
-- ( ) começar
+- ( ) inicial
 
   --- feedback ---
 
@@ -37,7 +37,7 @@ Neste jogo, qual cenário vai aparecer se você clicar sobre o inseto?
 
   --- /feedback ---
 
-- (x) Urbano
+- (x) Urban
 
   --- feedback ---
 
@@ -45,11 +45,11 @@ Sim. O próximo `bloco cenário`{:classe="block3looks"} altera o plano de fundo 
 
 --- /feedback ---
 
-- ( ) Holofote
+- ( ) Spotlight
 
   --- feedback ---
 
-  O cenário **Holofote** está sendo mostrado no Palco. Você precisa pensar um pouco sobre a ordem dos cenários.
+  O cenário **Spotlgiht** (Holofote) está sendo mostrado no Palco. Você precisa pensar um pouco sobre a ordem dos cenários.
 
   --- /feedback ---
 
