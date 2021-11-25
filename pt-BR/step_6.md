@@ -81,16 +81,16 @@ go to x: [0] y: [30] // no quadro
 
 --- /task ---
 
-Para voltar à tela 'inicial', clique no inseto na tela 'fim'.
+Para voltar à tela 'inicio', clique no inseto na tela 'fim'.
 
 --- task ---
 
-Adicione código para fazer o inseto parar de falar `cronômetro`{:class="block3sensing"} quando você tiver que ir para a tela 'inicial':
+Adicione código para fazer o inseto parar de falar `cronômetro`{:class="block3sensing"} quando você tiver que ir para a tela 'inicio':
 
 ![O ator inseto.](images/bug-sprite.png)
 
 ```blocks3
-when backdrop switches to [inicial v]
+when backdrop switches to [inicio v]
 set size to [100] % // tamanho máximo
 go to x: [0] y: [30] // no quadro
 +say [] // não diga nada
@@ -117,7 +117,7 @@ go to x: [13] y: [132] // na bola de discoteca
 
 --- task ---
 
-**Teste:** Clique na bandeira verde e comece jogar. O cronômetro deve zerar quando você clicar no inseto na tela 'inicial' para passar para o primeiro nível. Quando você clicar no inseto na tela 'fim', você deve retornar à tela 'inicial' e verificar que o inseto não está dizendo `cronômetro`{:class="block3sensing"}.
+**Teste:** Clique na bandeira verde e comece jogar. O cronômetro deve zerar quando você clicar no inseto na tela 'inicio' para passar para o primeiro nível. Quando você clicar no inseto na tela 'fim', você deve retornar à tela 'inicio' e verificar que o inseto não está dizendo `cronômetro`{:class="block3sensing"}.
 
 --- /task ---
 

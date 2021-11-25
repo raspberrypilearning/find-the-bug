@@ -23,13 +23,13 @@ next backdrop
 
 Olhe para esta imagem que mostra o jogo 'Encontre o inseto' sendo executado.
 
-![O editor Scratch com cenários na ordem Inicial, Spotlight (Holofote), Urban (Urbano), Fim; e o Palco mostrando o cenário Spotlight (Holofote).](images/quiz1-backdrops.png)
+![O editor Scratch com cenários na ordem inicio, Spotlight (Holofote), Urban (Urbano), fim; e o Palco mostrando o cenário Spotlight (Holofote).](images/quiz1-backdrops.png)
 
 Neste jogo, qual cenário vai aparecer se você clicar sobre o inseto?
 
 --- choices ---
 
-- ( ) inicial
+- ( ) inicio
 
   --- feedback ---
 

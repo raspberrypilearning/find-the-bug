@@ -50,7 +50,7 @@ set size to [20] % // minúsculo
 
 --- /task ---
 
-Quando você executa o jogo e encontra o inseto, o jogo vai para o próximo cenário. Além disso, para começar o jogo, você vai clicar no inseto na tela 'iniciar'.
+Quando você executa o jogo e encontra o inseto, o jogo vai para o próximo cenário. Além disso, para começar o jogo, você vai clicar no inseto na tela 'inicio'.
 
 O próximo `bloco cenário`{:class="block3looks"} altera o plano de fundo para o próximo cenário na ordem da lista de cenários na aba **Cenários** para o **Palco**.
 
@@ -68,7 +68,7 @@ next backdrop
 
 --- /task ---
 
-Seu projeto precisa começar na tela 'inicial'.
+Seu projeto precisa começar na tela 'inicio'.
 
 --- task ---
 
@@ -78,7 +78,7 @@ Clique no painel Palco e adicione o seguinte código ao **Palco**:
 
 ```blocks3
 when flag clicked
-switch backdrop to [inicial v] // Tela 'inicial'
+switch backdrop to [inicio v] // Tela 'inicio'
 ```
 
 --- /task ---
@@ -87,7 +87,7 @@ switch backdrop to [inicial v] // Tela 'inicial'
 
 **Teste:** Clique na bandeira verde e teste o seu projeto.
 
-Você vai notar que na tela 'inicial', o inseto ainda vai ter as mesmas preferências para se esconder mesmo lugar desde o primeiro nível (neste exemplo, no globo de discoteca).
+Você vai notar que na tela 'inicio', o inseto ainda vai ter as mesmas preferências para se esconder mesmo lugar desde o primeiro nível (neste exemplo, no globo de discoteca).
 
 **Dica:** Após o último cenário da lista, `próximo cenário`{:class="block3looks"} será alterado novamente para o primeiro cenário.
 
@@ -95,12 +95,12 @@ Você vai notar que na tela 'inicial', o inseto ainda vai ter as mesmas preferê
 
 --- task ---
 
-Clique no ator **inseto** na lista de Atores. Adicione um script ao `definir tamanho`{:class="block3looks"} do inseto quando o `cenário for alterado para`{:class="block3events"} a tela `inicial`{:class="block3events"}:
+Clique no ator **inseto** na lista de Atores. Adicione um script ao `definir tamanho`{:class="block3looks"} do inseto quando o `cenário for alterado para`{:class="block3events"} a tela `inicio`{:class="block3events"}:
 
 ![O ator inseto.](images/bug-sprite.png)
 
 ```blocks3
-when backdrop switches to [inicial v]
+when backdrop switches to [inicio v]
 set size to [100] % // tamanho máximo
 ```
 
@@ -108,7 +108,7 @@ set size to [100] % // tamanho máximo
 
 --- task ---
 
-Tente posicionar o inseto na tela 'inicial'.
+Tente posicionar o inseto na tela 'inicio'.
 
 Seu código fará a mudança de cenário quando você clicar no inseto! Isso não é tão útil quando você está tentando posicionar o inseto.
 
@@ -118,7 +118,7 @@ Para consertar o problema, você precisa interromper a execução do código por
 
 --- task ---
 
-Clique na bandeira verde para retornar à tela 'inicial'.
+Clique na bandeira verde para retornar à tela 'inicio'.
 
 Clique sobre o ator **inseto** na lista de Atores e arraste os blocos para longe do bloco `quando este ator for clicado`{:class="block3events"}:
 
@@ -132,12 +132,12 @@ Tente posicionar o inseto novamente. Arraste o inseto para o quadro-negro, por b
 
 ![](images/bug-chalkboard.png)
 
-Adicione código para assegurar que o inseto está posicionado no quadro-negro toda vez que o `cenário for alterado para`{:class="block3events"} a tela `inicial`{:class="block3events"}:
+Adicione código para assegurar que o inseto está posicionado no quadro-negro toda vez que o `cenário for alterado para`{:class="block3events"} a tela `inicio`{:class="block3events"}:
 
 ![O ator inseto.](images/bug-sprite.png)
 
 ```blocks3
-when backdrop switches to [inicial v]
+when backdrop switches to [inicio v]
 set size to [100] % // tamanho máximo
 + go to x: [0] y: [30] // no quadro
 ```
@@ -154,7 +154,7 @@ Junte os blocos novamente de forma que os blocos estejam debaixo do bloco `quand
 
 --- task ---
 
-**Teste:** Clique na bandeira verde e teste o seu projeto. Clique no inseto para avançar para o próximo cenário. O inseto deve estar grande na tela 'inicial' e pequeno no nível 'Spotlight' (Holofote).
+**Teste:** Clique na bandeira verde e teste o seu projeto. Clique no inseto para avançar para o próximo cenário. O inseto deve estar grande na tela 'inicio' e pequeno no nível 'Spotlight' (Holofote).
 
 --- collapse ---
 ---
