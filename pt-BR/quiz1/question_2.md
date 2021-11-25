@@ -43,7 +43,7 @@ O bloco `se tocar na borda, volte`{:class="block3motion"} faz o ator rebater na 
 
 --- feedback ---
 
-Um script pode ter somente um loop `sempre`{:class="block3motion"}. Você percebeu que não é possível adicionar um bloco abaixo do loop `infinito`{:class="block3control"}?
+Um script pode ter somente um loop `sempre`{:class="block3motion"}. Você percebeu que não é possível adicionar um bloco abaixo do loop `sempre`{:class="block3control"}?
 
 --- /feedback ---
 

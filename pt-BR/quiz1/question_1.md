@@ -41,7 +41,7 @@ Neste jogo, qual cenário vai aparecer se você clicar sobre o inseto?
 
   --- feedback ---
 
-Sim. O próximo `bloco cenário`{:classe="block3looks"} altera o plano de fundo para o próximo cenário no na ordem da lista de cenários na aba **Cenários** para o **Palco**.
+Sim. O próximo `bloco cenário`{:class="block3looks"} altera o plano de fundo para o próximo cenário no na ordem da lista de cenários na aba **Cenários** para o **Palco**.
 
 --- /feedback ---
 
