@@ -3,7 +3,7 @@
 legend: Pergunta 2 de 3
 ---
 
-Você usou um loop`infinito`{:class="block3control"} para fazer a **Arara** voar de forma irritante sem rumo.
+Você usou um loop `infinito`{:class="block3control"} para fazer a **Arara** voar de forma irritante sem rumo.
 
 Tentamos adicionar outro ator para distração, mas ele só se move uma vez quando se clica na bandeira verde e depois para. Como podemos conserta-lo?
 
@@ -47,11 +47,11 @@ Um script pode ter somente um loop `infinito`{:class="block3motion"}. Você perc
 
 --- /feedback ---
 
-- (x) Arraste o bloco </code>mover`{:class="block3looks"} para dentro do loop <code>infinito`{:class="block3control"}
+- (x) Arraste o bloco `mover`{:class="block3looks"} para dentro do loop `infinito`{:class="block3control"}
 
   --- feedback ---
 
-  Sim! O ator só se move uma vez. Se você colocar o bloco`mover`{:class="block3motion"} dentro do loop `infinito`{:class="block3control"}, o ator irá se mover até que você interrompa seu projeto.
+  Sim! O ator só se move uma vez. Se você colocar o bloco `mover`{:class="block3motion"} dentro do loop `infinito`{:class="block3control"}, o ator irá se mover até que você interrompa seu projeto.
 
   --- /feedback ---
 

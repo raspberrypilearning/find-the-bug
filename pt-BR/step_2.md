@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-O seu jogo vai começar com uma tela de 'início', e os jogadores irão clicar no inseto para ir para o primeiro nível.
+O seu jogo vai começar com uma tela de 'inicial', e os jogadores irão clicar no inseto para ir para o primeiro nível.
 </div>
 <div>
 
@@ -79,7 +79,7 @@ Usamos **Marcador** branco, mas você pode **escolher** a fonte e a cor que quis
 
 --- task ---
 
-Altere o nome do cenário para `início`, porque você precisará selecioná-lo mais tarde no projeto.
+Altere o nome do cenário para `inicial`, porque você precisará selecioná-lo mais tarde no projeto.
 
 ![A caixa do nome da fantasia destacada no editor Paint.](images/start-screen-name.png)
 

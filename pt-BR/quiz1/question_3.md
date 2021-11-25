@@ -8,7 +8,7 @@ Você adicionou esse script ao ator**inseto**:
 ![O ator inseto.](images/bug-sprite.png)
 
 ```blocks3
-when backdrop switches to [end v]
+when backdrop switches to [fim v]
 set size to [100] % 
 go to x: [0] y: [30] 
 + say (timer) 
