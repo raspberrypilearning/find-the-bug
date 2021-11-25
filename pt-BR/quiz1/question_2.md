@@ -3,7 +3,7 @@
 legend: Pergunta 2 de 3
 ---
 
-Você usou um loop`infinito`{:class="block3control"} para fazer a **Arara** voar de forma irritante sem rumo.
+Você usou um loop `sempre`{:class="block3control"} para fazer a **Papagaio** voar de forma irritante sem rumo.
 
 Tentamos adicionar outro ator para distração, mas ele só se move uma vez quando se clica na bandeira verde e depois para. Como podemos conserta-lo?
 
@@ -31,27 +31,27 @@ Se você mudar o número no bloco `mover`{:class="block3motion"}, você vai alte
 
   --- /feedback ---
 
-- ( ) Remova o bloco `se estiver na borda, retorne`{:class="block3motion"}
+- ( ) Remova o bloco `se tocar na borda, volte`{:class="block3motion"}
 
   --- feedback ---
 
-O bloco `se estiver na borda, retorne`{:class="block3motion"} faz o ator rebater na borda do Palco. Se você o remover, o foguete ficará parado na borda do Palco.
+O bloco `se tocar na borda, volte`{:class="block3motion"} faz o ator rebater na borda do Palco. Se você o remover, o foguete ficará parado na borda do Palco.
 
   --- /feedback ---
 
-- ( ) Adicione um outro loop `infinito`{:class="block3motion"}
+- ( ) Adicione um outro loop `sempre`{:class="block3motion"}
 
 --- feedback ---
 
-Um script pode ter somente um loop `infinito`{:class="block3motion"}. Você percebeu que não é possível adicionar um bloco abaixo do loop `infinito`{:class="block3control"}?
+Um script pode ter somente um loop `sempre`{:class="block3motion"}. Você percebeu que não é possível adicionar um bloco abaixo do loop `sempre`{:class="block3control"}?
 
 --- /feedback ---
 
-- (x) Arraste o bloco </code>mover`{:class="block3looks"} para dentro do loop <code>infinito`{:class="block3control"}
+- (x) Arraste o bloco `mover`{:class="block3looks"} para dentro do loop `sempre`{:class="block3control"}
 
   --- feedback ---
 
-  Sim! O ator só se move uma vez. Se você colocar o bloco`mover`{:class="block3motion"} dentro do loop `infinito`{:class="block3control"}, o ator irá se mover até que você interrompa seu projeto.
+  Sim! O ator só se move uma vez. Se você colocar o bloco `mover`{:class="block3motion"} dentro do loop `sempre`{:class="block3control"}, o ator irá se mover até que você interrompa seu projeto.
 
   --- /feedback ---
 

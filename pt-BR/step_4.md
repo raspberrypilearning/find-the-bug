@@ -15,13 +15,13 @@ Para dificultar para os jogadores encontrarem e clicarem no inseto, você vai co
 
 Adicione o ator **Parrot** (Papagaio).
 
-![O ícone 'Selecione um ator'.](images/sprite-button.png)
+![O ícone 'Selecione um Ator'.](images/sprite-button.png)
 
 --- /task ---
 
-No projeto [Pegue o ônibus](https://projects.raspberrypi.org/pt-BR/projects/catch-the-bus){:target="_blank"}, você usou um loop `repetir`{:class="block3control"}.
+No projeto [Pegue o ônibus](https://projects.raspberrypi.org/pt-BR/projects/catch-the-bus){:target="_blank"}, você usou um loop `repita`{:class="block3control"}.
 
-Você usará um loop diferente aqui. Um loop `infinito`{:class="block3control"} executa os blocos de código dentro dele de forma contínua, sem interrupção. É o loop perfeito para um papagaio chato que não para de voar e fica no caminho.
+Você usará um loop diferente aqui. Um loop `sempre`{:class="block3control"} executa os blocos de código dentro dele de forma contínua, sem interrupção. É o loop perfeito para um papagaio chato que não para de voar e fica no caminho.
 
 --- task ---
 

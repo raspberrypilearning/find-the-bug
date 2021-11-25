@@ -52,7 +52,7 @@ set size to [20] % // tente outro tamanho
 
 Arraste seu inseto para o Palco e o esconda bem.
 
-![O bug escondido na vitrine da loja no meio do cenário.](images/hidden-urban-backdrop.png)
+![O inseto escondido na vitrine da loja no meio do cenário.](images/hidden-urban-backdrop.png)
 
 --- /task ---
 

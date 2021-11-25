@@ -3,9 +3,9 @@
 Neste projeto, você vai criar um jogo no qual você terá que achar o inseto escondido em cada nível. O jogo terá uma tela de 'início' e de 'fim', e um temporizador para mostrar ao jogador a rapidez com que encontrou os insetos.
 
 Você deve:
-+ Crie níveis para o seu jogo usando blocos de `próximo cenário`{:class="block3looks"} e `quando o cenário muda para o`{:class="block3events"}
-+ Use um ciclo `infinito`{:class="block3control"} para manter a execução dos blocos para sempre
-+ Use um `temporizador`{:class="block3sensing"} **variável** para que o jogador saiba a rapidez com que está a encontrar os insetos
++ Crie níveis para o seu jogo usando blocos de `próximo cenário`{:class="block3looks"} e `quando o cenário mudar para`{:class="block3events"}
++ Use um ciclo `sempre`{:class="block3control"} para manter a execução dos blocos para sempre
++ Use um `cronômetro`{:class="block3sensing"} **variável** para que o jogador saiba a rapidez com que está a encontrar os insetos
 
 --- no-print --- --- task ---
 ### Experimente
@@ -19,7 +19,7 @@ Os insetos estão bem escondidos? Você poderá adicionar seus próprios níveis
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/601522324/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/606940456/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 --- /task ---
