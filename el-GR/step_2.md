@@ -13,7 +13,7 @@
 
 --- task ---
 
-Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Το Scratch θα ανοίξει σε νέα καρτέλα του φυλλομετρητή.
+Άνοιξε το έργο [Βρες το έντομο](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Το Scratch θα ανοίξει σε νέα καρτέλα του φυλλομετρητή.
 
 [[[working-offline]]]
 
