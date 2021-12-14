@@ -31,7 +31,7 @@ end
 
   --- /feedback ---
 
-- () قم بإزالة وحدة `إذا كان على الحافة, اقفز`:class="block3motion"}
+- () قم بإزالة وحدة `إذا كان على الحافة, اقفز`{:class="block3motion"}
 
   --- feedback ---
 
@@ -47,7 +47,7 @@ end
 
 --- /feedback ---
 
-- (x) اسحب وحدة `تحرك`{:class="block3motion"} إلى داخل حلقة `دائماً`
+- (x) اسحب وحدة `تحرك`{:class="block3motion"} إلى داخل حلقة {:class="block3control"}`دائماً`
 
   --- feedback ---
 
