@@ -1,0 +1,27 @@
+---
+title: اعثر على الحشرة
+hero_image: images/banner.png
+description: قم بإنشاء لعبة يتعين عليك فيها العثور على حشرة مختبئة في كل مستوى
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-02-26"
+steps:
+  - title: المقدمة
+  - title: شاشة البداية
+  - title: المستوى الأول
+    completion: engaged
+  - title: الببغاء المزعج
+  - title: المستوى الثاني
+  - title: شاشة النهاية
+  - title: لعب اللعبة
+    completion: internal
+  - title: انعكاس
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion: external
+  - title: قم بتطوير لعبتك
+  - title: ما التالي؟
