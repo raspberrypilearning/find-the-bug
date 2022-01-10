@@ -1,29 +1,29 @@
-## First level
+## Lefel gyntaf
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add a new backdrop as the first level in your game, and hide the bug.
+Byddi di'n ychwanegu cefndir newydd fel y lefel gyntaf yn dy gêm, ac yn cuddio'r chwilen.
 </div>
 <div>
 
-![The Spotlight backdrop with a bug.](images/first-level.png){:width="300px"}
+![Y gefnlen Spotlight gyda chwilen.](images/first-level.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Add the **Spotlight** backdrop from the **Music** category.
+Ychwanega'r gefnlen **Spotlight** o'r categori **Cerddoriaeth**.
 
-![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
+![Eicon 'Dewiswch Gefnlen'.](images/backdrop-button.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **bug** sprite in the Sprite list. Add a script to change the `size`{:class="block3looks"} of your bug `when the backdrop switches to Spotlight`{:class="block3events"}:
+Clicia ar y corlun **bug** yn rhestr y Corluniau. Ychwanega sgript i newid `maint`{:class="block3looks"} dy chwilen `pan fydd y gefnlen yn newid i Spotlight`{:class="block3events"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![Y corlun chwilen.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
@@ -34,11 +34,11 @@ set size to [20] % // tiny
 
 --- task ---
 
-Click on the code to change the size, then drag your tiny bug to a hiding place.
+Clicia ar y cod i newid y maint, yna llusga dy chwilen fach i guddfan.
 
-Add code to position your bug:
+Ychwanega god i roi lleoliad dy chwilen:
 
-![The bug sprite.](images/bug-sprite.png)
+![Y corlun chwilen.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
@@ -46,19 +46,19 @@ set size to [20] % // tiny
 + go to x: [13] y: [132] // on the disco ball
 ```
 
-**Choose:** You can choose a different size and location, if you prefer.
+**Dewis:** Galli di ddewis maint a lleoliad gwahanol, os yw'n well gen ti.
 
 --- /task ---
 
-When you play the game and you successfully find the bug, the game will switch to the next backdrop. Also, to start the game, you will click on the bug on the 'start' screen.
+Pan fyddi di'n chwarae'r gêm ac yn llwyddo i ddod o hyd i'r chwilen, bydd y gêm yn newid i'r gefnlen nesaf. Hefyd, i ddechrau'r gêm, byddi di'n clicio ar y chwilen ar y sgrin 'dechrau'.
 
-The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order in which the backdrops are listed when you click on the **Backdrops** tab for the **Stage**.
+Mae'r bloc `cefnlen nesaf`{:class="block3looks"} yn newid i'r gefnlen nesaf yn y drefn y mae'r cefnlenni wedi'u rhestru pan fyddi di'n clicio'r tab **Cefnlenni** ar gyfer y **Llwyfan**.
 
 --- task ---
 
-Add a script to your **bug** sprite to `play a Pop sound`{:class="block3sound"} and switch to the `next backdrop`{:class="block3looks"} `when this sprite is clicked`{:class="block3events"}:
+Ychwanega sgript i dy gorlun **bug** i `chwarae sain Pop`{:class="block3sound"} a newid i'r `gefnlen nesaf`{:class="block3looks"} `pan gaiff y corlun hwn ei glicio`{:class="block3events"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![Y corlun chwilen.](images/bug-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -68,13 +68,13 @@ next backdrop
 
 --- /task ---
 
-Your project needs to start on the 'start' screen.
+Mae angen i dy brosiect ddechrau ar y sgrin 'dechrau'.
 
 --- task ---
 
-Click on the Stage pane and add this code to the **Stage**:
+Clicia ar gwarel y Llwyfan ac ychwanegu'r cod yma at y **Llwyfan**:
 
-![The Spotlight backdrop.](images/stage-image.png)
+![Y gefnlen Spotlight.](images/stage-image.png)
 
 ```blocks3
 when flag clicked
@@ -85,19 +85,19 @@ switch backdrop to [start v] // 'start' screen
 
 --- task ---
 
-**Test:** Click on the green flag to test your project.
+**Prawf:** Clicia ar y faner werdd i brofi dy brosiect.
 
-You will notice that on the 'start' screen, the bug will still have the settings to hide in its hiding place from the first level (in this example, on the disco ball).
+Byddi di'n sylwi ar y sgrin ‘dechrau’ fod gan y chwilen dal y gosodiadau i guddio yn ei chuddfan o’r lefel gyntaf (yn yr enghraifft hon, ar y bêl ddisgo).
 
-**Tip:** After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop.
+**Awgrym:** Ar ôl y gefnlen ddiwethaf yn y rhestr, bydd `cefnlen nesaf`{:class="block3looks"} yn newid yn ôl i'r gefnlen gyntaf.
 
 --- /task ---
 
 --- task ---
 
-Click on the **bug** sprite in the Sprite list. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+Clicia ar y corlun **bug** yn y rhestr Corluniau. Ychwanega sgript i `osod maint`{:class="block3looks"} y chwilen pan fydd dy `gefnlen yn newid i'r`{:class="block3events"} sgrin `cychwyn`{:class="block3events"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![Y corlun chwilen.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -108,33 +108,33 @@ set size to [100] % // full-sized
 
 --- task ---
 
-Try to position the bug on the 'start' screen.
+Ceisia osod lleoliad y chwilen ar y sgrin 'cychwyn'.
 
-Your code will make the backdrop switch when you click on the bug! That is not helpful when you are trying to position the bug.
-
---- /task ---
-
-To fix the problem, you need to stop the code from running when you click on the bug.
-
---- task ---
-
-Click on the green flag to return to the 'start' screen.
-
-Click on the **bug** sprite in the Sprite list and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
-
-![Breaking the script.](images/breaking-script.png)
+Bydd dy god yn gwneud i'r gefnlen newid pan fyddi di'n clicio ar y chwilen! Dydy hynny ddim fawr o help pan wyt ti'n chi'n ceisio gosod lleoliad y chwilen.
 
 --- /task ---
 
+I ddatrys y broblem, rwyt ti angen rhwystro'r cod rhag rhedeg pan fyddi di'n clicio ar y chwilen.
+
 --- task ---
 
-Try to position the bug again. Drag the bug onto the chalkboard, below the text:
+Clicia ar y faner werdd i ddychwelyd i'r sgrin 'cychwyn'.
+
+Clicia ar y corlun **bug** yn y rhestr Corluniau a llusgo'r blociau i ffwrdd o'r bloc `when gaiff y corlun hwn ei glicio`{:class="block3events"}:
+
+![Torri'r sgript.](images/breaking-script.png)
+
+--- /task ---
+
+--- task ---
+
+Rho gynnig arall ar osod lleoliad y chwilen. Llusga'r chwilen ar i'r bwrdd du, o dan y testun:
 
 ![](images/bug-chalkboard.png)
 
-Add code to make sure that the bug is positioned on the chalkboard every time your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+Ychwanega god i wneud yn siŵr bod y chwilen wedi'i lleoli ar y bwrdd du bob tro mae dy `gefnlen yn newid i'r`{:class="block3events"} sgrin `cwch`{:class="block3events"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![Y corlun chwilen.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -146,22 +146,22 @@ set size to [100] % // full-sized
 
 --- task ---
 
-Join the blocks back together so that the code blocks are under the `when this sprite clicked`{:class="block3events"} block again:
+Cysyllta'r blociau at ei gilydd eto fel bod y blociau cod o dan y bloc `pan gaiff y corlun hwn ei glicio`{:class="block3events"} eto:
 
-![The 'when this sprite clicked' block joined to the 'play sound' and 'next backdrop' blocks.](images/fixed-script.png)
+![Y bloc 'pan gaiff y corlun hwn ei glicio' wedi'i gysylltu â'r blociau 'chwarae sain' a 'cefnlen nesaf'.](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your project. Click on the bug to move to the next backdrop. The bug should be big on the 'start' screen and small on the 'Spotlight' level.
+**Prawf:** Clicia ar y faner werdd i brofi dy brosiect. Clicia ar y chwilen i symud i'r gefnlen nesaf. Dylai'r chwilen fod yn fawr ar y sgrin 'dechrau' ac yn fach ar y lefel 'Spotlight'.
 
 --- collapse ---
 ---
-title: Nothing happens when I click on the bug
+title: Does dim byd yn digwydd pan dw i'n clicio ar y chwilen
 ---
 
-Did you forget to join the code back to the `when this sprite clicked`{:class="block3events"} block?
+Wnes di anghofio cysylltu'r cod yn ôl i'r bloc `pan gaiff y corlun hwn ei glicio`{:class="block3events"}?
 
 --- /collapse ---
 
