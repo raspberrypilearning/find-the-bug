@@ -1,10 +1,10 @@
-## What next?
+## Beth nesaf?
 
-If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) pathway, you can move on to the [Silly eyes](https://projects.raspberrypi.org/en/projects/silly-eyes) project. In this project, you will design your own character with eyes that look at the mouse pointer when you move the mouse!
+Os wyt ti'n dilyn y llwybr [Cyflwyniad i Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro), gallet ti symud ymlaen i'r prosiect [Llygaid gwirion](https://projects.raspberrypi.org/en/projects/silly-eyes). Yn y prosiect yma, byddi di'n dylunio dy gymeriad dy hun gyda llygaid fydd yn dilyn pwyntydd y llygoden pan fyddi di'n symud y llygoden!
 
 --- print-only ---
 
-![The 'Silly eyes' project.](images/googly-eye-character.png)
+![Y prosiect 'Llygaid gwirion'.](images/googly-eye-character.png)
 
 --- /print-only ---
 
