@@ -1,33 +1,33 @@
-## Parrot distraction
+## Parot i dynnu sylw
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-To make it harder for players to find and click on the bug, you will add an annoying parrot to distract them. 
+Er mwyn ei gwneud hi'n anoddach i chwaraewyr ddod o hyd i'r chwilen a chlicio arni, byddi di'n ychwanegu parot annifyr i dynnu eu sylw. 
 </div>
 <div>
 
-![A colourful parrot on the Stage.](images/parrot-distraction.png){:width="300px"}
+![Parot lliwgar ar y Llwyfan.](images/parrot-distraction.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Add the **Parrot** sprite.
+Ychwanega'r corlun **Parrot**.
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+![Yr eicon 'Dewiswch Gorlun'.](images/sprite-button.png)
 
 --- /task ---
 
-In the [Catch the bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"} project, you used a `repeat`{:class="block3control"} loop.
+Yn y prosiect [Dal y bws](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}, fe wnes di ddefnyddio dolen `ailadrodd`{:class="block3control"}.
 
-You will use a different loop here. A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It is the perfect loop for an annoying parrot that will not stop flying around and getting in the way.
+Byddi di'n defnyddio dolen wahanol yma. Mae dolen `am byth`{:class="block3control"} yn rhedeg y blociau cod tu mewn iddi dro ar ôl tro. Dyma'r ddolen berffaith ar gyfer parot annifyr sy'n hedfan o gwmpas a mynd yn y ffordd drosodd a throsodd.
 
 --- task ---
 
-Add code to make the parrot flap around in a distracting way:
+Ychwanega god i wneud i'r parot fflapio o gwmpas mewn ffordd sy'n tynnu sylw:
 
-![The Parrot sprite.](images/parrot-sprite.png)
+![Y Corlun Parrot.](images/parrot-sprite.png)
 
 
 ```blocks3
@@ -47,13 +47,13 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag and test your project again. Can you remember where you hid the bug?
+**Prawf:** Clicia ar y faner werdd a phrofi dy brosiect eto. Allet ti gofio lle wnes di guddio'r chwilen?
 
-In Scratch, code that is running glows with a yellow outline:
+Yn Scratch, mae cod sy'n rhedeg yn tywynnu gydag amlinelliad melyn:
 
 ![](images/running-code.png)
 
-**Tip:** If the parrot gets too annoying while you are coding, you can click the red stop button above the Stage to stop the code from running.
+**Awgrym:** Os ydy'r parot yn mynd yn rhy annifyr wrth godio, gallwch glicio ar y botwm stop coch uwchben y Llwyfan i atal y cod rhag rhedeg.
 
 --- /task ---
 
