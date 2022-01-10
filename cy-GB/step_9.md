@@ -1,8 +1,8 @@
-## Upgrade your game
+## Uwchraddio dy gêm
 
-If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text on the chalkboard.
+Os oes gen ti amser, galli di ychwanegu mwy o lefelau a mwy o bethau i dynnu sylw yn dy gêm. Fe allet ti hefyd newid y corlun sy'n cuddio a newid y testun ar y bwrdd du.
 
-Here are the blocks that you will need to hide the bug on a new level:
+Dyma'r blociau y bydd eu hangen arnat i guddio'r chwilen ar lefel newydd:
 
 ```blocks3
 when backdrop switches to [new level v]
@@ -16,20 +16,20 @@ set [color v] effect to [50]
 
 --- task ---
 
-For each level, you will need to:
-- Add a backdrop
-- Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
-- Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug
+Ar gyfer pob lefel, bydd angen i ti:
+- Ychwanegu cefnlen
+- Clicio ar y cwarel Llwyfan, wedyn ar y tab **Cefnlenni**, wedyn llusgo'r gefnlen newydd i'w safle cyn y gefnlen **diwedd**
+- Ychwanega floc `pan fydd y gefnlen yn newid i`{:class="block3events"} ar gyfer y gefnlen newydd ac ychwanega god i roi lleoliad i'r chwilen a'i chuddio
 
-**Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the backdrop does not switch when you click on the bug to position it for a new level.
+**Awgrym:** I lusgo'r chwilen i le cuddio newydd, bydd angen i tu 'dorri' y cod fel nad ydy'r cefndir yn newid pan fyddi di'n clicio ar y chwilen i'w osod ar lefel newydd.
 
 --- /task ---
 
 --- task ---
 
-You could add more parrots or choose another sprite to act as a distraction.
+Fe allet ti ychwanegu mwy o barotiaid neu ddewis corlun arall i dynnu sylw.
 
-Here is the code that you used for the parrot:
+Dyma'r cod wnes di ei ddefnyddio ar gyfer y parot:
 ```blocks3
 when flag clicked
 set rotation style [left-right v] // do not go upside down
@@ -43,18 +43,18 @@ wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
-**Tip:** You can drag the **Parrot** sprite's code to another sprite to make it faster to create another distraction sprite.
+**Awgrym:** Gallet ti lusgo cod y corlun **Parot** i gorlun arall i'w gwneud hi'n gyflymach i greu corlun tynnu sylw arall.
 
-![Dragging code from the Code area to another sprite in the Sprite list.](images/drag-parrot-code.gif)
+![Llusgo cod o ardal y cod i gorlun arall yn y rhestr Corluniau.](images/drag-parrot-code.gif)
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+teitl: Prosiect gorffenedig
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+Galli di weld y [prosiect wedi'i gwblhau yma](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
 
 --- /collapse ---
 
