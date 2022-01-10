@@ -1,36 +1,36 @@
-## Play the game
+## Chwarae'r gêm
 
-Play your game and see how quickly you can find the bugs.
+Chwaraea dy gêm a gweld pa mor gyflym y gallet ti ddod o hyd i'r chwilod.
 
 --- task ---
 
-Is there anything that you want to change?
+Oes unrhyw beth rwyt ti am ei newid?
 
-You could:
-- Make the parrot even more annoying
-- Make the bugs smaller
-- Change the `color effect`{:class="block3looks"} to camouflage the bug on each level
-- Change the font or colour of the text
+Gallet ti:
+- Wneud y parot hyd yn oed yn fwy annifyr
+- Gwneud y chwilod yn llai
+- Newid yr `effaith lliw`{:class="block3looks"} i rhoi cuddliw i'r chwilen ar bob lefel
+- Newid ffont neu liw'r testun
 
 --- /task ---
 
 --- task ---
 
-Is there someone else who can try your game? How fast can they find the bugs? They will not know where you have hidden them, so it might take them a bit longer!
+Oes rhywun arall fyddai'n gallu rhoi cynnig ar dy gêm? Pa mor gyflym allen nhw ddod o hyd i'r chwilod? Fyddan nhw ddim yn gwybod lle rwyt ti wedi'u cuddio, felly gallai gymryd ychydig yn hirach iddyn nhw!
 
-If you are in a club, then you could try someone else's game.
+Os wyt ti mewn clwb, yna fe allet ti roi cynnig ar gêm rhywun arall.
 
-Take a look at some 'Find the bug' projects created by community members, which you can explore in the Raspberry Pi Foundation's 'Find the bug' Scratch studio: [See inside](https://scratch.mit.edu/studios/29005236/){:target="_blank"}
+Cymer olwg ar brosiectau 'Canfod y Chwilen' sydd wedi'u creu gan aelodau'r gymuned, y gallet ti eu gweld ar stiwdio Scratch y Raspberry Pi Foundation: [Gweld tu mewn](https://scratch.mit.edu/studios/29005236/){:target="_blank"}
 
 --- /task ---
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Dyro ysbrydoliaeth i gymuned y Raspberry Pi Foundation gyda dy brosiect!
 
 [[[share-scratch]]]
 
-To submit your project to our 'Find the bug' Scratch studio for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+I gyflwyno dy brosiect i'n stiwdio Scratch 'Chwilio am Chwilen ' er mwyn i bobl eraill ei weld, cwblha'r [ffurflen hon](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---
 
