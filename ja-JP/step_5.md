@@ -1,23 +1,23 @@
-## Second level
+## 第2レベル
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will choose a backdrop to make a second level for your game, and make the bug hard to find. 
+背景を選択してゲームの第2レベルを作成し、バグを見つけにくくします。 
 </div>
 <div>
 
-![A street scene with a hidden bug.](images/second-level.png){:width="300px"}
+![バグが隠されたストリートシーン。](images/second-level.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-**Choose:** Choose a backdrop for your second level. We have chosen the **Urban** backdrop, but you can choose the one that you like the most.
+**選ぶ:** 第2レベルの背景を選択します。 **Urban** の背景を選択しましたが、最も好きなものを選択できます。
 
 ![](images/insert-urban-backdrop.png)
 
-**Tip:** Remember that backdrops with lots of colours and details will make the bug harder to find. How difficult will you make your game?
+**ヒント:** 色や細かい部分がたくさんある背景では、バグを見つけるのが難しくなることを忘れないでください。 ゲームをどれだけ難しくしますか？
 
 --- /task ---
 
