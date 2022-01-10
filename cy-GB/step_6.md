@@ -1,52 +1,52 @@
-## End screen
+## Sgrin diwedd
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
+Byddi di'n creu sgrin 'diwedd' i ddangos faint o eiliadau mae wedi cymryd i'r chwaraewr ddod o hyd i'r chwilod. 
 </div>
 <div>
 
-![The bug with the amount of time in a speech bubble.](images/end-screen.png){:width="300px"}
+![Y chwilen gyda'r amser mewn swigen siarad.](images/end-screen.png){:width="300px"}
 
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Sometimes, just beating a game isn't enough. Players like to know how they did against other players or themselves. Can you think of a game that shows you how well you did?</p>
+Weithiau, dydy curo gêm ddim yn ddigon. Mae chwaraewyr yn hoffi gwybod sut wnaethon nhw yn erbyn chwaraewyr eraill neu eu hunain. Alli di feddwl am gêm sy'n dangos pa mor dda wnes di chwarae?</p>
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+Ychwanega'r gefnlen **Chalkboard** o'r categori **Indoors**.
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![Y gefnlen Chalkboard yn y Llyfrgell Cefnlenni.](images/chalkboard.png)
 
-**Tip:** In Scratch, you can add the same backdrop more than once.
+**Awgrym:** Yn Scratch, galli di ychwanegu'r un gefnlen fwy nag unwaith.
 
 --- /task ---
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+Clicia ar y tab **Cefnlenni** i agor y Golygydd paent.
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard2-paint.png)
-
---- /task ---
-
---- task ---
-
-Change the name of the backdrop to `end`:
-
-![The backdrop name changed in the Paint editor.](images/end-screen-name.png)
-
-**Tip:** You rename the backdrop to **end** to make it easier to understand your code.
+![Y cefndir Chalkboard yn y Golygydd paent.](images/chalkboard2-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **bug** sprite and add code to position the bug on the 'end' screen:
+Newidia enw'r gefnlen i `diwedd`:
 
-![The bug sprite.](images/bug-sprite.png)
+![Enw'r gefnlen wedi'i newid yn y Golygydd paent.](images/end-screen-name.png)
+
+**Awgrym:** Rwyt ti'n ailenwi'r gefnlen i **ddiwedd** i'w gwneud hi'n haws deall dy god.
+
+--- /task ---
+
+--- task ---
+
+Cliciar ar y corlun **chwilen** ac ychwanegu cod i newid safle'r chwilen ar y sgrin 'diwedd':
+
+![Y corlun chwilen.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -56,13 +56,13 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-How long does it take you to find and click on the bugs? Scratch has a `timer`{:class="block3sensing"} that you can use to find out.
+Pa mor hir mae'n cymryd i ti ddod o hyd i'r chwilod a chlicio arnyn nhw? Mae gan Scratch `amserydd`{:class="block3sensing"} y galli di ei ddefnyddio i gael gwybod.
 
 --- task ---
 
-The `timer`{:class="block3sensing"} block is in the `Sensing`{:class="block3sensing"} blocks menu. Add code to make the bug `say`{:class="block3looks"} the `timer`{:class="block3sensing"} on the 'end' screen:
+Mae'r bloc `amserydd`{:class="block3sensing"} yn y ddewislen blociau `Synhwyro`{:class="block3sensing"}. Ychwanega god i wneud i'r chwilen `ddweud`{:class="block3looks"} yr `amserydd`{:class="block3sensing"} ar y sgrin 'diwedd':
 
-![The bug sprite.](images/bug-sprite.png)
+![Y corlun chwilen.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -71,23 +71,23 @@ go to x: [0] y: [30] // on the board
 +say (timer) // seconds taken
 ```
 
-![Inserting a 'timer' block into a 'say' block.](images/inserting-blocks.gif)
+![Mewnosod bloc 'amserydd' mewn bloc 'dweud'.](images/inserting-blocks.gif)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your finding skills. How long does it take you to find the bug?
+**Prawf:** Clicia ar y faner werdd i brofi dy sgiliau chwilio. Pa mor hir mae'n cymryd i ti ddod o hyd i'r chwilen?
 
 --- /task ---
 
-To go back to the 'start' screen, click on the bug on the 'end' screen.
+I fynd yn ôl i'r sgrin 'dechrau', clicia ar y chwilen ar y sgrin 'diwedd'.
 
 --- task ---
 
-Add code to make the bug stop saying the `timer`{:class="block3sensing"} when you go to the 'start' screen:
+Ychwanega god i wneud i'r chwilen stopio dweud yr `amserydd`{:class="block3sensing"} pan wyt ti'n mynd i'r sgrin 'dechrau':
 
-![The bug sprite.](images/bug-sprite.png)
+![Y corlun chwilen.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -98,13 +98,13 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-If you play the game a second time, the `timer`{:class="block3sensing"} will keep counting.
+Os wyt ti'n chwarae'r gêm yr eildro, bydd yr `amserydd`{:class="block3sensing"} yn parhau i gyfrif.
 
 --- task ---
 
-Add code to `reset the timer`{:class="block3sensing"} when the `backdrop switches to`{:class="block3events"} the first level:
+Ychwanega god i `ailosod yr amserydd`{:class="block3sensing"} pan fydd y `gefnlen yn newid i'r`{:class="block3events"} lefel gyntaf:
 
-![The bug sprite.](images/bug-sprite.png)
+![Y corlun chwilen.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v] // first level
@@ -117,7 +117,7 @@ go to x: [13] y: [132] // on the disco ball
 
 --- task ---
 
-**Test:** Click on the green flag and play the game. The timer should reset when you click on the bug on the 'start' screen to move to the first level. When you click on the bug on the 'end' screen, you should return to the 'start' screen and see that the bug is not saying the `timer`{:class="block3sensing"}.
+**Prawf:** Clicia ar y faner werdd a chwarae'r gêm. Dylai'r amserydd ailosod pan fyddi di'n clicio ar y chwilen ar y sgrin 'dechrau' i symud i'r lefel gyntaf. Pan fyddi di'n clicio ar y chwilen ar y sgrin 'diwedd', dylet ti fynd yn ôl i'r sgrin 'dechrau' a gweld nad ydy'r chwilen yn dweud `amserydd`{:class="block3sensing"}.
 
 --- /task ---
 
