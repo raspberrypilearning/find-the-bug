@@ -1,30 +1,30 @@
 ---
-title: Find the bug
+title: Chwilio am chwilen
 hero_image: images/banner.png
-description: Create a game in which you have to find a hidden bug on each level
+description: Creu gêm lle mae'n rhaid dod o hyd i chwilen gudd ar bob lefel
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: Introduction
+    title: Cyflwyniad
   - 
-    title: Start screen
+    title: Y sgrin dechrau
   - 
-    title: First level
+    title: Lefel gyntaf
     completion: engaged
   - 
-    title: Parrot distraction
+    title: Parot i dynnu sylw
   - 
-    title: Second level
+    title: Ail lefel
   - 
-    title: End screen
+    title: Sgrin y diwedd
   - 
-    title: Play the game
+    title: Chwarae'r gêm
     completion: internal
   - 
-    title: Reflection
+    title: Myfyrio
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -32,6 +32,6 @@ steps:
       passing_score: 3
     completion: external
   - 
-    title: Upgrade your game
+    title: Uwchraddio dy gêm
   - 
-    title: What next?
+    title: Beth nesaf?
