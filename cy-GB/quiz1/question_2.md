@@ -1,13 +1,13 @@
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Cwestiwn 2 o 3
 ---
 
-You used a `forever`{:class="block3control"} loop to make the **Parrot** sprite fly around in an annoying way.
+Wnes di ddefnyddio dolen `am byth`{:class="block3control"} i wneud i'r corlun **Parot** hedfan o gwmpas mewn ffordd annifyr.
 
-We have tried to add another distraction sprite, but it just moves once when we click on the green flag and then stops. How can we fix it?
+Rydyn ni wedi ceisio ychwanegu corlun arall i dynnu sylw, ond dim ond unwaith mae'n symud pan fyddwn ni'n clicio ar y faner werdd ac wedyn mae'n stopio. Sut allwn ni ddatrys hyn?
 
-![The Rocket sprite.](images/rocket-sprite.png)
+![Y corlun Rocket.](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -23,35 +23,35 @@ end
 
 --- choices ---
 
-- ( ) Change the number in the `move`{:class="block3motion"} block
+- ( ) Newidia y rhif yn y bloc `symud`{:class="block3control"}
 
   --- feedback ---
 
-If you change the number in the `move`{:class="block3motion"} block, you will change how far the sprite moves when the green flag is clicked, but this change will not make the rocket keep moving.
+Os wyt ti'n newid y rhif yn y bloc `symud`{:class="block3motion"} byddi di'n newid pa mor bell mae'r corlun yn symud pan fydd y faner werdd yn cael ei chlicio, ond fydd y newid hwn ddim yn gwneud i'r roced ddal ati i symud.
 
   --- /feedback ---
 
-- ( ) Remove the `if on edge, bounce`{:class="block3motion"} block
+- ( ) Tynna'r bloc `os ar yr ymyl, bowndio`{:class="block3motion"}
 
   --- feedback ---
 
-The `if on edge, bounce`{:class="block3motion"} block makes the sprite bounce off the edge of the Stage. If you removed it, then the rocket would get stuck at the edge of the Stage.
+Mae'r bloc `os ar yr ymyl, bowndio`{:class="block3motion"} yn gwneud i'r corlun fownsio oddi ar ymyl y Llwyfan. Pe byddi di'n ei dynnu, yna byddai'r roced yn mynd yn sownd ar ymyl y Llwyfan.
 
   --- /feedback ---
 
-- ( ) Add another `forever`{:class="block3control"} block
+- ( ) Ychwanega floc `am byth`{:class="block3control"}
 
 --- feedback ---
 
-A script can only have one `forever`{:class="block3control"} block. Did you notice that you cannot add a block underneath a `forever`{:class="block3control"} block?
+Dim ond un bloc `am byth`{:class="block3control"} all sgript gael. Wnes di sylwi nad oes modd ychwanegu bloc dan y bloc `am byth`{:class="block3control"}?
 
 --- /feedback ---
 
-- (x) Drag the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop
+- (x) Llusga'r bloc `symud`{:class="block3motion"} i mewn i'r ddolen `am byth`{:class="block3control"}
 
   --- feedback ---
 
-  Yes! The sprite only moves once. If you move the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop, the sprite will keep moving until you stop your project.
+  Grêt! Dim ond unwaith mae'r corlun yn symud. Os symudi di'r bloc `symud`{:class="block3motion"} i mewn i'r ddolen `am byth`{:class="block3control"}, bydd y corlun yn parhau i symud nes i ti stopio dy brosiect.
 
   --- /feedback ---
 
