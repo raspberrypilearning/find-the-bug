@@ -13,7 +13,7 @@ You will add a new backdrop as the first level in your game, and hide the bug.
 
 --- task ---
 
-Add the **Spotlight** backdrop from the **Music** category.
+**Spotlight** (スポットライト) の背景を **音楽** カテゴリから追加します。
 
 ![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
 
@@ -21,7 +21,7 @@ Add the **Spotlight** backdrop from the **Music** category.
 
 --- task ---
 
-Click on the **bug** sprite in the Sprite list. Add a script to change the `size`{:class="block3looks"} of your bug `when the backdrop switches to Spotlight`{:class="block3events"}:
+スプライトリストにある **バグ** スプライトをクリックします。 `背景がSpotlightに切り替わった時`{:class="block3eventsを"}、バグの`大きさ`{:class="block3looks"}を変えるスクリプトを追加します:
 
 ![The bug sprite.](images/bug-sprite.png)
 
@@ -56,7 +56,7 @@ The `next backdrop`{:class="block3looks"} block switches to the next backdrop in
 
 --- task ---
 
-Add a script to your **bug** sprite to `play a Pop sound`{:class="block3sound"} and switch to the `next backdrop`{:class="block3looks"} `when this sprite is clicked`{:class="block3events"}:
+`このスプライトが押されたとき`{:class="block3events"}に`Popの音を鳴らして`{:class="block3sound"}`次の背景にする`{:class="block3looks"}スクリプトを**バグ** スプライトに追加します:
 
 ![The bug sprite.](images/bug-sprite.png)
 
@@ -89,7 +89,7 @@ switch backdrop to [start v] // 'start' screen
 
 You will notice that on the 'start' screen, the bug will still have the settings to hide in its hiding place from the first level (in this example, on the disco ball).
 
-**Tip:** After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop.
+**ヒント:** リストの最後の背景の後、 `次の背景`{:class="block3looks"}で最初の背景に戻ります。
 
 --- /task ---
 
@@ -110,7 +110,7 @@ set size to [100] % // full-sized
 
 Try to position the bug on the 'start' screen.
 
-Your code will make the backdrop switch when you click on the bug! That is not helpful when you are trying to position the bug.
+Your code will make the backdrop switch when you click on the bug! バグを配置しようとしているとき、これは不便です。
 
 --- /task ---
 
@@ -122,7 +122,7 @@ Click on the green flag to return to the 'start' screen.
 
 Click on the **bug** sprite in the Sprite list and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
 
-![Breaking the script.](images/breaking-script.png)
+![スクリプトを壊す。](images/breaking-script.png)
 
 --- /task ---
 
@@ -132,7 +132,7 @@ Try to position the bug again. Drag the bug onto the chalkboard, below the text:
 
 ![](images/bug-chalkboard.png)
 
-Add code to make sure that the bug is positioned on the chalkboard every time your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+`背景が`{:class="block3events"} `スタート`{:class="block3events"}画面<0>になるたびに</0>{:class="block3events"}、バグが必ず黒板に配置されるコードを追加します。
 
 ![The bug sprite.](images/bug-sprite.png)
 
@@ -146,7 +146,7 @@ set size to [100] % // full-sized
 
 --- task ---
 
-Join the blocks back together so that the code blocks are under the `when this sprite clicked`{:class="block3events"} block again:
+コードブロックがもう一度`このスプライトが押されたとき`{:class="block3events"}ブロックの下にになるように、引き離したブロックをくっつけます。
 
 ![The 'when this sprite clicked' block joined to the 'play sound' and 'next backdrop' blocks.](images/fixed-script.png)
 
@@ -158,10 +158,10 @@ Join the blocks back together so that the code blocks are under the `when this s
 
 --- collapse ---
 ---
-title: Nothing happens when I click on the bug
+title: バグをクリックしても何も起こりません
 ---
 
-Did you forget to join the code back to the `when this sprite clicked`{:class="block3events"} block?
+`このスプライトが押されたとき`{:class="block3events"}ブロックにコードブロックをつなぎ戻すのを忘れてしまいましたか？
 
 --- /collapse ---
 
