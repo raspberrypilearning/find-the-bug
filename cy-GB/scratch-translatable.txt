@@ -1,0 +1,41 @@
+bach iawn
+
+ar y bêl disgo
+
+y sgrin 'dechrau'
+
+maint llawn
+
+ar y bwrdd
+
+peidio mynd wyneb i waered
+
+rhif rhwng -180 a 180
+
+dal ati i fod yn annifyr
+
+mae'r rhif yn rheoli'r cyflymder
+
+aros ar y Llwyfan
+
+fflapio
+
+rho gynnig ar 11 neu 50
+
+rho gynnig ar 0.1 neu 0.5
+
+dewiswch eich cefnlen
+
+rho gynnig ar faint arall
+
+yn ffenest y siop
+
+eiliadau wedi'u cymryd
+
+dweud dim
+
+lefel gyntaf
+
+cychwyn yr amserydd
+
+llusgo i roi lleoliad y chwilen yn gyntaf
