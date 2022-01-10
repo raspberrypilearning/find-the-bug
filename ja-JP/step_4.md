@@ -1,33 +1,33 @@
-## Parrot distraction
+## オウムが気を散らす
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-To make it harder for players to find and click on the bug, you will add an annoying parrot to distract them. 
+プレイヤーがバグを見つけてクリックするのを難しくするために、迷惑なオウムを追加して気を散らさせます。 
 </div>
 <div>
 
-![A colourful parrot on the Stage.](images/parrot-distraction.png){:width="300px"}
+![ステージ上のカラフルなオウム。](images/parrot-distraction.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Add the **Parrot** sprite.
+**Parrot** スプライトを追加します。
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+![「スプライトを選ぶ」アイコン。](images/sprite-button.png)
 
 --- /task ---
 
-In the [Catch the bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"} project, you used a `repeat`{:class="block3control"} loop.
+[Catch the bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_ blank"}プロジェクトでは、 `繰り返す`{:class="block3control"}ループを使用しました。
 
-You will use a different loop here. A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It is the perfect loop for an annoying parrot that will not stop flying around and getting in the way.
+ここでは別のループを使用します。 `ずっと`{:class="block3control"}ループは、その中のコードブロックを何度も実行します。 飛び回ったり邪魔になったりするのを止めない迷惑なオウムにとっては完璧なループです。
 
 --- task ---
 
-Add code to make the parrot flap around in a distracting way:
+コードを追加して、オウムを気が散るような方法で羽ばたかせます。
 
-![The Parrot sprite.](images/parrot-sprite.png)
+![Parrotのスプライト。](images/parrot-sprite.png)
 
 
 ```blocks3
@@ -47,13 +47,13 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag and test your project again. Can you remember where you hid the bug?
+**テスト:** 緑色のフラグをクリックして、プロジェクトをまたテストします。 バグを隠した場所を覚えていますか？
 
-In Scratch, code that is running glows with a yellow outline:
+Scratchでは、実行中のコードが黄色のアウトラインで光ります。
 
 ![](images/running-code.png)
 
-**Tip:** If the parrot gets too annoying while you are coding, you can click the red stop button above the Stage to stop the code from running.
+**ヒント:** コーディング中にオウムが煩わしすぎる場合は、ステージの上にある赤い停止ボタンをクリックして、コードの実行を停止できます。
 
 --- /task ---
 
