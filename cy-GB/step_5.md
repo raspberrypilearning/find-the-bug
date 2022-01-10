@@ -1,68 +1,68 @@
-## Second level
+## Ail lefel
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will choose a backdrop to make a second level for your game, and make the bug hard to find. 
+Byddi di'n dewis cefndir i wneud ail lefel ar gyfer dy gêm, ac yn ei gwneud hi'n anodd dod o hyd i'r chwilen. 
 </div>
 <div>
 
-![A street scene with a hidden bug.](images/second-level.png){:width="300px"}
+![Golygfa stryd gyda chwilen guddiedig.](images/second-level.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-**Choose:** Choose a backdrop for your second level. We have chosen the **Urban** backdrop, but you can choose the one that you like the most.
+**Dewis:** Dewisa gefnlen ar gyfer dy ail lefel. Rydyn ni wedi dewis y gefnlen **Urban**, ond gallet ti ddewis yr un rwyt ti'n ei hoffi fwyaf.
 
 ![](images/insert-urban-backdrop.png)
 
-**Tip:** Remember that backdrops with lots of colours and details will make the bug harder to find. How difficult will you make your game?
+**Awgrym:** Cofia bydd cefndiroedd gyda llawer o liwiau a manylion yn ei gwneud hi'n anoddach dod o hyd i'r chwilen. Pa mor anodd wyt ti am wneud dy gêm?
 
 --- /task ---
 
-To be able to drag your bug into a new position, you need to stop the `when this sprite clicked`{:class="block3events"} script from running.
+Er mwyn gallu llusgo dy chwilen i leoliad newydd, bydd angen i ti rwystro'r sgript `pan gaiff y corlun hwn ei glicio`{:class="block3events"} rhag rhedeg.
 
 --- task ---
 
-Drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them from running when you click on the bug:
+Llusga'r blociau i ffwrdd o'r bloc `pan gaiff y corlun hwn ei glicio`{:class="block3events"} i'w rhwystro rhag rhedeg pan fyddi di'n clicio ar y chwilen:
 
 ![](images/breaking-script.png)
 
 --- /task ---
 
-Your bug needs to be hard to find when the backdrop changes. You can resize the bug to make it harder to find.
+Mae angen i dy chwilen fod yn anodd dod o hyd iddi pan fydd y gefnlen yn newid. Galli di newid maint y chwilen i'w gwneud hi'n anoddach dod o hyd iddi.
 
 --- task ---
 
-Add code to `set the size`{:class="block3looks"} of the bug for the second level:
+Ychwanega god i `osod maint`{:class="block3looks"} y chwilen ar gyfer yr ail lefel:
 
-![The bug sprite.](images/bug-sprite.png)
+![Y corlun chwilen.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v] // choose your backdrop
 set size to [20] % // try another size 
 ```
 
-**Test:** Click on your new script to run it.
+**Prawf:** Clicia ar dy sgript newydd i'w rhedeg.
 
 --- /task ---
 
 --- task ---
 
-Drag your bug on the Stage to a good hiding place for this level.
+Llusga dy chwilen ar i'r Llwyfan i guddfan dda ar gyfer y lefel hon.
 
-![The bug hidden in the shop window in the middle of the backdrop.](images/hidden-urban-backdrop.png)
+![Y chwilen wedi'i chuddio yn ffenestr y siop yng nghanol y gefnlen.](images/hidden-urban-backdrop.png)
 
 --- /task ---
 
-Position your bug in its hiding place.
+Rho dy chwilen yn ei chuddfan.
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block to your code:
+Ychwanega floc `mynd i x: y:`{:class="block3motion"} at dy god:
 
-![The bug sprite.](images/bug-sprite.png)
+![Y corlun chwilen.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -74,7 +74,7 @@ set size to [20] % // try another size
 
 --- task ---
 
-Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that when the bug is clicked, the backdrop switches to the `next backdrop`{:class="block3looks"}:
+Cysyllta'r blociau yn ôl i'r bloc `pan gaiff y corlun hwn ei glicio`{:class="block3events"} fel bod y gefnlen yn newid i'r `gefnlen nesaf`{:class="block3looks"} pan gaiff y chwilen ei chlicio:
 
 ![](images/fixed-script.png)
 
@@ -82,17 +82,17 @@ Join the blocks back to the `when this sprite clicked`{:class="block3events"} bl
 
 --- task ---
 
-**Test:** Click on the green flag to test your project.
+**Prawf:** Clicia ar y faner werdd i brofi dy brosiect.
 
 --- /task ---
 
-Your bug may now be in front of the parrot.
+Efallai fod dy chwilen nawr o flaen y parot.
 
 --- task ---
 
-Add a script to make sure that your bug is always at the `back`{:class="block3looks"}:
+Ychwanega sgript i wneud yn siŵr fod dy chwilen bob amser yn y `cefn`{:class="block3looks"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![Y corlun chwilen.](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -100,7 +100,7 @@ forever
 go to [back v] layer
 ```
 
-Now, your bug will always stay at the back, even if you need to change its position.
+Nawr, bydd dy chwilen bob amser yn aros yn y cefn, hyd yn oed os bydd angen i ti newid ei safle.
 
 --- /task ---
 
