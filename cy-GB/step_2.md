@@ -21,7 +21,7 @@ Agora'r [prosiect cychwynnol canfod y chwilen](https://scratch.mit.edu/projects/
 
 --- task ---
 
-Ychwanega'r gefnlen **Chalkboard** o'r categori **Tu allan**.
+Ychwanega'r gefnlen **Chalkboard** o'r categori **Dan do**.
 
 ![Eicon 'Dewiswch Gefnlen'.](images/backdrop-button.png)
 

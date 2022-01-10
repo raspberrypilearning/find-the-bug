@@ -16,7 +16,7 @@ Weithiau, dydy curo gêm ddim yn ddigon. Mae chwaraewyr yn hoffi gwybod sut wnae
 
 --- task ---
 
-Ychwanega'r gefnlen **Chalkboard** o'r categori **Dan Do**.
+Ychwanega'r gefnlen **Chalkboard** o'r categori **Dan do**.
 
 ![Y gefnlen Chalkboard yn y Llyfrgell Cefnlenni.](images/chalkboard.png)
 
