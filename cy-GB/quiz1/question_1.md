@@ -1,19 +1,19 @@
-## Reflection
+## Myfyrio
 
-Well done, you have learned a lot! Now, it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+Da iawn! Rwyt ti wedi dysgu cryn dipyn! Nawr, mae'n bryd myfyrio ar y dysgu - mae hyn yn elfen bwysig o ddysgu, oherwydd mae'n helpu i wneud cysylltiadau newydd yn dy ymennydd.
 
-Answer the three questions below to reflect on what you have learned.
+Ateba'r tri chwestiwn isod i fyfyrio ar yr hyn rwyt ti wedi'i ddysgu.
 
-When you have answered each question, click on **Submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Ar ôl ateb pob cwestiwn, clicia ar **Cyflwyno**. Byddi di'n cael dy dywys i'r ateb cywir. Galli di wneud hyn gymaint ag y mynni.
 
-Have fun!
+Mwynha!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Cwestiwn 1 o 3
 ---
 
-In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
+Yn dy gêm, wnes di ychwanegu'r cod hwn at dy **chwilen** i symud drwy'r cefnlenni bob tro roedd hi'n cael ei chlicio.
 
 ```blocks3
 when this sprite clicked
@@ -21,19 +21,19 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Look at this image showing a 'Find the bug' game being played.
+Edrycha ar y ddelwedd hon sy'n dangos gêm 'Chwilio am chwilen' yn cael ei chwarae.
 
-![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
+![Y golygydd Scratch gyda chefnlenni yn y drefn yn dechrau, Spotlight, Urban, diwedd; a'r Llwyfan yn dangos y cefndir Spotlight.](images/quiz1-backdrops.png)
 
-In this game, which backdrop would appear next when you click on the bug?
+Yn y gêm yma, pa gefnlen fyddai'n ymddangos nesaf ar ôl i ti glicio'r chwilen?
 
 --- choices ---
 
-- ( ) start
+- ( ) dechrau
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  Mae angen i ti feddwl am drefn y cefnlenni.
 
   --- /feedback ---
 
@@ -41,7 +41,7 @@ In this game, which backdrop would appear next when you click on the bug?
 
   --- feedback ---
 
-Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
+Cywir. Mae'r bloc `cefnlen nesaf`{:class="block3looks"} yn newid i'r gefnlen nesaf yn y drefn y mae'r cefnlenni wedi'u rhestru pan fyddi di'n clicio ar y tab **Cefnlenni** ar gyfer y **Llwyfan**.
 
 --- /feedback ---
 
@@ -49,15 +49,15 @@ Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdr
 
   --- feedback ---
 
-  The **Spotlight** backdrop is showing on the Stage. You need to think about the order of the backdrops.
+  Mae'r gefnlen **Spotlight** yn dangos ar y Llwyfan. Mae angen i ti feddwl am drefn y cefnlenni.
 
   --- /feedback ---
 
-- ( ) end
+- () diwedd
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  Mae angen i ti feddwl am drefn y cefnlenni.
 
   --- /feedback ---
 
