@@ -1,19 +1,19 @@
-## Start screen
+## Sgrin cychwyn
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your game will begin with a 'start' screen, and players will click on the bug to go to the first level.
+Bydd eich gêm yn dechrau gyda sgrin 'cychwyn', a bydd chwaraewyr yn clicio ar y chwilen i fynd i'r lefel gyntaf.
 </div>
 <div>
 
-!["Find the bug" text on a chalkboard on the Stage.](images/start-screen.png){:width="300px"}
+![Testun "Chwilio am chwilen" ar fwrdd du ar y Llwyfan.](images/start-screen.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch will open in another browser tab.
+Agora'r [prosiect cychwynnol canfod y chwilen](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Bydd Scratch yn agor mewn tab arall ar y porwr.
 
 [[[working-offline]]]
 
@@ -21,19 +21,19 @@ Open the [Find the bug starter project](https://scratch.mit.edu/projects/5822147
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+Ychwanega'r gefnlen **Chalkboard** o'r categori **Tu allan**.
 
-![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
+![Eicon 'Dewiswch Gefnlen'.](images/backdrop-button.png)
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![Y gefnlen Chalkboard yn y Llyfrgell Cefnlenni.](images/chalkboard.png)
 
 --- /task ---
 
-The **Stage** has a **Backdrops** tab instead of a **Costumes** tab. This is where you can create images for the **Stage**.
+Mae gan y **Llwyfan** dab **Cefnlenni** yn hytrach na thab **Gwisgoedd**. Dyma lle galli di greu delweddau ar gyfer y **Llwyfan**.
 
 --- task ---
 
-Click on the Stage pane.
+Clicia ar y cwarel Llwyfan.
 
 ![](images/stage-pane.png)
 
@@ -41,74 +41,74 @@ Click on the Stage pane.
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+Clicia ar y tab **Cefnlenni** i agor y Golygydd paent.
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard-paint.png)
+![Y cefndir Chalkboard yn y Golygydd paent.](images/chalkboard-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Select **backdrop1** and click on the **Delete** icon to remove the **backdrop1** backdrop from your project. You will not need the **backdrop1** backdrop in this project.
+Dewisa **backdrop1** a chlicio ar yr eicon **Dileu** i dynnu'r gefnlen **backdrop1** o dy brosiect. Fydd dim angen y gefnlen **backdrop1** yn y prosiect hwn.
 
 ![](images/delete-backdrop1.png)
 
 --- /task ---
 
-The **Chalkboard** backdrop will now be highlighted.
+Bydd y gefnlen **Chalkboard** wedi'i hamlygu nawr.
 
 --- task ---
 
-Click on **Convert to Vector**. Now, you will be able to add text that you can move around.
+Clicia ar **Trosi i Fector**. Nawr, byddi di'n gallu ychwanegu testun y galli di ei symud o gwmpas.
 
-![The 'Convert to Vector' button.](images/vector-button.png)
+![Y botwm 'Trosi i Fector'.](images/vector-button.png)
 
 --- /task ---
 
 --- task ---
 
-Use the **Text** tool to add the text `Find the bug` to the chalkboard:
+Defnyddia'r offeryn **Testun** i ychwanegu'r testun `Chwilio am chwilen` at y bwrdd du:
 
 ![](images/chalkboard-text.png)
 
-We used the **Marker** font in white, but **choose** the font and colour that you want to use.
+Fe ddefnyddion ni'r ffont **Marker** mewn gwyn, ond **dewisa** y ffont a'r lliw rwyt ti am eu defnyddio.
 
-**Tip:** Switch to the **Select** (Arrow) tool to move your text around. To change the size of the text, grab the corner of the text and drag it.
-
---- /task ---
-
---- task ---
-
-Change the name of the backdrop to `start`, because you will need to select it later in the project.
-
-![The Costume name box highlighted in the Paint editor.](images/start-screen-name.png)
-
-**Tip:** If you use names that make sense, it will be easier to understand your project, especially when you come back to a project later.
+**Awgrym:** Newidia i'r offeryn **Dewis** (Saeth) i symud dy destun o gwmpas. I newid maint y testun, cydia yng nghornel y testun a'i lusgo.
 
 --- /task ---
 
 --- task ---
 
-Delete the **Scratch Cat** sprite.
+Newidia enw'r gefnlen i `dechrau`, oherwydd bydd angen i ti ei dewis yn nes ymlaen yn y prosiect.
+
+![Y blwch Enw gwisg wedi'i amlygu yn y Golygydd paent.](images/start-screen-name.png)
+
+**Awgrym:** Os wyt ti'n defnyddio enwau sy'n gwneud synnwyr, bydd yn haws deall dy brosiect, yn enwedig pan ddoi di yn ôl i brosiect yn nes ymlaen.
 
 --- /task ---
 
 --- task ---
 
-Click on **Choose a Sprite** and type `bug` in the search box.
+Dilea'r corlun **Scratch Cat**.
 
-**Choose:** Choose a bug, which players will need to find in your game.
+--- /task ---
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+--- task ---
 
-!["bug" search results showing seven different bugs.](images/bug-search.png)
+Clicia ar **Dewiswch Gorlun** a theipio `bug` yn y blwch chwilio.
 
-**Tip:** Give your project a name. You might like to include the name of the bug that you have just chosen.
+**Dewis:** Dewisa chwilen y bydd angen i chwaraewyr ddod o hyd iddo yn dy gêm.
+
+![Eicon "Dewiswch Gorlun".](images/sprite-button.png)
+
+![Canlyniadau chwilio am "bug" sy'n dangos saith chwilen wahanol.](images/bug-search.png)
+
+**Awgrym:** Rho enw i dy brosiect. Efallai yr hoffet ti gynnwys enw'r chwilen rwyt ti newydd ei ddewis.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A mistake in a computer program is called a <span style="color: #0faeb0">**bug**</span>. Finding and removing mistakes in computer programs is called <span style="color: #0faeb0">**debugging**</span>. Grace Hopper is a famous software engineer. Her team once found a moth in their computer. Their notes say, "First actual case of bug being found."
+Mae camgymeriad mewn rhaglen gyfrifiadurol yn cael ei alw'n <span style="color: #0faeb0">**chwilen**</span>. Yr enw am ddod o hyd i gamgymeriadau mewn rhaglenni cyfrifiadurol a'u tynnu yw <span style="color: #0faeb0">**difa chwilod**</span>. Mae Grace Hopper yn beiriannydd meddalwedd enwog. Daeth ei thîm o hyd i wyfyn yn eu cyfrifiadur ar un adeg. Dywed eu nodiadau, "Yr achos go iawn cyntaf o chwilen yn cael ei ddarganfod."
 </p>
 
 --- save ---
