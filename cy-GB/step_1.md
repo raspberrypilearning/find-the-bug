@@ -1,21 +1,21 @@
-## Introduction
+## Cyflwyniad
 
-In this project, you will create a game in which you have to find a hidden bug on each level. The game will have 'start' and 'end' screen backdrops, and a timer to show the player how quickly they found the bugs.
+Yn y prosiect hwn, byddi di'n creu gêm lle mae'n rhaid i ti ddod o hyd i'r chwilen sy'n cuddio ar bob lefel. Bydd gan y gêm gefnlenni sgrin 'dechrau' a 'diwedd', ac amserydd i ddangos i'r chwaraewr pa mor gyflym y daethon nhw o hyd i'r chwilod.
 
-You will:
-+ Create levels for your game using `next backdrop`{:class="block3looks"} and `when backdrop switches to`{:class="block3events"} blocks
-+ Use a `forever`{:class="block3control"} loop to keep running code blocks
-+ Use the `timer`{:class="block3sensing"} **variable** to let the player know how quickly they found the bugs
+Byddi di'n:
++ Creu lefelau ar gyfer dy gêm gan ddefnyddio blociau `cefnlen nesaf`{:class="block3looks"} a `pan fydd y gefnlen yn newid i`{:class="block3events"}
++ Defnyddia ddolen `am byth`{:class="block3control"} i redeg blociau cod yn ddi-dor
++ Defnyddio'r **newidyn** `amserydd`{:class="block3sensing"} i roi gwybod i'r chwaraewr pa mor gyflym y daethon nhw o hyd i'r chwilod
 
 --- no-print --- --- task ---
-### Try it
+### Rho gynnig arni
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
-Click on the bug to start the game.
+Clicia ar y chwilen i brofi'r gêm.
 
-Try to find the bug on each level.
+Ceisia ddod o hyd i'r chwilen ar bob lefel.
 
-How well are the bugs hidden? You will get to add your own levels and make it as easy or difficult as you like.
+Pa mor dda mae'r chwilod wedi'u cuddio? Byddi di'n cael ychwanegu dy lefelau dy hun a'i gwneud mor hawdd neu anodd ag wyt ti'n dymuno.
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -28,10 +28,10 @@ How well are the bugs hidden? You will get to add your own levels and make it as
 
 --- print-only ---
 
-![The completed project.](images/showcase_static.png)
+![Y prosiect gorffenedig.](images/showcase_static.png)
 
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-More than 2.5 billion people play video games every year. Just think how many people are involved in creating those games. Would you like a job designing, coding, or testing games for other people to play? 
+Mae mwy na 2.5 biliwn o bobl yn chwarae gemau fideo bob blwyddyn. Meddylia faint o bobl sy'n cymryd rhan mewn creu'r gemau hynny. Hoffet ti gael swydd yn dylunio, codio, neu brofi gemau i bobl eraill eu chwarae? 
 </p>
