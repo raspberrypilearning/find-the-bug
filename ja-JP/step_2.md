@@ -1,19 +1,19 @@
-## Start screen
+## スタート画面
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your game will begin with a 'start' screen, and players will click on the bug to go to the first level.
+ゲームはスタート画面で始まります。プレイヤーはバグをクリックして第1レベルに進みます。
 </div>
 <div>
 
-!["Find the bug" text on a chalkboard on the Stage.](images/start-screen.png){:width="300px"}
+![ステージ上の黒板にある「バグを見つけよう」というテキスト。](images/start-screen.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch will open in another browser tab.
+[「バグを見つけよう」スタータープロジェクト](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}を開きます。 Scratchはブラウザの別のタブで開きます。
 
 [[[working-offline]]]
 
@@ -21,7 +21,7 @@ Open the [Find the bug starter project](https://scratch.mit.edu/projects/5822147
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+**Chalkboard** (黒板) の背景を **屋内** カテゴリから追加します。
 
 ![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
 
@@ -29,11 +29,11 @@ Add the **Chalkboard** backdrop from the **Indoors** category.
 
 --- /task ---
 
-The **Stage** has a **Backdrops** tab instead of a **Costumes** tab. This is where you can create images for the **Stage**.
+**ステージ** には、 **コスチューム** タブではなく、 **背景** タブがあります。 そこで**ステージ**のイメージを作成できます。
 
 --- task ---
 
-Click on the Stage pane.
+ステージのペインをクリックします。
 
 ![](images/stage-pane.png)
 
@@ -41,7 +41,7 @@ Click on the Stage pane.
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+**背景** タブをクリックして、ペイントエディタを開きます。
 
 ![The Chalkboard backdrop in the Paint editor.](images/chalkboard-paint.png)
 
@@ -49,17 +49,17 @@ Click on the **Backdrops** tab to open the Paint editor.
 
 --- task ---
 
-Select **backdrop1** and click on the **Delete** icon to remove the **backdrop1** backdrop from your project. You will not need the **backdrop1** backdrop in this project.
+**背景1**を選択し、 **ゴミ箱**アイコンをクリックすると、**背景1**が プロジェクトから削除されます。 このプロジェクトで **背景1** は必要ありません。
 
 ![](images/delete-backdrop1.png)
 
 --- /task ---
 
-The **Chalkboard** backdrop will now be highlighted.
+**Chalkboard** の背景が強調表示されました。
 
 --- task ---
 
-Click on **Convert to Vector**. Now, you will be able to add text that you can move around.
+**ベクターに変換**をクリックします。 これで、移動できるテキストを追加できるようになります。
 
 ![The 'Convert to Vector' button.](images/vector-button.png)
 
@@ -108,7 +108,7 @@ Click on **Choose a Sprite** and type `bug` in the search box.
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A mistake in a computer program is called a <span style="color: #0faeb0">**bug**</span>. Finding and removing mistakes in computer programs is called <span style="color: #0faeb0">**debugging**</span>. Grace Hopper is a famous software engineer. Her team once found a moth in their computer. Their notes say, "First actual case of bug being found."
+A mistake in a computer program is called a <span style="color: #0faeb0">**bug**</span>. コンピュータプログラムの間違いを見つけて取り除くことを <span style="color: #0faeb0">**デバッグ**</span>と呼ばれます。 Grace Hopper is a famous software engineer. Her team once found a moth in their computer. Their notes say, "First actual case of bug being found."
 </p>
 
 --- save ---
