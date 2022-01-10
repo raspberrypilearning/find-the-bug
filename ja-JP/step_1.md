@@ -1,21 +1,21 @@
-## Introduction
+## はじめに
 
-In this project, you will create a game in which you have to find a hidden bug on each level. The game will have 'start' and 'end' screen backdrops, and a timer to show the player how quickly they found the bugs.
+このプロジェクトでは、各レベルに隠れているバグ(虫) を見つけるゲームを作成します。 ゲームには、「スタート」と「終了」の画面の背景があり、バグを見つけた速さをタイマーでプレーヤーに知らせます。
 
-You will:
-+ Create levels for your game using `next backdrop`{:class="block3looks"} and `when backdrop switches to`{:class="block3events"} blocks
-+ Use a `forever`{:class="block3control"} loop to keep running code blocks
-+ Use the `timer`{:class="block3sensing"} **variable** to let the player know how quickly they found the bugs
+あなたは次のことを行います。
++ `次の背景にする`{:class="block3looks"}と`背景が・・・になったとき`{:class="block3events"}ブロックを使ってゲームのレベルを作成します</0></0>
++ `ずっと`{:class="block3control"}ループを使用って、コードブロックを実行し続けます
++ `タイマー`{;class="block3sensing"} **変数** を使って、バグを見つけた速さをプレーヤーに知らせます。
 
 --- no-print --- --- task ---
-### Try it
+### 試してみる
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
-Click on the bug to start the game.
+バグをクリックしてゲームを開始します。
 
-Try to find the bug on each level.
+各レベルでバグを見つけてください。
 
-How well are the bugs hidden? You will get to add your own levels and make it as easy or difficult as you like.
+バグはどれくらい上手に隠れていますか？ あなた自身のレベルを追加して、あなたが好きなように易しくしたり、難しくしたりすることができます。
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -28,10 +28,10 @@ How well are the bugs hidden? You will get to add your own levels and make it as
 
 --- print-only ---
 
-![The completed project.](images/showcase_static.png)
+![完了済みのプロジェクト。](images/showcase_static.png)
 
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-More than 2.5 billion people play video games every year. Just think how many people are involved in creating those games. Would you like a job designing, coding, or testing games for other people to play? 
+毎年25億人以上がビデオゲームをプレイしています。 それらのゲームの作成に何人の人が関わっているのか考えてみてください。 他の人がプレイできるようにゲームを設計、コーディング、またはテストする仕事をしたいですか？ 
 </p>
