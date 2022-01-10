@@ -1,41 +1,41 @@
-tiny
+bach iawn
 
-on the disco ball
+ar y bêl disgo
 
-'start' screen
+y sgrin 'dechrau'
 
-full-sized
+maint llawn
 
-on the board
+ar y bwrdd
 
-do not go upside down
+peidio mynd wyneb i waered
 
-number from -180 to 180
+rhif rhwng -180 a 180
 
-keep being annoying
+dal ati i fod yn annifyr
 
-the number controls the speed
+mae'r rhif yn rheoli'r cyflymder
 
-stay on the Stage
+aros ar y Llwyfan
 
-flap
+fflapio
 
-try 11 or 50
+rho gynnig ar 11 neu 50
 
-try 0.1 or 0.5
+rho gynnig ar 0.1 neu 0.5
 
-choose your backdrop
+dewiswch eich cefnlen
 
-try another size
+rho gynnig ar faint arall
 
-in the shop window
+yn ffenest y siop
 
-seconds taken
+eiliadau wedi'u cymryd
 
-say nothing
+dweud dim
 
-first level
+lefel gyntaf
 
-start the timer
+cychwyn yr amserydd
 
-drag to position the bug first
+llusgo i roi lleoliad y chwilen yn gyntaf
