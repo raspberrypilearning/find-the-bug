@@ -5,7 +5,7 @@ Os oes gen ti amser, galli di ychwanegu mwy o lefelau a mwy o bethau i dynnu syl
 Dyma'r blociau y bydd eu hangen arnat i guddio'r chwilen ar lefel newydd:
 
 ```blocks3
-when backdrop switches to [new level v]
+when backdrop switches to [lefel newydd v]
 
 set size to [20] %
 
