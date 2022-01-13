@@ -54,7 +54,7 @@ end
 title: المشروع المكتمل
 ---
 
-يمكنك الحصول على [المشروع كاملاً من هنا](https://scratch.mit.edu/projects/616613463/){:target="_blank"}.
+يمكنك الحصول على [المشروع كاملاً من هنا](https://scratch.mit.edu/projects/627780401/){:target="_blank"}.
 
 --- /collapse ---
 
