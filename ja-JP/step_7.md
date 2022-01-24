@@ -1,36 +1,36 @@
-## Play the game
+## ゲームをする
 
-Play your game and see how quickly you can find the bugs.
+ゲームをプレイして、バグをどれくらい早く見つけることができたか確認してください。
 
 --- task ---
 
-Is there anything that you want to change?
+何か変えたいことはありますか？
 
-You could:
-- Make the parrot even more annoying
-- Make the bugs smaller
-- Change the `color effect`{:class="block3looks"} to camouflage the bug on each level
-- Change the font or colour of the text
+こんなことができます:
+- オウムをもっと迷惑にする
+- バグをもっと小さくする
+- `色の効果`{:class="block3looks"}を変更して、各レベルのバグをカモフラージュする
+- テキストのフォントや色を変更する
 
 --- /task ---
 
 --- task ---
 
-Is there someone else who can try your game? How fast can they find the bugs? They will not know where you have hidden them, so it might take them a bit longer!
+あなたのゲームを試すことができる人が誰かいますか？ その人はどれくらい早くバグを見つけることができますか？ その人はあなたがバグを隠した場所を知らないので、見つけるのに少し時間がかかるかもしれません！
 
-If you are in a club, then you could try someone else's game.
+あなたがクラブにいるなら、あなたは他の人のゲームを試すことができます。
 
-Take a look at some 'Find the bug' projects created by community members, which you can explore in the Raspberry Pi Foundation's 'Find the bug' Scratch studio: [See inside](https://scratch.mit.edu/studios/29005236/){:target="_blank"}
+コミュニティメンバーによって作成されたいくつかの「バグを探せ」プロジェクトを見てください。これは、Raspberry Pi Foundationの「Find the bug」Scratchスタジオで調べることができます： [見てみる](https://scratch.mit.edu/studios/29005236/){:target="_ blank"}
 
 --- /task ---
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+あなたのプロジェクトでRaspberry Pi Foundationコミュニティに刺激を与えてください！
 
 [[[share-scratch]]]
 
-To submit your project to our 'Find the bug' Scratch studio for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+あなたのプロジェクトを、他の人が見ることができるように「バグを見つけよう」Scratchスタジオに送信するには、[このフォーム](https://form.raspberrypi.org/f/community-project-submissions){:target="blank"}を使ってください。
 
 --- /task ---
 
