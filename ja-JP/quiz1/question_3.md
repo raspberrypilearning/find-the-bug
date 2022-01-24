@@ -1,11 +1,11 @@
 --- question ---
 ---
-legend: Question 3 of 3
+凡例：質問3/3
 ---
 
-You added this script to the **bug** sprite:
+このスクリプトを**バグ** スプライトに追加しました。
 
-![The bug sprite.](images/bug-sprite.png)
+![バグのスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -14,39 +14,39 @@ go to x: [0] y: [30]
 + say (timer) 
 ```
 
-How does the `say`{:class="block3looks"} `timer`{:class="block3sensing"} block make the Stage look when the backdrop switches to **end**?
+`タイマー`{:class="block3sensing"}`と言う`{:class="block3looks"}ブロックで、背景が **終了**に切り替わったときに、ステージはどのようになりますか？
 
 --- choices ---
 
-- ( ) ![A parrot saying the timer value "4.52".](images/quiz_parrot_number.png)
+- ( ) ![タイマーの値"4.52"をいうオウム 。](images/quiz_parrot_number.png)
 
   --- feedback ---
 
-Have a look at the script again, and think about which sprite is the main character of the game (the parrot is just an annoying distraction).
+スクリプトをもう一度見て、どのスプライトがゲームの主人公であるかを考えてください(オウムは単に迷惑な邪魔者です)。
 
   --- /feedback ---
 
-- ( ) ![A parrot saying the word "timer".](images/quiz_parrot_timer.png)
+- ( ) !["タイマー"という言葉をしゃべるオウム。](images/quiz_parrot_timer.png)
 
   --- feedback ---
 
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer". Also, think about which sprite uses this code.
+`タイマー`{:class="block3sensing"}ブロックは、 `調べる`{:class="block3sensing"}ブロックメニューにあります。 スプライトは「タイマー」という言葉をしゃべるのではありません。 また、どのスプライトがこのコードを使用しているかを考えてください。
 
   --- /feedback ---
 
-- (x) ![A bug saying the timer value "4.52".](images/quiz_bug_number.png)
+- (x) ![タイマ値である "4.52"を言うバグ。](images/quiz_bug_number.png)
 
   --- feedback ---
 
-Yes. The `timer`{:class="block3sensing"} block reports the time since the project started, or since the timer reset.
+そうです。 `タイマー`{:class="block3sensing"}ブロックは、プロジェクトが開始されてから、またはタイマーがリセットされてからの時間を報告します。
 
   --- /feedback ---
 
-- ( ) ![A bug saying the word "timer".](images/quiz_bug_timer.png)
+- ( ) !["タイマー"という言葉をしゃべるバグ。](images/quiz_bug_timer.png)
 
   --- feedback ---
 
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer".
+`タイマー`{:class="block3sensing"}ブロックは、 `調べる`{:class="block3sensing"}ブロックメニューにあります。 スプライトは「タイマー」という言葉をしゃべるのではありません。
 
   --- /feedback ---
 
