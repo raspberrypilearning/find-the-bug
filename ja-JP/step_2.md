@@ -23,9 +23,9 @@
 
 **Chalkboard** (黒板) の背景を **屋内** カテゴリから追加します。
 
-![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
+![[背景を選ぶ] アイコン。](images/backdrop-button.png)
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![背景ライブラリの黒板の背景。](images/chalkboard.png)
 
 --- /task ---
 
@@ -43,7 +43,7 @@
 
 **背景** タブをクリックして、ペイントエディタを開きます。
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard-paint.png)
+![ペイントエディタの黒板の背景。](images/chalkboard-paint.png)
 
 --- /task ---
 
@@ -61,54 +61,54 @@
 
 **ベクターに変換**をクリックします。 これで、移動できるテキストを追加できるようになります。
 
-![The 'Convert to Vector' button.](images/vector-button.png)
+![[ベクターに変換] ボタン。](images/vector-button.png)
 
 --- /task ---
 
 --- task ---
 
-Use the **Text** tool to add the text `Find the bug` to the chalkboard:
+**テキスト** ツールを使用して `バグを探せ` の文字を黒板に追加します。
 
 ![](images/chalkboard-text.png)
 
-We used the **Marker** font in white, but **choose** the font and colour that you want to use.
+ここでは **日本語** フォントの白色を使用しましたが 、使いたいフォントと色を** 選択 ** してください。
 
-**Tip:** Switch to the **Select** (Arrow) tool to move your text around. To change the size of the text, grab the corner of the text and drag it.
-
---- /task ---
-
---- task ---
-
-Change the name of the backdrop to `start`, because you will need to select it later in the project.
-
-![The Costume name box highlighted in the Paint editor.](images/start-screen-name.png)
-
-**Tip:** If you use names that make sense, it will be easier to understand your project, especially when you come back to a project later.
+**ヒント：** **選択** (矢印) ツールに切り替えて、テキストを移動します。 テキストのサイズを変更するには、テキストの隅をつかんでドラッグします。
 
 --- /task ---
 
 --- task ---
 
-Delete the **Scratch Cat** sprite.
+背景の名前を `スタート` に変更します。あとからプロジェクトで、その名前を指定する必要があります。
+
+![ペイントエディタで強調表示されたコスチューム名ボックス。](images/start-screen-name.png)
+
+**ヒント:** 意味のある名前を使用すると、特に後でプロジェクトに戻ったときに、プロジェクトを理解しやすくなります。
 
 --- /task ---
 
 --- task ---
 
-Click on **Choose a Sprite** and type `bug` in the search box.
+**Scratch Cat**スプライトを削除します。
 
-**Choose:** Choose a bug, which players will need to find in your game.
+--- /task ---
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+--- task ---
 
-!["bug" search results showing seven different bugs.](images/bug-search.png)
+**スプライトを選ぶ** をクリックして、検索ボックスに `bug` と打ち込みます 。
 
-**Tip:** Give your project a name. You might like to include the name of the bug that you have just chosen.
+**選ぶ:** プレイヤーがゲームで見つけるバグを選択します。
+
+![「スプライトを選ぶ」アイコン。](images/sprite-button.png)
+
+!["バグ" 検索結果は7つの異なるバグを示しています。](images/bug-search.png)
+
+**ヒント:** プロジェクトに名前を付けます。 選択したバグの名前を含めておくとよいでしょう。
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A mistake in a computer program is called a <span style="color: #0faeb0">**bug**</span>. コンピュータプログラムの間違いを見つけて取り除くことを <span style="color: #0faeb0">**デバッグ**</span>と呼ばれます。 Grace Hopper is a famous software engineer. Her team once found a moth in their computer. Their notes say, "First actual case of bug being found."
+コンピュータプログラムの間違いは <span style="color: #0faeb0">**バグ**</span>と呼ばれます。 コンピュータプログラムの間違いを見つけて取り除くことを <span style="color: #0faeb0">**デバッグ**</span>と呼ばれます。 グレースホッパーは有名なソフトウェアエンジニアです。 彼女のチームは、コンピューターの中に蛾が入っているのを見つけたことがありました。 彼らのメモには、「バグが発見された最初の実際のケース」と書かれています。
 </p>
 
 --- save ---
