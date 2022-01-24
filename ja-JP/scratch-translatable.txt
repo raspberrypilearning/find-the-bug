@@ -1,41 +1,41 @@
-tiny
+小さく
 
-on the disco ball
+ミラーボールに
 
-'start' screen
+「スタート」 画面にする
 
-full-sized
+フルサイズ
 
-on the board
+黒板に
 
-do not go upside down
+上下がひっくり返らないように
 
-number from -180 to 180
+-180から180の間の数字
 
-keep being annoying
+邪魔をさせ続ける
 
-the number controls the speed
+数字によってスピードが変わる
 
-stay on the Stage
+ステージに居続ける
 
-flap
+コスチュームを変える
 
-try 11 or 50
+11と50も試してみる
 
-try 0.1 or 0.5
+0.1と0.5も試してみる
 
-choose your backdrop
+背景を選ぶ
 
-try another size
+違うサイズも試してみる
 
-in the shop window
+ショーウィンドウに
 
-seconds taken
+かかった秒数
 
-say nothing
+何も言わない
 
-first level
+第1レベル
 
-start the timer
+タイマーをスタート
 
-drag to position the bug first
+バグを最初の位置にドラッグします
