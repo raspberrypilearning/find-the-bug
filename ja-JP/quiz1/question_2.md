@@ -1,13 +1,13 @@
 --- question ---
 ---
-legend: Question 2 of 3
+凡例：質問2/3
 ---
 
-You used a `forever`{:class="block3control"} loop to make the **Parrot** sprite fly around in an annoying way.
+あなたは `ずっと`{:class="block3control"}ループを使って **Parrot** (オウム)スプライトが迷惑な方法で飛び回るようにしました。
 
-We have tried to add another distraction sprite, but it just moves once when we click on the green flag and then stops. How can we fix it?
+別の気を散らすスプライトを追加しようとしましたが、緑色の旗をクリックすると1回だけ動いて、その後停止します。 どうすれば修正できますか？
 
-![The Rocket sprite.](images/rocket-sprite.png)
+![Rocketのスプライト](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -23,35 +23,35 @@ end
 
 --- choices ---
 
-- ( ) Change the number in the `move`{:class="block3motion"} block
+- () `動かす`{:class="block3motion"}ブロックの数値を変更します
 
   --- feedback ---
 
-If you change the number in the `move`{:class="block3motion"} block, you will change how far the sprite moves when the green flag is clicked, but this change will not make the rocket keep moving.
+`動かす`{:class="block3motion"}ブロックの数値を変更すると、緑色の旗がクリックされたときにスプライトが移動する距離が変更されますが、この変更によってロケットが移動し続けることはありません。
 
   --- /feedback ---
 
-- ( ) Remove the `if on edge, bounce`{:class="block3motion"} block
+- ( ) `もし端に着いたら、跳ね返る`{:class="block3motion"} blockを削除します
 
   --- feedback ---
 
-The `if on edge, bounce`{:class="block3motion"} block makes the sprite bounce off the edge of the Stage. If you removed it, then the rocket would get stuck at the edge of the Stage.
+`もし端に着いたら、跳ね返る`{:class = "block3motion"}ブロックは、スプライトをステージの端から跳ね返らせます。 削除した場合、ロケットはステージの端で動かなくなります。
 
   --- /feedback ---
 
-- ( ) Add another `forever`{:class="block3control"} block
+- ( ) 別の`ずっと`{:class="block3control"} ブロックを追加する
 
 --- feedback ---
 
-A script can only have one `forever`{:class="block3control"} block. Did you notice that you cannot add a block underneath a `forever`{:class="block3control"} block?
+スクリプトは、`ずっと`{:class="block3control"}ブロックを１つだけ持つことができます。 `ずっと`{:class="block3control"}ブロックの下にはブロックを追加できないことに気づきましたか？
 
 --- /feedback ---
 
-- (x) Drag the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop
+- (x) `動かす`{:class="block3motion"} ブロックを `ずっと`{:class="block3control"}ループの中に入れます
 
   --- feedback ---
 
-  Yes! The sprite only moves once. If you move the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop, the sprite will keep moving until you stop your project.
+  そのとおり! スプライトは1回だけ動きます。 `動く`{:class="block3motion"}ブロックを `ずっと`{:class="block3control"}ループの中に移動すると、プロジェクトを停止するまでスプライトが動き続けます。
 
   --- /feedback ---
 
