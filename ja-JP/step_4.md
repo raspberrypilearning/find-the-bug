@@ -19,7 +19,7 @@
 
 --- /task ---
 
-[Catch the bus](https://projects.raspberrypi.org/ja-JP/projects/catch-the-bus){:target="_blank"}プロジェクトでは、 `繰り返す`{:class="block3control"}ループを使用しました。
+[バスに乗る](https://projects.raspberrypi.org/ja-JP/projects/catch-the-bus){:target="_blank"}プロジェクトでは、 `繰り返す`{:class="block3control"}ループを使用しました。
 
 ここでは別のループを使用します。 `ずっと`{:class="block3control"}ループは、その中のコードブロックを何度も実行します。 飛び回ったり邪魔になったりするのを止めない迷惑なオウムにとっては完璧なループです。
 

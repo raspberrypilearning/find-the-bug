@@ -21,7 +21,7 @@
 
 --- task ---
 
-スプライトリストにある **バグ** スプライトをクリックします。 `背景がSpotlightに切り替わった時`{:class="block3eventsを"}、バグの`大きさ`{:class="block3looks"}を変えるスクリプトを追加します:
+スプライトリストにある **バグ** スプライトをクリックします。 `背景がSpotlightに切り替わった時`{:class="block3events"}、バグの`大きさ`{:class="block3looks"}を変えるスクリプトを追加します:
 
 ![バグのスプライト。](images/bug-sprite.png)
 

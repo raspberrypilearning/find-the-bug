@@ -5,7 +5,7 @@
 新しいレベルでバグを隠すために必要なブロックは次のとおりです。
 
 ```blocks3
-when backdrop switches to [new level v]
+when backdrop switches to [新しいレベル v]
 
 set size to [20] %
 
