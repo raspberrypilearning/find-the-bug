@@ -1,10 +1,10 @@
-## What next?
+## 次は何をしますか？
 
-If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) pathway, you can move on to the [Silly eyes](https://projects.raspberrypi.org/en/projects/silly-eyes) project. In this project, you will design your own character with eyes that look at the mouse pointer when you move the mouse!
+[スクラッチ入門](https://projects.raspberrypi.org/en/pathways/scratch-intro) に沿って進めている方は、 [愚かな目](https://projects.raspberrypi.org/en/projects/silly-eyes) プロジェクトに進みましょう。 このプロジェクトでは、マウスを動かしたときにマウスポインタを追いかける独自のキャラクターをデザインします。
 
 --- print-only ---
 
-![The 'Silly eyes' project.](images/googly-eye-character.png)
+![愚かな目プロジェクト](images/googly-eye-character.png)
 
 --- /print-only ---
 
