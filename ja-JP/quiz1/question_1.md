@@ -1,19 +1,19 @@
-## Reflection
+## ふりかえり
 
-Well done, you have learned a lot! Now, it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+お疲れさまでした。たくさんのことを学びましたね！ 次はふりかえりの時間です。ふりかえりを行うことで、脳内に新しいつながりを作ることができます。このため、ふりかえりは学習の大事な部分です。
 
-Answer the three questions below to reflect on what you have learned.
+以下の3つの質問に答えて、学んだことをふりかえってみましょう。
 
-When you have answered each question, click on **Submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+それぞれの質問に回答したら、[**送信**] をクリックします。 正しい答えが表示されます。 このアクティビティは何度でも実行できます。
 
-Have fun!
+お楽しみください!
 
 --- question ---
 ---
-legend: Question 1 of 3
+凡例：質問1/3
 ---
 
-In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
+ゲームでは、このコードを **バグ** に追加して、クリックされるたびに背景を移動しました。
 
 ```blocks3
 when this sprite clicked
@@ -21,19 +21,19 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Look at this image showing a 'Find the bug' game being played.
+プレイ中の「バグを探せ」ゲームを示すこの画像を見てください。
 
-![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
+![スタート、Spotlight、Urban、終了の順に並んだ背景とScratchエディタ。Spotlightの背景を表示したステージ。](images/quiz1-backdrops.png)
 
-In this game, which backdrop would appear next when you click on the bug?
+このゲームで、バグをクリックすると次にどの背景が表示されますか？
 
 --- choices ---
 
-- ( ) start
+- ( ) スタート
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  背景の順序を考える必要があります。
 
   --- /feedback ---
 
@@ -41,7 +41,7 @@ In this game, which backdrop would appear next when you click on the bug?
 
   --- feedback ---
 
-Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
+そうです。 `次の背景にする`{:class="block3looks"} ブロックは**ステージ**の**背景**タブに並んでいる順序で次の背景に切り替えます。
 
 --- /feedback ---
 
@@ -49,15 +49,15 @@ Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdr
 
   --- feedback ---
 
-  The **Spotlight** backdrop is showing on the Stage. You need to think about the order of the backdrops.
+  **Spotlight** 背景がステージに表示されている状態です。 背景の順序を考える必要があります。
 
   --- /feedback ---
 
-- ( ) end
+- ( ) 終了
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  背景の順序を考える必要があります。
 
   --- /feedback ---
 
