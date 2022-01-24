@@ -1,52 +1,52 @@
-## End screen
+## 終了画面
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
+プレイヤーがバグを見つけるのにかかった秒数を表示する「終了」画面を作成します。 
 </div>
 <div>
 
-![The bug with the amount of time in a speech bubble.](images/end-screen.png){:width="300px"}
+![秒数の吹き出しに表示しているバグ。](images/end-screen.png){:width="300px"}
 
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Sometimes, just beating a game isn't enough. Players like to know how they did against other players or themselves. Can you think of a game that shows you how well you did?</p>
+ゲームに勝つだけでは十分ではない時があります。 プレイヤーは、他のプレイヤーや自分自身に対してどうだったかを知りたがっています。 あなたがどれだけうまくやったかを示すゲームを思いつくことができますか？</p>
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+**Chalkboard** (黒板) の背景を **屋内** カテゴリから追加します。
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![背景ライブラリのChalkboardの背景。](images/chalkboard.png)
 
-**Tip:** In Scratch, you can add the same backdrop more than once.
+**ヒント:** Scratchでは、同じ背景を何度も使うことができます。
 
 --- /task ---
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+**背景** タブをクリックして、ペイントエディタを開きます。
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard2-paint.png)
-
---- /task ---
-
---- task ---
-
-Change the name of the backdrop to `end`:
-
-![The backdrop name changed in the Paint editor.](images/end-screen-name.png)
-
-**Tip:** You rename the backdrop to **end** to make it easier to understand your code.
+![ペイントエディタのChalkboardの背景。](images/chalkboard2-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **bug** sprite and add code to position the bug on the 'end' screen:
+背景の名前を`終了`に変更します:
 
-![The bug sprite.](images/bug-sprite.png)
+![ペイントエディタで変更された背景名。](images/end-screen-name.png)
+
+**ヒント:** 背景の名前を**終了**に変更することで、コードを簡単に理解できるようなります。
+
+--- /task ---
+
+--- task ---
+
+**バグ** スプライトをクリックし、「終了」画面にバグを配置するコードを追加します。
+
+![バグのスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -56,13 +56,13 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-How long does it take you to find and click on the bugs? Scratch has a `timer`{:class="block3sensing"} that you can use to find out.
+バグを見つけてクリックするのにどのくらい時間がかかりますか？ Scratchには `タイマー`{:class="block3sensing"}があり、これを使用して調べることができます。
 
 --- task ---
 
-The `timer`{:class="block3sensing"} block is in the `Sensing`{:class="block3sensing"} blocks menu. Add code to make the bug `say`{:class="block3looks"} the `timer`{:class="block3sensing"} on the 'end' screen:
+`タイマー`{:class="block3sensing"}ブロックは、 `調べる`{:class="block3sensing"}ブロックメニューにあります。 バグが`タイマー`{:class="block3sensing"}の数値を`言う`{:class="block3looks"} ようにコードを追加します。
 
-![The bug sprite.](images/bug-sprite.png)
+![バグのスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -71,23 +71,23 @@ go to x: [0] y: [30] // on the board
 +say (timer) // seconds taken
 ```
 
-![Inserting a 'timer' block into a 'say' block.](images/inserting-blocks.gif)
+!['タイマー'ブロックを '言う'ブロックに挿入する。](images/inserting-blocks.gif)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your finding skills. How long does it take you to find the bug?
+**テスト:** 緑色のフラグをクリックして、あなたの探す能力ををテストします。 バグを見つけるのにどれくらい時間がかかりますか？
 
 --- /task ---
 
-To go back to the 'start' screen, click on the bug on the 'end' screen.
+「スタート」画面に戻るには、「終了」画面のバグをクリックします。
 
 --- task ---
 
-Add code to make the bug stop saying the `timer`{:class="block3sensing"} when you go to the 'start' screen:
+「スタート」画面に移動したときに `タイマー`{:class="block3sensing"}の値を言うのをやめるコードを追加します。
 
-![The bug sprite.](images/bug-sprite.png)
+![バグのスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -98,13 +98,13 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-If you play the game a second time, the `timer`{:class="block3sensing"} will keep counting.
+2回目にゲームをプレイすると、 `タイマー`{:class="block3sensing"}はカウントし続けています。
 
 --- task ---
 
-Add code to `reset the timer`{:class="block3sensing"} when the `backdrop switches to`{:class="block3events"} the first level:
+`背景が`{:class="block3events"}最初のレベル`になったとき`{:class="block3events"}、<0>タイマーをリセット</0>{：class = "block3sensing"}するコードをを追加します。
 
-![The bug sprite.](images/bug-sprite.png)
+![バグのスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v] // first level
@@ -117,7 +117,7 @@ go to x: [13] y: [132] // on the disco ball
 
 --- task ---
 
-**Test:** Click on the green flag and play the game. The timer should reset when you click on the bug on the 'start' screen to move to the first level. When you click on the bug on the 'end' screen, you should return to the 'start' screen and see that the bug is not saying the `timer`{:class="block3sensing"}.
+**テスト：** 緑色のフラグをクリックして、ゲームをプレイします。 「開始」画面でバグをクリックして最初のレベルに移るとき、タイマーがリセットされます。 「終了」画面でバグをクリックすると、「スタート」画面に戻り、バグが `タイマー`{:class="block3sensing"}の値を言っていないことがわかるでしょう。
 
 --- /task ---
 
