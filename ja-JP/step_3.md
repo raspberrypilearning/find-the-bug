@@ -95,7 +95,7 @@ switch backdrop to [スタート v] // 「スタート」 画面にする
 
 --- task ---
 
-スプライトリストにある **バグ** スプライトをクリックします。 `背景が`{:class="block3events"}`スタート`{:class="block3events"}`になったとき`{:class="block3events"}にバグの<0>大きさを設定する</0>{:class="block3looks"}スクリプトを追加します:
+スプライトリストにある **バグ** スプライトをクリックします。 `背景が`{:class="block3events"}`スタート`{:class="block3events"}`になったとき`{:class="block3events"}にバグの`大きさを設定する`{:class="block3looks"}スクリプトを追加します:
 
 ![バグのスプライト。](images/bug-sprite.png)
 
@@ -132,7 +132,7 @@ set size to [100] % // フルサイズ
 
 ![](images/bug-chalkboard.png)
 
-`背景が`{:class="block3events"} `スタート`{:class="block3events"}画面<0>になるたびに</0>{:class="block3events"}、バグが必ず黒板に配置されるコードを追加します。
+`背景が`{:class="block3events"} `スタート`{:class="block3events"}画面`になるたびに`{:class="block3events"}、バグが必ず黒板に配置されるコードを追加します。
 
 ![バグのスプライト。](images/bug-sprite.png)
 
