@@ -39,3 +39,5 @@ eerste niveau
 start de klok
 
 versleep de kever eerst naar z'n positie
+
+new level
