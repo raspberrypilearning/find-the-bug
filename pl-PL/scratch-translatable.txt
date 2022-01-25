@@ -39,3 +39,5 @@ pierwszy poziom
 uruchom stoper
 
 przeciągnij, aby najpierw umieścić robaka
+
+new level
