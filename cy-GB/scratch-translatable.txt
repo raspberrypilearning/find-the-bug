@@ -39,3 +39,5 @@ lefel gyntaf
 cychwyn yr amserydd
 
 llusgo i roi lleoliad y chwilen yn gyntaf
+
+new level
