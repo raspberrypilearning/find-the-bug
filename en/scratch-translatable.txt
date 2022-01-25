@@ -39,3 +39,5 @@ first level
 start the timer
 
 drag to position the bug first
+
+new level
