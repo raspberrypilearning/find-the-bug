@@ -53,7 +53,7 @@ next backdrop
 
   --- /feedback ---
 
-- ( ) end
+- ( ) τέλος
 
   --- feedback ---
 
