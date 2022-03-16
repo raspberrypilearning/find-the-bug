@@ -47,7 +47,7 @@ Een script kan maar één `herhaal`{:class="block3control"} blok hebben. Is het 
 
 --- /feedback ---
 
-- (x) Sleep het `neem stappen`{:class="block3motion"} blok binnen de `herhaal`{:class+"block3control"} lus
+- (x) Sleep het `neem stappen`{:class="block3motion"} blok binnen de `herhaal`{:class="block3control"} lus
 
   --- feedback ---
 
