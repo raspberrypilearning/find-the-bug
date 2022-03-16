@@ -14,7 +14,7 @@ go to x: [0] y: [30]
 + say (timer) 
 ```
 
-Hoe zorgt het `zeg`{:class="block3looks"} `klok`{:class="block3sensing"} blok ervoor dat het speelveld eruitziet wanneer de achtergrond overschakelt naar **end**?
+Hoe ziet het speelveld eruit na het `zeg`{:class="block3looks"} `klok`{:class="block3looks"} blok wanneer de achtergrond overschakelt naar **end**?
 
 --- choices ---
 
