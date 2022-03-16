@@ -13,7 +13,7 @@ Twoja gra rozpocznie się od ekranu "start", a gracze klikną robaka, aby przej�
 
 --- task ---
 
-Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch otworzy się w nowej zakładce przeglądarki.
+Otwórz [projekt startowy Znajdź robaka ](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch otworzy się w nowej zakładce przeglądarki.
 
 [[[working-offline]]]
 
