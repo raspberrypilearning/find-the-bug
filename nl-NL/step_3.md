@@ -72,7 +72,7 @@ Je project moet beginnen op het 'start' scherm.
 
 --- task ---
 
-Klik op het speelveld en voeg deze code toe aan het **speelveld**:
+Klik op het speelveld en voeg deze code toe aan het **Speelveld**:
 
 ![De Spotlight achtergrond.](images/stage-image.png)
 
