@@ -6,7 +6,7 @@ Je spel begint met een 'start' scherm en spelers klikken op de kever om naar het
 </div>
 <div>
 
-!["Vind de kever" tekst op een bord op het speelveld.](images/start-screen.png){:width="300px"}
+!["Vind de kever" tekst op een bord op het Speelveld.](images/start-screen.png){:width="300px"}
 
 </div>
 </div>
@@ -21,7 +21,7 @@ Open het [Vind de kever startproject](https://scratch.mit.edu/projects/582214723
 
 --- task ---
 
-Voeg de **Chalkboard** (bord) achtergrond uit de categorie **Binnen** toe.
+Voeg de **Chalkboard** (schoolbord) achtergrond uit de categorie **Binnen** toe.
 
 ![Het pictogram 'Kies een achtergrond'.](images/backdrop-button.png)
 
@@ -29,11 +29,11 @@ Voeg de **Chalkboard** (bord) achtergrond uit de categorie **Binnen** toe.
 
 --- /task ---
 
-Het **speelveld** heeft een **Achtergronden** tabblad in plaats van een **Uiterlijken** tabblad. Hier kun je afbeeldingen voor het **speelveld** maken.
+Het **Speelveld** heeft een **Achtergronden** tabblad in plaats van een **Uiterlijken** tabblad. Hier kun je afbeeldingen voor het **Speelveld** maken.
 
 --- task ---
 
-Klik op het speelveld.
+Klik op het Speelveld.
 
 ![](images/stage-pane.png)
 
@@ -71,9 +71,9 @@ Gebruik de **Tekst** knop om de tekst `Zoek de kever` toe te voegen aan het bord
 
 ![](images/chalkboard-text.png)
 
-We hebben het **Marker** font in het wit gebruikt, maar **kies** het lettertype en de kleur die jij wilt gebruiken.
+We hebben het **Marker** font in het wit gebruikt, maar **kies** het lettertype en de kleur die jij wil gebruiken.
 
-**Tip:** Schakel over naar het **Selecteer** (pijl) gereedschap om je tekst te verplaatsen. Om de grootte van de tekst te wijzigen, pak je de hoek van de tekst en sleep je deze.
+**Tip:** Schakel over naar het **Selecteren** (pijl) gereedschap om je tekst te verplaatsen. Om de grootte van de tekst te wijzigen, pak je de hoek van de tekst en sleep je deze.
 
 --- /task ---
 
@@ -83,7 +83,7 @@ Verander de naam van de achtergrond in `start`, omdat je deze later in het proje
 
 ![Het vak Uiterlijken gemarkeerd in de Teken-editor.](images/start-screen-name.png)
 
-**Tip:** Als je namen gebruikt die logisch zijn, zal het gemakkelijker zijn om je project te begrijpen, vooral wanneer je later bij een project terugkomt.
+**Tip:** Als je namen gebruikt die logisch zijn, is het gemakkelijker om je project te begrijpen, vooral wanneer je later bij een project terugkomt.
 
 --- /task ---
 

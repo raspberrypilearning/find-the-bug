@@ -1,13 +1,14 @@
 ## Inleiding
 
-In dit project maak je een spel waarin je op elk niveau een verborgen kever moet vinden. Het spel heeft een 'start' en 'eind' achtergrond, en een klok die de speler laat zien hoe snel ze de kevers gevonden hebben.
+In dit project maak je een spel waarin je op elk niveau een verborgen kever moet vinden. Het spel heeft een 'start' en 'eind' achtergrond en een klok die de spelers laat zien hoe snel ze de kevers gevonden hebben.
 
 Je gaat:
 + Niveaus maken voor je spel met behulp van `volgende achtergrond`{:class="block3looks"} en `verander achtergrond naar`{:class="block3looks"} blokken
 + Een `herhaal`{:class="block3control"} lus gebruiken om het script continu uit te voeren
 + Een `klok`{:class="block3sensing"} **variabele** gebruiken om de speler te laten weten hoe snel ze de kevers hebben gevonden
 
---- no-print --- --- task ---
+--- no-print ---
+--- task --- 
 ### Probeer het uit
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
