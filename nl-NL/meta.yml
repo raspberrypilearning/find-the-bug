@@ -25,12 +25,12 @@ steps:
     completion: internal
   - 
     title: Reflectie
+    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
-    completion: external
   - 
     title: Verbeter je project
   - 
