@@ -5,23 +5,26 @@ description: Creu gêm lle mae'n rhaid dod o hyd i chwilen gudd ar bob lefel
 version: 4
 listed: true
 copyedit: false
-last_tested: "2021-02-26"
+last_tested: '2021-02-26'
 steps:
-  - title: Cyflwyniad
-  - title: Sgrin cychwyn
-  - title: Lefel gyntaf
-    completion: engaged
-  - title: Parot i dynnu sylw
-  - title: Ail lefel
-  - title: Sgrin y diwedd
-  - title: Chwarae'r gêm
-    completion: internal
-  - title: Myfyrio
-    completion: external
-    knowledge_quiz:
-      path: quiz1
-      version: 1
-      questions: 3
-      passing_score: 3
-  - title: Uwchraddio dy gêm
-  - title: Beth nesaf?
+- title: Cyflwyniad
+- title: Sgrin cychwyn
+- title: Lefel gyntaf
+  completion:
+  - engaged
+- title: Parot i dynnu sylw
+- title: Ail lefel
+- title: Sgrin y diwedd
+- title: Chwarae'r gêm
+  completion:
+  - internal
+- title: Myfyrio
+  knowledge_quiz:
+    path: quiz1
+    version: 1
+    questions: 3
+    passing_score: 3
+  completion:
+  - external
+- title: Uwchraddio dy gêm
+- title: Beth nesaf?

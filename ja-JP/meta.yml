@@ -5,23 +5,26 @@ description: 各レベルで隠されたバグを見つけるゲームを作成�
 version: 4
 listed: true
 copyedit: false
-last_tested: "2021-02-26"
+last_tested: '2021-02-26'
 steps:
-  - title: はじめに
-  - title: スタート画面
-  - title: 第1レベル
-    completion: engaged
-  - title: オウムが気を散らす
-  - title: 第2レベル
-  - title: 終了画面
-  - title: ゲームをする
-    completion: internal
-  - title: ふりかえり
-    completion: external
-    knowledge_quiz:
-      path: quiz1
-      version: 1
-      questions: 3
-      passing_score: 3
-  - title: ゲームをアップグレードする
-  - title: 次は何をしますか？
+- title: はじめに
+- title: スタート画面
+- title: 第1レベル
+  completion:
+  - engaged
+- title: オウムが気を散らす
+- title: 第2レベル
+- title: 終了画面
+- title: ゲームをする
+  completion:
+  - internal
+- title: ふりかえり
+  knowledge_quiz:
+    path: quiz1
+    version: 1
+    questions: 3
+    passing_score: 3
+  completion:
+  - external
+- title: ゲームをアップグレードする
+- title: 次は何をしますか？
