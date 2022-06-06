@@ -5,23 +5,26 @@ description: Maak een spel waarin je op elk niveau een verborgen kever moet vind
 version: 4
 listed: true
 copyedit: false
-last_tested: "2021-02-26"
+last_tested: '2021-02-26'
 steps:
-  - title: Inleiding
-  - title: Startscherm
-  - title: Eerste niveau
-    completion: engaged
-  - title: Papegaai afleiding
-  - title: Tweede niveau
-  - title: Eindscherm
-  - title: Speel het spel
-    completion: internal
-  - title: Reflectie
-    completion: external
-    knowledge_quiz:
-      path: quiz1
-      version: 1
-      questions: 3
-      passing_score: 3
-  - title: Verbeter je project
-  - title: Wat kun je verder nog doen?
+- title: Inleiding
+- title: Startscherm
+- title: Eerste niveau
+  completion:
+  - engaged
+- title: Papegaai afleiding
+- title: Tweede niveau
+- title: Eindscherm
+- title: Speel het spel
+  completion:
+  - internal
+- title: Reflectie
+  knowledge_quiz:
+    path: quiz1
+    version: 1
+    questions: 3
+    passing_score: 3
+  completion:
+  - external
+- title: Verbeter je project
+- title: Wat kun je verder nog doen?
