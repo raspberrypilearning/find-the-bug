@@ -38,7 +38,7 @@ The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block
 
   --- feedback ---
 
-Yes. The `timer`{:class="block3sensing"} block reports the time since the project started, or since the timer reset. 
+Yes. The `timer`{:class="block3sensing"} block reports the time since the project started, or since the timer reset. The `say`{:class="block3looks"} block creates a speech bubble next to bug.
 
   --- /feedback ---
 
