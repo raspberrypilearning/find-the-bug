@@ -1,4 +1,4 @@
-### Share and play
+## Share and play
 
 --- task ---
 
@@ -13,7 +13,7 @@ To submit your project to our 'Find the bug' Scratch studio for other people to 
 --- no-print ---
 --- task --- 
 
-Play these fabulous games from our 'Find the bug' Scratch studio [See inside](https://scratch.mit.edu/studios/29005236/){:target="_blank"}.
+Play these fabulous games from our ['Find the bug' Scratch studio](https://scratch.mit.edu/studios/29005236/){:target="_blank"}.
 
 Notice how the creators have added extra levels, annoying distractions or upgraded the start and end screens:
 
