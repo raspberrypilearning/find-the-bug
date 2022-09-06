@@ -15,7 +15,6 @@ steps:
 - title: Parrot distraction
 - title: Second level
 - title: End screen
-- title: Play the game
   completion:
   - internal
 - title: Quick quiz
@@ -27,4 +26,5 @@ steps:
   completion:
   - external
 - title: Upgrade your game
+- title: Share and play
 - title: What next?
