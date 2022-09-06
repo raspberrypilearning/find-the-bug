@@ -15,10 +15,9 @@ steps:
 - title: Parrot distraction
 - title: Second level
 - title: End screen
-- title: Play the game
   completion:
   - internal
-- title: Reflection
+- title: Quick quiz
   knowledge_quiz:
     path: quiz1
     version: 1
@@ -27,4 +26,5 @@ steps:
   completion:
   - external
 - title: Upgrade your game
+- title: Share and play
 - title: What next?
