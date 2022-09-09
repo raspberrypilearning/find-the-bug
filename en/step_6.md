@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
+Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
 </div>
 <div>
 
@@ -14,6 +14,8 @@ You will create an 'end' screen to show the number of seconds that it has taken 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Sometimes, just beating a game isn't enough. Players like to know how they did against other players or themselves. Can you think of a game that shows you how well you did?</p>
 
+### Add another backdrop
+
 --- task ---
 
 Add the **Chalkboard** backdrop from the **Indoors** category. 
@@ -23,6 +25,8 @@ Add the **Chalkboard** backdrop from the **Indoors** category.
 **Tip:** In Scratch, you can add the same backdrop more than once.
 
 --- /task ---
+
+### Edit the backdrop
 
 --- task ---
 
@@ -42,6 +46,8 @@ Change the name of the backdrop to `end`:
 
 --- /task ---
 
+### Position the bug
+
 --- task ---
 
 Click on the **bug** sprite and add code to position the bug on the 'end' screen:
@@ -55,6 +61,8 @@ go to x: [0] y: [30] // on the board
 ```
 
 --- /task ---
+
+### Add a timer
 
 How long does it take you to find and click on the bugs? Scratch has a `timer`{:class="block3sensing"} that you can use to find out.
 
@@ -97,6 +105,8 @@ go to x: [0] y: [30] // on the board
 ```
 
 --- /task ---
+
+### Stop the timer
 
 If you play the game a second time, the `timer`{:class="block3sensing"} will keep counting. 
 

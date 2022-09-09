@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will add a new backdrop as the first level in your game, and hide the bug.
+Add a new backdrop as the first level in your game, and hide the bug.
 </div>
 <div>
 
@@ -11,6 +11,8 @@ You will add a new backdrop as the first level in your game, and hide the bug.
 </div>
 </div>
 
+### Add another Backdrop
+
 --- task ---
 
 Add the **Spotlight** backdrop from the **Music** category.
@@ -18,6 +20,8 @@ Add the **Spotlight** backdrop from the **Music** category.
 ![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
 
 --- /task ---
+
+### Resize the bug
 
 --- task ---
 
@@ -50,6 +54,8 @@ set size to [20] % // tiny
 
 --- /task ---
 
+### Move to the next Backdrop
+
 When you play the game and you successfully find the bug, the game will switch to the next backdrop. Also, to start the game, you will click on the bug on the 'start' screen.
 
 The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order in which the backdrops are listed when you click on the **Backdrops** tab for the **Stage**. 
@@ -68,7 +74,7 @@ next backdrop
 
 --- /task ---
 
-Your project needs to start on the 'start' screen.
+### Make the game start with the Start Screen
 
 --- task ---
 
@@ -106,15 +112,17 @@ set size to [100] % // full-sized
 
 --- /task ---
 
+### Change the position of the bug
+
 --- task ---
 
 Try to position the bug on the 'start' screen. 
 
 Your code will make the backdrop switch when you click on the bug! That is not helpful when you are trying to position the bug.
 
---- /task ---
-
 To fix the problem, you need to stop the code from running when you click on the bug.
+
+--- /task ---
 
 --- task ---
 
@@ -130,7 +138,7 @@ Click on the **bug** sprite in the Sprite list and drag the blocks away from the
 
 Try to position the bug again. Drag the bug onto the chalkboard, below the text: 
 
-![](images/bug-chalkboard.png)
+![The bug on the start screen](images/bug-chalkboard.png)
 
 Add code to make sure that the bug is positioned on the chalkboard every time your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
 
