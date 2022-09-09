@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your game will begin with a 'start' screen, and players will click on the bug to go to the first level.
+Give your game a 'start' screen.
 </div>
 <div>
 
@@ -11,6 +11,8 @@ Your game will begin with a 'start' screen, and players will click on the bug to
 </div>
 </div>
 
+### Open the starter project
+
 --- task ---
 
 Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch will open in another browser tab.
@@ -18,6 +20,8 @@ Open the [Find the bug starter project](https://scratch.mit.edu/projects/5822147
 [[[working-offline]]]
 
 --- /task ---
+
+### Add a Backdrop
 
 --- task ---
 
@@ -35,9 +39,11 @@ The **Stage** has a **Backdrops** tab instead of a **Costumes** tab. This is whe
 
 Click on the Stage pane. 
 
-![](images/stage-pane.png)
+![The Stage pane in the bottom right corner is highlighted.](images/stage-pane.png)
 
 --- /task ---
+
+### Edit the Backdrop
 
 --- task ---
 
@@ -51,7 +57,7 @@ Click on the **Backdrops** tab to open the Paint editor.
 
 Select **backdrop1** and click on the **Delete** icon to remove the **backdrop1** backdrop from your project. You will not need the **backdrop1** backdrop in this project.
 
-![](images/delete-backdrop1.png)
+![Backdrop1 is highlighted in the top left corner.](images/delete-backdrop1.png)
 
 --- /task ---
 
@@ -69,13 +75,15 @@ Click on **Convert to Vector**. Now, you will be able to add text that you can m
 
 Use the **Text** tool to add the text `Find the bug` to the chalkboard:
 
-![](images/chalkboard-text.png)
+![Find the bug is written on the chalkboard.](images/chalkboard-text.png)
 
 We used the **Marker** font in white, but **choose** the font and colour that you want to use.
 
 **Tip:** Switch to the **Select** (Arrow) tool to move your text around. To change the size of the text, grab the corner of the text and drag it.
 
 --- /task ---
+
+## Rename the Backdrop
 
 --- task ---
 
@@ -86,6 +94,8 @@ Change the name of the backdrop to `start`, because you will need to select it l
 **Tip:** If you use names that make sense, it will be easier to understand your project, especially when you come back to a project later.
 
 --- /task ---
+
+### Add the Bug Sprite
 
 --- task ---
 

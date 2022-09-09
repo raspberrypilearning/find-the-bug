@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will choose a backdrop to make a second level for your game, and make the bug hard to find. 
+Choose a backdrop to make a second level for your game, and make the bug hard to find. 
 </div>
 <div>
 
@@ -11,27 +11,29 @@ You will choose a backdrop to make a second level for your game, and make the bu
 </div>
 </div>
 
+### Add another backdrop
+
 --- task ---
 
 **Choose:** Choose a backdrop for your second level. We have chosen the **Urban** backdrop, but you can choose the one that you like the most. 
 
-![](images/insert-urban-backdrop.png)
+![The bug and parrot on an urban backdrop.](images/insert-urban-backdrop.png)
 
 **Tip:** Remember that backdrops with lots of colours and details will make the bug harder to find. How difficult will you make your game?  
 
 --- /task ---
 
-To be able to drag your bug into a new position, you need to stop the `when this sprite clicked`{:class="block3events"} script from running.
+### Stop the code from running
 
 --- task ---
 
 Drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them from running when you click on the bug:
 
-![](images/breaking-script.png)
+![Breaking the code.](images/breaking-script.png)
 
 --- /task ---
 
-Your bug needs to be hard to find when the backdrop changes. You can resize the bug to make it harder to find.
+### Resize the bug
 
 --- task ---
 
@@ -47,6 +49,8 @@ set size to [20] % // try another size
 **Test:** Click on your new script to run it.
 
 --- /task ---
+
+### Hide your bug
 
 --- task ---
 
@@ -72,11 +76,13 @@ set size to [20] % // try another size
 
 --- /task ---
 
+### Test your code
+
 --- task ---
 
 Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that when the bug is clicked, the backdrop switches to the `next backdrop`{:class="block3looks"}:
 
-![](images/fixed-script.png)
+![The blocks are joined back together.](images/fixed-script.png)
 
 --- /task ---
 
