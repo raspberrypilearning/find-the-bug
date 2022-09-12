@@ -174,5 +174,3 @@ Did you forget to join the code back to the `when this sprite clicked`{:class="b
 --- /collapse ---
 
 --- /task ---
-
---- save ---
