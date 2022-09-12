@@ -121,5 +121,4 @@ Click on **Choose a Sprite** and type `bug` in the search box.
 A mistake in a computer program is called a <span style="color: #0faeb0">**bug**</span>. Finding and removing mistakes in computer programs is called <span style="color: #0faeb0">**debugging**</span>. Grace Hopper is a famous software engineer. Her team once found a moth in their computer. Their notes say, "First actual case of bug being found."
 </p>
 
---- save ---
 
