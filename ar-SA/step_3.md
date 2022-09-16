@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-ستضيف خلفية جديدة كأول مستوى في لعبتك، وستقوم بإخفاء الحشرة.
+Add a new backdrop as the first level in your game, and hide the bug.
 </div>
 <div>
 
@@ -11,6 +11,8 @@
 </div>
 </div>
 
+### Add another Backdrop
+
 --- task ---
 
 أضف خلفية **أضواء المسرح** من فئة **الموسيقا**.
@@ -18,6 +20,8 @@
 ![أيقونة "اختيار الخلفية".](images/backdrop-button.png)
 
 --- /task ---
+
+### Resize the bug
 
 --- task ---
 
@@ -50,6 +54,8 @@ set size to [20] % // tiny
 
 --- /task ---
 
+### Move to the next Backdrop
+
 عندما تلعب اللعبة وتجد الحشرة بنجاح، ستنتقل اللعبة إلى الخلفية التالية. أيضًا، لبدء اللعبة، يمكنك الضغط على الحشرة في شاشة "ابدأ".
 
 الوحدة `الخلفية التالية`{: class = "block3looks"} تتغير إلى الخلفية التالية بالترتيب الذي يتم به وضع الخلفيات عند النقر فوق علامة التبويب **الخلفيات** من أجل **المنصة**.
@@ -68,13 +74,13 @@ next backdrop
 
 --- /task ---
 
-يجب أن يبدأ مشروعك من شاشة "البداية".
+### Make the game start with the Start Screen
 
 --- task ---
 
-انقر فوق لوحة المنصة وأضف هذه التعليمات البرمجية إلى **المنصة**:
+Click on the Stage pane and add this code to the **Stage**:
 
-![خلفية أضواء المسرح.](images/stage-image.png)
+![The Spotlight backdrop.](images/stage-image.png)
 
 ```blocks3
 when flag clicked
@@ -85,19 +91,19 @@ switch backdrop to [start v] // 'start' screen
 
 --- task ---
 
-**اختبار:** انقر فوق العلم الأخضر لاختبار مشروعك.
+**Test:** Click on the green flag to test your project.
 
-ستلاحظ أنه في شاشة "البداية"، ستظل الحشرة تحتوي على الإعدادات للاختباء في مكان اختبائها من المستوى الأول (في هذا المثال، على كرة الديسكو).
+You will notice that on the 'start' screen, the bug will still have the settings to hide in its hiding place from the first level (in this example, on the disco ball).
 
-**نصيحة:** بعد الخلفية الأخيرة في القائمة، `الخلفية التالية`{: class = "block3looks"} ستعود إلى الخلفية الأولى.
+**Tip:** After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop.
 
 --- /task ---
 
 --- task ---
 
-انقر فوق الكائن **حشرة** في قائمة الكائن. أضف برنامجًا نصيًا إلى `اضبط الحجم`{:class="block3looks"} للحشرة `عندما يتم تبديل الخلفية` إلى شاشة `البداية`{:class="block3events"}:
+Click on the **bug** sprite in the Sprite list. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
 
-![كائن الحشرة.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -106,35 +112,37 @@ set size to [100] % // full-sized
 
 --- /task ---
 
---- task ---
-
-حاول وضع الحشرة على شاشة "البداية".
-
-سيقوم البرنامج الخاص بك بتبديل الخلفية عند النقر فوق الحشرة! هذا ليس مفيدًا عندما تحاول وضع الحشرة.
-
---- /task ---
-
-لإصلاح المشكلة، تحتاج إلى إيقاف تشغيل البرنامج عند النقر فوق الحشرة.
+### Change the position of the bug
 
 --- task ---
 
-انقر فوق العلم الأخضر للعودة إلى شاشة "البداية".
+Try to position the bug on the 'start' screen.
 
-انقر على كائن **الحشرة** في قائمة الكائنات واسحب الوحدات بعيداً عن وحدة `عند النقر على هذا الكائن`{:class="block3events"}:
+Your code will make the backdrop switch when you click on the bug! That is not helpful when you are trying to position the bug.
 
-![إيقاف النص البرمجي.](images/breaking-script.png)
+To fix the problem, you need to stop the code from running when you click on the bug.
 
 --- /task ---
 
 --- task ---
 
-حاول وضع الحشرة مرة أخرى. اسحب الحشرة على السبورة، أسفل النص:
+Click on the green flag to return to the 'start' screen.
 
-![](images/bug-chalkboard.png)
+Click on the **bug** sprite in the Sprite list and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
 
-أضف تعليمات برمجية للتأكد من وضع الحشرة على السبورة في كل مرة يتم فيها `تبديل الخلفية إلى`{:class="block3events"} شاشة`البداية`{:class="block3events"}:
+![Breaking the script.](images/breaking-script.png)
 
-![كائن الحشرة.](images/bug-sprite.png)
+--- /task ---
+
+--- task ---
+
+Try to position the bug again. Drag the bug onto the chalkboard, below the text:
+
+![The bug on the start screen](images/bug-chalkboard.png)
+
+Add code to make sure that the bug is positioned on the chalkboard every time your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -146,25 +154,23 @@ set size to [100] % // full-sized
 
 --- task ---
 
-قم بجمع الوحدات معًا مرة أخرى بحيث تكون وحدات التعليمات البرمجية تحت وحدة `عند نقر هذا الكائن`{: class = "block3events"} مرة أخرى:
+Join the blocks back together so that the code blocks are under the `when this sprite clicked`{:class="block3events"} block again:
 
-![تم ربط وحدة "عند نقر هذا الكائن" بوحدتي "تشغيل الصوت" و "الخلفية التالية".](images/fixed-script.png)
+![The 'when this sprite clicked' block joined to the 'play sound' and 'next backdrop' blocks.](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**اختبار:** انقر فوق العلم الأخضر لاختبار مشروعك. انقر فوق الحشرة للانتقال إلى الخلفية التالية. يجب أن تكون الحشرة كبيرة على شاشة "البداية" وصغيرة على مستوى خلفية "أضواء المسرح".
+**Test:** Click on the green flag to test your project. Click on the bug to move to the next backdrop. The bug should be big on the 'start' screen and small on the 'Spotlight' level.
 
 --- collapse ---
 ---
 العنوان: لا شيء يحدث عندما أنقر على الحشرة
 ---
 
-هل نسيت ضم البرنامج مرة أخرى إلى وحدة `عند نقر هذا الكائن`{: class = "block3events"}؟
+Did you forget to join the code back to the `when this sprite clicked`{:class="block3events"} block?
 
 --- /collapse ---
 
 --- /task ---
-
---- save ---
