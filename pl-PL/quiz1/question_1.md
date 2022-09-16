@@ -1,19 +1,17 @@
-## Powtórka
+## Quick quiz
 
-Dobra robota, wiele się nauczyłeś! Teraz nadszedł czas na sprawdzenie swojej wiedzy — powtarzanie jest ważną częścią uczenia się, ponieważ pomaga tworzyć nowe połączenia w mózgu.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Odpowiedz na trzy poniższe pytania, aby przypomnieć sobie, czego się nauczyłeś.
+When you have answered each question, click on **Check my answer**.
 
-Po udzieleniu odpowiedzi na każde pytanie kliknij **Prześlij**. Zostaniesz poprowadzony w kierunku prawidłowej odpowiedzi. Możesz powtarzać to ćwiczenie tyle razy, ile chcesz.
-
-Miłej zabawy!
+Have fun!
 
 --- question ---
 ---
 legend: Pytanie 1 z 3
 ---
 
-W swojej grze dodałeś ten kod do **robaka** aby poruszać się przez tła za każdym razem, gdy robak został kliknięty.
+In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
 
 ```blocks3
 when this sprite clicked
@@ -21,11 +19,11 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Spójrz na ten obrazek przedstawiający rozgrywkę gry "Znajdź robaka".
+Look at this image showing a 'Find the bug' game being played.
 
-![Edytor Scratch z tłami w kolejności start, Spotlight, Urban, koniec; oraz scena przedstawiająca tło Spotlight.](images/quiz1-backdrops.png)
+![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
 
-Jakie tło pojawi się w tej grze po kliknięciu robaka?
+In this game, which backdrop would appear next when you click on the bug?
 
 --- choices ---
 
@@ -41,7 +39,7 @@ Jakie tło pojawi się w tej grze po kliknięciu robaka?
 
   --- feedback ---
 
-Tak. Blok `kolejne tło`{:class="block3looks"} przełącza się na następne tło w kolejności listy teł w zakładce **Tła** w panelu **Scena**.
+Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
 
 --- /feedback ---
 
