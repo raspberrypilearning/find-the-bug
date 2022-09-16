@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-ゲームはスタート画面で始まります。プレイヤーはバグをクリックして第1レベルに進みます。
+Give your game a 'start' screen.
 </div>
 <div>
 
@@ -11,6 +11,8 @@
 </div>
 </div>
 
+### Open the starter project
+
 --- task ---
 
 [「バグを見つけよう」スタータープロジェクト](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}を開きます。 Scratchはブラウザの別のタブで開きます。
@@ -18,6 +20,8 @@
 [[[working-offline]]]
 
 --- /task ---
+
+### Add a Backdrop
 
 --- task ---
 
@@ -35,9 +39,11 @@
 
 ステージのペインをクリックします。
 
-![](images/stage-pane.png)
+![The Stage pane in the bottom right corner is highlighted.](images/stage-pane.png)
 
 --- /task ---
+
+### Edit the Backdrop
 
 --- task ---
 
@@ -51,7 +57,7 @@
 
 **背景1**を選択し、 **ゴミ箱**アイコンをクリックすると、**背景1**が プロジェクトから削除されます。 このプロジェクトで **背景1** は必要ありません。
 
-![](images/delete-backdrop1.png)
+![Backdrop1 is highlighted in the top left corner.](images/delete-backdrop1.png)
 
 --- /task ---
 
@@ -69,13 +75,15 @@
 
 **テキスト** ツールを使用して `バグを探せ` の文字を黒板に追加します。
 
-![](images/chalkboard-text.png)
+![Find the bug is written on the chalkboard.](images/chalkboard-text.png)
 
 ここでは **日本語** フォントの白色を使用しましたが 、使いたいフォントと色を** 選択 ** してください。
 
 **ヒント：** **選択** (矢印) ツールに切り替えて、テキストを移動します。 テキストのサイズを変更するには、テキストの隅をつかんでドラッグします。
 
 --- /task ---
+
+## Rename the Backdrop
 
 --- task ---
 
@@ -86,6 +94,8 @@
 **ヒント:** 意味のある名前を使用すると、特に後でプロジェクトに戻ったときに、プロジェクトを理解しやすくなります。
 
 --- /task ---
+
+### Add the Bug Sprite
 
 --- task ---
 
@@ -111,5 +121,4 @@
 コンピュータプログラムの間違いは <span style="color: #0faeb0">**バグ**</span>と呼ばれます。 コンピュータプログラムの間違いを見つけて取り除くことを <span style="color: #0faeb0">**デバッグ**</span>と呼ばれます。 グレースホッパーは有名なソフトウェアエンジニアです。 彼女のチームは、コンピューターの中に蛾が入っているのを見つけたことがありました。 彼らのメモには、「バグが発見された最初の実際のケース」と書かれています。
 </p>
 
---- save ---
 
