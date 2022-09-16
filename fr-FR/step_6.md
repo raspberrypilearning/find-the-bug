@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Tu vas créer un écran de « fin » pour afficher le nombre de secondes qu'il a fallu au joueur pour trouver les bugs. 
+Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
 </div>
 <div>
 
@@ -14,6 +14,8 @@ Tu vas créer un écran de « fin » pour afficher le nombre de secondes qu'il
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Parfois, seulement battre le jeu n'est pas suffisant. Les joueurs aiment savoir comment ils se sont comportés contre d'autres joueurs ou contre eux-mêmes. Peux-tu penser à un jeu qui te montre à quel point tu as bien fait ?</p>
 
+### Add another backdrop
+
 --- task ---
 
 Ajoute le **Chalkboard** de la catégorie **Indoors**.
@@ -23,6 +25,8 @@ Ajoute le **Chalkboard** de la catégorie **Indoors**.
 **Astuce :** Dans Scratch, tu peux ajouter plusieurs fois le même arrière-plan.
 
 --- /task ---
+
+### Edit the backdrop
 
 --- task ---
 
@@ -42,6 +46,8 @@ Change le nom de l'arrière-plan en `fin`:
 
 --- /task ---
 
+### Position the bug
+
 --- task ---
 
 Clique sur le **bug** et ajoute du code pour positionner le bug sur l'écran 'fin' :
@@ -55,6 +61,8 @@ go to x: [0] y: [30] // on the board
 ```
 
 --- /task ---
+
+### Add a timer
 
 Combien de temps te faut-il pour trouver et cliquer sur les bugs ? Scratch a un `chronomètre`{:class="block3sensing"} que tu peux utiliser pour le découvrir.
 
@@ -98,6 +106,8 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
+### Stop the timer
+
 Si tu joues au jeu une deuxième fois, le `chronomètre`{:class="block3sensing"} continuera à compter.
 
 --- task ---
@@ -121,4 +131,3 @@ go to x: [13] y: [132] // on the disco ball
 
 --- /task ---
 
---- save ---
