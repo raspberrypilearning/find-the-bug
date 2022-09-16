@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-ゲームの第1レベルとして新しい背景を追加し、バグを隠します。
+Add a new backdrop as the first level in your game, and hide the bug.
 </div>
 <div>
 
@@ -11,6 +11,8 @@
 </div>
 </div>
 
+### Add another Backdrop
+
 --- task ---
 
 **Spotlight** (スポットライト) の背景を **音楽** カテゴリから追加します。
@@ -18,6 +20,8 @@
 ![[背景を選ぶ] アイコン。](images/backdrop-button.png)
 
 --- /task ---
+
+### Resize the bug
 
 --- task ---
 
@@ -50,6 +54,8 @@ set size to [20] % // tiny
 
 --- /task ---
 
+### Move to the next Backdrop
+
 ゲームをプレイしてバグを見つけると、ゲームは次の背景に切り替わります。 また、ゲームを開始するには、「スタート」画面でバグをクリックします。
 
 `次の背景にする`{:class="block3looks"} ブロックは**ステージ**の**背景**タブをクリックしたときに並んでいる順序で次の背景に切り替えます。
@@ -68,13 +74,13 @@ next backdrop
 
 --- /task ---
 
-プロジェクトは「スタート」画面から始まるようにする必要があります。
+### Make the game start with the Start Screen
 
 --- task ---
 
-ステージペインをクリックして、このコードを **ステージ**追加します。
+Click on the Stage pane and add this code to the **Stage**:
 
-![Spotlight の背景。](images/stage-image.png)
+![The Spotlight backdrop.](images/stage-image.png)
 
 ```blocks3
 when flag clicked
@@ -85,19 +91,19 @@ switch backdrop to [start v] // 'start' screen
 
 --- task ---
 
-**テスト:** 緑色のフラグをクリックして、プロジェクトをテストします。
+**Test:** Click on the green flag to test your project.
 
-「スタート」画面では、第1レベル(この例では、ミラーボール) の隠れ場所に隠れる設定がバグに残っていることがわかります。
+You will notice that on the 'start' screen, the bug will still have the settings to hide in its hiding place from the first level (in this example, on the disco ball).
 
-**ヒント:** リストの最後の背景の後、 `次の背景`{:class="block3looks"}で最初の背景に戻ります。
+**Tip:** After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop.
 
 --- /task ---
 
 --- task ---
 
-スプライトリストにある **バグ** スプライトをクリックします。 `背景が`{:class = "block3events"}`スタート`{:class="block3events"}`になったとき`{:class = "block3events"}にバグの<0>大きさを設定する</0>{:class="block3looks"}スクリプトを追加します:
+Click on the **bug** sprite in the Sprite list. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
 
-![バグのスプライト。](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -106,35 +112,37 @@ set size to [100] % // full-sized
 
 --- /task ---
 
---- task ---
-
-「スタート」画面にバグを配置してみてください。
-
-バグをクリックすると、コードによって背景が切り替わってしまいます。 バグを配置しようとしているとき、これは不便です。
-
---- /task ---
-
-この問題を修正するには、バグをクリックしたときにコードが実行されるのを止める必要があります。
+### Change the position of the bug
 
 --- task ---
 
-緑の旗をクリックして、「スタート」画面に戻ります。
+Try to position the bug on the 'start' screen.
 
-スプライトリストで**バグ**スプライトをクリックし、`このスプライトが押されたとき`{:class="block3events"}ブロックから他のブロックを引き離します。
+Your code will make the backdrop switch when you click on the bug! That is not helpful when you are trying to position the bug.
 
-![スクリプトを壊す。](images/breaking-script.png)
+To fix the problem, you need to stop the code from running when you click on the bug.
 
 --- /task ---
 
 --- task ---
 
-バグをもう一度配置してみてください。 バグを黒板のテキストの下にドラッグします。
+Click on the green flag to return to the 'start' screen.
 
-![](images/bug-chalkboard.png)
+Click on the **bug** sprite in the Sprite list and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
 
-`背景が`{:class="block3events"} `スタート`{:class="block3events"}画面<0>になるたびに</0>{:class="block3events"}、バグが必ず黒板に配置されるコードを追加します。
+![Breaking the script.](images/breaking-script.png)
 
-![バグのスプライト。](images/bug-sprite.png)
+--- /task ---
+
+--- task ---
+
+Try to position the bug again. Drag the bug onto the chalkboard, below the text:
+
+![The bug on the start screen](images/bug-chalkboard.png)
+
+Add code to make sure that the bug is positioned on the chalkboard every time your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -146,25 +154,23 @@ set size to [100] % // full-sized
 
 --- task ---
 
-コードブロックがもう一度`このスプライトが押されたとき`{:class="block3events"}ブロックの下にになるように、引き離したブロックをくっつけます。
+Join the blocks back together so that the code blocks are under the `when this sprite clicked`{:class="block3events"} block again:
 
-!['音を鳴らす'ブロックと '次の背景にする'ブロックに結合された'このスプライトが押されたとき'ブロック。](images/fixed-script.png)
+![The 'when this sprite clicked' block joined to the 'play sound' and 'next backdrop' blocks.](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**テスト:** 緑色のフラグをクリックして、プロジェクトをテストします。 バグをクリックして、次の背景に移動します。 バグは「スタート」画面では大きく、「Spotlight」レベルでは小さいはずです。
+**Test:** Click on the green flag to test your project. Click on the bug to move to the next backdrop. The bug should be big on the 'start' screen and small on the 'Spotlight' level.
 
 --- collapse ---
 ---
 title: バグをクリックしても何も起こりません
 ---
 
-`このスプライトが押されたとき`{:class="block3events"}ブロックにコードブロックをつなぎ戻すのを忘れてしまいましたか？
+Did you forget to join the code back to the `when this sprite clicked`{:class="block3events"} block?
 
 --- /collapse ---
 
 --- /task ---
-
---- save ---
