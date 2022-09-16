@@ -1,6 +1,6 @@
-## Introdução
+## You will make
 
-Neste projeto, você vai criar um jogo no qual você terá que achar o inseto escondido em cada nível. O jogo terá uma tela de 'início' e de 'fim', e um temporizador para mostrar ao jogador a rapidez com que encontrou os insetos.
+Create a game in which you have to find a hidden bug 🐞 on each level. The game will have 'start' and 'end' screen backdrops, and a timer ⌚ to show the player how quickly they found the bugs.
 
 Você deve:
 + Crie níveis para o seu jogo usando blocos de `próximo cenário`{:class="block3looks"} e `quando o cenário muda para o`{:class="block3events"}
@@ -8,7 +8,7 @@ Você deve:
 + Use um `temporizador`{:class="block3sensing"} **variável** para que o jogador saiba a rapidez com que está a encontrar os insetos
 
 --- no-print --- --- task ---
-### Experimente
+### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 Clique no inseto para começar o jogo.
