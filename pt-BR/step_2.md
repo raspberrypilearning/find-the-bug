@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-O seu jogo vai começar com uma tela de 'início', e os jogadores irão clicar no inseto para ir para o primeiro nível.
+Give your game a 'start' screen.
 </div>
 <div>
 
@@ -11,6 +11,8 @@ O seu jogo vai começar com uma tela de 'início', e os jogadores irão clicar n
 </div>
 </div>
 
+### Open the starter project
+
 --- task ---
 
 Abra o [projeto inicial Encontre o inseto](https://scratch.mit.edu/projects/582214723/editor){:target="_ blank"}. O Scratch será aberto em outra aba do navegador.
@@ -18,6 +20,8 @@ Abra o [projeto inicial Encontre o inseto](https://scratch.mit.edu/projects/5822
 [[[working-offline]]]
 
 --- /task ---
+
+### Add a Backdrop
 
 --- task ---
 
@@ -35,9 +39,11 @@ O **Palco** tem um botão de **Plano de fundo** em vez de um botão de **Costume
 
 Clique no painel do Palco.
 
-![](images/stage-pane.png)
+![The Stage pane in the bottom right corner is highlighted.](images/stage-pane.png)
 
 --- /task ---
+
+### Edit the Backdrop
 
 --- task ---
 
@@ -51,7 +57,7 @@ Clique na aba **Cenários** para abrir o editor Paint.
 
 Selecione **cenário1** e clique no ícone**Excluir** para remover o **cenário1** de seu projeto. Você não vai precisar do **cenário1** neste projeto.
 
-![](images/delete-backdrop1.png)
+![Backdrop1 is highlighted in the top left corner.](images/delete-backdrop1.png)
 
 --- /task ---
 
@@ -69,13 +75,15 @@ Clique em **Converter para Vetor**. Agora, você poderá adicionar texto que voc
 
 Use a ferramenta **Texto** para adicionar o texto `Encontre o Inseto` no quadro-negro:
 
-![](images/chalkboard-text.png)
+![Find the bug is written on the chalkboard.](images/chalkboard-text.png)
 
 Usamos **Marcador** branco, mas você pode **escolher** a fonte e a cor que quiser.
 
 **Dica:** Mude para a ferramenta **Selecione (Seta)** para mover o texto. Para alterar o tamanho do texto, segure o canto da caixa de texto e arraste-a.
 
 --- /task ---
+
+## Rename the Backdrop
 
 --- task ---
 
@@ -86,6 +94,8 @@ Altere o nome do cenário para `início`, porque você precisará selecioná-lo 
 **Dica:** Se você usar nomes que realmente tenham significado, será mais fácil entender seu projeto, especialmente quando você voltar a um projeto mais tarde.
 
 --- /task ---
+
+### Add the Bug Sprite
 
 --- task ---
 
@@ -111,5 +121,4 @@ Clique em **Escolher um Ator** e digite `Inseto` na caixa de pesquisa.
 Um erro em um programa de computador é chamado de <span style="color: #0faeb0">**bug**</span>. Encontrar e remover erros em programas de computador é chamado de <span style="color: #0faeb0">**debugging**</span>. Grace Hopper é uma famosa engenheira de software. Certa vez, sua equipe encontrou uma mariposa em seu computador. Suas anotações dizem: "Primeiro caso real de bug (inseto em inglês) sendo encontrado."
 </p>
 
---- save ---
 
