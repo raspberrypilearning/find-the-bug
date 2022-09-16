@@ -1,52 +1,58 @@
-## End screen
+## ಅಂತಿಮ ಪರದೆ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You will create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
+Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
 </div>
 <div>
 
-![The bug with the amount of time in a speech bubble.](images/end-screen.png){:width="300px"}
+! [ ಭಾಷಣದ ಗುಳ್ಳೆಯಲ್ಲಿ ಹುಳಗಳು ಮತ್ತು ಅದನ್ನು ಕಂಡುಹಿಡಿಯಲು ತೆಗೆದುಕೊಂಡ ಸಮಯ](images/end-screen.png){:width="300px"}
 
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Sometimes, just beating a game isn't enough. Players like to know how they did against other players or themselves. Can you think of a game that shows you how well you did?</p>
+ಕೆಲವೊಮ್ಮೆ, ಆಟವನ್ನು ಸೋಲಿಸುವುದು ಸಾಕಾಗುವುದಿಲ್ಲ. ಆಟಗಾರಿಗೆ ತಾವು ಇತರ ಆಟಗಾರರು ಅಥವಾ ತಮ್ಮ ವಿರುದ್ಧ ಹೇಗೆ ಆಡಿದೆವು ಎಂದು ತಿಳಿಯಲು ಇಷ್ಟವಾಗುತ್ತದೆ. ನೀವು ಎಷ್ಟು ಚೆನ್ನಾಗಿ ಆಡಿದ್ದೀರಿ ಎಂದು ತೋರಿಸುವ ಆಟದ ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದೇ?</p>
+
+### Add another backdrop
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+**Indoors**ವರ್ಗದಿಂದ **Chalkboard** ವರ್ಗವನ್ನು ಸೇರಿಸಿ.
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ ಲೈಬ್ರರಿಯಲ್ಲಿ ಚಾಕ್‌ಬೋರ್ಡ್ ಹಿನ್ನೆಲೆ.](images/chalkboard.png)
 
-**Tip:** In Scratch, you can add the same backdrop more than once.
+**ಸಲಹೆ:** Scratch ನಲ್ಲಿ, ನೀವು ಒಂದೇ ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ ಅನ್ನು ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಬಾರಿ ಸೇರಿಸಬಹುದು.
+
+--- /task ---
+
+### Edit the backdrop
+
+--- task ---
+
+ಪೇಂಟ್ ಎಡಿಟರ್ ತೆರೆಯಲು **Backdrops** ಟ್ಯಾಬ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.
+
+![ಪೇಂಟ್ ಎಡಿಟರ್‌ನಲ್ಲಿ ಚಾಕ್‌ಬೋರ್ಡ್ ಹಿನ್ನೆಲೆ.](images/chalkboard2-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+ಬ್ಯಾಕ್‌ಡ್ರಾಪ್‌ನ ಹೆಸರನ್ನು `end` ಎಂದು ಬದಲಾಯಿಸಿ:
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard2-paint.png)
+![ಪೇಂಟ್ ಎಡಿಟರ್‌ನಲ್ಲಿ ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ ಹೆಸರು ಬದಲಾಗಿದೆ.](images/end-screen-name.png)
 
---- /task ---
-
---- task ---
-
-Change the name of the backdrop to `end`:
-
-![The backdrop name changed in the Paint editor.](images/end-screen-name.png)
-
-**Tip:** You rename the backdrop to **end** to make it easier to understand your code.
+**ಸಲಹೆ:** ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಸುಲಭವಾಗಿ ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ನೀವು ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ ಅನ್ನು **end** ಎಂದು ಬದಲಾಯಿಸಿದಿರಿ.
 
 --- /task ---
 
+### Position the bug
+
 --- task ---
 
-Click on the **bug** sprite and add code to position the bug on the 'end' screen:
+**bug** ಸ್ಪ್ರೈಟ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ಬಗ್ ಅನ್ನು 'ಅಂತಿಮ' ಪರದೆಯ ಮೇಲೆ ಇರಿಸಲು ಕೋಡ್ ಸೇರಿಸಿ:
 
-![The bug sprite.](images/bug-sprite.png)
+![Bug ಸ್ಪ್ರೈಟ್.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -56,13 +62,16 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-How long does it take you to find and click on the bugs? Scratch has a `timer`{:class="block3sensing"} that you can use to find out.
+### Add a timer
+
+ದೋಷಗಳನ್ನು ಹುಡುಕಲು ಮತ್ತು ಕ್ಲಿಕ್ ಮಾಡಲು ನಿಮಗೆ ಎಷ್ಟು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ? ಕಂಡುಹಿಡಿಯಲು Scratch ನಲ್ಲಿ ಇರುವ `timer`{:class="block3sensing"} ಅನ್ನು ನೀವು ಬಳಸಬಹುದು.
 
 --- task ---
 
-The `timer`{:class="block3sensing"} block is in the `Sensing`{:class="block3sensing"} blocks menu. Add code to make the bug `say`{:class="block3looks"} the `timer`{:class="block3sensing"} on the 'end' screen:
+`timer`{:class="block3sensing"} ಬ್ಲಾಕ್ `Sensing`{:class="block3sensing"} 
+ಬ್ಲಾಕ್‌ಗಳ ಮೆನುವಿನಲ್ಲಿ ಇದೆ. 'end' ಪರದೆಯಲ್ಲಿ ದೋಷವು `say`{:class="block3looks"} `timer`{:class="block3sensing"} ಮಾಡಲು ಕೋಡ್ ಸೇರಿಸಿ:
 
-![The bug sprite.](images/bug-sprite.png)
+![Bug ಸ್ಪ್ರೈಟ್.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -71,23 +80,23 @@ go to x: [0] y: [30] // on the board
 +say (timer) // seconds taken
 ```
 
-![Inserting a 'timer' block into a 'say' block.](images/inserting-blocks.gif)
+!['ಟೈಮರ್' ಬ್ಲಾಕ್ ಅನ್ನು 'ಸೇ' ಬ್ಲಾಕ್‌ಗೆ ಸೇರಿಸುವುದು.](images/inserting-blocks.gif)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your finding skills. How long does it take you to find the bug?
+**ಪರೀಕ್ಷೆ:** ನಿಮ್ಮಹುಡುಕುವ ಜಾಣ್ಮೆಯನ್ನು ಪರೀಕ್ಷಿಸಲು ಹಸಿರು ಬಾವುಟದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ. ದೋಷಗಳನ್ನು ಹುಡುಕಲು ನಿಮಗೆ ಎಷ್ಟು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ?
 
 --- /task ---
 
-To go back to the 'start' screen, click on the bug on the 'end' screen.
+'ಪ್ರಾರಂಭದ' ಪರದೆಗೆ ಹಿಂತಿರುಗಲು, 'ಅಂತಿಮ' ಪರದೆಯ ಮೇಲಿನ ದೋಷದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.
 
 --- task ---
 
-Add code to make the bug stop saying the `timer`{:class="block3sensing"} when you go to the 'start' screen:
+ನೀವು "ಪ್ರಾರಂಭದ" ಪರದೆಗೆ ಹೋದಾಗ`timer`{:class="block3sensing"} ಎಂದು ದೋಷಗಳು ಹೇಳುವುದನ್ನು ನಿಲ್ಲಿಸಲು ಕೋಡ್ ಸೇರಿಸಿ:
 
-![The bug sprite.](images/bug-sprite.png)
+![Bug ಸ್ಪ್ರೈಟ್.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -98,13 +107,15 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-If you play the game a second time, the `timer`{:class="block3sensing"} will keep counting.
+### Stop the timer
+
+ನೀವು ಎರಡನೇ ಬಾರಿಗೆ ಆಟವನ್ನು ಆಡಿದರೆ, `timer`{:class="block3sensing"} ಎಣಿಸುತ್ತಲೇ ಇರುತ್ತದೆ.
 
 --- task ---
 
-Add code to `reset the timer`{:class="block3sensing"} when the `backdrop switches to`{:class="block3events"} the first level:
+ಬ್ಯಾಕ್‌ಡ್ರಾಪ್‌ ಮೊದಲ ಹಂತಕ್ಕೆ `backdrop switches to`{:class="block3events"} ಮಾಡಿದಾಗ `reset the timer`{:class="block3sensing"} ಮಾಡಲು ಕೋಡ್ ಸೇರಿಸಿ:
 
-![The bug sprite.](images/bug-sprite.png)
+![Bug ಸ್ಪ್ರೈಟ್.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v] // first level
@@ -117,8 +128,7 @@ go to x: [13] y: [132] // on the disco ball
 
 --- task ---
 
-**Test:** Click on the green flag and play the game. The timer should reset when you click on the bug on the 'start' screen to move to the first level. When you click on the bug on the 'end' screen, you should return to the 'start' screen and see that the bug is not saying the `timer`{:class="block3sensing"}.
+**ಪರೀಕ್ಷೆ:** ಹಸಿರು ಬಾವುಟದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ಆಟವನ್ನು ಆಡಿ. ಮೊದಲ ಹಂತಕ್ಕೆ ಹೋಗಲು ನೀವು 'ಪ್ರಾಂಭದ' ಪರದೆಯಲ್ಲಿರುವ ದೋಷದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ ಟೈಮರ್ ರಿಸೆಟ್ ಆಗಬೇಕು. ನೀವು 'ಅಂತ್ಯ' ಪರದೆಯ ಮೇಲೆ ದೋಷದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ, ನೀವು 'ಪ್ರಾರಂಭ' ಪರದೆಗೆ ಹಿಂತಿರುಗಬೇಕು ಮತ್ತು ಹುಳವು `timer`{:class="block3sensing"} ಅನ್ನು ಹೇಳುತ್ತಿಲ್ಲ ಎಂಬುದನ್ನು ನೋಡಬೇಕು.
 
 --- /task ---
 
---- save ---
