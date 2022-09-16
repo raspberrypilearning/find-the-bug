@@ -1,19 +1,17 @@
-## Αναστοχασμός
+## Quick quiz
 
-Μπράβο, έμαθες πολλά! Τώρα, ήρθε η ώρα να εξετάσεις τις νέες γνώσεις - ο αναστοχασμός είναι σημαντικό μέρος της μάθησης, επειδή βοηθά στη δημιουργία νέων συνδέσεων στον εγκέφαλό σου.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Απάντησε στις τρεις ερωτήσεις παρακάτω για να διαπιστώσεις τι έμαθες.
+When you have answered each question, click on **Check my answer**.
 
-Όταν απαντήσεις σε κάθε ερώτηση, κάνε κλικ στην**Υποβολή**. Θα οδηγηθείς στη σωστή απάντηση. Μπορείς να επαναλάβεις αυτήν τη δραστηριότητα όσες φορές θέλεις.
-
-Καλή διασκέδαση!
+Have fun!
 
 --- question ---
 ---
 legend: Ερώτηση 1 από 3
 ---
 
-Στο παιχνίδι σου, πρόσθεσες αυτόν τον κώδικα στο **έντομο** για να μετακινηθεί στα υπόβαθρα κάθε φορά που γινόταν κλικ πάνω σ' αυτό.
+In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
 
 ```blocks3
 when this sprite clicked
@@ -21,11 +19,11 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Κοίτα αυτήν την εικόνα που δείχνει το παιχνίδι «Βρες το έντομο» να παίζεται.
+Look at this image showing a 'Find the bug' game being played.
 
-![Το πρόγραμμα επεξεργασίας Scratch με τα υπόβαθρα κατά σειρά start, Spotlight, Urban, end, και η Σκηνή που δείχνει το υπόβαθρο του Spotlight.](images/quiz1-backdrops.png)
+![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
 
-Σε αυτό το παιχνίδι, ποιο υπόβαθρο θα εμφανιστεί στη συνέχεια όταν κάνεις κλικ στο έντομο;
+In this game, which backdrop would appear next when you click on the bug?
 
 --- choices ---
 
@@ -41,7 +39,7 @@ next backdrop
 
   --- feedback ---
 
-Ναι. Το μπλοκ`επόμενο υπόβαθρο`{:class="block3looks"} αλλάζει στο επόμενο υπόβαθρο με τη σειρά με την οποία εμφανίζονται τα υπόβαθρα όταν κάνεις κλικ στην καρτέλα**Υπόβαθρα** στη **Σκηνή**.
+Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
 
 --- /feedback ---
 
