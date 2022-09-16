@@ -1,19 +1,17 @@
-## Reflectie
+## Quick quiz
 
-Goed zo, je hebt veel geleerd! Nu is het tijd om te reflecteren - reflecteren is een belangrijk onderdeel van leren, omdat het helpt om nieuwe verbindingen in je hersenen te maken.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Beantwoord de drie onderstaande vragen om na te denken over wat je hebt geleerd.
+When you have answered each question, click on **Check my answer**.
 
-Zodra je elke vraag hebt beantwoord, klik je op **Verzenden**. Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
-
-Veel plezier!
+Have fun!
 
 --- question ---
 ---
 legend: Vraag 1 van 3
 ---
 
-In je game heb je deze code toegevoegd aan je **kever** om door de achtergronden te bewegen telkens wanneer erop wordt geklikt.
+In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
 
 ```blocks3
 when this sprite clicked
@@ -21,11 +19,11 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Kijk naar deze afbeelding die een 'Vind de kever'-game laat zien die wordt gespeeld.
+Look at this image showing a 'Find the bug' game being played.
 
-![De Scratch-editor met achtergronden in de volgorde start, Spotlight, Urban, end; en het speelveld met de Spotlight-achtergrond.](images/quiz1-backdrops.png)
+![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
 
-Welke achtergrond zou er in dit spel verschijnen als je op de kever klikt?
+In this game, which backdrop would appear next when you click on the bug?
 
 --- choices ---
 
@@ -41,7 +39,7 @@ Welke achtergrond zou er in dit spel verschijnen als je op de kever klikt?
 
   --- feedback ---
 
-Ja. Het `volgende achtergrond`{:class="block3looks"} blok schakelt over naar de volgende achtergrond in de volgorde van de lijst met achtergronden op het **Achtergronden** tabblad voor het **speelveld**.
+Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
 
 --- /feedback ---
 
