@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Byddi di'n creu sgrin 'diwedd' i ddangos faint o eiliadau mae wedi cymryd i'r chwaraewr ddod o hyd i'r chwilod. 
+Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
 </div>
 <div>
 
@@ -14,6 +14,8 @@ Byddi di'n creu sgrin 'diwedd' i ddangos faint o eiliadau mae wedi cymryd i'r ch
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Weithiau, dydy curo gêm ddim yn ddigon. Mae chwaraewyr yn hoffi gwybod sut wnaethon nhw yn erbyn chwaraewyr eraill neu eu hunain. Alli di feddwl am gêm sy'n dangos pa mor dda wnes di chwarae?</p>
 
+### Add another backdrop
+
 --- task ---
 
 Ychwanega'r gefnlen **Chalkboard** o'r categori **Indoors**.
@@ -23,6 +25,8 @@ Ychwanega'r gefnlen **Chalkboard** o'r categori **Indoors**.
 **Awgrym:** Yn Scratch, galli di ychwanegu'r un gefnlen fwy nag unwaith.
 
 --- /task ---
+
+### Edit the backdrop
 
 --- task ---
 
@@ -42,6 +46,8 @@ Newidia enw'r gefnlen i `diwedd`:
 
 --- /task ---
 
+### Position the bug
+
 --- task ---
 
 Cliciar ar y corlun **chwilen** ac ychwanegu cod i newid safle'r chwilen ar y sgrin 'diwedd':
@@ -55,6 +61,8 @@ go to x: [0] y: [30] // on the board
 ```
 
 --- /task ---
+
+### Add a timer
 
 Pa mor hir mae'n cymryd i ti ddod o hyd i'r chwilod a chlicio arnyn nhw? Mae gan Scratch `amserydd`{:class="block3sensing"} y galli di ei ddefnyddio i gael gwybod.
 
@@ -98,6 +106,8 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
+### Stop the timer
+
 Os wyt ti'n chwarae'r gêm yr eildro, bydd yr `amserydd`{:class="block3sensing"} yn parhau i gyfrif.
 
 --- task ---
@@ -121,4 +131,3 @@ go to x: [13] y: [132] // on the disco ball
 
 --- /task ---
 
---- save ---
