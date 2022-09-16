@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Você escolherá um cenário para criar um segundo nível para o jogo e dificultar a localização do inseto. 
+Choose a backdrop to make a second level for your game, and make the bug hard to find. 
 </div>
 <div>
 
@@ -11,58 +11,62 @@ Você escolherá um cenário para criar um segundo nível para o jogo e dificult
 </div>
 </div>
 
+### Add another backdrop
+
 --- task ---
 
 **Escolha:** Escolha um cenário para o nível 2. Escolhemos o cenário **Urbano**, mas você pode escolher o que quiser.
 
-![](images/insert-urban-backdrop.png)
+![The bug and parrot on an urban backdrop.](images/insert-urban-backdrop.png)
 
 **Dica:** Lembre-se de que cenários com muitas cores e detalhes irão dificultar a localização do inseto. O quão difícil você vai tornar o seu jogo?
 
 --- /task ---
 
-Para ser capaz de arrastar seu inseto para uma nova posição, você precisa parar a execução do script `quando este ator for clicado`{:class="block3events"}.
+### Stop the code from running
 
 --- task ---
 
-Arraste os blocos para longe do bloco `quando este ator for clicado`bloco {:class= "block3events"} para impedi-los de executarem quando você clicar no inseto:
+Drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them from running when you click on the bug:
 
-![](images/breaking-script.png)
+![Breaking the code.](images/breaking-script.png)
 
 --- /task ---
 
-O inseto precisa ser difícil de encontrar quando o cenário for alterado. Você pode redimensionar o inseto para torná-lo mais difícil de encontrar.
+### Resize the bug
 
 --- task ---
 
-Adicione o código `definir tamanho`{:class="block3looks"} do inseto no segundo nível:
+Add code to `set the size`{:class="block3looks"} of the bug for the second level:
 
-![O ator inseto.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v] // choose your backdrop
 set size to [20] % // try another size 
 ```
 
-**Teste:** Clique em seu novo script para executá-lo.
+**Test:** Click on your new script to run it.
 
 --- /task ---
 
+### Hide your bug
+
 --- task ---
 
-Arraste seu inseto para o Palco e o esconda bem.
+Drag your bug on the Stage to a good hiding place for this level.
 
-![O bug escondido na vitrine da loja no meio do cenário.](images/hidden-urban-backdrop.png)
+![The bug hidden in the shop window in the middle of the backdrop.](images/hidden-urban-backdrop.png)
 
 --- /task ---
 
-Posicione o inseto no esconderijo.
+Position your bug in its hiding place.
 
 --- task ---
 
-Adicione um bloco `vá para x: y:` {:class="block3motion"}:
+Add a `go to x: y:`{:class="block3motion"} block to your code:
 
-![O ator inseto.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -72,27 +76,29 @@ set size to [20] % // try another size
 
 --- /task ---
 
+### Test your code
+
 --- task ---
 
-Junte os blocos ao bloco `quando este ator for clicado`{:class="block3events"} para que, quando o inseto for clicado, o cenário mude para o `próximo cenário`{:class= "block3looks"}:
+Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that when the bug is clicked, the backdrop switches to the `next backdrop`{:class="block3looks"}:
 
-![](images/fixed-script.png)
+![The blocks are joined back together.](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**Teste:** Clique na bandeira verde e teste o seu projeto.
+**Test:** Click on the green flag to test your project.
 
 --- /task ---
 
-Seu inseto agora pode estar na frente do papagaio.
+Your bug may now be in front of the parrot.
 
 --- task ---
 
-Adicione um script para assegurar que o inseto fique sempre na posição `por trás`{:class ="block3looks"}:
+Add a script to make sure that your bug is always at the `back`{:class="block3looks"}:
 
-![O ator inseto.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -100,8 +106,6 @@ forever
 go to [back v] layer
 ```
 
-Agora, o inseto sempre vai ficar por atrás, mesmo que você precise alterar sua posição.
+Now, your bug will always stay at the back, even if you need to change its position.
 
 --- /task ---
-
---- save ---
