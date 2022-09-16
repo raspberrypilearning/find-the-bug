@@ -8,30 +8,33 @@ copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: Wprowadzenie
+    title: You will make
   - 
     title: Ekran startowy
   - 
     title: Pierwszy poziom
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: Rozpraszająca papuga
   - 
     title: Drugi poziom
   - 
     title: Ekran końcowy
+    completion:
+      - internal
   - 
-    title: Zagraj w grę
-    completion: internal
-  - 
-    title: Powtórka
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
-    title: Ulepsz swoją grę
+    title: Upgrade your game
+  - 
+    title: Share and play
   - 
     title: Co dalej?
