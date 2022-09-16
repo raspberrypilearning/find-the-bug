@@ -11,6 +11,8 @@ Er mwyn ei gwneud hi'n anoddach i chwaraewyr ddod o hyd i'r chwilen a chlicio ar
 </div>
 </div>
 
+### Add the Parrot sprite
+
 --- task ---
 
 Ychwanega'r corlun **Parrot**.
@@ -18,6 +20,8 @@ Ychwanega'r corlun **Parrot**.
 ![Yr eicon 'Dewiswch Gorlun'.](images/sprite-button.png)
 
 --- /task ---
+
+### Animate the Parrot sprite
 
 Yn y prosiect [Dal y bws](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}, fe wnes di ddefnyddio dolen `ailadrodd`{:class="block3control"}.
 
@@ -57,4 +61,3 @@ Yn Scratch, mae cod sy'n rhedeg yn tywynnu gydag amlinelliad melyn:
 
 --- /task ---
 
---- save ---
