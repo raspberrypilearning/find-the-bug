@@ -8,30 +8,33 @@ copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: Introdução
+    title: You will make
   - 
     title: Tela inicial
   - 
     title: Primeiro nível
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: A distração do papagaio
   - 
     title: Segundo nível
   - 
     title: Tela final
+    completion:
+      - internal
   - 
-    title: Jogue o jogo
-    completion: internal
-  - 
-    title: Reflexão
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
-    title: Melhore o seu jogo
+    title: Upgrade your game
+  - 
+    title: Share and play
   - 
     title: E agora?
