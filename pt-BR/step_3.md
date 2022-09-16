@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Você vai adicionar um novo cenário como o nível 1 do jogo e vai esconder o inseto.
+Add a new backdrop as the first level in your game, and hide the bug.
 </div>
 <div>
 
@@ -11,6 +11,8 @@ Você vai adicionar um novo cenário como o nível 1 do jogo e vai esconder o in
 </div>
 </div>
 
+### Add another Backdrop
+
 --- task ---
 
 Adicione o cenário**Holofote** da categoria de **Música**.
@@ -18,6 +20,8 @@ Adicione o cenário**Holofote** da categoria de **Música**.
 ![O ícone 'Selecionar Cenário'.](images/backdrop-button.png)
 
 --- /task ---
+
+### Resize the bug
 
 --- task ---
 
@@ -50,6 +54,8 @@ set size to [20] % // tiny
 
 --- /task ---
 
+### Move to the next Backdrop
+
 Quando você executa o jogo e encontra o inseto, o jogo vai para o próximo cenário. Além disso, para começar o jogo, você vai clicar no inseto na tela 'iniciar'.
 
 O próximo `bloco cenário`{:classe="block3looks"} altera o plano de fundo para o próximo cenário na ordem da lista de cenários na aba **Cenários** para o **Palco**.
@@ -68,13 +74,13 @@ next backdrop
 
 --- /task ---
 
-Seu projeto precisa começar na tela 'inicial'.
+### Make the game start with the Start Screen
 
 --- task ---
 
-Clique no painel Palco e adicione o seguinte código ao **Palco**:
+Click on the Stage pane and add this code to the **Stage**:
 
-![O cenário Holofote.](images/stage-image.png)
+![The Spotlight backdrop.](images/stage-image.png)
 
 ```blocks3
 when flag clicked
@@ -85,19 +91,19 @@ switch backdrop to [start v] // 'start' screen
 
 --- task ---
 
-**Teste:** Clique na bandeira verde e teste o seu projeto.
+**Test:** Click on the green flag to test your project.
 
-Você vai notar que na tela 'inicial', o inseto ainda vai ter as mesmas preferências para se esconder mesmo lugar desde o primeiro nível (neste exemplo, no globo de discoteca).
+You will notice that on the 'start' screen, the bug will still have the settings to hide in its hiding place from the first level (in this example, on the disco ball).
 
-**Dica:** Após o último cenário da lista, `próximo cenário`{:class="block3looks"} será alterado novamente para o primeiro cenário.
+**Tip:** After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop.
 
 --- /task ---
 
 --- task ---
 
-Clique no ator**inseto** na lista de Atores. Adicione um script ao `definir tamanho`{:class="block3looks"} do inseto quando o `cenário for alterado para`{:class="block3events"} a tela `inicial`:
+Click on the **bug** sprite in the Sprite list. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
 
-![O ator inseto.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -106,35 +112,37 @@ set size to [100] % // full-sized
 
 --- /task ---
 
---- task ---
-
-Tente posicionar o inseto na tela 'iniciar'.
-
-Seu código fará a mudança de cenário quando você clicar no inseto! Isso não é tão útil quando você está tentando posicionar o inseto.
-
---- /task ---
-
-Para consertar o problema, você precisa interromper a execução do código por clicar no inseto.
+### Change the position of the bug
 
 --- task ---
 
-Clique na bandeira verde para retornar à tela 'inicial'.
+Try to position the bug on the 'start' screen.
 
-Clique sobre o ator**inseto** na lista de Atores e arraste os blocos para longe do bloco `quando o ator for clicado`{:class="block3events"}:
+Your code will make the backdrop switch when you click on the bug! That is not helpful when you are trying to position the bug.
 
-![Separando o script.](images/breaking-script.png)
+To fix the problem, you need to stop the code from running when you click on the bug.
 
 --- /task ---
 
 --- task ---
 
-Tente posicionar o inseto novamente. Arraste o inseto para o quadro-negro, por baixo do texto:
+Click on the green flag to return to the 'start' screen.
 
-![](images/bug-chalkboard.png)
+Click on the **bug** sprite in the Sprite list and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
 
-Adicione código para assegurar que o inseto está posicionado no quadro-negro toda vez que o `cenário for alterado para`{:class="block3events"} a tela `inicial`{:class= "block3events"}:
+![Breaking the script.](images/breaking-script.png)
 
-![O ator inseto.](images/bug-sprite.png)
+--- /task ---
+
+--- task ---
+
+Try to position the bug again. Drag the bug onto the chalkboard, below the text:
+
+![The bug on the start screen](images/bug-chalkboard.png)
+
+Add code to make sure that the bug is positioned on the chalkboard every time your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -146,25 +154,23 @@ set size to [100] % // full-sized
 
 --- task ---
 
-Junte os blocos novamente de forma que os blocos estejam debaixo do bloco `quando este ator for clicado`{:class="block3events"}:
+Join the blocks back together so that the code blocks are under the `when this sprite clicked`{:class="block3events"} block again:
 
-![O bloco 'quando este ator for clicado' foi colocado junto aos blocos 'reproduzir som' e 'próximo cenário'.](images/fixed-script.png)
+![The 'when this sprite clicked' block joined to the 'play sound' and 'next backdrop' blocks.](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**Teste:** Clique na bandeira verde e teste o seu projeto. Clique no inseto para avançar para o próximo cenário. O inseto deve estar grande na tela 'inicial' e pequeno no nível 'Holofote'.
+**Test:** Click on the green flag to test your project. Click on the bug to move to the next backdrop. The bug should be big on the 'start' screen and small on the 'Spotlight' level.
 
 --- collapse ---
 ---
 title: Nada acontece quando eu clico no bug
 ---
 
-Você esqueceu de juntar o código no bloco `quando este ator for clicado`{:class="block3events"}?
+Did you forget to join the code back to the `when this sprite clicked`{:class="block3events"} block?
 
 --- /collapse ---
 
 --- /task ---
-
---- save ---
