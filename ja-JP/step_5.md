@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-背景を選択してゲームの第2レベルを作成し、バグを見つけにくくします。 
+Choose a backdrop to make a second level for your game, and make the bug hard to find. 
 </div>
 <div>
 
@@ -11,58 +11,62 @@
 </div>
 </div>
 
+### Add another backdrop
+
 --- task ---
 
 **選ぶ:** 第2レベルの背景を選択します。 **Urban** の背景を選択しましたが、最も好きなものを選択できます。
 
-![](images/insert-urban-backdrop.png)
+![The bug and parrot on an urban backdrop.](images/insert-urban-backdrop.png)
 
 **ヒント:** 色や細かい部分がたくさんある背景では、バグを見つけるのが難しくなることを忘れないでください。 ゲームをどれだけ難しくしますか？
 
 --- /task ---
 
-バグを新しい位置にドラッグできるようにするには、`このスプライトが押されたとき`{:class="block3events"}スクリプトの実行を止める必要があります。
+### Stop the code from running
 
 --- task ---
 
-`このスプライトが押されたら`{:class="block3events"}からブロックを引き離し、バグをクリックしたときにブロックが実行されないようにします。
+Drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them from running when you click on the bug:
 
-![](images/breaking-script.png)
+![Breaking the code.](images/breaking-script.png)
 
 --- /task ---
 
-背景が変わったときにバグを見つけるのを難しくする必要があります。 バグのサイズを変更して、見つけにくくすることができます。
+### Resize the bug
 
 --- task ---
 
-コードに `大きさを･･･%にする`{:class="block3looks"}追加して、第2レベルのバグのサイズを設定します。
+Add code to `set the size`{:class="block3looks"} of the bug for the second level:
 
-![バグのスプライト。](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v] // choose your backdrop
 set size to [20] % // try another size 
 ```
 
-**テスト:** 新しいスクリプトをクリックして実行します。
+**Test:** Click on your new script to run it.
 
 --- /task ---
 
+### Hide your bug
+
 --- task ---
 
-ステージ上のバグをこのレベルの適切な隠れ場所にドラッグします。
+Drag your bug on the Stage to a good hiding place for this level.
 
-![背景の真ん中にあるショーウィンドウに隠されたバグ。](images/hidden-urban-backdrop.png)
+![The bug hidden in the shop window in the middle of the backdrop.](images/hidden-urban-backdrop.png)
 
 --- /task ---
 
-バグを隠れ場所に配置します。
+Position your bug in its hiding place.
 
 --- task ---
 
-`x座標を〇〇、y座標を〇〇にする`{:class="block3motion"} ブロックを追加します。:
+Add a `go to x: y:`{:class="block3motion"} block to your code:
 
-![バグのスプライト。](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -72,27 +76,29 @@ set size to [20] % // try another size
 
 --- /task ---
 
+### Test your code
+
 --- task ---
 
-ブロックを`このスプライトが押されたとき`{:class="block3events"}ブロックに戻し、バグがクリックされたときに背景が `次の背景`{:class="block3looks"}に切り替わるようにします。
+Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that when the bug is clicked, the backdrop switches to the `next backdrop`{:class="block3looks"}:
 
-![](images/fixed-script.png)
+![The blocks are joined back together.](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**テスト:** 緑色のフラグをクリックして、プロジェクトをテストします。
+**Test:** Click on the green flag to test your project.
 
 --- /task ---
 
-あなたのバグはオウムより手前に見えるかもしれません。
+Your bug may now be in front of the parrot.
 
 --- task ---
 
-スクリプトを追加して、バグが常に `最背面`{:class="block3looks"}にあるようにします:
+Add a script to make sure that your bug is always at the `back`{:class="block3looks"}:
 
-![バグのスプライト。](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -100,8 +106,6 @@ forever
 go to [back v] layer
 ```
 
-これで、バグの位置を変更する必要がある場合でも、バグは常に背面に留まります。
+Now, your bug will always stay at the back, even if you need to change its position.
 
 --- /task ---
-
---- save ---
