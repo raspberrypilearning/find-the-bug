@@ -1,62 +1,42 @@
-## Melhore o seu jogo
-
-Se tiver tempo, você pode adicionar mais níveis e mais distrações ao seu jogo. Você também pode alterar o ator que está escondido e mudar o texto no quadro-negro.
-
-Aqui estão os blocos que você precisa para esconder o inseto em um novo nível:
-
-```blocks3
-when backdrop switches to [new level v]
-
-set size to [20] %
-
-go to x: [0] y: [0] // drag to position the bug first
-
-set [color v] effect to [50]
-```
+## Share and play
 
 --- task ---
 
-Para cada nível, você irá precisar de:
-- Adicionar um plano de fundo
-- Clique no painel Palco, depois na aba **Cenários** e arraste o novo cenário para a posição anterior ao cenários **fim**
-- Adicione um bloco `quando o cenário mudar para`{:class="block3events"} para um novo cenário e adicione código para posicionar e ocultar o inseto
+Inspire the Raspberry Pi Foundation community with your project!
 
-**Dica:** Para arrastar o inseto para um novo esconderijo, você precisar 'quebrar' o código para que cenário não mude quando você clicar no inseto para posicioná-lo para um novo nível.
+[[[share-scratch]]]
+
+To submit your project to our 'Find the bug' Scratch studio for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---
+
+--- no-print --- --- task ---
+
+Play these fabulous games from our ['Find the bug' Scratch studio](https://scratch.mit.edu/studios/29005236/){:target="_blank"}.
+
+Notice how the creators have added extra levels, annoying distractions or upgraded the start and end screens:
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/545488112/?autostart=false" frameborder="0"></iframe>
+</div>
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707645119/?autostart=false" frameborder="0"></iframe>
+</div>
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707644397/?autostart=false" frameborder="0"></iframe>
+</div>
+
+--- /task ---
+
+--- /no-print ---
 
 --- task ---
 
-Você pode colocar mais papagaios ou escolher outro ator para servir como uma distração.
-
-Aqui está o código que você usou para o papagaio:
-```blocks3
-when flag clicked
-set rotation style [left-right v] // do not go upside down
-point in direction [35] // number from -180 to 180
-forever // keep being annoying
-move [10] steps // the number controls the speed
-if on edge, bounce // stay on the Stage
-next costume // flap
-change [color v] effect by [5] // try 11 or 50
-wait [0.25] seconds // try 0.1 or 0.5
-end
-```
-
-**Dica:** Você pode arrastar o código do ator**Papagaio** para outro ator para deixá-lo mais rápido para criar uma outra distração.
-
-![Arrastando o código de um ator para outro sprite na lista de Atores.](images/drag-parrot-code.gif)
+You can also look at the remixes for the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/remixes){:target="_blank"} to see what other creators have made.
 
 --- /task ---
-
---- collapse ---
----
-title: Projeto concluído
----
-
-Você pode ver o [projeto concluído aqui](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
-
---- /collapse ---
 
 --- save ---
 
