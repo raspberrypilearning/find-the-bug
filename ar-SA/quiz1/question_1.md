@@ -1,19 +1,17 @@
-## انعكاس
+## Quick quiz
 
-أحسنت ، لقد تعلمت الكثير! الآن ، حان وقت التفكير - التفكير جزء مهم من التعلم، لأنه يساعد في إنشاء روابط جديدة في عقلك.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-أجب عن الأسئلة الثلاثة أدناه لتفكر فيما تعلمته.
+When you have answered each question, click on **Check my answer**.
 
-عندما تجيب على كل سؤال، انقر فوق **إرسال**. سيتم توجيهك نحو الإجابة الصحيحة. يمكنك القيام بهذا النشاط عدة مرات كما تريد.
-
-إستمتع!
+Have fun!
 
 --- question ---
 ---
 القائمة: السؤال 1 من 3
 ---
 
-في لعبتك ، أضفت هذا الرمز إلى **الحشرة** للتنقل عبر الخلفيات في كل مرة يتم النقر عليها.
+In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
 
 ```blocks3
 when this sprite clicked
@@ -21,11 +19,11 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-انظر إلى هذه الصورة التي تعرض لعبة "العثور على الحشرة" قيد اللعب.
+Look at this image showing a 'Find the bug' game being played.
 
-![محرر Scratch مع الخلفيات بالترتيب: البداية وأضواء المسرح والمدينة والنهاية والمنصة التي تظهر عليها خلفية أضواء المسرح.](images/quiz1-backdrops.png)
+![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
 
-في هذه اللعبة، ما الخلفية التي ستظهر بعد ذلك عند النقر فوق الحشرة؟
+In this game, which backdrop would appear next when you click on the bug?
 
 --- choices ---
 
@@ -41,7 +39,7 @@ next backdrop
 
   --- feedback ---
 
-نعم. الوحدة `الخلفية التالية`{: class = "block3looks"} تتغير إلى الخلفية التالية بالترتيب الذي يتم به وضع الخلفيات عند النقر فوق علامة التبويب **الخلفيات** من أجل **المنصة**.
+Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
 
 --- /feedback ---
 
