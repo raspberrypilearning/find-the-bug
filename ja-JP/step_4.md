@@ -11,6 +11,8 @@
 </div>
 </div>
 
+### Add the Parrot sprite
+
 --- task ---
 
 **Parrot** スプライトを追加します。
@@ -18,6 +20,8 @@
 ![「スプライトを選ぶ」アイコン。](images/sprite-button.png)
 
 --- /task ---
+
+### Animate the Parrot sprite
 
 [Catch the bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_ blank"}プロジェクトでは、 `繰り返す`{:class="block3control"}ループを使用しました。
 
@@ -57,4 +61,3 @@ Scratchでは、実行中のコードが黄色のアウトラインで光りま�
 
 --- /task ---
 
---- save ---
