@@ -11,6 +11,8 @@ Para dificultar para os jogadores encontrarem e clicarem no inseto, você vai co
 </div>
 </div>
 
+### Add the Parrot sprite
+
 --- task ---
 
 Adicione o ator**Parrot**.
@@ -18,6 +20,8 @@ Adicione o ator**Parrot**.
 ![O ícone 'Selecione um ator'.](images/sprite-button.png)
 
 --- /task ---
+
+### Animate the Parrot sprite
 
 No projeto [Pegue o ônibus](https://projects.raspberrypi.org/en/projects/catch-the-bus){: target = "_ blank"}, você usou um loop`repetir`{:class ="block3control"}.
 
@@ -57,4 +61,3 @@ No Scratch, o código em execução é destacado com um contorno amarelo:
 
 --- /task ---
 
---- save ---
