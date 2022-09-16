@@ -11,6 +11,8 @@ Pour qu'il soit plus difficile pour les joueurs de trouver et de cliquer sur le 
 </div>
 </div>
 
+### Add the Parrot sprite
+
 --- task ---
 
 Ajoute le sprite **Parrot**.
@@ -18,6 +20,8 @@ Ajoute le sprite **Parrot**.
 ![L'icône 'Choisir un Sprite'.](images/sprite-button.png)
 
 --- /task ---
+
+### Animate the Parrot sprite
 
 Dans le projet [Prendre le bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}, tu as utilisé une boucle `répéter`{:class="block3control"}.
 
@@ -57,4 +61,3 @@ Dans Scratch, le code en cours d'exécution s'illumine d'un contour jaune :
 
 --- /task ---
 
---- save ---
