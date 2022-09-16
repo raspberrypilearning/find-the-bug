@@ -11,6 +11,8 @@ Om het voor spelers moeilijker te maken om de kever te vinden en erop te klikken
 </div>
 </div>
 
+### Add the Parrot sprite
+
 --- task ---
 
 Voeg de **Parrot** (papegaai) sprite toe.
@@ -18,6 +20,8 @@ Voeg de **Parrot** (papegaai) sprite toe.
 ![Het pictogram 'Kies een Sprite'.](images/sprite-button.png)
 
 --- /task ---
+
+### Animate the Parrot sprite
 
 In het [Neem de bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}-project heb je een `herhaal`{:class="block3control"} blok gebruikt.
 
@@ -57,4 +61,3 @@ In Scratch heeft de code die uitgevoerd wordt een gele omtrek:
 
 --- /task ---
 
---- save ---
