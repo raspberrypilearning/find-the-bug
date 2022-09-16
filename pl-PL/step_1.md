@@ -1,6 +1,6 @@
-## Wprowadzenie
+## You will make
 
-W tym projekcie stworzysz grę, w której będziesz musiał znaleźć robaka, który kryje się na każdym poziomie. Gra będzie miała tła ekranu "start" i "koniec" oraz stoper, który pokaże graczowi, jak szybko znalazł robaki.
+Create a game in which you have to find a hidden bug 🐞 on each level. The game will have 'start' and 'end' screen backdrops, and a timer ⌚ to show the player how quickly they found the bugs.
 
 Będziesz:
 + Tworzył poziomy do swojej gry, używając bloków `następne tło`{:class="block3looks"} oraz ` kiedy tło zmieni się na`{:class="block3events"}
@@ -8,7 +8,7 @@ Będziesz:
 + Używał **zmiennej** `stoper`{:class="block3sensing"} by informować gracza, jak szybko znalazł robaki
 
 --- no-print --- --- task ---
-### Wypróbuj
+### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 Kliknij robaka, aby rozpocząć grę.
