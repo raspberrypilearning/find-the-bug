@@ -1,11 +1,11 @@
 --- question ---
 ---
-legend: Question 2 of 3
+legend: ಪ್ರಶ್ನೆ 3 ರಲ್ಲಿ 2
 ---
 
-You used a `forever`{:class="block3control"} loop to make the **Parrot** sprite fly around in an annoying way.
+ನೀವು **Parrot** ಸ್ಪ್ರೈಟ್ ಅನ್ನು ಕಿರಿಕಿರಿ ಉಂಟುಮಾಡುವ ರೀತಿಯಲ್ಲಿ ಹಾರುವಂತೆ ಮಾಡಲು `forever`{:class="block3control"} ಲೂಪ್ ಉಪಯೋಗ ಮಾಡಿದ್ದೀರಿ.
 
-We have tried to add another distraction sprite, but it just moves once when we click on the green flag and then stops. How can we fix it?
+ನಾವು ಇನ್ನೊಂದು ಗಮನಭಂಗ ಮಾಡುವ ಸ್ಪ್ರೈಟ್‌ ಸೇರಿಸಲು ಪ್ರಯತ್ನಿಸಿದ್ದೇವೆ, ಆದರೆ ಅದು ನಾವು ಹಸಿರು ಧ್ವಜವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ ಒಮ್ಮೆ ಚಲಿಸುತ್ತದೆ ಮತ್ತು ನಂತರ ನಿಂತುಹೋಗುತ್ತದೆ. ನಾವು ಅದನ್ನು ಹೇಗೆ ಸರಿಪಡಿಸಬಹುದು?
 
 ![The Rocket sprite.](images/rocket-sprite.png)
 
@@ -23,35 +23,35 @@ end
 
 --- choices ---
 
-- ( ) Change the number in the `move`{:class="block3motion"} block
+- ( ) `move`{:class="block3motion"} ಬ್ಲಾಕ್ ನಲ್ಲಿರುವ ಸಂಖ್ಯೆಯನ್ನು ಬದಲಾಯಿಸಿ
 
   --- feedback ---
 
-If you change the number in the `move`{:class="block3motion"} block, you will change how far the sprite moves when the green flag is clicked, but this change will not make the rocket keep moving.
+ನೀವು `move`{:class="block3motion"} ಬ್ಲಾಕ್‌ನಲ್ಲಿ ಸಂಖ್ಯೆಯನ್ನು ಬದಲಾಯಿಸಿದರೆ, ಹಸಿರು ಧ್ವಜವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ ಸ್ಪ್ರೈಟ್ ಎಷ್ಟು ದೂರ ಚಲಿಸುತ್ತದೆ ಎಂಬುದನ್ನು ನೀವು ಬದಲಾಯಿಸುತ್ತೀರಿ, ಆದರೆ ಈ ಬದಲಾವಣೆಯು ರಾಕೇಟ್‌ನ್ನು ಚಲಿಸುವಂತೆ ಮಾಡುವುದಿಲ್ಲ.
 
   --- /feedback ---
 
-- ( ) Remove the `if on edge, bounce`{:class="block3motion"} block
+- ( ) `if on edge, bounce`{:class="block3motion"} ಬ್ಲಾಕ್ ಅನ್ನು ತೆಗೆಯಿರಿ
 
   --- feedback ---
 
-The `if on edge, bounce`{:class="block3motion"} block makes the sprite bounce off the edge of the Stage. If you removed it, then the rocket would get stuck at the edge of the Stage.
+`if on edge, bounce`{:class="block3motion"} ಬ್ಲಾಕ್ ಸ್ಪ್ರೈಟ್ ಅನ್ನು ವೇದಿಕೆಯ ಅಂಚಿನಿಂದ ಪುಟಿಯುವಂತೆ ಮಾಡುತ್ತದೆ. ನೀವು ಅದನ್ನು ತೆಗೆದರೆ, ರಾಕೆಟ್ ವೇದಿಕೆಯ ಅಂಚಿನಲ್ಲಿ ಸಿಲುಕಿಕೊಳ್ಳುತ್ತದೆ.
 
   --- /feedback ---
 
-- ( ) Add another `forever`{:class="block3control"} block
+- ( ) ಮತ್ತೊಂದು `forever`{:class="block3control"} ಬ್ಲಾಕ್ ಅನ್ನು ಸೇರಿಸಿ
 
 --- feedback ---
 
-A script can only have one `forever`{:class="block3control"} block. Did you notice that you cannot add a block underneath a `forever`{:class="block3control"} block?
+ಒಂದು ಸ್ಕ್ರಿಪ್ಟ್ ಒಂದೇ ಒಂದು `forever`{:class="block3control"} ಬ್ಲಾಕ್ ಹೊಂದಿರಬಹುದು. ನೀವು `forever`{:class="block3control"} ಕೆಳಗೆ ಬ್ಲಾಕ್ ಅನ್ನು ಸೇರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ ಎಂದು ನೀವು ಗಮನಿಸಿದ್ದೀರಾ?
 
 --- /feedback ---
 
-- (x) Drag the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop
+- (x) `move`{:class="block3motion"} ಬ್ಲಾಕ್ ಅನ್ನು `forever`{:class="block3control"} ಲೂಪ್ ಒಳಗೆ ಎಳೆಯಿರಿ
 
   --- feedback ---
 
-  Yes! The sprite only moves once. If you move the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop, the sprite will keep moving until you stop your project.
+  ಹೌದು! ಸ್ಪ್ರೈಟ್ ಒಮ್ಮೆ ಮಾತ್ರ ಚಲಿಸುತ್ತದೆ. ನೀವು `move`{:class="block3motion"} ಬ್ಲಾಕ್ ಅನ್ನು `forever`{:class="block3control"} ಲೂಪ್ ಒಳಗೆ ಚಲಿಸಿದರೆ, ನೀವು ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ನಿಲ್ಲಿಸುವವರೆಗೂ ಸ್ಪ್ರೈಟ್ ಚಲಿಸುತ್ತಲೇ ಇರುತ್ತದೆ.
 
   --- /feedback ---
 
