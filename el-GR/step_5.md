@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Θα επιλέξεις ένα υπόβαθρο για να δημιουργήσεις ένα δεύτερο επίπεδο για το παιχνίδι σου και να κάνεις το έντομο δυσεύρετο. 
+Choose a backdrop to make a second level for your game, and make the bug hard to find. 
 </div>
 <div>
 
@@ -11,58 +11,62 @@
 </div>
 </div>
 
+### Add another backdrop
+
 --- task ---
 
 **Επίλεξε:** Επίλεξε ένα υπόβαθρο για το δεύτερο επίπεδο. Επιλέξαμε το υπόβαθρο **Urban**, αλλά μπορείς να επιλέξεις αυτό που σου αρέσει περισσότερο.
 
-![](images/insert-urban-backdrop.png)
+![The bug and parrot on an urban backdrop.](images/insert-urban-backdrop.png)
 
 **Συμβουλή:** Να θυμάσαι ότι τα υπόβαθρα με πολλά χρώματα και λεπτομέρειες θα κάνουν το έντομο πιο δύσκολο να βρεθεί. Πόσο δύσκολο θα κάνεις το παιχνίδι σου;
 
 --- /task ---
 
-Για να μπορέσεις να σύρεις το έντομό σου σε μια νέα θέση, πρέπει να σταματήσεις την εκτέλεση του script `όταν γίνει κλικ σε αυτό το αντικείμενο`{:class="block3events"}.
+### Stop the code from running
 
 --- task ---
 
-Σύρε τα μπλοκ μακριά από το μπλοκ `όταν γίνει κλικ σε αυτό το αντικείμενο`μπλοκ {:class="block3events"} για να σταματήσει να εκτελείται όταν κάνεις κλικ στο έντομο:
+Drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them from running when you click on the bug:
 
-![](images/breaking-script.png)
+![Breaking the code.](images/breaking-script.png)
 
 --- /task ---
 
-Το έντομό σου πρέπει να είναι δύσκολο να βρεθεί όταν αλλάζει το υπόβαθρο. Μπορείς να αλλάξεις το μέγεθος του εντόμου για να είναι πιο δύσκολο να το βρεις.
+### Resize the bug
 
 --- task ---
 
-Πρόσθεσε κώδικα για να `ορίσεις το μέγεθος `{:class="block3looks"} του εντόμου για το δεύτερο επίπεδο:
+Add code to `set the size`{:class="block3looks"} of the bug for the second level:
 
-![Το αντικείμενο bug.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v] // choose your backdrop
 set size to [20] % // try another size 
 ```
 
-**Δοκιμή:** Κάνε κλικ στο νέο σου script για να το εκτελέσεις.
+**Test:** Click on your new script to run it.
 
 --- /task ---
 
+### Hide your bug
+
 --- task ---
 
-Σύρε το έντομό σου στη Σκηνή σε μια καλή κρυψώνα γι' αυτό το επίπεδο.
+Drag your bug on the Stage to a good hiding place for this level.
 
-![Το έντομο κρυμμένο στη βιτρίνα του μαγαζιού στη μέση του υπόβαθρου.](images/hidden-urban-backdrop.png)
+![The bug hidden in the shop window in the middle of the backdrop.](images/hidden-urban-backdrop.png)
 
 --- /task ---
 
-Τοποθέτησε το έντομό σου στην κρυψώνα του.
+Position your bug in its hiding place.
 
 --- task ---
 
-Πρόσθεσε ένα μπλοκ `πήγαινε σε θέση x, y`{:class="block3motion"} στον κώδικά σου:
+Add a `go to x: y:`{:class="block3motion"} block to your code:
 
-![Το αντικείμενο bug.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -72,27 +76,29 @@ set size to [20] % // try another size
 
 --- /task ---
 
+### Test your code
+
 --- task ---
 
-Σύνδεσε πάλι τα μπλοκ με το μπλοκ `όταν γίνει κλικ σε αυτό το αντικείμενο`{:class="block3events"}, έτσι ώστε όταν γίνει κλικ στο έντομο, το υπόβαθρο να αλλάξει στο `επόμενο υπόβαθρο`{:class="block3looks"}:
+Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that when the bug is clicked, the backdrop switches to the `next backdrop`{:class="block3looks"}:
 
-![](images/fixed-script.png)
+![The blocks are joined back together.](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**Δοκιμή:** Κάνε κλικ στην πράσινη σημαία για να δοκιμάσεις το έργο σου.
+**Test:** Click on the green flag to test your project.
 
 --- /task ---
 
-Το έντομό σου μπορεί τώρα να βρίσκεται μπροστά από τον παπαγάλο.
+Your bug may now be in front of the parrot.
 
 --- task ---
 
-Πρόσθεσε ένα script για να βεβαιωθείς ότι το έντομό σου βρίσκεται πάντα `πίσω`{:class="block3looks"}:
+Add a script to make sure that your bug is always at the `back`{:class="block3looks"}:
 
-![Το αντικείμενο bug.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -100,8 +106,6 @@ forever
 go to [back v] layer
 ```
 
-Τώρα, το έντομό σου θα παραμένει πάντα στο πίσω μέρος, ακόμα κι αν χρειαστεί να αλλάξεις τη θέση του.
+Now, your bug will always stay at the back, even if you need to change its position.
 
 --- /task ---
-
---- save ---
