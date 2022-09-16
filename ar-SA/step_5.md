@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-ستختار خلفية لإنشاء مستوى ثانٍ للعبتك، وتجعل من الصعب العثور على الحشرة. 
+Choose a backdrop to make a second level for your game, and make the bug hard to find. 
 </div>
 <div>
 
@@ -11,58 +11,62 @@
 </div>
 </div>
 
+### Add another backdrop
+
 --- task ---
 
 **اختر:** اختر خلفية للمستوى الثاني. لقد اخترنا **المدينة**، ولكن يمكنك اختيار الصورة التي تحبها أكثر من غيرها.
 
-![](images/insert-urban-backdrop.png)
+![The bug and parrot on an urban backdrop.](images/insert-urban-backdrop.png)
 
 **نصيحة:** تذكر أن الخلفيات التي تحتوي على الكثير من الألوان والتفاصيل ستجعل من الصعب العثور على الحشرة. إلى أي مدى ستجعل لعبتك صعبة؟
 
 --- /task ---
 
-لتتمكن من سحب الحشرة الخاصة بك إلى موضع جديد، تحتاج إلى إيقاف تشغيل `عند النقر على الكائن` {:class="block3events"} من العمل.
+### Stop the code from running
 
 --- task ---
 
-اسحب الوحدات بعيدًا عن `عند النقر على الكائن`{: class = "block3events"} لمنعها من العمل عند النقر فوق الحشرة:
+Drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them from running when you click on the bug:
 
-![](images/breaking-script.png)
+![Breaking the code.](images/breaking-script.png)
 
 --- /task ---
 
-يجب أن يكون من الصعب العثور على الحشرة الخاصة بك عندما تتغير الخلفية. يمكنك تغيير حجم الحشرة لجعل العثور عليها أكثر صعوبة.
+### Resize the bug
 
 --- task ---
 
-أضف التعليمة البرمجية `اضبط الحجم`{: class = "block3looks"} للحشرة من أجل المستوى الثاني:
+Add code to `set the size`{:class="block3looks"} of the bug for the second level:
 
-![كائن الحشرة.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v] // choose your backdrop
 set size to [20] % // try another size 
 ```
 
-**اختبار:** انقر فوق البرنامج الجديد لتشغيله.
+**Test:** Click on your new script to run it.
 
 --- /task ---
 
+### Hide your bug
+
 --- task ---
 
-اسحب الحشرة الخاصة بك على المنصة إلى مكان اختباء جيد لهذا المستوى.
+Drag your bug on the Stage to a good hiding place for this level.
 
-![الحشرة المخبأة في نافذة المتجر في منتصف الخلفية.](images/hidden-urban-backdrop.png)
+![The bug hidden in the shop window in the middle of the backdrop.](images/hidden-urban-backdrop.png)
 
 --- /task ---
 
-ضع الحشرة في مخبأها.
+Position your bug in its hiding place.
 
 --- task ---
 
-أضف وحدة لتحديد الإحداثيات `اذهب إلى س:ع:` {:class="block3motion"} إلى برنامجك:
+Add a `go to x: y:`{:class="block3motion"} block to your code:
 
-![كائن الحشرة.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -72,27 +76,29 @@ set size to [20] % // try another size
 
 --- /task ---
 
+### Test your code
+
 --- task ---
 
-انضم إلى الوحدات مرة أخرى إلى الرقم `عندالنقر على الكائن`{: class = "block3events"} بحيث عند النقر على الحشرة، تتحول الخلفية إلى الخلفية `الخلفية التالية`{:class="block3looks"}:
+Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that when the bug is clicked, the backdrop switches to the `next backdrop`{:class="block3looks"}:
 
-![](images/fixed-script.png)
+![The blocks are joined back together.](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**اختبار:** انقر فوق العلم الأخضر لاختبار مشروعك.
+**Test:** Click on the green flag to test your project.
 
 --- /task ---
 
-قد تكون الحشرة الآن أمام الببغاء.
+Your bug may now be in front of the parrot.
 
 --- task ---
 
-أضف نصًا برمجيًا للتأكد من أن الحشرة دائما في `الخلف`{:class="block3looks"}:
+Add a script to make sure that your bug is always at the `back`{:class="block3looks"}:
 
-![كائن الحشرة.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -100,8 +106,6 @@ forever
 go to [back v] layer
 ```
 
-الآن، ستبقى الحشرة دائمًا في الخلف، حتى إذا كنت بحاجة إلى تغيير موضعها.
+Now, your bug will always stay at the back, even if you need to change its position.
 
 --- /task ---
-
---- save ---
