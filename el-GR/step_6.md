@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Θα δημιουργήσεις μια οθόνη "end" για να εμφανίσεις τον αριθμό των δευτερολέπτων που χρειάστηκε ο παίκτης για να βρει τα έντομα. 
+Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
 </div>
 <div>
 
@@ -14,6 +14,8 @@
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Μερικές φορές, το να νικάς ένα παιχνίδι δεν είναι αρκετό. Στους παίκτες αρέσει να γνωρίζουν πόσο καλά τα πήγαν απέναντι σε άλλους παίκτες ή στον εαυτό τους. Μπορείς να σκεφτείς ένα παιχνίδι που να σου δείχνει πόσο καλά τα κατάφερες;</p>
 
+### Add another backdrop
+
 --- task ---
 
 Πρόσθεσε το υπόβαθρο **Chalkboard** από την κατηγορία **Εσωτερικοί Χώροι**.
@@ -23,6 +25,8 @@
 **Συμβουλή:** Στο Scratch, μπορείς να προσθέσεις το ίδιο υπόβαθρο περισσότερες από μία φορές.
 
 --- /task ---
+
+### Edit the backdrop
 
 --- task ---
 
@@ -42,6 +46,8 @@
 
 --- /task ---
 
+### Position the bug
+
 --- task ---
 
 Κάνε κλικ στο αντικείμενο **bug** και πρόσθεσε κώδικα για να τοποθετήσεις το έντομο στην οθόνη «end»:
@@ -55,6 +61,8 @@ go to x: [0] y: [30] // on the board
 ```
 
 --- /task ---
+
+### Add a timer
 
 Πόσο χρόνο χρειάστηκες για να βρεις και να κάνεις κλικ στα έντομα; Το Scratch έχει ένα `χρονόμετρο `{:class="block3sensing"} που μπορείς να χρησιμοποιήσεις για να μάθεις.
 
@@ -98,6 +106,8 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
+### Stop the timer
+
 Εάν παίξεις το παιχνίδι δεύτερη φορά, το `χρονόμετρο`{:class="block3sensing"} θα συνεχίσει να μετράει.
 
 --- task ---
@@ -121,4 +131,3 @@ go to x: [13] y: [132] // on the disco ball
 
 --- /task ---
 
---- save ---
