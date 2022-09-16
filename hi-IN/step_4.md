@@ -11,6 +11,8 @@ To make it harder for players to find and click on the bug, you will add an anno
 </div>
 </div>
 
+### Add the Parrot sprite
+
 --- task ---
 
 Add the **Parrot** sprite.
@@ -18,6 +20,8 @@ Add the **Parrot** sprite.
 ![The 'Choose a Sprite' icon.](images/sprite-button.png)
 
 --- /task ---
+
+### Animate the Parrot sprite
 
 In the [Catch the bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"} project, you used a `repeat`{:class="block3control"} loop.
 
@@ -57,4 +61,3 @@ In Scratch, code that is running glows with a yellow outline:
 
 --- /task ---
 
---- save ---
