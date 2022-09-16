@@ -1,37 +1,40 @@
 ---
 title: ದೋಷವನ್ನು ಹುಡುಕಿ
 hero_image: images/banner.png
-description: ನೀವು ಪ್ರತಿ ಹಂತದಲ್ಲಿ ಗುಪ್ತ ದೋಷವನ್ನು ಕಂಡುಹಿಡಿಯಬೇಕಾದ ಆಟವನ್ನು ರಚಿಸಿ
+description: ನೀವು ಪ್ರತಿ ಹಂತದಲ್ಲಿ ಗುಪ್ತ ಹುಳವನ್ನು ಕಂಡುಹಿಡಿಯಬೇಕಾದ ಆಟವನ್ನು ರಚಿಸಿ
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: ಪರಿಚಯ
+    title: You will make
   - 
-    title: ಪರದೆಯನ್ನು ಪ್ರಾರಂಭಿಸಿ
+    title: ಪ್ರಾರಂಭದ ಪರದೆ
   - 
     title: ಮೊದಲ ಹಂತ
-    completion: engaged
+    completion:
+      - engaged
   - 
-    title: ಗಿಣಿ ವ್ಯಾಕುಲತೆ
+    title: ಗಿಣಿ ಗಮನಭಂಗ
   - 
     title: ಎರಡನೇ ಹಂತ
   - 
     title: ಅಂತ್ಯ ಪರದೆ
+    completion:
+      - internal
   - 
-    title: ಆಟವಾಡು
-    completion: internal
-  - 
-    title: ಪ್ರತಿಫಲನ
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
-    title: ನಿಮ್ಮ ಆಟವನ್ನು ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ
+    title: Upgrade your game
+  - 
+    title: Share and play
   - 
     title: ಮುಂದೆ ಏನು?
