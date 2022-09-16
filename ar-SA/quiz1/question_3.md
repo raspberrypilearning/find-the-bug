@@ -38,7 +38,7 @@ go to x: [0] y: [30]
 
   --- feedback ---
 
-نعم. يُبلغ `الموقت`{:class="block3sensing"} عن الوقت منذ بدء المشروع، أو منذ إعادة تعيين المؤقت.
+نعم. يُبلغ `الموقت`{:class="block3sensing"} عن الوقت منذ بدء المشروع، أو منذ إعادة تعيين المؤقت. The `say`{:class="block3looks"} block creates a speech bubble next to bug.
 
   --- /feedback ---
 
