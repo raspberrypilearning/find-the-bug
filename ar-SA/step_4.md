@@ -11,6 +11,8 @@
 </div>
 </div>
 
+### Add the Parrot sprite
+
 --- task ---
 
 أضف كائن **الببغاء**.
@@ -18,6 +20,8 @@
 ![أيقونة "اختر كائن".](images/sprite-button.png)
 
 --- /task ---
+
+### Animate the Parrot sprite
 
 في مشروع [اللحاق بالحافلة](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}، كنت تستخدم حلقة `تكرار`{:class="block3control"}.
 
@@ -57,4 +61,3 @@ end
 
 --- /task ---
 
---- save ---
