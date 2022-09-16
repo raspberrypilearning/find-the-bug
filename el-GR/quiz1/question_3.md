@@ -38,7 +38,7 @@ go to x: [0] y: [30]
 
   --- feedback ---
 
-Ναι. Το μπλοκ `χρονόμετρο`{:class="block3sensing"} αναφέρει τον χρόνο από την έναρξη του έργου ή από τον μηδενισμό του χρονομέτρου.
+Ναι. Το μπλοκ `χρονόμετρο`{:class="block3sensing"} αναφέρει τον χρόνο από την έναρξη του έργου ή από τον μηδενισμό του χρονομέτρου. The `say`{:class="block3looks"} block creates a speech bubble next to bug.
 
   --- /feedback ---
 
