@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Bydd eich gêm yn dechrau gyda sgrin 'cychwyn', a bydd chwaraewyr yn clicio ar y chwilen i fynd i'r lefel gyntaf.
+Give your game a 'start' screen.
 </div>
 <div>
 
@@ -11,6 +11,8 @@ Bydd eich gêm yn dechrau gyda sgrin 'cychwyn', a bydd chwaraewyr yn clicio ar y
 </div>
 </div>
 
+### Open the starter project
+
 --- task ---
 
 Agora'r [prosiect cychwynnol canfod y chwilen](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Bydd Scratch yn agor mewn tab arall ar y porwr.
@@ -18,6 +20,8 @@ Agora'r [prosiect cychwynnol canfod y chwilen](https://scratch.mit.edu/projects/
 [[[working-offline]]]
 
 --- /task ---
+
+### Add a Backdrop
 
 --- task ---
 
@@ -35,9 +39,11 @@ Mae gan y **Llwyfan** dab **Cefnlenni** yn hytrach na thab **Gwisgoedd**. Dyma l
 
 Clicia ar y cwarel Llwyfan.
 
-![](images/stage-pane.png)
+![The Stage pane in the bottom right corner is highlighted.](images/stage-pane.png)
 
 --- /task ---
+
+### Edit the Backdrop
 
 --- task ---
 
@@ -51,7 +57,7 @@ Clicia ar y tab **Cefnlenni** i agor y Golygydd paent.
 
 Dewisa **backdrop1** a chlicio ar yr eicon **Dileu** i dynnu'r gefnlen **backdrop1** o dy brosiect. Fydd dim angen y gefnlen **backdrop1** yn y prosiect hwn.
 
-![](images/delete-backdrop1.png)
+![Backdrop1 is highlighted in the top left corner.](images/delete-backdrop1.png)
 
 --- /task ---
 
@@ -69,13 +75,15 @@ Clicia ar **Trosi i Fector**. Nawr, byddi di'n gallu ychwanegu testun y galli di
 
 Defnyddia'r offeryn **Testun** i ychwanegu'r testun `Chwilio am chwilen` at y bwrdd du:
 
-![](images/chalkboard-text.png)
+![Find the bug is written on the chalkboard.](images/chalkboard-text.png)
 
 Fe ddefnyddion ni'r ffont **Marker** mewn gwyn, ond **dewisa** y ffont a'r lliw rwyt ti am eu defnyddio.
 
 **Awgrym:** Newidia i'r offeryn **Dewis** (Saeth) i symud dy destun o gwmpas. I newid maint y testun, cydia yng nghornel y testun a'i lusgo.
 
 --- /task ---
+
+## Rename the Backdrop
 
 --- task ---
 
@@ -86,6 +94,8 @@ Newidia enw'r gefnlen i `dechrau`, oherwydd bydd angen i ti ei dewis yn nes ymla
 **Awgrym:** Os wyt ti'n defnyddio enwau sy'n gwneud synnwyr, bydd yn haws deall dy brosiect, yn enwedig pan ddoi di yn ôl i brosiect yn nes ymlaen.
 
 --- /task ---
+
+### Add the Bug Sprite
 
 --- task ---
 
@@ -111,5 +121,4 @@ Clicia ar **Dewiswch Gorlun** a theipio `bug` yn y blwch chwilio.
 Mae camgymeriad mewn rhaglen gyfrifiadurol yn cael ei alw'n <span style="color: #0faeb0">**chwilen**</span>. Yr enw am ddod o hyd i gamgymeriadau mewn rhaglenni cyfrifiadurol a'u tynnu yw <span style="color: #0faeb0">**difa chwilod**</span>. Mae Grace Hopper yn beiriannydd meddalwedd enwog. Daeth ei thîm o hyd i wyfyn yn eu cyfrifiadur ar un adeg. Dywed eu nodiadau, "Yr achos go iawn cyntaf o chwilen yn cael ei ddarganfod."
 </p>
 
---- save ---
 
