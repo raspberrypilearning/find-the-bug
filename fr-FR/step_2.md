@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Ton jeu commencera par un écran de « début » et les joueurs cliqueront sur le bug pour passer au premier niveau.
+Give your game a 'start' screen.
 </div>
 <div>
 
@@ -11,6 +11,8 @@ Ton jeu commencera par un écran de « début » et les joueurs cliqueront sur
 </div>
 </div>
 
+### Open the starter project
+
 --- task ---
 
 Ouvre le [projet de démarrage Trouver le bug](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch s'ouvrira dans un autre onglet du navigateur.
@@ -18,6 +20,8 @@ Ouvre le [projet de démarrage Trouver le bug](https://scratch.mit.edu/projects/
 [[[working-offline]]]
 
 --- /task ---
+
+### Add a Backdrop
 
 --- task ---
 
@@ -35,9 +39,11 @@ La **Scène** a un onglet **Arrière-plans** au lieu d'un onglet **Costumes**. C
 
 Clique sur le volet Scène.
 
-![](images/stage-pane.png)
+![The Stage pane in the bottom right corner is highlighted.](images/stage-pane.png)
 
 --- /task ---
+
+### Edit the Backdrop
 
 --- task ---
 
@@ -51,7 +57,7 @@ Clique sur l'onglet **Arrière-plans** pour ouvrir l'éditeur de peinture.
 
 Sélectionne **arrière-plan1** et clique sur l'icone **Supprimer** pour supprimer l'**arrière-plan1** de ton projet. Tu n'auras pas besoin de l'**arrière-plan1** dans ce projet.
 
-![](images/delete-backdrop1.png)
+![Backdrop1 is highlighted in the top left corner.](images/delete-backdrop1.png)
 
 --- /task ---
 
@@ -69,13 +75,15 @@ Clique sur **Convertir en vecteur**. Maintenant, tu pourras ajouter du texte que
 
 Utilise l' outil **Texte** pour ajouter le texte `Trouver le bug` au tableau :
 
-![](images/chalkboard-text.png)
+![Find the bug is written on the chalkboard.](images/chalkboard-text.png)
 
 Nous avons utilisé la police **Marker** en blanc, mais **choisis** la police et la couleur que tu souhaites utiliser.
 
 **Astuce :** Passe à l'outil **Sélectionner** (Flèche) pour déplacer ton texte. Pour modifier la taille du texte, saisis le coin du texte et fais-le glisser.
 
 --- /task ---
+
+## Rename the Backdrop
 
 --- task ---
 
@@ -86,6 +94,8 @@ Change le nom de l'arrière-plan en `début`, car tu devras le sélectionner plu
 **Astuce :** Si tu utilises des noms qui ont du sens, il sera plus facile de comprendre ton projet, surtout lorsque tu reviendras sur un projet plus tard.
 
 --- /task ---
+
+### Add the Bug Sprite
 
 --- task ---
 
@@ -111,5 +121,4 @@ Clique sur **Choisir un Sprite** et tape `bug` dans le champ de recherche.
 Une erreur dans un programme informatique est appelée un <span style="color: #0faeb0">**bug**</span>. La recherche et la suppression des erreurs dans les programmes informatiques s'appellent <span style="color: #0faeb0">**débogage**</span>. Grace Hopper est une célèbre ingénieure en logiciel. Son équipe a une fois trouvé un papillon de nuit dans leur ordinateur. Leurs notes disent : « Premier cas réel de bogue détecté. »
 </p>
 
---- save ---
 
