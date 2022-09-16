@@ -1,19 +1,17 @@
-## Myfyrio
+## Quick quiz
 
-Da iawn! Rwyt ti wedi dysgu cryn dipyn! Nawr, mae'n bryd myfyrio ar y dysgu - mae hyn yn elfen bwysig o ddysgu, oherwydd mae'n helpu i wneud cysylltiadau newydd yn dy ymennydd.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Ateba'r tri chwestiwn isod i fyfyrio ar yr hyn rwyt ti wedi'i ddysgu.
+When you have answered each question, click on **Check my answer**.
 
-Ar ôl ateb pob cwestiwn, clicia ar **Cyflwyno**. Byddi di'n cael dy dywys i'r ateb cywir. Galli di wneud hyn gymaint ag y mynni.
-
-Mwynha!
+Have fun!
 
 --- question ---
 ---
 legend: Cwestiwn 1 o 3
 ---
 
-Yn dy gêm, wnes di ychwanegu'r cod hwn at dy **chwilen** i symud drwy'r cefnlenni bob tro roedd hi'n cael ei chlicio.
+In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
 
 ```blocks3
 when this sprite clicked
@@ -21,11 +19,11 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Edrycha ar y ddelwedd hon sy'n dangos gêm 'Chwilio am chwilen' yn cael ei chwarae.
+Look at this image showing a 'Find the bug' game being played.
 
-![Y golygydd Scratch gyda chefnlenni yn y drefn yn dechrau, Spotlight, Urban, diwedd; a'r Llwyfan yn dangos y cefndir Spotlight.](images/quiz1-backdrops.png)
+![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
 
-Yn y gêm yma, pa gefnlen fyddai'n ymddangos nesaf ar ôl i ti glicio'r chwilen?
+In this game, which backdrop would appear next when you click on the bug?
 
 --- choices ---
 
@@ -41,7 +39,7 @@ Yn y gêm yma, pa gefnlen fyddai'n ymddangos nesaf ar ôl i ti glicio'r chwilen?
 
   --- feedback ---
 
-Cywir. Mae'r bloc `cefnlen nesaf`{:class="block3looks"} yn newid i'r gefnlen nesaf yn y drefn y mae'r cefnlenni wedi'u rhestru pan fyddi di'n clicio ar y tab **Cefnlenni** ar gyfer y **Llwyfan**.
+Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
 
 --- /feedback ---
 
