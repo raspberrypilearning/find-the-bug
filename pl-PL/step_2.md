@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Twoja gra rozpocznie się od ekranu "start", a gracze klikną robaka, aby przejść do pierwszego poziomu.
+Give your game a 'start' screen.
 </div>
 <div>
 
@@ -11,6 +11,8 @@ Twoja gra rozpocznie się od ekranu "start", a gracze klikną robaka, aby przej�
 </div>
 </div>
 
+### Open the starter project
+
 --- task ---
 
 Otwórz [projekt startowy Znajdź robaka ](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch otworzy się w nowej zakładce przeglądarki.
@@ -18,6 +20,8 @@ Otwórz [projekt startowy Znajdź robaka ](https://scratch.mit.edu/projects/5822
 [[[working-offline]]]
 
 --- /task ---
+
+### Add a Backdrop
 
 --- task ---
 
@@ -35,9 +39,11 @@ Dodaj tło **Chalkboard** z kategorii **W pomieszczeniu**.
 
 Kliknij panel Sceny.
 
-![](images/stage-pane.png)
+![The Stage pane in the bottom right corner is highlighted.](images/stage-pane.png)
 
 --- /task ---
+
+### Edit the Backdrop
 
 --- task ---
 
@@ -51,7 +57,7 @@ Kliknij na zakładkę **tła**, aby otworzyć edytor Paint.
 
 Wybierz **backdrop1** i kliknij ikonę **Usuń** aby usunąć **backdrop1** z projektu. W tym projekcie nie będziesz potrzebował tła **backdrop1**.
 
-![](images/delete-backdrop1.png)
+![Backdrop1 is highlighted in the top left corner.](images/delete-backdrop1.png)
 
 --- /task ---
 
@@ -69,13 +75,15 @@ Kliknij **Konwertuj na wektor**. Teraz będziesz mógł dodać tekst, który mo�
 
 Użyj narzędzia **Tekst**, aby dodać tekst `Znajdź robaka` na tablicy:
 
-![](images/chalkboard-text.png)
+![Find the bug is written on the chalkboard.](images/chalkboard-text.png)
 
 Użyliśmy czcionki **Marker** w kolorze białym, ale **wybierz** czcionkę i kolor, którego chcesz użyć.
 
 **Wskazówka:** Przełącz się na narzędzie **Wybierz** (Strzałka), aby przemieścić tekst. Aby zmienić wielkość tekstu, chwyć róg tekstu i go przeciągnij.
 
 --- /task ---
+
+## Rename the Backdrop
 
 --- task ---
 
@@ -86,6 +94,8 @@ Zmień nazwę tła na `start`, ponieważ będziesz musiał wybrać je później 
 **Wskazówka** Jeśli użyjesz nazw, które mają sens, łatwiej będzie zrozumieć Twój projekt, zwłaszcza gdy wrócisz do niego później.
 
 --- /task ---
+
+### Add the Bug Sprite
 
 --- task ---
 
@@ -111,5 +121,4 @@ Kliknij na **Wybierz kostium** i wpisz `bug` w polu wyszukiwania.
 Błąd w programie komputerowym to <span style="color: #0faeb0">**bug**</span> (z angielskiego: robak). Proces znajdowania i usuwania błędów w programach komputerowych nazywamy <span style="color: #0faeb0">**debugowaniem**</span>. Grace Hopper jest znaną inżynier oprogramowania. Pewnego razu jej zespół znalazł ćmę w ich komputerze. Ich notatki mówią: "Pierwszy rzeczywisty przypadek wykrycia buga."
 </p>
 
---- save ---
 
