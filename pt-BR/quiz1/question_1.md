@@ -1,19 +1,17 @@
-## Reflexão
+## Quick quiz
 
-Muito bem, você aprendeu bastante! Agora, é hora de refletir - refletir é uma parte importante do aprendizado, porque ajuda a fazer novas conexões no em seu cérebro.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Responda às três perguntas abaixo para pensar sobre o que você aprendeu.
+When you have answered each question, click on **Check my answer**.
 
-Após responder à cada pergunta, clique em **Enviar**. Você vai ser guiado para a resposta correta. Você pode fazer esta atividade quantas vezes quiser.
-
-Divirta-se!
+Have fun!
 
 --- question ---
 ---
 legend: Pergunta 1 de 3
 ---
 
-Em seu jogo, você adicionou esse código ao seu **bug** para percorrer os panos de fundo cada vez que ele for clicado.
+In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
 
 ```blocks3
 when this sprite clicked
@@ -21,11 +19,11 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Olhe para esta imagem que mostra o jogo 'Encontre o bug' sendo executado.
+Look at this image showing a 'Find the bug' game being played.
 
-![O editor Scratch com cenários na ordem Começo, Holofote, Urbano, Fim; e o Palco mostrando o cenário Holofote.](images/quiz1-backdrops.png)
+![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
 
-Neste jogo, qual cenário vai aparecer se você clicar sobre o inseto?
+In this game, which backdrop would appear next when you click on the bug?
 
 --- choices ---
 
@@ -41,7 +39,7 @@ Neste jogo, qual cenário vai aparecer se você clicar sobre o inseto?
 
   --- feedback ---
 
-Sim. O próximo `bloco cenário`{: classe = "block3looks"} altera o plano de fundo para o próximo cenário no na ordem da lista de cenários na aba **Cenários** para o **Palco**.
+Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
 
 --- /feedback ---
 
