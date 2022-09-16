@@ -8,30 +8,33 @@ copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: はじめに
+    title: You will make
   - 
     title: スタート画面
   - 
     title: 第1レベル
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: オウムが気を散らす
   - 
     title: 第2レベル
   - 
     title: 終了画面
+    completion:
+      - internal
   - 
-    title: ゲームをする
-    completion: internal
-  - 
-    title: ふりかえり
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
-    title: ゲームをアップグレードする
+    title: Upgrade your game
+  - 
+    title: Share and play
   - 
     title: 次は何をしますか？
