@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-プレイヤーがバグを見つけるのにかかった秒数を表示する「終了」画面を作成します。 
+Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
 </div>
 <div>
 
@@ -14,6 +14,8 @@
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 ゲームに勝つだけでは十分ではない時があります。 プレイヤーは、他のプレイヤーや自分自身に対してどうだったかを知りたがっています。 あなたがどれだけうまくやったかを示すゲームを思いつくことができますか？</p>
 
+### Add another backdrop
+
 --- task ---
 
 **Chalkboard** (黒板) の背景を **屋内** カテゴリから追加します。
@@ -23,6 +25,8 @@
 **ヒント:** Scratchでは、同じ背景を何度も使うことができます。
 
 --- /task ---
+
+### Edit the backdrop
 
 --- task ---
 
@@ -42,6 +46,8 @@
 
 --- /task ---
 
+### Position the bug
+
 --- task ---
 
 **バグ** スプライトをクリックし、「終了」画面にバグを配置するコードを追加します。
@@ -55,6 +61,8 @@ go to x: [0] y: [30] // on the board
 ```
 
 --- /task ---
+
+### Add a timer
 
 バグを見つけてクリックするのにどのくらい時間がかかりますか？ Scratchには `タイマー`{:class="block3sensing"}があり、これを使用して調べることができます。
 
@@ -98,6 +106,8 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
+### Stop the timer
+
 2回目にゲームをプレイすると、 `タイマー`{:class="block3sensing"}はカウントし続けています。
 
 --- task ---
@@ -121,4 +131,3 @@ go to x: [13] y: [132] // on the disco ball
 
 --- /task ---
 
---- save ---
