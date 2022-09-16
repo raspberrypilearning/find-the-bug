@@ -8,30 +8,33 @@ copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: Εισαγωγή
+    title: You will make
   - 
     title: Αρχική Οθόνη
   - 
     title: Πρώτο επίπεδο
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: Ένας παπαγάλος αποσπά την προσοχή
   - 
     title: Δεύτερο επίπεδο
   - 
     title: Τελική οθόνη
+    completion:
+      - internal
   - 
-    title: Παίξε το παιχνίδι
-    completion: internal
-  - 
-    title: Αναστοχασμός
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
-    title: Αναβάθμισε το έργο σου
+    title: Upgrade your game
+  - 
+    title: Share and play
   - 
     title: Και τώρα;
