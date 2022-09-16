@@ -1,62 +1,42 @@
-## Ulepsz swój projekt
-
-Jeśli masz czas, możesz dodać więcej poziomów i więcej rozpraszaczy do swojej gry. Możesz także zmienić ukrywającego się duszka i zmienić tekst na tablicy.
-
-Oto bloki, których będziesz potrzebować, aby ukryć robaka na nowym poziomie:
-
-```blocks3
-when backdrop switches to [new level v]
-
-set size to [20] %
-
-go to x: [0] y: [0] // drag to position the bug first
-
-set [color v] effect to [50]
-```
+## Share and play
 
 --- task ---
 
-Dla każdego poziomu musisz:
-- Dodać tło
-- Kliknąć na panel Sceny, potem zakładkę **Tła**, a następnie przeciągnąć nowe tło na miejsce przed tłem **koniec**
-- Dodać blok `kiedy tło zmieni się na`{:class="block3events"} dla nowego tła oraz dodać kod, aby umieścić i ukryć robaka
+Inspire the Raspberry Pi Foundation community with your project!
 
-**Wskazówka:** Aby przeciągnąć robaka do nowej kryjówki, będziesz musiał "złamać" kod, aby tło nie zmieniło się po kliknięciu robaka w celu ustawienia go na nowy poziom.
+[[[share-scratch]]]
+
+To submit your project to our 'Find the bug' Scratch studio for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---
+
+--- no-print --- --- task ---
+
+Play these fabulous games from our ['Find the bug' Scratch studio](https://scratch.mit.edu/studios/29005236/){:target="_blank"}.
+
+Notice how the creators have added extra levels, annoying distractions or upgraded the start and end screens:
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/545488112/?autostart=false" frameborder="0"></iframe>
+</div>
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707645119/?autostart=false" frameborder="0"></iframe>
+</div>
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707644397/?autostart=false" frameborder="0"></iframe>
+</div>
+
+--- /task ---
+
+--- /no-print ---
 
 --- task ---
 
-Możesz dodać więcej papug lub wybrać innego duszka, który będzie odwracał uwagę.
-
-Oto kod, którego użyłeś dla papugi:
-```blocks3
-when flag clicked
-set rotation style [left-right v] // do not go upside down
-point in direction [35] // number from -180 to 180
-forever // keep being annoying
-move [10] steps // the number controls the speed
-if on edge, bounce // stay on the Stage
-next costume // flap
-change [color v] effect by [5] // try 11 or 50
-wait [0.25] seconds // try 0.1 or 0.5
-end
-```
-
-**Wskazówka:** Możesz przeciągnąć kod duszka **Parrot** na innego duszka, aby przyspieszyć tworzenie kolejnego duszka rozpraszającego.
-
-![Przeciągnięcie kodu z obszaru Skrypt do innego duszka na liście duszków.](images/drag-parrot-code.gif)
+You can also look at the remixes for the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/remixes){:target="_blank"} to see what other creators have made.
 
 --- /task ---
-
---- collapse ---
----
-title: Ukończony projekt
----
-
-Tutaj możesz zobaczyć [ukończony projekt](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
-
---- /collapse ---
 
 --- save ---
 
