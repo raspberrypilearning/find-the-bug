@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Je gaat een 'eind' scherm maken om te laten zien hoeveel seconden de speler nodig had om de kevers te vinden. 
+Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
 </div>
 <div>
 
@@ -14,6 +14,8 @@ Je gaat een 'eind' scherm maken om te laten zien hoeveel seconden de speler nodi
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Soms is alleen het verslaan van een spel niet genoeg. Spelers willen graag weten hoe ze het hebben gedaan tegen andere spelers of tegen zichzelf. Kun je een spel bedenken dat laat zien hoe goed je het hebt gedaan?</p>
 
+### Add another backdrop
+
 --- task ---
 
 Voeg de **Chalkboard** (bord) achtergrond uit de categorie **Binnen** toe.
@@ -23,6 +25,8 @@ Voeg de **Chalkboard** (bord) achtergrond uit de categorie **Binnen** toe.
 **Tip:** In Scratch kun je dezelfde achtergrond meer dan één keer toevoegen.
 
 --- /task ---
+
+### Edit the backdrop
 
 --- task ---
 
@@ -42,6 +46,8 @@ Verander de naam van de achtergrond in `end` (einde):
 
 --- /task ---
 
+### Position the bug
+
 --- task ---
 
 Klik op de **kever** sprite en voeg code toe om de kever op het 'eind' scherm te plaatsen:
@@ -55,6 +61,8 @@ go to x: [0] y: [30] // on the board
 ```
 
 --- /task ---
+
+### Add a timer
 
 Hoeveel tijd kost het je om de kevers te vinden en erop te klikken? Scratch heeft een `klok`{:class="block3sensing"} die je hiervoor kunt gebruiken.
 
@@ -98,6 +106,8 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
+### Stop the timer
+
 Als je het spel een tweede keer speelt, blijft de `klok`{:class="block3sensing"} tellen.
 
 --- task ---
@@ -121,4 +131,3 @@ go to x: [13] y: [132] // on the disco ball
 
 --- /task ---
 
---- save ---
