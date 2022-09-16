@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Crearás una pantalla 'final' para mostrar la cantidad de segundos que le ha tomado al jugador encontrar los insectos. 
+Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
 </div>
 <div>
 
@@ -14,6 +14,8 @@ Crearás una pantalla 'final' para mostrar la cantidad de segundos que le ha tom
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 A veces, tan solo ganar un juego no es suficiente. A los jugadores les gusta saber cómo les fue contra otros jugadores o contra ellos mismos. ¿Puedes pensar en un juego que te muestre lo bien que lo hiciste?</p>
 
+### Add another backdrop
+
 --- task ---
 
 Agrega el fondo **Chalkboard** de la categoría **Interiores**.
@@ -23,6 +25,8 @@ Agrega el fondo **Chalkboard** de la categoría **Interiores**.
 **Consejo:** En Scratch, puedes agregar el mismo fondo más de una vez.
 
 --- /task ---
+
+### Edit the backdrop
 
 --- task ---
 
@@ -42,6 +46,8 @@ Cambia el nombre del fondo a `final`:
 
 --- /task ---
 
+### Position the bug
+
 --- task ---
 
 Haz clic en el objeto **insecto** y añade código para posicionar el insecto en la pantalla 'final':
@@ -55,6 +61,8 @@ go to x: [0] y: [30] // on the board
 ```
 
 --- /task ---
+
+### Add a timer
 
 ¿Cuánto tiempo te lleva encontrar y hacer clic en los insectos? Scratch tiene un cronómetro ``{:class="block3sensing"} que puedes usar para averiguarlo.
 
@@ -98,6 +106,8 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
+### Stop the timer
+
 Si juegas el juego por segunda vez, el `cronómetro`{:class="block3sensing"} seguirá contando.
 
 --- task ---
@@ -121,4 +131,3 @@ go to x: [13] y: [132] // on the disco ball
 
 --- /task ---
 
---- save ---
