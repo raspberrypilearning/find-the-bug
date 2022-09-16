@@ -8,30 +8,33 @@ copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: Introducción
+    title: You will make
   - 
     title: Pantalla de inicio
   - 
     title: Primer nivel
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: Loro para distraer
   - 
     title: Segundo nivel
   - 
     title: Pantalla final
+    completion:
+      - internal
   - 
-    title: Jugar el juego
-    completion: internal
-  - 
-    title: Reflexión
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
-    title: Mejora tu juego
+    title: Upgrade your game
+  - 
+    title: Share and play
   - 
     title: '¿Qué sigue?'
