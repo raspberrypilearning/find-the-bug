@@ -1,11 +1,11 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: ಪ್ರಶ್ನೆ 3 ರಲ್ಲಿ 3
 ---
 
-You added this script to the **bug** sprite:
+ನೀವು ಈ ಸ್ಕ್ರಿಪ್ಟ್ ಅನ್ನು **bug** ಸ್ಪ್ರೈಟ್‌ಗೆ ಸೇರಿಸಿದ್ದೀರಿ:
 
-![The bug sprite.](images/bug-sprite.png)
+![ಬಗ್ ಸ್ಪ್ರೈಟ್.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -14,39 +14,39 @@ go to x: [0] y: [30]
 + say (timer) 
 ```
 
-How does the `say`{:class="block3looks"} `timer`{:class="block3sensing"} block make the Stage look when the backdrop switches to **end**?
+ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ **end** ಬದಲಾದಾಗ, `say`{:class="block3looks"} `timer`{:class="block3sensing"} ಬ್ಲಾಕ್‌ ಸ್ಟೇಜ್‌ ಹೇಗೆ ಕಾಣಿಸುವಂತೆ ಮಾಡುತ್ತದೆ?
 
 --- choices ---
 
-- ( ) ![A parrot saying the timer value "4.52".](images/quiz_parrot_number.png)
+- ( ) ![ಟೈಮರ್ ಮೌಲ್ಯವನ್ನು ಹೇಳುವ ಗಿಣಿ "4.52".](images/quiz_parrot_number.png)
 
   --- feedback ---
 
-Have a look at the script again, and think about which sprite is the main character of the game (the parrot is just an annoying distraction).
+ಬರಹವನ್ನು ಮತ್ತೊಮ್ಮೆ ನೋಡಿ, ಮತ್ತು ಯಾವ ಸ್ಪ್ರೈಟ್ ಆಟದ ಮುಖ್ಯ ಪಾತ್ರವಾಗಿದೆ ಎಂದು ಯೋಚಿಸಿ (ಗಿಳಿ ಕೇವಲ ಕಿರಿಕಿರಿಗೊಳಿಸುವ ಗಮನಭಂಗವಷ್ಟೆ).
 
   --- /feedback ---
 
-- ( ) ![A parrot saying the word "timer".](images/quiz_parrot_timer.png)
+- ( ) ![ಗಿಣಿ "timer" ಪದವನ್ನು ಹೇಳುತ್ತಿದೆ.](images/quiz_parrot_timer.png)
 
   --- feedback ---
 
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer". Also, think about which sprite uses this code.
+`timer`{:class="block3sensing"} ಬ್ಲಾಕ್ `Sensing`{:class="block3sensing"} ಬ್ಲಾಕ್ಸ್‌ ಮೆನುವಿನಿಂದ ಬರುತ್ತದೆ. ಸ್ಪ್ರೈಟ್ "ಟೈಮರ್" ಪದವನ್ನು ಹೇಳುವುದಿಲ್ಲ. ಅಲ್ಲದೆ, ಈ ಕೋಡ್ ಅನ್ನು ಯಾವ ಸ್ಪ್ರೈಟ್ ಬಳಸುತ್ತದೆ ಎಂದು ಯೋಚಿಸಿ.
 
   --- /feedback ---
 
-- (x) ![A bug saying the timer value "4.52".](images/quiz_bug_number.png)
+- (x) ![ಟೈಮರ್ ಮೌಲ್ಯ "4.52" ವನ್ನು ಹೇಳುವ ಹುಳ.](images/quiz_bug_number.png)
 
   --- feedback ---
 
-Yes. The `timer`{:class="block3sensing"} block reports the time since the project started, or since the timer reset.
+ಹೌದು. `timer`{:class="block3sensing"} ಪ್ರಾಜೆಕ್ಟ್ ಪ್ರಾರಂಭವಾದ ಸಮಯದಿಂದ ಅಥವಾ ಟೈಮರ್ ಮರುಹೊಂದಿಸಿದ ನಂತರ ಸಮಯ ವರದಿ ಮಾಡುತ್ತದೆ. The `say`{:class="block3looks"} block creates a speech bubble next to bug.
 
   --- /feedback ---
 
-- ( ) ![A bug saying the word "timer".](images/quiz_bug_timer.png)
+- ( ) !["timer" ಪದವನ್ನು ಹೇಳುವ ಹುಳ.](images/quiz_bug_timer.png)
 
   --- feedback ---
 
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer".
+`timer`{:class="block3sensing"} ಬ್ಲಾಕ್ `Sensing`{:class="block3sensing"} ಬ್ಲಾಕ್ಸ್ ಮೆನುವಿನಿಂದ ಬರುತ್ತದೆ. ಸ್ಪ್ರೈಟ್ "ಟೈಮರ್" ಪದವನ್ನು ಹೇಳುವುದಿಲ್ಲ.
 
   --- /feedback ---
 
