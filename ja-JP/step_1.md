@@ -1,6 +1,6 @@
-## はじめに
+## You will make
 
-このプロジェクトでは、各レベルに隠れているバグ(虫) を見つけるゲームを作成します。 ゲームには、「スタート」と「終了」の画面の背景があり、バグを見つけた速さをタイマーでプレーヤーに知らせます。
+Create a game in which you have to find a hidden bug 🐞 on each level. The game will have 'start' and 'end' screen backdrops, and a timer ⌚ to show the player how quickly they found the bugs.
 
 あなたは次のことを行います。
 + `次の背景にする`{:class="block3looks"}と`背景が・・・になったとき`{:class="block3events"}ブロックを使ってゲームのレベルを作成します</0></0>
@@ -8,7 +8,7 @@
 + `タイマー`{;class="block3sensing"} **変数** を使って、バグを見つけた速さをプレーヤーに知らせます。
 
 --- no-print --- --- task ---
-### 試してみる
+### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 バグをクリックしてゲームを開始します。
