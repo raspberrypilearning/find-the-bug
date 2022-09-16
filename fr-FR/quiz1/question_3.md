@@ -38,7 +38,7 @@ Le bloc `chronomètre`{: class = "block3sensing"} vient du menu blocs `capteurs`
 
   --- feedback ---
 
-Oui. Le bloc `chronomètre`{:class="block3sensing"} indique le temps écoulé depuis le démarrage du projet ou depuis la réinitialisation du chronomètre.
+Oui. Le bloc `chronomètre`{:class="block3sensing"} indique le temps écoulé depuis le démarrage du projet ou depuis la réinitialisation du chronomètre. The `say`{:class="block3looks"} block creates a speech bubble next to bug.
 
   --- /feedback ---
 
