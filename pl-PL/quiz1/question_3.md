@@ -38,7 +38,7 @@ Blok `stoper`{:class="block3sensing"} znajduje się w menu bloków `Czujniki`{:c
 
   --- feedback ---
 
-Tak. Blok `stoper`{:class="block3sensing"} podaje czas od rozpoczęcia projektu lub od zresetowania stopera.
+Tak. Blok `stoper`{:class="block3sensing"} podaje czas od rozpoczęcia projektu lub od zresetowania stopera. The `say`{:class="block3looks"} block creates a speech bubble next to bug.
 
   --- /feedback ---
 
