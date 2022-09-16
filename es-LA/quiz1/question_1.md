@@ -1,19 +1,17 @@
-## Reflexión
+## Quick quiz
 
-¡Bien hecho, has aprendido mucho! Ahora es el momento de reflexionar: reflexionar es una parte importante del aprendizaje, porque ayuda a establecer nuevas conexiones en tu cerebro.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Responde las tres preguntas siguientes para reflexionar sobre lo que has aprendido.
+When you have answered each question, click on **Check my answer**.
 
-Cuando hayas respondido a cada pregunta, haz clic en **Enviar**. Vamos a guiarte hacia la respuesta correcta. Puedes realizar esta actividad tantas veces como quieras.
-
-¡Qué te diviertas!
+Have fun!
 
 --- question ---
 ---
 legend: Pregunta 1 de 3
 ---
 
-En tu juego, agregaste este código a tu **insecto** para moverte por los fondos cada vez que se hacía clic en él.
+In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
 
 ```blocks3
 when this sprite clicked
@@ -21,11 +19,11 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Mira esta imagen que muestra un juego de 'Encuentra el insecto' que se está jugando.
+Look at this image showing a 'Find the bug' game being played.
 
-![El editor Scratch con fondos en el orden de inicio, Spotlight, Urban, final; y el escenario que muestra el fondo de Spotlight.](images/quiz1-backdrops.png)
+![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
 
-En este juego, ¿qué fondo aparecería a continuación cuando hagas clic en el insecto?
+In this game, which backdrop would appear next when you click on the bug?
 
 --- choices ---
 
@@ -41,7 +39,7 @@ En este juego, ¿qué fondo aparecería a continuación cuando hagas clic en el 
 
   --- feedback ---
 
-Sí. El bloque `siguiente fondo`{:class="block3looks"} cambia al siguiente fondo en el orden de la lista de fondos en la pestaña **Fondos** para el **Escenario**.
+Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
 
 --- /feedback ---
 
