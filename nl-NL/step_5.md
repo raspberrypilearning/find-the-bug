@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Je kiest een achtergrond om een tweede niveau voor je spel te maken en maakt het moeilijker om de kever te vinden. 
+Choose a backdrop to make a second level for your game, and make the bug hard to find. 
 </div>
 <div>
 
@@ -11,58 +11,62 @@ Je kiest een achtergrond om een tweede niveau voor je spel te maken en maakt het
 </div>
 </div>
 
+### Add another backdrop
+
 --- task ---
 
 **Kies:** Kies een achtergrond voor je tweede niveau. We hebben de **Urban** (stedelijk) achtergrond gekozen, maar je kunt degene kiezen die jij het leukst vindt.
 
-![](images/insert-urban-backdrop.png)
+![The bug and parrot on an urban backdrop.](images/insert-urban-backdrop.png)
 
 **Tip:** Onthoud dat achtergronden met veel kleuren en details het moeilijker maken om de kever te vinden. Hoe moeilijk ga jij je spel maken?
 
 --- /task ---
 
-Om je kever naar een nieuwe positie te kunnen slepen, moet je het `wanneer op deze sprite wordt geklikt`{:class="block3events"}-script stoppen zodat het niet uitgevoerd wordt.
+### Stop the code from running
 
 --- task ---
 
-Sleep de blokken weg van het `wanneer op deze sprite wordt geklikt`{:class="block3events"} blok om te voorkomen dat ze worden uitgevoerd wanneer je op de kever klikt:
+Drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them from running when you click on the bug:
 
-![](images/breaking-script.png)
+![Breaking the code.](images/breaking-script.png)
 
 --- /task ---
 
-Je kever moet moeilijker te vinden zijn als de achtergrond verandert. Je kunt de grootte van de kever veranderen om het moeilijker te maken hem te vinden.
+### Resize the bug
 
 --- task ---
 
-Voeg code toe aan `maak grootte`{:class="block3looks"} voor de kever van het tweede niveau:
+Add code to `set the size`{:class="block3looks"} of the bug for the second level:
 
-![De kever-sprite.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v] // choose your backdrop
 set size to [20] % // try another size 
 ```
 
-**Test:** Klik op je nieuwe script om het uit te voeren.
+**Test:** Click on your new script to run it.
 
 --- /task ---
 
+### Hide your bug
+
 --- task ---
 
-Sleep je kever op het speelveld naar een goede verstopplek op dit niveau.
+Drag your bug on the Stage to a good hiding place for this level.
 
-![De kever verstopt in de etalage in het midden van de achtergrond.](images/hidden-urban-backdrop.png)
+![The bug hidden in the shop window in the middle of the backdrop.](images/hidden-urban-backdrop.png)
 
 --- /task ---
 
-Plaats je kever in zijn verstopplek.
+Position your bug in its hiding place.
 
 --- task ---
 
-Voeg een `ga naar x: y:`{:class="block3motion"} blok toe:
+Add a `go to x: y:`{:class="block3motion"} block to your code:
 
-![De kever-sprite.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -72,27 +76,29 @@ set size to [20] % // try another size
 
 --- /task ---
 
+### Test your code
+
 --- task ---
 
-Voeg de blokken weer toe aan het `wanneer op deze sprite wordt geklikt`{:class="block3events"} blok zodat wanneer op de kever wordt geklikt de achtergrond overschakelt naar de `volgende achtergrond`{:class="block3looks"}:
+Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that when the bug is clicked, the backdrop switches to the `next backdrop`{:class="block3looks"}:
 
-![](images/fixed-script.png)
+![The blocks are joined back together.](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Klik op de groene vlag om je project te testen.
+**Test:** Click on the green flag to test your project.
 
 --- /task ---
 
-Je kever kan nu vóór de papegaai zitten.
+Your bug may now be in front of the parrot.
 
 --- task ---
 
-Voeg een script toe om ervoor te zorgen dat je kever altijd op de `achtergrond`{:class="block3looks"} zit:
+Add a script to make sure that your bug is always at the `back`{:class="block3looks"}:
 
-![De kever-sprite.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -100,8 +106,6 @@ forever
 go to [back v] layer
 ```
 
-Nu blijft je kever altijd achterin, zelfs als je zijn positie moet veranderen.
+Now, your bug will always stay at the back, even if you need to change its position.
 
 --- /task ---
-
---- save ---
