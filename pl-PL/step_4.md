@@ -11,6 +11,8 @@ Aby utrudnić graczom znalezienie i kliknięcie błędu, dodasz irytującą papu
 </div>
 </div>
 
+### Add the Parrot sprite
+
 --- task ---
 
 Dodaj duszka **Parrot**.
@@ -18,6 +20,8 @@ Dodaj duszka **Parrot**.
 ![Ikona „Wybierz duszka”.](images/sprite-button.png)
 
 --- /task ---
+
+### Animate the Parrot sprite
 
 W projekcie [Złap autobus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"} użyłeś pętli `powtórz`{:class="block3control"}.
 
@@ -57,4 +61,3 @@ W Scratchu uruchomiony kod jest podświetlony żółtym konturem:
 
 --- /task ---
 
---- save ---
