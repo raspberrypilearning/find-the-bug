@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-ستبدأ لعبتك بشاشة "بدء" ، وسيقوم اللاعبون بالنقر فوق الحشرة للانتقال إلى المستوى الأول.
+Give your game a 'start' screen.
 </div>
 <div>
 
@@ -11,6 +11,8 @@
 </div>
 </div>
 
+### Open the starter project
+
 --- task ---
 
 افتح [مشروع البداية اعثر على الحشرة](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. سيتم فتح Scratch في علامة تبويب متصفح أخرى.
@@ -18,6 +20,8 @@
 [[[working-offline]]]
 
 --- /task ---
+
+### Add a Backdrop
 
 --- task ---
 
@@ -35,9 +39,11 @@
 
 انقر على لوحة المنصة.
 
-![](images/stage-pane.png)
+![The Stage pane in the bottom right corner is highlighted.](images/stage-pane.png)
 
 --- /task ---
+
+### Edit the Backdrop
 
 --- task ---
 
@@ -51,7 +57,7 @@
 
 حدد **خلفية 1 ** وانقر على أيقونة **حذف** لإزالة الخلفية **خلفية 1 ** من مشروعك. لن تحتاج إلى الخلفية **خلفية 1 ** في هذا المشروع.
 
-![](images/delete-backdrop1.png)
+![Backdrop1 is highlighted in the top left corner.](images/delete-backdrop1.png)
 
 --- /task ---
 
@@ -69,13 +75,15 @@
 
 استخدم أداة **نص** لإضافة النص `ابحث عن الحشرة` إلى السبورة:
 
-![](images/chalkboard-text.png)
+![Find the bug is written on the chalkboard.](images/chalkboard-text.png)
 
 استخدمنا خط **علامة** باللون الأبيض، لكن **اختر** الخط واللون اللذين تريد استخدامهما.
 
 **نصيحة:** قم بالتبديل إلى أداة **انتقِ** (Arrow) Select لتحريك النص الخاص بك. لتغيير حجم النص، اسحب زاوية مربع النص واسحبه.
 
 --- /task ---
+
+## Rename the Backdrop
 
 --- task ---
 
@@ -86,6 +94,8 @@
 **نصيحة:** إذا كنت تستخدم أسماء منطقية ذات معنى، فسيكون من السهل فهم مشروعك، خاصةً عند العودة إلى المشروع لاحقًا.
 
 --- /task ---
+
+### Add the Bug Sprite
 
 --- task ---
 
@@ -111,5 +121,4 @@
 يسمى الخطأ في برنامج الكمبيوتر <span style="color: #0faeb0">"bug"</span>. يُطلق على البحث عن الأخطاء وإزالتها في برامج الكمبيوتر <span style="color: #0faeb0">**debugging**</span>. جريس هوبر "Grace Hopper" هي مهندسة برمجيات مشهورة. وجد فريقها ذات مرة فراشة في جهاز الكمبيوتر الخاص بهم. تقول ملاحظاتهم ، "تم العثور على أول حالة فعلية لحشرة"
 </p>
 
---- save ---
 
