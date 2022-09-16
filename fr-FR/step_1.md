@@ -1,6 +1,6 @@
-## Introduction
+## You will make
 
-Dans ce projet, tu vas créer un jeu dans lequel tu dois trouver un bug caché à chaque niveau. Le jeu aura des arrière-plans d'écran de « début » et de « fin », et un chronomètre pour montrer au joueur à quelle vitesse il a trouvé les bugs.
+Create a game in which you have to find a hidden bug 🐞 on each level. The game will have 'start' and 'end' screen backdrops, and a timer ⌚ to show the player how quickly they found the bugs.
 
 Tu vas devoir :
 + Créer des niveaux pour ton jeu en utilisant les blocs `arrière-plan suivant`{:class="block3looks"} et `quand l'arrière-plan bascule sur` {:class="block3events"}
@@ -8,7 +8,7 @@ Tu vas devoir :
 + Utiliser la **variable** `chronomètre`{:class="block3sensing"} pour indiquer au joueur à quelle vitesse il a trouvé les bugs
 
 --- no-print --- --- task ---
-### Essaie-le
+### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 Clique sur le bug pour démarrer le jeu.
