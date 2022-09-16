@@ -38,7 +38,7 @@ Mae'r bloc `amserydd`{:class="block3sensing"} yn dod o'r ddewislen flociau `Synh
 
   --- feedback ---
 
-Cywir. Mae'r bloc `amserydd`{:class="block3sensing"} yn adrodd yr amser ers i'r prosiect ddechrau, neu ers i'r amserydd ailosod.
+Cywir. Mae'r bloc `amserydd`{:class="block3sensing"} yn adrodd yr amser ers i'r prosiect ddechrau, neu ers i'r amserydd ailosod. The `say`{:class="block3looks"} block creates a speech bubble next to bug.
 
   --- /feedback ---
 
