@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Stworzysz ekran "koniec", który pokaże liczbę sekund, jakich potrzebował gracz aby znaleźć robaki. 
+Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
 </div>
 <div>
 
@@ -14,6 +14,8 @@ Stworzysz ekran "koniec", który pokaże liczbę sekund, jakich potrzebował gra
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Czasami samo przejście gry nie wystarczy. Gracze lubią wiedzieć, jak poradzili sobie przeciwko innym graczom lub sobie. Czy możesz pomyśleć o grze, która pokaże ci, jak dobrze sobie poradziłeś?</p>
 
+### Add another backdrop
+
 --- task ---
 
 Dodaj tło **Chalkboard** z kategorii **W pomieszczeniu**.
@@ -23,6 +25,8 @@ Dodaj tło **Chalkboard** z kategorii **W pomieszczeniu**.
 **Wskazówka:** W Scratch możesz dodać to samo tło więcej niż raz.
 
 --- /task ---
+
+### Edit the backdrop
 
 --- task ---
 
@@ -42,6 +46,8 @@ Zmień nazwę tła na `koniec`:
 
 --- /task ---
 
+### Position the bug
+
 --- task ---
 
 Kliknij duszka **bug** i dodaj kod, aby umieścić robaka na ekranie "koniec":
@@ -55,6 +61,8 @@ go to x: [0] y: [30] // on the board
 ```
 
 --- /task ---
+
+### Add a timer
 
 Jak długo zajmuje Tobie znalezienie i kliknięcie robaków? Scratch ma `stoper`{:class="block3sensing"}, którego możesz użyć, aby się dowiedzieć.
 
@@ -98,6 +106,8 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
+### Stop the timer
+
 Jeśli zagrasz w grę po raz drugi, `stoper`{:class="block3sensing"} będzie nadal liczył.
 
 --- task ---
@@ -121,4 +131,3 @@ go to x: [13] y: [132] // on the disco ball
 
 --- /task ---
 
---- save ---
