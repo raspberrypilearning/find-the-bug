@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Tu ajouteras un nouvel arrière-plan au premier niveau de ton jeu et masqueras le bug.
+Add a new backdrop as the first level in your game, and hide the bug.
 </div>
 <div>
 
@@ -11,6 +11,8 @@ Tu ajouteras un nouvel arrière-plan au premier niveau de ton jeu et masqueras l
 </div>
 </div>
 
+### Add another Backdrop
+
 --- task ---
 
 Ajoute le **Spotlight** de la catégorie **Music**.
@@ -18,6 +20,8 @@ Ajoute le **Spotlight** de la catégorie **Music**.
 ![L'icône « Choisir un arrière-plan ».](images/backdrop-button.png)
 
 --- /task ---
+
+### Resize the bug
 
 --- task ---
 
@@ -50,6 +54,8 @@ set size to [20] % // tiny
 
 --- /task ---
 
+### Move to the next Backdrop
+
 Lorsque tu joues au jeu et que tu trouves le bug avec succès, le jeu passe à l'arrière-plan suivant. De plus, pour démarrer le jeu, tu devras cliquer sur le bug sur l'écran « début ».
 
 Le bloc `arrière-plan suivant`{:class="block3looks"} passe au prochain arrière-plan dans l'ordre dans lequel les arrière-plans sont listés lorsque tu cliques sur l'onglet **arrière-plans** pour la **scène**.
@@ -68,13 +74,13 @@ next backdrop
 
 --- /task ---
 
-Ton projet doit démarrer sur l'écran « début ».
+### Make the game start with the Start Screen
 
 --- task ---
 
-Clique sur le volet Scène et ajoute ce code à la **Scène**:
+Click on the Stage pane and add this code to the **Stage**:
 
-![L'arrière-plan Projecteur.](images/stage-image.png)
+![The Spotlight backdrop.](images/stage-image.png)
 
 ```blocks3
 when flag clicked
@@ -85,19 +91,19 @@ switch backdrop to [start v] // 'start' screen
 
 --- task ---
 
-**Test :** Clique sur le drapeau vert pour tester ton projet.
+**Test:** Click on the green flag to test your project.
 
-Tu remarqueras que sur l'écran 'début', le bug aura toujours les paramètres pour se cacher dans sa cachette du premier niveau (dans cet exemple, sur la boule disco).
+You will notice that on the 'start' screen, the bug will still have the settings to hide in its hiding place from the first level (in this example, on the disco ball).
 
-**Astuce :** Après le dernier arrière-plan de la liste, `arrière-plan suivant`{:class="block3looks"} reviendra au premier arrière-plan.
+**Tip:** After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop.
 
 --- /task ---
 
 --- task ---
 
-Clique sur le sprite **bug** dans la liste Sprite. Ajoute un script à `mettre à la taille`{:class="block3looks"} du bug lorsque tu `bascules sur l'arrière-plan/0>{:class="block3events"} <code>début`{:class="block3events"} :
+Click on the **bug** sprite in the Sprite list. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
 
-![Le sprite bug.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -106,35 +112,37 @@ set size to [100] % // full-sized
 
 --- /task ---
 
---- task ---
-
-Essaye de positionner le bug sur l'écran 'début'.
-
-Ton code fera basculer l'arrière-plan lorsque tu cliqueras sur le bug ! Cela n'est pas utile lorsque tu essaies de positionner le bogue.
-
---- /task ---
-
-Pour résoudre le problème, tu dois arrêter l'exécution du code lorsque tu cliques sur le bug.
+### Change the position of the bug
 
 --- task ---
 
-Clique sur le drapeau vert pour revenir à l'écran « début ».
+Try to position the bug on the 'start' screen.
 
-Clique sur le sprite **bug** dans la liste Sprite et fais glisser les blocs loin du bloc `quand ce sprite est cliqué `{:class="block3events"} :
+Your code will make the backdrop switch when you click on the bug! That is not helpful when you are trying to position the bug.
 
-![Briser le script.](images/breaking-script.png)
+To fix the problem, you need to stop the code from running when you click on the bug.
 
 --- /task ---
 
 --- task ---
 
-Essaye à nouveau de positionner le bug. Fais glisser le bug sur le tableau, sous le texte :
+Click on the green flag to return to the 'start' screen.
 
-![](images/bug-chalkboard.png)
+Click on the **bug** sprite in the Sprite list and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
 
-Ajoute du code pour t'assurer que le bogue est positionné sur le tableau à chaque fois que ton `basculer l'arrière-plan sur`{:class="block3events"} ` début`{:class="block3events"} :
+![Breaking the script.](images/breaking-script.png)
 
-![Le sprite bug.](images/bug-sprite.png)
+--- /task ---
+
+--- task ---
+
+Try to position the bug again. Drag the bug onto the chalkboard, below the text:
+
+![The bug on the start screen](images/bug-chalkboard.png)
+
+Add code to make sure that the bug is positioned on the chalkboard every time your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -146,25 +154,23 @@ set size to [100] % // full-sized
 
 --- task ---
 
-Regroupe les blocs afin que les blocs de code soient sous le bloc `quand ce sprite est cliqué `{:class="block3events"}  à nouveau :
+Join the blocks back together so that the code blocks are under the `when this sprite clicked`{:class="block3events"} block again:
 
-![Le bloc « quand ce sprite est cliqué » est joint aux blocs « jouer le son » et « arrière-plan suivant ».](images/fixed-script.png)
+![The 'when this sprite clicked' block joined to the 'play sound' and 'next backdrop' blocks.](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**Test :** Clique sur le drapeau vert pour tester ton projet. Clique sur le bug pour passer à l'arrière-plan suivant. Le bug devrait être grand sur l'écran « début » et petit sur le niveau « projecteur ».
+**Test:** Click on the green flag to test your project. Click on the bug to move to the next backdrop. The bug should be big on the 'start' screen and small on the 'Spotlight' level.
 
 --- collapse ---
 ---
 title: Rien ne se passe quand je clique sur le bug
 ---
 
-As-tu oublié de joindre le code au bloc `quand ce sprite est cliqué` {:class="block3events"} ?
+Did you forget to join the code back to the `when this sprite clicked`{:class="block3events"} block?
 
 --- /collapse ---
 
 --- /task ---
-
---- save ---
