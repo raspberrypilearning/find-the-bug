@@ -11,6 +11,8 @@ Para que sea más difícil para los jugadores encontrar y hacer clic en el insec
 </div>
 </div>
 
+### Add the Parrot sprite
+
 --- task ---
 
 Añade el objeto **Parrot**.
@@ -18,6 +20,8 @@ Añade el objeto **Parrot**.
 ![El icono "Elegir un objeto".](images/sprite-button.png)
 
 --- /task ---
+
+### Animate the Parrot sprite
 
 En el proyecto [Tomar el autobús](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}, usaste un bucle `repetir`{:class="block3control"}.
 
@@ -57,4 +61,3 @@ En Scratch, el código que se está ejecutando se ilumina con un contorno amaril
 
 --- /task ---
 
---- save ---
