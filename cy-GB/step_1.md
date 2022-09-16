@@ -1,6 +1,6 @@
-## Cyflwyniad
+## You will make
 
-Yn y prosiect hwn, byddi di'n creu gêm lle mae'n rhaid i ti ddod o hyd i'r chwilen sy'n cuddio ar bob lefel. Bydd gan y gêm gefnlenni sgrin 'dechrau' a 'diwedd', ac amserydd i ddangos i'r chwaraewr pa mor gyflym y daethon nhw o hyd i'r chwilod.
+Create a game in which you have to find a hidden bug 🐞 on each level. The game will have 'start' and 'end' screen backdrops, and a timer ⌚ to show the player how quickly they found the bugs.
 
 Byddi di'n:
 + Creu lefelau ar gyfer dy gêm gan ddefnyddio blociau `cefnlen nesaf`{:class="block3looks"} a `pan fydd y gefnlen yn newid i`{:class="block3events"}
@@ -8,7 +8,7 @@ Byddi di'n:
 + Defnyddio'r **newidyn** `amserydd`{:class="block3sensing"} i roi gwybod i'r chwaraewr pa mor gyflym y daethon nhw o hyd i'r chwilod
 
 --- no-print --- --- task ---
-### Rho gynnig arni
+### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 Clicia ar y chwilen i brofi'r gêm.
