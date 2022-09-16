@@ -1,6 +1,6 @@
-## Introducción
+## You will make
 
-En este proyecto, crearás un juego en el que tienes que encontrar un insecto oculto en cada nivel. El juego tendrá fondos de pantalla de 'inicio' y 'final', y un temporizador para mostrar al jugador qué tan rápido encontró los insectos.
+Create a game in which you have to find a hidden bug 🐞 on each level. The game will have 'start' and 'end' screen backdrops, and a timer ⌚ to show the player how quickly they found the bugs.
 
 Vas a:
 + Crear niveles para tu juego usando los bloques `siguiente fondo`{:class="block3looks"} y `cuando el fondo cambie a`{:class="block3events"}
@@ -8,7 +8,7 @@ Vas a:
 + Usar la **variable** `cronómetro`{:class="block3sensing"} para que el jugador sepa qué tan rápido encontró los insectos
 
 --- no-print --- --- task ---
-### Pruébalo
+### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 Haz clic en el insecto para iniciar el juego.
