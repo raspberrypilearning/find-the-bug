@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-ستنشئ شاشة "نهاية" لإظهار عدد الثواني التي استغرقها اللاعب للعثور على الحشرات. 
+Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
 </div>
 <div>
 
@@ -14,6 +14,8 @@
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 في بعض الأحيان، لا يكفي مجرد الفوز في لعبة. يحب اللاعبون معرفة ما فعلوه ضد لاعبين آخرين أو ضد أنفسهم. هل يمكنك التفكير في لعبة تظهر لك مدى جودة أدائك؟</p>
 
+### Add another backdrop
+
 --- task ---
 
 أضف خلفية **السبورة** من القسم **الداخلي**.
@@ -23,6 +25,8 @@
 **نصيحة:** في Scratch، يمكنك إضافة نفس الخلفية أكثر من مرة.
 
 --- /task ---
+
+### Edit the backdrop
 
 --- task ---
 
@@ -42,6 +46,8 @@
 
 --- /task ---
 
+### Position the bug
+
 --- task ---
 
 انقر على كائن **الحشرة** وأضف تعليمات برمجية لوضع الحشرة على شاشة "النهاية":
@@ -55,6 +61,8 @@ go to x: [0] y: [30] // on the board
 ```
 
 --- /task ---
+
+### Add a timer
 
 كم من الوقت يستغرق البحث عن الحشرات والنقر عليها؟ يحتوي Scratch على `مؤقت`{:class="block3sensing"} يمكنك استخدامه لحساب الوقت.
 
@@ -99,6 +107,8 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
+### Stop the timer
+
 إذا لعبت اللعبة مرة ثانية، فإنّ `المؤقت` سيستمر بالعدّ.
 
 --- task ---
@@ -122,4 +132,3 @@ go to x: [13] y: [132] // on the disco ball
 
 --- /task ---
 
---- save ---
