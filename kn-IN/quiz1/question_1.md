@@ -1,16 +1,14 @@
-## Reflection
+## Quick quiz
 
-Well done, you have learned a lot! Now, it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Answer the three questions below to reflect on what you have learned.
-
-When you have answered each question, click on **Submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+When you have answered each question, click on **Check my answer**.
 
 Have fun!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: ಪ್ರಶ್ನೆ 3 ರಲ್ಲಿ 1
 ---
 
 In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
@@ -33,7 +31,7 @@ In this game, which backdrop would appear next when you click on the bug?
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  ನೀವು ಬ್ಯಾಕ್‌ಡ್ರಾಪ್‌ಗಳ ಕ್ರಮದ ಬಗ್ಗೆ ಯೋಚಿಸಬೇಕು.
 
   --- /feedback ---
 
@@ -49,7 +47,7 @@ Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdr
 
   --- feedback ---
 
-  The **Spotlight** backdrop is showing on the Stage. You need to think about the order of the backdrops.
+  **Spotlight** ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ ಅನ್ನು ವೇದಿಕೆಯಲ್ಲಿ ತೋರಿಸಲಾಗುತ್ತಿದೆ. ನೀವು ಬ್ಯಾಕ್‌ಡ್ರಾಪ್‌ಗಳ ಕ್ರಮದ ಬಗ್ಗೆ ಯೋಚಿಸಬೇಕು.
 
   --- /feedback ---
 
@@ -57,7 +55,7 @@ Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdr
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  ನೀವು ಬ್ಯಾಕ್‌ಡ್ರಾಪ್‌ಗಳ ಕ್ರಮದ ಬಗ್ಗೆ ಯೋಚಿಸಬೇಕು.
 
   --- /feedback ---
 
