@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Agregarás un nuevo fondo como primer nivel en tu juego y ocultarás el insecto.
+Add a new backdrop as the first level in your game, and hide the bug.
 </div>
 <div>
 
@@ -11,6 +11,8 @@ Agregarás un nuevo fondo como primer nivel en tu juego y ocultarás el insecto.
 </div>
 </div>
 
+### Add another Backdrop
+
 --- task ---
 
 Agrega el fondo **Spotlight** de la categoría **Música**.
@@ -18,6 +20,8 @@ Agrega el fondo **Spotlight** de la categoría **Música**.
 ![El icono 'Elige un fondo'.](images/backdrop-button.png)
 
 --- /task ---
+
+### Resize the bug
 
 --- task ---
 
@@ -50,6 +54,8 @@ set size to [20] % // tiny
 
 --- /task ---
 
+### Move to the next Backdrop
+
 Cuando juegas y encuentras con éxito el insecto, el juego cambiará al siguiente fondo. Además, para iniciar el juego, harás clic en el error en la pantalla de "inicio".
 
 El bloque `siguiente fondo`{:class="block3looks"} cambia al siguiente fondo en el orden en que se enumeran los fondos cuando haces clic en la pestaña **Fondos** para el **Escenario**.
@@ -68,13 +74,13 @@ next backdrop
 
 --- /task ---
 
-Tu proyecto debe comenzar en la pantalla de 'inicio'.
+### Make the game start with the Start Screen
 
 --- task ---
 
-Haz clic en el panel Escenario y agrega este código al **Escenario**:
+Click on the Stage pane and add this code to the **Stage**:
 
-![El fondo Spotlight.](images/stage-image.png)
+![The Spotlight backdrop.](images/stage-image.png)
 
 ```blocks3
 when flag clicked
@@ -85,19 +91,19 @@ switch backdrop to [start v] // 'start' screen
 
 --- task ---
 
-**Prueba:** Haz clic en la bandera verde para probar tu proyecto.
+**Test:** Click on the green flag to test your project.
 
-Notarás que en la pantalla de 'inicio', el insecto aún tendrá la configuración para esconderse en su escondite del primer nivel (en este ejemplo, en la bola de discoteca).
+You will notice that on the 'start' screen, the bug will still have the settings to hide in its hiding place from the first level (in this example, on the disco ball).
 
-**Consejo:** Después del último fondo de la lista, `siguiente fondo`{:class="block3looks"} volverá al primer fondo.
+**Tip:** After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop.
 
 --- /task ---
 
 --- task ---
 
-Haz clic en el objeto **insecto** en la lista de Objetos. Añade un script para `fijar el tamaño`{:class="block3looks"} del insecto cuando tu `fondo cambia a`{:class="block3events"} la pantalla de `inicio`{:class="block3events"}:
+Click on the **bug** sprite in the Sprite list. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
 
-![El objeto insecto.](images/bug-sprite.png)
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -106,35 +112,37 @@ set size to [100] % // full-sized
 
 --- /task ---
 
---- task ---
-
-Intenta colocar el insecto en la pantalla de 'inicio'.
-
-¡Tu código hará que el fondo cambie cuando hagas clic en el insecto! Eso no es útil cuando intentas posicionar el insecto.
-
---- /task ---
-
-Para solucionar el problema, debes detener la ejecución del código cuando hagas clic en el insecto.
+### Change the position of the bug
 
 --- task ---
 
-Haz clic en la bandera verde para volver a la pantalla de 'inicio'.
+Try to position the bug on the 'start' screen.
 
-Haz clic en el objeto **insecto** en la lista de Objetos y arrastra los bloques lejos del bloque `al hacer clic en este objeto`{:class="block3events"}:
+Your code will make the backdrop switch when you click on the bug! That is not helpful when you are trying to position the bug.
 
-![Rompiendo el script.](images/breaking-script.png)
+To fix the problem, you need to stop the code from running when you click on the bug.
 
 --- /task ---
 
 --- task ---
 
-Intenta posicionar el insecto nuevamente. Arrastra el insecto a la pizarra, debajo del texto:
+Click on the green flag to return to the 'start' screen.
 
-![](images/bug-chalkboard.png)
+Click on the **bug** sprite in the Sprite list and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
 
-Añade código para asegurarte de que el insecto se posicione en la pizarra cada vez que tu `fondo cambia a`{:class="block3events"} la pantalla de `inicio`{:class="block3events"}:
+![Breaking the script.](images/breaking-script.png)
 
-![El objeto insecto.](images/bug-sprite.png)
+--- /task ---
+
+--- task ---
+
+Try to position the bug again. Drag the bug onto the chalkboard, below the text:
+
+![The bug on the start screen](images/bug-chalkboard.png)
+
+Add code to make sure that the bug is positioned on the chalkboard every time your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+
+![The bug sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -146,25 +154,23 @@ set size to [100] % // full-sized
 
 --- task ---
 
-Vuelve a unir los bloques para que los bloques de código estén debajo del bloque `al hacer clic en este objeto`{:class="block3events"} nuevamente:
+Join the blocks back together so that the code blocks are under the `when this sprite clicked`{:class="block3events"} block again:
 
-![El bloque "al hacer clic en este objeto" unido a los bloques "reproducir sonido" y "siguiente fondo".](images/fixed-script.png)
+![The 'when this sprite clicked' block joined to the 'play sound' and 'next backdrop' blocks.](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**Prueba:** Haz clic en la bandera verde para probar tu proyecto. Haz clic en el insecto para pasar al siguiente fondo. El insecto debería ser grande en la pantalla de 'inicio' y pequeño en el nivel de 'Spotlight'.
+**Test:** Click on the green flag to test your project. Click on the bug to move to the next backdrop. The bug should be big on the 'start' screen and small on the 'Spotlight' level.
 
 --- collapse ---
 ---
 title: No pasa nada cuando hago clic en el insecto
 ---
 
-¿Olvidaste volver a unir el código al bloque `al hacer clic en este objeto`{:class="block3events"}?
+Did you forget to join the code back to the `when this sprite clicked`{:class="block3events"} block?
 
 --- /collapse ---
 
 --- /task ---
-
---- save ---
