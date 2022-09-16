@@ -8,30 +8,33 @@ copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: Cyflwyniad
+    title: You will make
   - 
     title: Sgrin cychwyn
   - 
     title: Lefel gyntaf
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: Parot i dynnu sylw
   - 
     title: Ail lefel
   - 
     title: Sgrin y diwedd
+    completion:
+      - internal
   - 
-    title: Chwarae'r gêm
-    completion: internal
-  - 
-    title: Myfyrio
-    completion: external
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
-    title: Uwchraddio dy gêm
+    title: Upgrade your game
+  - 
+    title: Share and play
   - 
     title: Beth nesaf?
