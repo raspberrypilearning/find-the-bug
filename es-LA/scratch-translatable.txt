@@ -4,6 +4,8 @@ en la bola de discoteca
 
 pantalla de 'inicio'
 
+start
+
 tamaño completo
 
 en la pizarra
@@ -32,6 +34,8 @@ en el escaparate
 
 segundos tomados
 
+end
+
 no decir nada
 
 primer nivel
@@ -41,3 +45,7 @@ iniciar el cronómetro
 arrastra para colocar el insecto primero
 
 new level
+
+good hiding place
+
+keep the bug at the back
