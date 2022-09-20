@@ -4,6 +4,8 @@ on the disco ball
 
 'start' screen
 
+start
+
 full-sized
 
 on the board
@@ -31,6 +33,8 @@ try another size
 in the shop window
 
 seconds taken
+
+end
 
 say nothing
 
