@@ -4,6 +4,8 @@
 
 「スタート」 画面にする
 
+start
+
 フルサイズ
 
 黒板に
@@ -32,6 +34,8 @@
 
 かかった秒数
 
+end
+
 何も言わない
 
 第1レベル
@@ -41,3 +45,7 @@
 バグを最初の位置にドラッグします
 
 new level
+
+good hiding place
+
+keep the bug at the back
