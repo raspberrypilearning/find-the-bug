@@ -4,6 +4,8 @@ na bola de discoteca
 
 Tela 'inicial'
 
+start
+
 tamanho máximo
 
 no quadro
@@ -32,6 +34,8 @@ na vitrine
 
 segundos gastos
 
+end
+
 não diga nada
 
 primeiro nível
@@ -41,3 +45,7 @@ inicie o temporizador
 arraste para posicionar o primeiro inseto
 
 new level
+
+good hiding place
+
+keep the bug at the back
