@@ -4,6 +4,8 @@ na kuli dyskotekowej
 
 ekran startowy
 
+start
+
 pełnowymiarowy
 
 na tablicy
@@ -32,6 +34,8 @@ w witrynie sklepowej
 
 sekundy, które upłynęły
 
+end
+
 nie mów nic
 
 pierwszy poziom
@@ -41,3 +45,7 @@ uruchom stoper
 przeciągnij, aby najpierw umieścić robaka
 
 nowy poziom
+
+good hiding place
+
+keep the bug at the back
