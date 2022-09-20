@@ -4,6 +4,8 @@ ar y bêl disgo
 
 y sgrin 'dechrau'
 
+start
+
 maint llawn
 
 ar y bwrdd
@@ -32,6 +34,8 @@ yn ffenest y siop
 
 eiliadau wedi'u cymryd
 
+end
+
 dweud dim
 
 lefel gyntaf
@@ -41,3 +45,7 @@ cychwyn yr amserydd
 llusgo i roi lleoliad y chwilen yn gyntaf
 
 new level
+
+good hiding place
+
+keep the bug at the back
