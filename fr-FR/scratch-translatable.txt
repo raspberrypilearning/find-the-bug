@@ -4,6 +4,8 @@ sur la boule disco
 
 'écran de début
 
+start
+
 pleine grandeur
 
 sur le tableau
@@ -32,6 +34,8 @@ dans la vitrine
 
 dire les secondes
 
+end
+
 ne dis rien
 
 premier niveau
@@ -41,3 +45,7 @@ démarrer le chronomètre
 fais glisser pour positionner le bug en premier
 
 nouveau niveau
+
+good hiding place
+
+keep the bug at the back
