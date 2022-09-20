@@ -4,6 +4,8 @@ on the disco ball
 
 'start' screen
 
+start
+
 full-sized
 
 on the board
@@ -32,6 +34,8 @@ in the shop window
 
 seconds taken
 
+end
+
 say nothing
 
 first level
@@ -41,3 +45,7 @@ start the timer
 drag to position the bug first
 
 new level
+
+good hiding place
+
+keep the bug at the back
