@@ -4,7 +4,7 @@ op de discobal
 
 startscherm
 
-start
+startscherm
 
 volledige grootte
 
@@ -46,6 +46,6 @@ versleep de kever eerst naar z'n positie
 
 nieuw level
 
-good hiding place
+goede schuilplaats
 
-keep the bug at the back
+houd de kever op de achtergrond
