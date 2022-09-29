@@ -8,7 +8,7 @@ copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: You will make
+    title: Je gaat maken
   - 
     title: Startscherm
   - 
@@ -24,7 +24,7 @@ steps:
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Snelle quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -33,8 +33,8 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your game
+    title: Verbeter je spel
   - 
-    title: Share and play
+    title: Deel en speel
   - 
     title: Wat kun je verder nog doen?
