@@ -1,17 +1,17 @@
-## Quick quiz
+## Snelle quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Beantwoord de drie vragen. Er zijn tips om je naar het juiste antwoord te leiden.
 
-When you have answered each question, click on **Check my answer**.
+Zodra je elke vraag hebt beantwoord, klik je op **Verzenden**.
 
-Have fun!
+Veel plezier!
 
 --- question ---
 ---
 legend: Vraag 1 van 3
 ---
 
-In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
+In je game heb je deze code toegevoegd aan je **kever** om door de achtergronden te bewegen telkens wanneer erop wordt geklikt.
 
 ```blocks3
 when this sprite clicked
@@ -19,11 +19,11 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Look at this image showing a 'Find the bug' game being played.
+Kijk naar deze afbeelding die een 'Vind de kever'-game laat zien die wordt gespeeld.
 
-![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
+![De Scratch-editor met achtergronden in de volgorde start, Spotlight, Urban, end; en het speelveld met de Spotlight-achtergrond.](images/quiz1-backdrops.png)
 
-In this game, which backdrop would appear next when you click on the bug?
+Welke achtergrond zou er in dit spel verschijnen als je op de kever klikt?
 
 --- choices ---
 
@@ -39,7 +39,7 @@ In this game, which backdrop would appear next when you click on the bug?
 
   --- feedback ---
 
-Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
+Ja. Ja. Het `volgende achtergrond`{:class="block3looks"} blok schakelt over naar de volgende achtergrond in de volgorde van de lijst met achtergronden op het **Achtergronden** tabblad voor het **speelveld**.
 
 --- /feedback ---
 
