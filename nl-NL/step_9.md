@@ -1,20 +1,20 @@
-## Share and play
+## Deel en speel
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Inspireer de Raspberry Pi Foundation-gemeenschap met jouw project!
 
 [[[share-scratch]]]
 
-To submit your project to our 'Find the bug' Scratch studio for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+Om je project in te dienen bij onze 'Vind de kever' Scratch studio zodat anderen het kunnen zien, vul dan [dit formulier](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} in.
 
 --- /task ---
 
 --- no-print --- --- task ---
 
-Play these fabulous games from our ['Find the bug' Scratch studio](https://scratch.mit.edu/studios/29005236/){:target="_blank"}.
+Speel deze fantastische games van ons ['Vind de kever' Scratch studio](https://scratch.mit.edu/studios/29005236/){:target="_blank"}.
 
-Notice how the creators have added extra levels, annoying distractions or upgraded the start and end screens:
+Merk op hoe de makers extra niveaus, vervelende afleidingen of een geüpgraded start en eind scherm hebben toegevoegd:
 
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/545488112/?autostart=false" frameborder="0"></iframe>
@@ -34,7 +34,7 @@ Notice how the creators have added extra levels, annoying distractions or upgrad
 
 --- task ---
 
-You can also look at the remixes for the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/remixes){:target="_blank"} to see what other creators have made.
+Je kunt ook de remixes voor het [Vind de kever startersproject](https://scratch.mit.edu/projects/582214723/remixes){:target="_blank"} bekijken om te zien wat andere makers hebben gemaakt.
 
 --- /task ---
 
