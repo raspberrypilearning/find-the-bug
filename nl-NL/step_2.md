@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Give your game a 'start' screen.
+Geef je spel een 'start' scherm.
 </div>
 <div>
 
@@ -11,7 +11,7 @@ Give your game a 'start' screen.
 </div>
 </div>
 
-### Open the starter project
+### Open het startersproject
 
 --- task ---
 
@@ -21,7 +21,7 @@ Open het [Vind de kever startproject](https://scratch.mit.edu/projects/582214723
 
 --- /task ---
 
-### Add a Backdrop
+### Een achtergrond toevoegen
 
 --- task ---
 
@@ -39,11 +39,11 @@ Het **Speelveld** heeft een **Achtergronden** tabblad in plaats van een **Uiterl
 
 Klik op het Speelveld.
 
-![The Stage pane in the bottom right corner is highlighted.](images/stage-pane.png)
+![Het Speelveld in de hoek rechtsonder is gemarkeerd.](images/stage-pane.png)
 
 --- /task ---
 
-### Edit the Backdrop
+### Bewerk de achtergrond
 
 --- task ---
 
@@ -57,7 +57,7 @@ Klik op het **Achtergronden** tabblad om de Teken-editor te openen.
 
 Selecteer **backdrop1** en klik op het **Verwijder** icoon om de **backdrop1** achtergrond uit je project te verwijderen. Je hebt de **backdrop1** achtergrond niet nodig in dit project.
 
-![Backdrop1 is highlighted in the top left corner.](images/delete-backdrop1.png)
+![Achtergrond1 is gemarkeerd in de linkerbovenhoek.](images/delete-backdrop1.png)
 
 --- /task ---
 
@@ -75,7 +75,7 @@ Klik op **Zet om naar vector**. Nu kun je tekst toevoegen die je kunt verplaatse
 
 Gebruik de **Tekst** knop om de tekst `Zoek de kever` toe te voegen aan het bord:
 
-![Find the bug is written on the chalkboard.](images/chalkboard-text.png)
+![Zoek de kever staat op het schoolbord geschreven.](images/chalkboard-text.png)
 
 We hebben het **Marker** font in het wit gebruikt, maar **kies** het lettertype en de kleur die jij wil gebruiken.
 
@@ -83,7 +83,7 @@ We hebben het **Marker** font in het wit gebruikt, maar **kies** het lettertype 
 
 --- /task ---
 
-## Rename the Backdrop
+## Hernoem de achtergrond
 
 --- task ---
 
@@ -95,7 +95,7 @@ Verander de naam van de achtergrond in `start`, omdat je deze later in het proje
 
 --- /task ---
 
-### Add the Bug Sprite
+### Voeg de Bug Sprite toe
 
 --- task ---
 
