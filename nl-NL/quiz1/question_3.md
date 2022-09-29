@@ -38,7 +38,7 @@ Het `klok`{:class="block3sensing"} blok komt uit het `Waarnemen`{:class="block3s
 
   --- feedback ---
 
-Ja. Het `klok`{:class="block3sensing"} blok vertelt je de tijd die verstreken is sinds het project gestart is, of sinds de klok op 0 is gezet. The `say`{:class="block3looks"} block creates a speech bubble next to bug.
+Ja. Het `klok`{:class="block3sensing"} blok vertelt je de tijd die verstreken is sinds het project gestart is, of sinds de klok op 0 is gezet. Het `zeg`{:class="block3looks"} blok creëert een tekstballon naast de kever.
 
   --- /feedback ---
 
