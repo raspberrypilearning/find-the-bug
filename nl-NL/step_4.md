@@ -11,7 +11,7 @@ Om het voor spelers moeilijker te maken om de kever te vinden en erop te klikken
 </div>
 </div>
 
-### Add the Parrot sprite
+### Voeg de Parrot sprite toe
 
 --- task ---
 
@@ -21,7 +21,7 @@ Voeg de **Parrot** (papegaai) sprite toe.
 
 --- /task ---
 
-### Animate the Parrot sprite
+### De Parrot sprite.
 
 In het [Neem de bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}-project heb je een `herhaal`{:class="block3control"} blok gebruikt.
 
