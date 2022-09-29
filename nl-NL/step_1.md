@@ -1,6 +1,6 @@
-## You will make
+## Je gaat maken
 
-Create a game in which you have to find a hidden bug 🐞 on each level. The game will have 'start' and 'end' screen backdrops, and a timer ⌚ to show the player how quickly they found the bugs.
+Maak een spel waarin je op elk niveau een verborgen 🐞 moet vinden. De game heeft 'start'- en 'eind'-schermachtergronden en een klok ⌚ om de speler te laten zien hoe snel ze de bugs hebben gevonden.
 
 Je gaat:
 + Niveaus maken voor je spel met behulp van `volgende achtergrond`{:class="block3looks"} en `verander achtergrond naar`{"class="block3looks"} blokken
@@ -8,7 +8,7 @@ Je gaat:
 + Een `klok`{:class="block3sensing"} **variabele** gebruiken om de speler te laten weten hoe snel ze de kevers hebben gevonden
 
 --- no-print --- --- task ---
-### Play ▶️
+### Afspelen ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 Klik op de kever om het spel te starten.
