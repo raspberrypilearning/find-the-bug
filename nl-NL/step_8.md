@@ -1,28 +1,28 @@
-## Upgrade your game
+## Verbeter je spel
 
-If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text on the chalkboard.
+Als je tijd hebt, kun je meer niveaus en meer afleidingen aan je spel toevoegen. Je kunt ook de sprite die zich verstopt en de tekst op het bord veranderen.
 
 --- task ---
 
-Play your game and see how quickly you can find the bugs.
+Speel je spel en kijk hoe snel je de kevers kunt vinden.
 
-Is there someone else who can try your game? How fast can they find the bugs? They will not know where you have hidden them, so it might take them a bit longer!
+Is er iemand anders die jouw spel kan uitproberen? Hoe snel kunnen ze de kevers vinden? Ze zullen niet weten waar je ze hebt verstopt, dus het kan hen wat meer tijd kosten!
 
-Is there anything that you want to change?
+Is er iets dat je wilt veranderen?
 
-You could:
-- Make the parrot even more annoying
-- Make the bugs smaller
-- Change the `color effect`{:class="block3looks"} to camouflage the bug on each level
-- Change the font or colour of the text
+Je kunt:
+- De papegaai nog vervelender kunnen maken
+- Maak de kever kleiner
+- Het `kleur effect`{:class="block3looks"} veranderen om de kever op elk niveau te camoufleren
+- Het lettertype of kleur van de tekst veranderen
 
 --- /task ---
 
-### Add more levels
+### Voeg meer niveaus toe
 
 --- task ---
 
-Here are the blocks that you will need to hide the bug on a new level:
+Dit zijn de blokken die je nodig hebt om een kever op een nieuw niveau te verstoppen:
 
 ```blocks3
 when backdrop switches to [new level v]
@@ -34,22 +34,22 @@ go to x: [0] y: [0] // drag to position the bug first
 set [color v] effect to [50]
 ```
 
-For each level, you will need to:
-- Add a backdrop
-- Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
-- Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug
+Voor elk niveau, moet je:
+- Een achtergrond toevoegen
+- Op het speelveld klikken, dan op het **Achtergronden** tabblad, en de nieuwe achtergrond dan naar de plaats vóór de **eind** achtergrond slepen
+- Een `wanneer achtergrond verandert naar`{:class="block3events"} blok toevoegen voor de nieuwe achtergrond en code toevoegen om de kever te positioneren en te verstoppen
 
-**Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the backdrop does not switch when you click on the bug to position it for a new level.
+**Tip:** Om de kever naar een nieuwe verstopplek te slepen, moet je de code 'opbreken' zodat de achtergrond niet verandert als je op de kever klikt om een nieuwe positie te kiezen.
 
 --- /task ---
 
-### Add more distractions
+### Voeg meer afleidingen toe
 
 --- task ---
 
-You could add more parrots or choose another sprite to act as a distraction.
+Je kunt meer papegaaien of andere sprites kiezen die zorgen voor afleiding.
 
-Here is the code that you used for the parrot:
+Dit is de code die je gebruikt hebt voor de papegaai:
 
 ```blocks3
 when flag clicked
@@ -64,17 +64,17 @@ wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
-**Tip:** You can drag the **Parrot** sprite's code to another sprite to make it faster to create another distraction sprite.
+**Tip:** Je kunt de code van de **Parrot** sprite verslepen naar een andere sprite om sneller een andere afleidingssprite te maken.
 
-![Dragging code from the Code area to another sprite in the Sprite list.](images/drag-parrot-code.gif)
+![Code verslepen van het werkgebied naar een andere sprite in de sprite lijst.](images/drag-parrot-code.gif)
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+title: Voltooid project
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+Je kan het [voltooid project hier](https://scratch.mit.edu/projects/486719939/){:target="_blank"} bekijken.
 
 --- /collapse ---
