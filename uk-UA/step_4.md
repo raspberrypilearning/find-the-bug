@@ -1,37 +1,37 @@
-## Parrot distraction
+## Відволікання папуги
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-To make it harder for players to find and click on the bug, you will add an annoying parrot to distract them. 
+Щоб ускладнити гравцям пошук і натискання на жучок, ти можеш додати надокучливого папугу, який буде відвертати їх увагу. 
 </div>
 <div>
 
-![A colourful parrot on the Stage.](images/parrot-distraction.png){:width="300px"}
+![Кольоровий папуга на Сцені.](images/parrot-distraction.png){:width="300px"}
 
 </div>
 </div>
 
-### Add the Parrot sprite
+### Додавання спрайта Папуги
 
 --- task ---
 
-Add the **Parrot** sprite.
+Додай спрайт **Parrot**.
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+![Іконка 'Обрати спрайт'.](images/sprite-button.png)
 
 --- /task ---
 
-### Animate the Parrot sprite
+### Додай спрайту Папуги анімацію
 
-In the [Catch the bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"} project, you used a `repeat`{:class="block3control"} loop.
+У проєкті [Встигнути на автобус](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}, ти використовував цикл `чекати`{:class="block3control"}.
 
-You will use a different loop here. A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It is the perfect loop for an annoying parrot that will not stop flying around and getting in the way.
+Тут ти будеш використовувати інший цикл. Цикл `завжди`{:class="block3control"} запускає блоки коду всередині нього знову і знову. Це ідеальний цикл для надокучливого папуги, який не перестане літати навколо і заважати.
 
 --- task ---
 
-Add code to make the parrot flap around in a distracting way:
+Додай код, щоб папуга махав крилами та відвертав увагу:
 
-![The Parrot sprite.](images/parrot-sprite.png)
+![Спрайт Parrot.](images/parrot-sprite.png)
 
 
 ```blocks3
@@ -51,13 +51,13 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag and test your project again. Can you remember where you hid the bug?
+**Тест:** Натисни на зелений прапорець та протестуй свій проєкт ще раз. Ти пам'ятаєш, куди ти сховав жучок?
 
-In Scratch, code that is running glows with a yellow outline:
+У Scratch код, який зараз виконується, підсвічується жовтим контуром:
 
 ![](images/running-code.png)
 
-**Tip:** If the parrot gets too annoying while you are coding, you can click the red stop button above the Stage to stop the code from running.
+**Порада:** Якщо папуга починає тебе дратувати під час кодування, ти можеш натиснути червону кнопку Зупинити над сценою, щоб зупинити виконання коду.
 
 --- /task ---
 
