@@ -1,30 +1,30 @@
 ---
-title: Find the bug
+title: Знайдіть помилку
 hero_image: images/banner.png
-description: Create a game in which you have to find a hidden bug on each level
+description: Створіть гру, в якій ви повинні знайти приховану помилку на кожному рівні
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: You will make
+    title: Ти зробиш
   - 
-    title: Start screen
+    title: Стартовий екран
   - 
-    title: First level
+    title: Перший рівень
     completion:
       - engaged
   - 
-    title: Parrot distraction
+    title: Відволікання папуги
   - 
-    title: Second level
+    title: Другий рівень
   - 
-    title: End screen
+    title: Кінцевий екран
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Швидкий тест
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -33,8 +33,8 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your game
+    title: Покращення своєї гри
   - 
-    title: Share and play
+    title: Ділись та грай
   - 
-    title: What next?
+    title: Що далі?
