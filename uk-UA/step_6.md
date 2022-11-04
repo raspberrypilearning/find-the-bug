@@ -68,7 +68,7 @@ go to x: [0] y: [30] // на дошці
 
 --- task ---
 
-Блок `таймер`{:class="block3sensing"} у меню блоків `Датчики`{:class="block3sensing"}. Додай код, щоб змусити жучка `говорити` на 'кінцевому' екрані час, який зафіксував{:class="block3looks"} `таймер`{:class="block3sensing"}:
+Блок `таймер`{:class="block3sensing"} у меню блоків `Датчики`{:class="block3sensing"}. Додай код, щоб змусити жучка `говорити`{:class="block3looks"} на 'кінцевому' екрані час, який зафіксував `таймер`{:class="block3sensing"}:
 
 ![Спрайт жучка.](images/bug-sprite.png)
 
