@@ -1,17 +1,17 @@
-## Quick quiz
+## Швидкий тест
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Дай відповідь на три запитання. Підказки допоможуть знайти правильну відповідь.
 
-When you have answered each question, click on **Check my answer**.
+Відповівши на кожне питання, натисни на **Перевірити мою відповідь**.
 
-Have fun!
+Розважайся!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Питання 1 з 3
 ---
 
-In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
+У твоїй грі ти додав код до **жучка**, щоб переміщатися на наступне тло при кожному натисканні на спрайт жучка.
 
 ```blocks3
 when this sprite clicked
@@ -19,11 +19,11 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Look at this image showing a 'Find the bug' game being played.
+Подивись на це зображення, на якому показана гра 'Знайди жучка'.
 
-![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
+![Редактор Scratch зі списком тлів в порядку: start, Spotlight, Urban, end; та Сцена, на якій знаходиться тло Spotlight.](images/quiz1-backdrops.png)
 
-In this game, which backdrop would appear next when you click on the bug?
+У цій грі, яке тло з'явиться наступним при натисканні на жучка?
 
 --- choices ---
 
@@ -31,7 +31,7 @@ In this game, which backdrop would appear next when you click on the bug?
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  Тобі потрібно подумати про порядок розташування тлів.
 
   --- /feedback ---
 
@@ -39,7 +39,7 @@ In this game, which backdrop would appear next when you click on the bug?
 
   --- feedback ---
 
-Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
+Так. Блок `наступне тло`{:class="block3looks"} здійснює перехід до наступного тла в порядку переліку фонів на вкладці **Тло** для **Сцени**.
 
 --- /feedback ---
 
@@ -47,7 +47,7 @@ Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdr
 
   --- feedback ---
 
-  The **Spotlight** backdrop is showing on the Stage. You need to think about the order of the backdrops.
+  Тло **Spotlight** відображається на Сцені. Тобі потрібно подумати про порядок розташування тлів.
 
   --- /feedback ---
 
@@ -55,7 +55,7 @@ Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdr
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  Тобі потрібно подумати про порядок розташування тлів.
 
   --- /feedback ---
 
