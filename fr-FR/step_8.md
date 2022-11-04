@@ -1,28 +1,28 @@
-## Upgrade your game
+## Améliorer ton jeu
 
-If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text on the chalkboard.
+Si tu as le temps, tu peux ajouter plus de niveaux et plus de distractions à ton jeu. Tu peux également changer le sprite qui se cache et changer le texte au tableau.
 
 --- task ---
 
-Play your game and see how quickly you can find the bugs.
+Joue ton jeu et vois à quelle vitesse tu peux trouver les bugs.
 
-Is there someone else who can try your game? How fast can they find the bugs? They will not know where you have hidden them, so it might take them a bit longer!
+Y a-t-il quelqu'un d'autre qui peut essayer ton jeu ? À quelle vitesse peuvent-ils trouver les bugs ? Ils ne sauront pas où tu les as cachés, donc cela peut leur prendre un peu plus de temps !
 
-Is there anything that you want to change?
+Y a-t-il quelque chose que tu veux changer ?
 
-You could:
-- Make the parrot even more annoying
-- Make the bugs smaller
-- Change the `color effect`{:class="block3looks"} to camouflage the bug on each level
-- Change the font or colour of the text
+Tu pourrais :
+- Rendre le perroquet encore plus ennuyeux
+- Réduire la taille des bugs
+- Changer l'`effet couleur`{:class="block3looks"} pour camoufler le bug à chaque niveau
+- Changer la police ou la couleur du texte
 
 --- /task ---
 
-### Add more levels
+### Ajouter plus de niveaux
 
 --- task ---
 
-Here are the blocks that you will need to hide the bug on a new level:
+Voici les blocs dont tu auras besoin pour cacher le bug à un nouveau niveau :
 
 ```blocks3
 when backdrop switches to [new level v]
@@ -34,22 +34,22 @@ go to x: [0] y: [0] // drag to position the bug first
 set [color v] effect to [50]
 ```
 
-For each level, you will need to:
-- Add a backdrop
-- Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
-- Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug
+Pour chaque niveau, tu devras :
+- Ajouter un arrière-plan
+- Cliquer sur le panneau Scène, puis sur l'onglet **Arrière-plans**, ensuite faire glisser le nouvel arrière-plan en position avant l'arrière-plan **fin**
+- Ajouter un bloc `quand l'arrière-plan bascule sur` {:class="block3events"} pour le nouvel arrière-plan et ajouter du code pour positionner et cacher le bug
 
-**Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the backdrop does not switch when you click on the bug to position it for a new level.
+**Astuce :** Pour faire glisser le bug vers une nouvelle position cachée, tu devras « casser » le code afin que l'arrière-plan ne change pas lorsque tu cliques sur le bug pour le positionner à un nouveau niveau.
 
 --- /task ---
 
-### Add more distractions
+### Ajouter plus de distractions
 
 --- task ---
 
-You could add more parrots or choose another sprite to act as a distraction.
+Tu peux ajouter plus de perroquets ou choisir un autre sprite pour faire office de distraction.
 
-Here is the code that you used for the parrot:
+Voici le code que tu as utilisé pour le perroquet :
 
 ```blocks3
 when flag clicked
@@ -64,17 +64,17 @@ wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
-**Tip:** You can drag the **Parrot** sprite's code to another sprite to make it faster to create another distraction sprite.
+**Astuce :** Tu peux faire glisser le sprite **Parrot** vers un autre sprite pour accélérer la création d'un autre sprite de distraction.
 
-![Dragging code from the Code area to another sprite in the Sprite list.](images/drag-parrot-code.gif)
+![Faire glisser le code de la zone Code vers un autre sprite dans la liste Sprite.](images/drag-parrot-code.gif)
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+title: Le projet terminé
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+Tu peux voir le [projet terminé ici](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
 
 --- /collapse ---
