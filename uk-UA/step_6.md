@@ -1,58 +1,58 @@
-## End screen
+## Кінцевий екран
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
+Створи 'кінцевий' екран, щоб показати кількість секунд, які гравець витратив на пошук жучків. 
 </div>
 <div>
 
-![The bug with the amount of time in a speech bubble.](images/end-screen.png){:width="300px"}
+![Жучок з кількістю часу в мовній бульбашці.](images/end-screen.png){:width="300px"}
 
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Sometimes, just beating a game isn't enough. Players like to know how they did against other players or themselves. Can you think of a game that shows you how well you did?</p>
+Часом, просто перемогти у грі недостатньо. Гравці люблять знати, який у них результат та як показали себе інші гравці. Можеш пригадати гру, яка показує, наскільки добре ти себе показав?</p>
 
-### Add another backdrop
+### Додай ще одне Тло
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+Додай тло **Chalkboard** з категорії**У приміщенні**.
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![Тло Chalkboard у Бібліотеці вибору тла.](images/chalkboard.png)
 
-**Tip:** In Scratch, you can add the same backdrop more than once.
+**Порада:** У Scratch можна додавати одне й те саме тло більше одного разу.
 
 --- /task ---
 
-### Edit the backdrop
+### Редагування тла
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+Клацни на вкладку **Тло**, щоб відкрити редактор Малювання.
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard2-paint.png)
+![Тло Chalkboard у редакторі Малювання.](images/chalkboard2-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Change the name of the backdrop to `end`:
+Зміни назву тла на `кінець`:
 
-![The backdrop name changed in the Paint editor.](images/end-screen-name.png)
+![У редакторі Малювання змінилася назва тла.](images/end-screen-name.png)
 
-**Tip:** You rename the backdrop to **end** to make it easier to understand your code.
+**Порада:** Ти змінюєш назву фону на **кінець**, щоб зробити твій код простішим для розуміння.
 
 --- /task ---
 
-### Position the bug
+### Розміщення жучка
 
 --- task ---
 
-Click on the **bug** sprite and add code to position the bug on the 'end' screen:
+Клацни на спрайт **жучка** та додай код для розміщення жучка на 'кінцевому' екрані:
 
-![The bug sprite.](images/bug-sprite.png)
+![Спрайт жучка.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -62,15 +62,15 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Add a timer
+### Додай таймер
 
-How long does it take you to find and click on the bugs? Scratch has a `timer`{:class="block3sensing"} that you can use to find out.
+Скільки часу потрібно, щоб знайти та натиснути на жучка? Scratch має `таймер`{:class="block3sensing"} який ти можеш використати, щоб дізнатися про це.
 
 --- task ---
 
-The `timer`{:class="block3sensing"} block is in the `Sensing`{:class="block3sensing"} blocks menu. Add code to make the bug `say`{:class="block3looks"} the `timer`{:class="block3sensing"} on the 'end' screen:
+Блок `таймер`{:class="block3sensing"} у меню блоків `Датчики`{:class="block3sensing"}. Додай код, щоб змусити жучка `говорити` на 'кінцевому' екрані час, який зафіксував {:class="block3looks"} `таймер`{:class="block3sensing"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![Спрайт жучка.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -79,23 +79,23 @@ go to x: [0] y: [30] // on the board
 +say (timer) // seconds taken
 ```
 
-![Inserting a 'timer' block into a 'say' block.](images/inserting-blocks.gif)
+![Вставлення блоку 'таймер' у блок 'сказати'.](images/inserting-blocks.gif)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your finding skills. How long does it take you to find the bug?
+**Тест:** клацни на зелений прапорець, щоб протестувати твої навички пошуку. Скільки часу потрібно, щоб знайти жучка?
 
 --- /task ---
 
-To go back to the 'start' screen, click on the bug on the 'end' screen.
+Щоб повернутися до 'стартового' екрану, натисни на жучка на 'кінцевому' екрані.
 
 --- task ---
 
-Add code to make the bug stop saying the `timer`{:class="block3sensing"} when you go to the 'start' screen:
+Додай код, щоб жучок перестав видавати `таймер`{:class="block3sensing"}, коли ти переходиш на 'стартовий' екран:
 
-![The bug sprite.](images/bug-sprite.png)
+![Спрайт жучка.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -106,15 +106,15 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Stop the timer
+### Зупинка таймера
 
-If you play the game a second time, the `timer`{:class="block3sensing"} will keep counting.
+Якщо ти граєш у гру вдруге, `таймер`{:class="block3sensing"} буде продовжувати рахувати.
 
 --- task ---
 
-Add code to `reset the timer`{:class="block3sensing"} when the `backdrop switches to`{:class="block3events"} the first level:
+Додай код `перезапустити таймер`{:class="block3sensing"} до `коли тло зміниться на`{:class="block3events"} перший рівень:
 
-![The bug sprite.](images/bug-sprite.png)
+![Спрайт жучка.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v] // first level
@@ -127,7 +127,7 @@ go to x: [13] y: [132] // on the disco ball
 
 --- task ---
 
-**Test:** Click on the green flag and play the game. The timer should reset when you click on the bug on the 'start' screen to move to the first level. When you click on the bug on the 'end' screen, you should return to the 'start' screen and see that the bug is not saying the `timer`{:class="block3sensing"}.
+**Тест:** Натисни на зелений прапорець та грай у гру. Таймер повинен обнулятися, коли ти натискаєш на жучка на 'стартовому' екрані, щоб перейти на перший рівень. Коли ти натискаєш на жучка на 'кінцевому' екрані, повернись на 'стартовий' екран та переконайся, що жучок не каже `таймер`{:class="block3sensing"}.
 
 --- /task ---
 
