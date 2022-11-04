@@ -1,11 +1,11 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Питання 3 з 3
 ---
 
-You added this script to the **bug** sprite:
+Ти додав цей скрипт до спрайта **жук**:
 
-![The bug sprite.](images/bug-sprite.png)
+![Спрайт жучка.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -14,39 +14,39 @@ go to x: [0] y: [30]
 + say (timer) 
 ```
 
-How does the `say`{:class="block3looks"} `timer`{:class="block3sensing"} block make the Stage look when the backdrop switches to **end**?
+Як блок `говорити`{:class="block3looks"} `таймер`{:class="block3sensing"} робить так, щоб Сцена показувалась, коли тло змінюється на **кінець**?
 
 --- choices ---
 
-- ( ) ![A parrot saying the timer value "4.52".](images/quiz_parrot_number.png)
+- ( ) ![Папуга, який говорить значення таймера "4.52".](images/quiz_parrot_number.png)
 
   --- feedback ---
 
-Have a look at the script again, and think about which sprite is the main character of the game (the parrot is just an annoying distraction).
+Подивись ще раз на скрипт та подумай, який спрайт є головним персонажем гри (папуга - це просто надокучливий маневр, щоб відвертати увагу).
 
   --- /feedback ---
 
-- ( ) ![A parrot saying the word "timer".](images/quiz_parrot_timer.png)
+- ( ) ![Папуга, який говорить слово "таймер".](images/quiz_parrot_timer.png)
 
   --- feedback ---
 
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer". Also, think about which sprite uses this code.
+Блок `таймер`{:class="block3sensing"} знаходиться у меню блоків `Датчики`{:class="block3sensing"}. Спрайт не говорить слово "таймер". Подумай, який спрайт використовує цей код.
 
   --- /feedback ---
 
-- (x) ![A bug saying the timer value "4.52".](images/quiz_bug_number.png)
+- (x) ![Жук, який говорить значення таймера "4.52".](images/quiz_bug_number.png)
 
   --- feedback ---
 
-Yes. The `timer`{:class="block3sensing"} block reports the time since the project started, or since the timer reset. The `say`{:class="block3looks"} block creates a speech bubble next to bug.
+Так. Блок `таймер`{:class="block3sensing"} повідомляє про час, який минув з моменту запуску проєкту, або з моменту перезапуску таймера. Блок `говорити`{:class="block3looks"} створює мовну бульбашку поруч з жучком.
 
   --- /feedback ---
 
-- ( ) ![A bug saying the word "timer".](images/quiz_bug_timer.png)
+- ( ) ![Жук, який говорить слово "таймер".](images/quiz_bug_timer.png)
 
   --- feedback ---
 
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer".
+Блок `таймер`{:class="block3sensing"} знаходиться у меню блоків `Датчики`{:class="block3sensing"}. Спрайт не говорить слово "таймер".
 
   --- /feedback ---
 
