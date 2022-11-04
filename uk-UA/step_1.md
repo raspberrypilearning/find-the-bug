@@ -1,21 +1,21 @@
-## You will make
+## Ти зробиш
 
-Create a game in which you have to find a hidden bug 🐞 on each level. The game will have 'start' and 'end' screen backdrops, and a timer ⌚ to show the player how quickly they found the bugs.
+Створиш гру, в якій потрібно знайти схованого жучка 🐞 на кожному рівні. Гра буде мати тло 'start' та 'end', а також таймер ⌚, який покаже гравцеві, наскільки швидко він знайшов жучка.
 
-You will:
-+ Create levels for your game using `next backdrop`{:class="block3looks"} and `when backdrop switches to`{:class="block3events"} blocks
-+ Use a `forever`{:class="block3control"} loop to keep running code blocks
-+ Use the `timer`{:class="block3sensing"} **variable** to let the player know how quickly they found the bugs
+Зможеш:
++ Створити для своєї гри рівні, використовуючи блоки `наступне тло`{:class="block3looks"} та `коли тло зміниться на`{:class="block3events"}
++ Використовуй петлю `завжди`{:class="block3control"}, щоб блоки коду виконувались завжди
++ Використовуй **змінну**`таймер`{:class="block3sensing"}, щоб гравець знав, як швидко він знайшов жучка
 
 --- no-print --- --- task ---
-### Play ▶️
+### Грати ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
-Click on the bug to start the game.
+Натисни на жучка, щоб почати гру.
 
-Try to find the bug on each level.
+Спробуй знайти жучка на кожному з рівнів.
 
-How well are the bugs hidden? You will get to add your own levels and make it as easy or difficult as you like.
+Наскільки добре жучки сховались? Ти зможеш додавати власні рівні та робити їх настільки легкими або складними, наскільки тобі захочеться.
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -28,10 +28,10 @@ How well are the bugs hidden? You will get to add your own levels and make it as
 
 --- print-only ---
 
-![The completed project.](images/showcase_static.png)
+![Завершений проєкт.](images/showcase_static.png)
 
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-More than 2.5 billion people play video games every year. Just think how many people are involved in creating those games. Would you like a job designing, coding, or testing games for other people to play? 
+Понад 2,5 мільярда людей щорічно грають у відеоігри. Тільки подумай, скільки людей беруть участь у створенні цих ігор. Бажаєш працювати над розробкою, кодуванням або тестуванням ігор для інших людей? 
 </p>
