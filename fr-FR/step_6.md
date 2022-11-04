@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
+Crée un écran de « fin » pour montrer le nombre de secondes qu'il a fallu au joueur pour trouver les bugs. 
 </div>
 <div>
 
@@ -12,21 +12,21 @@ Create an 'end' screen to show the number of seconds that it has taken the playe
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Parfois, seulement battre le jeu n'est pas suffisant. Les joueurs aiment savoir comment ils se sont comportés contre d'autres joueurs ou contre eux-mêmes. Peux-tu penser à un jeu qui te montre à quel point tu as bien fait ?</p>
+Parfois, seulement gagner une partie n'est pas suffisant. Les joueurs aiment savoir comment ils se sont comportés contre d'autres joueurs ou contre eux-mêmes. Peux-tu penser à un jeu qui te montre à quel point tu as bien fait ?</p>
 
-### Add another backdrop
+### Ajouter un autre arrière-plan
 
 --- task ---
 
 Ajoute le **Chalkboard** de la catégorie **Indoors**.
 
-![L'arrière-plan du Chalkboard dans la bibliothèque des arrière-plans.](images/chalkboard.png)
+![L'arrière-plan Chalkboard dans la bibliothèque des arrière-plans.](images/chalkboard.png)
 
 **Astuce :** Dans Scratch, tu peux ajouter plusieurs fois le même arrière-plan.
 
 --- /task ---
 
-### Edit the backdrop
+### Modifier l'arrière-plan
 
 --- task ---
 
@@ -40,17 +40,17 @@ Clique sur l'onglet **arrière-plans** pour ouvrir l'éditeur de peinture.
 
 Change le nom de l'arrière-plan en `fin`:
 
-![Le nom de 'arrière-plan a changé dans l'éditeur de peinture.](images/end-screen-name.png)
+![Le nom de l'arrière-plan a changé dans l'éditeur de peinture.](images/end-screen-name.png)
 
 **Astuce :** Tu renommes l'arrière-plan en **fin** pour faciliter la compréhension de ton code.
 
 --- /task ---
 
-### Position the bug
+### Positionner le bug
 
 --- task ---
 
-Clique sur le **bug** et ajoute du code pour positionner le bug sur l'écran 'fin' :
+Clique sur le **bug** et ajoute du code pour positionner le bug sur l'écran de « fin » :
 
 ![Le sprite bug.](images/bug-sprite.png)
 
@@ -62,13 +62,13 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Add a timer
+### Ajouter un chronomètre
 
 Combien de temps te faut-il pour trouver et cliquer sur les bugs ? Scratch a un `chronomètre`{:class="block3sensing"} que tu peux utiliser pour le découvrir.
 
 --- task ---
 
-Le bloc `chronomètre`{: class = "block3sensing"} est dans le menu blocs `Capteurs`{: class = "block3sensing"} . Ajoute du code pour que le bug `dise`{:class="block3looks"} le `chronomètre`{:class="block3sensing"} sur l'écran 'fin' :
+Le bloc `chronomètre`{: class = "block3sensing"} est dans le menu blocs `Capteurs`{: class = "block3sensing"} . Ajoute du code pour que le bug `dise`{:class="block3looks"} le `chronomètre`{:class="block3sensing"} sur l'écran de « fin » :
 
 ![Le sprite bug.](images/bug-sprite.png)
 
@@ -79,7 +79,7 @@ go to x: [0] y: [30] // on the board
 +say (timer) // seconds taken
 ```
 
-![Insertion d'un bloc 'chronomètre' dans un bloc 'dire'.](images/inserting-blocks.gif)
+![Insertion d'un bloc "chronomètre" dans un bloc "dire".](images/inserting-blocks.gif)
 
 --- /task ---
 
@@ -89,7 +89,7 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-Pour revenir à l'écran 'début', clique sur le bug sur l'écran 'fin'.
+Pour revenir à l'écran « début », clique sur le bug sur l'écran « fin ».
 
 --- task ---
 
@@ -106,13 +106,13 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Stop the timer
+### Arrêter le chronomètre
 
 Si tu joues au jeu une deuxième fois, le `chronomètre`{:class="block3sensing"} continuera à compter.
 
 --- task ---
 
-Ajoute le code `réinitialisez le chronomètre`{:class="block3sensing"}`quand l'arrière-plan bascule sur`{:class="block3events"} le premier niveau :
+Ajoute le code `réinitialiser le chronomètre`{:class="block3sensing"}`quand l'arrière-plan bascule sur`{:class="block3events"} le premier niveau :
 
 ![Le sprite bug.](images/bug-sprite.png)
 
@@ -127,7 +127,7 @@ go to x: [13] y: [132] // on the disco ball
 
 --- task ---
 
-**Test :** Clique sur le drapeau vert et lance le jeu. Le chronomètre devrait se réinitialiser lorsque tu cliques sur le bug sur l'écran « début » pour passer au premier niveau. Lorsque tu cliques sur le bug sur l'écran 'fin', tu devrais revenir à l'écran 'début' et voir que le bug ne dit pas le `chronomètre`{:class="block3sensing"}.
+**Test :** Clique sur le drapeau vert et lance le jeu. Le chronomètre devrait se réinitialiser lorsque tu cliques sur le bug sur l'écran « début » pour passer au premier niveau. Lorsque tu cliques sur le bug sur l'écran « fin », tu devrais revenir à l'écran « début » et voir que le bug ne dit pas le `chronomètre`{:class="block3sensing"}.
 
 --- /task ---
 
