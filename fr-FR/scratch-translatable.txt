@@ -2,9 +2,9 @@ minuscule
 
 sur la boule disco
 
-'écran de début
+écran de "début"
 
-start
+départ
 
 pleine grandeur
 
@@ -34,7 +34,7 @@ dans la vitrine
 
 dire les secondes
 
-end
+fin
 
 ne dis rien
 
@@ -46,6 +46,6 @@ fais glisser pour positionner le bug en premier
 
 nouveau niveau
 
-good hiding place
+bonne cachette
 
-keep the bug at the back
+garde le bug à l'arrière
