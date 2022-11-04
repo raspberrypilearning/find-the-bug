@@ -1,4 +1,4 @@
-## Distraction Perroquet
+## Perroquet de distraction
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -11,17 +11,17 @@ Pour qu'il soit plus difficile pour les joueurs de trouver et de cliquer sur le 
 </div>
 </div>
 
-### Add the Parrot sprite
+### Ajouter le sprite Parrot
 
 --- task ---
 
 Ajoute le sprite **Parrot**.
 
-![L'icône 'Choisir un Sprite'.](images/sprite-button.png)
+![L'icône "Choisir un Sprite".](images/sprite-button.png)
 
 --- /task ---
 
-### Animate the Parrot sprite
+### Animer le sprite Parrot
 
 Dans le projet [Prendre le bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}, tu as utilisé une boucle `répéter`{:class="block3control"}.
 
@@ -31,7 +31,7 @@ Tu utiliseras une boucle différente ici. Une boucle `répéter indéfiniment`{:
 
 Ajoute du code pour faire voler le perroquet de manière distrayante :
 
-![Le sprite de perroquet.](images/parrot-sprite.png)
+![Le sprite Parrot.](images/parrot-sprite.png)
 
 
 ```blocks3
