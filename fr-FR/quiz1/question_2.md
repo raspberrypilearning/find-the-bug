@@ -1,11 +1,11 @@
 --- question ---
 ---
-legend : Question 2 sur 3
+legend: Question 2 sur 3
 ---
 
 Tu as utilisé une boucle `répéter indéfiniment`{:class="block3control"} pour faire voler le sprite **perroquet** d'une manière agaçante.
 
-Nous avons essayé d'ajouter un autre sprite de distraction, mais il ne bouge qu'une fois lorsque nous cliquons sur le drapeau vert, puis s'arrête. Comment pouvons-nous le réparer?
+Nous avons essayé d'ajouter un autre sprite de distraction, mais il ne bouge qu'une fois lorsque nous cliquons sur le drapeau vert, puis s'arrête. Comment pouvons-nous résoudre cela ?
 
 ![Le sprite de fusée.](images/rocket-sprite.png)
 
@@ -31,7 +31,7 @@ Si tu modifies le nombre dans le bloc `avancer`{:class="block3motion"}, tu modif
 
   --- /feedback ---
 
-- ( ) Supprimer le bloc `rebondir si le bord est atteint` {:class="block3motion"}
+- ( ) Supprime le bloc `rebondir si le bord est atteint` {:class="block3motion"}
 
   --- feedback ---
 
@@ -39,7 +39,7 @@ Le bloc `rebondir si le bord est atteint`{:class="block3motion"} fait rebondir l
 
   --- /feedback ---
 
-- ( ) Ajouter un autre bloc `répéter indéfiniment`{:class="block3control"}
+- ( ) Ajoute un autre bloc `répéter indéfiniment`{:class="block3control"}
 
 --- feedback ---
 
@@ -47,7 +47,7 @@ Un script ne peut avoir qu'un seul bloc `répéter indéfiniment`{:class="block3
 
 --- /feedback ---
 
-- (x) Fais glisser le bloc `avancer`{:class="block3motion"} dans la boucle `répéter indéfiniment`{:class="block3control"}
+- (x) Fait glisser le bloc `avancer`{:class="block3motion"} dans la boucle `répéter indéfiniment`{:class="block3control"}
 
   --- feedback ---
 
