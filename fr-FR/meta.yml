@@ -8,7 +8,7 @@ copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: You will make
+    title: Ce que tu vas faire
   - 
     title: Écran de début
   - 
@@ -16,7 +16,7 @@ steps:
     completion:
       - engaged
   - 
-    title: Perroquet distraction
+    title: Perroquet de distraction
   - 
     title: Deuxième niveau
   - 
@@ -24,7 +24,7 @@ steps:
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Questionnaire rapide
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -33,8 +33,8 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your game
+    title: Améliorer ton jeu
   - 
-    title: Share and play
+    title: Partager et jouer
   - 
     title: Et ensuite ?
