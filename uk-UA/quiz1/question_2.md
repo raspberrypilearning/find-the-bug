@@ -1,13 +1,13 @@
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Питання 2 з 3
 ---
 
-You used a `forever`{:class="block3control"} loop to make the **Parrot** sprite fly around in an annoying way.
+Ти використав петлю `завжди`{:class="block3control"}, щоб змусити спрайт **Папуги** літати навколо у дратівливому стилі.
 
-We have tried to add another distraction sprite, but it just moves once when we click on the green flag and then stops. How can we fix it?
+Ми спробували додати ще один спрайт для відвертання уваги, але він рухається лише один раз, коли ми натискаємо на зелений прапорець, а потім зупиняється. Як це можна виправити?
 
-![The Rocket sprite.](images/rocket-sprite.png)
+![Спрайт Ракети.](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -23,35 +23,35 @@ end
 
 --- choices ---
 
-- ( ) Change the number in the `move`{:class="block3motion"} block
+- ( ) Зміни номер в блоці `перемістити на`{:class="block3motion"}
 
   --- feedback ---
 
-If you change the number in the `move`{:class="block3motion"} block, you will change how far the sprite moves when the green flag is clicked, but this change will not make the rocket keep moving.
+Якщо ти змінюєш номер в блоці `перемістити на`{:class="block3motion"}, ти зміниш відстань, на яку переміщується спрайт при натисканні на зелений прапорець, але ця зміна не змусить ракету рухатися далі.
 
   --- /feedback ---
 
-- ( ) Remove the `if on edge, bounce`{:class="block3motion"} block
+- ( ) Видалити блок `якщо на межі, відбити`{:class="block3motion"}
 
   --- feedback ---
 
-The `if on edge, bounce`{:class="block3motion"} block makes the sprite bounce off the edge of the Stage. If you removed it, then the rocket would get stuck at the edge of the Stage.
+Блок `якщо на межі, відбити `{:class="block3motion"} змусить спрайт відскочити від краю Сцени. Якщо його видалити, то ракета застрягне на краю Сцени.
 
   --- /feedback ---
 
-- ( ) Add another `forever`{:class="block3control"} block
+- ( ) Додати ще один блок `завжди`{:class="block3control"}
 
 --- feedback ---
 
-A script can only have one `forever`{:class="block3control"} block. Did you notice that you cannot add a block underneath a `forever`{:class="block3control"} block?
+Скрипт може містити тільки один блок `завжди`{:class="block3control"}. Помітили, що не можна додати блок під блоком `завжди`{:class="block3control"}?
 
 --- /feedback ---
 
-- (x) Drag the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop
+- (x) Перетягнути блок `перемістити на`{:class="block3motion"} у середину петлі `завжди`{:class="block3control"}
 
   --- feedback ---
 
-  Yes! The sprite only moves once. If you move the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop, the sprite will keep moving until you stop your project.
+  Так! Спрайт переміщується тільки один раз. Якщо ти перемістиш блок `перемістити на`{:class="block3motion"} у середину петлі `завжди`{:class="block3control"}, спрайт продовжуватиме рухатись до тих пір, поки ти не зупиниш свій проєкт.
 
   --- /feedback ---
 
