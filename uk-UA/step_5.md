@@ -1,72 +1,72 @@
-## Second level
+## Другий рівень
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Choose a backdrop to make a second level for your game, and make the bug hard to find. 
+Вибери тло, щоб зробити другий рівень для своєї гри, і зроби так, щоб жучок було складно знайти. 
 </div>
 <div>
 
-![A street scene with a hidden bug.](images/second-level.png){:width="300px"}
+![Вулична сцена зі схованим жучком.](images/second-level.png){:width="300px"}
 
 </div>
 </div>
 
-### Add another backdrop
+### Додай ще одне Тло
 
 --- task ---
 
-**Choose:** Choose a backdrop for your second level. We have chosen the **Urban** backdrop, but you can choose the one that you like the most.
+**Вибір:** Обери тло для свого другого рівня. Ми обрали тло **Urban**, але ти можеш обрати інше, яке тобі найбільше до вподоби.
 
-![The bug and parrot on an urban backdrop.](images/insert-urban-backdrop.png)
+![Жучок та папуга на тлі міського пейзажу.](images/insert-urban-backdrop.png)
 
-**Tip:** Remember that backdrops with lots of colours and details will make the bug harder to find. How difficult will you make your game?
+**Порада:** Пам'ятай, що на тлі з великою кількістю кольорів і деталей жучка буде складніше знайти. Наскільки складною ти зробиш свою гру?
 
 --- /task ---
 
-### Stop the code from running
+### Зупинити виконання коду
 
 --- task ---
 
-Drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them from running when you click on the bug:
+Перетягни блоки від блоку `коли спрайт натиснуто`{:class="block3events"}, щоб вони не запускалися при натисканні на жучок:
 
-![Breaking the code.](images/breaking-script.png)
+![Руйнування коду.](images/breaking-script.png)
 
 --- /task ---
 
-### Resize the bug
+### Зміна розміру жучка
 
 --- task ---
 
-Add code to `set the size`{:class="block3looks"} of the bug for the second level:
+Додай код, щоб `задати розмір`{:class="block3looks"} для жучка на другому рівні:
 
-![The bug sprite.](images/bug-sprite.png)
+![Спрайт жучка.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v] // choose your backdrop
 set size to [20] % // try another size 
 ```
 
-**Test:** Click on your new script to run it.
+**Тест:** Натисни на новий скрипт, щоб запустити його.
 
 --- /task ---
 
-### Hide your bug
+### Приховай свого жучка
 
 --- task ---
 
-Drag your bug on the Stage to a good hiding place for this level.
+Перетягуй жука по Сцені, щоб обрати добре місце для схованки на цьому рівні.
 
-![The bug hidden in the shop window in the middle of the backdrop.](images/hidden-urban-backdrop.png)
+![Жучок захований у вітрині магазину посередині тла.](images/hidden-urban-backdrop.png)
 
 --- /task ---
 
-Position your bug in its hiding place.
+Помісти свого жучка в його схованку.
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block to your code:
+Додай блок `перемістити в x: y:`{:class="block3motion"} до твого коду:
 
-![The bug sprite.](images/bug-sprite.png)
+![Спрайт жучка.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -76,29 +76,29 @@ set size to [20] % // try another size
 
 --- /task ---
 
-### Test your code
+### Протестуй свій код
 
 --- task ---
 
-Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that when the bug is clicked, the backdrop switches to the `next backdrop`{:class="block3looks"}:
+З'єднай блоки назад до блоку `коли спрайт натиснуто`{:class="block3events"}, щоб при натисканні на жучок тло змінювалося на `наступне тло`{:class="block3looks"}:
 
-![The blocks are joined back together.](images/fixed-script.png)
+![Блоки з'єднані між собою.](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your project.
+**Тест:** Клацни на зелений прапорець, щоб протестувати свій проєкт.
 
 --- /task ---
 
-Your bug may now be in front of the parrot.
+Зараз твій жучок може знаходитися перед папугою.
 
 --- task ---
 
-Add a script to make sure that your bug is always at the `back`{:class="block3looks"}:
+Додай скрипт, щоб переконатися, що жучок завжди знаходиться `позаду`{:class="block3looks"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![Спрайт жучка.](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -106,6 +106,6 @@ forever
 go to [back v] layer
 ```
 
-Now, your bug will always stay at the back, even if you need to change its position.
+Тепер жучок завжди буде знаходитися позаду, навіть якщо ти будеш змінювати його положення.
 
 --- /task ---
