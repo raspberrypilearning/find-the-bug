@@ -1,33 +1,33 @@
-## First level
+## Перший рівень
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add a new backdrop as the first level in your game, and hide the bug.
+Додай нове тло для першого рівня для твоєї гри, та сховай жучка.
 </div>
 <div>
 
-![The Spotlight backdrop with a bug.](images/first-level.png){:width="300px"}
+![Тло Spotlight з жучком.](images/first-level.png){:width="300px"}
 
 </div>
 </div>
 
-### Add another Backdrop
+### Додати ще одне Тло
 
 --- task ---
 
-Add the **Spotlight** backdrop from the **Music** category.
+Додай тло **Spotlight** з категорії **Музика**.
 
-![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
+![Іконка 'Обрати тло'.](images/backdrop-button.png)
 
 --- /task ---
 
-### Resize the bug
+### Зміна розміру жучка
 
 --- task ---
 
-Click on the **bug** sprite in the Sprite list. Add a script to change the `size`{:class="block3looks"} of your bug `when the backdrop switches to Spotlight`{:class="block3events"}:
+Клацни на спрайт **жучка** у списку Спрайтів. Додай скрипт, щоб змінити`розмір`{:class="block3looks"} твого жучка, `коли тло зміниться на Spotlight`{:class="block3events"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![Спрайт жучка.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
@@ -38,11 +38,11 @@ set size to [20] % // tiny
 
 --- task ---
 
-Click on the code to change the size, then drag your tiny bug to a hiding place.
+Натисни на код, щоб змінити розмір, а потім перетягни свого маленького жучка в схованку.
 
-Add code to position your bug:
+Додай код, щоб розмістити свого жучка:
 
-![The bug sprite.](images/bug-sprite.png)
+![Спрайт жучка.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
@@ -50,21 +50,21 @@ set size to [20] % // tiny
 + go to x: [13] y: [132] // on the disco ball
 ```
 
-**Choose:** You can choose a different size and location, if you prefer.
+**Вибір:** Ти можеш обрати інший розмір та місце розташування, якщо бажаєш.
 
 --- /task ---
 
-### Move to the next Backdrop
+### Перехід до наступного тла
 
-When you play the game and you successfully find the bug, the game will switch to the next backdrop. Also, to start the game, you will click on the bug on the 'start' screen.
+Коли ти граєш у гру та успішно знайдеш жучка, гра перейде на наступне тло. Також, щоб почати гру, потрібно натиснути на жучка на 'стартовому' екрані.
 
-The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order in which the backdrops are listed when you click on the **Backdrops** tab for the **Stage**.
+Блок `наступне тло`{:class="block3looks"} здійснює перехід до наступного тла в тому порядку, в якому вони вказані в списку при натисканні на вкладку **Тло** на **Сцени**.
 
 --- task ---
 
-Add a script to your **bug** sprite to `play a Pop sound`{:class="block3sound"} and switch to the `next backdrop`{:class="block3looks"} `when this sprite is clicked`{:class="block3events"}:
+Додай скрипт до твого спрайта **жучка**, щоб `відтворити звук Pop`{:class="block3sound"} та перейти на `наступне тло`{:class="block3looks"} `коли спрайт натиснуто`{:class="block3events"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![Спрайт жучка.](images/bug-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -74,13 +74,13 @@ next backdrop
 
 --- /task ---
 
-### Make the game start with the Start Screen
+### Зроби так, щоб гра починалася зі Стартового Екрана
 
 --- task ---
 
-Click on the Stage pane and add this code to the **Stage**:
+Клацни на панелі Сцени та додай цей код до **Сцени**:
 
-![The Spotlight backdrop.](images/stage-image.png)
+![Тло Spotlight.](images/stage-image.png)
 
 ```blocks3
 when flag clicked
@@ -91,19 +91,19 @@ switch backdrop to [start v] // 'start' screen
 
 --- task ---
 
-**Test:** Click on the green flag to test your project.
+**Тест:** Клацни на зелений прапорець, щоб протестувати свій проєкт.
 
-You will notice that on the 'start' screen, the bug will still have the settings to hide in its hiding place from the first level (in this example, on the disco ball).
+Ти помітиш, що на 'стартовому' екрані жучок все ще матиме налаштування, щоб ховатися у місце з першого рівня (у цьому прикладі - на дискотечній кулі).
 
-**Tip:** After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop.
+**Порада:** Після останнього тла в списку, `наступне тло`{:class="block3looks"} буде змінюватися на перше тло.
 
 --- /task ---
 
 --- task ---
 
-Click on the **bug** sprite in the Sprite list. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+Клацни на спрайт **жучка** у списку Спрайтів. Додай скрипт, щоб `задати розмір`{:class="block3looks"} жучка, коли твоє `тло зміниться на`{:class="block3events"} `стартовий`{:class="block3events"} екран:
 
-![The bug sprite.](images/bug-sprite.png)
+![Спрайт жучка.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -112,37 +112,37 @@ set size to [100] % // full-sized
 
 --- /task ---
 
-### Change the position of the bug
+### Зміна позиції жучка
 
 --- task ---
 
-Try to position the bug on the 'start' screen.
+Спробуй розмістити жучок на 'стартовому' екрані.
 
-Your code will make the backdrop switch when you click on the bug! That is not helpful when you are trying to position the bug.
+Твій код змусить фон змінюватися при натисканні на жучка! Це не дуже зручно, коли ти намагаєшся визначити позицію жучка.
 
-To fix the problem, you need to stop the code from running when you click on the bug.
+Для вирішення цієї проблеми потрібно зупинити виконання коду при натисканні на жучка.
 
 --- /task ---
 
 --- task ---
 
-Click on the green flag to return to the 'start' screen.
+Клацни на зелений прапорець, щоб повернутися на 'стартовий' екран.
 
-Click on the **bug** sprite in the Sprite list and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
+Клацни на спрайт **жучка** у списку Спрайтів та перетягни блоки від блока`коли спрайт натиснуто`{:class="block3events"}:
 
-![Breaking the script.](images/breaking-script.png)
+![Руйнування скрипта.](images/breaking-script.png)
 
 --- /task ---
 
 --- task ---
 
-Try to position the bug again. Drag the bug onto the chalkboard, below the text:
+Спробуй розташувати жучка ще раз. Перетягни жучка на дошку, під текстом:
 
-![The bug on the start screen](images/bug-chalkboard.png)
+![Жучок на стартовому екрані](images/bug-chalkboard.png)
 
-Add code to make sure that the bug is positioned on the chalkboard every time your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+Додай код, щоб переконатися, що жучок буде знаходитися на дошці кожен раз, `коли тло зміниться на`{:class="block3events"} `стартовий`{:class="block3events"} екран:
 
-![The bug sprite.](images/bug-sprite.png)
+![Спрайт жучка.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -154,22 +154,22 @@ set size to [100] % // full-sized
 
 --- task ---
 
-Join the blocks back together so that the code blocks are under the `when this sprite clicked`{:class="block3events"} block again:
+З'єднай блоки назад так, щоб блоки коду знову опинилися під блоком `коли спрайт натиснуто`{:class="block3events"}:
 
-![The 'when this sprite clicked' block joined to the 'play sound' and 'next backdrop' blocks.](images/fixed-script.png)
+![Блок 'коли спрайт натиснуто' приєднаний до блоків 'відтворити звук' та 'наступне тло'.](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your project. Click on the bug to move to the next backdrop. The bug should be big on the 'start' screen and small on the 'Spotlight' level.
+**Тест:** Клацни на зелений прапорець, щоб протестувати свій проєкт. Натисни на жучка, щоб перейти до наступного тла. Жучок повинен бути великим на 'стартовому' екрані та маленьким на 'рівні Spotlight'.
 
 --- collapse ---
 ---
-title: Nothing happens when I click on the bug
+title: Коли я натискаю на жучка, нічого не відбувається
 ---
 
-Did you forget to join the code back to the `when this sprite clicked`{:class="block3events"} block?
+Ти забув приєднати код назад до блоку `коли спрайт натиснуто`{:class="block3events"}?
 
 --- /collapse ---
 
