@@ -1,20 +1,20 @@
-## Share and play
+## Ділись та грай
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Надихай спільноту Raspberry Pi Foundation своїм проєктом!
 
 [[[share-scratch]]]
 
-To submit your project to our 'Find the bug' Scratch studio for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+Щоб запропонувати свій проєкт до нашої студії Scratch 'Знайти жучка', щоб його побачили інші люди, будь ласка, заповни [цю форму](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---
 
 --- no-print --- --- task ---
 
-Play these fabulous games from our ['Find the bug' Scratch studio](https://scratch.mit.edu/studios/29005236/){:target="_blank"}.
+Зіграй в ці неймовірні ігри від нашої [студії Scratch 'Знайти жучка'](https://scratch.mit.edu/studios/29005236/){:target="_blank"}.
 
-Notice how the creators have added extra levels, annoying distractions or upgraded the start and end screens:
+Зверни увагу, як інші творці додали додаткові рівні, Зверни увагу, як інші творці додали додаткові рівні, елементи для відволікання уваги або поліпшили початковий та кінцевий екрани: елементи або поліпшили початковий та кінцевий екрани:
 
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/545488112/?autostart=false" frameborder="0"></iframe>
@@ -34,7 +34,7 @@ Notice how the creators have added extra levels, annoying distractions or upgrad
 
 --- task ---
 
-You can also look at the remixes for the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/remixes){:target="_blank"} to see what other creators have made.
+Також ти можеш подивитися ремікси на [Стартовий проєкт Знайти жучка](https://scratch.mit.edu/projects/582214723/remixes){:target="_blank"}, щоб побачити, що зробили інші творці.
 
 --- /task ---
 
