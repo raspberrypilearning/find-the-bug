@@ -1,28 +1,28 @@
-## Upgrade your game
+## Покращення своєї гри
 
-If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text on the chalkboard.
+Якщо у тебе є час, ти можеш додати більше рівнів і більше відволікаючих факторів у свою гру. Ти також можеш змінити спрайт, який ховається та змінити текст на дошці.
 
 --- task ---
 
-Play your game and see how quickly you can find the bugs.
+Зіграй у свою гру та перевір, як швидко ти зможеш знайти жучка.
 
-Is there someone else who can try your game? How fast can they find the bugs? They will not know where you have hidden them, so it might take them a bit longer!
+Чи є ще хтось, хто може спробувати твою гру? Як швидко вони можуть знайти жучка? Вони не знатимуть, де ти їх сховав, тому у них це може зайняти трохи більше часу!
 
-Is there anything that you want to change?
+Чи є щось, що ти хотів би змінити?
 
-You could:
-- Make the parrot even more annoying
-- Make the bugs smaller
-- Change the `color effect`{:class="block3looks"} to camouflage the bug on each level
-- Change the font or colour of the text
+Ти можеш:
+- Зроби папугу ще більш надокучливим
+- Зробити жучків меншими
+- Зміни `ефект колір`{:class="block3looks"} для маскування жучка на кожному рівні
+- Зміна шрифту або кольору тексту
 
 --- /task ---
 
-### Add more levels
+### Додай більше рівнів
 
 --- task ---
 
-Here are the blocks that you will need to hide the bug on a new level:
+Ось блоки, які тобі знадобляться, щоб заховати жучка на новому рівні:
 
 ```blocks3
 when backdrop switches to [new level v]
@@ -34,22 +34,22 @@ go to x: [0] y: [0] // drag to position the bug first
 set [color v] effect to [50]
 ```
 
-For each level, you will need to:
-- Add a backdrop
-- Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
-- Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug
+Для кожного рівня тобі потрібно буде:
+- Додай тло
+- Натисни на панель Сцени, далі на вкладку **Тло**, потім перетягни нове тло в позицію перед **кінцевим** тлом
+- Додай блок `коли тло зміниться на`{:class="block3events"} для нового тла та додай код, щоб змінити позицію та сховати жучка
 
-**Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the backdrop does not switch when you click on the bug to position it for a new level.
+**Порада:** Щоб перетягнути жучка в нову позицію для хованки, потрібно "зламати" код, щоб тло не змінювалося при натисканні на нього, щоб можна було розташувати жучок на новому рівні.
 
 --- /task ---
 
-### Add more distractions
+### Додай більше відвертаючих увагу факторів
 
 --- task ---
 
-You could add more parrots or choose another sprite to act as a distraction.
+Ти можеш додати більше папуг або вибрати інший спрайт, який буде відвертати увагу.
 
-Here is the code that you used for the parrot:
+Ось код, який ти використовував для папуги:
 
 ```blocks3
 when flag clicked
@@ -64,17 +64,17 @@ wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
-**Tip:** You can drag the **Parrot** sprite's code to another sprite to make it faster to create another distraction sprite.
+**Порада:** Ти можеш перетягнути код спрайта **Parrot** до іншого спрайта, щоб прискорити створення іншого спрайта для відвертання уваги.
 
-![Dragging code from the Code area to another sprite in the Sprite list.](images/drag-parrot-code.gif)
+![Перетягування коду з області Коду на інший спрайт у списку Спрайтів.](images/drag-parrot-code.gif)
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+title: Завершений проєкт
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+Ти можеш переглянути [завершений проєкт тут](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
 
 --- /collapse ---
