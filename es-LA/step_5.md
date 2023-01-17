@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Choose a backdrop to make a second level for your game, and make the bug hard to find. 
+Elegirás un fondo para crear un segundo nivel en tu juego y hacer que el insecto sea difícil de encontrar. 
 </div>
 <div>
 
@@ -17,7 +17,7 @@ Choose a backdrop to make a second level for your game, and make the bug hard to
 
 **Elige:** Elige un fondo para tu segundo nivel. Hemos elegido el fondo **Urban**, pero puedes elegir el que más te guste.
 
-![The bug and parrot on an urban backdrop.](images/insert-urban-backdrop.png)
+![El insecto y el loro en un fondo urbano.](images/insert-urban-backdrop.png)
 
 **Consejo:** Recuerda que los fondos con muchos colores y detalles harán que el insecto sea más difícil de encontrar. ¿Qué tan difícil harás tu juego?
 
@@ -27,46 +27,46 @@ Choose a backdrop to make a second level for your game, and make the bug hard to
 
 --- task ---
 
-Drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them from running when you click on the bug:
+Arrastra los bloques lejos del bloque `al hacer clic en este objeto`{:class="block3events"} para evitar que se ejecuten cuando hagas clic en el insecto:
 
 ![Breaking the code.](images/breaking-script.png)
 
 --- /task ---
 
-### Resize the bug
+### Redimensiona el insecto
 
 --- task ---
 
-Add code to `set the size`{:class="block3looks"} of the bug for the second level:
+Añade código a `fijar el tamaño`{:class="block3looks"} del insecto para el segundo nivel:
 
-![The bug sprite.](images/bug-sprite.png)
+![El objeto insecto.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v] // choose your backdrop
 set size to [20] % // try another size 
 ```
 
-**Test:** Click on your new script to run it.
+**Prueba:** Haz clic en tu nuevo script para ejecutarlo.
 
 --- /task ---
 
-### Hide your bug
+### Oculta tu insecto
 
 --- task ---
 
-Drag your bug on the Stage to a good hiding place for this level.
+Arrastra tu insecto en el escenario a un buen escondite para este nivel.
 
-![The bug hidden in the shop window in the middle of the backdrop.](images/hidden-urban-backdrop.png)
+![El insecto escondido en el escaparate de la tienda en medio del fondo.](images/hidden-urban-backdrop.png)
 
 --- /task ---
 
-Position your bug in its hiding place.
+Posiciona el insecto en su escondite.
 
 --- task ---
 
 Add a `go to x: y:`{:class="block3motion"} block to your code:
 
-![The bug sprite.](images/bug-sprite.png)
+![El objeto insecto.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -76,11 +76,11 @@ set size to [20] % // try another size
 
 --- /task ---
 
-### Test your code
+### Prueba tu código
 
 --- task ---
 
-Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that when the bug is clicked, the backdrop switches to the `next backdrop`{:class="block3looks"}:
+Vuelve a unir los bloques al bloque `al hacer clic en este objeto`{:class="block3events"} para que cuando se haga clic en el insecto, el fondo cambie al `siguiente fondo`{:class="block3looks"}:
 
 ![The blocks are joined back together.](images/fixed-script.png)
 
@@ -88,17 +88,17 @@ Join the blocks back to the `when this sprite clicked`{:class="block3events"} bl
 
 --- task ---
 
-**Test:** Click on the green flag to test your project.
+**Prueba:** Haz clic en la bandera verde para probar tu proyecto.
 
 --- /task ---
 
-Your bug may now be in front of the parrot.
+Tu insecto puede estar frente al loro ahora.
 
 --- task ---
 
-Add a script to make sure that your bug is always at the `back`{:class="block3looks"}:
+Añade un script para asegurarte de que tu insecto esté siempre `atrás`{:class="block3looks"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![El objeto insecto.](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -106,6 +106,6 @@ forever
 go to [back v] layer
 ```
 
-Now, your bug will always stay at the back, even if you need to change its position.
+Ahora, tu insecto siempre permanecerá atrás, incluso si necesitas cambiar su posición.
 
 --- /task ---
