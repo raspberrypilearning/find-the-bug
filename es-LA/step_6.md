@@ -2,11 +2,11 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
+Crearás una pantalla 'final' para mostrar la cantidad de segundos que le ha tomado al jugador encontrar los insectos. 
 </div>
 <div>
 
-![El insecto con la cantidad de tiempo en un globo de diálogo.](images/end-screen.png){:width="300px"}
+![El error con la cantidad de tiempo en un globo de diálogo.](images/end-screen.png){:width="300px"}
 
 </div>
 </div>
@@ -46,7 +46,7 @@ Cambia el nombre del fondo a `final`:
 
 --- /task ---
 
-### Position the bug
+### Posiciona el insecto
 
 --- task ---
 
