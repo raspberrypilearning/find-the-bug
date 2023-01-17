@@ -1,17 +1,17 @@
-## Quick quiz
+## Test rápido
 
 Answer the three questions. There are hints to guide you to the correct answer.
 
 When you have answered each question, click on **Check my answer**.
 
-Have fun!
+¡Qué te diviertas!
 
 --- question ---
 ---
-legend: Pregunta 1 de 3
+legend: Question 1 of 3
 ---
 
-In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
+En tu juego, agregaste este código a tu **insecto** para moverte por los fondos cada vez que se hacía clic en él.
 
 ```blocks3
 when this sprite clicked
@@ -19,19 +19,19 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Look at this image showing a 'Find the bug' game being played.
+Mira esta imagen que muestra un juego de 'Encuentra el insecto' que se está jugando.
 
-![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
+![El editor Scratch con fondos en el orden de inicio, Spotlight, Urban, final; y el escenario que muestra el fondo de Spotlight.](images/quiz1-backdrops.png)
 
-In this game, which backdrop would appear next when you click on the bug?
+En este juego, ¿qué fondo aparecería a continuación cuando hagas clic en el insecto?
 
 --- choices ---
 
-- ( ) inicio
+- ( ) start
 
   --- feedback ---
 
-  Debes pensar en el orden de los fondos.
+  You need to think about the order of the backdrops.
 
   --- /feedback ---
 
@@ -39,7 +39,7 @@ In this game, which backdrop would appear next when you click on the bug?
 
   --- feedback ---
 
-Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
+Sí. El bloque `siguiente fondo`{:class="block3looks"} cambia al siguiente fondo en el orden de la lista de fondos en la pestaña **Fondos** para el **Escenario**.
 
 --- /feedback ---
 
@@ -47,15 +47,15 @@ Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdr
 
   --- feedback ---
 
-  El fondo de **Spotlight** se muestra en el escenario. Debes pensar en el orden de los fondos.
+  The **Spotlight** backdrop is showing on the Stage. You need to think about the order of the backdrops.
 
   --- /feedback ---
 
-- ( ) final
+- ( ) end
 
   --- feedback ---
 
-  Debes pensar en el orden de los fondos.
+  You need to think about the order of the backdrops.
 
   --- /feedback ---
 
