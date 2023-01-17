@@ -6,7 +6,7 @@ Inspire the Raspberry Pi Foundation community with your project!
 
 [[[share-scratch]]]
 
-Para enviar tu proyecto a nuestro estudio Scratch 'Encuentra el bug' para que otras personas lo vean, por favor completa [este formulario](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+Para enviar tu proyecto a nuestro estudio Scratch 'Encuentra el insecto' para que otras personas lo vean, por favor completa [este formulario](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---
 
@@ -34,7 +34,7 @@ Notice how the creators have added extra levels, annoying distractions or upgrad
 
 --- task ---
 
-También puede ver los remixes del [Proyecto inicial Encuentra el bug](https://scratch.mit.edu/projects/582214723/remixes){:target="_blank"} para ver qué han hecho otros creadores.
+También puede ver los remixes del [Proyecto inicial Encuentra el insecto](https://scratch.mit.edu/projects/582214723/remixes){:target="_blank"} para ver qué han hecho otros creadores.
 
 --- /task ---
 
