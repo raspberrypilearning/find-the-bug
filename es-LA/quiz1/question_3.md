@@ -38,7 +38,7 @@ El bloque `cronómetro`{:class="block3sensing"} viene del menú de bloques `Sens
 
   --- feedback ---
 
-Sí. El `cronómetro`{:class="block3sensing"} informa el tiempo desde que comenzó el proyecto, o desde que se reinició. The `say`{:class="block3looks"} block creates a speech bubble next to bug.
+Sí. El `cronómetro`{:class="block3sensing"} informa el tiempo desde que comenzó el proyecto, o desde que se reinició. El bloque `say`{:class="block3looks"} crea una burbuja de diálogo junto al insecto.
 
   --- /feedback ---
 
