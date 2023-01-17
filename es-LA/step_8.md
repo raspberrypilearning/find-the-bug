@@ -1,19 +1,19 @@
-## Upgrade your game
+## Mejora tu juego
 
 If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text on the chalkboard.
 
 --- task ---
 
-Play your game and see how quickly you can find the bugs.
+Juega tu juego y mira qué tan rápido puedes encontrar los insectos.
 
-Is there someone else who can try your game? How fast can they find the bugs? They will not know where you have hidden them, so it might take them a bit longer!
+Is there someone else who can try your game? ¿Qué tan rápido pueden encontrar los insectos? They will not know where you have hidden them, so it might take them a bit longer!
 
 Is there anything that you want to change?
 
 You could:
 - Make the parrot even more annoying
-- Make the bugs smaller
-- Change the `color effect`{:class="block3looks"} to camouflage the bug on each level
+- Hacer los insectos más pequeños
+- Cambiar el `efecto color`{:class="block3looks"} para camuflar el insecto en cada nivel
 - Change the font or colour of the text
 
 --- /task ---
@@ -22,7 +22,7 @@ You could:
 
 --- task ---
 
-Here are the blocks that you will need to hide the bug on a new level:
+Estos son los bloques que necesitarás para ocultar el insecto en un nuevo nivel:
 
 ```blocks3
 when backdrop switches to [new level v]
@@ -37,9 +37,9 @@ set [color v] effect to [50]
 For each level, you will need to:
 - Add a backdrop
 - Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
-- Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug
+- Agregar un bloque `cuando el fondo cambie a`{:class="block3events"} para el nuevo fondo y añadir código para posicionar y ocultar el insecto
 
-**Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the backdrop does not switch when you click on the bug to position it for a new level.
+**Consejo:** Para arrastrar el insecto a un nuevo escondite, tendrás que "romper" el código para que el fondo no cambie cuando hagas clic en el insecto para posicionarlo en un nuevo nivel.
 
 --- /task ---
 
@@ -47,7 +47,7 @@ For each level, you will need to:
 
 --- task ---
 
-You could add more parrots or choose another sprite to act as a distraction.
+Puedes agregar más loros o elegir otro objeto para que actúe como distracción.
 
 Here is the code that you used for the parrot:
 
@@ -64,7 +64,7 @@ wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
-**Tip:** You can drag the **Parrot** sprite's code to another sprite to make it faster to create another distraction sprite.
+**Consejo:** Puedes arrastrar el código del objeto **Parrot** a otro objeto para que sea más rápido crear otro objeto de distracción.
 
 ![Dragging code from the Code area to another sprite in the Sprite list.](images/drag-parrot-code.gif)
 
@@ -72,9 +72,9 @@ end
 
 --- collapse ---
 ---
-title: Completed project
+title: Proyecto terminado
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+Puedes ver el [proyecto terminado aquí](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
 
 --- /collapse ---
