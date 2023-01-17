@@ -1,14 +1,14 @@
-## Test rápido
+## Examen rápido
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Contesta las tres preguntas. Hay pistas para guiarte hacia la repuesta correcta.
 
-When you have answered each question, click on **Check my answer**.
+Cuando hayas respondido a cada pregunta, haz clic en **Revisar mi respuesta**.
 
 ¡Qué te diviertas!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Pregunta 1 de 3
 ---
 
 En tu juego, agregaste este código a tu **insecto** para moverte por los fondos cada vez que se hacía clic en él.
