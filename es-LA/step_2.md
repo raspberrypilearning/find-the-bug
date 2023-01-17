@@ -6,16 +6,16 @@ Give your game a 'start' screen.
 </div>
 <div>
 
-![Texto "Encuentra el insecto" sobre una pizarra en el Escenario.](images/start-screen.png){:width="300px"}
+![Texto "Encuentra el error" sobre una pizarra en el Escenario.](images/start-screen.png){:width="300px"}
 
 </div>
 </div>
 
-### Open the starter project
+### Abre el proyecto inicial
 
 --- task ---
 
-Abre el [proyecto de inicio de Encuentra el insecto](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
+Abre el [proyecto inicial de Encuentra el error](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
 
 [[[working-offline]]]
 
@@ -75,7 +75,7 @@ Haz clic en **Convertir a vector**. Ahora, podrás agregar texto que puedes move
 
 Usa la herramienta **Texto** para agregar el texto `Encuentra el insecto` en la pizarra:
 
-![Find the bug is written on the chalkboard.](images/chalkboard-text.png)
+![Encuentra el error está escrito en la pizarra.](images/chalkboard-text.png)
 
 Hemos usado la fuente **Marker** en color blanco, pero puedes **elegir** la fuente y color que quieras usar.
 
@@ -95,7 +95,7 @@ Cambia el nombre del fondo a `inicio`, ya que necesitarás seleccionarlo más ad
 
 --- /task ---
 
-### Add the Bug Sprite
+### Agrega el Objeto Error
 
 --- task ---
 
