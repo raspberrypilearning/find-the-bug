@@ -6,7 +6,7 @@ Crearás una pantalla 'final' para mostrar la cantidad de segundos que le ha tom
 </div>
 <div>
 
-![El error con la cantidad de tiempo en un globo de diálogo.](images/end-screen.png){:width="300px"}
+![El insecto con la cantidad de tiempo en un globo de diálogo.](images/end-screen.png){:width="300px"}
 
 </div>
 </div>
