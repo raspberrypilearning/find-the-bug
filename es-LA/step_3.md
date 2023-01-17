@@ -2,11 +2,11 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add a new backdrop as the first level in your game, and hide the bug.
+Agregarás un nuevo fondo como primer nivel en tu juego y ocultarás el error.
 </div>
 <div>
 
-![El fondo Spotlight con un insecto.](images/first-level.png){:width="300px"}
+![El fondo Spotlight con un error.](images/first-level.png){:width="300px"}
 
 </div>
 </div>
@@ -21,7 +21,7 @@ Agrega el fondo **Spotlight** de la categoría **Música**.
 
 --- /task ---
 
-### Resize the bug
+### Redimensiona el error
 
 --- task ---
 
@@ -91,19 +91,19 @@ switch backdrop to [start v] // 'start' screen
 
 --- task ---
 
-**Test:** Click on the green flag to test your project.
+**Prueba:** Haz clic en la bandera verde para probar tu proyecto.
 
-You will notice that on the 'start' screen, the bug will still have the settings to hide in its hiding place from the first level (in this example, on the disco ball).
+Notarás que en la pantalla de 'inicio', el error aún tendrá la configuración para esconderse en su escondite del primer nivel (en este ejemplo, en la bola de discoteca).
 
-**Tip:** After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop.
+**Consejo:** Después del último fondo de la lista, `siguiente fondo`{:class="block3looks"} volverá al primer fondo.
 
 --- /task ---
 
 --- task ---
 
-Click on the **bug** sprite in the Sprite list. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+Haz clic en el objeto **error** en la lista de Objetos. Añade un script para `fijar el tamaño`{:class="block3looks"} del error cuando tu `fondo cambia a`{:class="block3events"} la pantalla de `inicio`{:class="block3events"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![El objeto error.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -112,15 +112,15 @@ set size to [100] % // full-sized
 
 --- /task ---
 
-### Change the position of the bug
+### Cambia la posición del insecto
 
 --- task ---
 
-Try to position the bug on the 'start' screen.
+Intenta colocar el insecto en la pantalla de 'inicio'.
 
-Your code will make the backdrop switch when you click on the bug! That is not helpful when you are trying to position the bug.
+¡Tu código hará que el fondo cambie cuando hagas clic en el insecto! Eso no es útil cuando intentas posicionar el insecto.
 
-To fix the problem, you need to stop the code from running when you click on the bug.
+Para solucionar el problema, debes detener la ejecución del código cuando hagas clic en el insecto.
 
 --- /task ---
 
@@ -128,7 +128,7 @@ To fix the problem, you need to stop the code from running when you click on the
 
 Click on the green flag to return to the 'start' screen.
 
-Click on the **bug** sprite in the Sprite list and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
+Haz clic en el objeto **insecto** en la lista de Objetos y arrastra los bloques lejos del bloque `al hacer clic en este objeto`{:class="block3events"}:
 
 ![Breaking the script.](images/breaking-script.png)
 
@@ -136,13 +136,13 @@ Click on the **bug** sprite in the Sprite list and drag the blocks away from the
 
 --- task ---
 
-Try to position the bug again. Drag the bug onto the chalkboard, below the text:
+Intenta posicionar el insecto nuevamente. Arrastra el insecto a la pizarra, debajo del texto:
 
-![The bug on the start screen](images/bug-chalkboard.png)
+![El insecto en la pantalla de inicio](images/bug-chalkboard.png)
 
-Add code to make sure that the bug is positioned on the chalkboard every time your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+Añade código para asegurarte de que el insecto se posicione en la pizarra cada vez que tu `fondo cambia a`{:class="block3events"} la pantalla de `inicio`{:class="block3events"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![El objeto insecto.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -162,7 +162,7 @@ Join the blocks back together so that the code blocks are under the `when this s
 
 --- task ---
 
-**Test:** Click on the green flag to test your project. Click on the bug to move to the next backdrop. The bug should be big on the 'start' screen and small on the 'Spotlight' level.
+**Prueba:** Haz clic en la bandera verde para probar tu proyecto. Haz clic en el insecto para pasar al siguiente fondo. El insecto debería ser grande en la pantalla de 'inicio' y pequeño en el nivel de 'Spotlight'.
 
 --- collapse ---
 ---
