@@ -1,4 +1,4 @@
-## You will make
+## Lo que harás
 
 Crea un juego en el que tienes que encontrar un insecto oculto en cada nivel. El juego tendrá fondos de pantalla de 'inicio' y 'final', y un temporizador para mostrar al jugador qué tan rápido encontró los insectos.
 
