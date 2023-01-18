@@ -34,7 +34,7 @@ en el escaparate
 
 segundos tomados
 
-end
+final
 
 no decir nada
 
@@ -44,8 +44,8 @@ iniciar el cronómetro
 
 arrastra para colocar el insecto primero
 
-new level
+nuevo nivel
 
-good hiding place
+buen escondite
 
 mantener el insecto en el fondo
