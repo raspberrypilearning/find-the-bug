@@ -11,7 +11,7 @@ Agregarás un nuevo fondo como primer nivel en tu juego y ocultarás el error.
 </div>
 </div>
 
-### Add another Backdrop
+### Agrega otro fondo
 
 --- task ---
 
@@ -54,7 +54,7 @@ set size to [20] % // tiny
 
 --- /task ---
 
-### Move to the next Backdrop
+### Muévete al siguiente Fondo
 
 Cuando juegas y encuentras con éxito el insecto, el juego cambiará al siguiente fondo. Además, para iniciar el juego, harás clic en el error en la pantalla de "inicio".
 
@@ -74,13 +74,13 @@ next backdrop
 
 --- /task ---
 
-### Make the game start with the Start Screen
+### Haz que el juego comience con la pantalla de inicio
 
 --- task ---
 
-Click on the Stage pane and add this code to the **Stage**:
+Haz clic en el panel Escenario y agrega este código al **Escenario**:
 
-![The Spotlight backdrop.](images/stage-image.png)
+![El fondo Spotlight.](images/stage-image.png)
 
 ```blocks3
 when flag clicked
@@ -126,11 +126,11 @@ Para solucionar el problema, debes detener la ejecución del código cuando haga
 
 --- task ---
 
-Click on the green flag to return to the 'start' screen.
+Haz clic en la bandera verde para volver a la pantalla de 'inicio'.
 
 Haz clic en el objeto **insecto** en la lista de Objetos y arrastra los bloques lejos del bloque `al hacer clic en este objeto`{:class="block3events"}:
 
-![Breaking the script.](images/breaking-script.png)
+![Rompiendo el script.](images/breaking-script.png)
 
 --- /task ---
 
@@ -154,9 +154,9 @@ set size to [100] % // full-sized
 
 --- task ---
 
-Join the blocks back together so that the code blocks are under the `when this sprite clicked`{:class="block3events"} block again:
+Vuelve a unir los bloques para que los bloques de código estén debajo del bloque `al hacer clic en este objeto`{:class="block3events"} nuevamente:
 
-![The 'when this sprite clicked' block joined to the 'play sound' and 'next backdrop' blocks.](images/fixed-script.png)
+![El bloque "al hacer clic en este objeto" unido a los bloques "reproducir sonido" y "siguiente fondo".](images/fixed-script.png)
 
 --- /task ---
 
@@ -169,7 +169,7 @@ Join the blocks back together so that the code blocks are under the `when this s
 title: No pasa nada cuando hago clic en el insecto
 ---
 
-Did you forget to join the code back to the `when this sprite clicked`{:class="block3events"} block?
+¿Olvidaste volver a unir el código al bloque `al hacer clic en este objeto`{:class="block3events"}?
 
 --- /collapse ---
 
