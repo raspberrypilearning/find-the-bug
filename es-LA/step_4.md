@@ -11,7 +11,7 @@ Para que sea más difícil para los jugadores encontrar y hacer clic en el insec
 </div>
 </div>
 
-### Add the Parrot sprite
+### Agrega el objeto Loro (Parrot)
 
 --- task ---
 
@@ -21,7 +21,7 @@ Añade el objeto **Parrot**.
 
 --- /task ---
 
-### Animate the Parrot sprite
+### Anima el objeto Loro (Parrot)
 
 En el proyecto [Tomar el autobús](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}, usaste un bucle `repetir`{:class="block3control"}.
 
