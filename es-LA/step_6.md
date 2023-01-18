@@ -14,7 +14,7 @@ Crearás una pantalla 'final' para mostrar la cantidad de segundos que le ha tom
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 A veces, tan solo ganar un juego no es suficiente. A los jugadores les gusta saber cómo les fue contra otros jugadores o contra ellos mismos. ¿Puedes pensar en un juego que te muestre lo bien que lo hiciste?</p>
 
-### Add another backdrop
+### Agrega otro fondo
 
 --- task ---
 
@@ -26,7 +26,7 @@ Agrega el fondo **Chalkboard** de la categoría **Interiores**.
 
 --- /task ---
 
-### Edit the backdrop
+### Edita el Fondo
 
 --- task ---
 
@@ -62,9 +62,9 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Add a timer
+### Agrega un temporizador
 
-¿Cuánto tiempo te lleva encontrar y hacer clic en los insectos? Scratch tiene un cronómetro ``{:class="block3sensing"} que puedes usar para averiguarlo.
+¿Cuánto tiempo te lleva encontrar y hacer clic en los insectos? Scratch tiene un `cronómetro`{:class="block3sensing"} que puedes usar para averiguarlo.
 
 --- task ---
 
@@ -106,7 +106,7 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Stop the timer
+### Detén el temporizador
 
 Si juegas el juego por segunda vez, el `cronómetro`{:class="block3sensing"} seguirá contando.
 
