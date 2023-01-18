@@ -11,7 +11,7 @@ Elegirás un fondo para crear un segundo nivel en tu juego y hacer que el insect
 </div>
 </div>
 
-### Add another backdrop
+### Agrega otro fondo
 
 --- task ---
 
@@ -23,13 +23,13 @@ Elegirás un fondo para crear un segundo nivel en tu juego y hacer que el insect
 
 --- /task ---
 
-### Stop the code from running
+### Detén la ejecución del código
 
 --- task ---
 
 Arrastra los bloques lejos del bloque `al hacer clic en este objeto`{:class="block3events"} para evitar que se ejecuten cuando hagas clic en el insecto:
 
-![Breaking the code.](images/breaking-script.png)
+![Rompiendo el código.](images/breaking-script.png)
 
 --- /task ---
 
@@ -64,7 +64,7 @@ Posiciona el insecto en su escondite.
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block to your code:
+Agrega un bloque `ir a x: y:`{:class="block3motion"} a tu código:
 
 ![El objeto insecto.](images/bug-sprite.png)
 
@@ -82,7 +82,7 @@ set size to [20] % // try another size
 
 Vuelve a unir los bloques al bloque `al hacer clic en este objeto`{:class="block3events"} para que cuando se haga clic en el insecto, el fondo cambie al `siguiente fondo`{:class="block3looks"}:
 
-![The blocks are joined back together.](images/fixed-script.png)
+![Los bloques son unidos de nuevo.](images/fixed-script.png)
 
 --- /task ---
 
