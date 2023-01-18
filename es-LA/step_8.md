@@ -1,24 +1,24 @@
 ## Mejora tu juego
 
-If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text on the chalkboard.
+Si tienes tiempo, puedes agregar más niveles y más distracciones a tu juego. También puedes cambiar el objeto que se esconde y cambiar el texto en la pizarra.
 
 --- task ---
 
 Juega tu juego y mira qué tan rápido puedes encontrar los insectos.
 
-Is there someone else who can try your game? ¿Qué tan rápido pueden encontrar los insectos? They will not know where you have hidden them, so it might take them a bit longer!
+¿Hay alguien más que pueda probar tu juego? ¿Qué tan rápido pueden encontrar los insectos? No sabrán dónde los has escondido, ¡así que puede que les lleve un poco más de tiempo!
 
-Is there anything that you want to change?
+¿Hay algo que quieras cambiar?
 
-You could:
-- Make the parrot even more annoying
+Podrías:
+- Hacer que el loro sea aún más molesto
 - Hacer los insectos más pequeños
 - Cambiar el `efecto color`{:class="block3looks"} para camuflar el insecto en cada nivel
-- Change the font or colour of the text
+- Cambiar la fuente o el color del texto
 
 --- /task ---
 
-### Add more levels
+### Agrega más niveles
 
 --- task ---
 
@@ -34,22 +34,22 @@ go to x: [0] y: [0] // drag to position the bug first
 set [color v] effect to [50]
 ```
 
-For each level, you will need to:
-- Add a backdrop
-- Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
+Para cada nivel necesitarás:
+- Agregar un fondo
+- Hacer clic en el panel Escenario, luego en la pestaña **Fondos**, luego arrastrar el nuevo fondo a la posición antes del fondo **final**
 - Agregar un bloque `cuando el fondo cambie a`{:class="block3events"} para el nuevo fondo y añadir código para posicionar y ocultar el insecto
 
 **Consejo:** Para arrastrar el insecto a un nuevo escondite, tendrás que "romper" el código para que el fondo no cambie cuando hagas clic en el insecto para posicionarlo en un nuevo nivel.
 
 --- /task ---
 
-### Add more distractions
+### Añade más distracciones
 
 --- task ---
 
 Puedes agregar más loros o elegir otro objeto para que actúe como distracción.
 
-Here is the code that you used for the parrot:
+Aquí está el código que usaste para el loro:
 
 ```blocks3
 when flag clicked
@@ -66,7 +66,7 @@ end
 
 **Consejo:** Puedes arrastrar el código del objeto **Parrot** a otro objeto para que sea más rápido crear otro objeto de distracción.
 
-![Dragging code from the Code area to another sprite in the Sprite list.](images/drag-parrot-code.gif)
+![Arrastrar código desde el área de Código a otro objeto en la lista de objetos.](images/drag-parrot-code.gif)
 
 --- /task ---
 
