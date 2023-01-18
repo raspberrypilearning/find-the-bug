@@ -2,7 +2,7 @@
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+¡Inspira a la comunidad de la Fundación Raspberry Pi con tu proyecto!
 
 [[[share-scratch]]]
 
@@ -14,7 +14,7 @@ Para enviar tu proyecto a nuestro estudio Scratch 'Encuentra el insecto' para qu
 
 Juega estos fabulosos juegos de nuestro estudio Scratch ['Encuentra el insecto'](https://scratch.mit.edu/studios/29005236/){:target="_blank"}.
 
-Notice how the creators have added extra levels, annoying distractions or upgraded the start and end screens:
+Observa cómo los creadores agregaron niveles adicionales, distracciones molestas o actualizaron las pantallas de inicio y final:
 
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/545488112/?autostart=false" frameborder="0"></iframe>
