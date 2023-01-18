@@ -2,11 +2,11 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Give your game a 'start' screen.
+Dale a tu juego una pantalla de "inicio".
 </div>
 <div>
 
-![Texto "Encuentra el error" sobre una pizarra en el Escenario.](images/start-screen.png){:width="300px"}
+![Texto "Encuentra el insecto" sobre una pizarra en el Escenario.](images/start-screen.png){:width="300px"}
 
 </div>
 </div>
@@ -15,13 +15,13 @@ Give your game a 'start' screen.
 
 --- task ---
 
-Abre el [proyecto inicial de Encuentra el error](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
+Abre el [proyecto de inicio de Encuentra el insecto](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
 
 [[[working-offline]]]
 
 --- /task ---
 
-### Add a Backdrop
+### Agrega un fondo
 
 --- task ---
 
@@ -39,11 +39,11 @@ El **Escenario** tiene una pestaña de **Fondos** en lugar de una pestaña de **
 
 Haz clic en el panel Escenario.
 
-![The Stage pane in the bottom right corner is highlighted.](images/stage-pane.png)
+![El panel Escenario en la esquina inferior derecha está resaltado.](images/stage-pane.png)
 
 --- /task ---
 
-### Edit the Backdrop
+### Edita el Fondo
 
 --- task ---
 
@@ -57,7 +57,7 @@ Haz clic en la pestaña **Fondos** para abrir el editor de dibujo.
 
 Selecciona **backdrop1** y haz clic en el ícono **Eliminar** para eliminar el fondo **** de tu proyecto. No necesitarás el fondo **backdrop1** en este proyecto.
 
-![Backdrop1 is highlighted in the top left corner.](images/delete-backdrop1.png)
+![Backdrop1 está resaltado en la esquina superior izquierda.](images/delete-backdrop1.png)
 
 --- /task ---
 
@@ -83,7 +83,7 @@ Hemos usado la fuente **Marker** en color blanco, pero puedes **elegir** la fuen
 
 --- /task ---
 
-## Rename the Backdrop
+## Cambia el nombre del Fondo
 
 --- task ---
 
