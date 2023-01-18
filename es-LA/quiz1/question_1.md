@@ -27,11 +27,11 @@ En este juego, ¿qué fondo aparecería a continuación cuando hagas clic en el 
 
 --- choices ---
 
-- ( ) start
+- ( ) inicio
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  Debes pensar en el orden de los fondos.
 
   --- /feedback ---
 
@@ -47,15 +47,15 @@ Sí. El bloque `siguiente fondo`{:class="block3looks"} cambia al siguiente fondo
 
   --- feedback ---
 
-  The **Spotlight** backdrop is showing on the Stage. You need to think about the order of the backdrops.
+  El fondo de **Spotlight** se muestra en el escenario. Debes pensar en el orden de los fondos.
 
   --- /feedback ---
 
-- ( ) end
+- ( ) final
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  Debes pensar en el orden de los fondos.
 
   --- /feedback ---
 
