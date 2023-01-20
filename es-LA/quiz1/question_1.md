@@ -1,6 +1,6 @@
 ## Examen rápido
 
-Contesta las tres preguntas. Hay pistas para guiarte hacia la repuesta correcta.
+Contesta las tres preguntas. Hay pistas para guiarte hacia la respuesta correcta.
 
 Cuando hayas respondido a cada pregunta, haz clic en **Revisar mi respuesta**.
 
