@@ -11,6 +11,8 @@ Je voegt een nieuwe achtergrond toe als het eerste niveau in je spel en verbergt
 </div>
 </div>
 
+### Voeg nog een achtergrond toe
+
 --- task ---
 
 Voeg de **Spotlight** (schijnwerpers) achtergrond uit de categorie **Binnen** toe.
@@ -18,6 +20,8 @@ Voeg de **Spotlight** (schijnwerpers) achtergrond uit de categorie **Binnen** to
 ![Het pictogram 'Kies een achtergrond'.](images/backdrop-button.png)
 
 --- /task ---
+
+### Pas het formaat van de kever aan
 
 --- task ---
 
@@ -50,13 +54,15 @@ set size to [20] % // klein
 
 --- /task ---
 
+### Ga naar de volgende achtergrond
+
 Wanneer je het spel speelt en je de kever vindt, schakelt het spel over naar de volgende achtergrond. Ook om het spel te starten, klik je op de kever in het 'start'-scherm.
 
 Het `volgende achtergrond`{:class="block3looks"} blok schakelt over naar de volgende achtergrond in de volgorde van de lijst met achtergronden als je klikt op het **Achtergronden** tabblad voor het **Speelveld**.
 
 --- task ---
 
-Voeg een script toe aan je **kever** sprite om een `startgeluid`{:class="block3sound"} af te spelen en schakel over naar de `volgende achtergrond`{:class="block3looks"} `wanneer op deze sprite wordt geklikt`{:class="block3events"}:
+Voeg een script toe aan je **kever** sprite om een `startgeluid`{:class="block3sound"} af te spelen en schakel over naar de `volgende achtergrond`{:class="block3looks"} `wanneer op deze sprite wordt geklikt`{:class="blok3events"}:
 
 ![De kever-sprite.](images/bug-sprite.png)
 
@@ -68,7 +74,7 @@ next backdrop
 
 --- /task ---
 
-Je project moet beginnen op het 'start' scherm.
+### Laat het spel starten met het Startscherm
 
 --- task ---
 
@@ -95,9 +101,9 @@ Je zult merken dat op het 'start' scherm de kever nog code heeft om zich te vers
 
 --- task ---
 
-Klik op de **kever** in het Sprite-venster. Voeg een script toe en gebruik `maak grootte`{:class="block3looks"} van de kever wanneer je `achtergrond overschakelt naar`{:class="block3events"} het `start`{:class="block3events"} scherm:
+Klik op de **bug** in het Sprite-venster. Voeg een script toe en gebruik `maak grootte`{:class="block3looks"} van de kever wanneer je `achtergrond overschakelt naar`{:class="block3events"} het `start`{:class="block3events"} scherm:
 
-![De kever-sprite.](images/bug-sprite.png)
+![De bug-sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -106,21 +112,23 @@ set size to [100] % // volledige grootte
 
 --- /task ---
 
+### Verander de positie van de kever
+
 --- task ---
 
 Probeer de kever op het 'start'-scherm te plaatsen.
 
 Je code zorgt ervoor dat de achtergrond verandert als je op de kever klikt! Dat is niet handig als je de juiste positie van je kever wilt kiezen.
 
---- /task ---
-
 Om dat op te lossen, moet je voorkomen dat de code wordt uitgevoerd als je op de kever klikt.
+
+--- /task ---
 
 --- task ---
 
 Klik op de groene vlag om terug te keren naar het 'start'-scherm.
 
-Klik op de **kever** sprite in de Sprite-lijst en sleep de blokken weg van het `wanneer op deze sprite wordt geklikt`{:class="block3events"} blok:
+Klik op de **bug** sprite in de Sprite-lijst en sleep de blokken weg van het `wanneer op deze sprite wordt geklikt`{:class="block3events"} blok:
 
 ![Het script opbreken.](images/breaking-script.png)
 
@@ -128,13 +136,13 @@ Klik op de **kever** sprite in de Sprite-lijst en sleep de blokken weg van het `
 
 --- task ---
 
-Probeer de kever opnieuw te positioneren. Sleep de kever naar het bord, onder de tekst:
+Probeer de kever opnieuw te positioneren. Sleep de kever naar het schoolbord, onder de tekst:
 
-![](images/bug-chalkboard.png)
+![De kever op het startscherm](images/bug-chalkboard.png)
 
 Voeg code toe om ervoor te zorgen dat de kever op het bord wordt gepositioneerd telkens wanneer je `achtergrond overschakelt naar`{:class="block3events"} het `start`{:class="block3events"} scherm:
 
-![De kever-sprite.](images/bug-sprite.png)
+![De bug-sprite.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -166,5 +174,3 @@ Ben je vergeten de code terug te plaatsen onder het `wanneer op deze sprite word
 --- /collapse ---
 
 --- /task ---
-
---- save ---

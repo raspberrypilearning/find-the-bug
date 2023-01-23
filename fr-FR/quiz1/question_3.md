@@ -1,9 +1,9 @@
 --- question ---
 ---
-legend : Question 3 sur 3
+legend: Question 3 sur 3
 ---
 
-Tu as ajouté ce script au sprite **bug**:
+Tu as ajouté ce script au sprite **bug** :
 
 ![Le sprite bug.](images/bug-sprite.png)
 
@@ -30,7 +30,7 @@ Revois le script et réfléchis au sprite qui est le personnage principal du jeu
 
   --- feedback ---
 
-Le bloc `chronomètre`{:class="block3sensing"} vient du menu blocs `capteurs`{:class="block3sensing"} . Le sprite ne dit pas le mot "chronomètre". Pense également à quel sprite utilise ce code.
+Le bloc `chronomètre`{:class="block3sensing"} vient du menu blocs `capteurs`{:class="block3sensing"} . Le sprite ne dit pas le mot « chronomètre ». Pense également à quel sprite utilise ce code.
 
   --- /feedback ---
 
@@ -38,7 +38,7 @@ Le bloc `chronomètre`{:class="block3sensing"} vient du menu blocs `capteurs`{:c
 
   --- feedback ---
 
-Oui. Le bloc `chronomètre`{:class="block3sensing"} indique le temps écoulé depuis le démarrage du projet ou depuis la réinitialisation du chronomètre.
+Oui. Le bloc `chronomètre`{:class="block3sensing"} indique le temps écoulé depuis le démarrage du projet ou depuis la réinitialisation du chronomètre. Le bloc `dire`{:class="block3looks"} crée une bulle à côté du bug.
 
   --- /feedback ---
 
@@ -46,7 +46,7 @@ Oui. Le bloc `chronomètre`{:class="block3sensing"} indique le temps écoulé de
 
   --- feedback ---
 
-Le bloc `chronomètre`{:class="block3sensing"} vient du menu blocs `capteurs`{:class="block3sensing"} . Le sprite ne dit pas le mot "chronomètre".
+Le bloc `chronomètre`{:class="block3sensing"} vient du menu blocs `capteurs`{:class="block3sensing"} . Le sprite ne dit pas le mot « chronomètre ».
 
   --- /feedback ---
 

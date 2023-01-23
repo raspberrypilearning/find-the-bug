@@ -1,62 +1,43 @@
-## Verbeter je spel
-
-Als je tijd hebt, kun je meer niveaus en meer afleidingen aan je spel toevoegen. Je kunt ook de sprite die zich verstopt en de tekst op het bord veranderen.
-
-Dit zijn de blokken die je nodig hebt om een kever op een nieuw niveau te verstoppen:
-
-```blocks3
-when backdrop switches to [new level v]
-
-set size to [20] %
-
-go to x: [0] y: [0] // versleep de kever eerst naar z'n positie
-
-set [color v] effect to [50]
-```
+## Deel en speel
 
 --- task ---
 
-Voor elk niveau, moet je:
-- Een achtergrond toevoegen
-- Op het speelveld klikken, dan op het **Achtergronden** tabblad, en de nieuwe achtergrond dan naar de plaats vóór de **end** achtergrond slepen
-- Een `wanneer achtergrond verandert naar`{:class="block3events"} blok toevoegen voor de nieuwe achtergrond en code toevoegen om de kever te positioneren en te verstoppen
+Inspireer de Raspberry Pi Foundation-gemeenschap met jouw project!
 
-**Tip:** Om de kever naar een nieuwe verstopplek te slepen, moet je de code 'opbreken' zodat de achtergrond niet verandert als je op de kever klikt om een nieuwe positie te kiezen.
+[[[share-scratch]]]
+
+Om je project in te dienen bij onze 'Vind de kever' Scratch studio zodat anderen het kunnen zien, vul dan [dit formulier](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} in.
 
 --- /task ---
+
+--- no-print ---
+--- task --- 
+
+Speel deze fantastische games van ons ['Vind de kever' Scratch studio](https://scratch.mit.edu/studios/29005236/){:target="_blank"}.
+
+Merk op hoe de makers extra niveaus, vervelende afleidingen of een geüpgraded start en eind scherm hebben toegevoegd:
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/545488112/?autostart=false" frameborder="0"></iframe>
+</div>
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707645119/?autostart=false" frameborder="0"></iframe>
+</div>
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707644397/?autostart=false" frameborder="0"></iframe>
+</div>
+
+--- /task ---
+
+--- /no-print ---
 
 --- task ---
 
-Je kunt meer papegaaien of andere sprites kiezen die zorgen voor afleiding.
-
-Dit is de code die je gebruikt hebt voor de papegaai:
-```blocks3
-when flag clicked
-set rotation style [left-right v] // draai niet ondersteboven
-point in direction [35] // getal van -180 tot 180
-forever // blijf vervelend doen
-move [10] steps // het getal bepaalt de snelheid
-if on edge, bounce // blijf op het speelveld
-next costume // flapper
-change [color v] effect by [5] // probeer 11 of 50
-wait [0.25] seconds // probeer 0.1 of 0.5
-end
-```
-
-**Tip:** Je kunt de code van de **Parrot** sprite verslepen naar een andere sprite om sneller een andere afleidingssprite te maken.
-
-![Code verslepen van het werkgebied naar een andere sprite in de sprite lijst.](images/drag-parrot-code.gif)
+Je kunt ook de remixes voor het [Vind de kever startersproject](https://scratch.mit.edu/projects/582214723/remixes){:target="_blank"} bekijken om te zien wat andere makers hebben gemaakt.
 
 --- /task ---
-
---- collapse ---
----
-title: Voltooid project
----
-
-Je kunt het [voltooide project hier](https://scratch.mit.edu/projects/600272350/){:target="_blank"} bekijken.
-
---- /collapse ---
 
 --- save ---
 

@@ -4,6 +4,8 @@ op de discobal
 
 startscherm
 
+startscherm
+
 volledige grootte
 
 op het bord
@@ -32,6 +34,8 @@ in de etalage
 
 tijdsduur
 
+end
+
 zeg niets
 
 eerste niveau
@@ -41,3 +45,7 @@ start de klok
 versleep de kever eerst naar z'n positie
 
 nieuw level
+
+goede schuilplaats
+
+houd de kever op de achtergrond

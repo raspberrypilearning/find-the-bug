@@ -1,10 +1,8 @@
-## Reflectie
+## Snelle quiz
 
-Goed zo, je hebt veel geleerd! Nu is het tijd om te reflecteren - reflecteren is een belangrijk onderdeel van leren, omdat het helpt om nieuwe verbindingen in je hersenen te maken.
+Beantwoord de drie vragen. Er zijn tips om je naar het juiste antwoord te leiden.
 
-Beantwoord de drie onderstaande vragen om na te denken over wat je hebt geleerd.
-
-Zodra je elke vraag hebt beantwoord, klik je op **Verzenden**. Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
+Zodra je elke vraag hebt beantwoord, klik je op **Verzenden**.
 
 Veel plezier!
 
@@ -41,7 +39,7 @@ Welke achtergrond zou er in dit spel verschijnen als je op de kever klikt?
 
   --- feedback ---
 
-Ja. Het `volgende achtergrond`{:class="block3looks"} blok schakelt over naar de volgende achtergrond in de volgorde van de lijst met achtergronden op het **Achtergronden** tabblad voor het **speelveld**.
+Ja. Ja. Het `volgende achtergrond`{:class="block3looks"} blok schakelt over naar de volgende achtergrond in de volgorde van de lijst met achtergronden op het **Achtergronden** tabblad voor het **speelveld**.
 
 --- /feedback ---
 
