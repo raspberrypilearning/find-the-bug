@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Je spel begint met een 'start' scherm en spelers klikken op de kever om naar het eerste niveau te gaan.
+Geef je spel een 'start' scherm.
 </div>
 <div>
 
@@ -11,6 +11,8 @@ Je spel begint met een 'start' scherm en spelers klikken op de kever om naar het
 </div>
 </div>
 
+### Open het startersproject
+
 --- task ---
 
 Open het [Vind de kever startproject](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
@@ -18,6 +20,8 @@ Open het [Vind de kever startproject](https://scratch.mit.edu/projects/582214723
 [[[working-offline]]]
 
 --- /task ---
+
+### Een achtergrond toevoegen
 
 --- task ---
 
@@ -35,9 +39,11 @@ Het **Speelveld** heeft een **Achtergronden** tabblad in plaats van een **Uiterl
 
 Klik op het Speelveld.
 
-![](images/stage-pane.png)
+![Het Speelveld in de hoek rechtsonder is gemarkeerd.](images/stage-pane.png)
 
 --- /task ---
+
+### Bewerk de achtergrond
 
 --- task ---
 
@@ -51,7 +57,7 @@ Klik op het **Achtergronden** tabblad om de Teken-editor te openen.
 
 Selecteer **backdrop1** en klik op het **Verwijder** icoon om de **backdrop1** achtergrond uit je project te verwijderen. Je hebt de **backdrop1** achtergrond niet nodig in dit project.
 
-![](images/delete-backdrop1.png)
+![Achtergrond1 is gemarkeerd in de linkerbovenhoek.](images/delete-backdrop1.png)
 
 --- /task ---
 
@@ -69,13 +75,15 @@ Klik op **Zet om naar vector**. Nu kun je tekst toevoegen die je kunt verplaatse
 
 Gebruik de **Tekst** knop om de tekst `Zoek de kever` toe te voegen aan het bord:
 
-![](images/chalkboard-text.png)
+![Zoek de kever staat op het schoolbord geschreven.](images/chalkboard-text.png)
 
 We hebben het **Marker** font in het wit gebruikt, maar **kies** het lettertype en de kleur die jij wil gebruiken.
 
 **Tip:** Schakel over naar het **Selecteren** (pijl) gereedschap om je tekst te verplaatsen. Om de grootte van de tekst te wijzigen, pak je de hoek van de tekst en sleep je deze.
 
 --- /task ---
+
+## Hernoem de achtergrond
 
 --- task ---
 
@@ -86,6 +94,8 @@ Verander de naam van de achtergrond in `start`, omdat je deze later in het proje
 **Tip:** Als je namen gebruikt die logisch zijn, is het gemakkelijker om je project te begrijpen, vooral wanneer je later bij een project terugkomt.
 
 --- /task ---
+
+### Voeg de Bug Sprite toe
 
 --- task ---
 
@@ -111,5 +121,4 @@ Klik op **Kies een Sprite** en typ `bug` in het zoekvak.
 Een fout in een computerprogramma heet een <span style="color: #0faeb0">**bug**</span> (kever). Fouten vinden en verwijderen in computerprogramma's heet <span style="color: #0faeb0">**debugging**</span>. Grace Hopper is een beroemde software-engineer. Haar team heeft ooit een mot in hun computer gevonden. In hun aantekeningen staat: "Eerste echte geval van bug gevonden."
 </p>
 
---- save ---
 

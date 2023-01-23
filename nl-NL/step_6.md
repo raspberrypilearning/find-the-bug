@@ -14,6 +14,8 @@ Je gaat een 'eind' scherm maken om te laten zien hoeveel seconden de speler nodi
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Soms is alleen het verslaan van een spel niet genoeg. Spelers willen graag weten hoe ze het hebben gedaan tegen andere spelers of tegen zichzelf. Kun je een spel bedenken dat laat zien hoe goed je het hebt gedaan?</p>
 
+### Voeg nog een achtergrond toe
+
 --- task ---
 
 Voeg de **Chalkboard** (bord) achtergrond uit de categorie **Binnen** toe.
@@ -23,6 +25,8 @@ Voeg de **Chalkboard** (bord) achtergrond uit de categorie **Binnen** toe.
 **Tip:** In Scratch kun je dezelfde achtergrond meer dan één keer toevoegen.
 
 --- /task ---
+
+### Bewerk de achtergrond
 
 --- task ---
 
@@ -42,6 +46,8 @@ Verander de naam van de achtergrond in `end` (einde):
 
 --- /task ---
 
+### Positioneer de kever
+
 --- task ---
 
 Klik op de **kever** sprite en voeg code toe om de kever op het 'eind' scherm te plaatsen:
@@ -55,6 +61,8 @@ go to x: [0] y: [30] // op het bord
 ```
 
 --- /task ---
+
+### Voeg een klok toe
 
 Hoeveel tijd kost het je om de kevers te vinden en erop te klikken? Scratch heeft een `klok`{:class="block3sensing"} die je hiervoor kunt gebruiken.
 
@@ -98,6 +106,8 @@ go to x: [0] y: [30] // op het bord
 
 --- /task ---
 
+### Stop de klok
+
 Als je het spel een tweede keer speelt, blijft de `klok`{:class="block3sensing"} tellen.
 
 --- task ---
@@ -121,4 +131,3 @@ go to x: [13] y: [132] // op de discobal
 
 --- /task ---
 
---- save ---

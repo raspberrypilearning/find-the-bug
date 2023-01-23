@@ -2,7 +2,9 @@ minuscule
 
 sur la boule disco
 
-'écran de début
+écran de "début"
+
+départ
 
 pleine grandeur
 
@@ -32,6 +34,8 @@ dans la vitrine
 
 dire les secondes
 
+fin
+
 ne dis rien
 
 premier niveau
@@ -39,3 +43,9 @@ premier niveau
 démarrer le chronomètre
 
 fais glisser pour positionner le bug en premier
+
+nouveau niveau
+
+bonne cachette
+
+garde le bug à l'arrière

@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Tu choisiras un arrière-plan pour créer un deuxième niveau pour ton jeu et rendre le bug difficile à trouver. 
+Choisis un arrière-plan pour créer un deuxième niveau pour ton jeu et rendre le bug difficile à trouver. 
 </div>
 <div>
 
@@ -11,31 +11,33 @@ Tu choisiras un arrière-plan pour créer un deuxième niveau pour ton jeu et re
 </div>
 </div>
 
+### Ajouter un autre arrière-plan
+
 --- task ---
 
 **Choisir :** Choisis un arrière-plan pour ton deuxième niveau. Nous avons choisi l'arrière-plan **Urban** , mais tu peux choisir celui qui te plaît le plus.
 
-![](images/insert-urban-backdrop.png)
+![Le bug et le perroquet sur l'arrière-plan urbain.](images/insert-urban-backdrop.png)
 
 **Astuce :** N'oublie pas que les arrière-plans avec beaucoup de couleurs et de détails rendront le bug plus difficile à trouver. À quel point vas-tu rendre ton jeu difficile ?
 
 --- /task ---
 
-Pour pouvoir faire glisser ton bogue dans une nouvelle position, tu dois arrêter le code `quand ce sprite est cliqué`{:class="block3events"} .
+### Arrêter l'exécution du code
 
 --- task ---
 
-Fais glisser les blocs loin du bloc `quand ce sprite est cliqué`{:class="block3events"} pour les empêcher de s'exécuter lorsque tu cliques sur le bug :
+Fais glisser les blocs à l'écart du bloc `quand ce sprite est cliqué` pour les empêcher de s'exécuter lorsque tu cliques sur le bug :
 
-![](images/breaking-script.png)
+![Briser le code.](images/breaking-script.png)
 
 --- /task ---
 
-Ton bug doit être difficile à trouver lorsque l'arrière-plan change. Tu peux redimensionner le bug pour le rendre plus difficile à trouver.
+### Redimensionner le bug
 
 --- task ---
 
-Ajoute du code à `mettre à la taille`{:class="block3looks"} du bug pour le deuxième niveau :
+Ajoute du code à `mettre la taille`{:class="block3looks"} du bug pour le deuxième niveau :
 
 ![Le sprite bug.](images/bug-sprite.png)
 
@@ -47,6 +49,8 @@ set size to [20] % // essaye une autre taille
 **Test :** Clique sur ton nouveau script pour l'exécuter.
 
 --- /task ---
+
+### Cacher ton bug
 
 --- task ---
 
@@ -72,11 +76,13 @@ set size to [20] % // essaye une autre taille
 
 --- /task ---
 
+### Tester ton code
+
 --- task ---
 
-Joins les blocs au bloc `quand ce sprite est cliqué`{:class="block3events"} afin que lorsque le bug est cliqué, l'arrière-plan à l'`arrière-plan suivant`{:class="block3looks"} :
+Joins les blocs au bloc `quand ce sprite est cliqué`{:class="block3events"} afin que lorsque le bug est cliqué, l'arrière-plan bascule sur `l'arrière-plan suivant`{:class="block3looks"} :
 
-![](images/fixed-script.png)
+![Les blocs sont réunis.](images/fixed-script.png)
 
 --- /task ---
 
@@ -100,8 +106,6 @@ forever
 go to [back v] layer
 ```
 
-Désormais, ton insecte restera toujours à l'arrière, même si tu dois changer sa position.
+Désormais, ton bug restera toujours à l'arrière, même si tu dois changer sa position.
 
 --- /task ---
-
---- save ---

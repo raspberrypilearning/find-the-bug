@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Tu ajouteras un nouvel arrière-plan au premier niveau de ton jeu et masqueras le bug.
+Ajoute un nouvel arrière-plan au premier niveau de ton jeu et masque le bug.
 </div>
 <div>
 
@@ -11,13 +11,17 @@ Tu ajouteras un nouvel arrière-plan au premier niveau de ton jeu et masqueras l
 </div>
 </div>
 
+### Ajouter un autre arrière-plan
+
 --- task ---
 
-Ajoute le **Spotlight** de la catégorie **Music**.
+Ajoute l'arrière-plan **Spotlight** de la catégorie **Music**.
 
 ![L'icône « Choisir un arrière-plan ».](images/backdrop-button.png)
 
 --- /task ---
+
+### Redimensionner le bug
 
 --- task ---
 
@@ -50,6 +54,8 @@ set size to [20] % // minuscule
 
 --- /task ---
 
+### Passer à l'arrière-plan suivant
+
 Lorsque tu joues au jeu et que tu trouves le bug avec succès, le jeu passe à l'arrière-plan suivant. De plus, pour démarrer le jeu, tu devras cliquer sur le bug sur l'écran « début ».
 
 Le bloc `arrière-plan suivant`{:class="block3looks"} passe au prochain arrière-plan dans l'ordre dans lequel les arrière-plans sont listés lorsque tu cliques sur l'onglet **arrière-plans** pour la **scène**.
@@ -68,13 +74,13 @@ next backdrop
 
 --- /task ---
 
-Ton projet doit démarrer sur l'écran « début ».
+### Faire démarrer le jeu avec l'écran de démarrage
 
 --- task ---
 
-Clique sur le volet Scène et ajoute ce code à la **Scène**:
+Clique sur le panneau Scène et ajoute ce code à la **Scène** :
 
-![L'arrière-plan Projecteur.](images/stage-image.png)
+![L'arrière-plan Spotlight.](images/stage-image.png)
 
 ```blocks3
 when flag clicked
@@ -95,7 +101,7 @@ Tu remarqueras que sur l'écran « début », le bug aura toujours les paramè
 
 --- task ---
 
-Clique sur le sprite **bug** dans la liste Sprite. Ajoute un script à `mettre à la taille`{:class="block3looks"} du bug lorsque tu `bascules sur l'arrière-plan/0>{:class="block3events"} <code>début`{:class="block3events"} :
+Clique sur le sprite **bug** dans la liste Sprite. Ajoute un script à `mettre la taille`{:class="block3looks"} du bug lorsque tu `bascules sur l'arrière-plan`{:class="block3events"} l'écran de `début`{:class="block3events"} :
 
 ![Le sprite bug.](images/bug-sprite.png)
 
@@ -106,15 +112,17 @@ set size to [100] % // pleine grandeur
 
 --- /task ---
 
+### Changer la position du bug
+
 --- task ---
 
-Essaye de positionner le bug sur l'écran « début ».
+Essaie de positionner le bug sur l'écran « début ».
 
-Ton code fera basculer l'arrière-plan lorsque tu cliqueras sur le bug ! Cela n'est pas utile lorsque tu essaies de positionner le bogue.
-
---- /task ---
+Ton code fera basculer l'arrière-plan lorsque tu cliqueras sur le bug ! Cela n'est pas utile lorsque tu essaies de positionner le bug.
 
 Pour résoudre le problème, tu dois arrêter l'exécution du code lorsque tu cliques sur le bug.
+
+--- /task ---
 
 --- task ---
 
@@ -122,17 +130,17 @@ Clique sur le drapeau vert pour revenir à l'écran « début ».
 
 Clique sur le sprite **bug** dans la liste Sprite et fais glisser les blocs loin du bloc `quand ce sprite est cliqué`{:class="block3events"} :
 
-![Briser le script.](images/breaking-script.png)
+![Casser le script.](images/breaking-script.png)
 
 --- /task ---
 
 --- task ---
 
-Essaye à nouveau de positionner le bug. Fais glisser le bug sur le tableau, sous le texte :
+Essaie à nouveau de positionner le bug. Fais glisser le bug sur le tableau, sous le texte :
 
-![](images/bug-chalkboard.png)
+![Le bug sur l'écran de début](images/bug-chalkboard.png)
 
-Ajoute du code pour t'assurer que le bogue est positionné sur le tableau à chaque fois que ton `basculer l'arrière-plan sur`{:class="block3events"} `début`{:class="block3events"} :
+Ajoute du code pour t'assurer que le bug est positionné sur le tableau à chaque fois que ton `basculer l'arrière-plan sur`{:class="block3events"} l'écran de `début`{:class="block3events"} :
 
 ![Le sprite bug.](images/bug-sprite.png)
 
@@ -146,9 +154,9 @@ set size to [100] % // pleine grandeur
 
 --- task ---
 
-Regroupe les blocs afin que les blocs de code soient sous le bloc `quand ce sprite est cliqué`{:class="block3events"} à nouveau :
+Joins les blocs de façon à ce que les blocs de code soient à nouveau sous le bloc `quand ce sprite est cliqué`{:class="block3events"} :
 
-![Le bloc « quand ce sprite est cliqué » est joint aux blocs « jouer le son » et « arrière-plan suivant ».](images/fixed-script.png)
+![Le bloc "quand ce sprite est cliqué" est joint aux blocs "jouer le son" et "arrière-plan suivant".](images/fixed-script.png)
 
 --- /task ---
 
@@ -166,5 +174,3 @@ As-tu oublié de joindre le code au bloc `quand ce sprite est cliqué`{:class="b
 --- /collapse ---
 
 --- /task ---
-
---- save ---

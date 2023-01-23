@@ -1,19 +1,17 @@
-## Que faire ensuite?
+## Questionnaire rapide
 
-Bravo, tu as beaucoup appris ! Maintenant, il est temps de réfléchir — la réflexion est une partie importante de l'apprentissage, car elle aide à établir de nouvelles connexions dans ton cerveau.
+Réponds aux trois questions. Il y a des indices pour te guider vers la bonne réponse.
 
-Réponds aux trois questions ci-dessous pour réfléchir à ce que tu as appris.
+Lorsque tu as répondu à chaque question, tapes sur **Soumettre**.
 
-Lorsque tu as répondu à chaque question, tapes sur **Soumettre**. Tu seras guidé vers la bonne réponse. Tu peux faire cette activité autant de fois que tu le souhaites.
-
-Amuse-toi bien!
+Amuse-toi bien !
 
 --- question ---
 ---
-legend : Question 1 sur 3
+legend: Question 1 sur 3
 ---
 
-Dans ton jeu, tu as ajouté ce code à ton **bug** pour te déplacer dans les décors à chaque clique.
+Dans ton jeu, tu as ajouté ce code à ton **bug** pour te déplacer dans les arrières-plans à chaque clique.
 
 ```blocks3
 when this sprite clicked
@@ -21,7 +19,7 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Regarde cette image montrant un jeu « Trouver le bug » en cours de lecture.
+Regarde cette image qui montre le jeu « Trouver le bug » en cours d'exécution.
 
 ![L'éditeur Scratch avec des arrière-plans dans l'ordre début, projecteur, ville, fin ; et la scène montrant l'arrière-plan projecteur.](images/quiz1-backdrops.png)
 
@@ -41,7 +39,7 @@ Dans ce jeu, quel arrière-plan apparaîtra ensuite lorsque tu cliqueras sur le 
 
   --- feedback ---
 
-Oui. Le bloc `arrière-plan suivant`{:class="block3looks"} passe au prochain arrière-plan dans l'ordre de la liste des fonds dans l'onglet **arrière-plan** pour la **Scène**.
+Oui. Le bloc `arrière-plan suivant`{:class="block3looks"} passe à l'arrière-plan suivant dans l'ordre de la liste des arrière-plans dans l'onglet **Arrière-plans** pour la **Scène**.
 
 --- /feedback ---
 
@@ -49,7 +47,7 @@ Oui. Le bloc `arrière-plan suivant`{:class="block3looks"} passe au prochain arr
 
   --- feedback ---
 
-  L'arrière-plan **projecteur** s'affiche sur la scène. Tu dois penser à l'ordre des arrière-plans .
+  L'arrière-plan **projecteur** s'affiche sur la scène. Tu dois penser à l'ordre des arrière-plans.
 
   --- /feedback ---
 
@@ -57,7 +55,7 @@ Oui. Le bloc `arrière-plan suivant`{:class="block3looks"} passe au prochain arr
 
   --- feedback ---
 
-  Tu dois penser à l'ordre des arrière-plans .
+  Tu dois penser à l'ordre des arrière-plans.
 
   --- /feedback ---
 
