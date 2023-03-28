@@ -4,7 +4,7 @@ en la bola de discoteca
 
 pantalla de 'inicio'
 
-start
+inicio
 
 tamaño completo
 
@@ -40,7 +40,7 @@ no decir nada
 
 primer nivel
 
-iniciar el cronómetro
+inicia el cronómetro
 
 arrastra para colocar el insecto primero
 
