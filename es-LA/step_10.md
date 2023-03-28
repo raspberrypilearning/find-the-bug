@@ -1,6 +1,6 @@
 ## ¿Qué sigue?
 
-Si estás siguiendo la ruta [Introducción a Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro), puedes pasar al proyecto [Ojos tontos](https://projects.raspberrypi.org/en/projects/silly-eyes). En este proyecto, diseñarás tu propio personaje con ojos que miran el puntero del mouse cuando mueves el mouse.
+Si estás siguiendo la ruta [Introducción a Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro), puedes pasar al proyecto [Ojos tontos](https://projects.raspberrypi.org/en/projects/silly-eyes). En este proyecto, ¡diseñarás tu propio personaje con ojos que miran el puntero del mouse cuando lo mueves!
 
 --- print-only ---
 
