@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Give your game a 'start' screen.
+Δώσε στο παιχνίδι σου μια οθόνη «έναρξης».
 </div>
 <div>
 
@@ -11,7 +11,7 @@ Give your game a 'start' screen.
 </div>
 </div>
 
-### Open the starter project
+### Άνοιξε το αρχικό έργο
 
 --- task ---
 
@@ -21,7 +21,7 @@ Give your game a 'start' screen.
 
 --- /task ---
 
-### Add a Backdrop
+### Πρόσθεσε ένα Υπόβαθρο
 
 --- task ---
 
@@ -39,11 +39,11 @@ Give your game a 'start' screen.
 
 Κάνε κλικ στη Σκηνή.
 
-![The Stage pane in the bottom right corner is highlighted.](images/stage-pane.png)
+![Η Σκηνή στην κάτω δεξιά γωνία έχει επισημανθεί.](images/stage-pane.png)
 
 --- /task ---
 
-### Edit the Backdrop
+### Επεξεργάσου το Υπόβαθρο
 
 --- task ---
 
@@ -57,7 +57,7 @@ Give your game a 'start' screen.
 
 Επίλεξε **υπόβαθρο1** και κάνε κλικ στο **Διαγραφή** για να αφαιρέσεις το υπόβαθρο **υπόβαθρο1** από το έργο σου. Δεν θα χρειαστείς το υπόβαθρο **υπόβαθρο1** σε αυτό το έργο.
 
-![Backdrop1 is highlighted in the top left corner.](images/delete-backdrop1.png)
+![Το πίσω σκηνικό επισημαίνεται στην επάνω αριστερή γωνία.](images/delete-backdrop1.png)
 
 --- /task ---
 
@@ -75,7 +75,7 @@ Give your game a 'start' screen.
 
 Χρησιμοποίησε το εργαλείο **Κείμενο** για να προσθέσεις το κείμενο `Βρες το έντομο` στον πίνακα κιμωλίας:
 
-![Find the bug is written on the chalkboard.](images/chalkboard-text.png)
+![Βρες το έντομο που είναι κρυμμένο στον πίνακα.](images/chalkboard-text.png)
 
 Χρησιμοποιήσαμε τη γραμματοσειρά**San Serif** σε λευκό, αλλά **επίλεξε** τη γραμματοσειρά και το χρώμα που θέλεις να χρησιμοποιήσεις.
 
@@ -83,7 +83,7 @@ Give your game a 'start' screen.
 
 --- /task ---
 
-## Rename the Backdrop
+## Μετονόμασε το Υπόβαθρο
 
 --- task ---
 
@@ -95,7 +95,7 @@ Give your game a 'start' screen.
 
 --- /task ---
 
-### Add the Bug Sprite
+### Πρόσθεσε το Αντικείμενο του Εντόμου
 
 --- task ---
 
