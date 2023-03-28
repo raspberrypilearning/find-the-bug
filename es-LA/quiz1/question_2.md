@@ -35,7 +35,7 @@ Si cambias el número en el bloque `mover`{:class="block3motion"}, cambiarás la
 
   --- feedback ---
 
-El bloque `si toca un borde, rebotar`{:class="block3motion"} hace que el objeto rebote en el borde del Escenario. Si lo quitaras, el cohete se atascaría en el borde del escenario.
+El bloque `si toca un borde, rebotar`{:class="block3motion"} hace que el objeto rebote en el borde del escenario. Si lo quitaras, el cohete se atascaría en el borde del escenario.
 
   --- /feedback ---
 
