@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add a new backdrop as the first level in your game, and hide the bug.
+Θα προσθέσεις ένα νέο υπόβαθρο ως πρώτο επίπεδο στο παιχνίδι σου και θα κρύψεις το έντομο.
 </div>
 <div>
 
@@ -11,7 +11,7 @@ Add a new backdrop as the first level in your game, and hide the bug.
 </div>
 </div>
 
-### Add another Backdrop
+### Πρόσθεσε κι άλλο Υπόβαθρο
 
 --- task ---
 
@@ -21,7 +21,7 @@ Add a new backdrop as the first level in your game, and hide the bug.
 
 --- /task ---
 
-### Resize the bug
+### Αλλαγή μεγέθους του εντόμου
 
 --- task ---
 
@@ -54,7 +54,7 @@ set size to [20] % // tiny
 
 --- /task ---
 
-### Move to the next Backdrop
+### Πήγαινε στο επόμενο Υπόβαθρο
 
 Όταν παίζεις το παιχνίδι και βρεις με επιτυχία το έντομο, το παιχνίδι θα αλλάξει στο επόμενο υπόβαθρο. Επίσης, για να ξεκινήσεις το παιχνίδι, θα κάνεις κλικ στο έντομο στην οθόνη 'start'.
 
@@ -74,13 +74,13 @@ next backdrop
 
 --- /task ---
 
-### Make the game start with the Start Screen
+### Κάνε το παιχνίδι να ξεκινήσει με την οθόνη έναρξης Start
 
 --- task ---
 
-Click on the Stage pane and add this code to the **Stage**:
+Κάνε κλικ στο παράθυρο της Σκηνής και πρόσθεσε αυτόν τον κώδικα στη **Σκηνή**:
 
-![The Spotlight backdrop.](images/stage-image.png)
+![Το υπόβαθρο Spotlight.](images/stage-image.png)
 
 ```blocks3
 when flag clicked
@@ -91,19 +91,19 @@ switch backdrop to [start v] // 'start' screen
 
 --- task ---
 
-**Test:** Click on the green flag to test your project.
+**Δοκιμή:** Κάνε κλικ στην πράσινη σημαία για να δοκιμάσεις το έργο σου.
 
-You will notice that on the 'start' screen, the bug will still have the settings to hide in its hiding place from the first level (in this example, on the disco ball).
+Θα παρατηρήσεις ότι στην οθόνη "start", το έντομο θα εξακολουθεί να έχει τις ρυθμίσεις για να κρύβεται στην κρυψώνα του από το πρώτο επίπεδο (σε αυτό το παράδειγμα, στη μπάλα της ντίσκο).
 
-**Tip:** After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop.
+**Συμβουλή:** Μετά το τελευταίο υπόβαθρο στη λίστα, το `επόμενο υπόβαθρο`{:class="block3looks"} θα επιστρέψει στο πρώτο φόντο.
 
 --- /task ---
 
 --- task ---
 
-Click on the **bug** sprite in the Sprite list. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+Κάνε κλικ στο αντικείμενο **bug** στη λίστα αντικειμένων. Πρόσθεσε ένα script στο έντομο για να `ορίσεις το μέγεθος` του εντόμου {:class="block3looks"} όταν το `υπόβαθρο αλλάζει `{:class="block3events"} στην οθόνη `start`{:class="block3events"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![Το αντικείμενο bug.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -112,37 +112,37 @@ set size to [100] % // full-sized
 
 --- /task ---
 
-### Change the position of the bug
+### Άλλαξε τη θέση του εντόμου
 
 --- task ---
 
-Try to position the bug on the 'start' screen.
+Προσπάθησε να τοποθετήσεις το έντομο στην οθόνη "start".
 
-Your code will make the backdrop switch when you click on the bug! That is not helpful when you are trying to position the bug.
+Ο κώδικάς σου θα κάνει το υπόβαθρο να αλλάξει όταν κάνεις κλικ στο έντομο! Αυτό δεν είναι χρήσιμο όταν προσπαθείς να τοποθετήσεις το έντομο.
 
-To fix the problem, you need to stop the code from running when you click on the bug.
+Για να διορθώσεις το πρόβλημα, πρέπει να σταματήσεις την εκτέλεση του κώδικα όταν κάνεις κλικ στο έντομο.
 
 --- /task ---
 
 --- task ---
 
-Click on the green flag to return to the 'start' screen.
+Κάνε κλικ στην πράσινη σημαία για να επιστρέψεις στην αρχική οθόνη "start".
 
-Click on the **bug** sprite in the Sprite list and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
+Κάνε κλικ στο αντικείμενο **bug** στη λίστα Αντικειμένων και σύρε τα μπλοκ μακριά από το `όταν γίνει κλικ σε αυτό το αντικείμενο`{:class="block3events"}:
 
-![Breaking the script.](images/breaking-script.png)
+![Σπάζοντας το script.](images/breaking-script.png)
 
 --- /task ---
 
 --- task ---
 
-Try to position the bug again. Drag the bug onto the chalkboard, below the text:
+Προσπάθησε να τοποθετήσεις το έντομο ξανά. Σύρε το έντομο στον πίνακα κιμωλίας, κάτω από το κείμενο:
 
-![The bug on the start screen](images/bug-chalkboard.png)
+![Το έντομο στην οθόνη έναρξης start](images/bug-chalkboard.png)
 
-Add code to make sure that the bug is positioned on the chalkboard every time your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+Πρόσθεσε κώδικα για να βεβαιωθείς ότι το έντομο τοποθετείται στον πίνακα κιμωλίας κάθε φορά που το `υπόβαθρο αλλάζει στην`{:class="block3events"} οθόνη `start`{:class="block3events"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![Το αντικείμενο bug.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -154,22 +154,22 @@ set size to [100] % // full-sized
 
 --- task ---
 
-Join the blocks back together so that the code blocks are under the `when this sprite clicked`{:class="block3events"} block again:
+Σύνδεσε ξανά τα μπλοκ έτσι ώστε τα μπλοκ κώδικα να είναι κάτω από το `όταν γίνει κλικ σε αυτό το αντικείμενο `{: class = "block3events"}:
 
-![The 'when this sprite clicked' block joined to the 'play sound' and 'next backdrop' blocks.](images/fixed-script.png)
+![Το μπλοκ "όταν γίνει κλικ σε αυτό το αντικείμενο" ενώθηκε με τα μπλοκ "παίξε τον ήχο" και "επόμενο υπόβαθρο".](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your project. Click on the bug to move to the next backdrop. The bug should be big on the 'start' screen and small on the 'Spotlight' level.
+**Δοκιμή:** Κάνε κλικ στην πράσινη σημαία για να δοκιμάσεις το έργο σου. Κάνε κλικ στο έντομο για να μεταφερθείς στο επόμενο υπόβαθρο. Το έντομο θα πρέπει να είναι μεγάλο στην οθόνη "start" και μικρό στο επίπεδο "Spotlight".
 
 --- collapse ---
 ---
 title: Δεν συμβαίνει τίποτα όταν κάνω κλικ στο έντομο
 ---
 
-Did you forget to join the code back to the `when this sprite clicked`{:class="block3events"} block?
+Ξέχασες να ενώσεις τον κώδικα στο μπλοκ `όταν γίνει κλικ σε αυτό το αντικείμενο`{:class="block3events"};
 
 --- /collapse ---
 
