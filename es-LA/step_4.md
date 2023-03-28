@@ -25,7 +25,7 @@ Añade el objeto **Parrot**.
 
 En el proyecto [Tomar el autobús](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}, usaste un bucle `repetir`{:class="block3control"}.
 
-Aquí utilizarás un bucle diferente. Un bucle `por siempre`{:class="block3control"} ejecuta los bloques de código dentro de él una y otra vez. Es el bucle perfecto para un loro molesto que no para de volar y estorbar.
+Aquí utilizarás un bucle diferente. Un bucle `por siempre`{:class="block3control"} ejecuta los bloques de código dentro de él una y otra vez. Es perfecto para un loro molesto que no para de volar y estorbar.
 
 --- task ---
 
