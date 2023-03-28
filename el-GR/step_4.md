@@ -11,7 +11,7 @@
 </div>
 </div>
 
-### Add the Parrot sprite
+### Πρόσθεσε το αντικείμενο Parrot
 
 --- task ---
 
@@ -21,7 +21,7 @@
 
 --- /task ---
 
-### Animate the Parrot sprite
+### Δώσε κίνηση στο αντικείμενο Parrot
 
 Στο έργο [Πρόλαβε το λεωφορείο](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}, χρησιμοποίησες ένα βρόχο `επανάλαβε`{:class="block3control"}.
 
