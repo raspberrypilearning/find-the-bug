@@ -2,7 +2,7 @@
 
 Réponds aux trois questions. Il y a des indices pour te guider vers la bonne réponse.
 
-Lorsque tu as répondu à chaque question, tapes sur **Soumettre**.
+Lorsque tu as répondu à chaque question, tape sur **Soumettre**.
 
 Amuse-toi bien !
 
