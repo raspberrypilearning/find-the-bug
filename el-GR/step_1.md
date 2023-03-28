@@ -1,6 +1,6 @@
-## You will make
+## Θα φτιάξεις
 
-Create a game in which you have to find a hidden bug 🐞 on each level. The game will have 'start' and 'end' screen backdrops, and a timer ⌚ to show the player how quickly they found the bugs.
+Θα δημιουργήσεις ένα παιχνίδι στο οποίο πρέπει να βρεις το κρυμμένο έντομο 🐞 σε κάθε επίπεδο. Το παιχνίδι θα έχει υπόβαθρα "start" (έναρξης) και "end" (τέλους) και ένα χρονόμετρο ⌚ που θα δείχνει στον παίκτη πόσο γρήγορα εντόπισε τα έντομα.
 
 Εσύ θα:
 + Δημιουργήσεις επίπεδα για το παιχνίδι σου χρησιμοποιώντας τα μπλοκ `επόμενο υπόβαθρο`{:class="block3looks"} και `όταν το υπόβαθρο αλλάξει σε`{:class="block3events"}
@@ -8,10 +8,10 @@ Create a game in which you have to find a hidden bug 🐞 on each level. The gam
 + Χρησιμοποιήσεις την **μεταβλητή** `χρονόμετρο`{:class="block3sensing"} για να επιτρέψεις στον παίκτη να ξέρει πόσο γρήγορα βρίσκει τα έντομα
 
 --- no-print --- --- task ---
-### Play ▶️
+### Παίξε ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
-Κάντε κλικ στο έντομο για να ξεκινήσει το παιχνίδι.
+Κάνε κλικ στο έντομο για να ξεκινήσει το παιχνίδι.
 
 Προσπάθησε να βρεις το έντομο σε κάθε επίπεδο.
 
