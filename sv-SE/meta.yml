@@ -1,0 +1,40 @@
+---
+title: Hitta insekten
+hero_image: images/banner.png
+description: Skapa ett spel där du måste hitta en dold insekt på varje nivå
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-02-26"
+steps:
+  - 
+    title: Du kommer skapa
+  - 
+    title: Startskärm
+  - 
+    title: Första nivån
+    completion:
+      - engaged
+  - 
+    title: Papegojastörning
+  - 
+    title: Andra nivån
+  - 
+    title: Slutskärm
+    completion:
+      - internal
+  - 
+    title: Snabbt quiz
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - 
+    title: Uppgradera ditt spel
+  - 
+    title: Dela och spela
+  - 
+    title: Vad händer nu?
