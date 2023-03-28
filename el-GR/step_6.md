@@ -1,8 +1,8 @@
-## Τελική οθόνη
+## Τελική οθόνη (end)
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
+Θα δημιουργήσεις μια οθόνη "end" για να εμφανίσεις τον αριθμό των δευτερολέπτων που χρειάστηκε ο παίκτης για να βρει τα έντομα. 
 </div>
 <div>
 
@@ -14,19 +14,19 @@ Create an 'end' screen to show the number of seconds that it has taken the playe
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Μερικές φορές, το να νικάς ένα παιχνίδι δεν είναι αρκετό. Στους παίκτες αρέσει να γνωρίζουν πόσο καλά τα πήγαν απέναντι σε άλλους παίκτες ή στον εαυτό τους. Μπορείς να σκεφτείς ένα παιχνίδι που να σου δείχνει πόσο καλά τα κατάφερες;</p>
 
-### Add another backdrop
+### Πρόσθεσε κι άλλο υπόβαθρο
 
 --- task ---
 
 Πρόσθεσε το υπόβαθρο **Chalkboard** από την κατηγορία **Εσωτερικοί Χώροι**.
 
-![Το υπόβαθρο Chalkboard (πίνακας κιμωλίας) στη βιβλιοθήκη με τα υπόβαθρα.](images/chalkboard.png)
+![Το υπόβαθρο Chalkboard (πίνακας κιμωλίας) στη Βιβλιοθήκη με τα Υπόβαθρα.](images/chalkboard.png)
 
 **Συμβουλή:** Στο Scratch, μπορείς να προσθέσεις το ίδιο υπόβαθρο περισσότερες από μία φορές.
 
 --- /task ---
 
-### Edit the backdrop
+### Επεξεργάσου το υπόβαθρο
 
 --- task ---
 
@@ -46,7 +46,7 @@ Create an 'end' screen to show the number of seconds that it has taken the playe
 
 --- /task ---
 
-### Position the bug
+### Τοποθέτησε το έντομο
 
 --- task ---
 
@@ -62,13 +62,13 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Add a timer
+### Πρόσθεσε ένα χρονόμετρο
 
 Πόσο χρόνο χρειάστηκες για να βρεις και να κάνεις κλικ στα έντομα; Το Scratch έχει ένα `χρονόμετρο `{:class="block3sensing"} που μπορείς να χρησιμοποιήσεις για να μάθεις.
 
 --- task ---
 
-Το μπλοκ `χρονόμεντρο`{:class="block3sensing"} βρίσκεται στο μενού `Αισθητήρες`{:class="block3sensing"}. Πρόσθεσε κώδικα για να κάνεις το έντομο να `λέει`{:class="block3looks"} το `χρονόμετρο`{:class="block3sensing"} στην οθόνη "end":
+Το μπλοκ `χρονόμεντρο`{:class="block3sensing"} βρίσκεται στο μενού `Αισθητήρες`{:class="block3sensing"}. Πρόσθεσε κώδικα για να κάνεις το έντομο να `πει`{:class="block3looks"} το `χρονόμετρο`{:class="block3sensing"} στην οθόνη "end":
 
 ![Το αντικείμενο bug.](images/bug-sprite.png)
 
@@ -106,7 +106,7 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Stop the timer
+### Σταμάτησε το χρονόμετρο
 
 Εάν παίξεις το παιχνίδι δεύτερη φορά, το `χρονόμετρο`{:class="block3sensing"} θα συνεχίσει να μετράει.
 
