@@ -6,14 +6,14 @@ Si tienes tiempo, puedes agregar más niveles y más distracciones a tu juego. T
 
 Juega tu juego y mira qué tan rápido puedes encontrar los insectos.
 
-¿Hay alguien más que pueda probar tu juego? ¿Qué tan rápido pueden encontrar los insectos? No sabrán dónde los has escondido, ¡así que puede que les lleve un poco más de tiempo!
+¿Hay alguien más que pueda probarlo? ¿Qué tan rápido pueden encontrar los insectos? No sabrán dónde los has escondido, ¡así que puede que les lleve un poco más de tiempo!
 
 ¿Hay algo que quieras cambiar?
 
 Podrías:
 - Hacer que el loro sea aún más molesto
 - Hacer los insectos más pequeños
-- Cambiar el `efecto color`{:class="block3looks"} para camuflar el insecto en cada nivel
+- Cambiar el `efecto color`{:class="block3looks"} para camuflar al insecto en cada nivel
 - Cambiar la fuente o el color del texto
 
 --- /task ---
@@ -22,7 +22,7 @@ Podrías:
 
 --- task ---
 
-Estos son los bloques que necesitarás para ocultar el insecto en un nuevo nivel:
+Estos son los bloques que necesitarás para ocultar el insecto en uno nuevo:
 
 ```blocks3
 when backdrop switches to [new level v]
@@ -36,10 +36,10 @@ set [color v] effect to [50]
 
 Para cada nivel necesitarás:
 - Agregar un fondo
-- Hacer clic en el panel Escenario, luego en la pestaña **Fondos**, luego arrastrar el nuevo fondo a la posición antes del fondo **final**
+- Hacer clic en el panel escenario, luego en la pestaña **Fondos**, luego arrastrar el nuevo fondo a la posición antes del fondo **final**
 - Agregar un bloque `cuando el fondo cambie a`{:class="block3events"} para el nuevo fondo y añadir código para posicionar y ocultar el insecto
 
-**Consejo:** Para arrastrar el insecto a un nuevo escondite, tendrás que "romper" el código para que el fondo no cambie cuando hagas clic en el insecto para posicionarlo en un nuevo nivel.
+**Consejo:** Para arrastrar el insecto a un nuevo escondite, tendrás que "romper" el código para que el fondo no cambie cuando lo cliquees para posicionarlo en un nuevo nivel.
 
 --- /task ---
 
@@ -64,9 +64,9 @@ wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
-**Consejo:** Puedes arrastrar el código del objeto **Parrot** a otro objeto para que sea más rápido crear otro objeto de distracción.
+**Consejo:** Puedes arrastrar el código del objeto **Parrot** a otro para que sea más rápido crear otro de distracción.
 
-![Arrastrar código desde el área de Código a otro objeto en la lista de objetos.](images/drag-parrot-code.gif)
+![Arrastrar código desde el área de Código a otro objeto en la lista.](images/drag-parrot-code.gif)
 
 --- /task ---
 
