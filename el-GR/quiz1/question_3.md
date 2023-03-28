@@ -3,9 +3,9 @@
 legend: Ερώτηση 3 από 3
 ---
 
-Πρόσθεσες αυτό το script στο αντικείμενο **bug**:
+Πρόσθεσες αυτό το script στο αντικείμενο **έντομο**:
 
-![Το αντικείμενο bug.](images/bug-sprite.png)
+![Το αντικείμενο έντομο.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -34,11 +34,11 @@ go to x: [0] y: [30]
 
   --- /feedback ---
 
-- (x) ![Ο παπαγάλος λέει την τιμή του χρονομέτρου "4,52".](images/quiz_bug_number.png)
+- (x) ![Το έντομο λέει την τιμή του χρονομέτρου "4,52".](images/quiz_bug_number.png)
 
   --- feedback ---
 
-Ναι. Το μπλοκ `χρονόμετρο`{:class="block3sensing"} αναφέρει τον χρόνο από την έναρξη του έργου ή από τον μηδενισμό του χρονομέτρου. The `say`{:class="block3looks"} block creates a speech bubble next to bug.
+Ναι. Το μπλοκ `χρονόμετρο`{:class="block3sensing"} αναφέρει τον χρόνο από την έναρξη του έργου ή από τον μηδενισμό του χρονομέτρου. Το μπλοκ `πες`{:class="block3looks"} δημιουργεί ένα συννεφάκι ομιλίας δίπλα στο έντομο.
 
   --- /feedback ---
 
