@@ -18,7 +18,7 @@ go to x: [0] y: [30]
 
 --- choices ---
 
-- ( ) ![Un loro que dice el valor del cronómetro "4.52".](images/quiz_parrot_number.png)
+- ( ) ![Un loro que dice el valor del cronómetro "4,52".](images/quiz_parrot_number.png)
 
   --- feedback ---
 
