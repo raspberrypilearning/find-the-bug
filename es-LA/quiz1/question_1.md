@@ -39,7 +39,7 @@ En este juego, ¿qué fondo aparecería a continuación cuando hagas clic en el 
 
   --- feedback ---
 
-Sí. El bloque `siguiente fondo`{:class="block3looks"} cambia al siguiente fondo en el orden de la lista de fondos en la pestaña **Fondos** para el **Escenario**.
+Sí. El bloque `siguiente fondo`{:class="block3looks"} cambia al siguiente fondo en el orden de la lista de fondos en la pestaña **fondos** para el **escenario**.
 
 --- /feedback ---
 
