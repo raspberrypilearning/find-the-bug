@@ -2,11 +2,11 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Agregarás un nuevo fondo como primer nivel en tu juego y ocultarás el error.
+Agregarás un nuevo fondo como primer nivel en tu juego y ocultarás el insecto.
 </div>
 <div>
 
-![El fondo Spotlight con un error.](images/first-level.png){:width="300px"}
+![El fondo spotlight con un insecto.](images/first-level.png){:width="300px"}
 
 </div>
 </div>
@@ -15,17 +15,17 @@ Agregarás un nuevo fondo como primer nivel en tu juego y ocultarás el error.
 
 --- task ---
 
-Agrega el fondo **Spotlight** de la categoría **Música**.
+Agrega el fondo **spotlight** de la categoría **música**.
 
-![El icono 'Elige un fondo'.](images/backdrop-button.png)
+![El icono 'elige un fondo'.](images/backdrop-button.png)
 
 --- /task ---
 
-### Redimensiona el error
+### Redimensiona el insecto
 
 --- task ---
 
-Haz clic en el objeto **insecto** en la lista de Objetos. Añade un script cambiar el `tamaño`{:class="block3looks"} de tu insecto `cuando el fondo cambie a Spotlight`{:class="block3events"}:
+Haz clic en el objeto **insecto** en la lista de Objetos. Añade un script para cambiar el `tamaño`{:class="block3looks"} de tu insecto `cuando el fondo cambie a Spotlight`{:class="block3events"}:
 
 ![El objeto insecto.](images/bug-sprite.png)
 
@@ -40,7 +40,7 @@ set size to [20] % // tiny
 
 Haz clic en el código para cambiar el tamaño, luego arrastra tu pequeño insecto a un escondite.
 
-Añade código para posicionar tu insecto:
+Añade código para posicionarlo:
 
 ![El objeto insecto.](images/bug-sprite.png)
 
@@ -54,11 +54,11 @@ set size to [20] % // tiny
 
 --- /task ---
 
-### Muévete al siguiente Fondo
+### Muévete al siguiente fondo
 
 Cuando juegas y encuentras con éxito el insecto, el juego cambiará al siguiente fondo. Además, para iniciar el juego, harás clic en el error en la pantalla de "inicio".
 
-El bloque `siguiente fondo`{:class="block3looks"} cambia al siguiente fondo en el orden en que se enumeran los fondos cuando haces clic en la pestaña **Fondos** para el **Escenario**.
+El bloque `siguiente fondo`{:class="block3looks"} cambia al siguiente fondo en el orden en que se enumeran cuando haces clic en la pestaña **fondos** para el **escenario**.
 
 --- task ---
 
@@ -78,7 +78,7 @@ next backdrop
 
 --- task ---
 
-Haz clic en el panel Escenario y agrega este código al **Escenario**:
+Haz clic en el panel escenario y agrega este código al **escenario**:
 
 ![El fondo Spotlight.](images/stage-image.png)
 
@@ -93,17 +93,17 @@ switch backdrop to [start v] // 'start' screen
 
 **Prueba:** Haz clic en la bandera verde para probar tu proyecto.
 
-Notarás que en la pantalla de 'inicio', el error aún tendrá la configuración para esconderse en su escondite del primer nivel (en este ejemplo, en la bola de discoteca).
+Notarás que en la pantalla de 'inicio', el insecto aún tendrá la configuración para esconderse en su escondite del primer nivel (en este ejemplo, en la bola de discoteca).
 
-**Consejo:** Después del último fondo de la lista, `siguiente fondo`{:class="block3looks"} volverá al primer fondo.
+**Consejo:** Después del último fondo de la lista, `siguiente fondo`{:class="block3looks"} volverá al primero.
 
 --- /task ---
 
 --- task ---
 
-Haz clic en el objeto **error** en la lista de Objetos. Añade un script para `fijar el tamaño`{:class="block3looks"} del error cuando tu `fondo cambia a`{:class="block3events"} la pantalla de `inicio`{:class="block3events"}:
+Haz clic en el objeto **insecto** en la lista de objetos. Añade un script para `fijar el tamaño`{:class="block3looks"} cuando tu `fondo cambia a`{:class="block3events"} la pantalla de `inicio`{:class="block3events"}:
 
-![El objeto error.](images/bug-sprite.png)
+![El objeto insecto.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -112,13 +112,13 @@ set size to [100] % // full-sized
 
 --- /task ---
 
-### Cambia la posición del insecto
+### Cambia su posición
 
 --- task ---
 
-Intenta colocar el insecto en la pantalla de 'inicio'.
+Intenta colocarlo en la pantalla de 'inicio'.
 
-¡Tu código hará que el fondo cambie cuando hagas clic en el insecto! Eso no es útil cuando intentas posicionar el insecto.
+¡Tu código hará que el fondo cambie cuando hagas clic en el insecto! Eso no es útil cuando intentas posicionarlo.
 
 Para solucionar el problema, debes detener la ejecución del código cuando hagas clic en el insecto.
 
@@ -128,7 +128,7 @@ Para solucionar el problema, debes detener la ejecución del código cuando haga
 
 Haz clic en la bandera verde para volver a la pantalla de 'inicio'.
 
-Haz clic en el objeto **insecto** en la lista de Objetos y arrastra los bloques lejos del bloque `al hacer clic en este objeto`{:class="block3events"}:
+Haz clic en el objeto **insecto** en la lista de objetos y arrastra los bloques lejos del bloque `al hacer clic en este objeto`{:class="block3events"}:
 
 ![Rompiendo el script.](images/breaking-script.png)
 
@@ -136,11 +136,11 @@ Haz clic en el objeto **insecto** en la lista de Objetos y arrastra los bloques 
 
 --- task ---
 
-Intenta posicionar el insecto nuevamente. Arrastra el insecto a la pizarra, debajo del texto:
+Intenta posicionar el insecto nuevamente. Arrástralo a la pizarra, debajo del texto:
 
 ![El insecto en la pantalla de inicio](images/bug-chalkboard.png)
 
-Añade código para asegurarte de que el insecto se posicione en la pizarra cada vez que tu `fondo cambia a`{:class="block3events"} la pantalla de `inicio`{:class="block3events"}:
+Añade código para asegurarte de que se posicione en la pizarra cada vez que tu `fondo cambia a`{:class="block3events"} la pantalla de `inicio`{:class="block3events"}:
 
 ![El objeto insecto.](images/bug-sprite.png)
 
@@ -154,15 +154,15 @@ set size to [100] % // full-sized
 
 --- task ---
 
-Vuelve a unir los bloques para que los bloques de código estén debajo del bloque `al hacer clic en este objeto`{:class="block3events"} nuevamente:
+Vuelve a unir los bloques para que los de código estén debajo del bloque `al hacer clic en este objeto`{:class="block3events"} nuevamente:
 
-![El bloque "al hacer clic en este objeto" unido a los bloques "reproducir sonido" y "siguiente fondo".](images/fixed-script.png)
+![El bloque 'al hacer clic en este objeto' unido a los bloques 'reproducir sonido' y 'siguiente fondo'.](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**Prueba:** Haz clic en la bandera verde para probar tu proyecto. Haz clic en el insecto para pasar al siguiente fondo. El insecto debería ser grande en la pantalla de 'inicio' y pequeño en el nivel de 'Spotlight'.
+**Prueba:** Haz clic en la bandera verde para probar tu proyecto. Haz clic en el insecto para pasar al siguiente fondo. Debería ser grande en la pantalla de 'inicio' y pequeño en el nivel de 'Spotlight'.
 
 --- collapse ---
 ---
