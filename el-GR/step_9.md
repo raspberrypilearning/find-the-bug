@@ -1,20 +1,20 @@
-## Share and play
+## Μοίρασου και παίξε
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Δώσε έμπνευση στην κοινότητα του Raspberry Pi Foundation με το έργο σου!
 
 [[[share-scratch]]]
 
-To submit your project to our 'Find the bug' Scratch studio for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+Για να υποβάλεις το έργο σου στο Scratch studio 'Find the bug' για να το δουν κι άλλα άτομα, συμπλήρωσε [αυτήν τη φόρμα](https://form.raspberrypi.org/f/community-project-submissions){:target="_ blank"}.
 
 --- /task ---
 
 --- no-print --- --- task ---
 
-Play these fabulous games from our ['Find the bug' Scratch studio](https://scratch.mit.edu/studios/29005236/){:target="_blank"}.
+Παίξε αυτά τα υπέροχα παιχνίδια από το ['Find the bug' Scratch studio](https://scratch.mit.edu/studios/29005236/){:target="_blank"}.
 
-Notice how the creators have added extra levels, annoying distractions or upgraded the start and end screens:
+Παρατήρησε πώς οι δημιουργοί έχουν προσθέσει επιπλέον επίπεδα, ενοχλητικούς περισπασμούς ή έχουν αναβαθμίσει τις οθόνες έναρξης και τέλους:
 
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/545488112/?autostart=false" frameborder="0"></iframe>
@@ -34,7 +34,7 @@ Notice how the creators have added extra levels, annoying distractions or upgrad
 
 --- task ---
 
-You can also look at the remixes for the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/remixes){:target="_blank"} to see what other creators have made.
+Μπορείς επίσης να δεις τα remixes για το [Βρες το έντομο αρχικό έργο](https://scratch.mit.edu/projects/582214723/remixes){:target="_blank"} για να δεις τι έχουν φτιάξει άλλοι δημιουργοί.
 
 --- /task ---
 
