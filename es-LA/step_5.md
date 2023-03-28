@@ -15,7 +15,7 @@ Elegirás un fondo para crear un segundo nivel en tu juego y hacer que el insect
 
 --- task ---
 
-**Elige:** Elige un fondo para tu segundo nivel. Hemos elegido el fondo **Urban**, pero puedes elegir el que más te guste.
+**Elige:** Elige un fondo para tu segundo nivel. Hemos elegido **Urban**, pero puedes elegir el que más te guste.
 
 ![El insecto y el loro en un fondo urbano.](images/insert-urban-backdrop.png)
 
@@ -54,7 +54,7 @@ set size to [20] % // try another size
 
 --- task ---
 
-Arrastra tu insecto en el escenario a un buen escondite para este nivel.
+Arrástralo en el escenario a un buen escondite para este nivel.
 
 ![El insecto escondido en el escaparate de la tienda en medio del fondo.](images/hidden-urban-backdrop.png)
 
@@ -80,9 +80,9 @@ set size to [20] % // try another size
 
 --- task ---
 
-Vuelve a unir los bloques al bloque `al hacer clic en este objeto`{:class="block3events"} para que cuando se haga clic en el insecto, el fondo cambie al `siguiente fondo`{:class="block3looks"}:
+Vuelve a unir los bloques al bloque `al hacer clic en este objeto`{:class="block3events"} para que cuando se haga clic en el insecto, se cambie al `siguiente fondo`{:class="block3looks"}:
 
-![Los bloques son unidos de nuevo.](images/fixed-script.png)
+![Los bloques están unidos de nuevo.](images/fixed-script.png)
 
 --- /task ---
 
@@ -96,7 +96,7 @@ Tu insecto puede estar frente al loro ahora.
 
 --- task ---
 
-Añade un script para asegurarte de que tu insecto esté siempre `atrás`{:class="block3looks"}:
+Añade un script para asegurarte de que esté siempre `atrás`{:class="block3looks"}:
 
 ![El objeto insecto.](images/bug-sprite.png)
 
