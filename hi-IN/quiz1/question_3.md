@@ -46,7 +46,7 @@ Yes. The `timer`{:class="block3sensing"} block reports the time since the projec
 
   --- feedback ---
 
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer".
+`Sensing`{:class="block3sensing"} ब्लॉक मेन्यू से `timer`{:class="block3sensing"} खंड आता है। स्प्राइट "टाइमर" शब्द नहीं कहता है।
 
   --- /feedback ---
 
