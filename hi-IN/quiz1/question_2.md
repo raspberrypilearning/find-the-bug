@@ -1,13 +1,13 @@
 --- question ---
 ---
-legend: Question 2 of 3
+legend: तीन में से दूसरा प्रश्न
 ---
 
-You used a `forever`{:class="block3control"} loop to make the **Parrot** sprite fly around in an annoying way.
+आपने **Parrot** स्प्राइट को चारों ओर परेशान करने के तरीके से उड़ने के लिए `forever`{:class="block3control"} लूप का उपयोग किया।
 
-We have tried to add another distraction sprite, but it just moves once when we click on the green flag and then stops. How can we fix it?
+हमने एक और ध्यान भटकाने वाले स्प्राइट जोड़ने की कोशिश की है, लेकिन यह सिर्फ एक बार हिलता है जब हम हरे झंडे पर क्लिक करते हैं और फिर रुक जाता है। हम इसे कैसे ठीक कर सकते हैं?
 
-![The Rocket sprite.](images/rocket-sprite.png)
+![Rocket स्प्राइट।](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -23,11 +23,11 @@ end
 
 --- choices ---
 
-- ( ) Change the number in the `move`{:class="block3motion"} block
+- ( ) `move`{:class="block3motion"} ब्लॉक में संख्या बदलें
 
   --- feedback ---
 
-If you change the number in the `move`{:class="block3motion"} block, you will change how far the sprite moves when the green flag is clicked, but this change will not make the rocket keep moving.
+अगर आप `move`{:class="block3motion"} खंड में नंबर बदलते हैं, तो हरे झंडे को क्लिक करने पर आप यह बदल देंगे कि स्प्राइट कितनी दूर तक जाता है, लेकिन यह बदलाव रॉकेट को गतिमान नहीं बनाएगा। .
 
   --- /feedback ---
 
@@ -39,7 +39,7 @@ The `if on edge, bounce`{:class="block3motion"} block makes the sprite bounce of
 
   --- /feedback ---
 
-- ( ) Add another `forever`{:class="block3control"} block
+- ( ) एक और `forever`{:class="block3control"} ब्लॉक जोड़ें।
 
 --- feedback ---
 
@@ -47,11 +47,11 @@ A script can only have one `forever`{:class="block3control"} block. Did you noti
 
 --- /feedback ---
 
-- (x) Drag the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop
+- (x) `मूव`{:class="block3motion"} ब्लॉक को `फॉरएवर`{:class="block3control"} लूप के अंदर लाए
 
   --- feedback ---
 
-  Yes! The sprite only moves once. If you move the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop, the sprite will keep moving until you stop your project.
+  Yes! स्प्राइट केवल एक बार चलता है। यदि आप `move`{:class="block3motion"} ब्लॉक को `forever`{:class="block3control"} लूप के अंदर ले जाते हैं, तो स्प्राइट तब तक चलता रहेगा जब तक आप अपना प्रोजेक्ट बंद नहीं कर देते।
 
   --- /feedback ---
 
