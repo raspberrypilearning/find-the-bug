@@ -1,28 +1,28 @@
-## Upgrade your game
+## Ulepsz swoją grę
 
-If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text on the chalkboard.
+Jeśli masz czas, możesz dodać więcej poziomów i więcej rozpraszaczy do swojej gry. Możesz także zmienić ukrywającego się duszka oraz zmienić tekst napisany na tablicy.
 
 --- task ---
 
-Play your game and see how quickly you can find the bugs.
+Zagraj w swoją grę i zobacz, jak szybko możesz znaleźć robaki.
 
-Is there someone else who can try your game? How fast can they find the bugs? They will not know where you have hidden them, so it might take them a bit longer!
+Czy masz w pobliżu osoby, które mogłoby wypróbować Twoją grę? Jak szybko będą w stanie znaleźć robaki? Nie będą wiedzieć, gdzie są schowane, więc może im to zająć trochę więcej czasu!
 
-Is there anything that you want to change?
+Czy jest coś, co chcesz zmienić?
 
-You could:
-- Make the parrot even more annoying
-- Make the bugs smaller
-- Change the `color effect`{:class="block3looks"} to camouflage the bug on each level
-- Change the font or colour of the text
+Możesz:
+- Sprawić, aby papuga była jeszcze bardziej irytująca
+- Zmniejszyć robaki
+- Zmienić `efekt koloru`{:class="block3looks"}, aby zakamuflować robaka na każdym poziomie
+- Zmienić czcionkę lub kolor tekstu
 
 --- /task ---
 
-### Add more levels
+### Dodaj więcej poziomów
 
 --- task ---
 
-Here are the blocks that you will need to hide the bug on a new level:
+Oto bloki, których będziesz potrzebować, aby ukryć robaka na nowym poziomie:
 
 ```blocks3
 when backdrop switches to [new level v]
@@ -34,22 +34,22 @@ go to x: [0] y: [0] // drag to position the bug first
 set [color v] effect to [50]
 ```
 
-For each level, you will need to:
-- Add a backdrop
-- Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
-- Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug
+Dla każdego poziomu musisz:
+- Dodać tło
+- Kliknąć na panel Sceny, potem zakładkę **Tła**, a następnie przeciągnąć nowe tło na miejsce przed tłem **koniec**
+- Dodać blok `kiedy tło zmieni się na`{:class="block3events"} dla nowego tła oraz dodać kod, aby umieścić i ukryć robaka
 
-**Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the backdrop does not switch when you click on the bug to position it for a new level.
+**Wskazówka:** Aby przeciągnąć robaka do nowej kryjówki, należy „złamać” kod, aby tło nie zmieniło się po kliknięciu robaka.
 
 --- /task ---
 
-### Add more distractions
+### Dodaj więcej elementów rozpraszających uwagę
 
 --- task ---
 
-You could add more parrots or choose another sprite to act as a distraction.
+Możesz dodać więcej papug lub wybrać innego duszka, który będzie odwracał uwagę.
 
-Here is the code that you used for the parrot:
+Oto kod, którego użyliśmy dla papugi:
 
 ```blocks3
 when flag clicked
@@ -64,17 +64,17 @@ wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
-**Tip:** You can drag the **Parrot** sprite's code to another sprite to make it faster to create another distraction sprite.
+**Wskazówka:** Możesz przeciągnąć kod duszka **Parrot** na innego duszka, aby przyspieszyć tworzenie kolejnego duszka rozpraszającego.
 
-![Dragging code from the Code area to another sprite in the Sprite list.](images/drag-parrot-code.gif)
+![Przeciągnięcie kodu z obszaru Skrypt do innego duszka na liście duszków.](images/drag-parrot-code.gif)
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+title: Ukończony projekt
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+Tutaj możesz zobaczyć [ukończony projekt](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
 
 --- /collapse ---
