@@ -75,6 +75,6 @@ end
 title: Proyecto terminado
 ---
 
-Puedes ver el [proyecto terminado aquí](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+Puedes ver el [proyecto terminado aquí](https://scratch.mit.edu/projects/595182523/){:target="_blank"}.
 
 --- /collapse ---
