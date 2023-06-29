@@ -3,7 +3,7 @@
 legend: Pytanie 3 z 3
 ---
 
-Dodałeś ten skrypt do duszka **robaka**:
+Dodałaś/dodałeś ten skrypt do duszka **robaka**:
 
 ![Duszek robaka.](images/bug-sprite.png)
 
@@ -30,7 +30,7 @@ Przyjrzyj się jeszcze raz skryptowi i zastanów się, który duszek jest głów
 
   --- feedback ---
 
-Blok `stoper`{:class="block3sensing"} znajduje się w menu bloków `Czujniki`{:class="block3sensing"}. Duszek nie wypowiada słowa „stoper”. Zastanów się również, który duszek używa tego kodu.
+Blok `stoper`{:class="block3sensing"} znajduje się w sekcji bloków `Czujniki`{:class="block3sensing"}. Duszek nie wypowiada słowa „stoper”. Zastanów się również, który duszek wykonuje ten kod.
 
   --- /feedback ---
 
@@ -38,7 +38,7 @@ Blok `stoper`{:class="block3sensing"} znajduje się w menu bloków `Czujniki`{:c
 
   --- feedback ---
 
-Tak. Blok `stoper`{:class="block3sensing"} podaje czas od rozpoczęcia projektu lub od zresetowania stopera. The `say`{:class="block3looks"} block creates a speech bubble next to bug.
+Tak. Blok `stoper`{:class="block3sensing"} podaje czas od uruchomienia projektu lub od zresetowania stopera. Blok `powiedz`{:class="block3looks"} tworzy dymek obok robaka.
 
   --- /feedback ---
 
@@ -46,7 +46,7 @@ Tak. Blok `stoper`{:class="block3sensing"} podaje czas od rozpoczęcia projektu 
 
   --- feedback ---
 
-Blok `stoper`{:class="block3sensing"} znajduje się w menu bloków `Czujniki`{:class="block3sensing"}. Duszek nie wypowiada słowa „stoper”.
+Blok `stoper`{:class="block3sensing"} znajduje się w sekcji bloków `Czujniki`{:class="block3sensing"}. Duszek nie wypowiada słowa „stoper”.
 
   --- /feedback ---
 
