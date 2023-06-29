@@ -3,7 +3,7 @@
 legend: Pytanie 2 z 3
 ---
 
-Użyłeś pętli `zawsze`{:class="block3control"}, aby duszek **Parrot** latał w irytujący sposób.
+Użyłaś/użyłeś pętli `zawsze`{:class="block3control"}, aby duszek **Parrot** latał w irytujący sposób.
 
 Próbowaliśmy dodać kolejnego rozpraszającego duszka, ale porusza się on tylko raz, gdy klikniemy zieloną flagę, a potem się zatrzymuje. Jak możemy to naprawić?
 
@@ -27,15 +27,15 @@ end
 
   --- feedback ---
 
-Jeśli zmienisz liczbę w bloku `przesuń o`{:class="block3motion"} to zmienisz długość ruchu duszka po kliknięciu zielonej flagi, ale ta zmiana nie sprawi, że rakieta będzie się poruszała.
+Jeśli zmienisz liczbę w bloku `przesuń o`{:class="block3motion"} to zmienisz długość ruchu duszka po kliknięciu zielonej flagi, ale ta zmiana nie sprawi, że rakieta poruszy się więcej niż raz.
 
   --- /feedback ---
 
-- ( ) Usuń blok `jeśli na brzegu, odbij się`{:class="block3motion"}
+- ( ) Usuń blok `jeżeli na brzegu, odbij się`{:class="block3motion"}
 
   --- feedback ---
 
-Blok `jeśli na brzegu, odbij się`{:class="block3motion"} powoduje, że duszek odbija się od krawędzi Sceny. Jeśli go usuniesz, rakieta utknie na brzegu Sceny.
+Blok `jeżeli na brzegu, odbij się`{:class="block3motion"} powoduje, że duszek odbija się od krawędzi sceny. Jeśli go usuniesz, rakieta utknie na brzegu sceny.
 
   --- /feedback ---
 
@@ -43,7 +43,7 @@ Blok `jeśli na brzegu, odbij się`{:class="block3motion"} powoduje, że duszek 
 
 --- feedback ---
 
-Skrypt może mieć tylko jeden blok `zawsze`{:class="block3control"}. Czy zauważyłeś, że nie możesz dodać bloku pod blokiem `zawsze`{:class="block3control"}?
+Skrypt może mieć tylko jeden blok `zawsze`{:class="block3control"}. Czy zauważyłaś/zauważyłeś, że nie możesz dodać bloku pod blokiem `zawsze`{:class="block3control"}?
 
 --- /feedback ---
 
@@ -51,7 +51,7 @@ Skrypt może mieć tylko jeden blok `zawsze`{:class="block3control"}. Czy zauwa�
 
   --- feedback ---
 
-  Tak! Duszek porusza się tylko raz. Jeśli umieścisz blok `przesuń o`{:class="block3motion"} wewnątrz pętli `zawsze`{:class="block3control"}, duszek będzie się poruszał, dopóki nie zatrzymasz projektu.
+  Tak! Duszek porusza się tylko raz. Jeśli umieścisz blok `przesuń o`{:class="block3motion"} wewnątrz pętli `zawsze`{:class="block3control"}, duszek będzie się poruszał, dopóki nie zatrzymasz skryptu.
 
   --- /feedback ---
 
