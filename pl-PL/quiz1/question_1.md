@@ -1,17 +1,17 @@
-## Quick quiz
+## Szybki quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Odpowiedz na trzy pytania. Do pytań dołączone są wskazówki, które naprowadzą Cię na poprawną odpowiedź.
 
-When you have answered each question, click on **Check my answer**.
+Po udzieleniu odpowiedzi na każde pytanie kliknij przycisk **Sprawdź moją odpowiedź**.
 
-Have fun!
+Miłej zabawy!
 
 --- question ---
 ---
 legend: Pytanie 1 z 3
 ---
 
-In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
+Do swojej gry dodałaś/dodałeś ten kod do **robaka** aby tło zmieniało się za każdym razem, gdy robak został kliknięty.
 
 ```blocks3
 when this sprite clicked
@@ -19,11 +19,11 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Look at this image showing a 'Find the bug' game being played.
+Spójrz na ten obrazek przedstawiający rozgrywkę gry „Znajdź robaka”.
 
-![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
+![Edytor Scratch z tłami w kolejności start, Spotlight, Urban, koniec; oraz scena przedstawiająca tło Spotlight.](images/quiz1-backdrops.png)
 
-In this game, which backdrop would appear next when you click on the bug?
+Jakie tło pojawi się w tej grze po kliknięciu robaka?
 
 --- choices ---
 
@@ -39,7 +39,7 @@ In this game, which backdrop would appear next when you click on the bug?
 
   --- feedback ---
 
-Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
+Tak. Blok `następne tło`{:class="block3looks"} przełącza tło na następne, zgodnie z kolejnością, w jakiej tła są wymienione w zakładce **Tła** dla **sceny**.
 
 --- /feedback ---
 
