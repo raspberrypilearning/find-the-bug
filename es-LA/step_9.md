@@ -1,62 +1,44 @@
-## Mejora tu juego
-
-Si tienes tiempo, puedes agregar más niveles y más distracciones a tu juego. También puedes cambiar el objeto que se esconde y cambiar el texto en la pizarra.
-
-Estos son los bloques que necesitarás para ocultar el insecto en un nuevo nivel:
-
-```blocks3
-when backdrop switches to [nuevo nivel v]
-
-set size to [20] %
-
-go to x: [0] y: [0] // arrastra para colocar el insecto primero
-
-set [color v] effect to [50]
-```
+## Comparte y juega
 
 --- task ---
 
-Para cada nivel necesitarás:
-- Agregar un fondo
-- Hacer clic en el panel Escenario, luego en la pestaña **Fondos**, luego arrastrar el nuevo fondo a la posición antes del fondo **final**
-- Agregar un bloque `cuando el fondo cambie a`{:class="block3events"} para el nuevo fondo y añadir código para posicionar y ocultar el insecto
+¡Inspira a la comunidad de la Fundación Raspberry Pi con tu proyecto!
 
-**Consejo:** Para arrastrar el insecto a un nuevo escondite, tendrás que "romper" el código para que el fondo no cambie cuando hagas clic en el insecto para posicionarlo en un nuevo nivel.
+[[[share-scratch]]]
+
+Para enviar tu proyecto a nuestro estudio Scratch 'Encuentra el insecto' para que otras personas lo vean, por favor completa [este formulario](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---
+
+--- no-print --- 
 
 --- task ---
 
-Puedes agregar más loros o elegir otro objeto para que actúe como distracción.
+Juega estos fabulosos juegos de nuestro estudio Scratch ['Encuentra el insecto'](https://scratch.mit.edu/studios/29005236/){:target="_blank"}.
 
-Aquí está el código que usaste para el loro:
-```blocks3
-when flag clicked
-set rotation style [left-right v] // no va boca abajo
-point in direction [35] // número de -180 a 180
-forever // sigue siendo molesto
-move [10] steps // el número controla la velocidad
-if on edge, bounce // permanecer en el Escenario
-next costume // aletear
-change [color v] effect by [5] // prueba 11 o 50
-wait [0.25] seconds // prueba 0.1 o 0.5
-end
-```
+Observa cómo los creadores agregaron niveles adicionales, distracciones molestas o actualizaron las pantallas de inicio y final:
 
-**Consejo:** Puedes arrastrar el código del objeto **Parrot** a otro objeto para que sea más rápido crear otro objeto de distracción.
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/545488112/?autostart=false" frameborder="0"></iframe>
+</div>
 
-![Arrastrar código desde el área de Código a otro objeto en la lista de objetos.](images/drag-parrot-code.gif)
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707645119/?autostart=false" frameborder="0"></iframe>
+</div>
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707644397/?autostart=false" frameborder="0"></iframe>
+</div>
 
 --- /task ---
 
---- collapse ---
----
-title: Proyecto terminado
----
+--- /no-print ---
 
-Puedes ver el [proyecto completo aquí](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+--- task ---
 
---- /collapse ---
+También puede ver los remixes del [Proyecto inicial Encuentra el insecto](https://scratch.mit.edu/projects/582214723/remixes){:target="_blank"} para ver qué han hecho otros creadores.
+
+--- /task ---
 
 --- save ---
 

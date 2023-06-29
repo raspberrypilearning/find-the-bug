@@ -18,7 +18,7 @@ go to x: [0] y: [30]
 
 --- choices ---
 
-- ( ) ![Un loro que dice el valor del cronómetro "4.52".](images/quiz_parrot_number.png)
+- ( ) ![Un loro que dice el valor del cronómetro "4,52".](images/quiz_parrot_number.png)
 
   --- feedback ---
 
@@ -38,7 +38,7 @@ El bloque `cronómetro`{:class="block3sensing"} viene del menú de bloques `Sens
 
   --- feedback ---
 
-Sí. El `cronómetro`{:class="block3sensing"} informa el tiempo desde que comenzó el proyecto, o desde que se reinició.
+Sí. El `cronómetro`{:class="block3sensing"} informa el tiempo desde que comenzó el proyecto, o desde que se reinició. El bloque `decir`{:class="block3looks"} crea una burbuja de diálogo junto al insecto.
 
   --- /feedback ---
 

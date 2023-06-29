@@ -2,42 +2,48 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Tu juego comenzará con una pantalla de 'inicio', y los jugadores harán clic en el insecto para ir al primer nivel.
+Dale a tu juego una pantalla de "inicio".
 </div>
 <div>
 
-![Texto "Encuentra el insecto" sobre una pizarra en el Escenario.](images/start-screen.png){:width="300px"}
+![Texto "Encuentra el insecto" sobre una pizarra en el escenario.](images/start-screen.png){:width="300px"}
 
 </div>
 </div>
+
+### Abre el proyecto inicial
 
 --- task ---
 
-Abre el [proyecto de inicio de Encuentra el insecto](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
+Abre el [proyecto de inicio de encuentra el insecto](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
 
 [[[working-offline]]]
 
 --- /task ---
 
+### Agrega un fondo
+
 --- task ---
 
 Agrega el fondo **Chalkboard** de la categoría **Interiores**.
 
-![El icono 'Elige un fondo'.](images/backdrop-button.png)
+![El icono 'elige un fondo'.](images/backdrop-button.png)
 
 ![El fondo de pizarra en la biblioteca de fondos.](images/chalkboard.png)
 
 --- /task ---
 
-El **Escenario** tiene una pestaña de **Fondos** en lugar de una pestaña de **Disfraces**. Aquí es donde puedes crear imágenes para el **Fondo**.
+El **escenario** tiene una pestaña de **fondos** en lugar de una pestaña de **disfraces**. Aquí es donde puedes crear imágenes para el **fondo**.
 
 --- task ---
 
 Haz clic en el panel Escenario.
 
-![](images/stage-pane.png)
+![El panel Escenario en la esquina inferior derecha está resaltado.](images/stage-pane.png)
 
 --- /task ---
+
+### Edita el fondo
 
 --- task ---
 
@@ -51,7 +57,7 @@ Haz clic en la pestaña **Fondos** para abrir el editor de dibujo.
 
 Selecciona **backdrop1** y haz clic en el ícono **Eliminar** para eliminar el fondo **backdrop1** de tu proyecto. No necesitarás el fondo **backdrop1** en este proyecto.
 
-![](images/delete-backdrop1.png)
+![Backdrop1 está resaltado en la esquina superior izquierda.](images/delete-backdrop1.png)
 
 --- /task ---
 
@@ -67,15 +73,17 @@ Haz clic en **Convertir a vector**. Ahora, podrás agregar texto que puedes move
 
 --- task ---
 
-Usa la herramienta **Texto** para agregar el texto `Encuentra el insecto` en la pizarra:
+Usa la herramienta **texto** para agregar el texto `encuentra el insecto` en la pizarra:
 
-![](images/chalkboard-text.png)
+![Encuentra el insecto está escrito en la pizarra.](images/chalkboard-text.png)
 
 Hemos usado la fuente **Marker** en color blanco, pero puedes **elegir** la fuente y color que quieras usar.
 
-**Consejo:** Cambia a la herramienta **Seleccionar** (Flecha) para mover el texto. Para cambiar el tamaño del texto, toma la esquina del texto y arrástralo.
+**Consejo:** Cambia a la herramienta **Seleccionar** (Flecha) para mover el texto. Para cambiar el tamaño del texto, tómalo de la esquina y arrástralo.
 
 --- /task ---
+
+## Cambia el nombre del fondo
 
 --- task ---
 
@@ -83,9 +91,11 @@ Cambia el nombre del fondo a `inicio`, ya que necesitarás seleccionarlo más ad
 
 ![El cuadro de nombre de disfraz resaltado en el editor de dibujo.](images/start-screen-name.png)
 
-**Consejo:** Si usas nombres que tengan sentido, será más fácil entender tu proyecto, especialmente cuando regreses a un proyecto más tarde.
+**Consejo:** Si usas nombres que tengan sentido, será más fácil entender tu proyecto, especialmente cuando regreses a uno más tarde.
 
 --- /task ---
+
+### Agrega el objeto insecto
 
 --- task ---
 
@@ -95,7 +105,7 @@ Elimina el objeto **Gato de Scratch**.
 
 --- task ---
 
-Haz clic en **Elegir un objeto** y escribe `bug` en el cuadro de búsqueda.
+Haz clic en **elegir un objeto** y escribe `bug` en el cuadro de búsqueda.
 
 **Elige:** Elige un insecto que los jugadores tendrán que encontrar en su juego.
 
@@ -108,8 +118,5 @@ Haz clic en **Elegir un objeto** y escribe `bug` en el cuadro de búsqueda.
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Un error en un programa de computadora se llama  un <span style="color: #0faeb0">**bug**</span> (insecto). Encontrar y eliminar errores en programas informáticos se denomina <span style="color: #0faeb0">**debugging**</span>. Grace Hopper es una famosa ingeniera de software. Su equipo una vez encontró una polilla en su computadora. En sus notas dice: "Primer caso real de un insecto encontrado."
+Un error en un programa de computadora es llamado un <span style="color: #0faeb0">**bug**</span> (insecto). Encontrar y eliminar errores en programas informáticos se denomina <span style="color: #0faeb0">**debugging**</span>. Grace Hopper es una famosa ingeniera de software. Su equipo una vez encontró una polilla en su computadora. En sus notas dice: "Primer caso real de un insecto encontrado."
 </p>
-
---- save ---
-

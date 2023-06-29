@@ -11,27 +11,29 @@ Elegirás un fondo para crear un segundo nivel en tu juego y hacer que el insect
 </div>
 </div>
 
+### Agrega otro fondo
+
 --- task ---
 
-**Elige:** Elige un fondo para tu segundo nivel. Hemos elegido el fondo **Urban**, pero puedes elegir el que más te guste.
+**Elige:** Elige un fondo para tu segundo nivel. Hemos elegido **Urban**, pero puedes elegir el que más te guste.
 
-![](images/insert-urban-backdrop.png)
+![El insecto y el loro en un fondo urbano.](images/insert-urban-backdrop.png)
 
 **Consejo:** Recuerda que los fondos con muchos colores y detalles harán que el insecto sea más difícil de encontrar. ¿Qué tan difícil harás tu juego?
 
 --- /task ---
 
-Para poder arrastrar tu insecto a una nueva posición, debes detener el script `al hacer clic en este objeto`{:class="block3events"} para que no se ejecute.
+### Detén la ejecución del código
 
 --- task ---
 
 Arrastra los bloques lejos del bloque `al hacer clic en este objeto`{:class="block3events"} para evitar que se ejecuten cuando hagas clic en el insecto:
 
-![](images/breaking-script.png)
+![Rompiendo el código.](images/breaking-script.png)
 
 --- /task ---
 
-Tu insecto debe ser difícil de encontrar cuando el fondo cambia. Puedes cambiar el tamaño del insecto para que sea más difícil de encontrar.
+### Redimensiona el insecto
 
 --- task ---
 
@@ -48,9 +50,11 @@ set size to [20] % // prueba otro tamaño
 
 --- /task ---
 
+### Oculta tu insecto
+
 --- task ---
 
-Arrastra tu insecto en el escenario a un buen escondite para este nivel.
+Arrástralo en el escenario a un buen escondite para este nivel.
 
 ![El insecto escondido en el escaparate de la tienda en medio del fondo.](images/hidden-urban-backdrop.png)
 
@@ -72,11 +76,13 @@ set size to [20] % // prueba otro tamaño
 
 --- /task ---
 
+### Prueba tu código
+
 --- task ---
 
-Vuelve a unir los bloques al bloque `al hacer clic en este objeto`{:class="block3events"} para que cuando se haga clic en el insecto, el fondo cambie al `siguiente fondo`{:class="block3looks"}:
+Vuelve a unir los bloques al bloque `al hacer clic en este objeto`{:class="block3events"} para que cuando se haga clic en el insecto, se cambie al `siguiente fondo`{:class="block3looks"}:
 
-![](images/fixed-script.png)
+![Los bloques están unidos de nuevo.](images/fixed-script.png)
 
 --- /task ---
 
@@ -90,7 +96,7 @@ Tu insecto puede estar frente al loro ahora.
 
 --- task ---
 
-Añade un script para asegurarte de que tu insecto esté siempre `atrás`{:class="block3looks"}:
+Añade un script para asegurarte de que esté siempre `atrás`{:class="block3looks"}:
 
 ![El objeto insecto.](images/bug-sprite.png)
 
@@ -103,5 +109,3 @@ go to [back v] layer
 Ahora, tu insecto siempre permanecerá atrás, incluso si necesitas cambiar su posición.
 
 --- /task ---
-
---- save ---
