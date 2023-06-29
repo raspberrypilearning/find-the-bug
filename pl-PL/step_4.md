@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Aby utrudnić graczom znalezienie i kliknięcie błędu, dodasz irytującą papugę, aby odwrócić ich uwagę. 
+Aby utrudnić graczom odnalezienie robaka, dodasz irytującą papugę, aby odwrócić ich uwagę. 
 </div>
 <div>
 
@@ -11,7 +11,7 @@ Aby utrudnić graczom znalezienie i kliknięcie błędu, dodasz irytującą papu
 </div>
 </div>
 
-### Add the Parrot sprite
+### Dodaj duszka papugi
 
 --- task ---
 
@@ -21,15 +21,15 @@ Dodaj duszka **Parrot**.
 
 --- /task ---
 
-### Animate the Parrot sprite
+### Animuj duszka papugi
 
-W projekcie [Złap autobus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"} użyłeś pętli `powtórz`{:class="block3control"}.
+W projekcie [Złap autobus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"} korzystaliśmy z pętli `powtórz`{:class="block3control"}.
 
-Użyjesz tutaj innej pętli. Pętla `zawsze`{:class="block3control"} uruchamia bloki kodu wewnątrz niej raz za razem. To idealna pętla dla irytującej papugi, która nie przestanie latać i przeszkadzać.
+Tutaj użyjesz innej pętli. Pętla `zawsze`{:class="block3control"} uruchamia bloki kodu wewnątrz niej raz za razem. To idealna pętla dla irytującej papugi, która nie przestaje latać, przeszkadzając graczowi.
 
 --- task ---
 
-Dodaj kod, aby papuga trzepotała w rozpraszający sposób:
+Dodaj kod, aby papuga trzepotała skrzydłami w rozpraszający sposób:
 
 ![Duszek Parrot.](images/parrot-sprite.png)
 
@@ -51,7 +51,7 @@ end
 
 --- task ---
 
-**Test:** Kliknij zieloną flagę i ponownie przetestuj swój projekt. Czy pamiętasz, gdzie ukryłeś robaka?
+**Test:** Kliknij zieloną flagę i ponownie przetestuj swój projekt. Czy pamiętasz, gdzie jest robak?
 
 W Scratchu uruchomiony kod jest podświetlony żółtym konturem:
 
