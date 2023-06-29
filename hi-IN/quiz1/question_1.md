@@ -21,7 +21,7 @@ next backdrop
 
 Look at this image showing a 'Find the bug' game being played.
 
-![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
+![ऑर्डर स्टार्ट, स्पॉटलाइट, अर्बन, एंड में बैकड्रॉप्स के साथ स्क्रैच एडिटर; और मंच स्पॉटलाइट पृष्ठभूमि दिखा रहा है।](images/quiz1-backdrops.png)
 
 In this game, which backdrop would appear next when you click on the bug?
 
