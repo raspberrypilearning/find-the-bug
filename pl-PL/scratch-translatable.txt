@@ -14,27 +14,27 @@ nie idź do góry nogami
 
 liczba od -180 do 180
 
-bądź denerwujący
+nie przestawaj być denerwujący
 
 liczba kontroluje prędkość
 
-pozostań na scenie
+pozostań na Scenie
 
-machaj
+machaj skrzydłami
 
-spróbuj 11 albo 50
+wypróbuj 11 albo 50
 
-spróbuj 0.1 albo 0.5
+wypróbuj 0.1 albo 0.5
 
 wybierz swoje tło
 
-spróbuj inny rozmiar
+wypróbuj inny rozmiar
 
 w witrynie sklepowej
 
 sekundy, które upłynęły
 
-end
+koniec
 
 nie mów nic
 
@@ -42,10 +42,10 @@ pierwszy poziom
 
 uruchom stoper
 
-przeciągnij, aby najpierw umieścić robaka
+najpierw umieść robaka w kryjówce
 
 nowy poziom
 
-good hiding place
+dobra kryjówka
 
-keep the bug at the back
+trzymaj robaka na spodzie
