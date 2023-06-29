@@ -2,19 +2,19 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
+Stworzysz ekran „koniec”, który pokaże liczbę sekund, ilu potrzebował gracz, aby znaleźć robaki. 
 </div>
 <div>
 
-![Robak z ilością czasu w dymku.](images/end-screen.png){:width="300px"}
+![Robak podający ilość czasu w dymku.](images/end-screen.png){:width="300px"}
 
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Czasami samo przejście gry nie wystarczy. Gracze lubią wiedzieć, jak poradzili sobie przeciwko innym graczom lub sobie. Czy możesz pomyśleć o grze, która pokaże ci, jak dobrze sobie poradziłeś?</p>
+Czasami samo przejście gry nie jest wystarczające. Gracze lubią wiedzieć, jak poradzili sobie w porównaniu do innych graczy lub swoich poprzednich prób. Czy potrafisz wymyślić grę, która pokazuje graczom, jak dobrze sobie poradzili?</p>
 
-### Add another backdrop
+### Dodaj kolejne tło
 
 --- task ---
 
@@ -22,15 +22,15 @@ Dodaj tło **Chalkboard** z kategorii **W pomieszczeniu**.
 
 ![Tło Chalkboard w bibliotece teł.](images/chalkboard.png)
 
-**Wskazówka:** W Scratch możesz dodać to samo tło więcej niż raz.
+**Wskazówka:** W Scratchu możesz dodać to samo tło więcej niż raz.
 
 --- /task ---
 
-### Edit the backdrop
+### Edytuj tło
 
 --- task ---
 
-Kliknij na zakładkę **Tła**, aby otworzyć edytor Paint.
+Kliknij zakładkę **Tła**, aby otworzyć edytor Paint.
 
 ![Tło Chalkboard w edytorze Paint.](images/chalkboard2-paint.png)
 
@@ -46,11 +46,11 @@ Zmień nazwę tła na `koniec`:
 
 --- /task ---
 
-### Position the bug
+### Umieść robaka
 
 --- task ---
 
-Kliknij duszka **bug** i dodaj kod, aby umieścić robaka na ekranie "koniec":
+Kliknij duszka **robaka** i dodaj kod, aby umieścić go na ekranie „koniec”:
 
 ![Duszek robaka.](images/bug-sprite.png)
 
@@ -62,13 +62,13 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Add a timer
+### Dodaj stoper
 
-Jak długo zajmuje Tobie znalezienie i kliknięcie robaków? Scratch ma `stoper`{:class="block3sensing"}, którego możesz użyć, aby się dowiedzieć.
+Ile czasu zajmuje Ci znalezienie i kliknięcie robaków? Scratch ma `stoper`{:class="block3sensing"}, którego możesz użyć, aby się tego dowiedzieć.
 
 --- task ---
 
-Blok `stoper`{:class="block3sensing"} znajduje się w menu bloków `Czujniki`{:class="block3sensing"}. Dodaj kod, aby robak `mówił`{:class="block3looks"} `stoper`{:class="block3sensing"} na ekranie "koniec":
+Blok `stoper`{:class="block3sensing"} znajduje się w sekcji bloków `Czujniki`{:class="block3sensing"}. Dodaj kod, aby robak `powiedział`{:class="block3looks"} `stoper`{:class="block3sensing"} na ekranie „koniec”:
 
 ![Duszek robaka.](images/bug-sprite.png)
 
@@ -79,21 +79,21 @@ go to x: [0] y: [30] // on the board
 +say (timer) // seconds taken
 ```
 
-![Wstawianie bloku "stoper" do bloku "powiedz".](images/inserting-blocks.gif)
+![Wstawianie bloku „stoper” do bloku „powiedz”.](images/inserting-blocks.gif)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Kliknij zieloną flagę, aby przetestować swoje umiejętności szukania. Jak długo zajmuje Tobie znalezienie robaka?
+**Test:** Kliknij zieloną flagę, aby przetestować swoje umiejętności szukania. Ile czasu zajmuje Ci znalezienie robaków?
 
 --- /task ---
 
-Aby wrócić do ekranu "start", kliknij robaka na ekranie "koniec".
+Aby wrócić do ekranu „start”, kliknij robaka na ekranie „koniec”.
 
 --- task ---
 
-Dodaj kod, aby robak przestał mówić `stoper`{:class="block3sensing"} po przejściu do ekranu "start":
+Dodaj kod, aby robak przestał mówić `stoper`{:class="block3sensing"} po przejściu do ekranu „start”:
 
 ![Duszek robaka.](images/bug-sprite.png)
 
@@ -106,13 +106,13 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Stop the timer
+### Zatrzymaj stoper
 
-Jeśli zagrasz w grę po raz drugi, `stoper`{:class="block3sensing"} będzie nadal liczył.
+Jeśli zagrasz w grę po raz drugi, `stoper`{:class="block3sensing"} będzie kontynuował liczenie czasu.
 
 --- task ---
 
-Dodaj kod `resetuj stoper`{:class="block3sensing"}, `kiedy tło zmieni się na`{:class="block3events"} pierwszy poziom:
+Dodaj polecenie `resetuj stoper`{:class="block3sensing"} tak, aby wykonywało się `kiedy tło zmieni się na`{:class="block3events"} pierwszy poziom:
 
 ![Duszek robaka.](images/bug-sprite.png)
 
@@ -127,7 +127,7 @@ go to x: [13] y: [132] // on the disco ball
 
 --- task ---
 
-**Test:** Kliknij zieloną flagę i rozpocznij grę. Stoper powinien się zresetować po kliknięciu robaka na ekranie "start" przy przejściu do pierwszego poziomu. Kiedy klikniesz robaka na ekranie "koniec", powinieneś wrócić do ekranu "start" i zobaczyć, że robak nie mówi `stoper`{:class="block3sensing"}.
+**Test:** Kliknij zieloną flagę i zagraj w swoją grę. Stoper powinien się zresetować po kliknięciu robaka na ekranie „start” przy przejściu do pierwszego poziomu. Kiedy klikniesz robaka na ekranie „koniec”, gra powinna wrócić do ekranu „start”, a robak nie powinien już mówić pomiaru `stopera`{:class="block3sensing"}.
 
 --- /task ---
 
