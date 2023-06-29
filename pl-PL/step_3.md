@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add a new backdrop as the first level in your game, and hide the bug.
+Dodaj nowe tło jako pierwszy poziom gry i ukryj robaka.
 </div>
 <div>
 
@@ -11,7 +11,7 @@ Add a new backdrop as the first level in your game, and hide the bug.
 </div>
 </div>
 
-### Add another Backdrop
+### Dodaj kolejne tło
 
 --- task ---
 
@@ -21,7 +21,7 @@ Dodaj tło **Spotlight** z kategorii **Muzyka**.
 
 --- /task ---
 
-### Resize the bug
+### Zmień rozmiar robaka
 
 --- task ---
 
@@ -40,7 +40,7 @@ set size to [20] % // tiny
 
 Kliknij kod, by zmienić rozmiar, a następnie przeciągnij swojego malutkiego robaka do kryjówki.
 
-Dodaj kod, aby umieścić swojego robaka:
+Dodaj kod umieszczający tam Twojego robaka:
 
 ![Duszek robaka.](images/bug-sprite.png)
 
@@ -54,15 +54,15 @@ set size to [20] % // tiny
 
 --- /task ---
 
-### Move to the next Backdrop
+### Przejdź do następnego tła
 
-Kiedy zagrasz w grę i z sukcesem znajdziesz robaka, gra przełączy się na następne tło. Ponadto, aby rozpocząć grę, kliknij robaka na ekranie "start".
+Kiedy graczowi uda się odnaleźć robaka, gra przełączy się na następne tło. Ponadto, aby rozpocząć grę, trzeba będzie kliknąć robaka na ekranie początkowym.
 
-Blok `następne tło`{:class="block3looks"} przełącza na następne tło w kolejności, w jakiej tła są wymienione po kliknięciu zakładki **Tła** dla **Sceny**.
+Blok `następne tło`{:class="block3looks"} przełącza tło na następne, zgodnie z kolejnością, w jakiej tła są wymienione w zakładce **Tła** dla **Sceny**.
 
 --- task ---
 
-Dodaj skrypt do swojego duszka **robaka** by `grał dźwięk Pop`{:class="block3sound"} i przełącz się na `następne tło`{:class="block3looks"} `kiedy ten duszek zostanie kliknięty`{:class ="block3events"}:
+Dodaj skrypt do swojego duszka **robaka** aby `grał dźwięk pop`{:class="block3sound"} i za pomocą polecenia `następne tło`{:class="block3looks"} zmieniał tło, wtedy `kiedy ten duszek kliknięty`{:class ="block3events"}:
 
 ![Duszek robaka.](images/bug-sprite.png)
 
@@ -74,13 +74,13 @@ next backdrop
 
 --- /task ---
 
-### Make the game start with the Start Screen
+### Spraw, aby gra zaczęła się od ekranu startowego
 
 --- task ---
 
-Click on the Stage pane and add this code to the **Stage**:
+Kliknij panel Sceny i dodaj ten kod do **Sceny**:
 
-![The Spotlight backdrop.](images/stage-image.png)
+![Tło Spotlight.](images/stage-image.png)
 
 ```blocks3
 when flag clicked
@@ -91,19 +91,19 @@ switch backdrop to [start v] // 'start' screen
 
 --- task ---
 
-**Test:** Click on the green flag to test your project.
+**Test:** Kliknij zieloną flagę, aby przetestować swój projekt.
 
-You will notice that on the 'start' screen, the bug will still have the settings to hide in its hiding place from the first level (in this example, on the disco ball).
+Zauważ, że na ekranie „start” robak nadal będzie miał ustawienia ukrywania się w kryjówce z pierwszego poziomu (w tym przykładzie na kuli dyskotekowej).
 
-**Tip:** After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop.
+**Wskazówka:** Po ostatnim tle na liście teł, `następne tło`{:class="block3looks"} przełączy się z powrotem na pierwsze tło na liście.
 
 --- /task ---
 
 --- task ---
 
-Click on the **bug** sprite in the Sprite list. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+Kliknij duszka **robaka** na liście duszków. Dodaj skrypt, aby `ustawić rozmiar`{:class="block3looks"} robaka, kiedy Twoje `tło zmieni się na`{:class="block3events"} ekran `start`{:class="block3events"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![Duszek robaka.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -112,37 +112,37 @@ set size to [100] % // full-sized
 
 --- /task ---
 
-### Change the position of the bug
+### Zmień położenie robaka
 
 --- task ---
 
-Try to position the bug on the 'start' screen.
+Spróbuj przenieść robaka w inne miejsce na ekranie „start”.
 
-Your code will make the backdrop switch when you click on the bug! That is not helpful when you are trying to position the bug.
+Twój kod zmienił tło po kliknięciu robaka! Nie jest to zbyt pomocne, gdy próbujesz go gdzieś ustawić.
 
-To fix the problem, you need to stop the code from running when you click on the bug.
+Aby rozwiązać ten problem, musisz zatrzymać działanie kodu, który wykonuje się po kliknięciu robaka.
 
 --- /task ---
 
 --- task ---
 
-Click on the green flag to return to the 'start' screen.
+Kliknij zieloną flagę, aby powrócić do ekranu „start”.
 
-Click on the **bug** sprite in the Sprite list and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
+Kliknij duszka **robaka** na liście duszków i odłącz bloki kodu od bloku `kiedy ten duszek kliknięty`{:class="block3events"}:
 
-![Breaking the script.](images/breaking-script.png)
+![Łamanie skryptu.](images/breaking-script.png)
 
 --- /task ---
 
 --- task ---
 
-Try to position the bug again. Drag the bug onto the chalkboard, below the text:
+Spróbuj ponownie umieścić robaka. Przeciągnij robaka na tablicę i umieść go pod tekstem:
 
-![The bug on the start screen](images/bug-chalkboard.png)
+![Robak na ekranie startowym](images/bug-chalkboard.png)
 
-Add code to make sure that the bug is positioned on the chalkboard every time your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+Dodaj kod, aby upewnić się, że robak jest umieszczany na tablicy za każdym razem, `kiedy tło zmienia się na`{:class="block3events"} ekran `start`{:class="block3events"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![Duszek robaka.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -154,22 +154,22 @@ set size to [100] % // full-sized
 
 --- task ---
 
-Join the blocks back together so that the code blocks are under the `when this sprite clicked`{:class="block3events"} block again:
+Połącz bloki z powrotem, tak aby bloki kodu ponownie znajdowały się poniżej bloku `kiedy ten duszek kliknięty`{:class="block3events"}:
 
-![The 'when this sprite clicked' block joined to the 'play sound' and 'next backdrop' blocks.](images/fixed-script.png)
+![Blok „kiedy ten duszek kliknięty” złączony z blokami „graj dźwięk” i „następne tło”.](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your project. Click on the bug to move to the next backdrop. The bug should be big on the 'start' screen and small on the 'Spotlight' level.
+**Test:** Kliknij zieloną flagę, aby przetestować swój projekt. Kliknij robaka, aby przejść do następnego tła. Robak powinien być duży na ekranie „start” i mały na poziomie „Spotlight”.
 
 --- collapse ---
 ---
 title: Nic się nie dzieje po kliknięciu robaka
 ---
 
-Did you forget to join the code back to the `when this sprite clicked`{:class="block3events"} block?
+Czy bloki kodu zostały ponownie połączone z blokiem `kiedy ten duszek kliknięty`{:class="block3events"}?
 
 --- /collapse ---
 
