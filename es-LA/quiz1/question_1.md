@@ -1,10 +1,8 @@
-## Reflexión
+## Examen rápido
 
-¡Bien hecho, has aprendido mucho! Ahora es el momento de reflexionar: reflexionar es una parte importante del aprendizaje, porque ayuda a establecer nuevas conexiones en tu cerebro.
+Contesta las tres preguntas. Hay pistas para guiarte hacia la respuesta correcta.
 
-Responde las tres preguntas siguientes para reflexionar sobre lo que has aprendido.
-
-Cuando hayas respondido a cada pregunta, haz clic en **Enviar**. Vamos a guiarte hacia la respuesta correcta. Puedes realizar esta actividad tantas veces como quieras.
+Cuando hayas respondido a cada pregunta, haz clic en **Revisar mi respuesta**.
 
 ¡Qué te diviertas!
 
@@ -41,7 +39,7 @@ En este juego, ¿qué fondo aparecería a continuación cuando hagas clic en el 
 
   --- feedback ---
 
-Sí. El bloque `siguiente fondo`{:class="block3looks"} cambia al siguiente fondo en el orden de la lista de fondos en la pestaña **Fondos** para el **Escenario**.
+Sí. El bloque `siguiente fondo`{:class="block3looks"} cambia al siguiente fondo en el orden de la lista de fondos en la pestaña **fondos** para el **escenario**.
 
 --- /feedback ---
 

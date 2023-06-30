@@ -11,6 +11,8 @@ Para que sea más difícil para los jugadores encontrar y hacer clic en el insec
 </div>
 </div>
 
+### Agrega el objeto Loro (Parrot)
+
 --- task ---
 
 Añade el objeto **Parrot**.
@@ -19,9 +21,11 @@ Añade el objeto **Parrot**.
 
 --- /task ---
 
+### Anima el objeto Loro (Parrot)
+
 En el proyecto [Tomar el autobús](https://projects.raspberrypi.org/es-LA/projects/catch-the-bus){:target="_blank"}, usaste un bucle `repetir`{:class="block3control"}.
 
-Aquí utilizarás un bucle diferente. Un bucle `por siempre`{:class="block3control"} ejecuta los bloques de código dentro de él una y otra vez. Es el bucle perfecto para un loro molesto que no para de volar y estorbar.
+quí utilizarás un bucle diferente. Un bucle `por siempre`{:class="block3control"} ejecuta los bloques de código dentro de él una y otra vez. Es perfecto para un loro molesto que no para de volar y estorbar.
 
 --- task ---
 
@@ -56,5 +60,3 @@ En Scratch, el código que se está ejecutando se ilumina con un contorno amaril
 **Consejo:** Si el loro se vuelve demasiado molesto mientras codificas, puedes hacer clic en el botón rojo de parada que se encuentra sobre el escenario para detener la ejecución del código.
 
 --- /task ---
-
---- save ---
