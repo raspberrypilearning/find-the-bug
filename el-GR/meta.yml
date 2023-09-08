@@ -1,14 +1,15 @@
 ---
 title: Βρες το έντομο
 hero_image: images/banner.png
-description: Δημιούργησε ένα παιχνίδι στο οποίο πρέπει να βρίσκεις ένα κρυμμένο έντομο
-  σε κάθε επίπεδο
+description: Δημιούργησε ένα παιχνίδι στο οποίο πρέπει να βρίσκεις ένα κρυμμένο έντομο σε κάθε επίπεδο
+meta_title: Έργα κώδικα σε Scratch για παιδιά και εφήβους | Βρες το έντομο
+meta_description: Μάθε να προγραμματίζεις με Scratch με τα έργα κώδικα του Ιδρύματος Raspberry Pi για παιδιά και εφήβους. Δημιούργησε ένα παιχνίδι στη Scratch και βρες το κρυμμένο έντομο σε κάθε επίπεδο.
 version: 4
 listed: true
 copyedit: false
 last_tested: '2021-02-26'
 steps:
-- title: Εισαγωγή
+- title: Θα φτιάξεις
 - title: Αρχική Οθόνη
 - title: Πρώτο επίπεδο
   completion:
@@ -16,10 +17,9 @@ steps:
 - title: Ένας παπαγάλος αποσπά την προσοχή
 - title: Δεύτερο επίπεδο
 - title: Τελική οθόνη
-- title: Παίξε το παιχνίδι
   completion:
   - internal
-- title: Αναστοχασμός
+- title: Γρήγορο κουίζ
   knowledge_quiz:
     path: quiz1
     version: 1
@@ -27,5 +27,6 @@ steps:
     passing_score: 3
   completion:
   - external
-- title: Αναβάθμισε το έργο σου
+- title: Αναβάθμισε το παιχνίδι σου
+- title: Μοίρασου και παίξε
 - title: Και τώρα;
