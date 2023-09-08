@@ -1,62 +1,43 @@
-## Αναβάθμισε το έργο σου
-
-Εάν έχεις χρόνο, μπορείς να προσθέσεις περισσότερα επίπεδα και περισσότερους περισπασμούς στο παιχνίδι σου. Θα μπορούσες επίσης να αλλάξεις το αντικείμενο που κρύβεται και να αλλάξεις το κείμενο στον πίνακα κιμωλίας.
-
-Εδώ είναι τα μπλοκ που θα χρειαστείς για να κρύψεις το έντομο σε ένα νέο επίπεδο:
-
-```blocks3
-when backdrop switches to [νέο επίπεδο v]
-
-set size to [20] %
-
-go to x: [0] y: [0] // σύρε για να τοποθετήσεις πρώτα το έντομο
-
-set [color v] effect to [50]
-```
+## Μοίρασου και παίξε
 
 --- task ---
 
-Για κάθε επίπεδο, θα χρειαστεί να:
-- Προσθέσεις ένα υπόβαθρο
-- Κάνεις κλικ στο παράθυρο Σκηνή, στη συνέχεια στην καρτέλα **Υπόβαθρα** και, στη συνέχεια, να σύρεις το νέο υπόβαθρο σε μια θέση πριν από το υπόβαθρο **τέλος**
-- Προσθέσεις ένα μπλοκ `όταν το υπόβαθρο αλλάξει σε`{:class="block3events"} για το νέο υπόβαθρο και να προσθέσεις κώδικα για να τοποθετήσεις και να κρύψεις το έντομο
+Δώσε έμπνευση στην κοινότητα του Raspberry Pi Foundation με το έργο σου!
 
-**Συμβουλή:** Για να σύρεις το έντομο σε μια νέα θέση κρυψώνας, θα χρειαστεί να «σπάσεις» τον κώδικα έτσι ώστε το υπόβαθρο να μην αλλάζει όταν κάνεις κλικ στο έντομο για να το τοποθετήσεις σε νέο επίπεδο.
+[[[share-scratch]]]
+
+Για να υποβάλεις το έργο σου στο Scratch studio 'Find the bug' για να το δουν κι άλλα άτομα, συμπλήρωσε [αυτήν τη φόρμα](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---
+
+--- no-print ---
+--- task ---
+
+Παίξε αυτά τα υπέροχα παιχνίδια από το ['Find the bug' Scratch studio](https://scratch.mit.edu/studios/29005236/){:target="_blank"}.
+
+Παρατήρησε πώς οι δημιουργοί έχουν προσθέσει επιπλέον επίπεδα, ενοχλητικούς περισπασμούς ή έχουν αναβαθμίσει τις οθόνες έναρξης και τέλους:
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/545488112/?autostart=false" frameborder="0"></iframe>
+</div>
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707645119/?autostart=false" frameborder="0"></iframe>
+</div>
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707644397/?autostart=false" frameborder="0"></iframe>
+</div>
+
+--- /task ---
+
+--- /no-print ---
 
 --- task ---
 
-Θα μπορούσες να προσθέσεις περισσότερους παπαγάλους ή να επιλέξεις ένα άλλο αντικείμενο που θα αποσπά την προσοχή.
-
-Εδώ είναι ο κώδικας που χρησιμοποίησες για τον παπαγάλο:
-```blocks3
-when flag clicked
-set rotation style [left-right v] // μην πηγαίνεις πάνω κάτω
-point in direction [35] // αριθμός από -180 έως 180
-forever // συνέχισε να ενοχλείς
-move [10] steps // ο αριθμός ελέγχει την ταχύτητα
-if on edge, bounce // μείνε στη Σκηνή
-next costume // φτερούγισε
-change [color v] effect by [5] // δοκίμασε 11 ή 50
-wait [0.25] seconds // δοκίμασε 0.1 ή 0.5
-end
-```
-
-**Συμβουλή:** Μπορείς να σύρεις τον κώδικα του αντικειμένου **Parrot** σε ένα άλλο αντικείμενο για να δημιουργήσεις πιο γρήγορα ένα άλλο αντικείμενο που θα αποσπά την προσοχή.
-
-![Σύροντας κώδικα από την περιοχή Κώδικα σε ένα άλλο αντικείμενο από τη λίστα αντικειμένων.](images/drag-parrot-code.gif)
+Μπορείς επίσης να δεις τα remixes για το [Βρες το έντομο αρχικό έργο](https://scratch.mit.edu/projects/582214723/remixes){:target="_blank"} για να δεις τι έχουν φτιάξει άλλοι δημιουργοί.
 
 --- /task ---
-
---- collapse ---
----
-title: Ολοκληρωμένο έργο
----
-
-Μπορείς να δεις [ολοκληρωμένο το έργο εδώ](https://scratch.mit.edu/projects/633548042/){:target="_blank"}.
-
---- /collapse ---
 
 --- save ---
 
