@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Choose a backdrop to make a second level for your game, and make the bug hard to find. 
+اختر خلفية لإنشاء مستوى ثانٍ للعبتك، واجعل من الصعب العثور على الحشرة. 
 </div>
 <div>
 
@@ -11,62 +11,62 @@ Choose a backdrop to make a second level for your game, and make the bug hard to
 </div>
 </div>
 
-### Add another backdrop
+### أضف خلفية أخرى
 
 --- task ---
 
 **اختر:** اختر خلفية للمستوى الثاني. لقد اخترنا **المدينة**، ولكن يمكنك اختيار الصورة التي تحبها أكثر من غيرها.
 
-![The bug and parrot on an urban backdrop.](images/insert-urban-backdrop.png)
+![الحشرة والببغاء على خلفية حضرية (المدينة).](images/insert-urban-backdrop.png)
 
 **نصيحة:** تذكر أن الخلفيات التي تحتوي على الكثير من الألوان والتفاصيل ستجعل من الصعب العثور على الحشرة. إلى أي مدى ستجعل لعبتك صعبة؟
 
 --- /task ---
 
-### Stop the code from running
+### أوقف تشغيل الكود
 
 --- task ---
 
-Drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them from running when you click on the bug:
+اسحب الوحدات بعيدًا عن `عند النقر على الكائن`{:class="block3events"} لمنعها من العمل عند النقر فوق الحشرة:
 
-![Breaking the code.](images/breaking-script.png)
+![إيقاف التعليمات البرمجية.](images/breaking-script.png)
 
 --- /task ---
 
-### Resize the bug
+### غير حجم كائن الحشرة
 
 --- task ---
 
-Add code to `set the size`{:class="block3looks"} of the bug for the second level:
+أضف الكود `اضبط الحجم`{:class="block3looks"} للحشرة من أجل المستوى الثاني:
 
-![The bug sprite.](images/bug-sprite.png)
+![كائن الحشرة.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v] // choose your backdrop
 set size to [20] % // try another size 
 ```
 
-**Test:** Click on your new script to run it.
+**اختبار:** انقر فوق البرنامَج الجديد لتشغيله.
 
 --- /task ---
 
-### Hide your bug
+### إخفاء كائن الحشرة الخاص بك
 
 --- task ---
 
-Drag your bug on the Stage to a good hiding place for this level.
+اسحب الحشرة الخاصة بك على المنصة إلى مكان اختباء جيد لهذا المستوى.
 
-![The bug hidden in the shop window in the middle of the backdrop.](images/hidden-urban-backdrop.png)
+![الحشرة المخبأة في نافذة المتجر في منتصف الخلفية.](images/hidden-urban-backdrop.png)
 
 --- /task ---
 
-Position your bug in its hiding place.
+ضع الحشرة في مخبأها.
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block to your code:
+أضف وحدة لتحديد الإحداثيات `اذهب إلى س:ع:`{:class="block3motion"} إلى برنامجك:
 
-![The bug sprite.](images/bug-sprite.png)
+![كائن الحشرة.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -76,29 +76,29 @@ set size to [20] % // try another size
 
 --- /task ---
 
-### Test your code
+### افحص تعليماتك البرمجية
 
 --- task ---
 
-Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that when the bug is clicked, the backdrop switches to the `next backdrop`{:class="block3looks"}:
+انضم إلى الوحدات مرة أخرى إلى الرَّقْم `عند النقر على الكائن`{:class="block3events"} بحيث عند النقر على الحشرة، تتحول الخلفية إلى الخلفية `الخلفية التالية`{:class="block3looks"}:
 
-![The blocks are joined back together.](images/fixed-script.png)
+![يتم ربط الكتل معًا مرة أخرى.](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your project.
+**اختبار:** انقر فوق العلم الأخضر لاختبار مشروعك.
 
 --- /task ---
 
-Your bug may now be in front of the parrot.
+قد تكون الحشرة الآن أمام الببغاء.
 
 --- task ---
 
-Add a script to make sure that your bug is always at the `back`{:class="block3looks"}:
+أضف نصًا برمجيًا للتأكد من أن الحشرة دائما في `الخلف`{:class="block3looks"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![كائن الحشرة.](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -106,6 +106,6 @@ forever
 go to [back v] layer
 ```
 
-Now, your bug will always stay at the back, even if you need to change its position.
+الآن، ستبقى الحشرة دائمًا في الخلف، حتى إذا كنت بحاجة إلى تغيير موضعها.
 
 --- /task ---
