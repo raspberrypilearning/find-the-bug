@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Give your game a 'start' screen.
+امنح لعبتك شاشة "البَدْء".
 </div>
 <div>
 
@@ -11,7 +11,7 @@ Give your game a 'start' screen.
 </div>
 </div>
 
-### Open the starter project
+### افتح مشروع البداية
 
 --- task ---
 
@@ -21,11 +21,11 @@ Give your game a 'start' screen.
 
 --- /task ---
 
-### Add a Backdrop
+### إضافة خلفية
 
 --- task ---
 
-أضف خلفية **السبورة** من القسم **الداخلي**.
+أضف خلفية **السَّبُّورَة** من القسم **الداخلي**.
 
 ![أيقونة اختيار الخلفية.](images/backdrop-button.png)
 
@@ -39,11 +39,11 @@ Give your game a 'start' screen.
 
 انقر على لوحة المنصة.
 
-![The Stage pane in the bottom right corner is highlighted.](images/stage-pane.png)
+![تم تمييز جزء المنصة في الزاوية اليمنى السفلية.](images/stage-pane.png)
 
 --- /task ---
 
-### Edit the Backdrop
+### التعديل على الصور الخلفية
 
 --- task ---
 
@@ -57,7 +57,7 @@ Give your game a 'start' screen.
 
 حدد **خلفية 1 ** وانقر على أيقونة **حذف** لإزالة الخلفية **خلفية 1 ** من مشروعك. لن تحتاج إلى الخلفية **خلفية 1 ** في هذا المشروع.
 
-![Backdrop1 is highlighted in the top left corner.](images/delete-backdrop1.png)
+![يتم تمييز Backdrop1 في الزاوية اليسرى العليا.](images/delete-backdrop1.png)
 
 --- /task ---
 
@@ -75,7 +75,7 @@ Give your game a 'start' screen.
 
 استخدم أداة **نص** لإضافة النص `ابحث عن الحشرة` إلى السبورة:
 
-![Find the bug is written on the chalkboard.](images/chalkboard-text.png)
+![العثور على ألحشرة مكتوب على السَّبُّورَة.](images/chalkboard-text.png)
 
 استخدمنا خط **علامة** باللون الأبيض، لكن **اختر** الخط واللون اللذين تريد استخدامهما.
 
@@ -83,7 +83,7 @@ Give your game a 'start' screen.
 
 --- /task ---
 
-## Rename the Backdrop
+## إعادة تسمية الخلفية
 
 --- task ---
 
@@ -95,7 +95,7 @@ Give your game a 'start' screen.
 
 --- /task ---
 
-### Add the Bug Sprite
+### أضف كائن الحشرة
 
 --- task ---
 
