@@ -11,6 +11,8 @@
 </div>
 </div>
 
+### أضف كائن الببغاء
+
 --- task ---
 
 أضف كائن **الببغاء**.
@@ -18,6 +20,8 @@
 ![أيقونة "اختر كائن".](images/sprite-button.png)
 
 --- /task ---
+
+### حرك كائن الببغاء
 
 في مشروع [اللحاق بالحافلة](https://projects.raspberrypi.org/ar-SA/projects/catch-the-bus){:target="_blank"}، كنت تستخدم حلقة `تكرار`{:class="block3control"}.
 
@@ -35,7 +39,7 @@ when flag clicked
 set rotation style [left-right v] // لا تقلب رأسا على عقب
 point in direction [35] // مجال العدد من -180 إلى 180
 forever // استمر في الإزعاج
-move [10] steps // الرقم يتحكم في السرعة
+move [10] steps // الرَّقَم يتحكم في السرعة
 if on edge, bounce // تغيير اللغة
 next costume // رفرف
 change [color v] effect by [5] // جرب 11 أو 50
@@ -57,4 +61,3 @@ end
 
 --- /task ---
 
---- save ---
