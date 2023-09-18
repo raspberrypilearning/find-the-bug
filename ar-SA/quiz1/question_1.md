@@ -1,17 +1,17 @@
-## Quick quiz
+## اختبار سريع
 
-Answer the three questions. There are hints to guide you to the correct answer.
+أجب عن الأسئلة الثلاثة. هناك تلميحات لإرشادك إلى الإجابة الصحيحة.
 
-When you have answered each question, click on **Check my answer**.
+عندما تجيب عن كل سؤال، انقر فوق **إرسال**. سيتم توجيهك نحو الإجابة الصحيحة.
 
-Have fun!
+إستمتع!
 
 --- question ---
 ---
-القائمة: السؤال 1 من 3
+legend: السؤال 1 من 3
 ---
 
-In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
+في لعبتك، أضفت هذا الرمز إلى **الحشرة** للتنقل عبر الخلفيات في كل مرة يتم النقر عليها.
 
 ```blocks3
 when this sprite clicked
@@ -19,15 +19,15 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Look at this image showing a 'Find the bug' game being played.
+انظر إلى هذه الصورة التي تعرض لُعْبَة "العثور على الحشرة" قيد اللعب.
 
-![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
+![محرر Scratch مع الخلفيات بالترتيب: البداية وأضواء المسرح والمدينة والنهاية والمنصة التي تظهر عليها خلفية أضواء المسرح.](images/quiz1-backdrops.png)
 
-In this game, which backdrop would appear next when you click on the bug?
+في هذه اللعبة، ما الخلفية التي ستظهر بعد ذلك عند النقر فوق الحشرة؟
 
 --- choices ---
 
-- ( ) بداية
+- () بداية
 
   --- feedback ---
 
@@ -35,11 +35,11 @@ In this game, which backdrop would appear next when you click on the bug?
 
   --- /feedback ---
 
-- (x) المدينة
+- (خ) حضري
 
   --- feedback ---
 
-Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
+نعم. الوحدة `الخلفية التالية`{:class="block3looks"} تتغير إلى الخلفية التالية بالترتيب الذي يتم به وضع الخلفيات عند النقر فوق علامة التبويب **الخلفيات** من أجل **المنصة**.
 
 --- /feedback ---
 
@@ -51,7 +51,7 @@ Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdr
 
   --- /feedback ---
 
-- ( ) نهاية
+- () نهاية
 
   --- feedback ---
 
