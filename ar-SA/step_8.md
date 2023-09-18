@@ -1,28 +1,28 @@
-## Upgrade your game
+## قم بترقية او تطوير لعبتك
 
-If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text on the chalkboard.
+إذا كان لديك الوقت، يمكنك إضافة المزيد من المستويات والمزيد من عوامل التسلية إلى لعبتك. يمكنك أيضًا تغيير الكائن المخفي وتغيير النص الموجود على السَّبُّورَة.
 
 --- task ---
 
-Play your game and see how quickly you can find the bugs.
+العب اللعبة التي قمت بتصميمها وشاهد مدى سرعتك في العثور على الحشرات.
 
-Is there someone else who can try your game? How fast can they find the bugs? They will not know where you have hidden them, so it might take them a bit longer!
+هل هناك شخص آخر يمكنه تجرِبة لعبتك؟ ما مدى سرعة عثورهم على الحشرات؟ لن يعرفوا أين أخفيتهم، لذلك قد يستغرقون وقتًا أطول قليلاً!
 
-Is there anything that you want to change?
+هل هناك أي شيء تريد تغييره؟
 
-You could:
-- Make the parrot even more annoying
-- Make the bugs smaller
-- Change the `color effect`{:class="block3looks"} to camouflage the bug on each level
-- Change the font or colour of the text
+يمكنك:
+- اجعل الببغاء أكثر إزعاجًا
+- اجعل الحشرات أصغر حجماَ
+- تغيير `تأثير اللون`{: class = "block3looks"} لإخفاء الحشرة في كل مستوى
+- تغيير الخط أو لون النص
 
 --- /task ---
 
-### Add more levels
+### أضف المزيد من المستويات
 
 --- task ---
 
-Here are the blocks that you will need to hide the bug on a new level:
+إليك الكتل البرمجية التي ستحتاجها لإخفاء الحشرة في مستوى جديد:
 
 ```blocks3
 when backdrop switches to [new level v]
@@ -34,22 +34,22 @@ go to x: [0] y: [0] // drag to position the bug first
 set [color v] effect to [50]
 ```
 
-For each level, you will need to:
-- Add a backdrop
-- Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
-- Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug
+لكل مستوى، سوف تحتاج إلى:
+- إضافة خلفية
+- انقر على جزء المنصة ثم على تبويب **الخلفيات**، ثم اسحب الخلفية الجديدة إلى موضعها قبل خلفية **النهاية**
+- أضف كتلة `عندما تتغير الخلفية إلى`{: class = "block3events"} للخلفية الجديدة وأضف التعليمات البرمجية للموضع وإخفاء الحشرة
 
-**Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the backdrop does not switch when you click on the bug to position it for a new level.
+**نصيحة:** لسحب الحشرة إلى موضع اختباء جديد، ستحتاج إلى 'توقف' للشفرة البرمجية بحيث لا يتم تبديل الخلفية عند النقر فوق الحشرة لوضعها في مستوى جديد.
 
 --- /task ---
 
-### Add more distractions
+### أضف المزيد من مصادر التسلية
 
 --- task ---
 
-You could add more parrots or choose another sprite to act as a distraction.
+يمكنك إضافة المزيد من الببغاوات أو اختيار كائن آخر ليكون بمثابة مصدر تسلية.
 
-Here is the code that you used for the parrot:
+هذا هي التعليمات البرمجية التي استخدمتها للببغاء:
 
 ```blocks3
 when flag clicked
@@ -64,17 +64,17 @@ wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
-**Tip:** You can drag the **Parrot** sprite's code to another sprite to make it faster to create another distraction sprite.
+**نصيحة:** يمكنك سحب الكائن **Parrot** إلى كائن آخر لجعله أسرع لإنشاء كائن تشتيت آخر.
 
-![Dragging code from the Code area to another sprite in the Sprite list.](images/drag-parrot-code.gif)
+![يمكنك نسخ التعليمات البرمجية من كائن إلى كائن آخر في قائمة كائن.](images/drag-parrot-code.gif)
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+العنوان: المشروع المكتمل
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+يمكنك عرض [مشروع مكتمل هنا](https://scratch.mit.edu/projects/486719939/){: target = "_ blank"}.
 
 --- /collapse ---
