@@ -13,7 +13,7 @@
 --- no-print ---
 --- task --- 
 
-ألق نظرة على ['Silly eyes - Community' Scratch studio](https://scratch.mit.edu/studios/29120534){:target="_blank"} لمشاهدة المشروعات التي أنشأها أعضاء المجتمع.
+ألق نظرة على ['Find the bug - Community' Scratch studio](https://scratch.mit.edu/studios/29005236){:target="_blank"} لمشاهدة المشروعات التي أنشأها أعضاء المجتمع.
 
 لاحظ كيف أضاف منشئو المحتوى مستويات إضافية، مما أدى إلى تشتيت الانتباه أو ترقية شاشات البداية والنهاية:
 

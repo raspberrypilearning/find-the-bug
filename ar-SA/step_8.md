@@ -72,7 +72,7 @@ end
 
 --- collapse ---
 ---
-العنوان: المشروع المكتمل
+title: المشروع المكتمل
 ---
 
 يمكنك عرض [مشروع مكتمل هنا](https://scratch.mit.edu/projects/627780401/){:target="_blank"}.
