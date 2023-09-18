@@ -1,62 +1,43 @@
-## قم بتطوير لعبتك
-
-إذا كان لديك الوقت، يمكنك إضافة المزيد من المستويات والمزيد من عوامل التشتيت إلى لعبتك. يمكنك أيضًا تغيير الكائن المخفي وتغيير النص الموجود على السبورة.
-
-إليك الكتل التي ستحتاجها لإخفاء الحشرة على مستوى جديد:
-
-```blocks3
-when backdrop switches to [new level v]
-
-set size to [20] %
-
-go to x: [0] y: [0] // اسحب لوضع الحشرة أولاً
-
-set [color v] effect to [50]
-```
+## شارك والعب
 
 --- task ---
 
-لكل مستوى، سوف تحتاج إلى:
-- إضافة خلفية
-- انقر على جزء المنصة، ثم على **الخلفيات**، ثم اسحب الخلفية الجديدة إلى موضعها قبل خلفية **النهاية**
-- أضف وحدة `عندما تتغير الخلفية إلى`{:class="block3events"} للخلفية الجديدة وأضف التعليمات البرمجية للموضع وإخفاء الحشرة
+ألهم مجتمع Raspberry Pi Foundation بمشروعك!
 
-**نصيحة:** لسحب الحشرة إلى موضع اختباء جديد، ستحتاج إلى 'break' للبرنامج بحيث لا يتم تبديل الخلفية عند النقر فوق الحشرة لوضعها في مستوى جديد.
+[[[share-scratch]]]
+
+لإرسال مشروعك "العثور على الحشرات" إلى استوديو Scratch ليراه الآخرون، يرجى إكمال [هذا النموذج](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---
+
+--- no-print ---
+--- task --- 
+
+ألق نظرة على ['Silly eyes - Community' Scratch studio](https://scratch.mit.edu/studios/29120534){:target="_blank"} لمشاهدة المشروعات التي أنشأها أعضاء المجتمع.
+
+لاحظ كيف أضاف منشئو المحتوى مستويات إضافية، مما أدى إلى تشتيت الانتباه أو ترقية شاشات البداية والنهاية:
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/545488112/?autostart=false" frameborder="0"></iframe>
+</div>
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707645119/?autostart=false" frameborder="0"></iframe>
+</div>
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707644397/?autostart=false" frameborder="0"></iframe>
+</div>
+
+--- /task ---
+
+--- /no-print ---
 
 --- task ---
 
-يمكنك إضافة المزيد من الببغاوات أو اختيار كائن آخر ليكون بمثابة مصدر تشتيت.
-
-هذا هو البرنامج الذي استخدمته للببغاء:
-```blocks3
-when flag clicked
-set rotation style [left-right v] // لا تقلب رأسا على عقب
-point in direction [35] // مجال العدد من -180 إلى 180
-forever // استمر في الإزعاج
-move [10] steps // الرقم يتحكم في السرعة
-if on edge, bounce // تغيير اللغة
-next costume // رفرف
-change [color v] effect by [5] // جرب 11 أو 50
-wait [0.25] seconds // جرب 0.1 أو 0.5
-end
-```
-
-**نصيحة:** يمكنك سحب رمز **Parrot** إلى كائن آخر لجعله أسرع لإنشاء كائن تشتيت آخر.
-
-![يمكنك نسخ التعليمات البرمجية من كائن إلى كائن آخر في قائمة كائن.](images/drag-parrot-code.gif)
+يمكنك أيضًا إلقاء النَّظْرَة على عمليات إعادة المزج الخاصة بمشروع البداية [جد الحشرة](https://scratch.mit.edu/projects/582214723/remixes){:target="_blank"} لمعرفة ما صنعه منشئو المحتوى الآخرون.
 
 --- /task ---
-
---- collapse ---
----
-title: المشروع المكتمل
----
-
-يمكنك الحصول على [المشروع كاملاً من هنا](https://scratch.mit.edu/projects/627780401/){:target="_blank"}.
-
---- /collapse ---
 
 --- save ---
 
