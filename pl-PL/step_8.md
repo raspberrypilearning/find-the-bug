@@ -53,7 +53,7 @@ Oto kod, którego użyliśmy dla papugi:
 
 ```blocks3
 when flag clicked
-set rotation style [left-right v] // nie idź do góry nogami
+set rotation style [lewo-prawo v] // nie idź do góry nogami
 point in direction [35] // liczba od -180 do 180
 forever // nie przestawaj być denerwujący
 move [10] steps // liczba kontroluje prędkość

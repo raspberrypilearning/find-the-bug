@@ -96,7 +96,7 @@ Twój robak może teraz znajdować się przed papugą.
 
 --- task ---
 
-Dodaj skrypt, aby upewnić się, że robak jest zawsze na `spodzie`{class="block3looks"}:
+Dodaj skrypt, aby upewnić się, że robak jest zawsze na `spodzie`{:class="block3looks"}:
 
 ![Duszek robaka.](images/bug-sprite.png)
 

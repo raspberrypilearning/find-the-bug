@@ -55,7 +55,7 @@ Kliknij duszka **robaka** i dodaj kod, aby umieścić go na ekranie „koniec”
 ![Duszek robaka.](images/bug-sprite.png)
 
 ```blocks3
-when backdrop switches to [end v]
+when backdrop switches to [koniec v]
 set size to [100] % // pełnowymiarowy
 go to x: [0] y: [30] // na tablicy
 ```
@@ -73,7 +73,7 @@ Blok `stoper`{:class="block3sensing"} znajduje się w sekcji bloków `Czujniki`{
 ![Duszek robaka.](images/bug-sprite.png)
 
 ```blocks3
-when backdrop switches to [end v]
+when backdrop switches to [koniec v]
 set size to [100] % // pełnowymiarowy
 go to x: [0] y: [30] // na tablicy
 +say (timer) // sekundy, które upłynęły
