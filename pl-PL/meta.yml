@@ -1,0 +1,32 @@
+---
+title: Znajdź robaka
+hero_image: images/banner.png
+description: Stwórz grę, w której na każdym poziomie musisz znaleźć ukrytego robaka
+meta_title: Projekty Scratch dla dzieci i młodzieży | Znajdź robaka
+meta_description: Naucz się programować w języku Scratch dzięki projektom Fundacji Raspberry Pi dla dzieci i nastolatków. Stwórz grę w Scratch i znajdź robaka ukrytego na każdym poziomie.
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-02-26"
+steps:
+  - title: Co będziesz robić
+  - title: Ekran startowy
+  - title: Pierwszy poziom
+    completion:
+      - engaged
+  - title: Rozpraszająca papuga
+  - title: Drugi poziom
+  - title: Ekran końcowy
+    completion:
+      - internal
+  - title: Szybki quiz
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Ulepsz swoją grę
+  - title: Udostępnij i graj
+  - title: Co dalej?
