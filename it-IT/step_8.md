@@ -1,28 +1,28 @@
-## Upgrade your game
+## Migliora il tuo gioco
 
-If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text on the chalkboard.
+Se hai tempo, puoi aggiungere più livelli e più distrazioni al tuo gioco. Potresti anche cambiare lo sprite che si nasconde e cambiare il testo sulla lavagna.
 
 --- task ---
 
-Play your game and see how quickly you can find the bugs.
+Gioca e scopri quanto sei veloce a trovare gli insetti.
 
-Is there someone else who can try your game? How fast can they find the bugs? They will not know where you have hidden them, so it might take them a bit longer!
+C'è qualcun altro che può provare il tuo gioco? Quanto velocemente riescono a trovare i bug? Non sapranno dove li hai nascosti, quindi potrebbe volerci un po' più di tempo!
 
-Is there anything that you want to change?
+C'è qualcosa che vuoi cambiare?
 
-You could:
-- Make the parrot even more annoying
-- Make the bugs smaller
-- Change the `color effect`{:class="block3looks"} to camouflage the bug on each level
-- Change the font or colour of the text
+Potresti:
+- Rendere il pappagallo più fastidioso
+- Rimpicciolire l'insetto
+- Cambiare l'`effetto colore`{:class="block3looks"} per camuffare il bug su ogni livello
+- Cambiare il carattere o il colore del testo
 
 --- /task ---
 
-### Add more levels
+### Aggiungi più livelli
 
 --- task ---
 
-Here are the blocks that you will need to hide the bug on a new level:
+Ecco i blocchi di cui avrai bisogno per nascondere l'insetto su un nuovo livello:
 
 ```blocks3
 when backdrop switches to [new level v]
@@ -34,22 +34,22 @@ go to x: [0] y: [0] // drag to position the bug first
 set [color v] effect to [50]
 ```
 
-For each level, you will need to:
-- Add a backdrop
-- Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
-- Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug
+Per ogni livello, dovrai:
+- Aggiungere uno sfondo
+- Fare clic sul pannello Stage, quindi sulla scheda **Sfondi**, poi trascinare il nuovo sfondo in posizione prima dello sfondo **fine**
+- Aggiungi un blocco `quando lo sfondo passa a`{:class="block3events"} per il nuovo sfondo e aggiungi il codice per posizionare e nascondere l'insetto
 
-**Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the backdrop does not switch when you click on the bug to position it for a new level.
+**Suggerimento:** Per trascinare l'insetto in un nuovo nascondiglio, dovrai 'smontare' il codice in modo che lo sfondo non cambi quando fai clic sul bug per posizionarlo nel nuovo livello.
 
 --- /task ---
 
-### Add more distractions
+### Aggiungi più distrazioni
 
 --- task ---
 
-You could add more parrots or choose another sprite to act as a distraction.
+Potresti aggiungere altri pappagalli o scegliere un altro sprite come distrazione.
 
-Here is the code that you used for the parrot:
+Ecco il codice che hai usato per il pappagallo:
 
 ```blocks3
 when flag clicked
@@ -64,17 +64,17 @@ wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
-**Tip:** You can drag the **Parrot** sprite's code to another sprite to make it faster to create another distraction sprite.
+**Suggerimento:** Puoi trascinare il codice dello sprite **Parrot** su un altro sprite per rendere più veloce la creazione di un altro sprite distrattore.
 
-![Dragging code from the Code area to another sprite in the Sprite list.](images/drag-parrot-code.gif)
+![Trascinare il codice dall'area Codice ad un altro sprite nell'elenco degli Sprite.](images/drag-parrot-code.gif)
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+title: Il progetto completo
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+Puoi visualizzare il [progetto completato qui](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
 
 --- /collapse ---
