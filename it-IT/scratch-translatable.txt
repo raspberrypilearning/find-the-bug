@@ -1,0 +1,51 @@
+piccolino
+
+sulla palla della discoteca
+
+schermata 'inizio'
+
+inizio
+
+dimensione originale
+
+sulla lavagna
+
+non andare a testa in giù
+
+numero da -180 a 180
+
+continua a dar fastidio
+
+il numero controlla la velocità
+
+rimani sullo Stage
+
+sbatti le ali
+
+prova 11 o 50
+
+prova 0.1 o 0.5
+
+scegli il tuo sfondo
+
+prova un'altra dimensione
+
+nella vetrina del negozio
+
+secondi impiegati
+
+fine
+
+non dire niente
+
+primo livello
+
+avvia il cronometro
+
+trascina per posizionare per prima cosa il bug
+
+nuovo livello
+
+buon nascondiglio
+
+tieni l'insetto in secondo piano
