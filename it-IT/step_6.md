@@ -98,7 +98,7 @@ Aggiungi il codice per fare in modo che l'insetto smetta di dire il valore del `
 ![Lo sprite insetto.](images/bug-sprite.png)
 
 ```blocks3
-when backdrop switches to [start v]
+when backdrop switches to [inizio v]
 set size to [100] % // dimensione originale
 go to x: [0] y: [30] // sulla lavagna
 +say [] // non dire niente

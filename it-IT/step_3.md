@@ -84,7 +84,7 @@ Fai clic sul pannello degli Stage e aggiungi questo codice allo **Stage**:
 
 ```blocks3
 when flag clicked
-switch backdrop to [start v] // schermata 'inizio'
+switch backdrop to [inizio v] // schermata 'inizio'
 ```
 
 --- /task ---
