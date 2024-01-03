@@ -55,7 +55,7 @@ Fai clic sullo sprite **bug** e aggiungi il codice per posizionare l'insetto nel
 ![Lo sprite bug.](images/bug-sprite.png)
 
 ```blocks3
-when backdrop switches to [end v]
+when backdrop switches to [fine v]
 set size to [100] % // dimensione originale
 go to x: [0] y: [30] // sulla lavagna
 ```
@@ -73,7 +73,7 @@ Il blocco `cronometro`{:class="block3sensing"} si trova nel menu dei blocchi `Se
 ![Lo sprite insetto.](images/bug-sprite.png)
 
 ```blocks3
-when backdrop switches to [end v]
+when backdrop switches to [fine v]
 set size to [100] % // dimensione originale
 go to x: [0] y: [30] // sulla lavagna
 +say (timer) // secondi impiegati
