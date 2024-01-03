@@ -1,11 +1,11 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Domanda 3 di 3
 ---
 
-You added this script to the **bug** sprite:
+Hai aggiunto questo script allo sprite **bug**:
 
-![The bug sprite.](images/bug-sprite.png)
+![Lo sprite bug.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -14,39 +14,39 @@ go to x: [0] y: [30]
 + say (timer) 
 ```
 
-How does the `say`{:class="block3looks"} `timer`{:class="block3sensing"} block make the Stage look when the backdrop switches to **end**?
+In che modo il blocco `dire`{:class="block3looks"} `cronometro`{:class="block3sensing"} modifica lo Stage quando lo sfondo passa a **fine**?
 
 --- choices ---
 
-- ( ) ![A parrot saying the timer value "4.52".](images/quiz_parrot_number.png)
+- ( ) ![Un pappagallo che dice il valore del cronometro "4.52".](images/quiz_parrot_number.png)
 
   --- feedback ---
 
-Have a look at the script again, and think about which sprite is the main character of the game (the parrot is just an annoying distraction).
+Dai un'occhiata allo script di nuovo e pensa a quale tra gli sprite è il personaggio principale del gioco (il parrot è solo una fastidiosa distrazione).
 
   --- /feedback ---
 
-- ( ) ![A parrot saying the word "timer".](images/quiz_parrot_timer.png)
+- ( ) ![Un parrot che dice la parola "cronometro".](images/quiz_parrot_timer.png)
 
   --- feedback ---
 
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer". Also, think about which sprite uses this code.
+Il blocco `cronometro`{:class="block3sensing"} proviene dal menu dei blocchi `Sensori`{:class="block3sensing"}. Lo sprite non dice la parola 'cronometro'. Inoltre, pensa a quale sprite utilizza questo codice.
 
   --- /feedback ---
 
-- (x) ![A bug saying the timer value "4.52".](images/quiz_bug_number.png)
+- (x) ![Un bug che dice il valore del cronometro "4.52".](images/quiz_bug_number.png)
 
   --- feedback ---
 
-Yes. The `timer`{:class="block3sensing"} block reports the time since the project started, or since the timer reset. The `say`{:class="block3looks"} block creates a speech bubble next to bug.
+Sì. Il blocco `cronometro`{:class="block3sensing"} riporta il tempo trascorso dall'avvio del progetto o da quando è stato azzerato il cronometro. Il blocco `dire`{:class="block3looks"} crea un fumetto accanto al bug.
 
   --- /feedback ---
 
-- ( ) ![A bug saying the word "timer".](images/quiz_bug_timer.png)
+- ( ) ![Un bug che dice la parola "cronometro".](images/quiz_bug_timer.png)
 
   --- feedback ---
 
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer".
+Il blocco `cronometro`{:class="block3sensing"} proviene dal menu dei blocchi `Sensori`{:class="block3sensing"}. Lo sprite non dice la parola 'cronometro'.
 
   --- /feedback ---
 
