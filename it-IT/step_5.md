@@ -1,72 +1,72 @@
-## Second level
+## Secondo livello
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Choose a backdrop to make a second level for your game, and make the bug hard to find. 
+Scegli uno sfondo per creare un secondo livello per il tuo gioco e rendere ancora più difficile trovare il bug. 
 </div>
 <div>
 
-![A street scene with a hidden bug.](images/second-level.png){:width="300px"}
+![Una scena in strada con un insetto nascosto.](images/second-level.png){:width="300px"}
 
 </div>
 </div>
 
-### Add another backdrop
+### Aggiungi un altro sfondo
 
 --- task ---
 
-**Choose:** Choose a backdrop for your second level. We have chosen the **Urban** backdrop, but you can choose the one that you like the most.
+**Scegli:** Scegli uno sfondo per il tuo secondo livello. Noi abbiamo scelto lo sfondo **Urban**, ma tu puoi scegliere quello che più ti piace.
 
-![The bug and parrot on an urban backdrop.](images/insert-urban-backdrop.png)
+![L'insetto ed il pappagallo sullo sfondo Urban.](images/insert-urban-backdrop.png)
 
-**Tip:** Remember that backdrops with lots of colours and details will make the bug harder to find. How difficult will you make your game?
+**Suggerimento:** Ricorda che sfondi con molti colori e dettagli renderanno più difficile trovare l'insetto. Quanto puoi rendere difficile il tuo gioco?
 
 --- /task ---
 
-### Stop the code from running
+### Ferma l'esecuzione del codice
 
 --- task ---
 
-Drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them from running when you click on the bug:
+Separa i comandi dal blocco `quando si clicca su questo sprite`{:class="block3events"} per impedire l'esecuzione quando fai clic sull'insetto:
 
-![Breaking the code.](images/breaking-script.png)
+![Rompere il codice.](images/breaking-script.png)
 
 --- /task ---
 
-### Resize the bug
+### Ridimensiona l'insetto
 
 --- task ---
 
-Add code to `set the size`{:class="block3looks"} of the bug for the second level:
+Aggiungi il codice a `porta dimensione a`{:class="block3looks"} del bug per il secondo livello:
 
-![The bug sprite.](images/bug-sprite.png)
+![Lo sprite bug.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v] // choose your backdrop
 set size to [20] % // try another size 
 ```
 
-**Test:** Click on your new script to run it.
+**Prova:** Fai clic sul nuovo script per eseguirlo.
 
 --- /task ---
 
-### Hide your bug
+### Nascondi il tuo insetto
 
 --- task ---
 
-Drag your bug on the Stage to a good hiding place for this level.
+Trascina il tuo insetto sullo Stage, in un buon nascondiglio per questo livello.
 
-![The bug hidden in the shop window in the middle of the backdrop.](images/hidden-urban-backdrop.png)
+![L'insetto nascosto nella finestra del negozio nel centro dello sfondo.](images/hidden-urban-backdrop.png)
 
 --- /task ---
 
-Position your bug in its hiding place.
+Posiziona il tuo insetto nel suo nascondiglio.
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block to your code:
+Aggiungi un blocco `vai a x: y:`{:class="block3motion"} nel tuo codice:
 
-![The bug sprite.](images/bug-sprite.png)
+![Lo sprite insetto.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -76,29 +76,29 @@ set size to [20] % // try another size
 
 --- /task ---
 
-### Test your code
+### Prova il tuo codice
 
 --- task ---
 
-Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that when the bug is clicked, the backdrop switches to the `next backdrop`{:class="block3looks"}:
+Unisci i blocchi al blocco `quando si clicca su questo sprite`{:class="block3events"} in modo che quando si fa clic sul bug, lo sfondo`passa allo sfondo seguente`{:class="block3looks"}:
 
-![The blocks are joined back together.](images/fixed-script.png)
+![I blocchi vengono raggruppati nuovamente.](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your project.
+**Prova:** Clicca sulla bandierina verde per testare il tuo progetto.
 
 --- /task ---
 
-Your bug may now be in front of the parrot.
+Il tuo insetto potrebbe trovarsi davanti al tuo pappagallo.
 
 --- task ---
 
-Add a script to make sure that your bug is always at the `back`{:class="block3looks"}:
+Aggiungi uno script per assicurarti che il tuo insetto sia sempre `in secondo piano`{:class="block3looks"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![Lo sprite insetto.](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -106,6 +106,6 @@ forever
 go to [back v] layer
 ```
 
-Now, your bug will always stay at the back, even if you need to change its position.
+Ora il tuo bug resterà sempre dietro, anche quando gli cambierai posizione.
 
 --- /task ---
