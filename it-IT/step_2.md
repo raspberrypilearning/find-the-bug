@@ -1,124 +1,124 @@
-## Start screen
+## Schermata iniziale
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Give your game a 'start' screen.
+Dai al tuo gioco una schermata di 'inizio'.
 </div>
 <div>
 
-!["Find the bug" text on a chalkboard on the Stage.](images/start-screen.png){:width="300px"}
+![Il testo "Trova l'insetto" su una lavagna sullo Stage.](images/start-screen.png){:width="300px"}
 
 </div>
 </div>
 
-### Open the starter project
+### Apri il progetto iniziale
 
 --- task ---
 
-Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch will open in another browser tab.
+Apri il [progetto iniziale di Trova l'insetto](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch si aprirà in una nuova scheda del browser.
 
 [[[working-offline]]]
 
 --- /task ---
 
-### Add a Backdrop
+### Aggiungi uno sfondo
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+Aggiungi lo sfondo **Chalkboard** dalla categoria **Interni**.
 
-![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
+![L'icona 'Scegli uno Sfondo'.](images/backdrop-button.png)
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![Lo sfondo Lavagna nella libreria degli sfondi.](images/chalkboard.png)
 
 --- /task ---
 
-The **Stage** has a **Backdrops** tab instead of a **Costumes** tab. This is where you can create images for the **Stage**.
+Lo **Stage** ha una scheda **Sfondi** invece della scheda **Costumi**. Qui è dove puoi creare immagini per lo **Stage**.
 
 --- task ---
 
-Click on the Stage pane.
+Fai clic sullo pannello degli Stage.
 
-![The Stage pane in the bottom right corner is highlighted.](images/stage-pane.png)
+![Il pannello degli stage viene evidenziato nell'angolo in basso a destra.](images/stage-pane.png)
 
 --- /task ---
 
-### Edit the Backdrop
+### Modifica lo sfondo
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+Fai clic sulla scheda **Sfondi** per aprire l'editor Paint.
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard-paint.png)
-
---- /task ---
-
---- task ---
-
-Select **backdrop1** and click on the **Delete** icon to remove the **backdrop1** backdrop from your project. You will not need the **backdrop1** backdrop in this project.
-
-![Backdrop1 is highlighted in the top left corner.](images/delete-backdrop1.png)
-
---- /task ---
-
-The **Chalkboard** backdrop will now be highlighted.
-
---- task ---
-
-Click on **Convert to Vector**. Now, you will be able to add text that you can move around.
-
-![The 'Convert to Vector' button.](images/vector-button.png)
+![Lo sfondo Chalkboard nell'editor Paint.](images/chalkboard-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Use the **Text** tool to add the text `Find the bug` to the chalkboard:
+Seleziona **backdrop1** e fai clic sull'icona **Cancella** per rimuovere lo sfondo **backdrop1** dal tuo progetto. Non avrai bisogno dello sfondo **backdrop1** in questo progetto.
 
-![Find the bug is written on the chalkboard.](images/chalkboard-text.png)
-
-We used the **Marker** font in white, but **choose** the font and colour that you want to use.
-
-**Tip:** Switch to the **Select** (Arrow) tool to move your text around. To change the size of the text, grab the corner of the text and drag it.
+![Backdrop1 è evidenziato nell'angolo in alto a sinistra.](images/delete-backdrop1.png)
 
 --- /task ---
 
-## Rename the Backdrop
+Lo sfondo **Chalkboard** verrà ora evidenziato.
 
 --- task ---
 
-Change the name of the backdrop to `start`, because you will need to select it later in the project.
+Fai clic su **Converti in vettoriale**. Ora sarai in grado di aggiungere un testo che puoi spostare.
 
-![The Costume name box highlighted in the Paint editor.](images/start-screen-name.png)
-
-**Tip:** If you use names that make sense, it will be easier to understand your project, especially when you come back to a project later.
-
---- /task ---
-
-### Add the Bug Sprite
-
---- task ---
-
-Delete the **Scratch Cat** sprite.
+![Il pulsante "Converti in vettoriale".](images/vector-button.png)
 
 --- /task ---
 
 --- task ---
 
-Click on **Choose a Sprite** and type `bug` in the search box.
+Utilizza lo strumento **Testo** per aggiungere il testo `Trova l'insetto` alla lavagna:
 
-**Choose:** Choose a bug, which players will need to find in your game.
+![Trova l'insetto è scritto sulla lavagna (Chalkboard).](images/chalkboard-text.png)
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+Abbiamo utilizzato il carattere **Marker** in bianco, ma **scegli** il carattere e il colore che desideri utilizzare.
 
-!["bug" search results showing seven different bugs.](images/bug-search.png)
+**Suggerimento:** Passa allo strumento **Seleziona** (Freccia) per spostare il testo. Per modificare la dimensione del testo, prendi l'angolo del testo e trascinalo.
 
-**Tip:** Give your project a name. You might like to include the name of the bug that you have just chosen.
+--- /task ---
+
+## Rinomina lo sfondo
+
+--- task ---
+
+Cambia il nome dello sfondo in `inizio`, perché dovrai selezionarlo più avanti nel progetto.
+
+![La casella del nome del Costume evidenziata nell'editor Paint.](images/start-screen-name.png)
+
+**Suggerimento:** Se usi nomi che hanno un senso, sarà più facile capire il tuo progetto, soprattutto quando tornerai su un progetto in seguito.
+
+--- /task ---
+
+### Aggiungi lo sprite Bug
+
+--- task ---
+
+Elimina lo sprite **Scratch Cat**.
+
+--- /task ---
+
+--- task ---
+
+Clicca su **Scegli uno Sprite** e digita `bug` nella casella di ricerca.
+
+**Scegli:** Scegli un insetto che i giocatori dovranno trovare nel tuo gioco.
+
+![L'icona 'Scegli uno Sprite'.](images/sprite-button.png)
+
+!["bug" risultati della ricerca che mostrano sette bug diversi.](images/bug-search.png)
+
+**Suggerimento:** Dai un nome al tuo progetto. Potresti includere il nome del bug che hai appena scelto.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A mistake in a computer program is called a <span style="color: #0faeb0">**bug**</span>. Finding and removing mistakes in computer programs is called <span style="color: #0faeb0">**debugging**</span>. Grace Hopper is a famous software engineer. Her team once found a moth in their computer. Their notes say, "First actual case of bug being found."
+Un errore in un programma per computer è chiamato <span style="color: #0faeb0">**bug**</span>. Trovare e rimuovere errori nei programmi del computer si dice <span style="color: #0faeb0">**debuggare**</span>. Grace Hopper è una famosa ingegnera del software. La sua squadra una volta trovò una falena nel loro computer. Le loro note dicono: "È stato trovato il primo caso reale di bug."
 </p>
 
 
