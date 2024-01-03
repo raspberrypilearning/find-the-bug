@@ -1,21 +1,21 @@
-## You will make
+## Quello che farai
 
-Create a game in which you have to find a hidden bug 🐞 on each level. The game will have 'start' and 'end' screen backdrops, and a timer ⌚ to show the player how quickly they found the bugs.
+Crea un gioco in cui dovrai trovare l'insetto (bug) nascosto 🐞 in ogni livello. Il gioco avrà sfondi per le schermate di 'inizio' e 'fine' e un cronometro ⌚ per mostrare al giocatore quanto velocemente ha trovatogli insetti.
 
-You will:
-+ Create levels for your game using `next backdrop`{:class="block3looks"} and `when backdrop switches to`{:class="block3events"} blocks
-+ Use a `forever`{:class="block3control"} loop to keep running code blocks
-+ Use the `timer`{:class="block3sensing"} **variable** to let the player know how quickly they found the bugs
+Tu:
++ Crea livelli per il tuo gioco utilizzando i blocchi `passa allo sfondo seguente`{:class="block3looks"} e `quando lo sfondo passa a`{:class="block3events"}
++ Utilizza un ciclo `per sempre`{:class="block3control"} per continuare a eseguire blocchi di codice
++ Usa il `cronometro`{:class="block3sensing"}, **variabile** per far sapere al giocatore quanto velocemente ha trovato i bug
 
 --- no-print --- --- task ---
-### Play ▶️
+### Gioca ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
-Click on the bug to start the game.
+Clicca sul bug per cominciare il gioco.
 
-Try to find the bug on each level.
+Prova a trovare il bug in ogni livello.
 
-How well are the bugs hidden? You will get to add your own levels and make it as easy or difficult as you like.
+Quanto bene sono nascosti i bug? Potrai aggiungere i tuoi livelli e renderlo più facile o più difficile.
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -28,10 +28,10 @@ How well are the bugs hidden? You will get to add your own levels and make it as
 
 --- print-only ---
 
-![The completed project.](images/showcase_static.png)
+![Il progetto completo.](images/showcase_static.png)
 
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-More than 2.5 billion people play video games every year. Just think how many people are involved in creating those games. Would you like a job designing, coding, or testing games for other people to play? 
+Ogni anno più di 2.5 miliardi di persone giocano ai videogiochi. Pensa solo a quante persone sono coinvolte nella creazione di quei giochi. Ti piacerebbe un lavoro di progettazione, programmazione o test di giochi affinché altre persone possano giocare? 
 </p>
