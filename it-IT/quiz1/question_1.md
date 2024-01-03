@@ -1,17 +1,17 @@
-## Quick quiz
+## Quiz veloce
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Rispondi alle tre domande. Ci sono indizi per aiutarti a trovare la risposta corretta.
 
-When you have answered each question, click on **Check my answer**.
+Dopo aver risposto a ciascuna domanda, fai clic su **Controlla la mia risposta**.
 
-Have fun!
+Divertiti!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Domanda 1 di 3
 ---
 
-In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
+Nel tuo gioco, hai aggiunto questo codice al tuo **bug** per muoverti attraverso gli sfondi ogni volta che viene cliccato.
 
 ```blocks3
 when this sprite clicked
@@ -19,19 +19,19 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Look at this image showing a 'Find the bug' game being played.
+Guarda questa immagine che mostra il gioco 'Trova l'insetto' mentre è in esecuzione.
 
-![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
+![L'editor Scratch con gli sfondi nell'ordine inizio, Spotlight, Urbano, fine; e lo Stage che mostra lo sfondo Spotlight.](images/quiz1-backdrops.png)
 
-In this game, which backdrop would appear next when you click on the bug?
+In questo gioco, quale sfondo apparirà dopo quando clicchi sull'insetto?
 
 --- choices ---
 
-- ( ) start
+- ( ) inizio
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  Devi pensare all'ordine degli sfondi.
 
   --- /feedback ---
 
@@ -39,7 +39,7 @@ In this game, which backdrop would appear next when you click on the bug?
 
   --- feedback ---
 
-Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
+Sì. Il blocco `passa allo sfondo seguente`{:class="block3looks"} passa allo sfondo successivo nell'ordine dell'elenco di sfondi nella scheda **Sfondi** per lo **Stage**.
 
 --- /feedback ---
 
@@ -47,15 +47,15 @@ Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdr
 
   --- feedback ---
 
-  The **Spotlight** backdrop is showing on the Stage. You need to think about the order of the backdrops.
+  Lo sfondo **Spotlight** è mostrato sullo Stage. Devi pensare all'ordine degli sfondi.
 
   --- /feedback ---
 
-- ( ) end
+- ( ) fine
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  Devi pensare all'ordine degli sfondi.
 
   --- /feedback ---
 
