@@ -1,51 +1,51 @@
-tiny
+piccolino
 
-on the disco ball
+sulla palla della discoteca
 
-'start' screen
+schermata 'inizio'
 
-start
+inizio
 
-full-sized
+dimensione originale
 
-on the board
+sulla lavagna
 
-do not go upside down
+non andare a testa in giù
 
-number from -180 to 180
+numero da -180 a 180
 
-keep being annoying
+continua a dar fastidio
 
-the number controls the speed
+il numero controlla la velocità
 
-stay on the Stage
+rimani sullo Stage
 
-flap
+sbatti le ali
 
-try 11 or 50
+prova 11 o 50
 
-try 0.1 or 0.5
+prova 0.1 o 0.5
 
-choose your backdrop
+scegli il tuo sfondo
 
-try another size
+prova un'altra dimensione
 
-in the shop window
+nella vetrina del negozio
 
-seconds taken
+secondi impiegati
 
-end
+fine
 
-say nothing
+non dire niente
 
-first level
+primo livello
 
-start the timer
+avvia il cronometro
 
-drag to position the bug first
+trascina per posizionare per prima cosa il bug
 
-new level
+nuovo livello
 
-good hiding place
+buon nascondiglio
 
-keep the bug at the back
+tieni l'insetto in secondo piano
