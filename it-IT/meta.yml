@@ -1,32 +1,32 @@
 ---
-title: Find the bug
+title: Trova l'insetto
 hero_image: images/banner.png
-description: Create a game in which you have to find a hidden bug on each level
-meta_title: Scratch coding projects for kids and teens | Find the bug
-meta_description: Learn to code in Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch game and find a hidden bug on each level.
+description: Crea un gioco in cui dovrai trovare l'insetto (bug) nascosto in ogni livello
+meta_title: Progetti di programmazione con Scratch per bambini e ragazzi | Trova l'insetto
+meta_description: Impara a programmare con Scratch e i progetti di programmazione per bambini e ragazzi offerti dalla Raspberry Pi Foundation. Crea un gioco in Scratch e trova l'insetto (bug) nascosto in ciascun livello.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: You will make
+    title: Quello che farai
   - 
-    title: Start screen
+    title: Schermata iniziale
   - 
-    title: First level
+    title: Primo livello
     completion:
       - engaged
   - 
-    title: Parrot distraction
+    title: Il parrot disturbatore
   - 
-    title: Second level
+    title: Secondo livello
   - 
-    title: End screen
+    title: Schermata finale
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Quiz veloce
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,8 +35,8 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your game
+    title: Migliora il tuo gioco
   - 
-    title: Share and play
+    title: Condividi e gioca
   - 
-    title: What next?
+    title: E adesso?
