@@ -1,58 +1,58 @@
-## End screen
+## Schermata finale
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
+Crea una schermata 'fine' per mostrare il numero di secondi impiegati dal giocatore per trovare i bug. 
 </div>
 <div>
 
-![The bug with the amount of time in a speech bubble.](images/end-screen.png){:width="300px"}
+![L'insetto con la quantità di tempo in un fumetto.](images/end-screen.png){:width="300px"}
 
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Sometimes, just beating a game isn't enough. Players like to know how they did against other players or themselves. Can you think of a game that shows you how well you did?</p>
+A volte, completare un gioco non è sufficiente. Ai giocatori piace sapere come si sono comportati contro altri giocatori o contro loro stessi. Riesci a pensare a un gioco che ti dimostri quanto sei stato bravo nel completarlo?</p>
 
-### Add another backdrop
+### Aggiungi un altro sfondo
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+Aggiungi lo sfondo **Chalkboard** dalla categoria **Interni**.
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![Lo sfondo Chalkboard (lavagna) nella libreria degli sfondi.](images/chalkboard.png)
 
-**Tip:** In Scratch, you can add the same backdrop more than once.
+**Suggerimento:** In Scratch puoi aggiungere lo stesso sfondo più di una volta.
 
 --- /task ---
 
-### Edit the backdrop
+### Modifica lo sfondo
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+Fai clic sulla scheda **Sfondi** per aprire l'editor Paint.
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard2-paint.png)
+![Lo sfondo Chalkboard nell'editor Paint.](images/chalkboard2-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Change the name of the backdrop to `end`:
+Cambia il nome dello sfondo in `fine`:
 
-![The backdrop name changed in the Paint editor.](images/end-screen-name.png)
+![Il nome dello sfondo è cambiato nell'editor Paint.](images/end-screen-name.png)
 
-**Tip:** You rename the backdrop to **end** to make it easier to understand your code.
+**Suggerimento:** Rinomina lo sfondo in **fine** per capire meglio il codice che scriverai.
 
 --- /task ---
 
-### Position the bug
+### Posiziona l'insetto
 
 --- task ---
 
-Click on the **bug** sprite and add code to position the bug on the 'end' screen:
+Fai clic sullo sprite **bug** e aggiungi il codice per posizionare l'insetto nella schermata 'fine':
 
-![The bug sprite.](images/bug-sprite.png)
+![Lo sprite bug.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -62,15 +62,15 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Add a timer
+### Aggiungi un cronometro
 
-How long does it take you to find and click on the bugs? Scratch has a `timer`{:class="block3sensing"} that you can use to find out.
+Quanto tempo impieghi per trovare e fare clic sugli insetti? Scratch ha un `cronometro`{:class="block3sensing"} che puoi utilizzare per scoprirlo.
 
 --- task ---
 
-The `timer`{:class="block3sensing"} block is in the `Sensing`{:class="block3sensing"} blocks menu. Add code to make the bug `say`{:class="block3looks"} the `timer`{:class="block3sensing"} on the 'end' screen:
+Il blocco `cronometro`{:class="block3sensing"} si trova nel menu dei blocchi `Sensori`{:class="block3sensing"}. Aggiungi il codice per fare in modo che l'insetto `dica`{:class="block3looks"} la `durata`{:class="block3sensing"} nella schermata 'fine':
 
-![The bug sprite.](images/bug-sprite.png)
+![Lo sprite insetto.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -79,23 +79,23 @@ go to x: [0] y: [30] // on the board
 +say (timer) // seconds taken
 ```
 
-![Inserting a 'timer' block into a 'say' block.](images/inserting-blocks.gif)
+![Inserimento di un blocco 'cronometro' in un blocco 'dire'.](images/inserting-blocks.gif)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your finding skills. How long does it take you to find the bug?
+**Prova:** Clicca sulla bandierina verde per mettere alla prova la tua vista e velocità. Quanto tempo impieghi per trovare il bug?
 
 --- /task ---
 
-To go back to the 'start' screen, click on the bug on the 'end' screen.
+Per tornare alla schermata 'inizio', fare clic sull'insetto nella schermata 'fine'.
 
 --- task ---
 
-Add code to make the bug stop saying the `timer`{:class="block3sensing"} when you go to the 'start' screen:
+Aggiungi il codice per fare in modo che l'insetto smetta di dire il valore del `cronometro`{:class="block3sensing"} quando vai alla schermata 'inizio':
 
-![The bug sprite.](images/bug-sprite.png)
+![Lo sprite insetto.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -106,15 +106,15 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Stop the timer
+### Ferma il cronometro
 
-If you play the game a second time, the `timer`{:class="block3sensing"} will keep counting.
+Se giochi una seconda volta, il `cronometro`{:class="block3sensing"} continuerà a contare.
 
 --- task ---
 
-Add code to `reset the timer`{:class="block3sensing"} when the `backdrop switches to`{:class="block3events"} the first level:
+Aggiungi il codice `azzera il cronometro`{:class="block3sensing"} `quando lo sfondo passa a`{:class="block3events"} il primo livello:
 
-![The bug sprite.](images/bug-sprite.png)
+![Lo sprite insetto.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v] // first level
@@ -127,7 +127,7 @@ go to x: [13] y: [132] // on the disco ball
 
 --- task ---
 
-**Test:** Click on the green flag and play the game. The timer should reset when you click on the bug on the 'start' screen to move to the first level. When you click on the bug on the 'end' screen, you should return to the 'start' screen and see that the bug is not saying the `timer`{:class="block3sensing"}.
+**Prova:** Clicca sulla bandierina verde e gioca. Il cronometro dovrebbe azzerarsi quando si fa clic sull'insetto nella schermata 'inizio' per passare al primo livello. Quando fai clic sull'insetto nella schermata 'fine', dovresti tornare alla schermata 'inizio' e vedere che il bug non dice il valore del `cronometro`{:class="block3sensing"}.
 
 --- /task ---
 
