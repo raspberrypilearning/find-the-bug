@@ -23,7 +23,7 @@ Schau dir dieses Bild an, das ein „Finde den Bug“ Spiel zeigt.
 
 ![Der Scratch-Editor mit Hintergründen in der Reihenfolge Start, Spotlight, Urban, Ende; und die Bühne mit dem Spotlight-Hintergrund.](images/quiz1-backdrops.png)
 
-In this game, which backdrop would appear next when you click on the bug?
+Welcher Hintergrund würde in diesem Spiel als nächstes erscheinen, wenn du auf den Bug klickst?
 
 --- choices ---
 
