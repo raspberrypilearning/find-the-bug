@@ -3,9 +3,9 @@
 Erstelle ein Spiel, in dem du in jedem Level einen versteckten Bug 🐞 finden musst. Im Spiel wird es 'Start' und 'Ende' Hintergrundbildschirme geben, sowie eine Stoppuhr ⌚, die anzeigt, wie schnell die Bugs gefunden wurden.
 
 Du wirst:
-+ Create levels for your game using `next backdrop`{:class="block3looks"} and `when backdrop switches to`{:class="block3events"} blocks
++ Erstelle Level für dein Spiel, indem du die Blöcke `wechsle zum nächsten Bühnenbild`{:class="block3looks"} und `Wenn das Bühnenbild wechselt`{:class="block3events"} einsetzt
 + Eine `wiederhole fortlaufend`{:class="block3control"} Schleife verwenden um Code Blöcke laufen zu lassen
-+ Use the `timer`{:class="block3sensing"} **variable** to let the player know how quickly they found the bugs
++ Nutze die `Stoppuhr`{:class="block3sensing"} **Variable**, um mitzuteilen, wie schnell die Bugs gefunden wurden
 
 --- no-print --- --- task ---
 ### Spielen ▶️
