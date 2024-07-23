@@ -50,9 +50,9 @@ Klicke auf die Registerkarte **Hintergrundbilder**, um den Mal-Editor zu öffnen
 
 --- task ---
 
-Click on the **bug** sprite and add code to position the bug on the 'end' screen:
+Klicke auf die **Bug**-Figur und füge Code hinzu, um den Bug auf dem Endbildschirm zu positionieren:
 
-![The bug sprite.](images/bug-sprite.png)
+![Die Bug-Figur.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -68,9 +68,9 @@ Wie lange dauert es, den Bug zu finden und anzuklicken? Scratch verfügt über e
 
 --- task ---
 
-Der Block `Stoppuhr`{:class="block3sensing"} befindet sich im Blockmenü `Fühlen`{:class="block3sensing"}. Add code to make the bug `say`{:class="block3looks"} the `timer`{:class="block3sensing"} on the 'end' screen:
+Der Block `Stoppuhr`{:class="block3sensing"} befindet sich im Blockmenü `Fühlen`{:class="block3sensing"}. Füge Code hinzu, damit der Bug die `Zeit`{:class="block3sensing"} am „Ende“ Bildschirm `sagt`{:class="block3looks"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![Die Bug-Figur.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -95,7 +95,7 @@ Um zum 'Start' Bildschirm zurückzukehren, klicke auf den Bug im "Ende' Bildschi
 
 Füge Code hinzu, damit der Bug aufhört, die `Stoppuhr`{:class="block3sensing"} anzuzeigen, wenn du zum 'Start' Bildschirm gehst:
 
-![The bug sprite.](images/bug-sprite.png)
+![Die Bug-Figur.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -112,9 +112,9 @@ Wenn du das Spiel ein zweites Mal spielst, zählt die `Stoppuhr`{:class="block3s
 
 --- task ---
 
-Add code to `reset the timer`{:class="block3sensing"} when the `backdrop switches to`{:class="block3events"} the first level:
+Füge Code hinzu, um `die Stoppuhr zurückzusetzen`{:class="block3sensing"}, `wenn das Bühnenbild zum`{:class="block3events"} ersten Level wechselt:
 
-![The bug sprite.](images/bug-sprite.png)
+![Die Bug-Figur.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v] // first level
