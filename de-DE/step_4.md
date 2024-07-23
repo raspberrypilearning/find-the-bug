@@ -11,17 +11,17 @@ Um es Spielern zu erschweren, den Bug zu finden und anzuklicken, füge einen ner
 </div>
 </div>
 
-### Add the Parrot sprite
+### Füge dis Papagei-Figur hinzu
 
 --- task ---
 
-Add the **Parrot** sprite.
+Füge die **Papagei**-Figur hinzu.
 
 ![Das Symbol "Figur wählen".](images/sprite-button.png)
 
 --- /task ---
 
-### Animate the Parrot sprite
+### Animiere die Papagei-Figur
 
 Im Projekt [Erwische den Bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"} hast Du eine `wiederhole`{:class="block3control"} Schleife verwendet.
 
@@ -31,7 +31,7 @@ Du wirst hier eine andere Schleife verwenden. Eine `wiederhole fortlaufend`{:cla
 
 Füge Code hinzu, um den Papagei auf ablenkende Weise herumflattern zu lassen:
 
-![The Parrot sprite.](images/parrot-sprite.png)
+![Die Papagei-Figur.](images/parrot-sprite.png)
 
 
 ```blocks3
