@@ -27,7 +27,7 @@ Wybierz tło, aby stworzyć drugi poziom dla swojej gry i spraw, aby trudno był
 
 --- task ---
 
-Odłącz bloki kodu od bloku ` kiedy ten duszek kliknięty` {:class="block3events"}, aby nie wykonywały się po kliknięciu robaka:
+Odłącz bloki kodu od bloku `kiedy ten duszek kliknięty` {:class="block3events"}, aby nie wykonywały się po kliknięciu robaka:
 
 ![Łamanie skryptu.](images/breaking-script.png)
 
@@ -46,7 +46,7 @@ when backdrop switches to [Urban v] // choose your backdrop
 set size to [20] % // try another size 
 ```
 
-**Test: ** Kliknij swój nowy skrypt, aby go uruchomić.
+**Test:** Kliknij swój nowy skrypt, aby go uruchomić.
 
 --- /task ---
 
