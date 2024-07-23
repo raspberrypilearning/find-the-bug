@@ -62,7 +62,7 @@ Blok `następne tło`{:class="block3looks"} przełącza tło na następne, zgodn
 
 --- task ---
 
-Dodaj skrypt do swojego duszka **robaka** aby `grał dźwięk pop`{:class="block3sound"} i za pomocą polecenia `następne tło`{:class="block3looks"} zmieniał tło, wtedy `kiedy ten duszek kliknięty`{:class ="block3events"}:
+Dodaj skrypt do swojego duszka **robaka** aby `grał dźwięk Pop`{:class="block3sound"} i za pomocą polecenia `następne tło`{:class="block3looks"} zmieniał tło, wtedy `kiedy ten duszek kliknięty`{:class ="block3events"}:
 
 ![Duszek robaka.](images/bug-sprite.png)
 
