@@ -12,7 +12,7 @@ Aby przesłać swój projekt do naszego studia Scratch „Znajdź robaka” tak,
 
 --- no-print --- --- task ---
 
-Zagraj w te wspaniałe gry z naszego [ studia Scratch „Znajdź robaka”](https://scratch.mit.edu/studios/29005236/){:target="_blank"}.
+Zagraj w te wspaniałe gry z naszego [studia Scratch „Znajdź robaka”](https://scratch.mit.edu/studios/29005236/){:target="_blank"}.
 
 Zwróć uwagę, jak inni twórcy dodali dodatkowe poziomy, irytujące elementy rozpraszające uwagę lub ulepszyli ekran startowy i końcowy:
 
