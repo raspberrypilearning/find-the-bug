@@ -15,7 +15,7 @@ Daj swojej grze ekran startowy.
 
 --- task ---
 
-Otwórz [projekt startowy Znajdź robaka ](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch otworzy się w nowej karcie przeglądarki.
+Otwórz [projekt startowy Znajdź robaka](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch otworzy się w nowej karcie przeglądarki.
 
 [[[working-offline]]]
 
