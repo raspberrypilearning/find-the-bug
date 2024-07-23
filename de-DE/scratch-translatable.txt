@@ -1,0 +1,51 @@
+winzig
+
+auf der Discokugel
+
+'start' Bildschirm
+
+start
+
+volle Größe
+
+auf der Tafel
+
+nicht umdrehen
+
+Zahlen von -180 bis 180
+
+bleib nervig
+
+the number controls the speed
+
+bleib auf der Bühne
+
+schlage die Flügel
+
+try 11 or 50
+
+try 0.1 or 0.5
+
+wähle deinen Hintergrund
+
+Probiere eine andere Größe
+
+im Schaufenster
+
+wieviele Sekunden gebraucht wurden
+
+Ende
+
+Sag nichts
+
+erstes Level
+
+starte die Stoppuhr
+
+drag to position the bug first
+
+new level
+
+gutes Versteck
+
+keep the bug at the back
