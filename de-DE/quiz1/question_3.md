@@ -3,7 +3,7 @@
 legend: Frage 3 von 3
 ---
 
-You added this script to the **bug** sprite:
+Du hast dieses Skript zur **Bug**Figur hinzugefügt:
 
 ![Die Bug Figur.](images/bug-sprite.png)
 
