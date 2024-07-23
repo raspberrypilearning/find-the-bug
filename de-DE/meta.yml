@@ -1,0 +1,42 @@
+---
+title: Finde den Bug
+hero_image: images/banner.png
+description: Erstelle ein Spiel, in dem du in jedem Level einen versteckten Bug finden musst
+meta_title: Scratch Coding Projekte für Kinder und Jugendliche | Finde den Bug
+meta_description: 'Lerne Coding in Scratch mit den Coding Projekten der Raspberry Pi Foundation für Kinder und Jugendliche. Erstelle mit Scratch ein Spiel bei dem du in jedem Level einen versteckten Käfer (engl.: Bug) finden musst.'
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-02-26"
+steps:
+  - 
+    title: Das wirst du machen
+  - 
+    title: Startbildschirm
+  - 
+    title: Erstes Level
+    completion:
+      - engaged
+  - 
+    title: Ablenkung durch einen Papageien
+  - 
+    title: Zweites Level
+  - 
+    title: Endbildschirm
+    completion:
+      - internal
+  - 
+    title: Kurzes Quiz
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - 
+    title: Verbessere dein Spiel
+  - 
+    title: Teile und spiele
+  - 
+    title: Wie geht es weiter?
