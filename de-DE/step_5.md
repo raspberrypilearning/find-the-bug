@@ -39,7 +39,7 @@ Ziehe die Blöcke vom Block `Wenn diese Figur angeklickt wird`{:class="block3eve
 
 Füge Code zu `setze Größe auf`{:class="block3looks"} hinzu und lege die Größe des Bugs für das zweite Level fest:
 
-![The bug sprite.](images/bug-sprite.png)
+![Die Bug-Figur.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v] // choose your backdrop
@@ -66,7 +66,7 @@ Platziere deinen Bug in seinem Versteck.
 
 Füge deinem Code einen Block `gehe zu x: y:`{:class="block3motion"}“ hinzu:
 
-![The bug sprite.](images/bug-sprite.png)
+![Die Bug-Figur.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -96,9 +96,9 @@ Möglicherweise befindet sich dein Bug jetzt vor dem Papagei.
 
 --- task ---
 
-Add a script to make sure that your bug is always at the `back`{:class="block3looks"}:
+Füge ein Skript hinzu, um sicherzustellen, dass dein Bug immer auf der `hintersten`{:class="block3looks"} Ebene ist:
 
-![The bug sprite.](images/bug-sprite.png)
+![Die Bug-Figur.](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked
