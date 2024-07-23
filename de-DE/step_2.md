@@ -95,7 +95,7 @@ Wir haben die Schriftart **Marker** in Weiß verwendet, aber **wähle** die Schr
 
 --- /task ---
 
-### Add the Bug Sprite
+### Füge die Bug-Figur hinzu
 
 --- task ---
 
