@@ -25,9 +25,9 @@ Füge den Hintergrund **Spotlight** aus der Kategorie **Musik** hinzu.
 
 --- task ---
 
-Click on the **bug** sprite in the Sprite list. Füge ein Skript hinzu, um die `Größe`{:class="block3looks"} deines Bugs zu ändern, `wenn das Bühnenbild zu Spotlight wechselt`{:class="block3events"}:
+Klicke in der Figurenliste auf die **Bug**-Figur. Füge ein Skript hinzu, um die `Größe`{:class="block3looks"} deines Bugs zu ändern, `wenn das Bühnenbild zu Spotlight wechselt`{:class="block3events"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![Die Bug-Figur.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
@@ -42,7 +42,7 @@ Klicke auf den Code, um die Größe zu ändern, und ziehe dann deinen kleinen K�
 
 Füge Code hinzu, um deinen Bug zu positionieren:
 
-![The bug sprite.](images/bug-sprite.png)
+![Die Bug-Figur.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
@@ -62,9 +62,9 @@ Der Block `wechsle zum nächsten Bühnenbild`{:class="block3looks"} schaltet auf
 
 --- task ---
 
-Add a script to your **bug** sprite to `play a Pop sound`{:class="block3sound"} and switch to the `next backdrop`{:class="block3looks"} `when this sprite is clicked`{:class="block3events"}:
+Füge deiner **Bug**-Figur ein Skript hinzu, um `einen Pop Klang`{:class="block3sound"} abzuspielen, und `wechsel zum nächste Hintergrundbild`{:class="block3looks"} `wenn diese Figur angeklickt wird`{:class="block3events"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![Die Bug-Figur.](images/bug-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -101,9 +101,9 @@ Du wirst feststellen, dass der Bug auf dem 'start' Bildschirm immer noch die Ein
 
 --- task ---
 
-Click on the **bug** sprite in the Sprite list. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+Klicke in der Figurenliste auf die **Bug**-Figur. Füge ein Skript hinzu, das `die Größe des Bugs ändert`{:class="block3looks"}, `wenn das Bühnenbild zum`{:class="block3events"} `start`{:class="block3events"} Bildschirm wechselt:
 
-![The bug sprite.](images/bug-sprite.png)
+![Die Bug-Figur.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -140,9 +140,9 @@ Versuch nochmal, den Käfer zu positionieren. Ziehe den Käfer auf die Tafel, un
 
 ![Der Bug auf dem Startbildschirm](images/bug-chalkboard.png)
 
-Add code to make sure that the bug is positioned on the chalkboard every time your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+Füge Code hinzu, um sicherzustellen, dass der Bug jedes Mal auf der Tafel positioniert wird, `wenn das Bühnenbild zu`{:class="block3events"} `start`{:class="block3events"} wechselt:
 
-![The bug sprite.](images/bug-sprite.png)
+![Die Bug-Figur.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
