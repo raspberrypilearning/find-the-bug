@@ -4,7 +4,7 @@ auf der Discokugel
 
 'start' Bildschirm
 
-start
+Start
 
 volle Größe
 
@@ -16,15 +16,15 @@ Zahlen von -180 bis 180
 
 bleib nervig
 
-the number controls the speed
+die Zahl kontrolliert die Geschwindigkeit
 
 bleib auf der Bühne
 
 schlage die Flügel
 
-try 11 or 50
+versuche 11 oder 50
 
-try 0.1 or 0.5
+versuche 0.1 oder 0.5
 
 wähle deinen Hintergrund
 
@@ -42,10 +42,10 @@ erstes Level
 
 starte die Stoppuhr
 
-drag to position the bug first
+ziehe den Bug um ihn zunächst zu positionieren
 
-new level
+neues Level
 
 gutes Versteck
 
-keep the bug at the back
+behalte den Bug im Hintergrund
