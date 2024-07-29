@@ -1,0 +1,51 @@
+winzig
+
+auf der Discokugel
+
+'start' Bildschirm
+
+Start
+
+volle Größe
+
+auf der Tafel
+
+nicht umdrehen
+
+Zahlen von -180 bis 180
+
+bleib nervig
+
+die Zahl kontrolliert die Geschwindigkeit
+
+bleib auf der Bühne
+
+schlage die Flügel
+
+versuche 11 oder 50
+
+versuche 0.1 oder 0.5
+
+wähle deinen Hintergrund
+
+Probiere eine andere Größe
+
+im Schaufenster
+
+wieviele Sekunden gebraucht wurden
+
+Ende
+
+Sag nichts
+
+erstes Level
+
+starte die Stoppuhr
+
+ziehe den Bug um ihn zunächst zu positionieren
+
+neues Level
+
+gutes Versteck
+
+behalte den Bug im Hintergrund
