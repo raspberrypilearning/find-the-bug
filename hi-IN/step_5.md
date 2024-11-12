@@ -1,72 +1,72 @@
-## Second level
+## दूसरा स्तर
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Choose a backdrop to make a second level for your game, and make the bug hard to find. 
+आप अपने गेम का दूसरा स्तर बनाने के लिए एक बैकड्रॉप चुनें, और बग को खोजने में कठिन बनाएं। 
 </div>
 <div>
 
-![A street scene with a hidden bug.](images/second-level.png){:width="300px"}
+![छिपे हुए बग के साथ एक सड़क दृश्य।](images/second-level.png){:width="300px"}
 
 </div>
 </div>
 
-### Add another backdrop
+### एक पृष्ठभूमि जोड़ें।
 
 --- task ---
 
-**Choose:** Choose a backdrop for your second level. We have chosen the **Urban** backdrop, but you can choose the one that you like the most.
+**चुनें:** अपने दूसरे स्तर के लिए एक बैकड्रॉप चुनें। हमने **Urban** बैकड्रॉप को चुना है, लेकिन आप वह चुन सकते हैं जो आपको सबसे ज्यादा पसंद हो।
 
-![The bug and parrot on an urban backdrop.](images/insert-urban-backdrop.png)
+![एक शहरी बैकड्रॉप पर बग और parrot।](images/insert-urban-backdrop.png)
 
-**Tip:** Remember that backdrops with lots of colours and details will make the bug harder to find. How difficult will you make your game?
+**टिप:** याद रखें कि बहुत सारे रंगों और विवरणों वाले बैकड्रॉप बग को ढूंढना कठिन बना देगा। आप अपने खेल को कितना कठिन बनाना चाहते हो?
 
 --- /task ---
 
-### Stop the code from running
+### कोड को चलने से रोकें
 
 --- task ---
 
-Drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them from running when you click on the bug:
+जब आप बग पर क्लिक करते हैं तो बाकी ब्लॉकों को चलने से रोकने के लिए `when this sprite clicked`{:class="block3events"} ब्लॉक से बाकी ब्लॉकों को दूर खींचें
 
-![Breaking the code.](images/breaking-script.png)
+![कोड तोड़ना।](images/breaking-script.png)
 
 --- /task ---
 
-### Resize the bug
+### बग का आकार बदलें
 
 --- task ---
 
-Add code to `set the size`{:class="block3looks"} of the bug for the second level:
+दूसरे स्तर के लिए बग के `set the size`{:class="block3looks"} में कोड जोड़ें:
 
-![The bug sprite.](images/bug-sprite.png)
+![बग स्प्राइट।](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v] // choose your backdrop
 set size to [20] % // try another size 
 ```
 
-**Test:** Click on your new script to run it.
+**परीक्षण:** इसे चलाने के लिए अपनी नई स्क्रिप्ट पर क्लिक करें।
 
 --- /task ---
 
-### Hide your bug
+### अपना बग छुपाएं
 
 --- task ---
 
-Drag your bug on the Stage to a good hiding place for this level.
+इस स्तर के लिए अपने बग को Stage के किसी अच्छे छिपने वाले स्थान की तरफ खींचें।
 
-![The bug hidden in the shop window in the middle of the backdrop.](images/hidden-urban-backdrop.png)
+![बैकड्रॉप के बीच में दुकान की खिड़की में छिपा बग।](images/hidden-urban-backdrop.png)
 
 --- /task ---
 
-Position your bug in its hiding place.
+अपने बग को उसके छिपने की जगह पर रखें।
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block to your code:
+अपने कोड में `go to x: y:`{:class="block3motion"} ब्लॉक को जोड़ें:
 
-![The bug sprite.](images/bug-sprite.png)
+![बग स्प्राइट।](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -76,29 +76,29 @@ set size to [20] % // try another size
 
 --- /task ---
 
-### Test your code
+### अपने कोड का परीक्षण करें
 
 --- task ---
 
-Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that when the bug is clicked, the backdrop switches to the `next backdrop`{:class="block3looks"}:
+ब्लॉक को वापस `when this sprite clicked`{:class="block3events"} में शामिल करें ताकि जब बग क्लिक किया जाए, तो बैकड्रॉप `next backdrop`{:class="block3looks"} पर स्विच हो जाए:
 
-![The blocks are joined back together.](images/fixed-script.png)
+![ब्लॉक एक साथ वापस जुड़ गए हैं।](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your project.
+**परीक्षण:** अपने प्रोजेक्ट का परीक्षण करने के लिए हरे झंडे पर क्लिक करें।
 
 --- /task ---
 
-Your bug may now be in front of the parrot.
+आपका बग अब parrot के सामने हो सकता है।
 
 --- task ---
 
-Add a script to make sure that your bug is always at the `back`{:class="block3looks"}:
+यह सुनिश्चित करने के लिए एक स्क्रिप्ट जोड़ें कि आपका बग हमेशा `बैक`{:class="block3looks"} पर है:
 
-![The bug sprite.](images/bug-sprite.png)
+![बग स्प्राइट।](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -106,6 +106,6 @@ forever
 go to [back v] layer
 ```
 
-Now, your bug will always stay at the back, even if you need to change its position.
+अब, आपका बग हमेशा पीछे रहेगा, भले ही आपको इसकी स्थिति बदलने की आवश्यकता हो।
 
 --- /task ---
