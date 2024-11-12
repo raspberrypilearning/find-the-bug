@@ -29,7 +29,7 @@
 
 --- task ---
 
-Додай код, щоб папуга махав крилами та відвертав увагу:
+Add code to make the parrot flap around in a distracting way. Look at the comments on the code blocks for some different numbers to try:
 
 ![Спрайт Parrot.](images/parrot-sprite.png)
 
