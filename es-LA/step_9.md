@@ -30,7 +30,7 @@ Observa cómo los creadores agregaron niveles adicionales, distracciones molesta
 
 --- /task ---
 
---- /no-print ---
+--- /collapse ---
 
 --- task ---
 
