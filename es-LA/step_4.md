@@ -29,7 +29,7 @@ Aquí utilizarás un bucle diferente. Un bucle `por siempre`{:class="block3contr
 
 --- task ---
 
-Añade código para hacer que el loro se mueva de una manera que distraiga:
+Añade código para hacer que el loro se mueva de una manera que distraiga: Look at the comments on the code blocks for some different numbers to try:
 
 ![El objeto loro.](images/parrot-sprite.png)
 
