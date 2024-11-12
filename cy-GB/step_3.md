@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add a new backdrop as the first level in your game, and hide the bug.
+Byddi di'n ychwanegu cefndir newydd fel y lefel gyntaf yn dy gêm, ac yn cuddio'r chwilen.
 </div>
 <div>
 
@@ -93,9 +93,9 @@ switch backdrop to [start v] // 'start' screen
 
 **Test:** Click on the green flag to test your project.
 
-You will notice that on the 'start' screen, the bug will still have the settings to hide in its hiding place from the first level (in this example, on the disco ball).
+**Prawf:** Clicia ar y faner werdd i brofi dy brosiect.
 
-**Tip:** After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop.
+Byddi di'n sylwi ar y sgrin ‘dechrau’ fod gan y chwilen dal y gosodiadau i guddio yn ei chuddfan o’r lefel gyntaf (yn yr enghraifft hon, ar y bêl ddisgo).
 
 --- /task ---
 
@@ -120,7 +120,7 @@ Try to position the bug on the 'start' screen.
 
 Your code will make the backdrop switch when you click on the bug! That is not helpful when you are trying to position the bug.
 
-To fix the problem, you need to stop the code from running when you click on the bug.
+Bydd dy god yn gwneud i'r gefnlen newid pan fyddi di'n clicio ar y chwilen! Dydy hynny ddim fawr o help pan wyt ti'n chi'n ceisio gosod lleoliad y chwilen.
 
 --- /task ---
 
@@ -128,7 +128,7 @@ To fix the problem, you need to stop the code from running when you click on the
 
 Click on the green flag to return to the 'start' screen.
 
-Click on the **bug** sprite in the Sprite list and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
+Clicia ar y faner werdd i ddychwelyd i'r sgrin 'cychwyn'.
 
 ![Breaking the script.](images/breaking-script.png)
 
