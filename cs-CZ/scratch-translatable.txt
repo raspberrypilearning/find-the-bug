@@ -1,51 +1,51 @@
-tiny
+drobný
 
-on the disco ball
+na disco kouli
 
-'start' screen
+'startovací' obrazovka
 
 start
 
-full-sized
+plná velikost
 
-on the board
+na tabuli
 
-do not go upside down
+neotáčej hlavou dolů
 
-number from -180 to 180
+číslo od -180 do 180
 
-keep being annoying
+otravuj napořád
 
-the number controls the speed
+číslo řídí rychlost
 
-stay on the Stage
+zůstaň na Scéně
 
-flap
+klapka
 
-try 11 or 50
+zkus 11 nebo 50
 
-try 0.1 or 0.5
+zkus 0.1 nebo 0.5
 
-choose your backdrop
+vybrat pozadí
 
-try another size
+zkus jinou velikost
 
-in the shop window
+ve výloze
 
-seconds taken
+počet sekund
 
-end
+konec
 
-say nothing
+neříkej nic
 
-first level
+první úroveň
 
-start the timer
+spusť časovač
 
-drag to position the bug first
+nejprve přetažením umísti brouka
 
-new level
+nová úroveň
 
-good hiding place
+dobrá skrýš
 
-keep the bug at the back
+nechat brouka vzadu
