@@ -1,21 +1,21 @@
-## You will make
+## आपको बनाना है
 
-Create a game in which you have to find a hidden bug 🐞 on each level. The game will have 'start' and 'end' screen backdrops, and a timer ⌚ to show the player how quickly they found the bugs.
+एक गेम बनाएं जिसमें आपको प्रत्येक स्तर पर छिपे हुए बग 🐞 को ढूंढना है। गेम में 'प्रारंभ' और 'अंत' स्क्रीन बैकड्रॉप होंगे, और एक टाइमर ⌚ खिलाड़ी को यह दिखाने के लिए कि उन्होंने कितनी जल्दी बग ढूंढे।
 
-You will:
-+ Create levels for your game using `next backdrop`{:class="block3looks"} and `when backdrop switches to`{:class="block3events"} blocks
-+ Use a `forever`{:class="block3control"} loop to keep running code blocks
-+ Use the `timer`{:class="block3sensing"} **variable** to let the player know how quickly they found the bugs
+आप करेंगे:
++ `next backdrop`{:class="block3looks"} और `when backdrop switches to`{:class="block3events"} ब्लॉकों का उपयोग करके अपने गेम के लिए स्तर बनाएं
++ कोड ब्लॉक चलाने के लिए `forever`{:class="block3control"} लूप का उपयोग करें
++ खिलाड़ी को यह बताने के लिए कि उन्होंने कितनी जल्दी बग ढूंढे `timer`{:class="block3sensing"} **वेरिएबल** का उपयोग करें
 
 --- no-print --- --- task ---
 ### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
-Click on the bug to start the game.
+गेम शुरू करने के लिए बग पर क्लिक करें।
 
-Try to find the bug on each level.
+प्रत्येक स्तर पर बग खोजने का प्रयास करें।
 
-How well are the bugs hidden? You will get to add your own levels and make it as easy or difficult as you like.
+बग कितनी अच्छी तरह छिपे हुए हैं? आपको अपने खुद के स्तर जोड़ने और इसे जितना चाहें उतना आसान या कठिन बनाने का मौका मिलेगा।
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -28,10 +28,10 @@ How well are the bugs hidden? You will get to add your own levels and make it as
 
 --- print-only ---
 
-![The completed project.](images/showcase_static.png)
+![पूरा किया हुआ प्रोजेक्ट।](images/showcase_static.png)
 
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-More than 2.5 billion people play video games every year. Just think how many people are involved in creating those games. Would you like a job designing, coding, or testing games for other people to play? 
+हर साल 2.5 अरब से ज्यादा लोग वीडियो गेम खेलते हैं। जरा सोचिए कि उन खेलों को बनाने में कितने लोग शामिल हैं। क्या आप अन्य लोगों के खेलने के लिए गेम्स की डिजाइनिंग, कोडिंग या टेस्टिंग का काम करना चाहते हैं? 
 </p>
