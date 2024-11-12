@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
+Você criará uma tela 'final' para mostrar o número de segundos que o jogador levou para encontrar os insetos. 
 </div>
 <div>
 
@@ -14,7 +14,7 @@ Create an 'end' screen to show the number of seconds that it has taken the playe
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Às vezes, apenas vencer um jogo não é suficiente. Os jogadores gostam de saber como se saíram contra outros jogadores ou contra eles próprios. Você consegue pensar em um jogo que mostra quão bem você se saiu?</p>
 
-### Add another backdrop
+### Adicione outro cenário
 
 --- task ---
 
@@ -26,7 +26,7 @@ Adicione o cenário **Quadro-negro** da categoria de **Interiores**.
 
 --- /task ---
 
-### Edit the backdrop
+### Edite o plano de fundo
 
 --- task ---
 
@@ -46,7 +46,7 @@ Altere o nome do cenário para `fim`:
 
 --- /task ---
 
-### Position the bug
+### Posicione o inseto
 
 --- task ---
 
@@ -62,7 +62,7 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Add a timer
+### Adicione um cronômetro
 
 Quanto tempo você leva para localizar e clicar nos insetos? Scratch tem um `temporizador`{:class="block3sensing"} que você pode usar para descobrir.
 
@@ -106,7 +106,7 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Stop the timer
+### Pare o cronômetro
 
 Se você jogar o jogo uma segunda vez, o `temporizador`{:class="block3sensing"} continuará contando.
 
