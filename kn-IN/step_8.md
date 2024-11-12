@@ -1,28 +1,28 @@
-## Upgrade your game
+## ನಿಮ್ಮ ಆಟವನ್ನು ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ
 
-If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text on the chalkboard.
+ನಿಮಗೆ ಸಮಯವಿದ್ದರೆ, ನಿಮ್ಮ ಆಟಕ್ಕೆ ನೀವು ಹೆಚ್ಚಿನ ಹಂತಗಳನ್ನು ಮತ್ತು ಹೆಚ್ಚಿನ ಗೊಂದಲಗಳನ್ನು ಸೇರಿಸಬಹುದು. ನೀವು ಅಡಗಿರುವ ಸ್ಪ್ರೈಟ್ ಅನ್ನು ಬದಲಾಯಿಸಬಹುದು ಮತ್ತು ಚಾಕ್ಬೋರ್ಡ್ನಲ್ಲಿ ಪಠ್ಯವನ್ನು ಬದಲಾಯಿಸಬಹುದು.
 
 --- task ---
 
-Play your game and see how quickly you can find the bugs.
+ನಿಮ್ಮ ಆಟವನ್ನು ಆಡಿ ಮತ್ತು ನೀವು ಎಷ್ಟು ಬೇಗನೆ ದೋಷಗಳನ್ನು ಕಂಡುಹಿಡಿಯಬಹುದು ಎಂಬುದನ್ನು ನೋಡಿ.
 
-Is there someone else who can try your game? How fast can they find the bugs? They will not know where you have hidden them, so it might take them a bit longer!
+ನಿಮ್ಮ ಆಟವನ್ನು ಪ್ರಯತ್ನಿಸಲು ಬೇರೆ ಯಾರಾದರೂ ಇದ್ದಾರೆಯೇ? ಅವರು ಎಷ್ಟು ವೇಗವಾಗಿ ದೋಷಗಳನ್ನು ಕಂಡುಹಿಡಿಯಬಹುದು? ನೀವು ಅವುಗಳನ್ನು ಎಲ್ಲಿ ಮರೆಮಾಡಿದ್ದೀರಿ ಎಂಬುದು ಅವರಿಗೆ ತಿಳಿದಿರುವುದಿಲ್ಲ, ಆದ್ದರಿಂದ ಅವರಿಗೆ ಸ್ವಲ್ಪ ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು!
 
-Is there anything that you want to change?
+ನೀವು ಬದಲಾಯಿಸಲು ಬಯಸುವ ಏನಾದರೂ ಇದೆಯೇ?
 
-You could:
-- Make the parrot even more annoying
-- Make the bugs smaller
-- Change the `color effect`{:class="block3looks"} to camouflage the bug on each level
-- Change the font or colour of the text
+ನೀವು:
+- ಗಿಣಿಯನ್ನು ಇನ್ನಷ್ಟು ಕಿರಿಕಿರಿಗೊಳಿಸಿ
+- ದೋಷಗಳನ್ನು ಚಿಕ್ಕದಾಗಿಸಿ
+- ಪ್ರತಿ ಹಂತದಲ್ಲಿ ದೋಷವನ್ನು ಮರೆಮಾಚಲು ಬಣ್ಣದ ಪರಿಣಾಮವನ್ನು ಬದಲಾಯಿಸಿ
+- ಪಠ್ಯದ ಫಾಂಟ್ ಅಥವಾ ಬಣ್ಣವನ್ನು ಬದಲಾಯಿಸಿ
 
 --- /task ---
 
-### Add more levels
+### ಹೆಚ್ಚಿನ ಹಂತಗಳನ್ನು ಸೇರಿಸಿ
 
 --- task ---
 
-Here are the blocks that you will need to hide the bug on a new level:
+ನೀವು ಹೊಸ ಹಂತದಲ್ಲಿ ದೋಷವನ್ನು ಮರೆಮಾಡಲು ಅಗತ್ಯವಿರುವ ಬ್ಲಾಕ್‌ಗಳು ಇಲ್ಲಿವೆ:
 
 ```blocks3
 when backdrop switches to [new level v]
@@ -34,22 +34,22 @@ go to x: [0] y: [0] // drag to position the bug first
 set [color v] effect to [50]
 ```
 
-For each level, you will need to:
-- Add a backdrop
-- Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
-- Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug
+ಪ್ರತಿ ಹಂತಕ್ಕೆ, ನೀವು ಹೀಗೆ ಮಾಡಬೇಕಾಗುತ್ತದೆ:
+- ಹಿನ್ನೆಲೆ ಸೇರಿಸಿ
+- ಸ್ಟೇಜ್ ಪೇನ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ, ನಂತರ ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ಸ್ ಟ್ಯಾಬ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ, ನಂತರ ಹೊಸ ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ ಅನ್ನು ಎಂಡ್ ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ ಮೊದಲು ಸ್ಥಾನಕ್ಕೆ ಎಳೆಯಿರಿ
+- ಹೊಸ ಬ್ಯಾಕ್‌ಡ್ರಾಪ್‌ಗಾಗಿ `when backdrop switches to`{:class="block3events"}ಬ್ಲಾಕ್ ಅನ್ನು ಸೇರಿಸಿ ಮತ್ತು ದೋಷವನ್ನು ಸ್ಥಳದಲ್ಲಿರಾಲು ಮತ್ತು ಮರೆಮಾಡಲು ಕೋಡ್‌ ಸೇರಿಸಿ
 
-**Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the backdrop does not switch when you click on the bug to position it for a new level.
+**ಸಲಹೆ:** ಬಗ್ ಅನ್ನು ಹೊಸ ಮರೆಮಾಚುವ ಸ್ಥಾನಕ್ಕೆ ಎಳೆಯಲು, ನೀವು ಕೋಡ್ ಅನ್ನು 'ಬ್ರೇಕ್' ಮಾಡಬೇಕಾಗುತ್ತದೆ ಆದ್ದರಿಂದ ಹೊಸ ಹಂತಕ್ಕೆ ಅದನ್ನು ಇರಿಸಲು ನೀವು ದೋಷದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ ಬದಲಾಗುವುದಿಲ್ಲ.
 
 --- /task ---
 
-### Add more distractions
+### ಹೆಚ್ಚಿನ ಗೊಂದಲಗಳನ್ನು ಸೇರಿಸಿ
 
 --- task ---
 
-You could add more parrots or choose another sprite to act as a distraction.
+ನೀವು ಹೆಚ್ಚು ಗಿಳಿಗಳನ್ನು ಸೇರಿಸಬಹುದು ಅಥವಾ ವ್ಯಾಕುಲತೆಯಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸಲು ಮತ್ತೊಂದು ಸ್ಪ್ರೈಟ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.
 
-Here is the code that you used for the parrot:
+ಗಿಣಿಗಾಗಿ ನೀವು ಬಳಸಿದ ಕೋಡ್ ಇಲ್ಲಿದೆ:
 
 ```blocks3
 when flag clicked
@@ -64,17 +64,17 @@ wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
-**Tip:** You can drag the **Parrot** sprite's code to another sprite to make it faster to create another distraction sprite.
+**ಸಲಹೆ:** ನೀವು **ಪ್ಯಾರಟ್** ಸ್ಪ್ರೈಟ್‌ನ ಕೋಡ್ ಅನ್ನು ಮತ್ತೊಂದು ಸ್ಪ್ರೈಟ್‌ಗೆ ಡ್ರ್ಯಾಗ್ ಮಾಡಬಹುದು ಮತ್ತು ಇನ್ನೊಂದು ಡಿಸ್ಟ್ರಾಕ್ಷನ್ ಸ್ಪ್ರೈಟ್ ಅನ್ನು ರಚಿಸಲು ಅದನ್ನು ವೇಗವಾಗಿ ಮಾಡಬಹುದು.
 
-![Dragging code from the Code area to another sprite in the Sprite list.](images/drag-parrot-code.gif)
+![ಕೋಡ್ ಪ್ರದೇಶದಿಂದ ಸ್ಪ್ರೈಟ್ ಪಟ್ಟಿಯಲ್ಲಿರುವ ಮತ್ತೊಂದು ಸ್ಪ್ರೈಟ್‌ಗೆ ಕೋಡ್ ಅನ್ನು ಎಳೆಯುವುದು.](images/drag-parrot-code.gif)
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+ಶೀರ್ಷಿಕೆ: ಪೂರ್ಣಗೊಂಡ ಯೋಜನೆ
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+ನೀವು [ಪೂರ್ಣಗೊಂಡ ಯೋಜನೆಯನ್ನು ಇಲ್ಲಿ ವೀಕ್ಷಿಸಬಹುದು](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
 
 --- /collapse ---
