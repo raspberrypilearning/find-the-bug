@@ -1,10 +1,10 @@
-## Quick quiz
+## Myfyrio
 
 Answer the three questions. There are hints to guide you to the correct answer.
 
-When you have answered each question, click on **Check my answer**.
+Ateba'r tri chwestiwn isod i fyfyrio ar yr hyn rwyt ti wedi'i ddysgu.
 
-Have fun!
+Ar ôl ateb pob cwestiwn, clicia ar **Cyflwyno**. Byddi di'n cael dy dywys i'r ateb cywir. Galli di wneud hyn gymaint ag y mynni.
 
 --- question ---
 ---
@@ -19,7 +19,7 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Look at this image showing a 'Find the bug' game being played.
+Yn dy gêm, wnes di ychwanegu'r cod hwn at dy **chwilen** i symud drwy'r cefnlenni bob tro roedd hi'n cael ei chlicio.
 
 ![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
 
