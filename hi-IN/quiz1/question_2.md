@@ -31,11 +31,11 @@ end
 
   --- /feedback ---
 
-- ( ) Remove the `if on edge, bounce`{:class="block3motion"} block
+- ( ) `यदि किनारे पर है, बाउंस`{:class="block3motion"} ब्लॉक को हटा दें
 
   --- feedback ---
 
-The `if on edge, bounce`{:class="block3motion"} block makes the sprite bounce off the edge of the Stage. If you removed it, then the rocket would get stuck at the edge of the Stage.
+`if on edge, bounce`{:class="block3motion"} ब्लॉक स्प्राइट को Stage के किनारे से उछाल देता है। अगर आपने इसे हटा दिया, तो रॉकेट Stage के किनारे पर फंस जाएगा।
 
   --- /feedback ---
 
@@ -43,7 +43,7 @@ The `if on edge, bounce`{:class="block3motion"} block makes the sprite bounce of
 
 --- feedback ---
 
-A script can only have one `forever`{:class="block3control"} block. Did you notice that you cannot add a block underneath a `forever`{:class="block3control"} block?
+एक स्क्रिप्ट में केवल एक ही `forever`{:class="block3control"} खंड हो सकता है। क्या आपने देखा है कि आप `forever`{:class="block3control"} ब्लॉक के नीचे एक और ब्लॉक नहीं जोड़ सकते हैं?
 
 --- /feedback ---
 
@@ -51,7 +51,7 @@ A script can only have one `forever`{:class="block3control"} block. Did you noti
 
   --- feedback ---
 
-  Yes! स्प्राइट केवल एक बार चलता है। यदि आप `move`{:class="block3motion"} ब्लॉक को `forever`{:class="block3control"} लूप के अंदर ले जाते हैं, तो स्प्राइट तब तक चलता रहेगा जब तक आप अपना प्रोजेक्ट बंद नहीं कर देते।
+  हाँ! स्प्राइट केवल एक बार चलता है। यदि आप `move`{:class="block3motion"} ब्लॉक को `forever`{:class="block3control"} लूप के अंदर ले जाते हैं, तो स्प्राइट तब तक चलता रहेगा जब तक आप अपना प्रोजेक्ट बंद नहीं कर देते।
 
   --- /feedback ---
 
