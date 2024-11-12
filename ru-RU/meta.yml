@@ -12,7 +12,7 @@ steps:
   - 
     title: You will make
   - 
-    title: Start screen
+    title: Стартовый экран
   - 
     title: First level
     completion:
@@ -39,4 +39,4 @@ steps:
   - 
     title: Share and play
   - 
-    title: What next?
+    title: Что дальше?
