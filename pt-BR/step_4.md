@@ -11,7 +11,7 @@ Para dificultar para os jogadores encontrarem e clicarem no inseto, você vai co
 </div>
 </div>
 
-### Add the Parrot sprite
+### Adicione o sprite Papagaio
 
 --- task ---
 
@@ -21,7 +21,7 @@ Adicione o ator**Parrot**.
 
 --- /task ---
 
-### Animate the Parrot sprite
+### Animar o sprite Papagaio
 
 No projeto [Pegue o ônibus](https://projects.raspberrypi.org/en/projects/catch-the-bus){: target = "_ blank"}, você usou um loop`repetir`{:class ="block3control"}.
 
@@ -29,7 +29,7 @@ Você usará um loop diferente aqui. Um loop `infinito`{:class="block3control"} 
 
 --- task ---
 
-Adicione código para fazer o papagaio bater as asas de uma forma distrativa:
+Adicione código para fazer o papagaio bater as asas de uma forma distrativa: Look at the comments on the code blocks for some different numbers to try:
 
 ![O ator Papagaio.](images/parrot-sprite.png)
 
