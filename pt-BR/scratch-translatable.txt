@@ -4,7 +4,7 @@ na bola de discoteca
 
 Tela 'inicial'
 
-start
+começar
 
 tamanho máximo
 
@@ -34,7 +34,7 @@ na vitrine
 
 segundos gastos
 
-end
+fim
 
 não diga nada
 
@@ -44,8 +44,8 @@ inicie o temporizador
 
 arraste para posicionar o primeiro inseto
 
-new level
+primeiro nível
 
-good hiding place
+bom esconderijo
 
-keep the bug at the back
+mantenha o inseto na parte de trás
