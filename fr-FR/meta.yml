@@ -33,7 +33,7 @@ steps:
       questions: 3
       passing_score: 3
     completion:
-      - external
+      - internal
   - 
     title: Améliorer ton jeu
   - 
