@@ -1,58 +1,58 @@
-## End screen
+## शेवट स्क्रीन
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
+बग शोधण्यासाठी खेळाडूला किती सेकंद लागले हे दाखवण्यासाठी 'एंड' स्क्रीन तयार करा. 
 </div>
 <div>
 
-![The bug with the amount of time in a speech bubble.](images/end-screen.png){:width="300px"}
+![स्पीच बबलमधील वेळेसह किडा.](images/end-screen.png){:width="300px"}
 
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Sometimes, just beating a game isn't enough. Players like to know how they did against other players or themselves. Can you think of a game that shows you how well you did?</p>
+काहीवेळा, फक्त खेळ मारणे पुरेसे नसते. खेळाडूंना हे जाणून घ्यायला आवडते की त्यांनी इतर खेळाडूंविरुद्ध किंवा स्वतःविरुद्ध कसे केले. तुम्ही अशा खेळाचा विचार करू शकता जो तुम्हाला दाखवेल की तुम्ही किती चांगले केले?</p>
 
-### Add another backdrop
+### दुसरी पार्श्वभूमी जोडा
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+**Indoors** श्रेणीतील **Chalkboard** बॅकड्रॉप जोडा.
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![बॅकड्रॉप लायब्ररीमधील चॉकबोर्ड पार्श्वभूमी.](images/chalkboard.png)
 
-**Tip:** In Scratch, you can add the same backdrop more than once.
+**टीप:** Scratch मध्ये, तुम्ही समान बॅकड्रॉप एकापेक्षा जास्त वेळा जोडू शकता.
 
 --- /task ---
 
-### Edit the backdrop
+### पार्श्वभूमी संपादित करा
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+पेंट एडिटर उघडण्यासाठी **Backdrops** टॅबवर क्लिक करा.
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard2-paint.png)
+![पेंट एडिटरमधील चॉकबोर्ड पार्श्वभूमी.](images/chalkboard2-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Change the name of the backdrop to `end`:
+पार्श्वभूमीचे नाव `end` असे बदला:
 
-![The backdrop name changed in the Paint editor.](images/end-screen-name.png)
+![पेंट एडिटरमध्ये पार्श्वभूमीचे नाव बदलले.](images/end-screen-name.png)
 
-**Tip:** You rename the backdrop to **end** to make it easier to understand your code.
+**टीप:** तुमचा कोड समजणे सोपे होण्यासाठी तुम्ही बॅकड्रॉपचे नाव **end** असे बदला.
 
 --- /task ---
 
-### Position the bug
+### बग स्थान द्या
 
 --- task ---
 
-Click on the **bug** sprite and add code to position the bug on the 'end' screen:
+**किडा** स्प्राइटवर क्लिक करा आणि 'शेवटची' स्क्रीनवर किडा ठेवण्यासाठी कोड जोडा:
 
-![The bug sprite.](images/bug-sprite.png)
+![बग स्प्राइट.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -62,15 +62,15 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Add a timer
+### टाइमर जोडा
 
-How long does it take you to find and click on the bugs? Scratch has a `timer`{:class="block3sensing"} that you can use to find out.
+किडा शोधण्यासाठी आणि त्यावर क्लिक करण्यासाठी तुम्हाला किती वेळ लागेल? स्क्रॅचमध्ये `टायमर`{:class="block3sensing"} आहे जो तुम्ही शोधण्यासाठी वापरू शकता.
 
 --- task ---
 
-The `timer`{:class="block3sensing"} block is in the `Sensing`{:class="block3sensing"} blocks menu. Add code to make the bug `say`{:class="block3looks"} the `timer`{:class="block3sensing"} on the 'end' screen:
+`टाइमर`{:class="block3sensing"} ब्लॉक `Sensing`{:class="block3sensing"} ब्लॉक मेनूमध्ये आहे. 'एंड' स्क्रीनवर बग `म्हणण्यासाठी`{:class="block3looks"} `टाइमर`{:class="block3sensing"} करण्यासाठी कोड जोडा:
 
-![The bug sprite.](images/bug-sprite.png)
+![किडा स्प्राइट.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -79,23 +79,23 @@ go to x: [0] y: [30] // on the board
 +say (timer) // seconds taken
 ```
 
-![Inserting a 'timer' block into a 'say' block.](images/inserting-blocks.gif)
+!['say' ब्लॉकमध्ये 'timer' ब्लॉक टाकणे.](images/inserting-blocks.gif)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your finding skills. How long does it take you to find the bug?
+**चाचणी:** तुमच्या शोध कौशल्याची चाचणी घेण्यासाठी हिरव्या ध्वजावर क्लिक करा. किडा शोधण्यासाठी तुम्हाला किती वेळ लागेल?
 
 --- /task ---
 
-To go back to the 'start' screen, click on the bug on the 'end' screen.
+'start' स्क्रीनवर परत जाण्यासाठी, 'end' स्क्रीनवरील किड्यावर क्लिक करा.
 
 --- task ---
 
-Add code to make the bug stop saying the `timer`{:class="block3sensing"} when you go to the 'start' screen:
+तुम्ही 'start' स्क्रीनवर जाता तेव्हा किड्याने `timer`{:class="block3sensing"} म्हणणे थांबवण्यासाठी कोड जोडा:
 
-![The bug sprite.](images/bug-sprite.png)
+![किडा स्प्राइट.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -106,15 +106,15 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Stop the timer
+### टाइमर थांबवा
 
-If you play the game a second time, the `timer`{:class="block3sensing"} will keep counting.
+तुम्ही दुसऱ्यांदा गेम खेळल्यास, `टायमर (timer)`{:class="block3sensing"} मोजत राहील.
 
 --- task ---
 
-Add code to `reset the timer`{:class="block3sensing"} when the `backdrop switches to`{:class="block3events"} the first level:
+`मध्ये कोड जोडा टाइमर`{:class="block3sensing"} रीसेट करा जेव्हा `बॅकड्रॉप`{:class="block3events"} वर स्विच करते तेव्हा:
 
-![The bug sprite.](images/bug-sprite.png)
+![किडा स्प्राइट.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v] // first level
@@ -127,7 +127,7 @@ go to x: [13] y: [132] // on the disco ball
 
 --- task ---
 
-**Test:** Click on the green flag and play the game. The timer should reset when you click on the bug on the 'start' screen to move to the first level. When you click on the bug on the 'end' screen, you should return to the 'start' screen and see that the bug is not saying the `timer`{:class="block3sensing"}.
+**चाचणी:** हिरव्या ध्वजावर क्लिक करा आणि गेम खेळा. पहिल्या लेवलवर जाण्यासाठी तुम्ही 'start' स्क्रीनवरील बगवर क्लिक करता तेव्हा टायमर रीसेट झाला पाहिजे. जेव्हा तुम्ही 'end' स्क्रीनवरील किड्यावर क्लिक करता, तेव्हा तुम्ही 'start' स्क्रीनवर परत यावे आणि किडा `timer`{:class="block3sensing"} म्हणत नाही हे पाहावे.
 
 --- /task ---
 
