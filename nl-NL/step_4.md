@@ -29,7 +29,7 @@ Je gebruikt hier een andere lus. Een `herhaal`{:class="block3control"} lus voert
 
 --- task ---
 
-Voeg code toe om de papegaai op een afleidende manier te laten fladderen:
+Voeg code toe om de papegaai op een afleidende manier te laten fladderen: Look at the comments on the code blocks for some different numbers to try:
 
 ![De Parrot sprite.](images/parrot-sprite.png)
 
