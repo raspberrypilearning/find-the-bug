@@ -1,6 +1,6 @@
 ## You will make
 
-Create a game in which you have to find a hidden bug 🐞 on each level. The game will have 'start' and 'end' screen backdrops, and a timer ⌚ to show the player how quickly they found the bugs.
+このプロジェクトでは、各レベルに隠れているバグ(虫) を見つけるゲームを作成します。 ゲームには、「スタート」と「終了」の画面の背景があり、バグを見つけた速さをタイマーでプレーヤーに知らせます。
 
 あなたは次のことを行います。
 + `次の背景にする`{:class="block3looks"}と`背景が・・・になったとき`{:class="block3events"}ブロックを使ってゲームのレベルを作成します</0></0>
