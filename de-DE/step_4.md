@@ -29,7 +29,7 @@ Du wirst hier eine andere Schleife verwenden. Eine `wiederhole fortlaufend`{:cla
 
 --- task ---
 
-Füge Code hinzu, um den Papagei auf ablenkende Weise herumflattern zu lassen:
+Füge Code hinzu, um den Papagei auf ablenkende Weise herumflattern zu lassen: Look at the comments on the code blocks for some different numbers to try:
 
 ![Die Papagei-Figur.](images/parrot-sprite.png)
 
