@@ -29,7 +29,7 @@ You will use a different loop here. A `forever`{:class="block3control"} loop run
 
 --- task ---
 
-Add code to make the parrot flap around in a distracting way:
+Add code to make the parrot flap around in a distracting way. Look at the comments on the code blocks for some different numbers to try:
 
 ![The Parrot sprite.](images/parrot-sprite.png)
 
