@@ -62,7 +62,7 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Add a timer
+### Dodaj mjerač vremena
 
 How long does it take you to find and click on the bugs? Scratch has a `timer`{:class="block3sensing"} that you can use to find out.
 
