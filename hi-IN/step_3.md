@@ -1,12 +1,12 @@
-## First level
+## प्रथम स्तर
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add a new backdrop as the first level in your game, and hide the bug.
+अपने गेम में पहले स्तर के रूप में एक नई पृष्ठभूमि जोड़ें, और बग छुपाएं।
 </div>
 <div>
 
-![The Spotlight backdrop with a bug.](images/first-level.png){:width="300px"}
+![बग के साथ Spotlight बैकड्रॉप।](images/first-level.png){:width="300px"}
 
 </div>
 </div>
@@ -15,19 +15,19 @@ Add a new backdrop as the first level in your game, and hide the bug.
 
 --- task ---
 
-Add the **Spotlight** backdrop from the **Music** category.
+**Music** श्रेणी से **Spotlight** बैकड्रॉप जोड़ें।
 
-![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
+!['एक पृष्ठभूमि चुनें' आइकन।](images/backdrop-button.png)
 
 --- /task ---
 
-### Resize the bug
+### बग का आकार बदलें
 
 --- task ---
 
-Click on the **bug** sprite in the Sprite list. Add a script to change the `size`{:class="block3looks"} of your bug `when the backdrop switches to Spotlight`{:class="block3events"}:
+Sprite सूची में **bug** स्प्राइट पर क्लिक करें। अपने बग के `size`{:class="block3looks"} को बदलने के लिए एक स्क्रिप्ट जोड़ें `when the backdrop switches to Spotlight`{:class="block3events"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![बग स्प्राइट।](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
@@ -38,11 +38,11 @@ set size to [20] % // tiny
 
 --- task ---
 
-Click on the code to change the size, then drag your tiny bug to a hiding place.
+साइज़ बदलने के लिए कोड पर क्लिक करें, फिर अपने छोटे बग को किसी छिपने की जगह पर खींचें।
 
-Add code to position your bug:
+अपने बग जगह पर रखने के लिए कोड जोड़ें:
 
-![The bug sprite.](images/bug-sprite.png)
+![बग स्प्राइट।](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
@@ -50,21 +50,21 @@ set size to [20] % // tiny
 + go to x: [13] y: [132] // on the disco ball
 ```
 
-**Choose:** You can choose a different size and location, if you prefer.
+**चुनें:** यदि आप चाहें तो एक अलग साइज़ और जगह चुन सकते हैं।
 
 --- /task ---
 
-### Move to the next Backdrop
+### अगली पृष्ठभूमि पर जाएँ
 
-When you play the game and you successfully find the bug, the game will switch to the next backdrop. Also, to start the game, you will click on the bug on the 'start' screen.
+जब आप गेम खेलते हैं और आप सफलतापूर्वक बग ढूंढ लेते हैं, तो गेम अगले बैकड्रॉप पर स्विच हो जाएगी। साथ ही, गेम शुरू करने के लिए, आप 'स्टार्ट' स्क्रीन पर बग पर क्लिक करेंगे।
 
-The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order in which the backdrops are listed when you click on the **Backdrops** tab for the **Stage**.
+`next backdrop`{:class="block3looks"} ब्लॉक अगले बैकड्रॉप पर उस क्रम में स्विच हो जाता है जैसे बैकड्रॉप की सूची में दिया है जब आप **Stage**के लिए **Backdrops** टैब पर क्लिक करते हैं।
 
 --- task ---
 
-Add a script to your **bug** sprite to `play a Pop sound`{:class="block3sound"} and switch to the `next backdrop`{:class="block3looks"} `when this sprite is clicked`{:class="block3events"}:
+अपने **bug** स्प्राइट में एक स्क्रिप्ट जोड़ें जिससे `play a Pop sound`{:class="block3sound"} और `next backdrop`{:class="block3looks"} पर स्विच करें `when this sprite is clicked`{:class ="block3events"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![बग स्प्राइट।](images/bug-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -74,13 +74,13 @@ next backdrop
 
 --- /task ---
 
-### Make the game start with the Start Screen
+### गेम को स्टार्ट स्क्रीन से शुरू करें
 
 --- task ---
 
-Click on the Stage pane and add this code to the **Stage**:
+स्टेज पेन पर क्लिक करें और इस कोड को **स्टेज**में जोड़ें:
 
-![The Spotlight backdrop.](images/stage-image.png)
+![Spotlight बैकड्रॉप।](images/stage-image.png)
 
 ```blocks3
 when flag clicked
@@ -91,19 +91,19 @@ switch backdrop to [start v] // 'start' screen
 
 --- task ---
 
-**Test:** Click on the green flag to test your project.
+**परीक्षण:** अपने प्रोजेक्ट का परीक्षण करने के लिए हरे झंडे पर क्लिक करें।
 
-You will notice that on the 'start' screen, the bug will still have the settings to hide in its hiding place from the first level (in this example, on the disco ball).
+आप देखेंगे कि 'प्रारंभ' स्क्रीन पर, बग के पास अभी भी पहले स्तर से (इस उदाहरण में, डिस्को बॉल पर) छिपने की जगह में छिपने की सेटिंग होगी।
 
-**Tip:** After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop.
+**युक्ति:** सूची में अंतिम पृष्ठभूमि के बाद, `अगली पृष्ठभूमि`{:class="block3looks"} पहली पृष्ठभूमि पर वापस आ जाएगी।
 
 --- /task ---
 
 --- task ---
 
-Click on the **bug** sprite in the Sprite list. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+Stage के नीचे Sprite सूची में **shrink** स्प्राइट पर क्लिक करें। जब आपका `backdrop switches to`{:class="block3events"} `start`{:class="block3events"} स्क्रीन, तो बग के `set the size`{:class="block3looks"} में एक स्क्रिप्ट जोड़ें:
 
-![The bug sprite.](images/bug-sprite.png)
+![बग स्प्राइट।](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -112,37 +112,37 @@ set size to [100] % // full-sized
 
 --- /task ---
 
-### Change the position of the bug
+### बग की स्थिति बदलें
 
 --- task ---
 
-Try to position the bug on the 'start' screen.
+बग को 'प्रारंभ' स्क्रीन पर रखने का प्रयास करें।
 
-Your code will make the backdrop switch when you click on the bug! That is not helpful when you are trying to position the bug.
+जब आप बग पर क्लिक करेंगे तो आपका कोड बैकड्रॉप स्विच कर देगा! जब आप बग को स्थापित करने का प्रयास कर रहे हों तो यह मददगार नहीं है।
 
-To fix the problem, you need to stop the code from running when you click on the bug.
+समस्या को ठीक करने के लिए, आपको बग पर क्लिक करने पर कोड को चलने से रोकना होगा।
 
 --- /task ---
 
 --- task ---
 
-Click on the green flag to return to the 'start' screen.
+'प्रारंभ' स्क्रीन पर लौटने के लिए हरे झंडे पर क्लिक करें।
 
-Click on the **bug** sprite in the Sprite list and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
+Sprite सूची में **bug** स्प्राइट पर क्लिक करें और ब्लॉक को `when this sprite clicked `{:class="block3events"} ब्लॉक से दूर खींचें:
 
-![Breaking the script.](images/breaking-script.png)
+![स्क्रिप्ट तोड़ना।](images/breaking-script.png)
 
 --- /task ---
 
 --- task ---
 
-Try to position the bug again. Drag the bug onto the chalkboard, below the text:
+बग को फिर से स्थापित करने का प्रयास करें। टेक्स्ट के नीचे, बग को चॉकबोर्ड पर खींचें:
 
-![The bug on the start screen](images/bug-chalkboard.png)
+![स्टार्ट स्क्रीन पर बग](images/bug-chalkboard.png)
 
-Add code to make sure that the bug is positioned on the chalkboard every time your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+यह सुनिश्चित करने के लिए कोड जोड़ें कि हर बार जब आपका `बैकड्रॉप`{:class="block3events"} `start`{:class="block3events"} स्क्रीन पर स्विच करता है, तो हर बार चॉकबोर्ड पर बग स्थित है:
 
-![The bug sprite.](images/bug-sprite.png)
+![बग स्प्राइट।](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -154,22 +154,22 @@ set size to [100] % // full-sized
 
 --- task ---
 
-Join the blocks back together so that the code blocks are under the `when this sprite clicked`{:class="block3events"} block again:
+ब्लॉक को वापस एक साथ जोड़ दें ताकि कोड ब्लॉक `when this sprite clicked`{:class="block3events"} ब्लॉक के नीचे आ जाएँ:
 
-![The 'when this sprite clicked' block joined to the 'play sound' and 'next backdrop' blocks.](images/fixed-script.png)
+!['जब इस स्प्राइट ने क्लिक किया' ब्लॉक 'प्ले साउंड' और 'नेक्स्ट बैकड्रॉप' ब्लॉक में शामिल हो गया।](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your project. Click on the bug to move to the next backdrop. The bug should be big on the 'start' screen and small on the 'Spotlight' level.
+**परीक्षण:** अपने प्रोजेक्ट का परीक्षण करने के लिए हरे झंडे पर क्लिक करें। अगली पृष्ठभूमि पर जाने के लिए बग पर क्लिक करें। बग 'प्रारंभ' स्क्रीन पर बड़ा और 'स्पॉटलाइट' स्तर पर छोटा होना चाहिए।
 
 --- collapse ---
 ---
-title: Nothing happens when I click on the bug
+शीर्षक: जब मैं बग पर क्लिक करता हूँ तो कुछ नहीं होता है
 ---
 
-Did you forget to join the code back to the `when this sprite clicked`{:class="block3events"} block?
+क्या आप कोड को वापस `when this sprite clicked`{:class="block3events"} ब्लॉक से जोड़ना भूल गए हैं?
 
 --- /collapse ---
 
