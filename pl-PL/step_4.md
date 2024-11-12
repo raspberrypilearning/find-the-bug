@@ -29,7 +29,7 @@ Tutaj użyjesz innej pętli. Pętla `zawsze`{:class="block3control"} uruchamia b
 
 --- task ---
 
-Dodaj kod, aby papuga trzepotała skrzydłami w rozpraszający sposób:
+Dodaj kod, aby papuga trzepotała skrzydłami w rozpraszający sposób: Look at the comments on the code blocks for some different numbers to try:
 
 ![Duszek Parrot.](images/parrot-sprite.png)
 
