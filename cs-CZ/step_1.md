@@ -1,21 +1,21 @@
-## You will make
+## Co budeš dělat
 
-Create a game in which you have to find a hidden bug 🐞 on each level. The game will have 'start' and 'end' screen backdrops, and a timer ⌚ to show the player how quickly they found the bugs.
+Vytvoř hru, ve které se bude v každé úrovni nacházet skrytý brouk 🐞. Hra bude mít pozadí "startovní" a "koncové" obrazovky a časovač ⌚, který hráči ukáže, jak rychle brouky našel.
 
-You will:
-+ Create levels for your game using `next backdrop`{:class="block3looks"} and `when backdrop switches to`{:class="block3events"} blocks
-+ Use a `forever`{:class="block3control"} loop to keep running code blocks
-+ Use the `timer`{:class="block3sensing"} **variable** to let the player know how quickly they found the bugs
+Budeš:
++ Vytvoř pro svou hru úrovně pomocí bloků `další pozadí`{:class="block3looks"} a ` když se pozadí přepne na`{:class="block3events"}
++ Použij smyčku `napořád`{:class="block3control"} k neustálému spouštění bloků kódu
++ Použij `časovač`{:class="block3sensing"} jako **proměnnou**, aby hráč věděl, jak rychle chyby našel
 
 --- no-print --- --- task ---
-### Play ▶️
+### Hraj ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
-Click on the bug to start the game.
+Kliknutím na chybu spustíš hru.
 
-Try to find the bug on each level.
+Pokus se v každé úrovni najít brouka.
 
-How well are the bugs hidden? You will get to add your own levels and make it as easy or difficult as you like.
+Jak dobře jsou brouci skrytí? Můžeš si přidat vlastní úrovně a udělat si je tak snadné nebo obtížné, jak se ti líbí.
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -28,10 +28,10 @@ How well are the bugs hidden? You will get to add your own levels and make it as
 
 --- print-only ---
 
-![The completed project.](images/showcase_static.png)
+![Dokončený projekt.](images/showcase_static.png)
 
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-More than 2.5 billion people play video games every year. Just think how many people are involved in creating those games. Would you like a job designing, coding, or testing games for other people to play? 
+Každý rok hraje videohry více než 2,5 miliardy lidí. Jen si představ, kolik lidí se na tvorbě těchto her podílí. Chtěl/a bys navrhovat, kódovat nebo testovat hry pro ostatní? 
 </p>
