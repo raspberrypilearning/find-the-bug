@@ -1,28 +1,28 @@
 ## Upgrade your game
 
-If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text on the chalkboard.
+यदि आपके पास समय है, तो आप अपने खेल में अधिक स्तर और अधिक ध्यान भटकाने के तरीके जोड़ सकते हैं। आप छिपे हुए स्प्राइट को भी बदल सकते हैं और चॉकबोर्ड पर टेक्स्ट को बदल सकते हैं।
 
 --- task ---
 
-Play your game and see how quickly you can find the bugs.
+अपना गेम खेलें और देखें कि आप कितनी जल्दी बग ढूंढ सकते हैं।
 
-Is there someone else who can try your game? How fast can they find the bugs? They will not know where you have hidden them, so it might take them a bit longer!
+क्या कोई और है जो आपके गेम को ट्राई कर सकता है? वे कितनी तेजी से बग ढूंढ पा रहे हैं? उन्हें नहीं पता होगा कि आपने उन्हें कहाँ छिपाया है, इसलिए इसमें उन्हें थोड़ा अधिक समय लग सकता है!
 
-Is there anything that you want to change?
+क्या ऐसा कुछ है जिसे आप बदलना चाहते हैं?
 
-You could:
-- Make the parrot even more annoying
-- Make the bugs smaller
-- Change the `color effect`{:class="block3looks"} to camouflage the bug on each level
-- Change the font or colour of the text
+आप ऐसा कर सकते हैं:
+- तोते से और भी परेशानी ला दो
+- बग को छोटा करके
+- प्रत्येक स्तर पर बग को छिपाने के लिए `color effect`{:class="block3looks"} बदलें
+- टेक्स्ट का फ़ॉन्ट या रंग बदलें
 
 --- /task ---
 
-### Add more levels
+### अधिक विवरण जोड़ें
 
 --- task ---
 
-Here are the blocks that you will need to hide the bug on a new level:
+यहां वे ब्लॉक हैं जिनकी आपको नए स्तर पर बग को छिपाने के लिए आवश्यकता होगी:
 
 ```blocks3
 when backdrop switches to [new level v]
@@ -34,22 +34,22 @@ go to x: [0] y: [0] // drag to position the bug first
 set [color v] effect to [50]
 ```
 
-For each level, you will need to:
-- Add a backdrop
-- Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
-- Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug
+प्रत्येक दरवाजे के लिए आपको निम्न की आवश्यकता होगी:
+- एक पृष्ठभूमि जोड़ें
+- Stage पेन पर क्लिक करें, फिर **Backdrops** टैब पर, फिर नई बैकड्रॉप को **end** बैकड्रॉप से पिछले स्थिति में खींचें।
+- `when backdrop switches to`{:class="block3events"} ब्लॉक को नए बैकड्रॉप के लिए जोड़ें और जगह(पोजीशन) में कोड जोड़ें और बग छुपाएं
 
-**Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the backdrop does not switch when you click on the bug to position it for a new level.
+**टिप:** बग को छिपाने की नई जगह में खींचने के लिए, आपको कोड को 'ब्रेक' करना होगा ताकि जब आप बग को नए स्तर पर रखने के लिए उस पर क्लिक करें तो बैकड्रॉप स्विच न करे।
 
 --- /task ---
 
-### Add more distractions
+### अधिक विकर्षण जोड़ें
 
 --- task ---
 
-You could add more parrots or choose another sprite to act as a distraction.
+आप ध्यान भटकाने के लिए अधिक तोते जोड़ सकते हैं या कोई और स्प्राइट चुन सकते हैं।
 
-Here is the code that you used for the parrot:
+यहाँ वह कोड है जिसका उपयोग आपने तोते के लिए किया था:
 
 ```blocks3
 when flag clicked
@@ -64,17 +64,17 @@ wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
-**Tip:** You can drag the **Parrot** sprite's code to another sprite to make it faster to create another distraction sprite.
+**टिप:** आप **Parrot** स्प्राइट के कोड को दूसरे स्प्राइट में खींच सकते हैं ताकि इसे तेजी से एक और भटकाने वाले स्प्राइट बनाने के लिए इस्तेमाल किया जा सके।
 
-![Dragging code from the Code area to another sprite in the Sprite list.](images/drag-parrot-code.gif)
+![Sprite सूची में Code क्षेत्र से दूसरे स्प्राइट में कोड खींचना।](images/drag-parrot-code.gif)
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+title: पूर्ण परियोजना
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+आप [ पूर्ण प्रोजेक्ट यहां से प्राप्त कर सकते हैं ](https://scratch.mit.edu/projects/486719939/) {: target = "_ blank"}.
 
 --- /collapse ---
