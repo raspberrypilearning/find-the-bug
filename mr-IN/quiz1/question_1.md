@@ -1,17 +1,17 @@
-## Quick quiz
+## जलद प्रश्नमंजुषा
 
-Answer the three questions. There are hints to guide you to the correct answer.
+तीन प्रश्नांची उत्तरे द्या. तुम्हाला योग्य उत्तरासाठी मार्गदर्शन करण्यासाठी सूचना आहेत.
 
-When you have answered each question, click on **Check my answer**.
+तुम्ही प्रत्येक प्रश्नाचे उत्तर दिल्यावर माझे उत्तर तपासा वर क्लिक करा.
 
-Have fun!
+मजा करा!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: प्रश्न 3 पैकी 1
 ---
 
-In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
+तुमच्या गेममध्ये, तुम्ही हा कोड तुमच्या बगमध्ये प्रत्येक वेळी क्लिक केल्यावर बॅकड्रॉपमधून पुढे जाण्यासाठी जोडला.
 
 ```blocks3
 when this sprite clicked
@@ -19,43 +19,43 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Look at this image showing a 'Find the bug' game being played.
+खेळला जात असलेला 'बग शोधा' गेम दर्शवणारी ही प्रतिमा पहा.
 
-![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
+![प्रारंभ, स्पॉटलाइट, अर्बन, एंडमध्ये बॅकड्रॉपसह स्क्रॅच संपादक; आणि स्टेज स्पॉटलाइट पार्श्वभूमी दर्शवित आहे.](images/quiz1-backdrops.png)
 
-In this game, which backdrop would appear next when you click on the bug?
+या गेममध्ये, तुम्ही बगवर क्लिक केल्यावर कोणत बॅकड्रॉप पुढे दिसेल?
 
 --- choices ---
 
-- ( ) start
+- () सुरू करा
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  आपल्याला बॅकड्रॉपच्या क्रमवारीबद्दल विचार करणे आवश्यक आहे.
 
   --- /feedback ---
 
-- (x) Urban
+- (x) शहरी
 
   --- feedback ---
 
-Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
+होय. `पुढील पार्श्वभूमी`{:class="block3looks"} ब्लॉक **स्टेज**साठी **पार्श्वभूमी** टॅबमधील पार्श्वभूमीच्या सूचीच्या क्रमाने पुढील पार्श्वभूमीवर स्विच करते.
 
 --- /feedback ---
 
-- ( ) Spotlight
+- ( ) स्पॉटलाइट
 
   --- feedback ---
 
-  The **Spotlight** backdrop is showing on the Stage. You need to think about the order of the backdrops.
+  Stage वर **Spotlight** बॅकड्रॉप दिसत आहे. आपल्याला बॅकड्रॉपच्या क्रमवारीबद्दल विचार करणे आवश्यक आहे.
 
   --- /feedback ---
 
-- ( ) end
+- ( ) शेवट
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  आपल्याला बॅकड्रॉपच्या क्रमवारीबद्दल विचार करणे आवश्यक आहे.
 
   --- /feedback ---
 
