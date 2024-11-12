@@ -10,7 +10,7 @@ copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: You will make
+    title: Cyflwyniad
   - 
     title: Sgrin cychwyn
   - 
@@ -26,17 +26,17 @@ steps:
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Chwarae'r gêm
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
     completion:
-      - external
+      - internal
   - 
-    title: Upgrade your game
+    title: Myfyrio
   - 
-    title: Share and play
+    title: Uwchraddio dy gêm
   - 
     title: Beth nesaf?
