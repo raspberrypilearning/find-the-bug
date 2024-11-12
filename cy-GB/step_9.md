@@ -1,12 +1,12 @@
-## Share and play
+## Uwchraddio dy gêm
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Dyma'r blociau y bydd eu hangen arnat i guddio'r chwilen ar lefel newydd:
 
 [[[share-scratch]]]
 
-To submit your project to our 'Find the bug' Scratch studio for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+Ar gyfer pob lefel, bydd angen i ti:
 
 --- /task ---
 
@@ -14,7 +14,7 @@ To submit your project to our 'Find the bug' Scratch studio for other people to 
 
 Play these fabulous games from our ['Find the bug' Scratch studio](https://scratch.mit.edu/studios/29005236/){:target="_blank"}.
 
-Notice how the creators have added extra levels, annoying distractions or upgraded the start and end screens:
+Fe allet ti ychwanegu mwy o barotiaid neu ddewis corlun arall i dynnu sylw.
 
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/545488112/?autostart=false" frameborder="0"></iframe>
@@ -30,7 +30,7 @@ Notice how the creators have added extra levels, annoying distractions or upgrad
 
 --- /task ---
 
---- /no-print ---
+**Awgrym:** Gallet ti lusgo cod y corlun **Parot** i gorlun arall i'w gwneud hi'n gyflymach i greu corlun tynnu sylw arall.
 
 --- task ---
 
