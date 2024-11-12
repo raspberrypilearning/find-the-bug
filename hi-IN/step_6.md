@@ -1,58 +1,58 @@
-## End screen
+## आखिरी (एंड) स्क्रीन
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
+आप एक 'end' स्क्रीन बनाएंगे, जिसमें यह दिखाया जाएगा कि खिलाड़ी को बग ढूंढने में कितने सेकंड लगे हैं। 
 </div>
 <div>
 
-![The bug with the amount of time in a speech bubble.](images/end-screen.png){:width="300px"}
+![एक भाषण बुलबुले में समय की गिनती के साथ बग।](images/end-screen.png){:width="300px"}
 
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Sometimes, just beating a game isn't enough. Players like to know how they did against other players or themselves. Can you think of a game that shows you how well you did?</p>
+कभी-कभी, केवल खेल को हरा देना ही काफी नहीं होता। खिलाड़ी यह जानना पसंद करते हैं कि उन्होंने अन्य खिलाड़ियों या खुद के खिलाफ कैसा प्रदर्शन किया। क्या आप किसी ऐसे खेल के बारे में सोच सकते हैं जो आपको दिखाता हो कि आपने कितना अच्छा किया?</p>
 
-### Add another backdrop
+### एक पृष्ठभूमि जोड़ें।
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+**इंडोर्स** श्रेणी से **Chalkboard** बैकड्रॉप जोड़ें।
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![Backdrop Library में Chalkboard बैकड्रॉप।](images/chalkboard.png)
 
-**Tip:** In Scratch, you can add the same backdrop more than once.
+**टिप:** Scratch में, आप एक ही बैकड्रॉप को एक से अधिक बार जोड़ सकते हैं।
 
 --- /task ---
 
-### Edit the backdrop
+### बैकड्रॉप एडिट करें
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+Paint संपादक खोलने के लिए **Backdrops** टैब पर क्लिक करें।
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard2-paint.png)
+![Paint संपादक में Chalkboard बैकड्रॉप।](images/chalkboard2-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Change the name of the backdrop to `end`:
+बैकड्रॉप का नाम `end` में बदलें:
 
-![The backdrop name changed in the Paint editor.](images/end-screen-name.png)
+![Paint संपादक में बैकड्रॉप का नाम बदल गया है।](images/end-screen-name.png)
 
-**Tip:** You rename the backdrop to **end** to make it easier to understand your code.
+**टिप:** आप अपने कोड को आसानी से समझने के लिए बैकड्रॉप का नाम बदलकर **end** कर दें।
 
 --- /task ---
 
-### Position the bug
+### शंकु को जगह पर लगाएँ
 
 --- task ---
 
-Click on the **bug** sprite and add code to position the bug on the 'end' screen:
+**bug** स्प्राइट पर क्लिक करें और बग को 'end' स्क्रीन पर रखने के लिए कोड जोड़ें:
 
-![The bug sprite.](images/bug-sprite.png)
+![बग स्प्राइट।](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -62,15 +62,15 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Add a timer
+### टाइमर जोड़ें
 
-How long does it take you to find and click on the bugs? Scratch has a `timer`{:class="block3sensing"} that you can use to find out.
+बग्स को खोजने और उन पर क्लिक करने में आपको कितना समय लगता है? Scratch में एक `timer`{:class="block3sensing"} है जिसका उपयोग आप पता लगाने के लिए कर सकते हैं।
 
 --- task ---
 
-The `timer`{:class="block3sensing"} block is in the `Sensing`{:class="block3sensing"} blocks menu. Add code to make the bug `say`{:class="block3looks"} the `timer`{:class="block3sensing"} on the 'end' screen:
+`Sensing`{:class="block3sensing"} ब्लॉक मेन्यू से `timer`{:class="block3sensing"} ब्लॉक आता है। 'एंड' स्क्रीन पर बग `say`{:class="block3looks"} `timer`{:class="block3sensing"} के लिए कोड जोड़ें
 
-![The bug sprite.](images/bug-sprite.png)
+![बग स्प्राइट।](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -79,23 +79,23 @@ go to x: [0] y: [30] // on the board
 +say (timer) // seconds taken
 ```
 
-![Inserting a 'timer' block into a 'say' block.](images/inserting-blocks.gif)
+!['timer' ब्लॉक को 'say' ब्लॉक में डालना।](images/inserting-blocks.gif)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your finding skills. How long does it take you to find the bug?
+**परीक्षण:** अपने खोज कौशल का परीक्षण करने के लिए हरे झंडे पर क्लिक करें। आपको बग खोजने में कितना समय लगता है?
 
 --- /task ---
 
-To go back to the 'start' screen, click on the bug on the 'end' screen.
+'start' स्क्रीन पर वापस जाने के लिए, 'end' स्क्रीन में बग पर क्लिक करें।
 
 --- task ---
 
-Add code to make the bug stop saying the `timer`{:class="block3sensing"} when you go to the 'start' screen:
+जब आप 'स्टार्ट' स्क्रीन पर जाते हैं तब बग से `timer`{:class="block3sensing"} ना कहलवाने के लिए कोड जोड़ें:
 
-![The bug sprite.](images/bug-sprite.png)
+![बग स्प्राइट।](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -106,15 +106,15 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Stop the timer
+### टाइमर शुरू करो
 
-If you play the game a second time, the `timer`{:class="block3sensing"} will keep counting.
+अगर आप दूसरी बार गेम खेलते हैं, तो `timer`{:class="block3sensing"} गिनती करता रहेगा।
 
 --- task ---
 
-Add code to `reset the timer`{:class="block3sensing"} when the `backdrop switches to`{:class="block3events"} the first level:
+जब `backdrop switches to`{:class="block3events"} पहला स्तर तब `reset the timer`{:class="block3sensing"} में कोड जोड़ें
 
-![The bug sprite.](images/bug-sprite.png)
+![बग स्प्राइट।](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v] // first level
@@ -127,7 +127,7 @@ go to x: [13] y: [132] // on the disco ball
 
 --- task ---
 
-**Test:** Click on the green flag and play the game. The timer should reset when you click on the bug on the 'start' screen to move to the first level. When you click on the bug on the 'end' screen, you should return to the 'start' screen and see that the bug is not saying the `timer`{:class="block3sensing"}.
+**परीक्षण:** हरे झंडे पर क्लिक करें और गेम खेलें। जब आप पहले स्तर पर जाने के लिए 'start' स्क्रीन पर बग पर क्लिक करते हैं तो टाइमर रीसेट हो जाना चाहिए। जब आप 'end' स्क्रीन पर बग पर क्लिक करते हैं, तब आपको 'start' स्क्रीन पर वापस लौटना चाहिए और देखना चाहिए कि बग `timer`{:class="block3sensing"} नहीं दिखा रहा है।
 
 --- /task ---
 
