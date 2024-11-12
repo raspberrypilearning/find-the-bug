@@ -1,32 +1,32 @@
 ---
-title: Find the bug
+title: Najdi brouka
 hero_image: images/banner.png
-description: Create a game in which you have to find a hidden bug on each level
-meta_title: Scratch coding projects for kids and teens | Find the bug
-meta_description: Learn to code in Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch game and find a hidden bug on each level.
+description: Vytvoř hru, ve které se bude v každé úrovni nacházet skrytý brouk
+meta_title: Kódovací projekty ve Scratchi pro děti a náctileté | Najdi chybu
+meta_description: Nauč se kódovat ve Scratchi pomocí kódovacích projektů pro děti a náctileté od nadace Raspberry Pi Foundation. Vytvoř si hru ve Scratchi a najdi v každé úrovni skrytého brouka.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: You will make
+    title: Co budeš dělat
   - 
-    title: Start screen
+    title: Startovací obrazovka
   - 
-    title: First level
+    title: První úroveň
     completion:
       - engaged
   - 
-    title: Parrot distraction
+    title: Rozptýlení papouška
   - 
-    title: Second level
+    title: Druhá úroveň
   - 
-    title: End screen
+    title: Závěrečná obrazovka
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Rychlý kvíz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,8 +35,8 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your game
+    title: Vylepši svou hru
   - 
-    title: Share and play
+    title: Sdílej a hraj
   - 
-    title: What next?
+    title: Co dál?
