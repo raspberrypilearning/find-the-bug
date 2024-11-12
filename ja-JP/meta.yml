@@ -10,7 +10,7 @@ copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: You will make
+    title: はじめに
   - 
     title: スタート画面
   - 
@@ -26,17 +26,17 @@ steps:
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: ゲームをする
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
     completion:
-      - external
+      - internal
   - 
-    title: Upgrade your game
+    title: ふりかえり
   - 
-    title: Share and play
+    title: ゲームをアップグレードする
   - 
     title: 次は何をしますか？
