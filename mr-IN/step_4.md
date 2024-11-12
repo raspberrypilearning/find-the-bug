@@ -1,37 +1,37 @@
-## Parrot distraction
+## पोपट विचलित करणे
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-To make it harder for players to find and click on the bug, you will add an annoying parrot to distract them. 
+खेळाडूंना किडा शोधणे आणि त्यावर क्लिक करणे कठिण करण्यासाठी, त्यांचे लक्ष विचलित करण्यासाठी तुम्ही त्रासदायक पोपट जोडाल. 
 </div>
 <div>
 
-![A colourful parrot on the Stage.](images/parrot-distraction.png){:width="300px"}
+![Stage वर एक रंगीत पोपट.](images/parrot-distraction.png){:width="300px"}
 
 </div>
 </div>
 
-### Add the Parrot sprite
+### पोपट स्प्राइट घाला
 
 --- task ---
 
-Add the **Parrot** sprite.
+**Parrot** स्प्राइट जोडा.
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+!['Choose a Sprite' आयकॉन.](images/sprite-button.png)
 
 --- /task ---
 
-### Animate the Parrot sprite
+### पोपट स्प्राइटला अॅनिमेट करा
 
-In the [Catch the bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"} project, you used a `repeat`{:class="block3control"} loop.
+[बस पकडा](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"} प्रोजेक्टमध्ये, तुम्ही `repeat`{:class="block3control"} लूप वापरला आहे.
 
-You will use a different loop here. A `forever`{:class="block3control"} loop runs the code blocks inside it again and again. It is the perfect loop for an annoying parrot that will not stop flying around and getting in the way.
+तुम्ही येथे वेगळा लूप वापराल. `forever`{:class="block3control"} लूप त्याच्या आत कोड ब्लॉक्स पुन्हा पुन्हा चालवतो. त्रासदायक पोपटासाठी हा एक योग्य लूप आहे जो इकडे तिकडे उडणे आणि मार्गात येण्याचे थांबणार नाही.
 
 --- task ---
 
-Add code to make the parrot flap around in a distracting way:
+Add code to make the parrot flap around in a distracting way. Look at the comments on the code blocks for some different numbers to try:
 
-![The Parrot sprite.](images/parrot-sprite.png)
+![Parrot स्प्राईट.](images/parrot-sprite.png)
 
 
 ```blocks3
@@ -51,13 +51,13 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag and test your project again. Can you remember where you hid the bug?
+**चाचणी:** हिरव्या ध्वजावर क्लिक करा आणि तुमच्या प्रकल्पाची पुन्हा चाचणी करा. तुम्ही किडा कुठे लपवला होता ते आठवते का?
 
-In Scratch, code that is running glows with a yellow outline:
+Scratch मध्ये, चालू असलेला कोड पिवळ्या बाह्यरेषेसह चमकतो:
 
 ![](images/running-code.png)
 
-**Tip:** If the parrot gets too annoying while you are coding, you can click the red stop button above the Stage to stop the code from running.
+**टीप:** जर तुम्ही कोडिंग करत असताना पोपट खूप त्रासदायक होत असेल, तर तुम्ही कोड चालू होण्यापासून थांबवण्यासाठी Stage च्या वर असलेल्या लाल स्टॉप बटणावर क्लिक करू शकता.
 
 --- /task ---
 
