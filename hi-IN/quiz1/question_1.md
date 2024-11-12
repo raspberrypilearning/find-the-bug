@@ -1,17 +1,17 @@
-## Quick quiz
+## प्रश्नोत्तरी
 
-Answer the three questions. There are hints to guide you to the correct answer.
+तीन प्रश्नों के उत्तर दीजिए। आपको सही उत्तर के लिए मार्गदर्शन करने के लिए संकेत हैं।
 
-When you have answered each question, click on **Check my answer**.
+जब आप प्रत्येक प्रश्न का उत्तर दे दें, तो मेरे उत्तर जांचें पर क्लिक करें।
 
-Have fun!
+इस छवि को देखें जिसमें 'बग का पता लगाएं' खेल खेला जा रहा है।
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: तीन में से पहला प्रश्न
 ---
 
-In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
+अपने गेम में, आपने इस कोड को अपने **बग** में जोड़ा है ताकि हर बार क्लिक किए जाने पर बैकड्रॉप के माध्यम से आगे बढ़ सकें।
 
 ```blocks3
 when this sprite clicked
@@ -19,19 +19,19 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Look at this image showing a 'Find the bug' game being played.
+इस छवि को देखें जिसमें 'बग ढूंढ़ें' खेल खेला जा रहा है।
 
 ![ऑर्डर स्टार्ट, स्पॉटलाइट, अर्बन, एंड में बैकड्रॉप्स के साथ स्क्रैच एडिटर; और मंच स्पॉटलाइट पृष्ठभूमि दिखा रहा है।](images/quiz1-backdrops.png)
 
-In this game, which backdrop would appear next when you click on the bug?
+इस छवि को देखें जिसमें 'बग का पता लगाएं' खेल खेला जा रहा है।
 
 --- choices ---
 
-- ( ) start
+- ( ) प्रारंभ
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  आपको बैकड्रॉप के क्रम के बारे में सोचने की जरूरत है।
 
   --- /feedback ---
 
@@ -39,7 +39,7 @@ In this game, which backdrop would appear next when you click on the bug?
 
   --- feedback ---
 
-Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
+हाँ। `अगला बैकड्रॉप`{:class="block3looks"} ब्लॉक अगले बैकड्रॉप पर उस क्रम में स्विच हो जाता है जैसे बैकड्रॉप की सूची में दिया है जब आप **Stage** के लिए **बैकड्रॉप** टैब पर क्लिक करते हैं।
 
 --- /feedback ---
 
@@ -47,15 +47,15 @@ Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdr
 
   --- feedback ---
 
-  The **Spotlight** backdrop is showing on the Stage. You need to think about the order of the backdrops.
+  **Spotlight** बैकड्रॉप Stage पर दिखाई दे रहा है। आपको बैकड्रॉप के क्रम के बारे में सोचने की जरूरत है।
 
   --- /feedback ---
 
-- ( ) end
+- ( ) अंत
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  आपको बैकड्रॉप के क्रम के बारे में सोचने की जरूरत है।
 
   --- /feedback ---
 
