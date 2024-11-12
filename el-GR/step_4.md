@@ -29,7 +29,7 @@
 
 --- task ---
 
-Πρόσθεσε κώδικα για να κάνεις τον παπαγάλο να φτερουγίζει με τρόπο που να αποσπά την προσοχή:
+Add code to make the parrot flap around in a distracting way. Look at the comments on the code blocks for some different numbers to try:
 
 ![Το αντικείμενο Parrot.](images/parrot-sprite.png)
 
