@@ -1,28 +1,28 @@
-## Upgrade your game
+## Melhore o seu jogo
 
-If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text on the chalkboard.
+Se tiver tempo, você pode adicionar mais níveis e mais distrações ao seu jogo. Você também pode alterar o sprite que está oculto e alterar o texto no quadro-negro.
 
 --- task ---
 
-Play your game and see how quickly you can find the bugs.
+Jogue o seu jogo e veja o quão rápido você consegue encontrar os insetos.
 
-Is there someone else who can try your game? How fast can they find the bugs? They will not know where you have hidden them, so it might take them a bit longer!
+Há mais alguém que possa experimentar o seu jogo? Com que rapidez eles conseguem encontrar os insetos? Eles não vão saber onde você os escondeu, então podem demorar um pouco mais!
 
-Is there anything that you want to change?
+Há alguma coisa que você queira mudar?
 
-You could:
-- Make the parrot even more annoying
-- Make the bugs smaller
-- Change the `color effect`{:class="block3looks"} to camouflage the bug on each level
-- Change the font or colour of the text
+Você poderia:
+- Fazer o papagaio ainda mais irritante
+- Fazer os insetos mais pequenos
+- Alterar o `efeito de cor `{:class="block3looks"} para camuflar o inseto em cada nível
+- Alterar a fonte ou cor do texto
 
 --- /task ---
 
-### Add more levels
+### Adicione mais níveis
 
 --- task ---
 
-Here are the blocks that you will need to hide the bug on a new level:
+Aqui estão os blocos que você precisará para ocultar o bug em um novo nível:
 
 ```blocks3
 when backdrop switches to [new level v]
@@ -34,22 +34,22 @@ go to x: [0] y: [0] // drag to position the bug first
 set [color v] effect to [50]
 ```
 
-For each level, you will need to:
-- Add a backdrop
-- Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
-- Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug
+Para cada nível, você precisará:
+- Adicionar um plano de fundo
+- Clicar no painel Palco, depois na guia **Cenários** e arrastar o novo cenário para a posição antes do cenário **final**
+- Adicionar um bloco `quando o cenário mudar para`{:class="block3events"} para o novo cenário e adicionar código para posicionar e ocultar o bug
 
-**Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the backdrop does not switch when you click on the bug to position it for a new level.
+**Dica:** Para arrastar o inseto para um novo esconderijo, você precisar 'quebrar' o código para que cenário não mude quando você clicar no inseto para posicioná-lo para um novo nível.
 
 --- /task ---
 
-### Add more distractions
+### Adicione mais distrações
 
 --- task ---
 
-You could add more parrots or choose another sprite to act as a distraction.
+Você pode adicionar mais papagaios ou escolher outro sprite para servir de distração.
 
-Here is the code that you used for the parrot:
+Aqui está o código que você usou para o papagaio:
 
 ```blocks3
 when flag clicked
@@ -64,17 +64,17 @@ wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
-**Tip:** You can drag the **Parrot** sprite's code to another sprite to make it faster to create another distraction sprite.
+**Dica:** Você pode arrastar o código do sprite **Parrot** para outro sprite para tornar mais rápido a criação de outro sprite de distração.
 
-![Dragging code from the Code area to another sprite in the Sprite list.](images/drag-parrot-code.gif)
+![Arrastar o código da área Código para outro sprite na lista Sprite.](images/drag-parrot-code.gif)
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+título: Projeto concluído
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+Você pode ver o projeto [concluído aqui](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
 
 --- /collapse ---
