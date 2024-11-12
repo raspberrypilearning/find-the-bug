@@ -1,31 +1,31 @@
-## Start screen
+## Startovací obrazovka
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Give your game a 'start' screen.
+Dej své hře "startovací" obrazovku.
 </div>
 <div>
 
-!["Find the bug" text on a chalkboard on the Stage.](images/start-screen.png){:width="300px"}
+![text "Najdi brouka" na tabuli na Scéně.](images/start-screen.png){:width="300px"}
 
 </div>
 </div>
 
-### Open the starter project
+### Otevři úvodní projekt
 
 --- task ---
 
-Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch will open in another browser tab.
+Otevři [startovací projekt Najdi brouka](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch se otevře na jiné kartě prohlížeče.
 
 [[[working-offline]]]
 
 --- /task ---
 
-### Add a Backdrop
+### Přidej kulisu
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+Přidej pozadí **Tabule** z kategorie **Vnitřní prostory**.
 
 ![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
 
@@ -33,21 +33,21 @@ Add the **Chalkboard** backdrop from the **Indoors** category.
 
 --- /task ---
 
-The **Stage** has a **Backdrops** tab instead of a **Costumes** tab. This is where you can create images for the **Stage**.
+**Scéna** má záložku **Pozadí** namísto záložky **Kostýmy**. Zde můžeš vytvářet obrázky pro **Scénu**.
 
 --- task ---
 
-Click on the Stage pane.
+Klikni na podokno Scéna.
 
 ![The Stage pane in the bottom right corner is highlighted.](images/stage-pane.png)
 
 --- /task ---
 
-### Edit the Backdrop
+### Uprav Pozadí
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+Kliknutím na kartu **Pozadí** otevři editor Malování.
 
 ![The Chalkboard backdrop in the Paint editor.](images/chalkboard-paint.png)
 
@@ -55,17 +55,17 @@ Click on the **Backdrops** tab to open the Paint editor.
 
 --- task ---
 
-Select **backdrop1** and click on the **Delete** icon to remove the **backdrop1** backdrop from your project. You will not need the **backdrop1** backdrop in this project.
+Vyber **pozadí1** a klikni na ikonu **Smazat** pro odstranění pozadí **pozadí1** z tvého projektu. V tomto projektu nebudete potřebovat pozadí **pozadí1**.
 
 ![Backdrop1 is highlighted in the top left corner.](images/delete-backdrop1.png)
 
 --- /task ---
 
-The **Chalkboard** backdrop will now be highlighted.
+Pozadí **Tabule** se nyní zvýrazní.
 
 --- task ---
 
-Click on **Convert to Vector**. Now, you will be able to add text that you can move around.
+Klikni na **Převést na vektor**. Nyní můžeš přidat text, kterým lze pohybovat.
 
 ![The 'Convert to Vector' button.](images/vector-button.png)
 
@@ -73,11 +73,11 @@ Click on **Convert to Vector**. Now, you will be able to add text that you can m
 
 --- task ---
 
-Use the **Text** tool to add the text `Find the bug` to the chalkboard:
+Pomocí nástroje **Text** přidej text `Najdi brouka` na tabuli:
 
 ![Find the bug is written on the chalkboard.](images/chalkboard-text.png)
 
-We used the **Marker** font in white, but **choose** the font and colour that you want to use.
+Použili jsme písmo **Značka** v bílé barvě, ale **vyber si** písmo a barvu, kterou chceš použít ty.
 
 **Tip:** Switch to the **Select** (Arrow) tool to move your text around. To change the size of the text, grab the corner of the text and drag it.
 
