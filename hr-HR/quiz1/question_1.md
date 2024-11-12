@@ -4,7 +4,7 @@ Answer the three questions. There are hints to guide you to the correct answer.
 
 When you have answered each question, click on **Check my answer**.
 
-Have fun!
+Zabavi se!
 
 --- question ---
 ---
@@ -39,7 +39,7 @@ In this game, which backdrop would appear next when you click on the bug?
 
   --- feedback ---
 
-Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
+Da. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
 
 --- /feedback ---
 
