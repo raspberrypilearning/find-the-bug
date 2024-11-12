@@ -1,32 +1,32 @@
 ---
-title: Find the bug
+title: बग शोधा
 hero_image: images/banner.png
-description: Create a game in which you have to find a hidden bug on each level
-meta_title: Scratch coding projects for kids and teens | Find the bug
-meta_description: Learn to code in Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch game and find a hidden bug on each level.
+description: एक गेम तयार करा ज्यामध्ये तुम्हाला प्रत्येक स्तरावर छुपा बग शोधावा लागेल
+meta_title: मुलांसाठी आणि किशोरांसाठी स्क्रॅच कोडिंग प्रकल्प | बग शोधा
+meta_description: रास्पबेरी पाई फाउंडेशनच्या मुलांसाठी आणि किशोरवयीन मुलांसाठी कोडिंग प्रकल्पांसह स्क्रॅचमध्ये कोड करायला शिका. स्क्रॅच गेम बनवा आणि प्रत्येक स्तरावर लपलेले बग शोधा.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: You will make
+    title: तुम्ही बनवाल
   - 
-    title: Start screen
+    title: स्क्रीन सुरू करा
   - 
-    title: First level
+    title: पहिली लेवल
     completion:
       - engaged
   - 
-    title: Parrot distraction
+    title: पोपट विचलित करणे
   - 
-    title: Second level
+    title: दुसरी लेवल
   - 
-    title: End screen
+    title: शेवट स्क्रीन
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: द्रुत क्विझ
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,8 +35,8 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your game
+    title: तुमचा गेम अपग्रेड करा
   - 
-    title: Share and play
+    title: सामायिक करा आणि खेळा
   - 
-    title: What next?
+    title: पुढे काय?
