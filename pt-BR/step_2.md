@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Give your game a 'start' screen.
+Dê ao seu jogo uma tela 'inicial'.
 </div>
 <div>
 
@@ -11,7 +11,7 @@ Give your game a 'start' screen.
 </div>
 </div>
 
-### Open the starter project
+### Abra o projeto inicial
 
 --- task ---
 
@@ -21,7 +21,7 @@ Abra o [projeto inicial Encontre o inseto](https://scratch.mit.edu/projects/5822
 
 --- /task ---
 
-### Add a Backdrop
+### Adicionar um pano de fundo
 
 --- task ---
 
@@ -39,11 +39,11 @@ O **Palco** tem um botão de **Plano de fundo** em vez de um botão de **Costume
 
 Clique no painel do Palco.
 
-![The Stage pane in the bottom right corner is highlighted.](images/stage-pane.png)
+![O painel Palco no canto inferior direito é destacado.](images/stage-pane.png)
 
 --- /task ---
 
-### Edit the Backdrop
+### Edite o plano de fundo
 
 --- task ---
 
@@ -57,7 +57,7 @@ Clique na aba **Cenários** para abrir o editor Paint.
 
 Selecione **cenário1** e clique no ícone**Excluir** para remover o **cenário1** de seu projeto. Você não vai precisar do **cenário1** neste projeto.
 
-![Backdrop1 is highlighted in the top left corner.](images/delete-backdrop1.png)
+![Backdrop1 está destacado no canto superior esquerdo.](images/delete-backdrop1.png)
 
 --- /task ---
 
@@ -75,7 +75,7 @@ Clique em **Converter para Vetor**. Agora, você poderá adicionar texto que voc
 
 Use a ferramenta **Texto** para adicionar o texto `Encontre o Inseto` no quadro-negro:
 
-![Find the bug is written on the chalkboard.](images/chalkboard-text.png)
+![Encontre o bug que está escrito no quadro-negro.](images/chalkboard-text.png)
 
 Usamos **Marcador** branco, mas você pode **escolher** a fonte e a cor que quiser.
 
@@ -83,7 +83,7 @@ Usamos **Marcador** branco, mas você pode **escolher** a fonte e a cor que quis
 
 --- /task ---
 
-## Rename the Backdrop
+## Renomear o plano de fundo
 
 --- task ---
 
@@ -95,7 +95,7 @@ Altere o nome do cenário para `início`, porque você precisará selecioná-lo 
 
 --- /task ---
 
-### Add the Bug Sprite
+### Adicione o Sprite do Inseto
 
 --- task ---
 
