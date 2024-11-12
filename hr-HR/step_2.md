@@ -11,7 +11,7 @@ Give your game a 'start' screen.
 </div>
 </div>
 
-### Open the starter project
+### Otvori početni projekt
 
 --- task ---
 
