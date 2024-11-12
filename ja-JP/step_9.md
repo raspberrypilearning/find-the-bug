@@ -30,7 +30,7 @@ Notice how the creators have added extra levels, annoying distractions or upgrad
 
 --- /task ---
 
---- /no-print ---
+--- /collapse ---
 
 --- task ---
 
