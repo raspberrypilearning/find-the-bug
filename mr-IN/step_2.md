@@ -1,124 +1,124 @@
-## Start screen
+## प्रारंभी स्क्रीन
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Give your game a 'start' screen.
+तुमच्या गेमला 'स्टार्ट' स्क्रीन द्या.
 </div>
 <div>
 
-!["Find the bug" text on a chalkboard on the Stage.](images/start-screen.png){:width="300px"}
+![Stage च्या चॉकबोर्डवरील "Find the bug" मजकूर.](images/start-screen.png){:width="300px"}
 
 </div>
 </div>
 
-### Open the starter project
+### स्टार्टर प्रोजेक्ट उघडा
 
 --- task ---
 
-Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch will open in another browser tab.
+[किडा शोधा स्टार्टर प्रकल्प](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"} उघडा. Scratch दुसऱ्या ब्राऊजर टॅब मध्ये उघडेल.
 
 [[[working-offline]]]
 
 --- /task ---
 
-### Add a Backdrop
+### एक पार्श्वभूमी जोडा
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+**Indoors** श्रेणीतील **Chalkboard** बॅकड्रॉप जोडा.
 
-![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
+!["Choose a Backdrop" आयकॉन.](images/backdrop-button.png)
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![Backdrop लायब्ररीमधील Chalkboard बॅकड्रॉप.](images/chalkboard.png)
 
 --- /task ---
 
-The **Stage** has a **Backdrops** tab instead of a **Costumes** tab. This is where you can create images for the **Stage**.
+**Stage** मध्ये **Costumes** टॅबऐवजी **Backdrops** टॅब आहे. येथे तुम्ही **Stage** साठी प्रतिमा तयार करू शकता.
 
 --- task ---
 
-Click on the Stage pane.
+Stage फलकावर वर क्लिक करा.
 
-![The Stage pane in the bottom right corner is highlighted.](images/stage-pane.png)
+![तळाशी उजव्या कोपर्यात स्टेज उपखंड हायलाइट केला आहे.](images/stage-pane.png)
 
 --- /task ---
 
-### Edit the Backdrop
+### पार्श्वभूमी संपादित करा
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+पेंट एडिटर उघडण्यासाठी **Backdrops** टॅबवर क्लिक करा.
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard-paint.png)
-
---- /task ---
-
---- task ---
-
-Select **backdrop1** and click on the **Delete** icon to remove the **backdrop1** backdrop from your project. You will not need the **backdrop1** backdrop in this project.
-
-![Backdrop1 is highlighted in the top left corner.](images/delete-backdrop1.png)
-
---- /task ---
-
-The **Chalkboard** backdrop will now be highlighted.
-
---- task ---
-
-Click on **Convert to Vector**. Now, you will be able to add text that you can move around.
-
-![The 'Convert to Vector' button.](images/vector-button.png)
+![Paint एडिटरमध्ये Chalkboard बॅकड्रॉप.](images/chalkboard-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Use the **Text** tool to add the text `Find the bug` to the chalkboard:
+तुमच्या प्रोजेक्टमधून **backdrop1** हा बॅकड्रॉप काढण्यासाठी **backdrop1** निवडा आणि **Delete** आयकॉनवर क्लिक करा. तुम्हाला या प्रकल्पात **backdrop1** बॅकड्रॉप आवश्यकता नाही.
 
-![Find the bug is written on the chalkboard.](images/chalkboard-text.png)
-
-We used the **Marker** font in white, but **choose** the font and colour that you want to use.
-
-**Tip:** Switch to the **Select** (Arrow) tool to move your text around. To change the size of the text, grab the corner of the text and drag it.
+![Backdrop1 वरच्या डाव्या कोपर्यात हायलाइट केले आहे.](images/delete-backdrop1.png)
 
 --- /task ---
 
-## Rename the Backdrop
+**Chalkboard** बॅकड्रॉप आता हायलाइट केला जाईल.
 
 --- task ---
 
-Change the name of the backdrop to `start`, because you will need to select it later in the project.
+**Convert to Vector**वर क्लिक करा. आता, तुम्ही फिरवू शकाल असा मजकूर जोडण्यास सक्षम असाल.
 
-![The Costume name box highlighted in the Paint editor.](images/start-screen-name.png)
-
-**Tip:** If you use names that make sense, it will be easier to understand your project, especially when you come back to a project later.
-
---- /task ---
-
-### Add the Bug Sprite
-
---- task ---
-
-Delete the **Scratch Cat** sprite.
+!['Convert to Vector' बटन.](images/vector-button.png)
 
 --- /task ---
 
 --- task ---
 
-Click on **Choose a Sprite** and type `bug` in the search box.
+चॉकबोर्डवर `Find the bug` हा मजकूर लिहिण्यासाठी **Text** साधनाचा वापर करा:
 
-**Choose:** Choose a bug, which players will need to find in your game.
+![चॉकबोर्डवर बग लिहिला आहे ते शोधा.](images/chalkboard-text.png)
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+आम्ही पांढऱ्या रंगात **Marker** फॉन्ट वापरला आहे, परंतु तुम्हाला वापरायचा असलेला फॉन्ट आणि रंग **निवडा**.
 
-!["bug" search results showing seven different bugs.](images/bug-search.png)
+**टीप:** तुमचा मजकूर फिरवण्यासाठी **Select** (बाण) टूलवर जा. मजकूराचा आकार बदलण्यासाठी, मजकूराचा कोपरा पकडा आणि तो ड्रॅग करा.
 
-**Tip:** Give your project a name. You might like to include the name of the bug that you have just chosen.
+--- /task ---
+
+## पार्श्वभूमीचे नाव बदला
+
+--- task ---
+
+बॅकड्रॉपचे नाव `Start` असे बदला, कारण तुम्हाला ते नंतर प्रोजेक्टमध्ये निवडावे लागेल.
+
+![पेंट एडिटरमध्ये Costume नावाचा बॉक्स हायलाइट केला आहे.](images/start-screen-name.png)
+
+**टीप:** जर तुम्ही अर्थपूर्ण नावे वापरत असाल, तर तुमचा प्रकल्प समजून घेणे सोपे होईल, विशेषत: जेव्हा तुम्ही नंतर एखाद्या प्रकल्पावर परत येता.
+
+--- /task ---
+
+### बग स्प्राइट जोडा
+
+--- task ---
+
+**Scratch Cat** स्प्राइट हटवा.
+
+--- /task ---
+
+--- task ---
+
+**Choose a Sprite** वर क्लिक करा आणि सर्च बॉक्समध्ये `Bug` टाइप करा.
+
+**निवडा:** एक किडा निवडा, जो खेळाडूंना तुमच्या गेममध्ये शोधण्याची आवश्यकता असेल.
+
+!['Choose a Sprite' आयकॉन.](images/sprite-button.png)
+
+!["bug" शोध परिणाम सात भिन्न किडे दर्शवित आहेत.](images/bug-search.png)
+
+**टीप:** तुमच्या प्रोजेक्टला नाव द्या. तुम्ही नुकतेच निवडलेल्या किड्याचे नाव समाविष्ट करायला तुम्हाला आवडेल.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A mistake in a computer program is called a <span style="color: #0faeb0">**bug**</span>. Finding and removing mistakes in computer programs is called <span style="color: #0faeb0">**debugging**</span>. Grace Hopper is a famous software engineer. Her team once found a moth in their computer. Their notes say, "First actual case of bug being found."
+कॉम्प्युटर प्रोग्रॅममधील चुकांना <span style="color: #0faeb0">**bug**</span> म्हणतात. संगणक प्रोग्राममधील चुका शोधणे आणि दूर करणे याला <span style="color: #0faeb0">**debugging**</span> म्हणतात. ग्रेस हॉपर ह्या प्रसिद्ध सॉफ्टवेअर अभियंता आहेत. त्यांच्या टीमला एकदा त्यांच्या कॉम्प्युटरमध्ये एक पतंग सापडला. त्यांच्या नोंदीमध्ये म्हटले आहे, "बग सापडल्याची पहिली वास्तविक घटना."
 </p>
 
 
