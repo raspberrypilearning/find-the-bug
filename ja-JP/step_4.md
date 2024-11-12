@@ -11,7 +11,7 @@
 </div>
 </div>
 
-### Add the Parrot sprite
+### **Parrot** スプライトを追加します。
 
 --- task ---
 
@@ -21,7 +21,7 @@
 
 --- /task ---
 
-### Animate the Parrot sprite
+### Parrotのスプライト。
 
 [Catch the bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_ blank"}プロジェクトでは、 `繰り返す`{:class="block3control"}ループを使用しました。
 
@@ -29,7 +29,7 @@
 
 --- task ---
 
-コードを追加して、オウムを気が散るような方法で羽ばたかせます。
+コードを追加して、オウムを気が散るような方法で羽ばたかせます。 Look at the comments on the code blocks for some different numbers to try:
 
 ![Parrotのスプライト。](images/parrot-sprite.png)
 
