@@ -38,7 +38,7 @@ go to x: [0] y: [30]
 
   --- feedback ---
 
-そうです。 `タイマー`{:class="block3sensing"}ブロックは、プロジェクトが開始されてから、またはタイマーがリセットされてからの時間を報告します。 The `say`{:class="block3looks"} block creates a speech bubble next to bug.
+そうです。 `タイマー`{:class="block3sensing"}ブロックは、プロジェクトが開始されてから、またはタイマーがリセットされてからの時間を報告します。 `タイマー`{:class="block3sensing"}ブロックは、プロジェクトが開始されてから、またはタイマーがリセットされてからの時間を報告します。
 
   --- /feedback ---
 
