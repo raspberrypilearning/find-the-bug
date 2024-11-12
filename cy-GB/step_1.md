@@ -1,4 +1,4 @@
-## You will make
+## Cyflwyniad
 
 Create a game in which you have to find a hidden bug 🐞 on each level. The game will have 'start' and 'end' screen backdrops, and a timer ⌚ to show the player how quickly they found the bugs.
 
@@ -8,7 +8,7 @@ Byddi di'n:
 + Defnyddio'r **newidyn** `amserydd`{:class="block3sensing"} i roi gwybod i'r chwaraewr pa mor gyflym y daethon nhw o hyd i'r chwilod
 
 --- no-print --- --- task ---
-### Play ▶️
+### Rho gynnig arni
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 Clicia ar y chwilen i brofi'r gêm.
