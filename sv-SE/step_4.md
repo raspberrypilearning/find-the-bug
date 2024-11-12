@@ -29,7 +29,7 @@ Du kommer att använda en annan loop här. En `för alltid`{:class="block3contro
 
 --- task ---
 
-Lägg till kod för att få papegojan att flaxa runt på ett irriterande sätt:
+Add code to make the parrot flap around in a distracting way. Look at the comments on the code blocks for some different numbers to try:
 
 ![Papegojapsrajten.](images/parrot-sprite.png)
 
