@@ -1,17 +1,17 @@
-## Quick quiz
+## Imibuzo ekhawulezayo
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Phendula imibuzo emithathu. Kukho iingcebiso zokukukhokelela kwimpendulo echanekileyo.
 
-When you have answered each question, click on **Check my answer**.
+Xa uphendule umbuzo ngamnye, cofa ku **Jonga impendulo yam**.
 
-Have fun!
+Yonwaba!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Umbuzo 1 wesi-3
 ---
 
-In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
+Kumdlalo wakho, wongeze le khowudi kwi **bug** yakho ukuya ngasemva qho xa icofa.
 
 ```blocks3
 when this sprite clicked
@@ -19,7 +19,7 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Look at this image showing a 'Find the bug' game being played.
+Jonga lo mfanekiso ubonisa umdlalo 'Fumana ibug' edlalwayo.
 
 ![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
 
