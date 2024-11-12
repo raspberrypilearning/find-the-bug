@@ -29,7 +29,7 @@ Byddi di'n defnyddio dolen wahanol yma. Mae dolen `am byth`{:class="block3contro
 
 --- task ---
 
-Ychwanega god i wneud i'r parot fflapio o gwmpas mewn ffordd sy'n tynnu sylw:
+Add code to make the parrot flap around in a distracting way. Look at the comments on the code blocks for some different numbers to try:
 
 ![Y Corlun Parrot.](images/parrot-sprite.png)
 
