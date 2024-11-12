@@ -1,11 +1,11 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: तीन में से तीसरा प्रश्न
 ---
 
-You added this script to the **bug** sprite:
+आपने इस स्क्रिप्ट को **bug** स्प्राइट में जोड़ा है:
 
-![The bug sprite.](images/bug-sprite.png)
+![बग स्प्राइट।](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -14,35 +14,35 @@ go to x: [0] y: [30]
 + say (timer) 
 ```
 
-How does the `say`{:class="block3looks"} `timer`{:class="block3sensing"} block make the Stage look when the backdrop switches to **end**?
+जब बैकड्रॉप **end** पर स्विच करता है तो `say`{:class="block3looks"} `timer`{:class="block3sensing"} ब्लॉक Stage को कैसा दिखाता है?
 
 --- choices ---
 
-- ( ) ![A parrot saying the timer value "4.52".](images/quiz_parrot_number.png)
+- ( ) ![एक तोता कह रहा है टाइमर मान "4.52"।](images/quiz_parrot_number.png)
 
   --- feedback ---
 
-Have a look at the script again, and think about which sprite is the main character of the game (the parrot is just an annoying distraction).
+स्क्रिप्ट को फिर से देखें, और सोचें कि कौन सा स्प्राइट गेम का मुख्य पात्र है (तोता सिर्फ ध्यान भटकाने के लिए है)।
 
   --- /feedback ---
 
-- ( ) ![A parrot saying the word "timer".](images/quiz_parrot_timer.png)
+- ( ) ![एक तोता "timer"शब्द कह रहा है।](images/quiz_parrot_timer.png)
 
   --- feedback ---
 
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer". Also, think about which sprite uses this code.
+`Sensing`{:class="block3sensing"} ब्लॉक मेन्यू से `timer`{:class="block3sensing"} ब्लॉक आता है। स्प्राइट "टाइमर" शब्द नहीं कहता है। यह भी सोचें कि कौन सा स्प्राइट इस कोड का उपयोग करता है।
 
   --- /feedback ---
 
-- (x) ![A bug saying the timer value "4.52".](images/quiz_bug_number.png)
+- (x) ![एक बग कह रहा है टाइमर मान "4.52"](images/quiz_bug_number.png)
 
   --- feedback ---
 
-Yes. The `timer`{:class="block3sensing"} block reports the time since the project started, or since the timer reset. The `say`{:class="block3looks"} block creates a speech bubble next to bug.
+हाँ! `timer`{:class="block3sensing"} खंड प्रोजेक्ट शुरू होने के बाद या टाइमर रीसेट होने के बाद के समय की रिपोर्ट करता है। `Say`{:class="block3looks"} ब्लॉक बग के बगल में एक स्पीच बबल बनाता है।
 
   --- /feedback ---
 
-- ( ) ![A bug saying the word "timer".](images/quiz_bug_timer.png)
+- ( ) ![एक बग "timer" शब्द कह रहा है](images/quiz_bug_timer.png)
 
   --- feedback ---
 
