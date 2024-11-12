@@ -1,17 +1,17 @@
-## Quick quiz
+## Teste Rápido
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Responda às três perguntas. Existem dicas para guiá-lo para a resposta correta.
 
-When you have answered each question, click on **Check my answer**.
+Após responder à cada pergunta, clique em **Enviar**. Você vai ser guiado para a resposta correta.
 
-Have fun!
+Divirta-se!
 
 --- question ---
 ---
 legend: Pergunta 1 de 3
 ---
 
-In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
+Em seu jogo, você adicionou esse código ao seu **inseto** para percorrer os panos de fundo cada vez que ele for clicado.
 
 ```blocks3
 when this sprite clicked
@@ -19,11 +19,11 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Look at this image showing a 'Find the bug' game being played.
+Olhe para esta imagem que mostra o jogo 'Encontre o inseto' sendo executado.
 
-![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
+![O editor Scratch com cenários na ordem inicio, Spotlight (Holofote), Urban (Urbano), fim; e o Palco mostrando o cenário Spotlight (Holofote).](images/quiz1-backdrops.png)
 
-In this game, which backdrop would appear next when you click on the bug?
+Neste jogo, qual cenário vai aparecer se você clicar sobre o inseto?
 
 --- choices ---
 
@@ -39,7 +39,7 @@ In this game, which backdrop would appear next when you click on the bug?
 
   --- feedback ---
 
-Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
+Sim. O próximo `bloco cenário`{:class="block3looks"} altera o plano de fundo para o próximo cenário no na ordem da lista de cenários na aba **Cenários** para o **Palco**.
 
 --- /feedback ---
 
