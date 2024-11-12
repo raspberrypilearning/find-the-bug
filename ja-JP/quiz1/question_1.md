@@ -1,17 +1,17 @@
 ## Quick quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Answer the three questions. 正しい答えが表示されます。
 
-When you have answered each question, click on **Check my answer**.
+それぞれの質問に回答したら、[**送信**] をクリックします。
 
-Have fun!
+お楽しみください!
 
 --- question ---
 ---
 凡例：質問1/3
 ---
 
-In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
+ゲームでは、このコードを **バグ** に追加して、クリックされるたびに背景を移動しました。
 
 ```blocks3
 when this sprite clicked
@@ -19,11 +19,11 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Look at this image showing a 'Find the bug' game being played.
+プレイ中の「バグを探せ」ゲームを示すこの画像を見てください。
 
-![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
+![スタート、Spotlight、Urban、終了の順に並んだ背景とScratchエディタ。 Spotlightの背景を表示したステージ。](images/quiz1-backdrops.png)
 
-In this game, which backdrop would appear next when you click on the bug?
+このゲームで、バグをクリックすると次にどの背景が表示されますか？
 
 --- choices ---
 
@@ -39,7 +39,7 @@ In this game, which backdrop would appear next when you click on the bug?
 
   --- feedback ---
 
-Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
+そうです。 `次の背景にする`{:class="block3looks"} ブロックは**ステージ**の**背景**タブに並んでいる順序で次の背景に切り替えます。
 
 --- /feedback ---
 
