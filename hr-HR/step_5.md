@@ -76,7 +76,7 @@ set size to [20] % // try another size
 
 --- /task ---
 
-### Test your code
+### Testiraj svoj kôd
 
 --- task ---
 
