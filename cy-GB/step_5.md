@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Choose a backdrop to make a second level for your game, and make the bug hard to find. 
+Byddi di'n dewis cefndir i wneud ail lefel ar gyfer dy gêm, ac yn ei gwneud hi'n anodd dod o hyd i'r chwilen. 
 </div>
 <div>
 
@@ -37,7 +37,7 @@ Drag the blocks away from the `when this sprite clicked`{:class="block3events"} 
 
 --- task ---
 
-Add code to `set the size`{:class="block3looks"} of the bug for the second level:
+Mae angen i dy chwilen fod yn anodd dod o hyd iddi pan fydd y gefnlen yn newid. Galli di newid maint y chwilen i'w gwneud hi'n anoddach dod o hyd iddi.
 
 ![The bug sprite.](images/bug-sprite.png)
 
@@ -46,7 +46,7 @@ when backdrop switches to [Urban v] // choose your backdrop
 set size to [20] % // try another size 
 ```
 
-**Test:** Click on your new script to run it.
+Ychwanega god i `osod maint`{:class="block3looks"} y chwilen ar gyfer yr ail lefel:
 
 --- /task ---
 
@@ -64,7 +64,7 @@ Position your bug in its hiding place.
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block to your code:
+Rho dy chwilen yn ei chuddfan.
 
 ![The bug sprite.](images/bug-sprite.png)
 
@@ -92,11 +92,11 @@ Join the blocks back to the `when this sprite clicked`{:class="block3events"} bl
 
 --- /task ---
 
-Your bug may now be in front of the parrot.
+**Prawf:** Clicia ar y faner werdd i brofi dy brosiect.
 
 --- task ---
 
-Add a script to make sure that your bug is always at the `back`{:class="block3looks"}:
+Efallai fod dy chwilen nawr o flaen y parot.
 
 ![The bug sprite.](images/bug-sprite.png)
 
@@ -106,6 +106,6 @@ forever
 go to [back v] layer
 ```
 
-Now, your bug will always stay at the back, even if you need to change its position.
+Ychwanega sgript i wneud yn siŵr fod dy chwilen bob amser yn y `cefn`{:class="block3looks"}:
 
 --- /task ---
