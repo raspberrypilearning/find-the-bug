@@ -1,17 +1,17 @@
-## Quick quiz
+## ತ್ವರಿತ ರಸಪ್ರಶ್ನೆ
 
-Answer the three questions. There are hints to guide you to the correct answer.
+ಮೂರು ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ. ಸರಿಯಾದ ಉತ್ತರಕ್ಕಾಗಿ ನಿಮಗೆ ಮಾರ್ಗದರ್ಶನ ನೀಡುವ ಸುಳಿವುಗಳಿವೆ.
 
-When you have answered each question, click on **Check my answer**.
+ನೀವು ಪ್ರತಿ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರಿಸಿದಾಗ, ಒಮ್ಮೆ ಉತ್ತರಿಸಿದಾಗ ನನ್ನ ಉತ್ತರವನ್ನು ಪರೀಕ್ಷಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ.
 
-Have fun!
+ಆನಂದಿಸಿ!
 
 --- question ---
 ---
 legend: ಪ್ರಶ್ನೆ 3 ರಲ್ಲಿ 1
 ---
 
-In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
+ನಿಮ್ಮ ಆಟದಲ್ಲಿ, ಪ್ರತಿ ಬಾರಿ ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ ಮೂಲಕ ಚಲಿಸಲು ನಿಮ್ಮ ದೋಷಕ್ಕೆ ಈ ಕೋಡ್ ಅನ್ನು ಸೇರಿಸಿದ್ದೀರಿ.
 
 ```blocks3
 when this sprite clicked
@@ -19,11 +19,11 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Look at this image showing a 'Find the bug' game being played.
+ಈ ಚಿತ್ರವನ್ನು ನೋಡಿ, ‘ದೋಷವನ್ನು ಹುಡುಕಿ’ ಆಟವನ್ನು ಆಡಲಾಗುತ್ತಿದೆ.
 
 ![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
 
-In this game, which backdrop would appear next when you click on the bug?
+ಈ ಆಟದಲ್ಲಿ, ನೀವು ದೋಷದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ ಮುಂದೆ ಯಾವ ಹಿನ್ನೆಲೆ ಕಾಣಿಸಿಕೊಳ್ಳಬೇಕು?
 
 --- choices ---
 
