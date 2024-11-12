@@ -1,20 +1,20 @@
-## Share and play
+## शेयर करें और खेलो
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+अपने प्रोजेक्ट से Raspberry Pi Foundation समुदाय को प्रेरित करें!
 
 [[[share-scratch]]]
 
-To submit your project to our 'Find the bug' Scratch studio for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+अन्य लोगों को दिखाने के लिए हमारे 'बग खोजें' Scratch स्टूडियो में अपना प्रोजेक्ट सबमिट करने के लिए, कृपया [इस फॉर्म](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} को पूरा करें।
 
 --- /task ---
 
 --- no-print --- --- task ---
 
-Play these fabulous games from our ['Find the bug' Scratch studio](https://scratch.mit.edu/studios/29005236/){:target="_blank"}.
+हमारे ['Silly eyes — Community' स्क्रैच स्टूडियो](https://scratch.mit.edu/studios/29005236/){:target="_blank"} से इन शानदार सामुदायिक परियोजनाओं पर एक नज़र डालें।
 
-Notice how the creators have added extra levels, annoying distractions or upgraded the start and end screens:
+ध्यान दें कि कैसे रचनाकारों ने अतिरिक्त स्तर जोड़े हैं, विचलित करने वाले कष्टप्रद हैं या प्रारंभ और अंत स्क्रीन को अपग्रेड किया है:
 
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/545488112/?autostart=false" frameborder="0"></iframe>
@@ -34,7 +34,7 @@ Notice how the creators have added extra levels, annoying distractions or upgrad
 
 --- task ---
 
-You can also look at the remixes for the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/remixes){:target="_blank"} to see what other creators have made.
+अन्य रचनाकारों ने क्या बनाया है यह देखने के लिए आप [Silly Eyes स्टार्टर प्रोजेक्ट](https://scratch.mit.edu/projects/582214723/remixes){:target="_blank"} के रीमिक्स भी देख सकते हैं।
 
 --- /task ---
 
