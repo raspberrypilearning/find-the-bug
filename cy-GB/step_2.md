@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Give your game a 'start' screen.
+Bydd eich gêm yn dechrau gyda sgrin 'cychwyn', a bydd chwaraewyr yn clicio ar y chwilen i fynd i'r lefel gyntaf.
 </div>
 <div>
 
