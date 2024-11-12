@@ -1,4 +1,4 @@
-## Upgrade your game
+## Myfyrio
 
 If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text on the chalkboard.
 
