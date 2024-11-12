@@ -1,0 +1,42 @@
+---
+title: Troba l'error
+hero_image: images/banner.png
+description: Crea un joc en el qual has de trobar un error ocult a cada nivell
+meta_title: Projectes de programació Scratch per a nens i adolescents | Troba l'error
+meta_description: Apreneu a programar a Scratch amb els projectes de programació de la Fundació Raspberry Pi per a nens i adolescents. Crea un joc amb Scratch i troba l'error amagat a cada nivell.
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-02-26"
+steps:
+  - 
+    title: Tu faràs
+  - 
+    title: Pantalla d'inici
+  - 
+    title: Primer nivell
+    completion:
+      - engaged
+  - 
+    title: Distracció del lloro
+  - 
+    title: Segon nivell
+  - 
+    title: Pantalla final
+    completion:
+      - internal
+  - 
+    title: Test ràpid
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - 
+    title: Actualitza el teu joc
+  - 
+    title: Comparteix i juga
+  - 
+    title: I ara què ve?
