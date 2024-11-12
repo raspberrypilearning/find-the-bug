@@ -29,7 +29,7 @@ Utilizzerai un ciclo diverso qui. Un ciclo `per sempre`{:class="block3control"} 
 
 --- task ---
 
-Aggiungi il codice per far svolazzare il pappagallo e distrarre:
+Aggiungi il codice per far svolazzare il pappagallo e distrarre: Look at the comments on the code blocks for some different numbers to try:
 
 ![Lo sprite Parrot.](images/parrot-sprite.png)
 
