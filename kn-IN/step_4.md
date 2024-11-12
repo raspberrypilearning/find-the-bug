@@ -29,7 +29,7 @@
 
 --- task ---
 
-ಗಮನಭಂಗ ಮಾಡುವ ರೀತಿಯಲ್ಲಿ ಗಿಣಿಯನ್ನು ಸುತ್ತುವಂತೆ ಮಾಡಲು ಕೋಡ್ ಸೇರಿಸಿ:
+Add code to make the parrot flap around in a distracting way. Look at the comments on the code blocks for some different numbers to try:
 
 ![Parrot ಸ್ಪ್ರೈಟ್.](images/parrot-sprite.png)
 
