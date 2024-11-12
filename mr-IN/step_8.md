@@ -1,28 +1,28 @@
-## Upgrade your game
+## तुमचा गेम अपग्रेड करा
 
-If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text on the chalkboard.
+आपल्याकडे वेळ असल्यास, आपण आपल्या गेममध्ये अधिक स्तर आणि अधिक विचलित करू शकता. तुम्ही लपविलेला स्प्राईट बदलू शकता आणि चॉकबोर्डवरील मजकूर बदलू शकता.
 
 --- task ---
 
-Play your game and see how quickly you can find the bugs.
+तुमचा गेम खेळा आणि तुम्ही किती लवकर बग शोधू शकता ते पहा.
 
-Is there someone else who can try your game? How fast can they find the bugs? They will not know where you have hidden them, so it might take them a bit longer!
+तुमचा खेळ करून पाहणारा दुसरा कोणी आहे का? ते बग किती वेगाने शोधू शकतात? तुम्ही त्यांना कुठे लपवले आहे हे त्यांना कळणार नाही, त्यामुळे त्यांना थोडा जास्त वेळ लागेल!
 
-Is there anything that you want to change?
+तुम्हाला काही बदलायचे आहे का?
 
-You could:
-- Make the parrot even more annoying
-- Make the bugs smaller
-- Change the `color effect`{:class="block3looks"} to camouflage the bug on each level
-- Change the font or colour of the text
+तुम्ही हे करू शकता:
+- पोपट आणखी त्रासदायक बनवा
+- बग लहान करा
+- प्रत्येक स्तरावर बग छद्म करण्यासाठी `रंग प्रभाव`{:class="block3looks"} बदला
+- मजकूराचा फॉन्ट किंवा रंग बदला
 
 --- /task ---
 
-### Add more levels
+### अधिक स्तर जोडा
 
 --- task ---
 
-Here are the blocks that you will need to hide the bug on a new level:
+नवीन स्तरावर बग लपवण्यासाठी तुम्हाला आवश्यक असलेले ब्लॉक येथे आहेत:
 
 ```blocks3
 when backdrop switches to [new level v]
@@ -34,25 +34,25 @@ go to x: [0] y: [0] // drag to position the bug first
 set [color v] effect to [50]
 ```
 
-For each level, you will need to:
-- Add a backdrop
-- Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
-- Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug
+प्रत्येक स्तरासाठी, आपल्याला याची आवश्यकता असेल:
+- एक पार्श्वभूमी जोडा
+- स्टेज उपखंडावर क्लिक करा, नंतर **पार्श्वभूमी** टॅबवर, नंतर नवीन पार्श्वभूमी **शेवट** पार्श्वभूमीच्या आधी स्थितीत ड्रॅग करा
+- नवीन पार्श्वभूमीसाठी पार्श्वभूमी</code>{:class="block3events"} ब्लॉकवर स्विच करते तेव्हा `जोडा आणि स्थितीत कोड जोडा आणि बग लपवा</li>
+</ul>
 
-**Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the backdrop does not switch when you click on the bug to position it for a new level.
+<p spaces-before="0"><strong x-id="1">टीप:</strong> बगला नवीन लपविण्याच्या स्थितीत ड्रॅग करण्यासाठी, तुम्हाला कोड 'ब्रेक' करणे आवश्यक आहे जेणेकरुन तुम्ही बगला नवीन स्तरावर ठेवण्यासाठी त्यावर क्लिक करता तेव्हा पार्श्वभूमी स्विच होणार नाही.</p>
 
---- /task ---
+<p spaces-before="0">--- /task ---</p>
 
-### Add more distractions
+<h3 spaces-before="0">अधिक व्यत्यय जोडा</h3>
 
---- task ---
+<p spaces-before="0">--- task ---</p>
 
-You could add more parrots or choose another sprite to act as a distraction.
+<p spaces-before="0">तुम्ही आणखी पोपट जोडू शकता किंवा विचलित करण्यासाठी दुसरा स्प्राइट निवडू शकता. </p>
 
-Here is the code that you used for the parrot:
+<p spaces-before="0">तुम्ही पोपटासाठी वापरलेला कोड येथे आहे:</p>
 
-```blocks3
-when flag clicked
+<pre><code class="blocks3">when flag clicked
 set rotation style [left-right v] // do not go upside down
 point in direction [35] // number from -180 to 180
 forever // keep being annoying
@@ -62,19 +62,22 @@ next costume // flap
 change [color v] effect by [5] // try 11 or 50
 wait [0.25] seconds // try 0.1 or 0.5
 end
-```
+`</pre>
 
-**Tip:** You can drag the **Parrot** sprite's code to another sprite to make it faster to create another distraction sprite.
+**टीप:** तुम्ही **पॅरोट** स्प्राईटचा कोड दुस-या स्प्राईटवर ड्रॅग करू शकता जेणेकरून आणखी एक डिस्ट्रक्शन स्प्राईट तयार करणे अधिक जलद होईल.
 
-![Dragging code from the Code area to another sprite in the Sprite list.](images/drag-parrot-code.gif)
+![कोड क्षेत्रातून स्प्राईट सूचीमधील दुसर्‍या स्प्राइटवर कोड ड्रॅग करा.](images/drag-parrot-code.gif)
 
 --- /task ---
 
 --- collapse ---
----
-title: Completed project
+
+  ---
+शीर्षक: प्रकल्प पूर्ण झाला
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+तुम्ही</a>{:target="_blank"} येथे
+
+पूर्ण झालेला प्रकल्प पाहू शकता.</p> 
 
 --- /collapse ---
