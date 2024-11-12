@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
+プレイヤーがバグを見つけるのにかかった秒数を表示する「終了」画面を作成します。 
 </div>
 <div>
 
