@@ -1,51 +1,51 @@
-tiny
+लहान
 
-on the disco ball
+डिस्को बॉलवर
 
-'start' screen
+'start' स्क्रीन
 
-start
+प्रारंभ
 
-full-sized
+पूर्ण आकाराचे
 
-on the board
+फळ्यावर
 
-do not go upside down
+उलटे जाऊ नका
 
-number from -180 to 180
+-180 ते 180 पर्यंत अंक
 
-keep being annoying
+त्रासदायक रहा
 
-the number controls the speed
+अंक गती नियंत्रित करतात
 
-stay on the Stage
+Stage वर रहा
 
-flap
+झडप
 
-try 11 or 50
+11 किंवा 50 वापरून पहा
 
-try 0.1 or 0.5
+0.1 किंवा 0.5 वापरून पहा
 
-choose your backdrop
+तुमचा बॅकड्रॉप निवडा
 
-try another size
+दुसरा आकार वापरून पहा
 
-in the shop window
+दुकानाच्या खिडकीत
 
-seconds taken
+सेकंद घेतले
 
-end
+शेवट
 
-say nothing
+काही बोलू नका
 
-first level
+पहिली लेवल
 
-start the timer
+timer सुरू करा
 
-drag to position the bug first
+प्रथम बग ठेवण्यासाठी ड्रॅग करा
 
-new level
+नवीन लेवल
 
-good hiding place
+चांगली लपण्याची जागा
 
-keep the bug at the back
+बग मागे ठेवा
