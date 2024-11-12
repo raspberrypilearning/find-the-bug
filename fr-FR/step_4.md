@@ -29,7 +29,7 @@ Tu utiliseras une boucle différente ici. Une boucle `répéter indéfiniment`{:
 
 --- task ---
 
-Ajoute du code pour faire voler le perroquet de manière distrayante :
+Ajoute du code pour faire voler le perroquet de manière distrayante : Look at the comments on the code blocks for some different numbers to try:
 
 ![Le sprite Parrot.](images/parrot-sprite.png)
 
