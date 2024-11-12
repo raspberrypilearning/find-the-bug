@@ -29,7 +29,7 @@
 
 --- task ---
 
-أضف التعليمات البرمجية لجعل الببغاء يرفرف بطريقة تشتت الانتباه:
+أضف التعليمات البرمجية لجعل الببغاء يرفرف بطريقة تشتت الانتباه: Look at the comments on the code blocks for some different numbers to try:
 
 ![كائن الببغاء.](images/parrot-sprite.png)
 
