@@ -38,7 +38,7 @@ O bloco `temporizador`{:class="block3motion"} está na categoria `Detecção` no
 
   --- feedback ---
 
-Sim. O bloco `temporizador`{:class="block3sensing"} mostra o tempo passado desde o início do projeto ou desde a reinicialização do temporizador. The `say`{:class="block3looks"} block creates a speech bubble next to bug.
+Sim. O bloco `temporizador`{:class="block3sensing"} mostra o tempo passado desde o início do projeto ou desde a reinicialização do temporizador. O bloco `cronômetro`{:class="block3sensing"} mostra o tempo passado desde o início do projeto ou desde a reinicialização do temporizador.
 
   --- /feedback ---
 
