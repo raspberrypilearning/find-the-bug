@@ -25,7 +25,7 @@ Podríeu:
 Aquests són els blocs que necessitareu per amagar el bitxo en un nou nivell:
 
 ```blocks3
-when backdrop switches to [new level v]
+when backdrop switches to [nou nivell v]
 
 set size to [20] %
 
