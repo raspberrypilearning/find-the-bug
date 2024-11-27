@@ -29,7 +29,7 @@ Aquí fareu servir un bucle diferent. Un bucle `per sempre`{:class="block3contro
 
 --- task ---
 
-Add code to make the parrot flap around in a distracting way. Look at the comments on the code blocks for some different numbers to try:
+Afegiu el codi per fer que el lloro es mogui d'una manera que distregui. Mireu els comentaris sobre els blocs de codi per veure alguns números diferents per provar:
 
 ![El personatge del Lloro.](images/parrot-sprite.png)
 
