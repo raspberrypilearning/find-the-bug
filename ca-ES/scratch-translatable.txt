@@ -4,7 +4,7 @@ a la bola de discoteca
 
 pantalla 'd'inici'
 
-Inici
+inici
 
 de mida completa
 
