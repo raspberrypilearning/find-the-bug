@@ -23,7 +23,7 @@ Afegeix el personatge **Parrot** .
 
 ### Anima el personatge del Lloro
 
-Al projecte [Agafa el autobús](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}, heu utilitzat un bucle `repeteix`{:class="block3control"}.
+Al projecte [Agafa el autobús](https://projects.raspberrypi.org/ca-ES/projects/catch-the-bus){:target="_blank"}, heu utilitzat un bucle `repeteix`{:class="block3control"}.
 
 Aquí fareu servir un bucle diferent. Un bucle `per sempre`{:class="block3control"} executa els blocs de codi que hi ha dins una vegada i una altra. És el bucle perfecte per a un lloro molest que no deixarà de volar i d'interposar-se.
 
