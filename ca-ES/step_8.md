@@ -37,7 +37,7 @@ set [color v] effect to [50]
 Per a cada nivell, haureu de:
 - Afegir un fons
 - Feu clic al panell de l'escenari, després a la pestanya **Fons** i arrossegueu el nou teló de fons a la posició abans del **fi** .
-- Afegiu un bloc **següent fons de pantalla**{:class="block3events"} per al nou fons i afegiu codi a la posició, i amagueu el bitxo
+- Afegiu un bloc `següent fons de pantalla`{:class="block3events"} per al nou fons i afegiu codi a la posició, i amagueu el bitxo
 
 **Consell:** Per arrossegar el bitxo a una nova posició oculta, haureu d'aturar el codi perquè el fons no canviï quan feu clic a bitxo, per deixar-ho a una nova posició al nou nivell.
 
@@ -64,7 +64,7 @@ wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
-<0>Consell:</0> Podeu arrossegar el codi del personatge <0>Parrot</0> a un altre personatge perquè sigui més ràpid crear una altra distracció.
+**Consell:** Podeu arrossegar el codi del personatge **Parrot** a un altre personatge perquè sigui més ràpid crear una altra distracció.
 
 ![Arrossegant codi des de l'àrea de codi a un altre personatge de la llista de Personatges.](images/drag-parrot-code.gif)
 
@@ -75,6 +75,6 @@ end
 títol: Projecte finalitzat
 ---
 
-Pots veure el [projecte completat  aquí](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+Pots veure el [projecte completat  aquí](https://scratch.mit.edu/projects/1102897026/){:target="_blank"}.
 
 --- /collapse ---
