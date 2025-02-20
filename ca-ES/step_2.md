@@ -47,7 +47,7 @@ Feu clic al panell de l'escenari.
 
 --- task ---
 
-Feu clic a la pestanya <0>Fons</0> per obrir l'editor gràfic.
+Feu clic a la pestanya **Fons** per obrir l'editor gràfic.
 
 ![El teló de fons de la pissarra a l'editor de gràfic.](images/chalkboard-paint.png)
 
