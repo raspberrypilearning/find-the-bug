@@ -27,7 +27,7 @@ En aquest joc, quin teló de fons apareixerà a continuació quan feu clic a l'e
 
 --- choices ---
 
-- ( ) Inici
+- ( ) inici
 
   --- feedback ---
 
