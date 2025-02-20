@@ -46,7 +46,7 @@ when backdrop switches to [Urban v] // choose your backdrop
 set size to [20] % // try another size 
 ```
 
-<0>Prova:</0> Feu clic al vostre codi per executar-lo.
+**Prova:** Feu clic al vostre codi per executar-lo.
 
 --- /task ---
 
@@ -80,7 +80,7 @@ set size to [20] % // try another size
 
 --- task ---
 
-Uneix el bloc de darrere al bloc `quan es cliqui aquest personatge `{:class="block3events"}  llavors quan es faci clic al bitxo el fons canvia al`següent fons de pantalla`{:class="block3looks"}:
+Uneix el bloc de darrere al bloc `quan es cliqui aquest personatge`{:class="block3events"}  llavors quan es faci clic al bitxo el fons canvia al`següent fons de pantalla`{:class="block3looks"}:
 
 ![Els blocs es tornen a unir.](images/fixed-script.png)
 
