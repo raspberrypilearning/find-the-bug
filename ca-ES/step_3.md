@@ -78,7 +78,7 @@ next backdrop
 
 --- task ---
 
-Feu clic al panell de l'Escenari i afegiu aquest codi a l' <0>Escenari</0>:
+Feu clic al panell de l'Escenari i afegiu aquest codi a l'**Escenari**:
 
 ![El teló de fons de Spotlight.](images/stage-image.png)
 
@@ -91,7 +91,7 @@ switch backdrop to [start v] // 'start' screen
 
 --- task ---
 
-<0>Prova:</0> Fes clic a la bandera verda i prova el teu projecte.
+**Prova:** Fes clic a la bandera verda i prova el teu projecte.
 
 Notareu que a la pantalla d'inici, el bitxo encara tindrà la configuració per amagar-se al seu amagatall des del primer nivell (en aquest exemple, a la bola de discoteca).
 
@@ -140,7 +140,7 @@ Intenteu a col·locar el bitxo de nou. Arrossegueu el bitxo a la pissarra, sota 
 
 ![El bitxo a la pantalla d'inici](images/bug-chalkboard.png)
 
-Afegiu codi per assegurar-vos que bitxo es col·loca a la pissarra cada vegada que canviï el`següent fons de pantalla`{:class="block3events"} a la pantalla d'`inici `{:class="block3events"}:
+Afegiu codi per assegurar-vos que bitxo es col·loca a la pissarra cada vegada que canviï el`següent fons de pantalla`{:class="block3events"} a la pantalla d'`inici`{:class="block3events"}:
 
 ![El personatge bug.](images/bug-sprite.png)
 
