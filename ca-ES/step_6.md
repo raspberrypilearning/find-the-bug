@@ -93,7 +93,7 @@ Per tornar a la pantalla "inici", feu clic a l'error a la pantalla "fi".
 
 --- task ---
 
-Afegiu codi per fer que bitxor deixi de dir el  `cronòmetre`{:class="block3sensing"} quan aneu a la pantalla "inici":
+Afegiu codi per fer que bitxor deixi de dir el `cronòmetre`{:class="block3sensing"} quan aneu a la pantalla "inici":
 
 ![El personatge Bug.](images/bug-sprite.png)
 
@@ -108,11 +108,11 @@ go to x: [0] y: [30] // on the board
 
 ### Atura el cronòmetre
 
-Si jugueu el joc per segona vegada, el  `cronòmetre`{:class="block3sensing"} continuarà comptant.
+Si jugueu el joc per segona vegada, el `cronòmetre`{:class="block3sensing"} continuarà comptant.
 
 --- task ---
 
-Afegeix el codi per a `reinicia el temporitzador`{:class="block3sensing"} quan el canviï al  `següent fons de pantalla`{:class="block3events"} al del  primer nivell :
+Afegeix el codi per a `reinicia el temporitzador`{:class="block3sensing"} quan el canviï al `següent fons de pantalla`{:class="block3events"} al del  primer nivell :
 
 ![El personatge Bug.](images/bug-sprite.png)
 
