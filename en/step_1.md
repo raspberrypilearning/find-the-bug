@@ -8,7 +8,9 @@ You will:
 + Use the `timer`{:class="block3sensing"} **variable** to let the player know how quickly they found the bugs
 
 --- no-print ---
+
 --- task --- 
+
 ### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
@@ -23,6 +25,7 @@ How well are the bugs hidden? You will get to add your own levels and make it as
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1156707423/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
+
 --- /task ---
 
 --- /no-print ---
