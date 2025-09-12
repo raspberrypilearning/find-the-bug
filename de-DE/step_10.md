@@ -1,6 +1,6 @@
-## Wie geht es weiter?
+## What can you do now?
 
-Wenn du dem Pfad [Einführung in Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) folgst, kannst du mit dem Projekt [Alberne Augen](https://projects.raspberrypi.org/en/projects/silly-eyes) fortfahren. In diesem Projekt entwirfst du deinen eigenen Charakter mit Augen, die auf den Mauszeiger schauen, wenn du die Maus bewegst!
+Wenn du dem Pfad [Einführung in Scratch](https://projects.raspberrypi.org/de-DE/pathways/scratch-intro) folgst, kannst du mit dem Projekt [Alberne Augen](https://projects.raspberrypi.org/de-DE/projects/silly-eyes) fortfahren. In diesem Projekt entwirfst du deinen eigenen Charakter mit Augen, die auf den Mauszeiger schauen, wenn du die Maus bewegst!
 
 --- print-only ---
 
@@ -15,3 +15,5 @@ Wenn du dem Pfad [Einführung in Scratch](https://projects.raspberrypi.org/en/pa
 </div>
 
 --- /no-print ---
+
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.
