@@ -1,6 +1,6 @@
 ## Beth nesaf?
 
-Os wyt ti'n dilyn y llwybr [Cyflwyniad i Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro), gallet ti symud ymlaen i'r prosiect [Llygaid gwirion](https://projects.raspberrypi.org/en/projects/silly-eyes). Yn y prosiect yma, byddi di'n dylunio dy gymeriad dy hun gyda llygaid fydd yn dilyn pwyntydd y llygoden pan fyddi di'n symud y llygoden!
+If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} pathway, you can move on to the [Silly eyes](https://projects.raspberrypi.org/en/projects/silly-eyes){:target="_blank"} project. Yn y prosiect yma, byddi di'n dylunio dy gymeriad dy hun gyda llygaid fydd yn dilyn pwyntydd y llygoden pan fyddi di'n symud y llygoden!
 
 --- print-only ---
 
@@ -15,3 +15,5 @@ Os wyt ti'n dilyn y llwybr [Cyflwyniad i Scratch](https://projects.raspberrypi.o
 </div>
 
 --- /no-print ---
+
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.
