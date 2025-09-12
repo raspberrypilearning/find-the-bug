@@ -1,58 +1,58 @@
-## End screen
+## Isikrini sokugqibela
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
+Yenza isikrini 'sokugqibela' ukubonisa inani lemizuzwana ethathiweyo ngumdlali ukubhaqa iigrogro. 
 </div>
 <div>
 
-![The bug with the amount of time in a speech bubble.](images/end-screen.png){:width="300px"}
+![igrogro enexesha kwiqamza lentetho.](images/end-screen.png){:width="300px"}
 
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Sometimes, just beating a game isn't enough. Players like to know how they did against other players or themselves. Can you think of a game that shows you how well you did?</p>
+Ngamanye amaxesha, ukuphumelela nje umdlalo akwanelanga. Abadlali bayathanda ukwazi ukuba benze njani, ukuzithelekisa nabanye abadlali okanye bona ngokwabo. Ngaba ungacinga ngomdlalo obonisa ukuba uqhube kakuhle kangakanani?</p>
 
-### Add another backdrop
+### Yongeza umfanekiso wangemva
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+Faka  **Ibhodi emnyama** ibengumfunekiso wakho wangasemva isuka kudidi **Ngaphakathi**.
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![Umva oyIbhodi emnyama kwithala (layibrari) yemifnekiso yangasemva.](images/chalkboard.png)
 
-**Tip:** In Scratch, you can add the same backdrop more than once.
+**Ingcebiso:** KuScratch, unokofaka umfanekiso wangasemva ofanayo uphindaphinde.
 
 --- /task ---
 
-### Edit the backdrop
+### Hlela umfanekiso wangasemva
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+Cofa kwithebu  **Mfanekiso wangasemva** ukuvula umhleli wePeynti.
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard2-paint.png)
+![Umfanekiso wangasemva Ibhodi emnyama kumhleli wePeynti](images/chalkboard2-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Change the name of the backdrop to `end`:
+Tshintsha igama lomqolo ibengu `Isiphelo`:
 
-![The backdrop name changed in the Paint editor.](images/end-screen-name.png)
+![Igama lomfanekiso wangasemva litshintshile kumhleli wePeyinti.](images/end-screen-name.png)
 
-**Tip:** You rename the backdrop to **end** to make it easier to understand your code.
+**Ingcebiso:** Unika igama elitsha kumfanekiso wangasemva ibe ngu**isiphelo** kwenza kubelula ukuqonda ikhowudi yakho.
 
 --- /task ---
 
-### Position the bug
+### Beka igrogro
 
 --- task ---
 
-Click on the **bug** sprite and add code to position the bug on the 'end' screen:
+Cofa kwisprite **igrogro**  uze ufake ikhowudi yokubeka ibug kwiskrini 'isiphelo':
 
-![The bug sprite.](images/bug-sprite.png)
+![iSprite esiyiGrogro.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -62,15 +62,15 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Add a timer
+### Faka isibali-xesha
 
-How long does it take you to find and click on the bugs? Scratch has a `timer`{:class="block3sensing"} that you can use to find out.
+Kukuthatha ixesha elingakanani ukubhaqa igrogro? uScratch une `sibali-xesha`{:class="block3sensing"} onokusisebenzisa ukuze wazi.
 
 --- task ---
 
-The `timer`{:class="block3sensing"} block is in the `Sensing`{:class="block3sensing"} blocks menu. Add code to make the bug `say`{:class="block3looks"} the `timer`{:class="block3sensing"} on the 'end' screen:
+ibhloko `isibali-xesha`{:class="block3sensing"}  ivela kwi `mvakalelo`{:class="block3sensing"} kwibhloko yemenyu. Faka ikhowudi ezakwenza igrogro `ithi`{:class="block3looks"} `isibali-xesha` kwiskrini sokuqibela.
 
-![The bug sprite.](images/bug-sprite.png)
+![iSprite esiyiGrogro.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -79,23 +79,23 @@ go to x: [0] y: [30] // on the board
 +say (timer) // seconds taken
 ```
 
-![Inserting a 'timer' block into a 'say' block.](images/inserting-blocks.gif)
+![Ukufaka ibhloko 'yesibali-xesha' kwibhloko ethi 'yithi'.](images/inserting-blocks.gif)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your finding skills. How long does it take you to find the bug?
+**Uvavanyo:** Cofa kwiflegi eluhlaza ukuvavanya izakhono zakho zokukhangela. Kukuthatha ixesha elingakanani ukubhaqa igrogro?
 
 --- /task ---
 
-To go back to the 'start' screen, click on the bug on the 'end' screen.
+Ukubuyela kwiscreen 'sokuqala', cofa kwigrogro kwiscreen 'sokugqibela'.
 
 --- task ---
 
-Add code to make the bug stop saying the `timer`{:class="block3sensing"} when you go to the 'start' screen:
+Faka ikhowudi ezakubangela igrogro iyeke ukuthi `isibali-xesha`
 
-![The bug sprite.](images/bug-sprite.png)
+![iSprite esiyiGrogro.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -106,15 +106,15 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Stop the timer
+### Misa isibali-xesha
 
-If you play the game a second time, the `timer`{:class="block3sensing"} will keep counting.
+Ukuba udlala umdlalo okwesibini, i `isibali-xesha`{:class="block3sensing"} sizakuqubeka sibala.
 
 --- task ---
 
-Add code to `reset the timer`{:class="block3sensing"} when the `backdrop switches to`{:class="block3events"} the first level:
+Faka ikhowudi ukuze  ke`qalele isibali-xesha`{:class="block3sensing"} xa `unfanekiso wangasemva etshintshela`{:class="block3events"} kwinqanaba lokuqala:
 
-![The bug sprite.](images/bug-sprite.png)
+![iSprite esiyiGrogro.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v] // first level
@@ -127,7 +127,7 @@ go to x: [13] y: [132] // on the disco ball
 
 --- task ---
 
-**Test:** Click on the green flag and play the game. The timer should reset when you click on the bug on the 'start' screen to move to the first level. When you click on the bug on the 'end' screen, you should return to the 'start' screen and see that the bug is not saying the `timer`{:class="block3sensing"}.
+**Uvavanyo:** Cofa kwiflegi eluhlaza kwaye udlale umdlalo. Isibali-xesha kumele siqalele xa ucofa igrogro kwiskrini 'sokuqala' ukuze uye kwinqanaba lokuqala. Xa ucofa igrogro kwiscrini 'sokugqibela', kufuneka ubuyele kwskrini 'sokuqala'  ujonge ukuba igrogro ayithi `sibali-xesha`{:class="block3sensing"}.
 
 --- /task ---
 
