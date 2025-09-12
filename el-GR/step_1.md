@@ -8,6 +8,9 @@
 + Χρησιμοποιήσεις την **μεταβλητή** `χρονόμετρο`{:class="block3sensing"} για να επιτρέψεις στον παίκτη να ξέρει πόσο γρήγορα βρίσκει τα έντομα
 
 --- no-print --- --- task ---
+
+--- task ---
+
 ### Παίξε ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
@@ -19,9 +22,10 @@
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719939/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1156707423/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
+
 --- /task ---
 
 --- /no-print ---
