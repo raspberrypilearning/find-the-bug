@@ -1,28 +1,28 @@
-## Upgrade your game
+## Phucula umdlalo wakho
 
-If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text on the chalkboard.
+Ukuba unexesha, unokongeza amanqanaba amaninzi kunye nezinye iziphazamiso kumdlalo wakho. Uthanda ungasitshintsha i-sprite efihliweyo kwaye utshintshe nokubhaliweyo ebhodini.
 
 --- task ---
 
-Play your game and see how quickly you can find the bugs.
+Dlala umdlalo wakho ujonge ukuba ungazifumana ngokukhawuleza kangakanani iigrogro.
 
-Is there someone else who can try your game? How fast can they find the bugs? They will not know where you have hidden them, so it might take them a bit longer!
+Ingaba ukhona omnye umntu onokuzama umdlalo wakho? Bangazibhaqa ngokukhawuleza kangakanani iigrogro? Abazukwazi apho uzifihle khona, kusenokubathatha ixesha elide!
 
-Is there anything that you want to change?
+Ingaba ikhona into ofuna ukuyitshintsha?
 
-You could:
-- Make the parrot even more annoying
-- Make the bugs smaller
-- Change the `color effect`{:class="block3looks"} to camouflage the bug on each level
-- Change the font or colour of the text
+Unga:
+- Yenza isikhwenene sidike ngakumbi
+- Yenza iigrogro zibe zincinci ngakumbi
+- Tshintsha `isiphuma sombala`{:class="block3looks"} ukufihla igrogro kwinqanaba ngalinye
+- Tshintsha ifonti okanye umbala wokubhaliweyo
 
 --- /task ---
 
-### Add more levels
+### Yongeza amanye amanqanaba
 
 --- task ---
 
-Here are the blocks that you will need to hide the bug on a new level:
+Nazi iibhloko ozakuzidinga ukufihla igrogro kwinqanaba elitsha:
 
 ```blocks3
 when backdrop switches to [new level v]
@@ -34,22 +34,22 @@ go to x: [0] y: [0] // drag to position the bug first
 set [color v] effect to [50]
 ```
 
-For each level, you will need to:
-- Add a backdrop
-- Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
-- Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug
+Kwinqanaba ngalinye, kuya kufuneka:
+- Yongeza umfanekiso wangemva
+- Cofa kuluhlu lweqonga, emva koko kwithebhu **umfanekiso wangasemva**, emva koko tsala umfanekiso wangasemva omtsha uwubeke phambi komfanekiso wangasemva u-**isiphelo**
+- Faka ibhloko `xa umfanekiso wasemva utshintshela`{:class="block3events"} ukuze uthsintshe umva kwaye ufake ikhowudi kwindawo yayo kufihleke igrogro
 
-**Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the backdrop does not switch when you click on the bug to position it for a new level.
+**Ingcebiso:** Ukutsalala igrogro yakho kwindawo entsha yokufihla, uzakufuna 'ukwaphula' ikhowudi ukuze umfanekiso ongasemva ungatshintshi xa ucofa kwigrogri ukuyimisa kwindawo yokuyifihla kwinqanaba elitsha.
 
 --- /task ---
 
-### Add more distractions
+### Yongeza ezinye iziphazamiso
 
 --- task ---
 
-You could add more parrots or choose another sprite to act as a distraction.
+Unokongeza ezinye izikhwenene okanye ukhethe esienye isprite ukuba isebenze njenge siphazamisi.
 
-Here is the code that you used for the parrot:
+Nantsi ikhowudi oyisebenzise kwisikhwenene:
 
 ```blocks3
 when flag clicked
@@ -64,17 +64,17 @@ wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
-**Tip:** You can drag the **Parrot** sprite's code to another sprite to make it faster to create another distraction sprite.
+[Ingcebiso:](https://scratch.mit.edu/projects/486719939/) Ungatsala i <0>Parrot</0> ikhowudi ye-sprite kwenye i-sprite ukuyenza ikhawuleze ukwenza enye i-sprite yokuphazamiseka.
 
-![Dragging code from the Code area to another sprite in the Sprite list.](images/drag-parrot-code.gif)
+![Tsala ikhowudi ukusuka kwindawo yekhowudi ukuyise kwesinye isprite kuluhlu lwezisprite.](images/drag-parrot-code.gif)
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+isihloko: Iprojekthi egqityiweyo
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+Ungajonga [egqityiweyo iprojekthi apha](https://scratch.mit.edu/projects/486719939/){:tharget="_blank"}.
 
 --- /collapse ---
