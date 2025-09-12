@@ -1,6 +1,6 @@
-## ¿Qué sigue?
+## What can you do now?
 
-Si estás siguiendo la ruta [Introducción a Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro), puedes pasar al proyecto [Ojos tontos](https://projects.raspberrypi.org/en/projects/silly-eyes). En este proyecto, ¡diseñarás tu propio personaje con ojos que miran el puntero del mouse cuando lo mueves!
+Si estás siguiendo la ruta [Introducción a Scratch](https://projects.raspberrypi.org/es-LA/pathways/scratch-intro), puedes pasar al proyecto [Ojos tontos](https://projects.raspberrypi.org/es-LA/projects/silly-eyes). En este proyecto, ¡diseñarás tu propio personaje con ojos que miran el puntero del mouse cuando lo mueves!
 
 --- print-only ---
 
@@ -15,3 +15,5 @@ Si estás siguiendo la ruta [Introducción a Scratch](https://projects.raspberry
 </div>
 
 --- /no-print ---
+
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.
