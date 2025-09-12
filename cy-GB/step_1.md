@@ -8,6 +8,9 @@ Byddi di'n:
 + Defnyddio'r **newidyn** `amserydd`{:class="block3sensing"} i roi gwybod i'r chwaraewr pa mor gyflym y daethon nhw o hyd i'r chwilod
 
 --- no-print --- --- task ---
+
+--- task ---
+
 ### Rho gynnig arni
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
@@ -19,9 +22,10 @@ Pa mor dda mae'r chwilod wedi'u cuddio? Byddi di'n cael ychwanegu dy lefelau dy 
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719939/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1156707423/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
+
 --- /task ---
 
 --- /no-print ---
