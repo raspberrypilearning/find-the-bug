@@ -8,6 +8,9 @@ Vas a:
 + Usar la **variable** `cronómetro`{:class="block3sensing"} para que el jugador sepa qué tan rápido encontró los insectos
 
 --- no-print --- --- task ---
+
+--- task ---
+
 ### Reproducir ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
@@ -19,9 +22,10 @@ Intenta encontrar el insecto en cada nivel.
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719939/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1156707423/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
+
 --- /task ---
 
 --- /no-print ---
