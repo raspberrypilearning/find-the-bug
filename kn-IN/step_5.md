@@ -39,7 +39,7 @@ Drag the blocks away from the `when this sprite clicked`{:class="block3events"} 
 
 Add code to `set the size`{:class="block3looks"} of the bug for the second level:
 
-![The bug sprite.](images/bug-sprite.png)
+![ಬಗ್ ಸ್ಪ್ರೈಟ್.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v] // choose your backdrop
@@ -66,7 +66,7 @@ Position your bug in its hiding place.
 
 Add a `go to x: y:`{:class="block3motion"} block to your code:
 
-![The bug sprite.](images/bug-sprite.png)
+![ಬಗ್ ಸ್ಪ್ರೈಟ್.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -98,7 +98,7 @@ Your bug may now be in front of the parrot.
 
 Add a script to make sure that your bug is always at the `back`{:class="block3looks"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![ಬಗ್ ಸ್ಪ್ರೈಟ್.](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked
