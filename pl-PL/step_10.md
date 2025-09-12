@@ -1,6 +1,6 @@
-## Co dalej?
+## What can you do now?
 
-Jeśli podążasz ścieżką [Wprowadzenie do Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro), możesz przejść do projektu [Głupkowate oczy](https://projects.raspberrypi.org/en/projects/silly-eyes). W tym projekcie zaprojektujesz własną postać z oczami, które patrzą na kursor myszy, gdy nią poruszasz!
+If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} pathway, you can move on to the [Silly eyes](https://projects.raspberrypi.org/en/projects/silly-eyes){:target="_blank"} project. W tym projekcie zaprojektujesz własną postać z oczami, które patrzą na kursor myszy, gdy nią poruszasz!
 
 --- print-only ---
 
@@ -15,3 +15,5 @@ Jeśli podążasz ścieżką [Wprowadzenie do Scratch](https://projects.raspberr
 </div>
 
 --- /no-print ---
+
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.
