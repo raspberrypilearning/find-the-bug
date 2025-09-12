@@ -4,13 +4,14 @@ hero_image: images/banner.png
 description: Create a game in which you have to find a hidden bug on each level
 meta_title: Scratch coding projects for kids and teens | Find the bug
 meta_description: Learn to code in Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch game and find a hidden bug on each level.
+pdf: resources/find-the-bug.pdf
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: You will make
+    title: What you will make
   - 
     title: Start screen
   - 
@@ -38,5 +39,3 @@ steps:
     title: Upgrade your game
   - 
     title: Share and play
-  - 
-    title: What next?
