@@ -39,7 +39,7 @@ Drag the blocks away from the `when this sprite clicked`{:class="block3events"} 
 
 Mae angen i dy chwilen fod yn anodd dod o hyd iddi pan fydd y gefnlen yn newid. Galli di newid maint y chwilen i'w gwneud hi'n anoddach dod o hyd iddi.
 
-![The bug sprite.](images/bug-sprite.png)
+![Y corlun chwilen.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v] // choose your backdrop
@@ -66,7 +66,7 @@ Position your bug in its hiding place.
 
 Rho dy chwilen yn ei chuddfan.
 
-![The bug sprite.](images/bug-sprite.png)
+![Y corlun chwilen.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -98,7 +98,7 @@ Join the blocks back to the `when this sprite clicked`{:class="block3events"} bl
 
 Efallai fod dy chwilen nawr o flaen y parot.
 
-![The bug sprite.](images/bug-sprite.png)
+![Y corlun chwilen.](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked
