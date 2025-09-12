@@ -1,4 +1,4 @@
-## Quick quiz
+## Rychlý kvíz
 
 Answer the three questions. There are hints to guide you to the correct answer.
 
