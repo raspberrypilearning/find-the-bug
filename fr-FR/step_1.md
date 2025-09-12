@@ -8,6 +8,9 @@ Tu vas devoir :
 + Utiliser la **variable** `chronomètre`{:class="block3sensing"} pour indiquer au joueur à quelle vitesse il a trouvé les bugs
 
 --- no-print --- --- task ---
+
+--- task ---
+
 ### Joue ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
@@ -19,9 +22,10 @@ Les bugs sont-ils bien cachés ? Tu peux ajouter tes propres niveaux et les rend
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719939/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1156707423/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
+
 --- /task ---
 
 --- /no-print ---
