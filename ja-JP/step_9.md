@@ -1,20 +1,20 @@
-## Share and play
+## 共有して遊ぶ
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+あなたのプロジェクトでRaspberry Pi財団コミュニティに刺激を与えましょう！
 
 [[[share-scratch]]]
 
-To submit your project to our 'Find the bug' Scratch studio for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+他の人が見ることができるように、あなたのプロジェクトを「バグを探せ」Scratchスタジオに送信するには、[このフォーム](https://form.raspberrypi.org/f/community-project-submissions){:target="blank"}に記入してください。
 
 --- /task ---
 
 --- no-print --- --- task ---
 
-Play these fabulous games from our ['Find the bug' Scratch studio](https://scratch.mit.edu/studios/29005236/){:target="_blank"}.
+[「バグを探せ」Scratchスタジオ](https://scratch.mit.edu/studios/29005236/){:target="_blank"}の素晴らしいゲームをプレイしてください。
 
-Notice how the creators have added extra levels, annoying distractions or upgraded the start and end screens:
+クリエイターたちが、どのように追加のレベルや迷惑な気を散らす要素を追加したり、開始画面と終了画面をアップグレードしたかにご注目ください。
 
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/545488112/?autostart=false" frameborder="0"></iframe>
@@ -34,7 +34,7 @@ Notice how the creators have added extra levels, annoying distractions or upgrad
 
 --- task ---
 
-You can also look at the remixes for the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/remixes){:target="_blank"} to see what other creators have made.
+また、[バグを探せスタータープロジェクト](https://scratch.mit.edu/projects/582214723/remixes){:target="_blank"}から派生した作品を見て、他のクリエイターが何を作成したか確認することもできます。
 
 --- /task ---
 
