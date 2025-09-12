@@ -4,13 +4,14 @@ hero_image: images/banner.png
 description: Yenza umdlalo apho kufuneka ufumane i-bug efihliweyo kwinqanaba ngalinye
 meta_title: Iiprojekthi zokubhala iikhowudi zabantwana kunye nabaselula | Fumana ibug
 meta_description: Funda ukwenza ikhowudi kwiScratch kunye neeprojekthi zeekhowudi zeRaspberry Pi Foundation zabantwana kunye nolutsha. Yenza umdlalo weScratch kwaye ufumane ibug efihliweyo kwinqanaba ngalinye.
+pdf: resources/find-the-bug.pdf
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: Uya kwenza
+    title: What you will make
   - 
     title: Qala isikrini
   - 
@@ -38,5 +39,3 @@ steps:
     title: Phucula umdlalo wakho
   - 
     title: Yabelana kwaye udlale
-  - 
-    title: Yintoni elandelayo?
