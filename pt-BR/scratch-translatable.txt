@@ -44,7 +44,7 @@ inicie o temporizador
 
 arraste para posicionar o primeiro inseto
 
-primeiro nível
+novo nível
 
 bom esconderijo
 
