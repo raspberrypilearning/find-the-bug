@@ -11,7 +11,7 @@
 </div>
 </div>
 
-### **Parrot** スプライトを追加します。
+### オウムのスプライトを追加する
 
 --- task ---
 
@@ -21,15 +21,15 @@
 
 --- /task ---
 
-### Parrotのスプライト。
+### Parrotスプライトをアニメーション化する
 
-[Catch the bus](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_ blank"}プロジェクトでは、 `繰り返す`{:class="block3control"}ループを使用しました。
+[バスに乗る](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_ blank"}プロジェクトでは、 `繰り返す`{:class="block3control"}ループを使用しました。
 
 ここでは別のループを使用します。 `ずっと`{:class="block3control"}ループは、その中のコードブロックを何度も実行します。 飛び回ったり邪魔になったりするのを止めない迷惑なオウムにとっては完璧なループです。
 
 --- task ---
 
-コードを追加して、オウムを気が散るような方法で羽ばたかせます。 Look at the comments on the code blocks for some different numbers to try:
+コードを追加して、気を散らかせるようにオウムを飛び回らせます。 コードブロックのコメントを見て、他の数値を試してみてください。
 
 ![Parrotのスプライト。](images/parrot-sprite.png)
 
@@ -51,7 +51,7 @@ end
 
 --- task ---
 
-**テスト:** 緑色のフラグをクリックして、プロジェクトをまたテストします。 バグを隠した場所を覚えていますか？
+**テスト:** 緑の旗をクリックして、もう一度プロジェクトをテストします。 バグを隠した場所を覚えていますか？
 
 Scratchでは、実行中のコードが黄色のアウトラインで光ります。
 
