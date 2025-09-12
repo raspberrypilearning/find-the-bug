@@ -1,4 +1,4 @@
-## You will make
+## What you will make
 
 Create a game in which you have to find a hidden bug 🐞 on each level. The game will have 'start' and 'end' screen backdrops, and a timer ⌚ to show the player how quickly they found the bugs.
 
@@ -7,7 +7,10 @@ You will:
 + Use a `forever`{:class="block3control"} loop to keep running code blocks
 + Use the `timer`{:class="block3sensing"} **variable** to let the player know how quickly they found the bugs
 
---- no-print --- --- task ---
+--- no-print ---
+
+--- task ---
+
 ### Play ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
@@ -19,9 +22,10 @@ How well are the bugs hidden? You will get to add your own levels and make it as
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719939/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1156707423/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
+
 --- /task ---
 
 --- /no-print ---
