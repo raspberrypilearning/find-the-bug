@@ -1,6 +1,6 @@
 ## Και τώρα;
 
-Εάν ακολουθείς την [Εισαγωγή στο Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro), μπορείς να προχωρήσεις στο έργο [Αστεία μάτια](https://projects.raspberrypi.org/en/projects/silly-eyes). Σε αυτό το έργο, θα σχεδιάσεις τον δικό σου χαρακτήρα με μάτια που κοιτάζουν προς τον δείκτη του ποντικιού όταν μετακινείς το ποντίκι!
+If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} pathway, you can move on to the [Silly eyes](https://projects.raspberrypi.org/en/projects/silly-eyes){:target="_blank"} project. Σε αυτό το έργο, θα σχεδιάσεις τον δικό σου χαρακτήρα με μάτια που κοιτάζουν προς τον δείκτη του ποντικιού όταν μετακινείς το ποντίκι!
 
 --- print-only ---
 
@@ -15,3 +15,5 @@
 </div>
 
 --- /no-print ---
+
+Το έργο αυτό μεταφράστηκε από τους εθελοντές:
