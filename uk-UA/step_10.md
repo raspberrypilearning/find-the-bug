@@ -1,6 +1,6 @@
 ## Що далі?
 
-Якщо ти йдеш по проєктах [Знайомство зі Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro), можеш перейти до проєкту[Дурнуваті очі](https://projects.raspberrypi.org/en/projects/silly-eyes). У цьому проєкті ти будеш створювати власного персонажа з очима, які будуть дивитися на курсор миші коли ти будеш її переміщати!
+If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} pathway, you can move on to the [Silly eyes](https://projects.raspberrypi.org/en/projects/silly-eyes){:target="_blank"} project. У цьому проєкті ти будеш створювати власного персонажа з очима, які будуть дивитися на курсор миші коли ти будеш її переміщати!
 
 --- print-only ---
 
@@ -15,3 +15,5 @@
 </div>
 
 --- /no-print ---
+
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.
