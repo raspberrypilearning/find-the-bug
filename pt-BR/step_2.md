@@ -21,7 +21,7 @@ Abra o [projeto inicial Encontre o inseto](https://scratch.mit.edu/projects/5822
 
 --- /task ---
 
-### Adicionar um pano de fundo
+### Adicione um cenário
 
 --- task ---
 
@@ -43,7 +43,7 @@ Clique no painel do Palco.
 
 --- /task ---
 
-### Edite o plano de fundo
+### Edite o cenário
 
 --- task ---
 
@@ -75,7 +75,7 @@ Clique em **Converter para Vetor**. Agora, você poderá adicionar texto que voc
 
 Use a ferramenta **Texto** para adicionar o texto `Encontre o Inseto` no quadro-negro:
 
-![Encontre o bug que está escrito no quadro-negro.](images/chalkboard-text.png)
+![Encontre o inseto está escrito no quadro-negro.](images/chalkboard-text.png)
 
 Usamos **Marcador** branco, mas você pode **escolher** a fonte e a cor que quiser.
 
@@ -83,7 +83,7 @@ Usamos **Marcador** branco, mas você pode **escolher** a fonte e a cor que quis
 
 --- /task ---
 
-## Renomear o plano de fundo
+## Renomear o cenário
 
 --- task ---
 
