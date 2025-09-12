@@ -4,7 +4,7 @@
 
 「スタート」 画面にする
 
-start
+スタート
 
 フルサイズ
 
@@ -34,7 +34,7 @@ start
 
 かかった秒数
 
-end
+終了
 
 何も言わない
 
@@ -46,6 +46,6 @@ end
 
 第1レベル
 
-good hiding place
+よい隠れ場所
 
-keep the bug at the back
+バグを背面に置いておく
