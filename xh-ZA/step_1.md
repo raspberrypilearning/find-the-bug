@@ -1,37 +1,41 @@
-## You will make
+## What you will make
 
-Create a game in which you have to find a hidden bug 🐞 on each level. The game will have 'start' and 'end' screen backdrops, and a timer ⌚ to show the player how quickly they found the bugs.
+Yenza umdlalo apho kufuneka ukhangele igrogro 🐞efihliweyo kwinqanaba ngalinye. Umdlalo uza kuba 'nokuqala' kunye 'nokuphela' ngasemva kwesikrini, kunye nesibali-xesha ⌚ ukubonisa umdlali ukuba zifumene ngokukhawuleza kangakanani iimpazamo.
 
-You will:
-+ Create levels for your game using `next backdrop`{:class="block3looks"} and `when backdrop switches to`{:class="block3events"} blocks
-+ Use a `forever`{:class="block3control"} loop to keep running code blocks
-+ Use the `timer`{:class="block3sensing"} **variable** to let the player know how quickly they found the bugs
+Uzaku:
++ Yenza amanqanaba omdlalo wakho usebenzisa `umva olandelayo `{:class="block3looks"} kunye nebhloko `xa umva utshintshela ku `{:class="block3events"}
++ Sebenzisa iluphu `ngonaphakade`{:class="block3control"} ukuze iibhloko zekhowudi zihlale ezisebenza
++ Sebenzisa <1>uphawu</1>  <0>isibali-xesha</0>{:class="block3sensing"} ukwazisa umdlali ukuba bazibhaqe ngokukhawuleza kangakanani igrogro
 
---- no-print --- --- task ---
-### Play ▶️
+--- no-print ---
+
+--- task ---
+
+### Dlala ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
-Click on the bug to start the game.
+Cofa kwigrogro ukuze uqale umdlalo.
 
-Try to find the bug on each level.
+Zama ukukhangela igrogro kwinqanaba ngalinye.
 
-How well are the bugs hidden? You will get to add your own levels and make it as easy or difficult as you like.
+Zifihlwe kangakanani iigrogro? Uya kufumana ukongeza amanqanaba akho kwaye wenze kube lula okanye kube nzima njengoko uthanda.
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719939/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1156707423/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
+
 --- /task ---
 
 --- /no-print ---
 
 --- print-only ---
 
-![The completed project.](images/showcase_static.png)
+![iProjekthi egqityiweyo.](images/showcase_static.png)
 
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-More than 2.5 billion people play video games every year. Just think how many people are involved in creating those games. Would you like a job designing, coding, or testing games for other people to play? 
+Bangaphezu kwe-2.5 bhiliyoni abantu abadlala imidlalo yevidiyo nyaka nanyaka. Khawucinge nje ukuba bangaphi abantu ababandakanyekayo ekwenzeni loo midlalo. Ngaba ungawuthanda umsebenzi wakuyila, okanye wokubhala iikhowudi, okanye ukuvavanya imidlalo eyenziwe ngabanye abantu? 
 </p>
