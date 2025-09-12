@@ -1,124 +1,124 @@
-## Start screen
+## Iskrini ekuqalwa kuso
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Give your game a 'start' screen.
+Nika umdlalo wakho isikrini 'ekuqalwa kuso'.
 </div>
 <div>
 
-!["Find the bug" text on a chalkboard on the Stage.](images/start-screen.png){:width="300px"}
+!["Khangela igrorgro" okubhaliweyo ebhodini ekwiqonga.](images/start-screen.png){:width="300px"}
 
 </div>
 </div>
 
-### Open the starter project
+### Vula iprojekthi yokuqalisa
 
 --- task ---
 
-Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch will open in another browser tab.
+Vula iprojekthi [yokuqlisa, khangela igrogro](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. uScratch uya kuvula kwenye ithebhu yesikhangeli.
 
 [[[working-offline]]]
 
 --- /task ---
 
-### Add a Backdrop
+### Yongeza umfanekiso wangemva
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+Faka  **Ibhodi emnyama** ibengumfunekiso wakho wangasemva isuka kudidi **Ngaphakathi**.
 
-![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
+![Uphawu 'Khetha umfanekiso wangemva.'](images/backdrop-button.png)
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![Umva oyIbhodi emnyama kwithala (layibrari) yemifnekiso yangasemva.](images/chalkboard.png)
 
 --- /task ---
 
-The **Stage** has a **Backdrops** tab instead of a **Costumes** tab. This is where you can create images for the **Stage**.
+**Iqonga** lino ** Mfanekiso wangasemva** endaweni yokuba nethebhu yesi **Isinxibo**. Apha kulapho uzoba khona imifanekiso ye **Qonga**.
 
 --- task ---
 
-Click on the Stage pane.
+Cofa kwipayini yeQonga.
 
-![The Stage pane in the bottom right corner is highlighted.](images/stage-pane.png)
+![Ifestile yeqonga kwikona esezantsi ekunene iphawuliwe.](images/stage-pane.png)
 
 --- /task ---
 
-### Edit the Backdrop
+### Hlela umfanekiso wangasemva
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+Cofa kwithebu  **Mfanekiso wangasemva** ukuvula umhleli wePeyinti.
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard-paint.png)
-
---- /task ---
-
---- task ---
-
-Select **backdrop1** and click on the **Delete** icon to remove the **backdrop1** backdrop from your project. You will not need the **backdrop1** backdrop in this project.
-
-![Backdrop1 is highlighted in the top left corner.](images/delete-backdrop1.png)
-
---- /task ---
-
-The **Chalkboard** backdrop will now be highlighted.
-
---- task ---
-
-Click on **Convert to Vector**. Now, you will be able to add text that you can move around.
-
-![The 'Convert to Vector' button.](images/vector-button.png)
+![Umfanekiso wangasemva Ibhodi emnyama kwi](images/chalkboard-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Use the **Text** tool to add the text `Find the bug` to the chalkboard:
+Khetha **umfanekiso wangasemva1** kwaye ucofe ku **Cima**  ukususa **umfanekiso wangasemva1** kwiprojekthi yakho. Awumdingi **umfanekiso wangasemva1** kule projekthi.
 
-![Find the bug is written on the chalkboard.](images/chalkboard-text.png)
-
-We used the **Marker** font in white, but **choose** the font and colour that you want to use.
-
-**Tip:** Switch to the **Select** (Arrow) tool to move your text around. To change the size of the text, grab the corner of the text and drag it.
+![Umfanekiso wangasemva1 uphawulwe kwikona ephezulu ngasekhohlo.](images/delete-backdrop1.png)
 
 --- /task ---
 
-## Rename the Backdrop
+Umfanekiso wangasemva **Ibhodi emnyama** uza kuphawulwa ngoku.
 
 --- task ---
 
-Change the name of the backdrop to `start`, because you will need to select it later in the project.
+Cofa ku **Guqula ibeyi Vector**. Ngoku, ungakwazi ukongeza umbhalo onokuwuhambisela naphina kwiskrini sakho.
 
-![The Costume name box highlighted in the Paint editor.](images/start-screen-name.png)
-
-**Tip:** If you use names that make sense, it will be easier to understand your project, especially when you come back to a project later.
-
---- /task ---
-
-### Add the Bug Sprite
-
---- task ---
-
-Delete the **Scratch Cat** sprite.
+![Iqhosha 'Guqula ibeyi Vector'.](images/vector-button.png)
 
 --- /task ---
 
 --- task ---
 
-Click on **Choose a Sprite** and type `bug` in the search box.
+Sebenzisa isixhobo **Umbhalo**  bhala `Khangela igrogro` kwibhodi emnyama:
 
-**Choose:** Choose a bug, which players will need to find in your game.
+![Kubhalwe khangela igrogro kwibhodi aemnyama.](images/chalkboard-text.png)
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+Sisebenzise ifonti **Phawu**  emhlophe, kodwa **khetha** ifonti enombala ofuna ukuwusebenzisa.
 
-!["bug" search results showing seven different bugs.](images/bug-search.png)
+<0>Ingcebiso:</0> Tshintshela kwisixhobo esilu tolo (arrow tool) <0>Khetha</0> sokujikelezisa umbhalo kwakho. Ukutshintsha ubungakanani bombhalo, bamba ikona yombhalo uze uwutsale.
 
-**Tip:** Give your project a name. You might like to include the name of the bug that you have just chosen.
+--- /task ---
+
+## Wuthiye ngokutsha umfanekiso wangasemva
+
+--- task ---
+
+Tshintsha igama lomfanekiso wakho wangemva ubengu `umva wokuqala`, kuba kuya kufuneka ubuyele kuwo ekuhambeni kweprojekthi.
+
+![Ibhokisi yegama yesinxibo iphawulwe kumhleli wePeyinti.](images/start-screen-name.png)
+
+**Ingcebiso:** Ukuba usebenzisa amagama anengqiqo, kuya kuba lula ukuyiqonda iprojekthi yakho, ingakumbi emaphethelweni eprojekthi.
+
+--- /task ---
+
+### Faka isprite esiyigrogro
+
+--- task ---
+
+Cima isprite **Ikati kaScratch** .
+
+--- /task ---
+
+--- task ---
+
+Cofa ku **Khetha iSprite** kwaye uchwetheze `bug` kwibhokisi yokukhangela.
+
+<0>Khetha:</0> Khetha igrogro, ezaku khangelwa ngabadlali kumdlalo wokha woku khangela igrogro.
+
+![Uphawu 'Khetha iSprite.'](images/sprite-button.png)
+
+!["bug" iziphumo zophendlo ezibonisa iibugs ezisixhenxe ezahlukeneyo.](images/bug-search.png)
+
+**Ingcebiso:** Nika iprojekthi yakho igama. Ungathanda ungafaka igama legrogro osanda kuyikhetha.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A mistake in a computer program is called a <span style="color: #0faeb0">**bug**</span>. Finding and removing mistakes in computer programs is called <span style="color: #0faeb0">**debugging**</span>. Grace Hopper is a famous software engineer. Her team once found a moth in their computer. Their notes say, "First actual case of bug being found."
+Impazamo kwinkqubo yekhompyuter ibizwa ngokuba yi <span style="color: #0faeb0">**bug**</span>. Ukufumana kunye nokususa iimpazamo kwiinkqubo zekhompyuter kubizwa ngokuba <span style="color: #0faeb0">**debugging**</span>. Grace Hopper yinjineli yesoftware edumileyo. Iqela lakhe lakhe labhaqa inundu (ibhabhathane elibhabha ngobusuku) kwikhompyuter yabo. Amanqaku abo athi, "Ityeli lokuqala yokwenyani yokubhaqwa kwebug."
 </p>
 
 
