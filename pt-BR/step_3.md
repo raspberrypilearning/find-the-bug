@@ -11,7 +11,7 @@ Você vai adicionar um novo cenário como o nível 1 do jogo e vai esconder o in
 </div>
 </div>
 
-### Adicione outro plano de fundo
+### Adicione outro cenário
 
 --- task ---
 
