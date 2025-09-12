@@ -1,4 +1,4 @@
-## You will make
+## はじめに
 
 このプロジェクトでは、各レベルに隠れているバグ(虫) を見つけるゲームを作成します。 ゲームには、「スタート」と「終了」の画面の背景があり、バグを見つけた速さをタイマーでプレーヤーに知らせます。
 
@@ -8,7 +8,10 @@
 + `タイマー`{;class="block3sensing"} **変数** を使って、バグを見つけた速さをプレーヤーに知らせます。
 
 --- no-print --- --- task ---
-### Play ▶️
+
+--- task ---
+
+### 試してみる▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
 バグをクリックしてゲームを開始します。
@@ -19,9 +22,10 @@
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719939/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1156707423/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
+
 --- /task ---
 
 --- /no-print ---
