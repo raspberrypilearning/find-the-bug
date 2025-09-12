@@ -4,13 +4,14 @@ hero_image: images/banner.png
 description: एक ऐसा गेम बनाएं जिसमें आपको प्रत्येक स्तर पर एक छिपी हुई बग ढूंढनी हो
 meta_title: बच्चों और किशोरों के लिए स्क्रैच कोडिंग प्रोजेक्ट | बग का पता लगाएं
 meta_description: बच्चों और किशोरों के लिए रास्पबेरी पाई फाउंडेशन की कोडिंग परियोजनाओं के साथ स्क्रैच में कोड करना सीखें। एक स्क्रैच गेम बनाएं और प्रत्येक स्तर पर एक छिपी बग खोजें।
+pdf: resources/find-the-bug.pdf
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: आप बना लोगे
+    title: What you will make
   - 
     title: प्रारंभ स्क्रीन
   - 
@@ -38,5 +39,3 @@ steps:
     title: अपना गेम अपग्रेड करें
   - 
     title: शेयर करें और खेलो
-  - 
-    title: आगे क्या?
