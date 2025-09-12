@@ -21,41 +21,41 @@ next backdrop
 
 Jonga lo mfanekiso ubonisa umdlalo 'Fumana ibug' edlalwayo.
 
-![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
+![Umhleli we-Scratch onemimva elandelelana ngoluhlobo; qala, Isikhanyiseli, Idolophu, isiphelo, kunye neqonga eliveze umva onesikhanyiseli.](images/quiz1-backdrops.png)
 
-In this game, which backdrop would appear next when you click on the bug?
+Kulomdlalo, ngowuphi umva oza kuvela ngokulandelayo xa ucofa ibug?
 
 --- choices ---
 
-- ( ) start
+- ( ) qala
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  Kumele ucinge ngolandelelwano lwemiva.
 
   --- /feedback ---
 
-- (x) Urban
+- (x) Idolophini
 
   --- feedback ---
 
-Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
+Ewe. Iblokhi ` umva olandelay` {:class="block3looks"} utshintshe uye kumva olandelayo ngolandelelwano loluhlu lwemiva kwithebhu ** Imiva** ukwenzela i**Qonga**.
 
 --- /feedback ---
 
-- ( ) Spotlight
+- ( ) Ukukhanya
 
   --- feedback ---
 
-  The **Spotlight** backdrop is showing on the Stage. You need to think about the order of the backdrops.
+  Umva **Isikhanyiseli** ubonakala kwiQonga. Kumele ucinge ngolandelelwano lwemiva.
 
   --- /feedback ---
 
-- ( ) end
+- ( ) isiphelo
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  Kumele ucinge ngolandelelwano lwemiva.
 
   --- /feedback ---
 
