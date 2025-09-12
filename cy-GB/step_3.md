@@ -101,9 +101,9 @@ Byddi di'n sylwi ar y sgrin ‘dechrau’ fod gan y chwilen dal y gosodiadau i g
 
 --- task ---
 
-Click on the **bug** sprite in the Sprite list. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+Clicia ar y corlun **bug** yn rhestr y Corluniau. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
 
-![The bug sprite.](images/bug-sprite.png)
+![Y corlun chwilen.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -142,7 +142,7 @@ Try to position the bug again. Drag the bug onto the chalkboard, below the text:
 
 Add code to make sure that the bug is positioned on the chalkboard every time your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
 
-![The bug sprite.](images/bug-sprite.png)
+![Y corlun chwilen.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
