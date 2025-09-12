@@ -1,6 +1,6 @@
 ## Vad händer nu?
 
-Om du följer [Introduktion till Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro)-vägen kan du gå vidare till [Roliga ögon](https://projects.raspberrypi.org/en/projects/silly-eyes) -projektet. I det här projektet kommer du att skapa din egen karaktär med ögon som tittar på muspekaren när du flyttar musen!
+If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} pathway, you can move on to the [Silly eyes](https://projects.raspberrypi.org/en/projects/silly-eyes){:target="_blank"} project. I det här projektet kommer du att skapa din egen karaktär med ögon som tittar på muspekaren när du flyttar musen!
 
 --- print-only ---
 
@@ -15,3 +15,5 @@ Om du följer [Introduktion till Scratch](https://projects.raspberrypi.org/en/pa
 </div>
 
 --- /no-print ---
+
+Detta projekt översattes av frivilliga:
