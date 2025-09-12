@@ -1,6 +1,6 @@
-## पुढे काय?
+## What can you do now?
 
-जर तुम्ही [स्क्रॅचचा परिचय](https://projects.raspberrypi.org/en/pathways/scratch-intro) मार्ग वापरात असाल, तर तुम्ही [मूर्ख डोळे](https://projects.raspberrypi.org/en/projects/silly-eyes) प्रोजेक्टवर जाऊ शकता. या प्रकल्पात, तुम्ही माउस हलवताना माउस पॉइंटरकडे पाहणाऱ्या डोळ्यांचे तुमचे स्वतःचे पात्र डिझाइन कराल!
+If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} pathway, you can move on to the [Silly eyes](https://projects.raspberrypi.org/en/projects/silly-eyes){:target="_blank"} project. या प्रकल्पात, तुम्ही माउस हलवताना माउस पॉइंटरकडे पाहणाऱ्या डोळ्यांचे तुमचे स्वतःचे पात्र डिझाइन कराल!
 
 --- print-only ---
 
@@ -15,3 +15,5 @@
 </div>
 
 --- /no-print ---
+
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.
