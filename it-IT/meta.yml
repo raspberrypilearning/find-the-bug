@@ -4,6 +4,7 @@ hero_image: images/banner.png
 description: Crea un gioco in cui dovrai trovare l'insetto (bug) nascosto in ogni livello
 meta_title: Progetti di programmazione con Scratch per bambini e ragazzi | Trova l'insetto
 meta_description: Impara a programmare con Scratch e i progetti di programmazione per bambini e ragazzi offerti dalla Raspberry Pi Foundation. Crea un gioco in Scratch e trova l'insetto (bug) nascosto in ciascun livello.
+pdf: resources/find-the-bug.pdf
 version: 4
 listed: true
 copyedit: false
@@ -38,5 +39,3 @@ steps:
     title: Migliora il tuo gioco
   - 
     title: Condividi e gioca
-  - 
-    title: E adesso?
