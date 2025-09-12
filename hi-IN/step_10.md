@@ -1,6 +1,6 @@
-## आगे क्या?
+## What can you do now?
 
-अगर आप [Scratch का परिचय](https://projects.raspberrypi.org/en/pathways/scratch-intro) के पाथवे का अनुसरण कर रहे हैं, तो आप [मूर्ख आँखें](https://projects.raspberrypi.org/en/projects/silly-eyes) प्रोजेक्ट पर आगे बढ़ सकते हैं। इस प्रोजेक्ट में, आप अपने स्वयं के चरित्र को आंखों से डिजाइन करेंगे जो माउस को ले जाने पर माउस पॉइंटर को देखेगा!
+If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} pathway, you can move on to the [Silly eyes](https://projects.raspberrypi.org/en/projects/silly-eyes){:target="_blank"} project. इस प्रोजेक्ट में, आप अपने स्वयं के चरित्र को आंखों से डिजाइन करेंगे जो माउस को ले जाने पर माउस पॉइंटर को देखेगा!
 
 --- print-only ---
 
@@ -15,3 +15,5 @@
 </div>
 
 --- /no-print ---
+
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.
