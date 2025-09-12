@@ -1,51 +1,51 @@
-tiny
+incinci
 
-on the disco ball
+kwibhola yedisko 
 
-'start' screen
+iskrini sokuqala
 
-start
+qala
 
-full-sized
+ubungakanani obupheleleyo
 
-on the board
+ebhodini
 
-do not go upside down
+unga jonge phantsi-phezulu
 
-number from -180 to 180
+inani ukusuka -180 ukuya 180
 
-keep being annoying
+hlala udikiwe
 
-the number controls the speed
+inani lilawula isantya
 
-stay on the Stage
+hlala eQongeni
 
-flap
+phakuzelisa
 
-try 11 or 50
+zama 11 okanye 50
 
-try 0.1 or 0.5
+zama 0.1 okanye 0.5
 
-choose your backdrop
+khetha umfanekiso wangasemva
 
-try another size
+zama obunye ubungakanani (enye isayizi)
 
-in the shop window
+kwifestile yevenkile
 
-seconds taken
+imizuzwana ethathiweyo
 
-end
+isiphelo
 
-say nothing
+ungatsho nto
 
-first level
+inqanaba lokuqala
 
-start the timer
+qala isibali-xesha
 
-drag to position the bug first
+tsala ukuze ubeke igrogro kwindawo
 
-new level
+inqanaba elitsha
 
-good hiding place
+indawo entle yokuzimela
 
-keep the bug at the back
+gcina igrogro ngasemva
