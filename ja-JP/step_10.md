@@ -1,6 +1,6 @@
 ## 次は何をしますか？
 
-[スクラッチ入門](https://projects.raspberrypi.org/en/pathways/scratch-intro) に沿って進めている方は、 [愚かな目](https://projects.raspberrypi.org/en/projects/silly-eyes) プロジェクトに進みましょう。 このプロジェクトでは、マウスを動かしたときにマウスポインタを追いかける独自のキャラクターをデザインします。
+[スクラッチ入門](https://projects.raspberrypi.org/ja-JP/pathways/scratch-intro) に沿って進めている方は、 [愚かな目](https://projects.raspberrypi.org/ja-JP/projects/silly-eyes) プロジェクトに進みましょう。 このプロジェクトでは、マウスを動かしたときにマウスポインタを追いかける独自のキャラクターをデザインします。
 
 --- print-only ---
 
@@ -15,3 +15,5 @@
 </div>
 
 --- /no-print ---
+
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.
