@@ -7,7 +7,10 @@ Du wirst:
 + Eine `wiederhole fortlaufend`{:class="block3control"} Schleife verwenden um Code Blöcke laufen zu lassen
 + Nutze die `Stoppuhr`{:class="block3sensing"} **Variable**, um mitzuteilen, wie schnell die Bugs gefunden wurden
 
---- no-print --- --- task ---
+--- no-print --- ---
+
+task ---
+
 ### Spielen ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
@@ -19,9 +22,10 @@ Wie gut sind die Bugs versteckt? Du kannst deine eigenen Level hinzufügen und e
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719939/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1156707423/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
+
 --- /task ---
 
 --- /no-print ---
