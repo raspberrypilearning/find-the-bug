@@ -4,6 +4,7 @@ hero_image: images/banner.png
 description: Δημιούργησε ένα παιχνίδι στο οποίο πρέπει να βρίσκεις ένα κρυμμένο έντομο σε κάθε επίπεδο
 meta_title: Έργα κώδικα σε Scratch για παιδιά και εφήβους | Βρες το έντομο
 meta_description: Μάθε να προγραμματίζεις με Scratch με τα έργα κώδικα του Ιδρύματος Raspberry Pi για παιδιά και εφήβους. Δημιούργησε ένα παιχνίδι στη Scratch και βρες το κρυμμένο έντομο σε κάθε επίπεδο.
+pdf: resources/find-the-bug.pdf
 version: 4
 listed: true
 copyedit: false
@@ -38,5 +39,3 @@ steps:
     title: Αναβάθμισε το παιχνίδι σου
   - 
     title: Μοίρασου και παίξε
-  - 
-    title: Και τώρα;
