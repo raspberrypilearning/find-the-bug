@@ -4,13 +4,14 @@ hero_image: images/banner.png
 description: Vytvoř hru, ve které se bude v každé úrovni nacházet skrytý brouk
 meta_title: Kódovací projekty ve Scratchi pro děti a náctileté | Najdi chybu
 meta_description: Nauč se kódovat ve Scratchi pomocí kódovacích projektů pro děti a náctileté od nadace Raspberry Pi Foundation. Vytvoř si hru ve Scratchi a najdi v každé úrovni skrytého brouka.
+pdf: resources/find-the-bug.pdf
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: Co budeš dělat
+    title: What you will make
   - 
     title: Startovací obrazovka
   - 
@@ -38,5 +39,3 @@ steps:
     title: Vylepši svou hru
   - 
     title: Sdílej a hraj
-  - 
-    title: Co dál?
