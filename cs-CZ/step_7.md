@@ -1,1 +1,1 @@
-## Quick quiz
+## Rychlý kvíz
