@@ -8,6 +8,9 @@ Je gaat:
 + Een `klok`{:class="block3sensing"} **variabele** gebruiken om de speler te laten weten hoe snel ze de kevers hebben gevonden
 
 --- no-print --- --- task ---
+
+--- task ---
+
 ### Afspelen ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
@@ -19,9 +22,10 @@ Hoe goed zijn de kevers verborgen? Je gaat je eigen niveaus toevoegen en het zo 
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719939/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1156707423/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
+
 --- /task ---
 
 --- /no-print ---
