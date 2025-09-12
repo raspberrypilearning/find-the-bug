@@ -1,4 +1,4 @@
-## Co budeš dělat
+## What you will make
 
 Vytvoř hru, ve které se bude v každé úrovni nacházet skrytý brouk 🐞. Hra bude mít pozadí "startovní" a "koncové" obrazovky a časovač ⌚, který hráči ukáže, jak rychle brouky našel.
 
@@ -7,7 +7,10 @@ Budeš:
 + Použij smyčku `napořád`{:class="block3control"} k neustálému spouštění bloků kódu
 + Použij `časovač`{:class="block3sensing"} jako **proměnnou**, aby hráč věděl, jak rychle chyby našel
 
---- no-print --- --- task ---
+--- no-print ---
+
+--- task ---
+
 ### Hraj ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
@@ -19,9 +22,10 @@ Jak dobře jsou brouci skrytí? Můžeš si přidat vlastní úrovně a udělat 
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719939/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1156707423/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
+
 --- /task ---
 
 --- /no-print ---
