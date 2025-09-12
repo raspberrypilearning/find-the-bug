@@ -1,6 +1,6 @@
 ## I ara què ve?
 
-Si seguiu la ruta [Introducció a Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro) , podeu passar al projecte [Ulls entremaliats](https://projects.raspberrypi.org/en/projects/silly-eyes) . En aquest projecte, dissenyareu el vostre propi personatge amb ulls que miren el punter del ratolí quan moveu el ratolí!
+If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} pathway, you can move on to the [Silly eyes](https://projects.raspberrypi.org/en/projects/silly-eyes){:target="_blank"} project. En aquest projecte, dissenyareu el vostre propi personatge amb ulls que miren el punter del ratolí quan moveu el ratolí!
 
 --- print-only ---
 
@@ -15,3 +15,5 @@ Si seguiu la ruta [Introducció a Scratch](https://projects.raspberrypi.org/en/p
 </div>
 
 --- /no-print ---
+
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.
