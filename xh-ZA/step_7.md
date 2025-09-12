@@ -1,1 +1,1 @@
-## Quick quiz
+## Imibuzo ekhawulezayo
