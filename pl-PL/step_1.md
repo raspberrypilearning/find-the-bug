@@ -8,6 +8,9 @@ Co zrobisz:
 + Użyjesz **zmiennej** `stoper` {:class="block3sensing"} aby poinformować gracza, jak szybko znalazł robaki
 
 --- no-print --- --- task ---
+
+--- task ---
+
 ### Zagraj ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
@@ -19,9 +22,10 @@ Jak dobrze są one ukryte? W swojej grze będziesz tworzyć własne poziomy i uc
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719939/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1156707423/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
+
 --- /task ---
 
 --- /no-print ---
