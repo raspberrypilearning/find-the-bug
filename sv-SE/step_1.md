@@ -8,6 +8,9 @@ Du kommer:
 + Använd `timer`{:class="block3sensing"} **variabeln** för att berätta för spelaren hur snabbt de hittade insekterna
 
 --- no-print --- --- task ---
+
+--- task ---
+
 ### Spela ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
@@ -19,9 +22,10 @@ Hur väl är insekterna gömda? Du kommer få lägga till dina egna nivåer och 
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719939/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1156707423/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
+
 --- /task ---
 
 --- /no-print ---
