@@ -1,13 +1,13 @@
 --- question ---
 ---
-legend: Question 2 of 3
+Ilivo: Umbuzo 2 kwemi 3
 ---
 
-You used a `forever`{:class="block3control"} loop to make the **Parrot** sprite fly around in an annoying way.
+Usebenzise iluphu `naphakade`{:class="block3control"} ukuze wenze isprite **Isikhwenene** sibhabhe ngendlela edikayo.
 
-We have tried to add another distraction sprite, but it just moves once when we click on the green flag and then stops. How can we fix it?
+Sizamile ukongeza esinye i-sprite sokuphazamiseka, kodwa sishukuma kanye xa sicofa iflegi eluhlaza siyeke emvakoko. Sinokuyilungisa njani?
 
-![The Rocket sprite.](images/rocket-sprite.png)
+![I-Rocket sprite.](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -23,35 +23,35 @@ end
 
 --- choices ---
 
-- ( ) Change the number in the `move`{:class="block3motion"} block
+- ( ) Guqula inani kwibhloko `hamba`{:class="block3motion"}
 
   --- feedback ---
 
-If you change the number in the `move`{:class="block3motion"} block, you will change how far the sprite moves when the green flag is clicked, but this change will not make the rocket keep moving.
+Ukuba utshintsha inani kwibholoki `hamba`, uzakube utshintsha umgama ohanjwa sisprite xa iflegi eluhlaza icofiwe, kodwa lento ayizokweza irocket iqhubeke ngokuhamba.
 
   --- /feedback ---
 
-- ( ) Remove the `if on edge, bounce`{:class="block3motion"} block
+- ( ) Susa ibhloko `ukuba usekugqibeleni, gxuma`{:class="block3motion"}
 
   --- feedback ---
 
-The `if on edge, bounce`{:class="block3motion"} block makes the sprite bounce off the edge of the Stage. If you removed it, then the rocket would get stuck at the edge of the Stage.
+Ibhloko `ukuba usekugqibeleni, gxuma`{:class="block3motion"}  yenza i-sprite sitsibe xa sifika kumda weQonga. Ukuba uyisusile, i-rocket iya kuxinga kumda weqonga
 
   --- /feedback ---
 
-- ( ) Add another `forever`{:class="block3control"} block
+- ( ) Yongeza enye ibhloko ka `naphakade`{:class="block3control"}
 
 --- feedback ---
 
-A script can only have one `forever`{:class="block3control"} block. Did you notice that you cannot add a block underneath a `forever`{:class="block3control"} block?
+Umbhalo uvumeleke ibholoki enye ka `naphakade`{:class="block3control"}  Uqaphele ukuba awukwazi ukongeza ibhloko ngaphantsi kwe bhloko `naphakade`{:class="block3control"}?
 
 --- /feedback ---
 
-- (x) Drag the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop
+- (x) Tsala bhloko `hamba`{:class="block3motion"} ngaphakathi kwe luphu `naphakade`{:class="block3control"}
 
   --- feedback ---
 
-  Yes! The sprite only moves once. If you move the `move`{:class="block3motion"} block inside the `forever`{:class="block3control"} loop, the sprite will keep moving until you stop your project.
+  Ewe! I-sprite ihamba kanye kuphela. Ukuba usa ibhloko `hambisa`{:class="block3motion"}  ngaphakathi kwe luphu `naphakade`{:class="block3control"}, i-sprite siyakuhlala sihamba ude uyeke iprojekthi yakho.
 
   --- /feedback ---
 
