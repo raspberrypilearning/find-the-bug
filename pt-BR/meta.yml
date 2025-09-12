@@ -4,6 +4,7 @@ hero_image: images/banner.png
 description: Crie um jogo no qual você terá que encontrar um inseto escondido em cada nível
 meta_title: Projetos de programação Scratch para crianças e adolescentes | Encontre o Inseto
 meta_description: Aprenda a programar no Scratch com os projetos de codificação da Raspberry Pi Foundation para crianças e adolescentes. Faça um jogo Scratch e encontre um inseto escondido em cada nível.
+pdf: resources/find-the-bug.pdf
 version: 4
 listed: true
 copyedit: false
@@ -26,7 +27,7 @@ steps:
     completion:
       - internal
   - 
-    title: Jogue o jogo
+    title: Teste rápido
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,8 +36,6 @@ steps:
     completion:
       - internal
   - 
-    title: Reflexão
-  - 
     title: Melhore o seu jogo
   - 
-    title: E agora?
+    title: Compartilhe e jogue
