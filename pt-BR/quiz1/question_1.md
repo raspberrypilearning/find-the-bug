@@ -2,7 +2,7 @@
 
 Responda às três perguntas. Existem dicas para guiá-lo para a resposta correta.
 
-Após responder à cada pergunta, clique em **Enviar**. Você vai ser guiado para a resposta correta.
+Após responder cada pergunta, clique em **Verificar minha resposta**.
 
 Divirta-se!
 
@@ -11,7 +11,7 @@ Divirta-se!
 legend: Pergunta 1 de 3
 ---
 
-Em seu jogo, você adicionou esse código ao seu **inseto** para percorrer os panos de fundo cada vez que ele for clicado.
+Em seu jogo, você adicionou esse código ao seu **inseto** para percorrer pelos cenários cada vez que ele for clicado.
 
 ```blocks3
 when this sprite clicked
@@ -39,7 +39,7 @@ Neste jogo, qual cenário vai aparecer se você clicar sobre o inseto?
 
   --- feedback ---
 
-Sim. O próximo `bloco cenário`{:class="block3looks"} altera o plano de fundo para o próximo cenário no na ordem da lista de cenários na aba **Cenários** para o **Palco**.
+Sim. O próximo `bloco cenário`{:class="block3looks"} altera o plano de fundo para o próximo cenário na ordem da lista de cenários na aba **Cenários** para o **Palco**.
 
 --- /feedback ---
 
