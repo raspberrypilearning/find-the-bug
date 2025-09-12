@@ -4,6 +4,7 @@ hero_image: images/banner.png
 description: Crea un juego en el que tienes que encontrar un insecto oculto en cada nivel
 meta_title: Proyectos de codificación de Scratch para niños y adolescentes | Encuentra el insecto
 meta_description: Crea un juego en el que tienes que encontrar un insecto oculto en cada nivel.
+pdf: resources/find-the-bug.pdf
 version: 4
 listed: true
 copyedit: false
@@ -38,5 +39,3 @@ steps:
     title: Mejora tu juego
   - 
     title: Comparte y juega
-  - 
-    title: '¿Qué sigue?'
