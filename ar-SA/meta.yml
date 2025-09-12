@@ -4,6 +4,7 @@ hero_image: images/banner.png
 description: قم بإنشاء لعبة يتعين عليك فيها العثور على حشرة مختبئة في كل مستوى
 meta_title: مشاريع البرمجة باستخدام منصة سكراتش للأطفال والمراهقين | اللحاق بالباص
 meta_description: تعلم البرمجة في سكراتش باستخدام مشاريع الترميز الخاصة بمؤسسة Raspberry Pi مؤسسة للأطفال والمراهقين. أنشئ رسومًا متحركة وألعابًا وتطبيقات من سكراتش والمزيد.
+pdf: resources/find-the-bug.pdf
 version: 4
 listed: true
 copyedit: false
@@ -38,5 +39,3 @@ steps:
     title: قم بتطوير لعبتك
   - 
     title: شارك والعب
-  - 
-    title: ما التالي؟
