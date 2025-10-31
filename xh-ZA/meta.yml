@@ -1,0 +1,32 @@
+---
+title: Fumana ibug
+hero_image: images/banner.png
+description: Yenza umdlalo apho kufuneka ufumane i-bug efihliweyo kwinqanaba ngalinye
+meta_title: Iiprojekthi zokubhala iikhowudi zabantwana kunye nabaselula | Fumana ibug
+meta_description: Funda ukwenza ikhowudi kwiScratch kunye neeprojekthi zeekhowudi zeRaspberry Pi Foundation zabantwana kunye nolutsha. Yenza umdlalo weScratch kwaye ufumane ibug efihliweyo kwinqanaba ngalinye.
+pdf: resources/find-the-bug.pdf
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-02-26"
+steps:
+  - title: Uzakwenza ntoni?
+  - title: Qala isikrini
+  - title: Inqanaba lokuqala
+    completion:
+      - engaged
+  - title: Ukuphazamiseka kweparrot
+  - title: Inqanaba lesibini
+  - title: Isikrini sokuphela
+    completion:
+      - internal
+  - title: Imibuzo ekhawulezayo
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Phucula umdlalo wakho
+  - title: Yabelana kwaye udlale
