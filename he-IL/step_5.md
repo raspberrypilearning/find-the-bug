@@ -1,72 +1,72 @@
-## Second level
+## שלב השני
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Choose a backdrop to make a second level for your game, and make the bug hard to find. 
+בחרו רקע כדי ליצור שלב שני למשחק שלכם, ודאגו שהבאג יהיה קשה למציאה. 
 </div>
 <div>
 
-![A street scene with a hidden bug.](images/second-level.png){:width="300px"}
+![סצנת הרחוב עם באג נסתר.](images/second-level.png){:width="300px"}
 
 </div>
 </div>
 
-### Add another backdrop
+### הוסף רקע נוסף
 
 --- task ---
 
-**Choose:** Choose a backdrop for your second level. We have chosen the **Urban** backdrop, but you can choose the one that you like the most.
+**בחר:** בחר רקע לשלב השני שלך. בחרנו את הרקע **עירוני**, אבל אתם יכולים לבחור את זה שאתם הכי אוהבים.
 
-![The bug and parrot on an urban backdrop.](images/insert-urban-backdrop.png)
+![הבאג והתוכי על רקע עירוני.](images/insert-urban-backdrop.png)
 
-**Tip:** Remember that backdrops with lots of colours and details will make the bug harder to find. How difficult will you make your game?
+**טיפ:** זכרו שרקעים עם הרבה צבעים ופרטים יקשו על מציאת הבאג. כמה קשה תהפוך את המשחק שלך?
 
 --- /task ---
 
-### Stop the code from running
+### לעצור את הקוד מלרוץ
 
 --- task ---
 
-Drag the blocks away from the `when this sprite clicked`{:class="block3events"} block to stop them from running when you click on the bug:
+גררו את הבלוקים הרחק מהבלוק `כאשר הספרייט הזה לחוץ`{:class="block3events"} כדי למנוע מהם לפעול כשתלחצו על הבאג:
 
-![Breaking the code.](images/breaking-script.png)
+![שבירת הקוד.](images/breaking-script.png)
 
 --- /task ---
 
-### Resize the bug
+### שנה את גודל הבאג
 
 --- task ---
 
-Add code to `set the size`{:class="block3looks"} of the bug for the second level:
+הוסף קוד כדי `לקבוע את הגודל`{:class="block3looks"} של הבאג עבור הרמה השנייה:
 
-![The bug sprite.](images/bug-sprite.png)
+![ספרייט הבאג.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v] // choose your backdrop
 set size to [20] % // try another size 
 ```
 
-**Test:** Click on your new script to run it.
+**בדיקה:** לחץ על הסקריפט החדש שלך כדי להריץ אותו.
 
 --- /task ---
 
-### Hide your bug
+### הסתר את הבאג שלך
 
 --- task ---
 
-Drag your bug on the Stage to a good hiding place for this level.
+גררו את החרק שלכם על הבמה למקום מסתור טוב לשלב הזה.
 
-![The bug hidden in the shop window in the middle of the backdrop.](images/hidden-urban-backdrop.png)
+![הבאג שהוסתר בחלון הראווה באמצע הרקע.](images/hidden-urban-backdrop.png)
 
 --- /task ---
 
-Position your bug in its hiding place.
+מקם את הבאג שלך במקום המחבוא שלו.
 
 --- task ---
 
-Add a `go to x: y:`{:class="block3motion"} block to your code:
+הוסף בלוק `לך לx: y:`{:class="block3motion"} לקוד שלך:
 
-![The bug sprite.](images/bug-sprite.png)
+![ספרייט הבאג.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -76,29 +76,29 @@ set size to [20] % // try another size
 
 --- /task ---
 
-### Test your code
+### בדוק את הקוד שלך
 
 --- task ---
 
-Join the blocks back to the `when this sprite clicked`{:class="block3events"} block so that when the bug is clicked, the backdrop switches to the `next backdrop`{:class="block3looks"}:
+חברו את הבלוקים בחזרה לבלוק `כאשר הספרייט הזה נלחץ`{:class="block3events"} כך שכאשר לוחצים על הבאג, הרקע עובר ל `רקע הבא`{:class="block3looks"}:
 
-![The blocks are joined back together.](images/fixed-script.png)
+![הבלוקים מחוברים בחזרה יחד.](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your project.
+**בדיקה:** לחץ על הדגל הירוק כדי לבדוק את הפרויקט שלך.
 
 --- /task ---
 
-Your bug may now be in front of the parrot.
+ייתכן avctd שלך נמצא עכשיו לפני התוכי.
 
 --- task ---
 
-Add a script to make sure that your bug is always at the `back`{:class="block3looks"}:
+הוסף סקריפט כדי לוודא שהבאג שלך תמיד נמצא ב- `מאחור`{:class="block3looks"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![ספרייט הבאג.](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -106,6 +106,6 @@ forever
 go to [back v] layer
 ```
 
-Now, your bug will always stay at the back, even if you need to change its position.
+עכשיו, הבאג שלך תמיד יישאר מאחור, גם אם תצטרך לשנות את מיקומו.
 
 --- /task ---
