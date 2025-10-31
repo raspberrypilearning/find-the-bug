@@ -23,7 +23,7 @@ Faka isprite [Isikhwenene](https://projects.raspberrypi.org/en/projects/catch-th
 
 ### Yenza isprite Isikhwenene sibe ngupopayi
 
-Kwiprojekthi <0>Leqa ibhasi</0>{:target="_blank"}, usebenzise iluphu <1>phinda</1>{:class="block3control"} .
+Kwiprojekthi [Leqa ibhasi](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_blank"}, usebenzise iluphu `phinda`{:class="block3control"}.
 
 Uya kusebenzisa iluphu eyahlukileyo apha. Iluphu `ngonaphakade`{:class="block3control"} iqhuba iibhloko zekhowudi engaphakathi kuyo kwakhona kwaye kwakhona. Yeyona luphu ifanele isikhwenene esidikayo esingayekiyo ukubhabha sijikeleze kwaye singene endleleni.
 
