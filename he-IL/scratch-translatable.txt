@@ -1,51 +1,51 @@
-tiny
+זָעִיר
 
-on the disco ball
+על כדור הדיסקו
 
-'start' screen
+'מסך התחלה
 
-start
+הַתחָלָה
 
-full-sized
+בגודל מלא
 
-on the board
+על הלוח
 
-do not go upside down
+אל תלכו הפוך
 
-number from -180 to 180
+מספר מ-180- עד 180
 
-keep being annoying
+תמשיך להיות מעצבן
 
-the number controls the speed
+המספר שולט במהירות
 
-stay on the Stage
+הישאר על הבמה
 
-flap
+מַדָף
 
-try 11 or 50
+נסה 11 או 50
 
-try 0.1 or 0.5
+נסה 0.1 או 0.5
 
-choose your backdrop
+בחר רקע
 
-try another size
+נסה גודל אחר
 
-in the shop window
+בחלון הראווה
 
-seconds taken
+שניות שנלקחו
 
-end
+סוֹף
 
-say nothing
+לא אומר כלום
 
-first level
+שלב הראשון
 
-start the timer
+הפעל את הטיימר
 
-drag to position the bug first
+גרור כדי למקם את הבאג תחילה
 
-new level
+שלב חדש
 
-good hiding place
+מקום מסתור טוב
 
-keep the bug at the back
+שמור את הבאג מאחור
