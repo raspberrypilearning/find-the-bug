@@ -1,24 +1,24 @@
-## What you will make
+## מה תעשו
 
-Create a game in which you have to find a hidden bug 🐞 on each level. The game will have 'start' and 'end' screen backdrops, and a timer ⌚ to show the player how quickly they found the bugs.
+צרו משחק שבו עליכם למצוא באג מסתתר בכל שלב. למשחק יהיו רקעים של מסך "התחלה" ו"סיום", וטיימר ⌚ שיראה לשחקן כמה מהר הוא מצא את הבאגים.
 
-You will:
-+ Create levels for your game using `next backdrop`{:class="block3looks"} and `when backdrop switches to`{:class="block3events"} blocks
-+ Use a `forever`{:class="block3control"} loop to keep running code blocks
-+ Use the `timer`{:class="block3sensing"} **variable** to let the player know how quickly they found the bugs
+אתה תעשה את הדברים הבאים:
++ צור שלבים למשחק שלך באמצעות `הרקע הבא`{:class="block3looks"} ו- `כאשר הרקע עובר ל-`{:class="block3events"} בלוקים
++ השתמש בלולאה `אינסוף`{:class="block3control"} כדי להמשיך להריץ בלוקי קוד
++ השתמשו ב `טיימר`{:class="block3sensing"} **משתנה** כדי ליידע את השחקן כמה מהר הוא מצא את הבאגים
 
 --- no-print ---
 
 --- task ---
 
-### Play ▶️
+### נגן ▶️
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">  
-Click on the bug to start the game.
+לחץ על הבאג כדי להתחיל את המשחק.
 
-Try to find the bug on each level.
+נסו למצוא את הבאג בכל שלב.
 
-How well are the bugs hidden? You will get to add your own levels and make it as easy or difficult as you like.
+עד כמה הבאגים מוסתרים היטב? תוכלו להוסיף רמות משלכם ולהפוך את זה לקלה או קשה כרצונכם.
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -32,10 +32,10 @@ How well are the bugs hidden? You will get to add your own levels and make it as
 
 --- print-only ---
 
-![The completed project.](images/showcase_static.png)
+![הפרויקט שהושלם.](images/showcase_static.png)
 
 --- /print-only ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-More than 2.5 billion people play video games every year. Just think how many people are involved in creating those games. Would you like a job designing, coding, or testing games for other people to play? 
+יותר מ-2.5 מיליארד אנשים משחקים במשחקי וידאו מדי שנה. רק תחשבו כמה אנשים מעורבים ביצירת המשחקים האלה. האם תרצה עבודה בעיצוב, קידוד או בדיקת המשחקים שאנשים אחרים יוכלו לשחק? 
 </p>
