@@ -79,7 +79,7 @@ Sebenzisa isixhobo **Umbhalo**  bhala `Khangela igrogro` kwibhodi emnyama:
 
 Sisebenzise ifonti **Phawu**  emhlophe, kodwa **khetha** ifonti enombala ofuna ukuwusebenzisa.
 
-<0>Ingcebiso:</0> Tshintshela kwisixhobo esilu tolo (arrow tool) <0>Khetha</0> sokujikelezisa umbhalo kwakho. Ukutshintsha ubungakanani bombhalo, bamba ikona yombhalo uze uwutsale.
+**Ingcebiso:** Tshintshela kwisixhobo esilu tolo (arrow tool) **Khetha** sokujikelezisa umbhalo kwakho. Ukutshintsha ubungakanani bombhalo, bamba ikona yombhalo uze uwutsale.
 
 --- /task ---
 
@@ -107,7 +107,7 @@ Cima isprite **Ikati kaScratch** .
 
 Cofa ku **Khetha iSprite** kwaye uchwetheze `bug` kwibhokisi yokukhangela.
 
-<0>Khetha:</0> Khetha igrogro, ezaku khangelwa ngabadlali kumdlalo wokha woku khangela igrogro.
+**Khetha:** Khetha igrogro, ezaku khangelwa ngabadlali kumdlalo wokha woku khangela igrogro.
 
 ![Uphawu 'Khetha iSprite.'](images/sprite-button.png)
 
