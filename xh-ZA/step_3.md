@@ -106,7 +106,7 @@ Cofa kwisprite **Grogro** kuluhlu lweSprite. Faka umbhalo ku `misala ubungakanan
 ![iSprite esiyiGrogro.](images/bug-sprite.png)
 
 ```blocks3
-when backdrop switches to [start v]
+when backdrop switches to [qala v]
 set size to [100] % // ubungakanani obupheleleyo
 ```
 
@@ -166,7 +166,7 @@ Dibanisa iiblokho zekhowudi ukuze zonke zibengaphantsi kuka `xa esisprite sicofi
 
 --- collapse ---
 ---
-isihloko: Akukho nto yenzekayo xa ndicofa igrogro
+title: Akukho nto yenzekayo xa ndicofa igrogro
 ---
 
 Ulibele ukudibanisa ikhowudi kwibhloko `xa le sprite icofa`{:class="block3events"}?
