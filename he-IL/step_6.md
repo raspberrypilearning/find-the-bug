@@ -1,58 +1,58 @@
-## End screen
+## מסך סיום
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create an 'end' screen to show the number of seconds that it has taken the player to find the bugs. 
+צרו מסך 'סיום' כדי להראות את מספר השניות שלקח לשחקן למצוא את הבאגים. 
 </div>
 <div>
 
-![The bug with the amount of time in a speech bubble.](images/end-screen.png){:width="300px"}
+![הבאג עם כמות הזמן בבועת דיבור.](images/end-screen.png){:width="300px"}
 
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Sometimes, just beating a game isn't enough. Players like to know how they did against other players or themselves. Can you think of a game that shows you how well you did?</p>
+לפעמים, רק לנצח משחק זה לא מספיק. שחקנים אוהבים לדעת איך הם הצליחו מול שחקנים אחרים או מול עצמם. האם אתה יכול לחשוב על משחק שמראה לך כמה טוב עשית?</p>
 
-### Add another backdrop
+### הוסף רקע נוסף
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+הוסף את רקע **לוח הגיר** מהקטגוריה **בתוך הבית**.
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![רקע לוח הגיר בספריית הרקעים.](images/chalkboard.png)
 
-**Tip:** In Scratch, you can add the same backdrop more than once.
+**טיפ:** בסקראץ׳, ניתן להוסיף את אותו רקע יותר מפעם אחת.
 
 --- /task ---
 
-### Edit the backdrop
+### עריכת הרקע
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+לחצו על הכרטיסייה **רקעים** כדי לפתוח את עורך הציור.
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard2-paint.png)
+![רקע לוח הגיר בעורך הציור.](images/chalkboard2-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Change the name of the backdrop to `end`:
+שנה את שם הרקע ל- `סוף`:
 
-![The backdrop name changed in the Paint editor.](images/end-screen-name.png)
+![שם הרקע השתנה בעורך הציור.](images/end-screen-name.png)
 
-**Tip:** You rename the backdrop to **end** to make it easier to understand your code.
+**טיפ:** עליך לשנות את שם הרקע ל- **סוף-** כדי להקל על הבנת הקוד.
 
 --- /task ---
 
-### Position the bug
+### מקם את הבאג
 
 --- task ---
 
-Click on the **bug** sprite and add code to position the bug on the 'end' screen:
+לחצו על הספרייט **באג** והוסיפו קוד למיקום הבאג במסך ה'סוף':
 
-![The bug sprite.](images/bug-sprite.png)
+![ספרייט הבאג.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -62,15 +62,15 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Add a timer
+### הוסף טיימר
 
-How long does it take you to find and click on the bugs? Scratch has a `timer`{:class="block3sensing"} that you can use to find out.
+כמה זמן לוקח לך למצוא את הבאגים וללחוץ עליהם? לסקראץ׳ יש `טיימר`{:class="block3sensing"} שתוכלו להשתמש בו כדי לגלות.
 
 --- task ---
 
-The `timer`{:class="block3sensing"} block is in the `Sensing`{:class="block3sensing"} blocks menu. Add code to make the bug `say`{:class="block3looks"} the `timer`{:class="block3sensing"} on the 'end' screen:
+הבלוק `טיימר`{:class="block3sensing"} מגיע מתפריט הבלוקים `חושים`{:class="block3sensing"}. הוסף קוד כדי ליצור את הבאג `אמור`{:class="block3looks"} את ה `טיימר`{:class="block3sensing"} במסך 'הסיום':
 
-![The bug sprite.](images/bug-sprite.png)
+![ספרייט הבאג.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -79,23 +79,23 @@ go to x: [0] y: [30] // on the board
 +say (timer) // seconds taken
 ```
 
-![Inserting a 'timer' block into a 'say' block.](images/inserting-blocks.gif)
+![הוספת בלוק 'טיימר' לתוך בלוק 'אמור'.](images/inserting-blocks.gif)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your finding skills. How long does it take you to find the bug?
+**בדיקה:** לחץ על הדגל הירוק כדי לבחון את כישורי המציאה שלך. כמה זמן לוקח לך למצוא את הבאג?
 
 --- /task ---
 
-To go back to the 'start' screen, click on the bug on the 'end' screen.
+כדי לחזור למסך ה"התחלה", לחצו על הבאג במסך ה"סיום".
 
 --- task ---
 
-Add code to make the bug stop saying the `timer`{:class="block3sensing"} when you go to the 'start' screen:
+הוסף קוד כדי לגרום לבאג להפסיק לומר את ה`טיימר`{:class="block3sensing"} כשאתה ניגש למסך 'התחלה':
 
-![The bug sprite.](images/bug-sprite.png)
+![ספרייט הבאג.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -106,15 +106,15 @@ go to x: [0] y: [30] // on the board
 
 --- /task ---
 
-### Stop the timer
+### עצור את הטיימר
 
-If you play the game a second time, the `timer`{:class="block3sensing"} will keep counting.
+אם תשחקו את המשחק פעם שנייה, ה`טיימר`{:class="block3sensing"} ימשיך לספור.
 
 --- task ---
 
-Add code to `reset the timer`{:class="block3sensing"} when the `backdrop switches to`{:class="block3events"} the first level:
+הוסף קוד ל- `לאפס את הטיימר`{:class="block3sensing"} כאשר הרקע `עובר ל-`{:class="block3events"} בשלב הראשון:
 
-![The bug sprite.](images/bug-sprite.png)
+![ספרייט הבאג.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v] // first level
@@ -127,7 +127,7 @@ go to x: [13] y: [132] // on the disco ball
 
 --- task ---
 
-**Test:** Click on the green flag and play the game. The timer should reset when you click on the bug on the 'start' screen to move to the first level. When you click on the bug on the 'end' screen, you should return to the 'start' screen and see that the bug is not saying the `timer`{:class="block3sensing"}.
+**בדיקה:** לחצו על הדגל הירוק ושחקו את המשחק. הטיימר אמור להתאפס כשתלחצו על הבאג במסך 'התחל' כדי לעבור לשלב הראשון. כאשר תלחצו על הבאג במסך 'הסיום', עליכם לחזור למסך 'התחלה' ולראות שהבאג אינו מציין את ה`טיימר`{:class="block3sensing"}.
 
 --- /task ---
 
