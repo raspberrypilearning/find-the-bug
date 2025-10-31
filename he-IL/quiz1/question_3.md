@@ -1,11 +1,11 @@
 --- question ---
 ---
-legend: Question 3 of 3
+מקרא: שאלה 3 מתוך 3
 ---
 
-You added this script to the **bug** sprite:
+הוספת את הסקריפט הזה ל **באג** ספרייט:
 
-![The bug sprite.](images/bug-sprite.png)
+![ספרייט הבאג.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [end v]
@@ -14,39 +14,39 @@ go to x: [0] y: [30]
 + say (timer) 
 ```
 
-How does the `say`{:class="block3looks"} `timer`{:class="block3sensing"} block make the Stage look when the backdrop switches to **end**?
+כיצד הטיימר `מציין`{:class="block3looks"} `טיימר`{:class="block3sensing"} גורם לבמה להיראות כאשר הרקע עובר ל- **סיום**?
 
 --- choices ---
 
-- ( ) ![A parrot saying the timer value "4.52".](images/quiz_parrot_number.png)
+- ( ) ![תוכי אומר את ערך הטיימר "4.52".](images/quiz_parrot_number.png)
 
   --- feedback ---
 
-Have a look at the script again, and think about which sprite is the main character of the game (the parrot is just an annoying distraction).
+תסתכלו שוב על התסריט, ותחשבו איזה ספרייט הוא הדמות הראשית של המשחק (התוכי הוא סתם הסחת דעת מעצבנת).
 
   --- /feedback ---
 
-- ( ) ![A parrot saying the word "timer".](images/quiz_parrot_timer.png)
+- ( ) ![תוכי שאומר את המילה "טיימר".](images/quiz_parrot_timer.png)
 
   --- feedback ---
 
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer". Also, think about which sprite uses this code.
+הבלוק `טיימר`{:class="block3sensing"} מגיע מתפריט הבלוקים `חושים`{:class="block3sensing"}. הספרייט לא אומר את המילה "טיימר". כמו כן, חשבו איזה ספרייט משתמש בקוד הזה.
 
   --- /feedback ---
 
-- (x) ![A bug saying the timer value "4.52".](images/quiz_bug_number.png)
+- (x) ![באג שאומר שערך הטיימר "4.52".](images/quiz_bug_number.png)
 
   --- feedback ---
 
-Yes. The `timer`{:class="block3sensing"} block reports the time since the project started, or since the timer reset. The `say`{:class="block3looks"} block creates a speech bubble next to bug.
+כֵּן. בלוק ה `טיימר`{:class="block3sensing"} מדווח על הזמן מאז תחילת הפרויקט, או מאז איפוס הטיימר. הבלוק `אמור`{:class="block3looks"} יוצר בועת דיבור ליד באג.
 
   --- /feedback ---
 
-- ( ) ![A bug saying the word "timer".](images/quiz_bug_timer.png)
+- ( ) ![באג שאומר את המילה "טיימר".](images/quiz_bug_timer.png)
 
   --- feedback ---
 
-The `timer`{:class="block3sensing"} block comes from the `Sensing`{:class="block3sensing"} blocks menu. The sprite does not say the word "timer".
+הבלוק `טיימר`{:class="block3sensing"} מגיע מתפריט הבלוקים `חושים`{:class="block3sensing"}. הספרייט לא אומר את המילה "טיימר".
 
   --- /feedback ---
 
