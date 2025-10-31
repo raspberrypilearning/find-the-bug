@@ -1,33 +1,33 @@
-## First level
+## שלב הראשון
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add a new backdrop as the first level in your game, and hide the bug.
+הוסף רקע חדש כשלב הראשון במשחק שלך, והסתר את הבאג.
 </div>
 <div>
 
-![The Spotlight backdrop with a bug.](images/first-level.png){:width="300px"}
+![רקע זרקור עם באג.](images/first-level.png){:width="300px"}
 
 </div>
 </div>
 
-### Add another Backdrop
+### הוסף רקע נוסף
 
 --- task ---
 
-Add the **Spotlight** backdrop from the **Music** category.
+הוסף את הרקע **זרקור** מהקטגוריה **מוזיקה**.
 
-![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
+![סמל 'בחר רקע'.](images/backdrop-button.png)
 
 --- /task ---
 
-### Resize the bug
+### שנה את גודל הבאג
 
 --- task ---
 
-Click on the **bug** sprite in the Sprite list. Add a script to change the `size`{:class="block3looks"} of your bug `when the backdrop switches to Spotlight`{:class="block3events"}:
+לחץ על הספרייט **באג** ברשימת הספרייטים. הוסף סקריפט כדי לשנות את ה `גודל`{:class="block3looks"} של הבאג שלך `כאשר הרקע עובר ל-זרקור`{:class="block3events"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![ספרייט הבאג.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
@@ -38,11 +38,11 @@ set size to [20] % // tiny
 
 --- task ---
 
-Click on the code to change the size, then drag your tiny bug to a hiding place.
+לחץ על הקוד כדי לשנות את הגודל, לאחר מכן גרור את הבאג הקטן שלך למקום מסתור.
 
-Add code to position your bug:
+הוסף קוד כדי למקם את הבאג שלך:
 
-![The bug sprite.](images/bug-sprite.png)
+![ספרייט הבאג.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
@@ -50,21 +50,21 @@ set size to [20] % // tiny
 + go to x: [13] y: [132] // on the disco ball
 ```
 
-**Choose:** You can choose a different size and location, if you prefer.
+**בחר:** באפשרותך לבחור גודל ומיקום שונים, אם תרצה.
 
 --- /task ---
 
-### Move to the next Backdrop
+### מעבר לרקע הבא
 
-When you play the game and you successfully find the bug, the game will switch to the next backdrop. Also, to start the game, you will click on the bug on the 'start' screen.
+כאשר תשחקו במשחק ותמצאו בהצלחה את הבאג, המשחק יעבור לרקע הבא. כמו כן, כדי להתחיל את המשחק, עליכם ללחוץ על הבאג במסך 'התחל'.
 
-The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order in which the backdrops are listed when you click on the **Backdrops** tab for the **Stage**.
+הבלוק `רקע הבא`{:class="block3looks"} עובר לרקע הבא בסדר שבו הרקעים מופיעים כשלוחצים על הכרטיסייה **רקעים** עבור **הבמה**.
 
 --- task ---
 
-Add a script to your **bug** sprite to `play a Pop sound`{:class="block3sound"} and switch to the `next backdrop`{:class="block3looks"} `when this sprite is clicked`{:class="block3events"}:
+הוסף סקריפט ל **באג** הספרייט שלך כדי `להשמיע צליל פופ`{:class="block3sound"} ולעבור לרקע `הבא`{:class="block3looks"} `כאשר לוחצים על ספרייט זה`{:class="block3events"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![ספרייט הבאג.](images/bug-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -74,13 +74,13 @@ next backdrop
 
 --- /task ---
 
-### Make the game start with the Start Screen
+### התחלת המשחק באמצעות מסך הפתיחה
 
 --- task ---
 
-Click on the Stage pane and add this code to the **Stage**:
+לחץ על חלונית הבמה והוסף קוד זה ל- **במה**:
 
-![The Spotlight backdrop.](images/stage-image.png)
+![רקע הזרקור.](images/stage-image.png)
 
 ```blocks3
 when flag clicked
@@ -91,19 +91,19 @@ switch backdrop to [start v] // 'start' screen
 
 --- task ---
 
-**Test:** Click on the green flag to test your project.
+**בדיקה:** לחץ על הדגל הירוק כדי לבדוק את הפרויקט שלך.
 
-You will notice that on the 'start' screen, the bug will still have the settings to hide in its hiding place from the first level (in this example, on the disco ball).
+תשימו לב שבמסך ה'התחל', לבאג עדיין יהיו ההגדרות להסתתר במקום המחבוא שלו מהשלב הראשון (בדוגמה זו, על כדור הדיסקו).
 
-**Tip:** After the last backdrop in the list, `next backdrop`{:class="block3looks"} will switch back to the first backdrop.
+**טיפ:** אחרי הרקע האחרון ברשימה, `הרקע הבא`{:class="block3looks"} יחזור לרקע הראשון.
 
 --- /task ---
 
 --- task ---
 
-Click on the **bug** sprite in the Sprite list. Add a script to `set the size`{:class="block3looks"} of the bug when your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+לחץ על הספרייט **באג** ברשימת הספרייטים. הוסף סקריפט כדי `לקבוע את הגודל`{:class="block3looks"} של הבאג כאשר הרקע `שלך עובר ל`{:class="block3events"} מסך `ההתחלה`{:class="block3events"}:
 
-![The bug sprite.](images/bug-sprite.png)
+![ספרייט הבאג.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -112,37 +112,37 @@ set size to [100] % // full-sized
 
 --- /task ---
 
-### Change the position of the bug
+### שנה את מיקום הבאג
 
 --- task ---
 
-Try to position the bug on the 'start' screen.
+נסה למקם את הבאג על מסך ה"התחל".
 
-Your code will make the backdrop switch when you click on the bug! That is not helpful when you are trying to position the bug.
+הקוד שלך יגרום לרקע להתחלף כשתלחץ על הבאג! זה לא מועיל כשאתה מנסה למקם את הבאג.
 
-To fix the problem, you need to stop the code from running when you click on the bug.
+כדי לתקן את הבעיה, עליך לעצור את הקוד מלפעול בעת לחיצה על הבאג.
 
 --- /task ---
 
 --- task ---
 
-Click on the green flag to return to the 'start' screen.
+לחץ על הדגל הירוק כדי לחזור למסך 'התחל'.
 
-Click on the **bug** sprite in the Sprite list and drag the blocks away from the `when this sprite clicked`{:class="block3events"} block:
+לחץ על הספרייט **באג** ברשימת הספרייטים וגרור את הבלוקים הרחק מהבלוק `כאשר ספרייט זה נלחץ`{:class="block3events"}:
 
-![Breaking the script.](images/breaking-script.png)
+![שוברים את הסקריפט.](images/breaking-script.png)
 
 --- /task ---
 
 --- task ---
 
-Try to position the bug again. Drag the bug onto the chalkboard, below the text:
+נסה למקם את הבאג שוב. גררו את הבאג אל הלוח הגיר, מתחת לטקסט:
 
-![The bug on the start screen](images/bug-chalkboard.png)
+![הבאג במסך הפתיחה](images/bug-chalkboard.png)
 
-Add code to make sure that the bug is positioned on the chalkboard every time your `backdrop switches to`{:class="block3events"} the `start`{:class="block3events"} screen:
+הוסף קוד כדי לוודא שהבאג ממוקם על הלוח הגיר בכל פעם שרקע `שלך עובר ל-`{:class="block3events"} מסך `ההתחלה`{:class="block3events"} :
 
-![The bug sprite.](images/bug-sprite.png)
+![ספרייט הבאג.](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -154,22 +154,22 @@ set size to [100] % // full-sized
 
 --- task ---
 
-Join the blocks back together so that the code blocks are under the `when this sprite clicked`{:class="block3events"} block again:
+חברו את הבלוקים בחזרה יחד כך שבלוקי הקוד יהיו מתחת לבלוק `כאשר לוחצים על הספרייט הזה`{:class="block3events"}:
 
-![The 'when this sprite clicked' block joined to the 'play sound' and 'next backdrop' blocks.](images/fixed-script.png)
+![הבלוק 'כאשר לוחצים על הספרייט זה' הצטרף לבלוקים 'השמע צליל' ו'רקע הבא'.](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the green flag to test your project. Click on the bug to move to the next backdrop. The bug should be big on the 'start' screen and small on the 'Spotlight' level.
+**בדיקה:** לחץ על הדגל הירוק כדי לבדוק את הפרויקט שלך. לחץ על הבאג כדי לעבור לרקע הבא. הבאג אמור להיות גדול במסך ה"התחלה" וקטן ברמת ה"זרקור".
 
 --- collapse ---
 ---
-title: Nothing happens when I click on the bug
+כותרת: שום דבר לא קורה כשאני לוחץ על הבאג
 ---
 
-Did you forget to join the code back to the `when this sprite clicked`{:class="block3events"} block?
+האם שכחת לחבר את הקוד בחזרה לבלוק `כשהספרייט הזה לחץ על הבלוק`{:class="block3events"}?
 
 --- /collapse ---
 
