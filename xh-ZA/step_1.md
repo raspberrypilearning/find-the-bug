@@ -1,4 +1,4 @@
-## What you will make
+## Uzakwenza ntoni?
 
 Yenza umdlalo apho kufuneka ukhangele igrogro 🐞efihliweyo kwinqanaba ngalinye. Umdlalo uza kuba 'nokuqala' kunye 'nokuphela' ngasemva kwesikrini, kunye nesibali-xesha ⌚ ukubonisa umdlali ukuba zifumene ngokukhawuleza kangakanani iimpazamo.
 
