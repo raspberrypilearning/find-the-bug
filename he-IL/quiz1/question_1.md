@@ -1,17 +1,17 @@
-## Quick quiz
+## חידון מהיר
 
-Answer the three questions. There are hints to guide you to the correct answer.
+ענו על שלוש השאלות. ישנן רמזים שיכוונו אותך לתשובה הנכונה.
 
-When you have answered each question, click on **Check my answer**.
+לאחר שעניתם על כל שאלה, לחצו על **בדוק את התשובה שלי**.
 
-Have fun!
+תהנו!
 
 --- question ---
 ---
-legend: Question 1 of 3
+מקרא: שאלה 1 מתוך 3
 ---
 
-In your game, you added this code to your **bug** to move through the backdrops each time it was clicked.
+במשחק שלך, הוספתם את הקוד הזה ל **באג** שלכם כדי לנוע בין הרקעים בכל פעם שנלחצתם עליו.
 
 ```blocks3
 when this sprite clicked
@@ -19,43 +19,43 @@ play sound [Pop v] until done
 next backdrop
 ```
 
-Look at this image showing a 'Find the bug' game being played.
+התבוננו בתמונה הזו שמראה משחק "מצא את הבאג".
 
-![The Scratch editor with backdrops in the order start, Spotlight, Urban, end; and the Stage showing the Spotlight backdrop.](images/quiz1-backdrops.png)
+![עורך הסקראץ׳ עם רקעים בסדר: התחלה, זרקור, עירוני, סיום; והבמה מציגה את רקע הזרקור.](images/quiz1-backdrops.png)
 
-In this game, which backdrop would appear next when you click on the bug?
+במשחק הזה, איזה רקע יופיע בפעם הבאה שתלחצו על הבאג?
 
 --- choices ---
 
-- ( ) start
+- () התחלה
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  צריך לחשוב על סדר הרקעים.
 
   --- /feedback ---
 
-- (x) Urban
+- (x) עירוני
 
   --- feedback ---
 
-Yes. The `next backdrop`{:class="block3looks"} block switches to the next backdrop in the order of the list of backdrops in the **Backdrops** tab for the **Stage**.
+כֵּן. הבלוק `רקע הבא`{:class="block3looks"} עובר לרקע הבא בסדר רשימת הרקעים בלשונית **רקעים** עבור  **במה**.
 
 --- /feedback ---
 
-- ( ) Spotlight
+- () זרקור
 
   --- feedback ---
 
-  The **Spotlight** backdrop is showing on the Stage. You need to think about the order of the backdrops.
+  רקע **זרקור** מוצג על הבמה. צריך לחשוב על סדר הרקעים.
 
   --- /feedback ---
 
-- ( ) end
+- סוף ()
 
   --- feedback ---
 
-  You need to think about the order of the backdrops.
+  צריך לחשוב על סדר הרקעים.
 
   --- /feedback ---
 
