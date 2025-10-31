@@ -1,20 +1,20 @@
-## Share and play
+## שתף ושחק
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+תנו השראה לקהילת Raspberry Pi Foundation עם הפרויקט שלכם!
 
 [[[share-scratch]]]
 
-To submit your project to our 'Find the bug' Scratch studio for other people to see, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+כדי להגיש את הפרויקט שלכם לסטודיו 'מצא את הבאג' שלנו בסקראץ׳ כדי שאנשים אחרים יוכלו לראות אותו, אנא מלאו [טופס זה](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---
 
 --- no-print --- --- task ---
 
-Play these fabulous games from our ['Find the bug' Scratch studio](https://scratch.mit.edu/studios/29005236/){:target="_blank"}.
+שחקו במשחקים הנפלאים האלה מסטודיו סקראץ' שלנו ['מצא את הבאג'](https://scratch.mit.edu/studios/29005236/){:target="_blank"}.
 
-Notice how the creators have added extra levels, annoying distractions or upgraded the start and end screens:
+שימו לב כיצד היוצרים הוסיפו שלבים נוספים, הסחות דעת מעצבנות או שדרגו את מסכי ההתחלה והסיום:
 
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/545488112/?autostart=false" frameborder="0"></iframe>
@@ -34,7 +34,7 @@ Notice how the creators have added extra levels, annoying distractions or upgrad
 
 --- task ---
 
-You can also look at the remixes for the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/remixes){:target="_blank"} to see what other creators have made.
+ניתן גם להסתכל על הרמיקסים עבור [מצא את פרויקט פותח הבאגים](https://scratch.mit.edu/projects/582214723/remixes){:target="_blank"} כדי לראות מה יוצרים אחרים יצרו.
 
 --- /task ---
 
