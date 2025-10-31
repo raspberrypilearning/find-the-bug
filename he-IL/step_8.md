@@ -1,28 +1,28 @@
-## Upgrade your game
+## שדרגו את המשחק שלכם
 
-If you have time, you can add more levels and more distractions to your game. You could also change the sprite that is hiding and change the text on the chalkboard.
+אם יש לכם זמן, תוכלו להוסיף עוד שלבים והסחות דעת נוספות למשחק שלכם. אתה יכול גם לשנות את הספרייט שמסתתר ולשנות את הטקסט על הלוח הגיר.
 
 --- task ---
 
-Play your game and see how quickly you can find the bugs.
+שחקו במשחק שלכם ותראו כמה מהר תוכלו למצוא את הבאגים.
 
-Is there someone else who can try your game? How fast can they find the bugs? They will not know where you have hidden them, so it might take them a bit longer!
+האם יש מישהו אחר שיכול לנסות את המשחק שלך? כמה מהר הם יכולים למצוא את הבאגים? הם לא ידעו איפה החבאת אותם, אז זה עלול לקחת להם קצת יותר זמן!
 
-Is there anything that you want to change?
+האם יש משהו שאתה רוצה לשנות?
 
-You could:
-- Make the parrot even more annoying
-- Make the bugs smaller
-- Change the `color effect`{:class="block3looks"} to camouflage the bug on each level
-- Change the font or colour of the text
+אתה יכול:
+- להפוך את התוכי לעוד יותר מעצבן
+- להפוך את הבאגים לקטנים יותר
+- שנה את `אפקט הצבע`{:class="block3looks"} כדי להסוות את הבאג בכל שלב
+- שנה את הגופן או את הצבע של הטקסט
 
 --- /task ---
 
-### Add more levels
+### הוסף עוד שלבים
 
 --- task ---
 
-Here are the blocks that you will need to hide the bug on a new level:
+הנה הבלוקים שתצטרכו כדי להסתיר את הבאג בשלב חדש:
 
 ```blocks3
 when backdrop switches to [new level v]
@@ -34,22 +34,22 @@ go to x: [0] y: [0] // drag to position the bug first
 set [color v] effect to [50]
 ```
 
-For each level, you will need to:
-- Add a backdrop
-- Click on the Stage pane, then on the **Backdrops** tab, then drag the new backdrop into position before the **end** backdrop
-- Add a `when backdrop switches to`{:class="block3events"} block for the new backdrop and add code to position and hide the bug
+עבור כל שלב, תצטרכו:
+- הוסף רקע
+- לחצו על חלונית הבמה, לאחר מכן על הכרטיסייה **רקעים** , לאחר מכן גררו את הרקע החדש למקומו לפני הרקע **סוף**
+- הוסף בלוק `כאשר הרקע עובר ל-`{:class="block3events"} עבור הרקע החדש והוסף קוד כדי למקם ולהסתיר את הבאג.
 
-**Tip:** To drag the bug to a new hiding position, you will need to 'break' the code so that the backdrop does not switch when you click on the bug to position it for a new level.
+**טיפ:** כדי לגרור את הבאג למיקום מסתור חדש, תצטרכו 'לשבור' את הקוד כך שהרקע לא יתחלף כשתלחצו על הבאג כדי למקם אותו לשלב חדש.
 
 --- /task ---
 
-### Add more distractions
+### הוסיפו עוד הסחות דעת
 
 --- task ---
 
-You could add more parrots or choose another sprite to act as a distraction.
+אתה יכול להוסיף עוד תוכים או לבחור ספרייט אחר שישמש כהסחת דעת.
 
-Here is the code that you used for the parrot:
+הנה הקוד בו השתמשת עבור התוכי:
 
 ```blocks3
 when flag clicked
@@ -64,17 +64,17 @@ wait [0.25] seconds // try 0.1 or 0.5
 end
 ```
 
-**Tip:** You can drag the **Parrot** sprite's code to another sprite to make it faster to create another distraction sprite.
+**טיפ:** ניתן לגרור את הקוד של הספרייט **תוכי** לספרייט אחר כדי שיהיה מהיר יותר ליצור ספרייט הסחת דעת נוסף.
 
-![Dragging code from the Code area to another sprite in the Sprite list.](images/drag-parrot-code.gif)
+![גרירת קוד מאזור הקוד לספרייט אחר ברשימת הספרייטים.](images/drag-parrot-code.gif)
 
 --- /task ---
 
 --- collapse ---
 ---
-title: Completed project
+כותרת: פרויקט שהושלם
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
+ניתן לצפות בפרויקט שהושלם [כאן](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
 
 --- /collapse ---
