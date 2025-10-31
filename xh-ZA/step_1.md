@@ -5,7 +5,7 @@ Yenza umdlalo apho kufuneka ukhangele igrogro 🐞efihliweyo kwinqanaba ngalinye
 Uzaku:
 + Yenza amanqanaba omdlalo wakho usebenzisa `umva olandelayo `{:class="block3looks"} kunye nebhloko `xa umva utshintshela ku `{:class="block3events"}
 + Sebenzisa iluphu `ngonaphakade`{:class="block3control"} ukuze iibhloko zekhowudi zihlale ezisebenza
-+ Sebenzisa <1>uphawu</1>  <0>isibali-xesha</0>{:class="block3sensing"} ukwazisa umdlali ukuba bazibhaqe ngokukhawuleza kangakanani igrogro
++ Sebenzisa **uphawu** `isibali-xesha`{:class="block3sensing"} ukwazisa umdlali ukuba bazibhaqe ngokukhawuleza kangakanani igrogro
 
 --- no-print ---
 
