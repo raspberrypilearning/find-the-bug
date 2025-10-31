@@ -1,6 +1,6 @@
-## What can you do now?
+## Yintoni onokuyenza ngoku?
 
-If you are following the [Introduction to Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} pathway, you can move on to the [Silly eyes](https://projects.raspberrypi.org/en/projects/silly-eyes){:target="_blank"} project. Kule projekthi, uya kuyila owakho umlinganiswa onamehlo abonakala ngathi sisalathisi sempuku xa uhambisa impuku yekhompyutha!
+Ukuba ulandela indlela ye [Intshayelelo ka Scratch](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"}, ungaqhubela phambili kwiprojekthi [Amehlo aqhulayo](https://projects.raspberrypi.org/en/projects/silly-eyes){:target="_blank"}. Kule projekthi, uya kuyila owakho umlinganiswa onamehlo abonakala ngathi sisalathisi sempuku xa uhambisa impuku yekhompyutha!
 
 --- print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [Introduction to Scratch](https://projects.raspberrypi.
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.
+Ukuba ufuna ukuzonwabisa ngoku phonononga u-Scratch, ungazama enye [yezi projekti](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201){:target="_blank"}.
