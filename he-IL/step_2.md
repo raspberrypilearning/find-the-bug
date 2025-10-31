@@ -1,124 +1,124 @@
-## Start screen
+## מסך התחלה
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Give your game a 'start' screen.
+תן למשחק שלך מסך "התחלה".
 </div>
 <div>
 
-!["Find the bug" text on a chalkboard on the Stage.](images/start-screen.png){:width="300px"}
+![טקסט "מצא את החרק" על לוח גיר על הבמה.](images/start-screen.png){:width="300px"}
 
 </div>
 </div>
 
-### Open the starter project
+### פתח את פרויקט ההתחלתי
 
 --- task ---
 
-Open the [Find the bug starter project](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. Scratch will open in another browser tab.
+פתח את [פרויקט פותח מצא את הבאגים](https://scratch.mit.edu/projects/582214723/editor){:target="_blank"}. סקראץ׳ ייפתח בכרטיסייה אחרת של הדפדפן.
 
 [[[working-offline]]]
 
 --- /task ---
 
-### Add a Backdrop
+### הוסף רקע
 
 --- task ---
 
-Add the **Chalkboard** backdrop from the **Indoors** category.
+הוסף את רקע **לוח הגיר** מהקטגוריה **בתוך הבית**.
 
-![The 'Choose a Backdrop' icon.](images/backdrop-button.png)
+![סמל 'בחר רקע'.](images/backdrop-button.png)
 
-![The Chalkboard backdrop in the Backdrop Library.](images/chalkboard.png)
+![רקע לוח הגיר בספריית הרקעים.](images/chalkboard.png)
 
 --- /task ---
 
-The **Stage** has a **Backdrops** tab instead of a **Costumes** tab. This is where you can create images for the **Stage**.
+לשלב **הבמה** יש כרטיסייה **תפאורות** במקום כרטיסייה **תלבושות** כאן תוכלו ליצור תמונות עבור **הבמה**.
 
 --- task ---
 
-Click on the Stage pane.
+לחץ על חלונית הבמה.
 
-![The Stage pane in the bottom right corner is highlighted.](images/stage-pane.png)
+![חלונית הבמה בפינה הימנית התחתונה מסומנת.](images/stage-pane.png)
 
 --- /task ---
 
-### Edit the Backdrop
+### עריכת הרקע
 
 --- task ---
 
-Click on the **Backdrops** tab to open the Paint editor.
+לחצו על הכרטיסייה **רקעים** כדי לפתוח את עורך הציור.
 
-![The Chalkboard backdrop in the Paint editor.](images/chalkboard-paint.png)
-
---- /task ---
-
---- task ---
-
-Select **backdrop1** and click on the **Delete** icon to remove the **backdrop1** backdrop from your project. You will not need the **backdrop1** backdrop in this project.
-
-![Backdrop1 is highlighted in the top left corner.](images/delete-backdrop1.png)
-
---- /task ---
-
-The **Chalkboard** backdrop will now be highlighted.
-
---- task ---
-
-Click on **Convert to Vector**. Now, you will be able to add text that you can move around.
-
-![The 'Convert to Vector' button.](images/vector-button.png)
+![רקע לוח הגיר בעורך הציור.](images/chalkboard-paint.png)
 
 --- /task ---
 
 --- task ---
 
-Use the **Text** tool to add the text `Find the bug` to the chalkboard:
+בחר **רקע1** ולחץ על סמל **מחיקה** כדי להסיר את הרקע **רקע1** מהפרויקט שלך. לא תצטרכו את הרקע **ֿרקע1** בפרויקט הזה.
 
-![Find the bug is written on the chalkboard.](images/chalkboard-text.png)
-
-We used the **Marker** font in white, but **choose** the font and colour that you want to use.
-
-**Tip:** Switch to the **Select** (Arrow) tool to move your text around. To change the size of the text, grab the corner of the text and drag it.
+![רקע1 מודגש בפינה השמאלית העליונה.](images/delete-backdrop1.png)
 
 --- /task ---
 
-## Rename the Backdrop
+הרקע **לוח הגיר** יהיה כעת מודגש.
 
 --- task ---
 
-Change the name of the backdrop to `start`, because you will need to select it later in the project.
+לחץ על **המר לווקטור**. כעת, תוכלו להוסיף טקסט שתוכלו להזיז.
 
-![The Costume name box highlighted in the Paint editor.](images/start-screen-name.png)
-
-**Tip:** If you use names that make sense, it will be easier to understand your project, especially when you come back to a project later.
-
---- /task ---
-
-### Add the Bug Sprite
-
---- task ---
-
-Delete the **Scratch Cat** sprite.
+![כפתור 'המרה לווקטור'.](images/vector-button.png)
 
 --- /task ---
 
 --- task ---
 
-Click on **Choose a Sprite** and type `bug` in the search box.
+השתמש בכלי **טקסט** כדי להוסיף את הטקסט `מצא את הבאג` ללוח הגיר:
 
-**Choose:** Choose a bug, which players will need to find in your game.
+!["מצא את הבאג" כתוב על הלוח הגיר.](images/chalkboard-text.png)
 
-![The 'Choose a Sprite' icon.](images/sprite-button.png)
+השתמשנו בגופן **מרקר** בלבן, אבל **בחרו** את הגופן והצבע שברצונכם להשתמש בהם.
 
-!["bug" search results showing seven different bugs.](images/bug-search.png)
+**טיפ:** עבור לכלי **בחר** (חץ) כדי להזיז את הטקסט. כדי לשנות את גודל הטקסט, אחזו בפינה של הטקסט וגררו אותה.
 
-**Tip:** Give your project a name. You might like to include the name of the bug that you have just chosen.
+--- /task ---
+
+## שנה את שם הרקע
+
+--- task ---
+
+שנה את שם הרקע ל- `התחל`, מכיוון שתצטרך לבחור אותו בהמשך הפרויקט.
+
+![תיבת שם התלבושת מסומנת בעורך הציור.](images/start-screen-name.png)
+
+**טיפ:** אם תשתמשו בשמות הגיוניים, יהיה לכם קל יותר להבין את הפרויקט שלכם, במיוחד כשתחזרו אליו מאוחר יותר.
+
+--- /task ---
+
+### הוסף את ספרייט הבאג
+
+--- task ---
+
+מחק את הספרייט **חתול הסקראץ׳**.
+
+--- /task ---
+
+--- task ---
+
+לחץ על **בחר ספרייט** והקלד `באג` בתיבת החיפוש.
+
+**בחר:** בחר באג, אותו שחקנים יצטרכו למצוא במשחק שלך.
+
+![סמל 'בחר ספרייט'.](images/sprite-button.png)
+
+!["באג" תוצאות חיפוש המציגות שבעה באגים שונים.](images/bug-search.png)
+
+**טיפ:** תנו שם לפרויקט שלכם. ייתכן שתרצו לכלול את שם הבאג שבחרתם.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A mistake in a computer program is called a <span style="color: #0faeb0">**bug**</span>. Finding and removing mistakes in computer programs is called <span style="color: #0faeb0">**debugging**</span>. Grace Hopper is a famous software engineer. Her team once found a moth in their computer. Their notes say, "First actual case of bug being found."
+טעות בתוכנית מחשב נקראת <span style="color: #0faeb0">**באג**</span>. מציאה והסרת שגיאות בתוכניות מחשב נקראות <span style="color: #0faeb0">**דבאגינג**</span>. גרייס הופר היא מהנדסת תוכנה מפורסמת. הצוות שלה מצא פעם עש במחשב שלהם. ברשימותיהם כתוב, "מקרה אמיתי ראשון של באג שנמצא".
 </p>
 
 
