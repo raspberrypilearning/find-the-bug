@@ -1,9 +1,9 @@
 ---
-title: バグを探せ
+title: 虫を探せ
 hero_image: images/banner.png
-description: 各レベルに隠れているバグを見つけるゲームを作成する
-meta_title: 子どもと十代の若者向けのScratchコーディング プロジェクト | バグを探せ
-meta_description: Raspberry Pi Foundationの子どもと十代の若者向けのコーディングプロジェクトでScratchによるコーディングを学びましょう。Scratchのゲームを作成して、各レベルに隠れているバグを見つけます。
+description: 各レベルに隠れている虫を見つけるゲームを作成する
+meta_title: 子どもと十代の若者向けのScratchコーディング プロジェクト | 虫を探せ
+meta_description: Raspberry Pi Foundationの子どもと十代の若者向けのコーディングプロジェクトでScratchによるコーディングを学びましょう。Scratchのゲームを作成して、各レベルに隠れている虫を見つけます。
 pdf: resources/find-the-bug.pdf
 version: 4
 listed: true
@@ -11,7 +11,7 @@ copyedit: false
 last_tested: "2021-02-26"
 steps:
   - 
-    title: はじめに
+    title: 作るもの
   - 
     title: スタート画面
   - 
