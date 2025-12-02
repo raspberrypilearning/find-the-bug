@@ -27,7 +27,7 @@
 
 スプライトリストにある **バグ** スプライトをクリックします。 `背景がSpotlightに切り替わった時`{:class="block3eventsを"}、バグの`大きさ`{:class="block3looks"}を変えるスクリプトを追加します:
 
-![バグのスプライト。](images/bug-sprite.png)
+![虫のスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
@@ -42,7 +42,7 @@ set size to [20] % // tiny
 
 バグを配置するコードを追加します。
 
-![バグのスプライト。](images/bug-sprite.png)
+![虫のスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
@@ -64,7 +64,7 @@ set size to [20] % // tiny
 
 `このスプライトが押されたとき`{:class="block3events"}に`Popの音を鳴らして`{:class="block3sound"}`次の背景にする`{:class="block3looks"}スクリプトを**バグ** スプライトに追加します:
 
-![バグのスプライト。](images/bug-sprite.png)
+![虫のスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -101,9 +101,9 @@ switch backdrop to [start v] // 'start' screen
 
 --- task ---
 
-スプライトリストにある **バグ** スプライトをクリックします。 `背景が`{:class="block3events"}`スタート`{:class="block3events"}`になったとき`{:class="block3events"}にバグの`大きさを設定する`{:class="block3looks"}スクリプトを追加します:
+スプライトリストにある **バグ** のスプライトをクリックします。 `背景が`{:class="block3events"}`スタート`{:class="block3events"}画面`になったとき`{:class="block3events"}にバグの<0>大きさを設定する</0>{:class="block3looks"}スクリプトを追加します：
 
-![バグのスプライト。](images/bug-sprite.png)
+![虫のスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
@@ -116,7 +116,7 @@ set size to [100] % // full-sized
 
 --- task ---
 
-プロジェクトは「スタート」画面から始まるようにする必要があります。
+バグを「スタート」画面に配置してみてください。
 
 バグをクリックすると、コードによって背景が切り替わってしまいます。 バグを配置しようとしているとき、これは不便です。
 
@@ -138,11 +138,11 @@ set size to [100] % // full-sized
 
 バグをもう一度配置してみてください。 バグを黒板のテキストの下にドラッグします。
 
-![「スタート」画面にバグを配置してみてください。](images/bug-chalkboard.png)
+![スタート画面の虫](images/bug-chalkboard.png)
 
-`背景が`{:class="block3events"} `スタート`{:class="block3events"}画面`になるたびに`{:class="block3events"}、バグが必ず黒板に配置されるコードを追加します。
+`背景が`{:class="block3events"} `スタート`{:class="block3events"}画面に<0>変わるたび</0>{:class="block3events"}、バグが必ず黒板に配置されるようなコードを追加します：
 
-![バグのスプライト。](images/bug-sprite.png)
+![虫のスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [start v]
