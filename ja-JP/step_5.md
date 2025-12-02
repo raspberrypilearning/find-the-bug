@@ -27,9 +27,9 @@
 
 --- task ---
 
-`このスプライトが押されたら`{:class="block3events"}からブロックを引き離し、バグをクリックしたときにブロックが実行されないようにします。
+`このスプライトが押されたら`{:class="block3events"}ブロックからブロックを引き離し、バグをクリックしたときにブロックが実行されないようにします：
 
-![コードを割る。](images/breaking-script.png)
+![コードを剥がす。](images/breaking-script.png)
 
 --- /task ---
 
@@ -37,9 +37,9 @@
 
 --- task ---
 
-コードに `大きさを･･･%にする`{:class="block3looks"}追加して、第2レベルのバグのサイズを設定します。
+第2レベルのためにバグの`大きさを･･･%にする`{:class="block3looks"}にコードを追加します：
 
-![バグのスプライト。](images/bug-sprite.png)
+![虫のスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v] // choose your backdrop
@@ -56,7 +56,7 @@ set size to [20] % // try another size
 
 ステージ上のバグをこのレベルの適切な隠れ場所にドラッグします。
 
-![背景の真ん中にあるショーウィンドウに隠れているバグ。](images/hidden-urban-backdrop.png)
+![背景の真ん中にあるショーウィンドウに隠れている虫。](images/hidden-urban-backdrop.png)
 
 --- /task ---
 
@@ -64,9 +64,9 @@ set size to [20] % // try another size
 
 --- task ---
 
-バグを新しい位置にドラッグできるようにするには、`このスプライトが押されたとき`{:class="block3events"}スクリプトの実行を止める必要があります。
+コードに `go to x: y:`{:class="block3motion"} ブロックを追加します：
 
-![バグのスプライト。](images/bug-sprite.png)
+![虫のスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -98,7 +98,7 @@ set size to [20] % // try another size
 
 スクリプトを追加して、バグが常に`最背面`{:class="block3looks"}にあるようにします。
 
-![バグのスプライト。](images/bug-sprite.png)
+![虫のスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked
