@@ -15,13 +15,13 @@
 
 --- task ---
 
-**Parrot** スプライトを追加します。
+**オウム** スプライトを追加します。
 
 ![「スプライトを選ぶ」アイコン。](images/sprite-button.png)
 
 --- /task ---
 
-### Parrotスプライトをアニメーション化する
+### オウムスプライトをアニメーション化する
 
 [バスに乗る](https://projects.raspberrypi.org/en/projects/catch-the-bus){:target="_ blank"}プロジェクトでは、 `繰り返す`{:class="block3control"}ループを使用しました。
 
