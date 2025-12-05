@@ -140,7 +140,7 @@ set size to [100] % // フルサイズ
 
 ![スタート画面の虫](images/bug-chalkboard.png)
 
-`背景が`{:class="block3events"} `スタート`{:class="block3events"}画面に<0>変わるたび</0>{:class="block3events"}、バグが必ず黒板に配置されるようなコードを追加します：
+`背景が`{:class="block3events"} `スタート`{:class="block3events"}画面に`変わるたび`{:class="block3events"}、バグが必ず黒板に配置されるようなコードを追加します：
 
 ![虫のスプライト。](images/bug-sprite.png)
 
