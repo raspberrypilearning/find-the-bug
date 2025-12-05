@@ -1,62 +1,43 @@
-## ゲームをアップグレードする
-
-時間があれば、ゲームに別のレベルや気を散らすものを追加できます。 隠れるスプライトを変更したり、黒板のテキストを変更したりすることもできます。
-
-新しいレベルでバグを隠すために必要なブロックは次のとおりです。
-
-```blocks3
-when backdrop switches to [新しいレベル v]
-
-set size to [20] %
-
-go to x: [0] y: [0] // バグを最初の位置にドラッグします
-
-set [color v] effect to [50]
-```
+## 共有して遊ぶ
 
 --- task ---
 
-レベルごとに、次のことを行う必要があります。
-- 背景を追加します
-- ステージペインをクリックしてから、**背景**タブで新しい背景を、**終了**背景より前の位置にドラッグします。
-- `背景が・・・になったとき`{:class="block3events"}ブロックを新しい背景用に追加し、バグを配置して隠すコードを追加します
+あなたのプロジェクトでRaspberry Pi財団コミュニティに刺激を与えましょう！
 
-**ヒント:** バグを新しい隠し場所にドラッグするには、コードを「分割」して、新しいレベルに配置するためにバグをクリックしても背景が切り替わらないようにします。
+[[[share-scratch]]]
+
+他の人が見ることができるように、あなたのプロジェクトを「バグを探せ」Scratchスタジオに送信するには、[このフォーム](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}に記入してください。
 
 --- /task ---
+
+--- no-print ---
+--- task --- 
+
+[「バグを探せ」Scratchスタジオ](https://scratch.mit.edu/studios/29005236/){:target="_blank"}の素晴らしいゲームをプレイしてください。
+
+クリエイターたちが、どのように追加のレベルや迷惑な気を散らす要素を追加したり、開始画面と終了画面をアップグレードしたかにご注目ください。
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/545488112/?autostart=false" frameborder="0"></iframe>
+</div>
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707645119/?autostart=false" frameborder="0"></iframe>
+</div>
+
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/707644397/?autostart=false" frameborder="0"></iframe>
+</div>
+
+--- /task ---
+
+--- /no-print ---
 
 --- task ---
 
-オウムを追加したり、別のスプライトを選択して気を散らさせることができます。
-
-オウムに使用したコードは次のとおりです。
-```blocks3
-when flag clicked
-set rotation style [left-right v] // 上下がひっくり返らないように
-point in direction [35] // -180から180の間の数字
-forever // 邪魔をさせ続ける
-move [10] steps // 数字によってスピードが変わる
-if on edge, bounce // ステージに居続ける
-next costume // コスチュームを変える
-change [color v] effect by [5] // 11と50も試してみる
-wait [0.25] seconds // 0.1と0.5も試してみる
-end
-```
-
-**ヒント:** **Parrot** スプライトのコードを別のスプライトにドラッグすると、別の気を散らすスプライトをすばやく作成できます。
-
-![コード領域からスプライトリスト内の別のスプライトにコードをドラッグします。](images/drag-parrot-code.gif)
+また、[バグを探せスタータープロジェクト](https://scratch.mit.edu/projects/582214723/remixes){:target="_blank"}から派生した作品を見て、他のクリエイターが何を作成したか確認することもできます。
 
 --- /task ---
-
---- collapse ---
----
-title: 完成したプロジェクト
----
-
-[完成したプロジェクトはこちら](https://scratch.mit.edu/projects/632973617/){:target="_blank"}で確認できます。
-
---- /collapse ---
 
 --- save ---
 

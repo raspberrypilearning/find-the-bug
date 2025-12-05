@@ -11,33 +11,35 @@
 </div>
 </div>
 
+### 別の背景を追加する
+
 --- task ---
 
-**選ぶ:** 第2レベルの背景を選択します。 **Urban** の背景を選択しましたが、最も好きなものを選択できます。
+**選ぶ:** 第2レベルの背景を選択します。 **Urban** の背景を選択しましたが、あなたの一番の好みのものを選択できます。
 
-![](images/insert-urban-backdrop.png)
+![都会を背景にしたバグとオウム。](images/insert-urban-backdrop.png)
 
-**ヒント:** 色や細かい部分がたくさんある背景では、バグを見つけるのが難しくなることを忘れないでください。 ゲームをどれだけ難しくしますか？
+**ヒント:** たくさんの色や細部のある背景を使うとバグを見つけるのが難しくなることを覚えておいてください。 ゲームをどれだけ難しくしますか？
 
 --- /task ---
 
-バグを新しい位置にドラッグできるようにするには、`このスプライトが押されたとき`{:class="block3events"}スクリプトの実行を止める必要があります。
+### 実行中のコードを停止する
 
 --- task ---
 
-`このスプライトが押されたら`{:class="block3events"}からブロックを引き離し、バグをクリックしたときにブロックが実行されないようにします。
+`このスプライトが押されたら`{:class="block3events"}ブロックからブロックを引き離し、バグをクリックしたときにブロックが実行されないようにします：
 
-![](images/breaking-script.png)
+![コードを剥がす。](images/breaking-script.png)
 
 --- /task ---
 
-背景が変わったときにバグを見つけるのを難しくする必要があります。 バグのサイズを変更して、見つけにくくすることができます。
+### バグのサイズを変更する
 
 --- task ---
 
-コードに `大きさを･･･%にする`{:class="block3looks"}追加して、第2レベルのバグのサイズを設定します。
+第2レベルのためにバグの`大きさを･･･%にする`{:class="block3looks"}にコードを追加します：
 
-![バグのスプライト。](images/bug-sprite.png)
+![虫のスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v] // 背景を選ぶ
@@ -48,11 +50,13 @@ set size to [20] % // 違うサイズも試してみる
 
 --- /task ---
 
+### バグを隠す
+
 --- task ---
 
 ステージ上のバグをこのレベルの適切な隠れ場所にドラッグします。
 
-![背景の真ん中にあるショーウィンドウに隠されたバグ。](images/hidden-urban-backdrop.png)
+![背景の真ん中にあるショーウィンドウに隠れている虫。](images/hidden-urban-backdrop.png)
 
 --- /task ---
 
@@ -60,9 +64,9 @@ set size to [20] % // 違うサイズも試してみる
 
 --- task ---
 
-`x座標を〇〇、y座標を〇〇にする`{:class="block3motion"} ブロックを追加します。:
+コードに `go to x: y:`{:class="block3motion"} ブロックを追加します：
 
-![バグのスプライト。](images/bug-sprite.png)
+![虫のスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Urban v]
@@ -72,36 +76,36 @@ set size to [20] % // 違うサイズも試してみる
 
 --- /task ---
 
+### コードをテストする
+
 --- task ---
 
 ブロックを`このスプライトが押されたとき`{:class="block3events"}ブロックに戻し、バグがクリックされたときに背景が `次の背景`{:class="block3looks"}に切り替わるようにします。
 
-![](images/fixed-script.png)
+![ブロックが再び結合される。](images/fixed-script.png)
 
 --- /task ---
 
 --- task ---
 
-**テスト:** 緑色のフラグをクリックして、プロジェクトをテストします。
+**テスト:** 緑の旗をクリックして、プロジェクトをテストします。
 
 --- /task ---
 
-あなたのバグはオウムより手前に見えるかもしれません。
+バグがオウムより手前に見えるかもしれません。
 
 --- task ---
 
-スクリプトを追加して、バグが常に `最背面`{:class="block3looks"}にあるようにします:
+スクリプトを追加して、バグが常に`最背面`{:class="block3looks"}にあるようにします。
 
-![バグのスプライト。](images/bug-sprite.png)
+![虫のスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when flag clicked
 forever
-go to [back v] layer
+go to [最背面 v] layer
 ```
 
 これで、バグの位置を変更する必要がある場合でも、バグは常に背面に留まります。
 
 --- /task ---
-
---- save ---

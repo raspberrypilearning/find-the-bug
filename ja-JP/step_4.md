@@ -11,13 +11,17 @@
 </div>
 </div>
 
+### オウムのスプライトを追加する
+
 --- task ---
 
-**Parrot** スプライトを追加します。
+**オウム** スプライトを追加します。
 
 ![「スプライトを選ぶ」アイコン。](images/sprite-button.png)
 
 --- /task ---
+
+### オウムスプライトをアニメーション化する
 
 [バスに乗る](https://projects.raspberrypi.org/ja-JP/projects/catch-the-bus){:target="_blank"}プロジェクトでは、 `繰り返す`{:class="block3control"}ループを使用しました。
 
@@ -25,20 +29,20 @@
 
 --- task ---
 
-コードを追加して、オウムを気が散るような方法で羽ばたかせます。
+コードを追加して、気を散らかせるようにオウムを飛び回らせます。 コードブロックのコメントを見て、他の数値を試してみてください。
 
 ![Parrotのスプライト。](images/parrot-sprite.png)
 
 
 ```blocks3
 when flag clicked
-set rotation style [left-right v] // 上下がひっくり返らないように
+set rotation style [左右のみ v] // 上下がひっくり返らないように
 point in direction [35] // -180から180の間の数字
 forever // 邪魔をさせ続ける
 move [10] steps // 数字によってスピードが変わる
 if on edge, bounce // ステージに居続ける
 next costume // コスチュームを変える
-change [color v] effect by [5] // 11と50も試してみる
+change [色 v] effect by [5] // 11と50も試してみる
 wait [0.25] seconds // 0.1と0.5も試してみる
 end
 ```
@@ -47,7 +51,7 @@ end
 
 --- task ---
 
-**テスト:** 緑色のフラグをクリックして、プロジェクトをまたテストします。 バグを隠した場所を覚えていますか？
+**テスト:** 緑の旗をクリックして、もう一度プロジェクトをテストします。 バグを隠した場所を覚えていますか？
 
 Scratchでは、実行中のコードが黄色のアウトラインで光ります。
 
@@ -57,4 +61,3 @@ Scratchでは、実行中のコードが黄色のアウトラインで光りま�
 
 --- /task ---
 
---- save ---
