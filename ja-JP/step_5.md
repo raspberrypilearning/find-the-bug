@@ -64,7 +64,7 @@ set size to [20] % // 違うサイズも試してみる
 
 --- task ---
 
-コードに `go to x: y:`{:class="block3motion"} ブロックを追加します：
+コードに `x座標を ()、y座標を () にする`{:class="block3motion"} ブロックを追加します：
 
 ![虫のスプライト。](images/bug-sprite.png)
 
