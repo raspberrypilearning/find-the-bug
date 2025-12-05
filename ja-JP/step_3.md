@@ -11,6 +11,8 @@
 </div>
 </div>
 
+### 別の背景を追加する
+
 --- task ---
 
 **Spotlight** (スポットライト) の背景を **音楽** カテゴリから追加します。
@@ -19,11 +21,13 @@
 
 --- /task ---
 
+### バグのサイズを変更する
+
 --- task ---
 
-スプライトリストにある **バグ** スプライトをクリックします。 `背景がSpotlightに切り替わった時`{:class="block3events"}、バグの`大きさ`{:class="block3looks"}を変えるスクリプトを追加します:
+スプライトリストにある **バグ** スプライトをクリックします。 `背景がSpotlightに切り替わった時`{:class="block3eventsを"}、バグの`大きさ`{:class="block3looks"}を変えるスクリプトを追加します:
 
-![バグのスプライト。](images/bug-sprite.png)
+![虫のスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
@@ -38,7 +42,7 @@ set size to [20] % // 小さく
 
 バグを配置するコードを追加します。
 
-![バグのスプライト。](images/bug-sprite.png)
+![虫のスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [Spotlight v]
@@ -50,6 +54,8 @@ set size to [20] % // 小さく
 
 --- /task ---
 
+### 次の背景に移動する
+
 ゲームをプレイしてバグを見つけると、ゲームは次の背景に切り替わります。 また、ゲームを開始するには、「スタート」画面でバグをクリックします。
 
 `次の背景にする`{:class="block3looks"} ブロックは**ステージ**の**背景**タブをクリックしたときに並んでいる順序で次の背景に切り替えます。
@@ -58,7 +64,7 @@ set size to [20] % // 小さく
 
 `このスプライトが押されたとき`{:class="block3events"}に`Popの音を鳴らして`{:class="block3sound"}`次の背景にする`{:class="block3looks"}スクリプトを**バグ** スプライトに追加します:
 
-![バグのスプライト。](images/bug-sprite.png)
+![虫のスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -68,11 +74,11 @@ next backdrop
 
 --- /task ---
 
-プロジェクトは「スタート」画面から始まるようにする必要があります。
+### スタート画面でゲームが始まるようにする
 
 --- task ---
 
-ステージペインをクリックして、このコードを **ステージ**追加します。
+ステージペインをクリックして、このコードを**ステージ**に追加します。
 
 ![Spotlight の背景。](images/stage-image.png)
 
@@ -85,9 +91,9 @@ switch backdrop to [スタート v] // 「スタート」 画面にする
 
 --- task ---
 
-**テスト:** 緑色のフラグをクリックして、プロジェクトをテストします。
+**テスト:** 緑の旗をクリックして、プロジェクトをテストします。
 
-「スタート」画面では、第1レベル(この例では、ミラーボール) の隠れ場所に隠れる設定がバグに残っていることがわかります。
+「スタート」画面では、第1レベル（この例では、ミラーボール）の隠れ場所に隠れる設定がバグに残っていることがわかります。
 
 **ヒント:** リストの最後の背景の後、 `次の背景`{:class="block3looks"}で最初の背景に戻ります。
 
@@ -95,9 +101,9 @@ switch backdrop to [スタート v] // 「スタート」 画面にする
 
 --- task ---
 
-スプライトリストにある **バグ** スプライトをクリックします。 `背景が`{:class="block3events"}`スタート`{:class="block3events"}`になったとき`{:class="block3events"}にバグの`大きさを設定する`{:class="block3looks"}スクリプトを追加します:
+スプライトリストにある **バグ** のスプライトをクリックします。 `背景が`{:class="block3events"}`スタート`{:class="block3events"}画面`になったとき`{:class="block3events"}にバグの`大きさを設定する`{:class="block3looks"}スクリプトを追加します：
 
-![バグのスプライト。](images/bug-sprite.png)
+![虫のスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [スタート v]
@@ -106,15 +112,17 @@ set size to [100] % // フルサイズ
 
 --- /task ---
 
+### バグの位置を変更する
+
 --- task ---
 
-「スタート」画面にバグを配置してみてください。
+バグを「スタート」画面に配置してみてください。
 
 バグをクリックすると、コードによって背景が切り替わってしまいます。 バグを配置しようとしているとき、これは不便です。
 
---- /task ---
-
 この問題を修正するには、バグをクリックしたときにコードが実行されるのを止める必要があります。
+
+--- /task ---
 
 --- task ---
 
@@ -130,11 +138,11 @@ set size to [100] % // フルサイズ
 
 バグをもう一度配置してみてください。 バグを黒板のテキストの下にドラッグします。
 
-![](images/bug-chalkboard.png)
+![スタート画面の虫](images/bug-chalkboard.png)
 
-`背景が`{:class="block3events"} `スタート`{:class="block3events"}画面`になるたびに`{:class="block3events"}、バグが必ず黒板に配置されるコードを追加します。
+`背景が`{:class="block3events"} `スタート`{:class="block3events"}画面に<0>変わるたび</0>{:class="block3events"}、バグが必ず黒板に配置されるようなコードを追加します：
 
-![バグのスプライト。](images/bug-sprite.png)
+![虫のスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [スタート v]
@@ -146,7 +154,7 @@ set size to [100] % // フルサイズ
 
 --- task ---
 
-コードブロックがもう一度`このスプライトが押されたとき`{:class="block3events"}ブロックの下にになるように、引き離したブロックをくっつけます。
+コードブロックがもう一度`このスプライトが押されたとき`{:class="block3events"}ブロックの下になるように、引き離したブロックをくっつけます。
 
 !['音を鳴らす'ブロックと '次の背景にする'ブロックに結合された'このスプライトが押されたとき'ブロック。](images/fixed-script.png)
 
@@ -154,7 +162,7 @@ set size to [100] % // フルサイズ
 
 --- task ---
 
-**テスト:** 緑色のフラグをクリックして、プロジェクトをテストします。 バグをクリックして、次の背景に移動します。 バグは「スタート」画面では大きく、「Spotlight」レベルでは小さいはずです。
+**テスト:** 緑の旗をクリックして、プロジェクトをテストします。 バグをクリックして、次の背景に移動します。 バグは「スタート」画面では大きく、「Spotlight」レベルでは小さいはずです。
 
 --- collapse ---
 ---
@@ -166,5 +174,3 @@ title: バグをクリックしても何も起こりません
 --- /collapse ---
 
 --- /task ---
-
---- save ---

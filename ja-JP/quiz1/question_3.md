@@ -1,11 +1,11 @@
 --- question ---
 ---
-legend: 質問3/3
+legend: 問題3/3
 ---
 
-このスクリプトを**バグ** スプライトに追加しました。
+このスクリプトを**虫** スプライトに追加しました。
 
-![バグのスプライト。](images/bug-sprite.png)
+![虫のスプライト。](images/bug-sprite.png)
 
 ```blocks3
 when backdrop switches to [終了 v]
@@ -38,7 +38,7 @@ go to x: [0] y: [30]
 
   --- feedback ---
 
-そうです。 `タイマー`{:class="block3sensing"}ブロックは、プロジェクトが開始されてから、またはタイマーがリセットされてからの時間を報告します。
+そうです。 `タイマー`{:class="block3sensing"}ブロックは、プロジェクトが開始されてから、またはタイマーがリセットされてからの時間を報告します。 `〇〇と言う`{:class="block3looks"}ブロックは、虫の隣に吹き出しを作ります。
 
   --- /feedback ---
 

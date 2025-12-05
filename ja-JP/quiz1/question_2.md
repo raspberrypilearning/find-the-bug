@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: 質問2/3
+legend: 問題2/3
 ---
 
 あなたは `ずっと`{:class="block3control"}ループを使って **Parrot** (オウム)スプライトが迷惑な方法で飛び回るようにしました。
@@ -11,12 +11,12 @@ legend: 質問2/3
 
 ```blocks3
 when flag clicked
-set rotation style [all around v] 
+set rotation style [自由に回転 v] 
 move [6] steps 
 forever 
 if on edge, bounce 
 next costume 
-change [color v] effect by [25] 
+change [色 v] effect by [25] 
 wait [0.5] seconds 
 end
 ```
