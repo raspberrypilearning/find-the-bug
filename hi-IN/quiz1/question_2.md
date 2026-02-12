@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: तीन में से दूसरा प्रश्न
+legend: Question 2 of 3
 ---
 
 आपने **Parrot** स्प्राइट को चारों ओर परेशान करने के तरीके से उड़ने के लिए `forever`{:class="block3control"} लूप का उपयोग किया।
