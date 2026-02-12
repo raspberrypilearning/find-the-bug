@@ -72,7 +72,7 @@ end
 
 --- collapse ---
 ---
-title: 完成したプロジェクト
+title: Completed project
 ---
 
 [完成したプロジェクトはこちら](https://scratch.mit.edu/projects/486719939/){:target="_blank"}で確認できます。
