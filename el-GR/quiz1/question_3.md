@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Ερώτηση 3 από 3
+legend: Question 3 of 3
 ---
 
 Πρόσθεσες αυτό το script στο αντικείμενο **έντομο**:
