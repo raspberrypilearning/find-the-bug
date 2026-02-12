@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Pytanie 2 z 3
+legend: Question 2 of 3
 ---
 
 Użyłaś/użyłeś pętli `zawsze`{:class="block3control"}, aby duszek **Parrot** latał w irytujący sposób.
