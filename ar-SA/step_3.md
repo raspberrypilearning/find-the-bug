@@ -166,7 +166,7 @@ set size to [100] % // full-sized
 
 --- collapse ---
 ---
-العنوان: لا شيء يحدث عندما أنقر على الحشرة
+title: Nothing happens when I click on the bug
 ---
 
 هل نسيت ضم البرنامَج مرة أخرى إلى وحدة `عند نقر هذا الكائن`{:class="block3events"}؟
