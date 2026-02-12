@@ -72,7 +72,7 @@ end
 
 --- collapse ---
 ---
-כותרת: פרויקט שהושלם
+title: Completed project
 ---
 
 ניתן לצפות בפרויקט שהושלם [כאן](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
