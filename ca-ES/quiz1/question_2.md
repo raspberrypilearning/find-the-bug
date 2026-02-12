@@ -1,6 +1,6 @@
 --- question ---
 ---
-llegenda: Pregunta 2 de 3
+legend: Question 2 of 3
 ---
 
 Has fet servir un bucle `per sempre`{:class="block3control"} per fer que el personatge **Parrot** volés d'una manera molesta.
