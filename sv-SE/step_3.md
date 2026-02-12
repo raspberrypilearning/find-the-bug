@@ -166,7 +166,7 @@ Sätt ihop blocken igen så att koden är under `när denna sprajt klickas på`{
 
 --- collapse ---
 ---
-title: Inget händer när jag klickar på insekten
+title: Nothing happens when I click on the bug
 ---
 
 Har du glömt att koppla tillbaka koden till `när denna sprajt klickas på`{:class="block3events"}-blocket?
