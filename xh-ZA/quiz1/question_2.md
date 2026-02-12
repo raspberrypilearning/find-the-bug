@@ -1,6 +1,6 @@
 --- question ---
 ---
-Ilivo: Umbuzo 2 kwemi 3
+legend: Question 2 of 3
 ---
 
 Usebenzise iluphu `naphakade`{:class="block3control"} ukuze wenze isprite **Isikhwenene** sibhabhe ngendlela edikayo.
