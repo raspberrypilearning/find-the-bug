@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Pergunta 3 de 3
+legend: Question 3 of 3
 ---
 
 Você adicionou esse script ao ator**inseto**:
