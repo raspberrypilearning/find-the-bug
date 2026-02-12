@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Frage 2 von 3
+legend: Question 2 of 3
 ---
 
 Du hast eine `wiederhole fortlaufend`{:class="block3control"}-Schleife verwendet, um die Figur **Papagei** auf lästige Weise herumfliegen zu lassen.
