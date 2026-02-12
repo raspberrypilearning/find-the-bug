@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Fråga 2 av 3
+legend: Question 2 of 3
 ---
 
 Du använde en `för alltid`{:class="block3control"}-loop för att få **papegoja**sprajten att flyga runt på ett irriterande sätt.
