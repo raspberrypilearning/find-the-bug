@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Domanda 2 di 3
+legend: Question 2 of 3
 ---
 
 Hai usato un ciclo `per sempre`{:class="block3control"} per far volare lo sprite **Parrot** in modo fastidioso.
