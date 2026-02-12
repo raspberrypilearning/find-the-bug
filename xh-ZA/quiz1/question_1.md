@@ -8,7 +8,7 @@ Yonwaba!
 
 --- question ---
 ---
-legend: Umbuzo 1 wesi-3
+legend: Question 1 of 3
 ---
 
 Kumdlalo wakho, wongeze le khowudi kwi **bug** yakho ukuya ngasemva qho xa icofa.
