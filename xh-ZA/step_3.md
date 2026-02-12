@@ -166,7 +166,7 @@ Dibanisa iiblokho zekhowudi ukuze zonke zibengaphantsi kuka `xa esisprite sicofi
 
 --- collapse ---
 ---
-isihloko: Akukho nto yenzekayo xa ndicofa igrogro
+title: Nothing happens when I click on the bug
 ---
 
 Ulibele ukudibanisa ikhowudi kwibhloko `xa le sprite icofa`{:class="block3events"}?
