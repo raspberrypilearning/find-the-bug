@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Question 3 sur 3
+legend: Question 3 of 3
 ---
 
 Tu as ajouté ce script au sprite **bug** :
