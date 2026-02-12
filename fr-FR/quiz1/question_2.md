@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Question 2 sur 3
+legend: Question 2 of 3
 ---
 
 Tu as utilisé une boucle `répéter indéfiniment`{:class="block3control"} pour faire voler le sprite **perroquet** d'une manière agaçante.
