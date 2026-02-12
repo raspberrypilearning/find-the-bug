@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Vraag 2 van 3
+legend: Question 2 of 3
 ---
 
 Je hebt een `herhaal`{:class="block3control"} lus gebruikt om de **Parrot** (papegaai) sprite op een vervelende manier rond te laten vliegen.
