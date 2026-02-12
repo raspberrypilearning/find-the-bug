@@ -166,7 +166,7 @@ set size to [100] % // full-sized
 
 --- collapse ---
 ---
-शीर्षक: मी बगवर क्लिक केल्यावर काहीही होत नाही
+title: Nothing happens when I click on the bug
 ---
 
 जेव्हा या स्प्राईटने</code>{:class="block3events"} ब्लॉकवर क्लिक केले तेव्हा तुम्ही कोडमध्ये परत मध्ये सामील व्हायला विसरलात का?</p>
