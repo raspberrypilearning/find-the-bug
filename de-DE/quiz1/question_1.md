@@ -8,7 +8,7 @@ Viel Spaß!
 
 --- question ---
 ---
-legend: Frage 1 von 3
+legend: Question 1 of 3
 ---
 
 In deinem Spiel hast du diesen Code zu deinem **Bug** hinzugefügt, um bei jedem Klick die Hintergrundbühne zu wechseln.
