@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: 問題3/3
+legend: Question 3 of 3
 ---
 
 このスクリプトを**虫** スプライトに追加しました。
