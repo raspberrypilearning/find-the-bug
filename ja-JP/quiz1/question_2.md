@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: 問題2/3
+legend: Question 2 of 3
 ---
 
 あなたは `ずっと`{:class="block3control"}ループを使って **Parrot** (オウム)スプライトが迷惑な方法で飛び回るようにしました。
