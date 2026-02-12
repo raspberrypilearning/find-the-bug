@@ -166,7 +166,7 @@ Unisci nuovamente i blocchi in modo che i blocchi di codice siano sotto al blocc
 
 --- collapse ---
 ---
-title: Non succede nulla quando clicco sull'insetto
+title: Nothing happens when I click on the bug
 ---
 
 Hai dimenticato di unire nuovamente il codice blocco `quando si clicca su questo sprite`{:class="block3events"}?
