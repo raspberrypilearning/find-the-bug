@@ -1,6 +1,6 @@
 --- question ---
 ---
-llegenda: Pregunta 3 de 3
+legend: Question 3 of 3
 ---
 
 Heu afegit aquesta llista d'accions al personatge **bug** :
