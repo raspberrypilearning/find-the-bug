@@ -166,7 +166,7 @@ set size to [100] % // full-sized
 
 --- collapse ---
 ---
-शीर्षक: जब मैं बग पर क्लिक करता हूँ तो कुछ नहीं होता है
+title: Nothing happens when I click on the bug
 ---
 
 क्या आप कोड को वापस `when this sprite clicked`{:class="block3events"} ब्लॉक से जोड़ना भूल गए हैं?
