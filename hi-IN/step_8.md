@@ -72,7 +72,7 @@ end
 
 --- collapse ---
 ---
-title: पूर्ण परियोजना
+title: Completed project
 ---
 
 आप [ पूर्ण प्रोजेक्ट यहां से प्राप्त कर सकते हैं ](https://scratch.mit.edu/projects/486719939/) {: target = "_ blank"}.
