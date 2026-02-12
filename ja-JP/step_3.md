@@ -166,7 +166,7 @@ set size to [100] % // full-sized
 
 --- collapse ---
 ---
-title: バグをクリックしても何も起こりません
+title: Nothing happens when I click on the bug
 ---
 
 `このスプライトが押されたとき`{:class="block3events"}ブロックにコードブロックをつなぎ戻すのを忘れてしまいましたか？
