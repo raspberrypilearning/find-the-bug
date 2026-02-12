@@ -166,7 +166,7 @@ Połącz bloki z powrotem, tak aby bloki kodu ponownie znajdowały się poniżej
 
 --- collapse ---
 ---
-title: Nic się nie dzieje po kliknięciu robaka
+title: Nothing happens when I click on the bug
 ---
 
 Czy bloki kodu zostały ponownie połączone z blokiem `kiedy ten duszek kliknięty`{:class="block3events"}?
