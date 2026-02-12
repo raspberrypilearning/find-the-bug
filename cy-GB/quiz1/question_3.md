@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Cwestiwn 3 o 3
+legend: Question 3 of 3
 ---
 
 Fe wnes di ychwanegu'r sgript hon at y corlun **chwilen**:
