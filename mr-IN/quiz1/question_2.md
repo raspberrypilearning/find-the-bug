@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: प्रश्न 3 पैकी 2
+legend: Question 2 of 3
 ---
 
 तुम्ही `forever`{:class="block3control"} लूप वापरून **Parrot** स्प्राइटला त्रासदायक मार्गाने उड्डाण केले.
