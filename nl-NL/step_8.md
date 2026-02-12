@@ -72,7 +72,7 @@ end
 
 --- collapse ---
 ---
-title: Voltooid project
+title: Completed project
 ---
 
 Je kan het [voltooid project hier](https://scratch.mit.edu/projects/486719939/){:target="_blank"} bekijken.
