@@ -8,7 +8,7 @@ Miłej zabawy!
 
 --- question ---
 ---
-legend: Pytanie 1 z 3
+legend: Question 1 of 3
 ---
 
 Do swojej gry dodałaś/dodałeś ten kod do **robaka** aby tło zmieniało się za każdym razem, gdy robak został kliknięty.
