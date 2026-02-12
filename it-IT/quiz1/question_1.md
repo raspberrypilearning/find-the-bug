@@ -8,7 +8,7 @@ Divertiti!
 
 --- question ---
 ---
-legend: Domanda 1 di 3
+legend: Question 1 of 3
 ---
 
 Nel tuo gioco, hai aggiunto questo codice al tuo **bug** per muoverti attraverso gli sfondi ogni volta che viene cliccato.
