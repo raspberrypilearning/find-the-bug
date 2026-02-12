@@ -8,7 +8,7 @@ Divirta-se!
 
 --- question ---
 ---
-legend: Pergunta 1 de 3
+legend: Question 1 of 3
 ---
 
 Em seu jogo, você adicionou esse código ao seu **inseto** para percorrer pelos cenários cada vez que ele for clicado.
