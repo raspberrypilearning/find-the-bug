@@ -166,7 +166,7 @@ Füge die Blöcke wieder zusammen, sodass die Codeblöcke erneut unter dem Block
 
 --- collapse ---
 ---
-title: Es passiert nichts, wenn ich auf den Bug klicke
+title: Nothing happens when I click on the bug
 ---
 
 Hast du vergessen, den Code wieder mit dem Block `wenn diese Figur angeklickt wird`{:class="block3events"} zu verbinden?
