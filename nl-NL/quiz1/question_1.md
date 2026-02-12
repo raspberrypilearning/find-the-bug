@@ -8,7 +8,7 @@ Veel plezier!
 
 --- question ---
 ---
-legend: Vraag 1 van 3
+legend: Question 1 of 3
 ---
 
 In je game heb je deze code toegevoegd aan je **kever** om door de achtergronden te bewegen telkens wanneer erop wordt geklikt.
