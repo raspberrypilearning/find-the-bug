@@ -8,7 +8,7 @@ Cuando hayas respondido a cada pregunta, haz clic en **Revisar mi respuesta**.
 
 --- question ---
 ---
-legend: Pregunta 1 de 3
+legend: Question 1 of 3
 ---
 
 En tu juego, agregaste este código a tu **insecto** para moverte por los fondos cada vez que se hacía clic en él.
