@@ -72,7 +72,7 @@ end
 
 --- collapse ---
 ---
-ಶೀರ್ಷಿಕೆ: ಪೂರ್ಣಗೊಂಡ ಯೋಜನೆ
+title: Completed project
 ---
 
 ನೀವು [ಪೂರ್ಣಗೊಂಡ ಯೋಜನೆಯನ್ನು ಇಲ್ಲಿ ವೀಕ್ಷಿಸಬಹುದು](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
