@@ -166,7 +166,7 @@ set size to [100] % // full-sized
 
 --- collapse ---
 ---
-כותרת: שום דבר לא קורה כשאני לוחץ על הבאג
+title: Nothing happens when I click on the bug
 ---
 
 האם שכחת לחבר את הקוד בחזרה לבלוק `כשהספרייט הזה לחץ על הבלוק`{:class="block3events"}?
