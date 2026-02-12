@@ -166,7 +166,7 @@ set size to [100] % // full-sized
 
 --- collapse ---
 ---
-title: Коли я натискаю на жучка, нічого не відбувається
+title: Nothing happens when I click on the bug
 ---
 
 Ти забув приєднати код назад до блоку `коли спрайт натиснуто`{:class="block3events"}?
