@@ -8,7 +8,7 @@ Ha det så kul!
 
 --- question ---
 ---
-legend: Fråga 1 av 3
+legend: Question 1 of 3
 ---
 
 Du lade till denna kod till **insekten** för att få den att röra sig genom bakgrunderna varje gång den klickades.
