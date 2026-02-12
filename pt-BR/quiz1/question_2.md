@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Pergunta 2 de 3
+legend: Question 2 of 3
 ---
 
 Você usou um loop`infinito `{:class="block3control"} para fazer a **Arara** voar de forma irritante sem rumo.
