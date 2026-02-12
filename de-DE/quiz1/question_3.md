@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Frage 3 von 3
+legend: Question 3 of 3
 ---
 
 Du hast dieses Skript zur **Bug**Figur hinzugefügt:
