@@ -166,7 +166,7 @@ Voeg de blokken weer bij elkaar zodat de codeblokken weer onder het `wanneer op 
 
 --- collapse ---
 ---
-title: Er gebeurt niets als ik op de kever klik
+title: Nothing happens when I click on the bug
 ---
 
 Ben je vergeten de code terug te plaatsen onder het `wanneer op deze sprite wordt geklikt`{:class="block3events"} blok?
