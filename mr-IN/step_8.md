@@ -73,7 +73,7 @@ end
 --- collapse ---
 
   ---
-शीर्षक: प्रकल्प पूर्ण झाला
+title: Completed project
 ---
 
 तुम्ही</a>{:target="_blank"} येथे
