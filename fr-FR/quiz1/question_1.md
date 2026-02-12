@@ -8,7 +8,7 @@ Amuse-toi bien !
 
 --- question ---
 ---
-legend: Question 1 sur 3
+legend: Question 1 of 3
 ---
 
 Dans ton jeu, tu as ajouté ce code à ton **bug** pour te déplacer dans les arrières-plans à chaque clique.
