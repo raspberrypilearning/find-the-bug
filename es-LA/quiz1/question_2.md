@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Pregunta 2 de 3
+legend: Question 2 of 3
 ---
 
 Usaste un bucle `por siempre`{:class="block3control"} para hacer que el objeto **Parrot** vuele de una manera molesta.
