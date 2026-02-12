@@ -8,7 +8,7 @@ Diverteix-te!
 
 --- question ---
 ---
-llegenda: Pregunta 1 de 3
+legend: Question 1 of 3
 ---
 
 Al vostre joc, heu afegit aquest codi al vostre **bitxo** per moure's pels fons cada vegada que es feia clic.
