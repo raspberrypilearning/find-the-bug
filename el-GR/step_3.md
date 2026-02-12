@@ -166,7 +166,7 @@ set size to [100] % // full-sized
 
 --- collapse ---
 ---
-title: Δεν συμβαίνει τίποτα όταν κάνω κλικ στο έντομο
+title: Nothing happens when I click on the bug
 ---
 
 Ξέχασες να ενώσεις τον κώδικα στο μπλοκ `όταν γίνει κλικ σε αυτό το αντικείμενο`{:class="block3events"};
