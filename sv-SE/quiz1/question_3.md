@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Fråga 3 av 3
+legend: Question 3 of 3
 ---
 
 Du lade till den här koden till **insekts**sprajten:
