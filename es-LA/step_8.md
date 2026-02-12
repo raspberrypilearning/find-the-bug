@@ -72,7 +72,7 @@ end
 
 --- collapse ---
 ---
-title: Proyecto terminado
+title: Completed project
 ---
 
 Puedes ver el [proyecto terminado aquí](https://scratch.mit.edu/projects/486719939/){:target="_blank"}.
