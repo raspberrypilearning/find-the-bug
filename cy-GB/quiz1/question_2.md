@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Cwestiwn 2 o 3
+legend: Question 2 of 3
 ---
 
 Wnes di ddefnyddio dolen `am byth`{:class="block3control"} i wneud i'r corlun **Parot** hedfan o gwmpas mewn ffordd annifyr.
