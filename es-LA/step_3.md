@@ -166,7 +166,7 @@ Vuelve a unir los bloques para que los de código estén debajo del bloque `al h
 
 --- collapse ---
 ---
-title: No pasa nada cuando hago clic en el insecto
+title: Nothing happens when I click on the bug
 ---
 
 ¿Olvidaste volver a unir el código al bloque `al hacer clic en este objeto`{:class="block3events"}?
