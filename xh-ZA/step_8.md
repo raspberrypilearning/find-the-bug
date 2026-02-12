@@ -72,7 +72,7 @@ end
 
 --- collapse ---
 ---
-isihloko: Iprojekthi egqityiweyo
+title: Completed project
 ---
 
 Ungajonga [egqityiweyo iprojekthi apha](https://scratch.mit.edu/projects/486719939/){:tharget="_blank"}.
