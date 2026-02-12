@@ -166,7 +166,7 @@ Join the blocks back together so that the code blocks are under the `when this s
 
 --- collapse ---
 ---
-title: Does dim byd yn digwydd pan dw i'n clicio ar y chwilen
+title: Nothing happens when I click on the bug
 ---
 
 Did you forget to join the code back to the `when this sprite clicked`{:class="block3events"} block?
