@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Vraag 3 van 3
+legend: Question 3 of 3
 ---
 
 Je hebt dit script aan de **kever** sprite toegevoegd:
