@@ -166,7 +166,7 @@ Junte os blocos novamente de forma que os blocos estejam debaixo do bloco `quand
 
 --- collapse ---
 ---
-title: Nada acontece quando eu clico no bug
+title: Nothing happens when I click on the bug
 ---
 
 Você esqueceu de juntar o código no bloco `quando este ator for clicado`{:class="block3events"}?
