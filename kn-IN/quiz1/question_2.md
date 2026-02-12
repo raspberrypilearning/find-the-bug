@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: ಪ್ರಶ್ನೆ 3 ರಲ್ಲಿ 2
+legend: Question 2 of 3
 ---
 
 ನೀವು **Parrot** ಸ್ಪ್ರೈಟ್ ಅನ್ನು ಕಿರಿಕಿರಿ ಉಂಟುಮಾಡುವ ರೀತಿಯಲ್ಲಿ ಹಾರುವಂತೆ ಮಾಡಲು `forever`{:class="block3control"} ಲೂಪ್ ಉಪಯೋಗ ಮಾಡಿದ್ದೀರಿ.
