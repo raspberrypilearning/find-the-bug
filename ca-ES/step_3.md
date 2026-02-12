@@ -166,7 +166,7 @@ Torna a unir els blocs de manera que els blocs de codi estiguin sota el bloc `qu
 
 --- collapse ---
 ---
-title: No passa res quan faig clic al bitxo
+title: Nothing happens when I click on the bug
 ---
 
 T'has oblidat de tornar a unir el codi al bloc `quan es cliqui aquest personatge`{:class="block3events"}?
