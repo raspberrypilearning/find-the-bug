@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Ubuzo wesi- 3 kwemi- 3
+legend: Question 3 of 3
 ---
 
 Wongeze umbalo okanye kwisprite **grogro<0/></p>
